@@ -439,19 +439,22 @@
         <tests>
           <test input="Montre-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/gppqYL42NRQ&amp;t=393s\" outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;b1f5a9fc-0e2e-4f3a-9cf4-469309ccace5&quot; /&gt;"/>
         </tests>
-        <description>C&apos;est la vie de Maximilien Kolbe.&#10;Maximilien Kolbe a travaillé au Japon.&#10; </description>
+        <description>C&apos;est la vie de Saint Maximilien Kolbe.&#10;Saint Maximilien Kolbe a travaillé au Japon.&#10; </description>
         <url>https://www.youtube.com/v/gppqYL42NRQ&amp;t=393s</url>
       </video>
       <video name="prédication - Père René Luc" id="62164d1e-5391-498f-a6f6-2e57d114b138">
         <tests>
-          <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/fX80yAbcFpA\" outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;62164d1e-5391-498f-a6f6-2e57d114b138&quot; /&gt;"/>
+          <test input="Qui est Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe est \hc_resource_video=#fr_FR#https://www.youtube.com/v/fX80yAbcFpA\" outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;62164d1e-5391-498f-a6f6-2e57d114b138&quot; /&gt;"/>
         </tests>
-        <description>C&apos;est Maximilien Kolbe.</description>
+        <description>C&apos;est Saint Maximilien Kolbe.</description>
         <url>https://www.youtube.com/v/fX80yAbcFpA</url>
       </video>
     </topic>
     <topic name="Sainte Faustine" id="a805a925-ec25-4021-981c-ad7cf318c635">
       <video name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="d691f93c-44c8-4f63-b3c2-2bd738ca132f">
+        <tests>
+          <test input="qui est sainte faustine" output="Sainte Faustine est \hc_resource_video=#fr_FR#https://www.youtube.com/v/mkCY34n6H2I\" outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;d691f93c-44c8-4f63-b3c2-2bd738ca132f&quot; /&gt;"/>
+        </tests>
         <description>C&apos;est la vie de Sainte Faustine.&#10;C&apos;est Sainte Faustine.</description>
         <url>https://www.youtube.com/v/mkCY34n6H2I</url>
       </video>
