@@ -14,6 +14,10 @@
       <api name="Psaume" id="5c2beb55-e314-4d05-80cf-6f6c617e75a3">
         <apiId>psalm</apiId>
       </api>
+      <information name="Suggérer de lire l&apos;évangile" id="678502f1-eea8-4e2c-ba3f-949f0a035dcb">
+        <description>Est-ce que tu veux lire l&apos;évangile du jour ?</description>
+        <answeredQuestions>Je connais l&apos;Eglise Catholique.</answeredQuestions>
+      </information>
     </topic>
     <topic name="Présentation" id="3794b86a-f580-4a2c-8d91-86b119f549f7">
       <video name="AELF" id="37a94095-3cd9-4419-acc9-357ff0ca7503">
@@ -241,11 +245,25 @@
   </category>
   <category name="Eglise" id="016bb79a-f435-4a10-8cde-7eed889cd2a7">
     <topic name="Eglise" id="fefce811-0ee0-416d-b9b6-78779d2f8ec7">
+      <information name="Je ne connais pas l&apos;Eglise Catholique." id="42e06c9d-e594-4dba-b034-c1724dd57e9b">
+        <description>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</description>
+        <answeredQuestions>Je ne connais pas l&apos;Eglise Catholique.</answeredQuestions>
+      </information>
       <video name="Qu&apos;est-ce que c&apos;est l&apos;Église ?" id="6559959e-27f0-4d3b-bf49-b08f52a0dfe1">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est l&apos;Église ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/d_f3AHFeeYs\" outputReferences="Source : &lt;hc_source name=&quot;Eglise&quot; resourceid=&quot;6559959e-27f0-4d3b-bf49-b08f52a0dfe1&quot; /&gt;"/>
         </tests>
         <description>C&apos;est l&apos;Église.</description>
+        <references>
+          <bible book="1 Pet" chapter="2" verseBegin="9"/>
+          <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
+          <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
+          <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
+          <bible book="Col" chapter="1" verseBegin="18"/>
+          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+          <ccc verseBegin="748" verseEnd="810"/>
+        </references>
+        <answeredQuestions>Je veux voir une vidéo qui décrit l&apos;Eglise.</answeredQuestions>
         <url>https://www.youtube.com/v/d_f3AHFeeYs</url>
       </video>
       <video name="Quelles sont les caractéristiques de l&apos;Église ?" id="aece1c32-d98e-4f5c-b088-ae26fad7f9ff">
@@ -756,10 +774,10 @@
       </information>
       <conversation_flow name="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !" id="f1930b23-c4bb-43bb-9c87-6dcf224cf099">
         <description>Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !</description>
-        <timeOffset>2</timeOffset>
+        <timeOffset>1</timeOffset>
       </conversation_flow>
       <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="ff4bfc77-593c-454e-b36c-73915cb87e33">
-        <description>Connais-tu déjà bien l&apos;Eglise Catholique ?</description>
+        <description>Connais-tu l&apos;Eglise Catholique ?</description>
         <timeOffset>3</timeOffset>
       </conversation_flow>
       <information name="Mon nom" id="ac37e00f-b531-4cd0-83fd-30a050050f8a">
