@@ -400,6 +400,10 @@
   </category>
   <category name="Church" id="159b9fe6-27b1-4437-a2ee-186e57c783bf">
     <topic name="Church" id="6e99730e-c308-411a-afff-60e3ab419b7c">
+      <information name="Suggest to know what is the Church" id="d8403dde-246a-49fd-8e11-048f96b4cb54">
+        <description>Do you want to see a video that describe the Church ?</description>
+        <answeredQuestions>I don&apos;t know the Catholic Church.</answeredQuestions>
+      </information>
       <video name="What are the four characteristics of the Church?" id="9dad4c71-6a1f-448e-8516-875040a84216">
         <tests>
           <test input="What are the characteristics of the Church?" output="The characteristics of the Church are \hc_resource_video=#en_US#https://www.youtube.com/v/xsnABmNxsLQ\" outputReferences="Source: &lt;hc_source name=&quot;Church&quot; resourceid=&quot;9dad4c71-6a1f-448e-8516-875040a84216&quot; /&gt;"/>
@@ -409,6 +413,16 @@
       </video>
       <video name="What is the Church?" id="365aa5bd-ceed-435a-ac0d-9ca091ec2465">
         <description>It&apos;s the Church.</description>
+        <references>
+          <bible book="1 Pet" chapter="2" verseBegin="9"/>
+          <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
+          <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
+          <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
+          <bible book="Col" chapter="1" verseBegin="18"/>
+          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+          <ccc verseBegin="748" verseEnd="810"/>
+        </references>
+        <answeredQuestions>I want to see a video that describe the Church.</answeredQuestions>
         <url>https://www.youtube.com/v/hxN24-H8lTY</url>
       </video>
     </topic>
@@ -465,6 +479,10 @@
       <api name="Second Reading" id="4bdc54cb-32fa-4544-b4ab-08bd44f92ac9">
         <apiId>second_reading</apiId>
       </api>
+      <information name="Suggest to read the Holy Gospel" id="dd8cfe42-efb2-4a78-8e13-d71e83e1229e">
+        <description>Do you want to read the Holy Gospel of today ?</description>
+        <answeredQuestions>I know the Catholic Church.</answeredQuestions>
+      </information>
     </topic>
     <topic name="Saint" id="b4aec685-2844-49c4-873d-bb929bbbb512">
       <api name="Saint" id="22ff2135-294e-4084-8cd1-62c6306d34c7">
@@ -600,6 +618,10 @@
       </site>
     </topic>
     <topic name="Holy Chatter" id="0dd5fc96-9d46-47e1-a7ce-e4f6341141f0">
+      <conversation_flow name="Do you already know the Catholic Church?" id="d2834279-b743-4b7d-b9a3-b31ffafd479e">
+        <description>Do you already know the Catholic Church?</description>
+        <timeOffset>3</timeOffset>
+      </conversation_flow>
       <information name="Greeting" id="432d3d5f-1f6a-444b-9038-ebc8eb7ce271">
         <tests>
           <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Technology&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
@@ -607,6 +629,10 @@
         <description>hello</description>
         <answeredQuestions>hello</answeredQuestions>
       </information>
+      <conversation_flow name="Hello, welcome to Holy Chatter!" id="34e7d3e0-4add-4fbf-8186-f1d915803484">
+        <description>Hello, welcome to Holy Chatter!</description>
+        <timeOffset>1</timeOffset>
+      </conversation_flow>
       <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
         <tests>
           <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Technology&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
@@ -626,16 +652,23 @@
     <topic name="Other testimonies" id="6b86975e-1696-4c4c-8a63-ee157e6b28cf">
       <video name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="d01ccf6c-74aa-47e0-b956-61e5aea13de9">
         <description>It&apos;s a Christian testimony</description>
+        <answeredQuestions>I want to see a Christian testimony.</answeredQuestions>
         <url>https://www.youtube.com/v/zMyaKqtu0TE</url>
       </video>
       <video name="Confessions of a High Class Prostitute" id="0d257ffb-6df7-4f07-ab21-7eefc9f1eb40">
         <description>It&apos;s a Christian testimony.</description>
+        <answeredQuestions>I want to see a Christian testimony.</answeredQuestions>
         <url>https://www.youtube.com/v/EjlQdZBfkUw</url>
       </video>
       <video name="Francesca Battistelli - He Knows My Name (Official Video) " id="b84ebf04-2349-4ec2-8caf-809065ddd51d">
         <description>It&apos;s a Christian testimony.</description>
+        <answeredQuestions>I want to see a Christian testimony.</answeredQuestions>
         <url>https://www.youtube.com/v/jYpBgJHmGmw</url>
       </video>
+      <information name="Suggest to see a Christian testimony" id="9ba03c2e-1aed-4a84-96ed-19c9fa89733f">
+        <description>Do you want to see a Christian testimony?</description>
+        <answeredQuestions>I don&apos;t want to see a video that it describes the Church.</answeredQuestions>
+      </information>
     </topic>
   </category>
   <category name="Youcat" id="60bed65b-ebb0-466e-87ac-9febda00f79b" description="The YOUCAT Foundation is a work of new evangelization that contributes to the renewal of the Church worldwide with the charism of &quot;teaching&quot;.&#10;&#10;&quot;Teaching&quot; is not everything in the Church, but without authentic teaching everything is nothing. YOUCAT wants to make the contents of faith, as they are given in Holy Scripture and in the Catechism, shine anew.&#10;&#10;YOUCAT not only develops and publishes target group-oriented catechisms and exciting Bible editions; YOUCAT goes digital and inspires young Catholics in every way learning and exchange processes about the common faith." url="https://www.youcat.org">
