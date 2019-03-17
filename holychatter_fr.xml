@@ -14,10 +14,14 @@
       <api name="Psaume" id="5c2beb55-e314-4d05-80cf-6f6c617e75a3">
         <apiId>psalm</apiId>
       </api>
-      <information name="Suggérer de lire l&apos;évangile" id="678502f1-eea8-4e2c-ba3f-949f0a035dcb">
-        <description>Est-ce que tu veux lire l&apos;évangile du jour ?</description>
-        <answeredQuestions>Je connais bien l&apos;Eglise Catholique.</answeredQuestions>
-      </information>
+      <conversation_flow name="Suggérer de lire l&apos;évangile" id="3fa24cde-0e0c-4482-a14e-82c19fe6ed91">
+        <tests>
+          <test input="Je connais bien l&apos;Eglise Catholique." output="Veux-tu lire l&apos;évangile du jour ?"/>
+        </tests>
+        <description>Veux-tu lire l&apos;évangile du jour ?</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Je connais bien l&apos;Eglise Catholique.</triggers>
+      </conversation_flow>
     </topic>
     <topic name="Présentation" id="3794b86a-f580-4a2c-8d91-86b119f549f7">
       <video name="AELF" id="37a94095-3cd9-4419-acc9-357ff0ca7503">
@@ -245,10 +249,6 @@
   </category>
   <category name="Eglise" id="016bb79a-f435-4a10-8cde-7eed889cd2a7">
     <topic name="Eglise" id="fefce811-0ee0-416d-b9b6-78779d2f8ec7">
-      <information name="Je ne connais pas bien l&apos;Eglise Catholique." id="42e06c9d-e594-4dba-b034-c1724dd57e9b">
-        <description>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</description>
-        <answeredQuestions>Je ne connais pas bien l&apos;Eglise Catholique.</answeredQuestions>
-      </information>
       <video name="Qu&apos;est-ce que c&apos;est l&apos;Église ?" id="6559959e-27f0-4d3b-bf49-b08f52a0dfe1">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est l&apos;Église ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/d_f3AHFeeYs\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1P 2,9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,1-8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,11-14&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 19,7-9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,18&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,18-19&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;748-810&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise&quot; resourceid=&quot;6559959e-27f0-4d3b-bf49-b08f52a0dfe1&quot; /&gt;"/>
@@ -273,6 +273,14 @@
         <description>C&apos;est les caractéristiques de l&apos;Église</description>
         <url>https://www.youtube.com/v/9c_m1H1C_lk</url>
       </video>
+      <conversation_flow name="Suggestion pour voir une vidéo qui décrit l&apos;Eglise" id="7d3ba0f2-1f5d-4be8-b8c9-53c8fcf02cc3">
+        <tests>
+          <test input="Je ne connais pas bien l&apos;Eglise Catholique." output="Veux-tu voir une vidéo qui décrit l&apos;Eglise ?"/>
+        </tests>
+        <description>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
+      </conversation_flow>
     </topic>
     <topic name="Enseignements" id="545bfed0-4909-403b-9cd2-44cdbce52063">
       <information name="Le credo" id="9859bd25-2811-453c-80d5-d2b3fc9840a5">
@@ -297,20 +305,22 @@
       </video>
     </topic>
     <topic name="Réponses usuelles" id="9bd80fac-1d0b-48b9-82df-24e2d465c37c">
-      <information name="Christ est ressuscité !" id="8175ad47-a5a5-4a0d-9b4f-fed1b2d7a7e7">
+      <conversation_flow name="Christ est ressuscité !" id="7a3bc548-fac7-4d89-af59-171f2bec29ef">
         <tests>
-          <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !" outputReferences="Source : &lt;hc_source name=&quot;Eglise&quot; resourceid=&quot;8175ad47-a5a5-4a0d-9b4f-fed1b2d7a7e7&quot; /&gt;"/>
+          <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
         </tests>
-        <description>&quot;Il est vraiment ressuscité !&quot;</description>
-        <answeredQuestions>Christ est ressuscité !</answeredQuestions>
-      </information>
-      <information name="Que le Seigneur soit avec vous" id="13134557-65e4-43dd-90b6-df963a310787">
+        <description>Il est vraiment ressuscité !</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Christ est ressuscité !</triggers>
+      </conversation_flow>
+      <conversation_flow name="Que le Seigneur soit avec vous !" id="649ac1c7-6f1b-42b9-85ae-27ed483cee31">
         <tests>
-          <test input="Que le Seigneur soit avec vous !" output="Et avec votre Esprit" outputReferences="Source : &lt;hc_source name=&quot;Eglise&quot; resourceid=&quot;13134557-65e4-43dd-90b6-df963a310787&quot; /&gt;"/>
+          <test input="Que le Seigneur soit avec vous !" output="Et avec votre Esprit"/>
         </tests>
-        <description>&quot;Et avec votre Esprit&quot;</description>
-        <answeredQuestions>Que le Seigneur soit avec vous</answeredQuestions>
-      </information>
+        <description>Et avec votre Esprit</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Que le Seigneur soit avec vous !</triggers>
+      </conversation_flow>
     </topic>
   </category>
   <category name="Eglise catholique en France" id="c21c0025-8516-4439-a254-8d3060014a8c" description="Edité par la Service Information-Communication de la Conférence des évêques de France (CEF), le site eglise.catholique.fr est le portail officiel de l’Eglise catholique en France. Il donne accès à l’ensemble des sites de la CEF et des diocèses." url="https://eglise.catholique.fr">
@@ -319,7 +329,7 @@
         <tests>
           <test input="A quoi sert l’Eglise ?" output="L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme." outputReferences="Url : &lt;hc_site url=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;b7fe48fd-22f0-4a76-aa8f-9cd1dcd6e18c&quot; /&gt;"/>
         </tests>
-        <description>&quot;L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme.&quot;</description>
+        <description>L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme.</description>
         <references>
           <site book="https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/"/>
         </references>
@@ -443,8 +453,9 @@
       <information name="Qui est Marie" id="2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9">
         <tests>
           <test input="qui est Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes." outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9&quot; /&gt;"/>
+          <test input="qui est la mère de Jésus" output="Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes." outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9&quot; /&gt;"/>
         </tests>
-        <description>&quot;Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.&quot;</description>
+        <description>Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.</description>
         <answeredQuestions>Qui est Marie&#10;qui est la mère de Jésus</answeredQuestions>
       </information>
     </topic>
@@ -764,21 +775,18 @@
       </site>
     </topic>
     <topic name="Holy Chatter" id="7557d0ad-bb98-4a1e-a319-0613e625ed26">
-      <information name="Bonjour" id="f21b5a9d-db69-48f2-be56-479bc328c617">
+      <conversation_flow name="Bonjour" id="9736432a-a317-4c63-ab54-fcda6e7a0c95">
         <tests>
-          <test input="Bonjour" output="Bonjour" outputReferences="Source : &lt;hc_source name=&quot;Technologies&quot; resourceid=&quot;f21b5a9d-db69-48f2-be56-479bc328c617&quot; /&gt;"/>
-          <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Technologies&quot; resourceid=&quot;f21b5a9d-db69-48f2-be56-479bc328c617&quot; /&gt;"/>
+          <test input="Bonjour" output="Bonjour"/>
+          <test input="Hello" output="Bonjour"/>
         </tests>
         <description>Bonjour</description>
-        <answeredQuestions>Bonjour</answeredQuestions>
-      </information>
-      <conversation_flow name="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !" id="f1930b23-c4bb-43bb-9c87-6dcf224cf099">
-        <description>Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !</description>
         <timeOffset>1</timeOffset>
+        <triggers>Bonjour</triggers>
       </conversation_flow>
       <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="ff4bfc77-593c-454e-b36c-73915cb87e33">
         <description>Connais-tu déjà bien l&apos;Eglise Catholique ?</description>
-        <timeOffset>3</timeOffset>
+        <timeOffset>6</timeOffset>
       </conversation_flow>
       <information name="Mon nom" id="ac37e00f-b531-4cd0-83fd-30a050050f8a">
         <tests>
@@ -1112,10 +1120,14 @@
         <description>C&apos;est des guérisons.</description>
         <url>https://www.youtube.com/v/61bKWFQY-gc</url>
       </video>
-      <information name="Suggestion pour voir une gérison inexpliquée" id="9942fd26-49ff-4b14-b108-25dda0c4144b">
+      <conversation_flow name="Suggestion pour voir une gérison inexpliquée" id="51281589-a29d-40e1-b916-115d28b4b9d5">
+        <tests>
+          <test input="Je ne veux pas voir vidéo qui décrit l&apos;Église." output="Est-ce que tu veux voir une guérison inexpliquée ?"/>
+        </tests>
         <description>Est-ce que tu veux voir une guérison inexpliquée ?</description>
-        <answeredQuestions>Je ne veux pas voir vidéo qui décrit l&apos;Église.</answeredQuestions>
-      </information>
+        <timeOffset>1</timeOffset>
+        <triggers>Je ne veux pas voir vidéo qui décrit l&apos;Église.</triggers>
+      </conversation_flow>
     </topic>
   </category>
   <category name="Youcat" id="6f9bfdf9-21e9-4eb2-a355-41897090ea28" description="Le Youcat est le premier catéchisme conçu pour les jeunes à leur demande. Il a pour but de leur permettre de connaître et de vivre leur foi dans un langage et un style adaptés pour eux. C’est une réalisation unique en son genre publiée en quinze langues." url="https://www.editionsducerf.fr/librairie/livre/7189/youcat">

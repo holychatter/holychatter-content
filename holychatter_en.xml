@@ -435,29 +435,37 @@
       </information>
     </topic>
     <topic name="Usual answers" id="9dce8cfe-4e23-48bf-8581-6d600f81bc93">
-      <information name="Christ is risen!" id="a6a76bab-c6dd-4f74-bbe2-d1520aa7070f">
+      <conversation_flow name="Christ is risen!" id="b02afb1f-b0d1-4083-b989-c908438d19d4">
         <tests>
-          <test input="Christ is risen!" output="Truly, He is Risen!" outputReferences="Source: &lt;hc_source name=&quot;Church&quot; resourceid=&quot;a6a76bab-c6dd-4f74-bbe2-d1520aa7070f&quot; /&gt;"/>
+          <test input="Christ is risen!" output="Truly, He is Risen!"/>
         </tests>
-        <description>&quot;Truly, He is Risen!&quot;</description>
-        <answeredQuestions>Christ is risen!</answeredQuestions>
-      </information>
-      <information name="Let us give thanks to the Lord our God" id="768e2983-4cd6-4675-8108-a351031a3c62">
-        <description>&quot;It is right and just.&quot;</description>
-        <answeredQuestions>Let us give thanks to the Lord our God.</answeredQuestions>
-      </information>
-      <information name="Lift up your hearts" id="21b39015-6eba-4f6f-acd7-3629f6c4010c">
-        <description>&quot;We lift them up to the Lord.&quot;</description>
-        <answeredQuestions>Lift up your hearts.</answeredQuestions>
-      </information>
-      <information name="The Lord be with you" id="1ee6eb1f-6ac3-45f8-90a5-a20ece69c1ff">
-        <description>&quot;And with your spirit.&quot;</description>
-        <answeredQuestions>The Lord be with you.</answeredQuestions>
-      </information>
-      <information name="The peace of the Lord be with you always" id="8a8d2f0e-b6f8-4517-95dc-d1e7d25ba644">
-        <description>&quot;And with your spirit.&quot;</description>
-        <answeredQuestions>The peace of the Lord be with you always.</answeredQuestions>
-      </information>
+        <description>Truly, He is Risen!</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Christ is risen!</triggers>
+      </conversation_flow>
+      <conversation_flow name="Let us give thanks to the Lord our God." id="44ded736-26b2-4167-94ed-cbb2f7438e80">
+        <description>It is right and just.</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Let us give thanks to the Lord our God.</triggers>
+      </conversation_flow>
+      <conversation_flow name="Lift up your hearts." id="26c6ae31-eeff-45fe-8bf3-9ef6fd6df3db">
+        <description>We lift them up to the Lord.</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Lift up your hearts.</triggers>
+      </conversation_flow>
+      <conversation_flow name="The Lord be with you." id="1b815f55-166f-4e43-b841-cef038f5062f">
+        <description>And with your spirit.</description>
+        <timeOffset>1</timeOffset>
+        <triggers>The Lord be with you.</triggers>
+      </conversation_flow>
+      <conversation_flow name="The peace of the Lord be with you always." id="46561ab1-5219-48da-9eed-3f0a58466e5f">
+        <tests>
+          <test input="The peace of the Lord be with you always." output="And with your spirit."/>
+        </tests>
+        <description>And with your spirit.</description>
+        <timeOffset>1</timeOffset>
+        <triggers>The peace of the Lord be with you always.&#10;</triggers>
+      </conversation_flow>
     </topic>
   </category>
   <category name="Daily Gospel" id="2f0c01ef-90bd-4d06-8dfd-3be664a9f3f5" description="« Evangelizo / Daily Gospel » is a service provided by our international association Evangelizo. Evangelizo&apos;s mission is to spread the voice of the Gospel in all languages throughout the world via the Internet and to develop the technical means to this end. Evangelizo is a team of more than 70 secular and clerical Roman Catholics, formed of priests, monks and nuns from various communities, congregations or spiritual sensitivities such as Jesuits, Redemptorists, Benedictines, Carmelites, Cistercians, the Monastic Communities of Jerusalem, the Emmanuel Community and Focolari. We are always working to add new languages so as to deliver the gospel to every corner of the world. Below we have attached some photos of our growing Evangelizo family." url="https://dailygospel.org">
@@ -521,7 +529,7 @@
       </information>
       <information name="Jesus is the sun of God" id="dc416bfb-a21b-4430-80c7-77715d9ba70c">
         <tests>
-          <test input="Who is Jesus?" output="Jesus is God&apos;s sun." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Life&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
+          <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Life&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
           <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Life&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
         </tests>
         <description>Jesus is the sun of God.</description>
@@ -561,9 +569,9 @@
       </video>
       <information name="Why is Jesus God?" id="2d0a9946-21d9-4db0-8da4-934cebdadd53">
         <tests>
-          <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Life&quot; resourceid=&quot;2d0a9946-21d9-4db0-8da4-934cebdadd53&quot; /&gt;"/>
+          <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Life&quot; resourceid=&quot;2d0a9946-21d9-4db0-8da4-934cebdadd53&quot; /&gt;"/>
         </tests>
-        <description>&quot;Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&quot;&#10;</description>
+        <description>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</description>
         <references>
           <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
           <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
@@ -620,19 +628,15 @@
     <topic name="Holy Chatter" id="0dd5fc96-9d46-47e1-a7ce-e4f6341141f0">
       <conversation_flow name="Do you already know the Catholic Church?" id="d2834279-b743-4b7d-b9a3-b31ffafd479e">
         <description>Do you already know the Catholic Church?</description>
-        <timeOffset>3</timeOffset>
+        <timeOffset>6</timeOffset>
       </conversation_flow>
       <information name="Greeting" id="432d3d5f-1f6a-444b-9038-ebc8eb7ce271">
         <tests>
           <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Technology&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
         </tests>
-        <description>hello</description>
+        <description>Hello</description>
         <answeredQuestions>hello</answeredQuestions>
       </information>
-      <conversation_flow name="Hello, welcome to Holy Chatter!" id="34e7d3e0-4add-4fbf-8186-f1d915803484">
-        <description>Hello, welcome to Holy Chatter!</description>
-        <timeOffset>1</timeOffset>
-      </conversation_flow>
       <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
         <tests>
           <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Technology&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
