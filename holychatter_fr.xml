@@ -249,6 +249,10 @@
   </category>
   <category name="Eglise" id="016bb79a-f435-4a10-8cde-7eed889cd2a7">
     <topic name="Eglise" id="fefce811-0ee0-416d-b9b6-78779d2f8ec7">
+      <conversation_flow name="Es-tu chrétien ?" id="d14434b4-0805-4ece-8f48-2cf5c868f2a1">
+        <description>Es-tu chrétien ?</description>
+        <timeOffset>6</timeOffset>
+      </conversation_flow>
       <video name="Qu&apos;est-ce que c&apos;est l&apos;Église ?" id="6559959e-27f0-4d3b-bf49-b08f52a0dfe1">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est l&apos;Église ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/d_f3AHFeeYs\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1P 2,9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,1-8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,11-14&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 19,7-9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,18&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,18-19&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;748-810&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise&quot; resourceid=&quot;6559959e-27f0-4d3b-bf49-b08f52a0dfe1&quot; /&gt;"/>
@@ -341,6 +345,7 @@
     <topic name="Raison" id="c1f20ff2-62cb-4c91-b275-c45275a19fce">
       <video name="Dieu existe-t-il ? Trois signes tangibles de son existence " id="4464ab65-07ca-467e-bbdc-a230b00b711c">
         <description>C&apos;est des signes de l&apos;existence de Dieu.&#10;C&apos;est pour cela que Dieu existe.</description>
+        <answeredQuestions>Je veux voir des signes de l&apos;existence de Dieu.</answeredQuestions>
         <url>https://www.youtube.com/v/r2mxAzuqyTI</url>
       </video>
       <video name="L&apos;origine de l&apos;ADN défie les chercheurs" id="7dac446f-24cb-4975-bc5d-b9e5fc9f8a6a">
@@ -367,6 +372,11 @@
         <answeredQuestions>Pourquoi les évangiles sont fiables ?</answeredQuestions>
         <url>https://www.youtube.com/v/kezIsM4nnOs</url>
       </video>
+      <conversation_flow name="Suggestion sur l&apos;existence de Dieu" id="7288e95c-79a4-48b1-9ddf-1dd1457a58fc">
+        <description>Veux-tu voir des signes de l&apos;existence de Dieu ?</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Je ne suis pas chrétien.</triggers>
+      </conversation_flow>
       <video name="Une preuve de l&apos;existence de Dieu ? Dieu existe -t-il réellement ?" id="ab850f06-20f0-4eda-847b-665883736459">
         <description>C&apos;est pour cela que Dieu existe.</description>
         <url>https://www.youtube.com/v/I7c7qs62r1Q</url>
@@ -813,7 +823,7 @@
           <test input="La Bible est-elle une parole humaine ?" output="Oui, la Bible est une parole humaine." outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;b8b8a853-905a-4631-b662-6fe186ca0936&quot; /&gt;"/>
         </tests>
         <description>Dieu a inspiré la Bible.&#10;La Bible vient de Dieu.&#10;La Bible est parole de Dieu.&#10;La Bible est une parole humaine.</description>
-        <answeredQuestions>Qui a écrit la Bible ?&#10;</answeredQuestions>
+        <answeredQuestions>Qui a écrit la Bible ?&#10;Je veux savoir qui a écrit la Bible.</answeredQuestions>
         <url>https://www.youtube.com/v/FzvVw0-BOKg</url>
       </video>
       <video name="2) Les dogmes, pour quoi faire ?" id="96ac5152-0f36-4299-92d9-0b9688c01597">
@@ -855,6 +865,11 @@
         <answeredQuestions>Quelle est la place de la raison dans la vie d’un croyant ?&#10;La foi seule peut-elle suffire ?&#10;Est-ce que la foi a besoin de la raison ?</answeredQuestions>
         <url>https://www.youtube.com/v/_KNnKKtjH7M</url>
       </video>
+      <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="5fa081a9-23a7-48c9-84f0-eb94a9369354">
+        <description>Veux tu savoir qui a écrit la Bible ?</description>
+        <timeOffset>1</timeOffset>
+        <triggers>Je suis chrétien.</triggers>
+      </conversation_flow>
     </topic>
     <topic name="2 - Tout (ou presque !) sur l&apos;Esprit-Saint" id="5661864e-cb7c-482d-8ca0-e5455a8835a7">
       <video name="1) Comment parler de l&apos;Esprit-Saint ?" id="dd41b169-efca-45f3-a340-b6dec61b3084">
