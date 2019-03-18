@@ -1133,9 +1133,28 @@
   <category name="Webtélé ECDQ" id="9baafebd-df55-489c-a3a1-e43ceea1e5c6" description="Portail médias de l&apos;Église catholique de Québec." url="https://www.ecdq.tv/">
     <topic name="Prédications" id="fc0003dc-8839-4d86-b0e9-695f2b1fdbdd">
       <video name="Le message chrétien en 7 minutes" id="d64abe34-2571-497a-bf6d-bf95c66844c1">
-        <description>C&apos;est le message chrétien.</description>
+        <tests>
+          <test input="Je veux voir le message chrétien" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/SSqiaVXtkRQ\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;d64abe34-2571-497a-bf6d-bf95c66844c1&quot; /&gt;"/>
+          <test input="Quel est le message chrétien ?" output="Le message chrétien est \hc_resource_video=#fr_FR#https://www.youtube.com/v/SSqiaVXtkRQ\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;d64abe34-2571-497a-bf6d-bf95c66844c1&quot; /&gt;"/>
+          <test input="le kérygme" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/SSqiaVXtkRQ\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;d64abe34-2571-497a-bf6d-bf95c66844c1&quot; /&gt;"/>
+        </tests>
+        <description>C&apos;est le message chrétien.&#10;C&apos;est le kérygme.</description>
+        <references>
+          <bible book="Gen" chapter="1" verseBegin="1"/>
+          <bible book="Rom" chapter="5" verseBegin="12"/>
+          <bible book="Jn" chapter="3" verseBegin="16"/>
+          <bible book="Mk" chapter="1" verseBegin="15"/>
+          <bible book="Rom" chapter="4" verseBegin="25"/>
+          <bible book="Rom" chapter="10" verseBegin="9"/>
+          <bible book="Mt" chapter="9" verseBegin="2"/>
+        </references>
+        <answeredQuestions>Je veux voir le message chrétien</answeredQuestions>
         <url>https://www.youtube.com/v/SSqiaVXtkRQ</url>
       </video>
+      <conversation_flow name="Suggestion pour voir le message chrétien" id="75209917-4b3c-45fd-aa3c-cbe724743976">
+        <description>Veux-tu voir le message chrétien ?</description>
+        <timeOffset>6</timeOffset>
+      </conversation_flow>
     </topic>
   </category>
   <category name="Youcat" id="6f9bfdf9-21e9-4eb2-a355-41897090ea28" description="Le Youcat est le premier catéchisme conçu pour les jeunes à leur demande. Il a pour but de leur permettre de connaître et de vivre leur foi dans un langage et un style adaptés pour eux. C’est une réalisation unique en son genre publiée en quinze langues." url="https://www.editionsducerf.fr/librairie/livre/7189/youcat">
