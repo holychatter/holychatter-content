@@ -752,7 +752,7 @@
         <references>
           <bible book="Gen" chapter="18"/>
         </references>
-        <answeredQuestions>Quelles images y a-t-il de la Très Sainte Trinité ?</answeredQuestions>
+        <answeredQuestions>Quelles images y a-t-il de la Sainte Trinité ?</answeredQuestions>
         <url>https://www.youtube.com/v/aPHd1r_ReSU</url>
       </video>
       <video name="20. Dieu est Amour, qu’est-ce que cela veut dire ?" id="1af38af5-bdda-44c7-80ca-eb71e48cb396">
@@ -765,8 +765,18 @@
       </video>
       <video name="21. Qu’est-ce que dit la Foi catholique au sujet de la création ?" id="bd1c8d49-15a7-409b-8911-b224e6298c33">
         <tests>
-          <test input="Qu’est-ce que dit la Foi catholique au sujet de la création ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/KJbbDryfhlw\" outputReferences="Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;bd1c8d49-15a7-409b-8911-b224e6298c33&quot; /&gt;"/>
+          <test input="Qu’est-ce que dit la Foi catholique au sujet de la création ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/KJbbDryfhlw\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1-2&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 1,4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2,5-25&quot; /&gt;; &lt;hc_bible ref=&quot;Is 45,18&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,16&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;295-301&quot; /&gt;; &lt;hc_ccc ref=&quot;317-318&quot; /&gt;; &lt;hc_ccc ref=&quot;320&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;bd1c8d49-15a7-409b-8911-b224e6298c33&quot; /&gt;"/>
         </tests>
+        <references>
+          <bible book="Gen" chapter="1" verseBegin="1" verseEnd="2"/>
+          <bible book="Gen" chapter="1" verseBegin="4"/>
+          <bible book="Gen" chapter="2" verseBegin="5" verseEnd="25"/>
+          <bible book="Is" chapter="45" verseBegin="18"/>
+          <bible book="Col" chapter="1" verseBegin="16"/>
+          <ccc verseBegin="295" verseEnd="301"/>
+          <ccc verseBegin="317" verseEnd="318"/>
+          <ccc verseBegin="320"/>
+        </references>
         <answeredQuestions>Qu’est-ce que dit la Foi catholique au sujet de la création ?</answeredQuestions>
         <url>https://www.youtube.com/v/KJbbDryfhlw</url>
       </video>
@@ -910,6 +920,8 @@
         <tests>
           <test input="Bonjour" output="Bonjour"/>
           <test input="Hello" output="Bonjour"/>
+          <test input="salut" output="Bonjour"/>
+          <test input="Salut" output="Bonjour"/>
         </tests>
         <description>Bonjour</description>
         <timeOffset>1</timeOffset>
@@ -1082,8 +1094,9 @@
       </video>
       <video name="3) Catastrophes en cascades (Ap 6-11)" id="c969038c-6e8b-4a59-94e9-7255b0580113">
         <tests>
-          <test input="Le Salut est-il en cours ?" output="Oui, Le Salut est en cours." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 6&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 7&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 8&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 9&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 10&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c969038c-6e8b-4a59-94e9-7255b0580113&quot; /&gt;"/>
+          <test input="Le Salut est-il en cours ?" output="Oui, le Salut est en cours." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 6&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 7&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 8&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 9&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 10&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c969038c-6e8b-4a59-94e9-7255b0580113&quot; /&gt;"/>
         </tests>
+        <description>Le Salut est en cours.</description>
         <references>
           <bible book="Rev" chapter="6"/>
           <bible book="Rev" chapter="7"/>
