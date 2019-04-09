@@ -77,6 +77,10 @@
       </information>
       <information name="Dieu est amour" id="54be3496-5ccf-4952-8183-bd2178804c68">
         <description>Dieu est amour.</description>
+        <references>
+          <bible book="1 Jn" chapter="4" verseBegin="8"/>
+          <ccc verseBegin="218" verseEnd="221"/>
+        </references>
       </information>
       <information name="Dieu est omniscient" id="4fb08862-d9e5-4f49-adac-bae7c0f091ac">
         <tests>
@@ -235,6 +239,18 @@
         <description>Veux tu connaître l&apos;Esprit Saint ?</description>
         <timeOffset>6</timeOffset>
       </conversation_flow>
+    </topic>
+  </category>
+  <category name="Comprendre Dieu" id="57cb0dda-405a-4311-9d8f-4d0dc4197ee9" description="Ce site est géré par l’association Top Mission, reconnue d’intérêt général. Pour répondre au mieux aux questions autour de l’existence d’un dieu, nous avons constitué une équipe composée de conférenciers en philosophie de la religion et d’experts de spiritualité." url="https://comprendredieu.com">
+    <topic name="Jésus" id="970c51d5-e391-4560-aa94-7759b9cc2238">
+      <video name="Qui est Jésus ?" id="fe0118be-bbf5-4b04-8f9b-184afc231118">
+        <tests>
+          <test input="Qui est Jésus ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
+          <test input="qui est jesus" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
+        </tests>
+        <answeredQuestions>Qui est Jésus ?</answeredQuestions>
+        <url>https://www.youtube.com/v/PxHDVbdJ9cY</url>
+      </video>
     </topic>
   </category>
   <category name="Cybercuré" id="afe6903f-b589-48c0-8adf-3e9a4155bdab" description="Un site, créé en 2000, qui s’adresse tout d’abord aux catholiques, mais surtout à ceux qui se questionnent sur la foi, les sacrements, la liturgie, les fêtes chrétiennes, l’actualité religieuse… Il s’agit bien souvent de non pratiquants, qui se rendent à la messe à l’occasion d’un mariage, d’un enterrement, et qui s’interrogent sur la religion chrétienne. Formidable outil d’évangélisation sur le web, le CyberCuré vulgarise la foi chrétienne. Il utilise les techniques actuelles pour « dialoguer avec l’homme d’aujourd’hui et l’amener à la rencontre du Christ. »" url="https://cybercure.fr">
@@ -424,8 +440,7 @@
       </video>
       <information name="Jésus est le fils de Dieu" id="236753e4-53cb-4021-b300-efed87c021e6">
         <tests>
-          <test input="Qui est Jésus ?" output="Jésus est le fils de Dieu." outputReferences="Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;236753e4-53cb-4021-b300-efed87c021e6&quot; /&gt;"/>
-          <test input="qui est jesus" output="Jésus est le fils de Dieu." outputReferences="Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;236753e4-53cb-4021-b300-efed87c021e6&quot; /&gt;"/>
+          <test input="Est-ce que Jésus est le fils de Dieu ?" output="Oui, Jésus est le fils de Dieu."/>
         </tests>
         <description>Jésus est le fils de Dieu.</description>
         <references>
@@ -586,6 +601,40 @@
         <answeredQuestions>Comment la Bible est-elle structurée ?</answeredQuestions>
         <url>https://www.youtube.com/v/W5qUev-Zofw</url>
       </video>
+      <video name="17. Comment peut-on résumer la Foi en la Trinité ?" id="5cd996b3-b1b8-434b-9f65-945b8fbf7916">
+        <tests>
+          <test input="Comment peut-on résumer la Foi en la Trinité ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/YapuJUqAGJo\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,27&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 7,1&quot; /&gt;; &lt;hc_bible ref=&quot;1P 1,2&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 1,1&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 9,5&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2,9&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 5,3-4&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,16&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;232-236&quot; /&gt;; &lt;hc_ccc ref=&quot;249-256&quot; /&gt;; &lt;hc_ccc ref=&quot;261&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;5cd996b3-b1b8-434b-9f65-945b8fbf7916&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="Jn" chapter="6" verseBegin="27"/>
+          <bible book="Rom" chapter="7" verseBegin="1"/>
+          <bible book="1 Pet" chapter="1" verseBegin="2"/>
+          <bible book="Jn" chapter="1" verseBegin="1"/>
+          <bible book="Rom" chapter="9" verseBegin="5"/>
+          <bible book="Col" chapter="2" verseBegin="9"/>
+          <bible book="Acts" chapter="5" verseBegin="3" verseEnd="4"/>
+          <bible book="1 Cor" chapter="3" verseBegin="16"/>
+          <ccc verseBegin="232" verseEnd="236"/>
+          <ccc verseBegin="249" verseEnd="256"/>
+          <ccc verseBegin="261"/>
+        </references>
+        <answeredQuestions>Comment peut-on résumer la Foi en la Trinité ?</answeredQuestions>
+        <url>https://www.youtube.com/v/YapuJUqAGJo</url>
+      </video>
+      <video name="18. Comment peut-on représenter la Trinité ?" id="81704fec-8ab6-48b0-8612-e522eef07ab2">
+        <tests>
+          <test input="Comment peut-on représenter la Trinité ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/X85tyEv0kwg\" outputReferences="Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;237&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;81704fec-8ab6-48b0-8612-e522eef07ab2&quot; /&gt;"/>
+        </tests>
+        <references>
+          <ccc verseBegin="237"/>
+        </references>
+        <answeredQuestions>Comment peut-on représenter la Trinité ?&#10;Comment peut-on se représenter la Trinité ?</answeredQuestions>
+        <url>https://www.youtube.com/v/X85tyEv0kwg</url>
+      </video>
+      <video name="30. Comment Jésus vivait-il ?" id="72a84cc0-4a63-4e7d-b057-fdee296dc287">
+        <answeredQuestions>Comment Jésus vivait-il ?</answeredQuestions>
+        <url>https://www.youtube.com/v/YGssVpl_qSQ</url>
+      </video>
     </topic>
     <topic name="Diverses questions" id="f6378b8f-2034-4aac-a5c4-df4ca7c4684d">
       <video name="03. Quelle est la différence entre croire et savoir?" id="366c9770-ce5e-48b9-93d4-e16c84c110aa">
@@ -699,6 +748,48 @@
         <answeredQuestions>Quelle est la signification de Dieu qui est Trinité ?</answeredQuestions>
         <url>https://www.youtube.com/v/C5_Fbdj8RTk</url>
       </video>
+      <video name="19. Quelles images y a-t-il de la Très Sainte Trinité ?" id="0054461e-bc01-40eb-bbcc-8b3a5cebc239">
+        <references>
+          <bible book="Gen" chapter="18"/>
+        </references>
+        <answeredQuestions>Quelles images y a-t-il de la Très Sainte Trinité ?</answeredQuestions>
+        <url>https://www.youtube.com/v/aPHd1r_ReSU</url>
+      </video>
+      <video name="20. Dieu est Amour, qu’est-ce que cela veut dire ?" id="1af38af5-bdda-44c7-80ca-eb71e48cb396">
+        <references>
+          <bible book="1 Jn" chapter="4" verseBegin="8"/>
+          <ccc verseBegin="218" verseEnd="221"/>
+        </references>
+        <answeredQuestions>Dieu est Amour, qu’est-ce que cela veut dire ?</answeredQuestions>
+        <url>https://www.youtube.com/v/fHrvFUNKPjc</url>
+      </video>
+      <video name="21. Qu’est-ce que dit la Foi catholique au sujet de la création ?" id="bd1c8d49-15a7-409b-8911-b224e6298c33">
+        <tests>
+          <test input="Qu’est-ce que dit la Foi catholique au sujet de la création ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/KJbbDryfhlw\" outputReferences="Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;bd1c8d49-15a7-409b-8911-b224e6298c33&quot; /&gt;"/>
+        </tests>
+        <answeredQuestions>Qu’est-ce que dit la Foi catholique au sujet de la création ?</answeredQuestions>
+        <url>https://www.youtube.com/v/KJbbDryfhlw</url>
+      </video>
+      <video name="22. Y-a-t-il une contradiction entre Foi et science ?" id="122b00c2-938d-48be-95c6-bcefface3f1a">
+        <answeredQuestions>Y-a-t-il une contradiction entre Foi et science ?</answeredQuestions>
+        <url>https://www.youtube.com/v/Ny5rgVx7Ckg</url>
+      </video>
+      <video name="23. Y-a-t-il une contradiction entre la création et la l’évolution ?" id="a5ff5567-981b-46fa-ba50-3a372eada937">
+        <answeredQuestions>Y-a-t-il une contradiction entre la création et la l’évolution ?</answeredQuestions>
+        <url>https://www.youtube.com/v/SrWAiRDPL6w</url>
+      </video>
+      <video name="25. Que sont premier péché et péché originel?" id="18b1c165-2bb1-4e19-b805-4165a869b85f">
+        <answeredQuestions>Que sont premier péché et péché originel?</answeredQuestions>
+        <url>https://www.youtube.com/v/8ZPMCudCoqI</url>
+      </video>
+      <video name="26. Le diable existe-t-il ?" id="404d5bc8-fc39-4bff-9a79-facdba33168a">
+        <answeredQuestions>Le diable existe-t-il ?</answeredQuestions>
+        <url>https://www.youtube.com/v/qbW_d_CiM4A</url>
+      </video>
+      <video name="27. Qui était Jésus ?" id="33d453f9-9734-4994-9b24-89931d651c73">
+        <answeredQuestions>Qui était Jésus ?</answeredQuestions>
+        <url>https://www.youtube.com/v/--XXP9TMk3s</url>
+      </video>
     </topic>
     <topic name="Définitions" id="7a2c8ab4-0dc2-4ed9-b84e-d508170292d2">
       <video name="01. Qu&apos;est-ce que l&apos;homme?" id="09cfa4ac-1cb9-482a-be15-7a98db9c772d">
@@ -767,6 +858,10 @@
         <answeredQuestions>Qui est Dieu ?</answeredQuestions>
         <url>https://www.youtube.com/v/HUHsPCG56s8</url>
       </video>
+      <video name="24. C’est quoi, le mal ?" id="d022f6da-8ee6-4dcc-8ff5-249f9a42f6db">
+        <answeredQuestions>C’est quoi, le mal ?</answeredQuestions>
+        <url>https://www.youtube.com/v/vLAfAC7Xslo</url>
+      </video>
     </topic>
     <topic name="Pourquoi" id="786fb327-0d12-45fc-9aba-4c8e4721311c">
       <video name="07. Pourquoi Dieu se révèle-t-il ?" id="3cdf86a8-4a5e-41f5-841f-0934f538a372">
@@ -780,8 +875,17 @@
         </references>
         <url>https://www.youtube.com/v/0KJesx29IaI</url>
       </video>
+      <video name="28.  Pourquoi Dieu s’est-il fait homme ?" id="67e9ffda-b6bd-4555-b448-3d05e106d000">
+        <answeredQuestions> Pourquoi Dieu s’est-il fait homme ?</answeredQuestions>
+        <url>https://www.youtube.com/v/kvBiNB_Di28</url>
+      </video>
+      <video name="29. Pourquoi Jésus est-il venu au monde il y a 2000 ans ?" id="1730d842-049e-43aa-93d0-e5b15a3d3604">
+        <answeredQuestions>Pourquoi Jésus est-il venu au monde il y a 2000 ans ?</answeredQuestions>
+        <url>https://www.youtube.com/v/iDuyWpk6pDs</url>
+      </video>
     </topic>
   </category>
+  <category name="Pratiks" id="14e3e110-e713-4e0a-9df7-f9cddfa7ad89" description="Des vidéos pour tout faire : tutos, trucs, astuces, savoir-faire, mode d&apos;emploi, recettes, coaching, pour chaque instant de la vie. Des réponses en vidéo à toutes vos questions du quotidien." url="https://www.youtube.com/user/pratiks"/>
   <category name="Technologies" id="9774409a-1ba4-4f89-9f08-34fe38b033b3">
     <topic name="Applications" id="948c5d68-b74a-404b-8548-4f522c0f7dd1">
       <site name="Entourage" id="f0f48d15-7aba-4939-9bbf-3ec4afe79658">
@@ -980,7 +1084,6 @@
         <tests>
           <test input="Le Salut est-il en cours ?" output="Oui, Le Salut est en cours." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 6&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 7&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 8&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 9&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 10&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c969038c-6e8b-4a59-94e9-7255b0580113&quot; /&gt;"/>
         </tests>
-        <description>Le Salut est en cours.</description>
         <references>
           <bible book="Rev" chapter="6"/>
           <bible book="Rev" chapter="7"/>
