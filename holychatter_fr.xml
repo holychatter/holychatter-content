@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
   <folder name="AELF" id="355f91a4-be7e-4ff8-ba8b-87706034a742" description="L&apos;Association épiscopale liturgique pour les pays francophones fut créée le 30 septembre 1969. C’est une association de droit français (loi de 1901) qui exécute les missions qui lui sont confiées par la Commission Épiscopale Francophone pour les Traductions Liturgiques.&#10;&#10;Cette association a pour but d&apos;élaborer, coordonner et promouvoir toutes études et activités intéressant la liturgie de l&apos;Eglise catholique, et plus particulièrement l&apos;élaboration de textes liturgiques destinés aux pays francophones." url="https://www.aelf.org">
-    <topic name="Lectures" id="6b50d360-a186-4297-b855-df7a96329976">
+    <folder name="Lectures" id="6b50d360-a186-4297-b855-df7a96329976">
       <api name="Deuxième lecture" id="2bf9d965-0ad2-4bea-8536-20af2c2e485b">
         <apiId>second_reading</apiId>
       </api>
@@ -22,8 +22,8 @@
         <timeOffset>1</timeOffset>
         <triggers>Je connais bien l&apos;Eglise Catholique.</triggers>
       </conversation_flow>
-    </topic>
-    <topic name="Présentation" id="3794b86a-f580-4a2c-8d91-86b119f549f7">
+    </folder>
+    <folder name="Présentation" id="3794b86a-f580-4a2c-8d91-86b119f549f7">
       <video name="AELF" id="37a94095-3cd9-4419-acc9-357ff0ca7503">
         <tests>
           <test input="c&apos;est quoi l&apos;AELF ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/hVsVyo3IxkA\" outputReferences="Source : &lt;hc_source name=&quot;AELF&quot; resourceid=&quot;37a94095-3cd9-4419-acc9-357ff0ca7503&quot; /&gt;"/>
@@ -31,10 +31,10 @@
         <description>C&apos;est l&apos;AELF</description>
         <url>https://www.youtube.com/v/hVsVyo3IxkA</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="Bible" id="0b7498a1-0246-4f14-a1d6-7793c90b5768" description="La Bible est unique. Elle est le livre le plus lu au monde. Aucun autre ne fut traduit en plus de langues. Aucun autre dans toute l’histoire de l’humanité n’eut plus de retentissements. Pour les chrétiens et les chrétiennes la Bible est l’Écriture Sainte.&#10;&#10;La Bible est un livre universel. Elle contient de magnifiques histoires. Beaucoup de récits de la Bible sont d’une grande beauté poétique comme le livre de Job, toute une série de Psaumes de l’Ancien Testament, ou bien l’hymne à l’amour (1Co 13) ou l’Apocalypse de saint Jean dans le Nouveau Testament. Souvent la Bible est bouleversante. Elle nous questionne. Parfois elle paraît étrangère. Il arrive qu’il faille des années pour comprendre un seul passage de l’Écriture. Mais cela vaut toujours la peine de se mettre à la lire. La Bible est le document central de la foi de tous les chrétiens.&#10;&#10;Plus encore : la Bible est « Parole de Dieu ». Elle l’est, écrite avec des mots humains et en langage humain. Elle est la Révélation divine. Elle fut écrite parce que des hommes ont écouté la Parole de Dieu et l’ont retranscrite. Elle fut transmise telle quelle pendant des siècles, parce que des générations entières ont cru que ceux qui transmettaient la Bonne Nouvelle n’imaginaient rien par eux-mêmes et bien au contraire qu’ils étaient inspirés par Dieu, et délivraient réellement son message.&#10;&#10;La Bible veut nous toucher, elle veut nous motiver pour une vie qui tend vers le Bien. Cette vie doit concilier l’amour de Dieu et l’amour du prochain. C’est pourquoi il n’est pas possible d’en rester à sa simple lecture. Il convient de prier, de méditer sur sa foi, d’aider autrui et surtout d’être dans la joie que Dieu existe et qu’il nous donne la vie.&#10;&#10;Youcat Bible (pp. 12-13)" url="https://www.aelf.org/bible">
-    <topic name="Ascension" id="2973d5ea-af20-4b3c-82db-a8c18f29e684">
+    <folder name="Ascension" id="2973d5ea-af20-4b3c-82db-a8c18f29e684">
       <video name="Qu&apos;est ce que la fête de l&apos;ascension ? " id="5ecd3d7d-b6b4-4d95-945c-ba9fb7e5d10f">
         <tests>
           <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/u0cURJmJqy0\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,50-53&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,1-11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;5ecd3d7d-b6b4-4d95-945c-ba9fb7e5d10f&quot; /&gt;"/>
@@ -46,8 +46,8 @@
         </references>
         <url>https://www.youtube.com/v/u0cURJmJqy0</url>
       </video>
-    </topic>
-    <topic name="Bible" id="f877c171-923b-4272-9a4f-c554936b31e9">
+    </folder>
+    <folder name="Bible" id="f877c171-923b-4272-9a4f-c554936b31e9">
       <information name="La Bible donne le moyen d&apos;accéder au bonheur" id="6875b42b-351b-4e88-9817-ec0fc3809623">
         <description>La Bible donne le moyen d&apos;accéder au bonheur en suivant Jésus.</description>
       </information>
@@ -63,8 +63,8 @@
         </tests>
         <description>Le début de la Bible c&apos;est le livre de la Genèse.</description>
       </information>
-    </topic>
-    <topic name="Dieu" id="f10d9e79-6340-4605-b371-e155c377332e">
+    </folder>
+    <folder name="Dieu" id="f10d9e79-6340-4605-b371-e155c377332e">
       <information name="Dieu dépasse la raison" id="270cb9d5-8354-4489-bdfc-99b2308c8f2f">
         <tests>
           <test input="Qu&apos;est-ce que Dieu dépasse ?" output="Dieu dépasse la raison." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Tm 6,16&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;270cb9d5-8354-4489-bdfc-99b2308c8f2f&quot; /&gt;"/>
@@ -168,8 +168,8 @@
         <answeredQuestions>Pourquoi Dieu s&apos;est fait homme ?</answeredQuestions>
         <url>https://www.youtube.com/v/g4m1YHICVCM</url>
       </video>
-    </topic>
-    <topic name="Dieu existe" id="b59b6919-d0aa-48f9-8c4f-4c8d7f3b6364">
+    </folder>
+    <folder name="Dieu existe" id="b59b6919-d0aa-48f9-8c4f-4c8d7f3b6364">
       <video name="Démonstration de l&apos;existence de Dieu et raisons de croire chrétiennes " id="8cb60712-cce9-4a54-8302-3070ed477a92">
         <description>C&apos;est pour cela que Dieu existe.</description>
         <url>https://www.youtube.com/v/YmAMijn00w0</url>
@@ -178,16 +178,16 @@
         <description>C&apos;est pour cela que Dieu existe.</description>
         <url>https://www.youtube.com/v/h34e9VW5HI4</url>
       </video>
-    </topic>
-    <topic name="Evangile" id="48169c33-bfab-4eae-9be0-fb44e13e9304">
+    </folder>
+    <folder name="Evangile" id="48169c33-bfab-4eae-9be0-fb44e13e9304">
       <information name="Il y a 4 évangiles" id="6cc2bbc5-8895-401b-b037-2d1583417332">
         <tests>
           <test input="Combien y a-t-il d&apos;évangiles ?" output="Il y a 4 évangiles."/>
         </tests>
         <description>Il y a 4 évangiles.</description>
       </information>
-    </topic>
-    <topic name="Résurrection" id="4c682d32-d185-4816-bc06-02c1b37cf0fb">
+    </folder>
+    <folder name="Résurrection" id="4c682d32-d185-4816-bc06-02c1b37cf0fb">
       <information name="Jésus est réssuscité" id="57320940-d331-4499-b68c-b342d4fdede8">
         <tests>
           <test input="Est-ce que Jésus est réssuscité ?" output="Oui, Jésus est réssuscité." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;57320940-d331-4499-b68c-b342d4fdede8&quot; /&gt;"/>
@@ -216,8 +216,8 @@
         </references>
         <url>https://www.youtube.com/v/S1i5VeBF4U8</url>
       </video>
-    </topic>
-    <topic name="Saint Esprit" id="1dbfcd9f-cf55-4099-9fd1-cf8e46a29545">
+    </folder>
+    <folder name="Saint Esprit" id="1dbfcd9f-cf55-4099-9fd1-cf8e46a29545">
       <video name="Soirée Esprit Saint Mars 2019 " id="b5773303-b6e2-4555-bcde-53cabe22292b">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est le Saint Esprit" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/XLtcASarxqU\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;b5773303-b6e2-4555-bcde-53cabe22292b&quot; /&gt;"/>
@@ -233,10 +233,10 @@
         <description>Veux tu connaître l&apos;Esprit Saint ?</description>
         <timeOffset>6</timeOffset>
       </conversation_flow>
-    </topic>
+    </folder>
   </folder>
   <folder name="Comprendre Dieu" id="57cb0dda-405a-4311-9d8f-4d0dc4197ee9" description="Ce site est géré par l’association Top Mission, reconnue d’intérêt général. Pour répondre au mieux aux questions autour de l’existence d’un dieu, nous avons constitué une équipe composée de conférenciers en philosophie de la religion et d’experts de spiritualité." url="https://comprendredieu.com">
-    <topic name="Jésus" id="970c51d5-e391-4560-aa94-7759b9cc2238">
+    <folder name="Jésus" id="970c51d5-e391-4560-aa94-7759b9cc2238">
       <video name="Qui est Jésus ?" id="fe0118be-bbf5-4b04-8f9b-184afc231118">
         <tests>
           <test input="Qui est Jésus ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
@@ -245,10 +245,10 @@
         <answeredQuestions>Qui est Jésus ?</answeredQuestions>
         <url>https://www.youtube.com/v/PxHDVbdJ9cY</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="Cybercuré" id="afe6903f-b589-48c0-8adf-3e9a4155bdab" description="Un site, créé en 2000, qui s’adresse tout d’abord aux catholiques, mais surtout à ceux qui se questionnent sur la foi, les sacrements, la liturgie, les fêtes chrétiennes, l’actualité religieuse… Il s’agit bien souvent de non pratiquants, qui se rendent à la messe à l’occasion d’un mariage, d’un enterrement, et qui s’interrogent sur la religion chrétienne. Formidable outil d’évangélisation sur le web, le CyberCuré vulgarise la foi chrétienne. Il utilise les techniques actuelles pour « dialoguer avec l’homme d’aujourd’hui et l’amener à la rencontre du Christ. »" url="https://cybercure.fr">
-    <topic name="Je célèbre les sacrements" id="5ec18797-277b-40ac-8e67-b0abf5f807ac">
+    <folder name="Je célèbre les sacrements" id="5ec18797-277b-40ac-8e67-b0abf5f807ac">
       <site name="La communion eucharistique" id="b0e53d4c-9f42-410e-a3bb-bb6933012677">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est la communion eucharistique ?" output="La communion eucharistique est \hc_resource_site=#fr_FR#https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;b0e53d4c-9f42-410e-a3bb-bb6933012677&quot; /&gt;"/>
@@ -263,8 +263,8 @@
         <description>C&apos;est le sens du sacrement baptême.</description>
         <url>https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme</url>
       </site>
-    </topic>
-    <topic name="Présentation" id="0d8ebba2-9443-4674-9044-4c2186a744ee">
+    </folder>
+    <folder name="Présentation" id="0d8ebba2-9443-4674-9044-4c2186a744ee">
       <video name="Présentation du Cybercuré" id="387d880e-d399-4bb9-be69-1d9f2d1358ed">
         <tests>
           <test input="qui est le Cybercuré" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/tElzlJzwpJw\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;387d880e-d399-4bb9-be69-1d9f2d1358ed&quot; /&gt;"/>
@@ -272,10 +272,10 @@
         <description>C&apos;est le Cybercuré</description>
         <url>https://www.youtube.com/v/tElzlJzwpJw</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="Eglise" id="016bb79a-f435-4a10-8cde-7eed889cd2a7">
-    <topic name="Eglise" id="fefce811-0ee0-416d-b9b6-78779d2f8ec7">
+    <folder name="Eglise" id="fefce811-0ee0-416d-b9b6-78779d2f8ec7">
       <conversation_flow name="Es-tu chrétien ?" id="d14434b4-0805-4ece-8f48-2cf5c868f2a1">
         <description>Es-tu chrétien ?</description>
         <timeOffset>6</timeOffset>
@@ -312,8 +312,8 @@
         <timeOffset>1</timeOffset>
         <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
       </conversation_flow>
-    </topic>
-    <topic name="Enseignements" id="545bfed0-4909-403b-9cd2-44cdbce52063">
+    </folder>
+    <folder name="Enseignements" id="545bfed0-4909-403b-9cd2-44cdbce52063">
       <information name="Le credo" id="9859bd25-2811-453c-80d5-d2b3fc9840a5">
         <tests>
           <test input="le credo" output="Le credo est :&#10;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen." outputReferences="Source : &lt;hc_source name=&quot;Eglise&quot; resourceid=&quot;9859bd25-2811-453c-80d5-d2b3fc9840a5&quot; /&gt;"/>
@@ -328,14 +328,14 @@
         <answeredQuestions>Pourquoi Dieu permet les épreuves ?</answeredQuestions>
         <url>https://www.youtube.com/v/0ZFvb8WK0G4</url>
       </video>
-    </topic>
-    <topic name="Miséricorde" id="93ad2f47-5f42-4ba1-8d44-9598161ae1f1">
+    </folder>
+    <folder name="Miséricorde" id="93ad2f47-5f42-4ba1-8d44-9598161ae1f1">
       <video name="Catéchèse JMJ avec Mgr David Macaire" id="4c4047e6-82c5-49e4-9ee5-716e3bf1bae8">
         <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
         <url>https://www.youtube.com/v/ncL9hQhfKCg</url>
       </video>
-    </topic>
-    <topic name="Réponses usuelles" id="9bd80fac-1d0b-48b9-82df-24e2d465c37c">
+    </folder>
+    <folder name="Réponses usuelles" id="9bd80fac-1d0b-48b9-82df-24e2d465c37c">
       <conversation_flow name="Christ est ressuscité !" id="7a3bc548-fac7-4d89-af59-171f2bec29ef">
         <tests>
           <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
@@ -352,10 +352,10 @@
         <timeOffset>1</timeOffset>
         <triggers>Que le Seigneur soit avec vous !</triggers>
       </conversation_flow>
-    </topic>
+    </folder>
   </folder>
   <folder name="Eglise catholique en France" id="c21c0025-8516-4439-a254-8d3060014a8c" description="Edité par la Service Information-Communication de la Conférence des évêques de France (CEF), le site eglise.catholique.fr est le portail officiel de l’Eglise catholique en France. Il donne accès à l’ensemble des sites de la CEF et des diocèses." url="https://eglise.catholique.fr">
-    <topic name="Eglise" id="4cbce96d-2680-456d-b3a3-9d90dc31ed1e">
+    <folder name="Eglise" id="4cbce96d-2680-456d-b3a3-9d90dc31ed1e">
       <information name="A quoi sert l&apos;Eglise ?" id="b7fe48fd-22f0-4a76-aa8f-9cd1dcd6e18c">
         <tests>
           <test input="A quoi sert l’Eglise ?" output="L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme." outputReferences="Url : &lt;hc_site url=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;b7fe48fd-22f0-4a76-aa8f-9cd1dcd6e18c&quot; /&gt;"/>
@@ -366,10 +366,10 @@
         </references>
         <answeredQuestions>A quoi sert l&apos;Eglise ?</answeredQuestions>
       </information>
-    </topic>
+    </folder>
   </folder>
   <folder name="Et pourtant Dieu existe" id="9e609b67-7244-4bd7-b2ec-28a75f7f58cd" description="Dieu existe - c&apos;est ce qu&apos;affirment les croyants... mais est-ce qu&apos;on a des indices qu&apos;il existe réellement ?&#10;Ces quelques vidéos souhaitent apporter des Réponses honnêtes à des Questions honnêtes.&#10;&#10;Tout le monde s&apos;interroge sur la réalité de l&apos;existence de Dieu. La plupart des grands médias se contentent des clichés et arguments classiques des athées ou des moqueurs. Pourtant, une fois le terrain déminé, le chercheur honnête réalise qu&apos;on lui a caché pas mal de choses - et que les évidences sont juste là, à portée de main !&#10;Ces vidéos n&apos;ont d&apos;autre objet que de &quot;déminer le terrain&quot; et apporter des réponses honnêtes, non simplistes et accessibles." url="http://www.oui-dieu-existe.fr/">
-    <topic name="Raison" id="c1f20ff2-62cb-4c91-b275-c45275a19fce">
+    <folder name="Raison" id="c1f20ff2-62cb-4c91-b275-c45275a19fce">
       <video name="Dieu existe-t-il ? Trois signes tangibles de son existence " id="4464ab65-07ca-467e-bbdc-a230b00b711c">
         <tests>
           <test input="Dieu existe-t-il ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/r2mxAzuqyTI\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;4464ab65-07ca-467e-bbdc-a230b00b711c&quot; /&gt;"/>
@@ -457,8 +457,8 @@
         <description>C&apos;est pour cela que Dieu existe.</description>
         <url>https://www.youtube.com/v/I7c7qs62r1Q</url>
       </video>
-    </topic>
-    <topic name="Témoignages" id="ab5e98b7-5522-48f4-89cf-38710e9e9bb9">
+    </folder>
+    <folder name="Témoignages" id="ab5e98b7-5522-48f4-89cf-38710e9e9bb9">
       <video name="Combattant de l&apos;Islam, Khalil a une révélation surnaturelle de Jésus" id="3ea5b8e6-b7e2-4827-835d-58e68c7e86f1">
         <description>C&apos;est un témoignage chrétien.</description>
         <url>https://www.youtube.com/v/TvBGw9vI6DQ</url>
@@ -467,16 +467,16 @@
         <description>C&apos;est un témoignage chrétien.</description>
         <url>https://www.youtube.com/v/vYrrErfgpF0</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="Exemples de vie" id="4aecb21a-128b-4a77-9d36-ba9b5a0644da">
-    <topic name="Abraham" id="c9224e6c-6e34-4682-9c44-60f941bf65f7">
+    <folder name="Abraham" id="c9224e6c-6e34-4682-9c44-60f941bf65f7">
       <video name="ABRAHAM LE FILM COMPLET" id="38ccf154-6188-4fdc-9371-f92a1706b074">
         <description>C&apos;est la vie d&apos;Abraham.</description>
         <url>https://www.youtube.com/v/QXpeMmS9zYw</url>
       </video>
-    </topic>
-    <topic name="Jésus" id="19a0f0e0-686c-42cf-be2c-05929557f0ec">
+    </folder>
+    <folder name="Jésus" id="19a0f0e0-686c-42cf-be2c-05929557f0ec">
       <video name="Jesus raconté aux enfants" id="26647dbb-5b2a-4ee9-83e3-ae3aa11092f1">
         <description>C&apos;est la vie de Jésus.</description>
         <url>https://www.youtube.com/v/rah8qg0H04w</url>
@@ -529,8 +529,8 @@
         </references>
         <answeredQuestions>Pourquoi Jésus est-il Dieu ?</answeredQuestions>
       </information>
-    </topic>
-    <topic name="Marie" id="1dbd6448-5c45-4b2f-929f-6ef93cb780a8">
+    </folder>
+    <folder name="Marie" id="1dbd6448-5c45-4b2f-929f-6ef93cb780a8">
       <site name="Marie" id="c174123c-e4a5-4ea5-8544-4388f0780209">
         <description>C&apos;est Marie</description>
         <url>https://croire.la-croix.com/Definitions/Bible/Marie</url>
@@ -543,22 +543,22 @@
         <description>Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.</description>
         <answeredQuestions>Qui est Marie&#10;qui est la mère de Jésus</answeredQuestions>
       </information>
-    </topic>
-    <topic name="Mère Teresa" id="5182c2e9-8ac2-44f4-8bc4-863a26fe12fd">
+    </folder>
+    <folder name="Mère Teresa" id="5182c2e9-8ac2-44f4-8bc4-863a26fe12fd">
       <site name="Quand Jésus a convaincu Mère Teresa de fonder les Sœurs de la charité" id="f64db7bc-59bc-4a3f-99b9-6d815a2b4fa0">
         <description>C&apos;est la vie de Mère Teresa.&#10;C&apos;est Mère Teresa.</description>
         <url>http://fr.aleteia.org/2016/06/08/quand-jesus-a-convaincu-mere-teresa-de-fonder-les-soeurs-de-la-charite/</url>
       </site>
-    </topic>
-    <topic name="Saint Jean Marie Vianney" id="c8ea92c7-d6b2-4476-80ee-a103e48e8eeb">
+    </folder>
+    <folder name="Saint Jean Marie Vianney" id="c8ea92c7-d6b2-4476-80ee-a103e48e8eeb">
       <information name="Dates et lieux" id="50b97f98-ad80-4e31-bfd7-09f60196b7c1">
         <tests>
           <test input="Quand Jean Marie Vianney fut appelé à l&apos;armée ?" output="Jean Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;50b97f98-ad80-4e31-bfd7-09f60196b7c1&quot; /&gt;"/>
         </tests>
         <description>Jean Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean Marie Vianney fit sa première communion dans le village voisin d&apos;Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean Marie Vianney fut appelé à l&apos;armée.&#10;Jean Marie Vianney fut accepté au séminaire de Verrières en 1811.</description>
       </information>
-    </topic>
-    <topic name="Saint Maximilien Kolbe" id="7ed16ea4-1930-4a40-a33d-0c412038f06c">
+    </folder>
+    <folder name="Saint Maximilien Kolbe" id="7ed16ea4-1930-4a40-a33d-0c412038f06c">
       <video name="Saint Maximilien Kolbe" id="b1f5a9fc-0e2e-4f3a-9cf4-469309ccace5">
         <tests>
           <test input="Montre-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/gppqYL42NRQ&amp;t=393s\" outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;b1f5a9fc-0e2e-4f3a-9cf4-469309ccace5&quot; /&gt;"/>
@@ -573,8 +573,8 @@
         <description>C&apos;est Saint Maximilien Kolbe.</description>
         <url>https://www.youtube.com/v/fX80yAbcFpA</url>
       </video>
-    </topic>
-    <topic name="Sainte Faustine" id="a805a925-ec25-4021-981c-ad7cf318c635">
+    </folder>
+    <folder name="Sainte Faustine" id="a805a925-ec25-4021-981c-ad7cf318c635">
       <video name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="d691f93c-44c8-4f63-b3c2-2bd738ca132f">
         <tests>
           <test input="qui est sainte faustine" output="Sainte Faustine est \hc_resource_video=#fr_FR#https://www.youtube.com/v/mkCY34n6H2I\" outputReferences="Source : &lt;hc_source name=&quot;Exemples de vie&quot; resourceid=&quot;d691f93c-44c8-4f63-b3c2-2bd738ca132f&quot; /&gt;"/>
@@ -582,15 +582,15 @@
         <description>C&apos;est la vie de Sainte Faustine.&#10;C&apos;est Sainte Faustine.</description>
         <url>https://www.youtube.com/v/mkCY34n6H2I</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="L&apos;Évangile au Quotidien" id="a4af9d42-9c2a-48f1-afbf-47f4c14e8217" description="« Evangelizo / L&apos;Evangile au Quotidien » est un service proposé par l&apos;association internationale Evangelizo. La mission d&apos;Evangelizo est de diffuser l&apos;Évangile à travers le monde par Internet dans toutes les langues et de développer les moyens techniques à cette fin. L&apos;équipe Evangelizo est composée de plus de 70 laïcs et religieux catholiques de diverses communautés, congrégations ou sensibilités spirituelles : Bénédictins, Carmélites, Cisterciens, Fraternités Monastiques de Jérusalem, Jésuites, Rédemptoristes, Communauté de l&apos;Emmanuel, Focolari." url="https://levangileauquotidien.org">
-    <topic name="Evangile" id="5fc703c6-687c-4e5e-93b3-d6b195c06451">
+    <folder name="Evangile" id="5fc703c6-687c-4e5e-93b3-d6b195c06451">
       <api name="Commentaire de l&apos;Evangile" id="5268e163-062c-4e75-80df-1e961f709380">
         <apiId>holy_gospel_comment</apiId>
       </api>
-    </topic>
-    <topic name="Présentation" id="f21cd483-60a6-498f-b509-7f4f89c7137c">
+    </folder>
+    <folder name="Présentation" id="f21cd483-60a6-498f-b509-7f4f89c7137c">
       <video name="L&apos;Évangile au Quotidien" id="c3f0ebc2-9c2e-4f27-850b-8d6a040dc965">
         <tests>
           <test input="C&apos;est quoi &quot;L&apos;Évangile au Quotidien&quot; ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/H1A2tg6ccKg\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;c3f0ebc2-9c2e-4f27-850b-8d6a040dc965&quot; /&gt;"/>
@@ -598,18 +598,18 @@
         <description>C&apos;est &quot;L&apos;Évangile au Quotidien&quot;.</description>
         <url>https://www.youtube.com/v/H1A2tg6ccKg</url>
       </video>
-    </topic>
-    <topic name="Saint" id="10d3a368-91fe-4bd3-8b6e-b6a8b9d7960b">
+    </folder>
+    <folder name="Saint" id="10d3a368-91fe-4bd3-8b6e-b6a8b9d7960b">
       <api name="Saint" id="aeb5600e-10a3-4c83-b17d-f399d10415fd">
         <tests>
           <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est :&#10;&lt;br /&gt;Faux Saint du jour pour les tests" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;aeb5600e-10a3-4c83-b17d-f399d10415fd&quot; /&gt;"/>
         </tests>
         <apiId>saint</apiId>
       </api>
-    </topic>
+    </folder>
   </folder>
   <folder name="Le caté en 3 minutes" id="b659ea3d-e096-417e-83e6-40bd7e0de38d" description="Un dessin animé qui met les enseignements de l’Église à la portée de tous. Un dessin à la ligne claire dans ces 72 épisodes proposés par le père J.M. Schwartz (diocèse de Vaduz) et l’association KathMedia." url="https://www.youtube.com/playlist?list=PLIcePO_eJb299XFdAr--xqzQxdX5g3JZN">
-    <topic name="Comment" id="9a373311-ca09-4ce3-9577-186c9eb8b3d8">
+    <folder name="Comment" id="9a373311-ca09-4ce3-9577-186c9eb8b3d8">
       <video name="08. Comment Dieu s’est-il révélé ?" id="3b5a6318-b7df-4780-a734-aacc37ce301f">
         <tests>
           <test input="Comment Dieu s’est-il révélé ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PMh58N-riFU\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 7,2-53&quot; /&gt;; &lt;hc_bible ref=&quot;He 1,1-2&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;50-73&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;3b5a6318-b7df-4780-a734-aacc37ce301f&quot; /&gt;"/>
@@ -690,8 +690,8 @@
         <answeredQuestions>Comment Jésus vivait-il ?</answeredQuestions>
         <url>https://www.youtube.com/v/YGssVpl_qSQ</url>
       </video>
-    </topic>
-    <topic name="Diverses questions" id="f6378b8f-2034-4aac-a5c4-df4ca7c4684d">
+    </folder>
+    <folder name="Diverses questions" id="f6378b8f-2034-4aac-a5c4-df4ca7c4684d">
       <video name="03. Quelle est la différence entre croire et savoir?" id="366c9770-ce5e-48b9-93d4-e16c84c110aa">
         <tests>
           <test input="Quelle est la différence entre croire et savoir?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/adzJJ0vbezI\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2Co 5,7&quot; /&gt;; &lt;hc_bible ref=&quot;He 11,1&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;159&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;366c9770-ce5e-48b9-93d4-e16c84c110aa&quot; /&gt;"/>
@@ -916,8 +916,8 @@
         <answeredQuestions>Qui était Jésus ?</answeredQuestions>
         <url>https://www.youtube.com/v/--XXP9TMk3s</url>
       </video>
-    </topic>
-    <topic name="Définitions" id="7a2c8ab4-0dc2-4ed9-b84e-d508170292d2">
+    </folder>
+    <folder name="Définitions" id="7a2c8ab4-0dc2-4ed9-b84e-d508170292d2">
       <video name="01. Qu&apos;est-ce que l&apos;homme?" id="09cfa4ac-1cb9-482a-be15-7a98db9c772d">
         <tests>
           <test input="Qu&apos;est-ce que l&apos;homme?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/dO7ZoVhTWm0\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 17,27-28&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 48,21&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 1,5&quot; /&gt;; &lt;hc_bible ref=&quot;2Ch 1,7-12&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;44-45&quot; /&gt;; &lt;hc_ccc ref=&quot;26-30&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;09cfa4ac-1cb9-482a-be15-7a98db9c772d&quot; /&gt;"/>
@@ -993,8 +993,8 @@
         <answeredQuestions>C’est quoi, le mal ?</answeredQuestions>
         <url>https://www.youtube.com/v/vLAfAC7Xslo</url>
       </video>
-    </topic>
-    <topic name="Pourquoi" id="786fb327-0d12-45fc-9aba-4c8e4721311c">
+    </folder>
+    <folder name="Pourquoi" id="786fb327-0d12-45fc-9aba-4c8e4721311c">
       <video name="07. Pourquoi Dieu se révèle-t-il ?" id="3cdf86a8-4a5e-41f5-841f-0934f538a372">
         <tests>
           <test input="Pourquoi Dieu se révèle-t-il ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/0KJesx29IaI\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 1,18&quot; /&gt;; &lt;hc_bible ref=&quot;He 1,1-3&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,24&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;50-53&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;3cdf86a8-4a5e-41f5-841f-0934f538a372&quot; /&gt;"/>
@@ -1024,11 +1024,11 @@
         <answeredQuestions>Pourquoi Jésus est-il venu au monde il y a 2000 ans ?</answeredQuestions>
         <url>https://www.youtube.com/v/iDuyWpk6pDs</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="Pratiks" id="14e3e110-e713-4e0a-9df7-f9cddfa7ad89" description="Des vidéos pour tout faire : tutos, trucs, astuces, savoir-faire, mode d&apos;emploi, recettes, coaching, pour chaque instant de la vie. Des réponses en vidéo à toutes vos questions du quotidien." url="https://www.youtube.com/user/pratiks"/>
   <folder name="Technologies" id="9774409a-1ba4-4f89-9f08-34fe38b033b3">
-    <topic name="Applications" id="948c5d68-b74a-404b-8548-4f522c0f7dd1">
+    <folder name="Applications" id="948c5d68-b74a-404b-8548-4f522c0f7dd1">
       <site name="Entourage" id="f0f48d15-7aba-4939-9bbf-3ec4afe79658">
         <description>C&apos;est une application chrétienne.</description>
         <url>http://www.entourage.social/</url>
@@ -1045,8 +1045,8 @@
         <description>C&apos;est une application chrétienne.</description>
         <url>http://www.appli-laquete.fr/</url>
       </site>
-    </topic>
-    <topic name="Holy Chatter" id="7557d0ad-bb98-4a1e-a319-0613e625ed26">
+    </folder>
+    <folder name="Holy Chatter" id="7557d0ad-bb98-4a1e-a319-0613e625ed26">
       <conversation_flow name="Bonjour" id="9736432a-a317-4c63-ab54-fcda6e7a0c95">
         <tests>
           <test input="Bonjour" output="Bonjour"/>
@@ -1076,10 +1076,10 @@
         </tests>
         <description>Je vais bien.</description>
       </information>
-    </topic>
+    </folder>
   </folder>
   <folder name="ThéoDom" id="00da75ad-ed35-43db-a74a-33d6b0b6e904" description="ThéoDom est une proposition des frères dominicains de la Province de France.&#10;&#10;ThéoDom est un site de Retraite dans la Ville, premier portail de retraite francophone sur internet.&#10;&#10;ThéoDom est animé par de jeunes théologiens de différentes nationalités.&#10;&#10;ThéoDom propose en 4 saisons de 5 semaines une découverte ludique et interactive de la théologie catholique.&#10;&#10;A l&apos;origine de cette initiative se trouvent de jeunes frères dominicains marqués par la demande de formation d&apos;un nombre croissant de catholiques et par le désir de proposer une telle formation sur Internet, fidèle à la tradition d&apos;enseignement de la théologie de leur ordre." url="https://www.theodom.org">
-    <topic name="1 - Comment réfléchir sur la foi ?" id="98b51553-db2c-428b-bd61-3be348abcc3c">
+    <folder name="1 - Comment réfléchir sur la foi ?" id="98b51553-db2c-428b-bd61-3be348abcc3c">
       <video name="1) Dieu a-t-il écrit la Bible ?" id="b8b8a853-905a-4631-b662-6fe186ca0936">
         <tests>
           <test input="qui a écrit la Bible ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/FzvVw0-BOKg\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;b8b8a853-905a-4631-b662-6fe186ca0936&quot; /&gt;"/>
@@ -1134,8 +1134,8 @@
         <timeOffset>1</timeOffset>
         <triggers>Je suis chrétien.</triggers>
       </conversation_flow>
-    </topic>
-    <topic name="2 - Tout (ou presque !) sur l&apos;Esprit-Saint" id="5661864e-cb7c-482d-8ca0-e5455a8835a7">
+    </folder>
+    <folder name="2 - Tout (ou presque !) sur l&apos;Esprit-Saint" id="5661864e-cb7c-482d-8ca0-e5455a8835a7">
       <video name="1) Comment parler de l&apos;Esprit-Saint ?" id="dd41b169-efca-45f3-a340-b6dec61b3084">
         <tests>
           <test input="Comment parler de l&apos;Esprit-Saint ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/Ob3S2TYZ40o\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 3,13-17&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 1,1-5&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,1-6&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13,17-22&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 8,6-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 7,33-39&quot; /&gt;; &lt;hc_bible ref=&quot;Ga 5,13-26&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dd41b169-efca-45f3-a340-b6dec61b3084&quot; /&gt;"/>
@@ -1208,8 +1208,8 @@
         </references>
         <url>https://www.youtube.com/v/aDn8zn8xvVI</url>
       </video>
-    </topic>
-    <topic name="3 - Découvrir le livre de l&apos;Apocalypse" id="ce210db7-40b6-47f2-a0e5-f2089f6570a5">
+    </folder>
+    <folder name="3 - Découvrir le livre de l&apos;Apocalypse" id="ce210db7-40b6-47f2-a0e5-f2089f6570a5">
       <video name="1) Vous avez dit Apocalypse ? (Ap 1-3)" id="cc391b36-e1ca-427e-8b7d-c9a50237f344">
         <tests>
           <test input="C&apos;est quoi l&apos;Apocalypse ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/neTA0jmzGTc\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 1&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 2&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;cc391b36-e1ca-427e-8b7d-c9a50237f344&quot; /&gt;"/>
@@ -1277,10 +1277,10 @@
         </references>
         <url>https://www.youtube.com/v/i4LEgRKuY3w</url>
       </video>
-    </topic>
+    </folder>
   </folder>
   <folder name="Témoignages" id="163b05b7-b7f1-4c4d-b236-1289bec80209">
-    <topic name="Guillaume" id="1ffe56f2-041a-4070-931b-867b166e3432">
+    <folder name="Guillaume" id="1ffe56f2-041a-4070-931b-867b166e3432">
       <video name="Comment devenir immortel... en 8 minutes (passer de la mort à la vie éternelle)" id="7e4d2365-acab-467f-a211-54f03a445f68">
         <tests>
           <test input="Comment devenir immortel ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/0gZxJcHg_DI\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 30,15-20&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,21-27&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Témoignages&quot; resourceid=&quot;7e4d2365-acab-467f-a211-54f03a445f68&quot; /&gt;"/>
@@ -1384,8 +1384,8 @@
         </references>
         <url>https://www.youtube.com/v/j_u-QbcWxC0</url>
       </video>
-    </topic>
-    <topic name="Guérisons" id="0c812606-c303-4ef5-bc33-a44451491a05">
+    </folder>
+    <folder name="Guérisons" id="0c812606-c303-4ef5-bc33-a44451491a05">
       <video name="&quot;Ma guérison à Lourdes&quot; : Serge François témoigne" id="0cc7655c-5a43-4639-a78d-39d76c4730bb">
         <tests>
           <test input="Je veux voir une guérison inexpliquée." output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/eI90Nr07hNg\" outputReferences="Source : &lt;hc_source name=&quot;Témoignages&quot; resourceid=&quot;0cc7655c-5a43-4639-a78d-39d76c4730bb&quot; /&gt;"/>
@@ -1420,10 +1420,10 @@
         <timeOffset>1</timeOffset>
         <triggers>Je ne veux pas voir vidéo qui décrit l&apos;Église.</triggers>
       </conversation_flow>
-    </topic>
+    </folder>
   </folder>
   <folder name="Webtélé ECDQ" id="9baafebd-df55-489c-a3a1-e43ceea1e5c6" description="Portail médias de l&apos;Église catholique de Québec." url="https://www.ecdq.tv/">
-    <topic name="Prédications" id="fc0003dc-8839-4d86-b0e9-695f2b1fdbdd">
+    <folder name="Prédications" id="fc0003dc-8839-4d86-b0e9-695f2b1fdbdd">
       <video name="Le message chrétien en 7 minutes" id="d64abe34-2571-497a-bf6d-bf95c66844c1">
         <tests>
           <test input="Je veux voir le message chrétien" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/SSqiaVXtkRQ\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;d64abe34-2571-497a-bf6d-bf95c66844c1&quot; /&gt;"/>
@@ -1447,10 +1447,10 @@
         <description>Veux-tu voir le message chrétien ?</description>
         <timeOffset>6</timeOffset>
       </conversation_flow>
-    </topic>
+    </folder>
   </folder>
   <folder name="Youcat" id="6f9bfdf9-21e9-4eb2-a355-41897090ea28" description="Le Youcat est le premier catéchisme conçu pour les jeunes à leur demande. Il a pour but de leur permettre de connaître et de vivre leur foi dans un langage et un style adaptés pour eux. C’est une réalisation unique en son genre publiée en quinze langues." url="https://www.editionsducerf.fr/librairie/livre/7189/youcat">
-    <topic name="1 - Ce que nous croyons" id="dfe443d0-4203-41e9-b5f6-a428762a7411">
+    <folder name="1 - Ce que nous croyons" id="dfe443d0-4203-41e9-b5f6-a428762a7411">
       <information name="1) Pourquoi sommes-nous sur terre ?" id="096179b4-5cdb-452b-93f6-40528646528d">
         <tests>
           <test input="Pourquoi sommes-nous sur terre ?" output="Nous sommes sur terre pour connaître Dieu, aimer Dieu, faire le bien selon sa volonté et parvenir un jour au ciel." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Tm 2,1-4&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,15-17&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14,5-7&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1-3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;096179b4-5cdb-452b-93f6-40528646528d&quot; /&gt;"/>
@@ -1493,15 +1493,15 @@
           <ccc verseBegin="44" verseEnd="47"/>
         </references>
       </information>
-    </topic>
-    <topic name="2 - La célébration des mystères chrétiens" id="fc1757f3-b651-4f55-9d80-af20edce07af">
+    </folder>
+    <folder name="2 - La célébration des mystères chrétiens" id="fc1757f3-b651-4f55-9d80-af20edce07af">
       <information name="167) Qu&apos;est-ce que la liturgie ?" id="4527c9a3-7524-45da-b42c-69203693964f">
         <description>La liturgie est le culte officiel de l&apos;Eglise.</description>
         <references>
           <ccc verseBegin="1077" verseEnd="1112"/>
         </references>
       </information>
-    </topic>
+    </folder>
   </folder>
   <suggestions>
     <suggestion question="Quel est la première lecture du jour ?" notSelectedImage="aaaOpenBible.jpg" selectedImage="aaaOpenBible_selected.jpg" cloudImage="cloud_01.png" position="-7" showAtFrontPositionIfCurrentlyChosen="false">
