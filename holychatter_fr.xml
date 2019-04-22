@@ -35,29 +35,27 @@
       </folder>
     </folder>
     <folder name="Comprendre Dieu" id="57cb0dda-405a-4311-9d8f-4d0dc4197ee9" description="Ce site est géré par l’association Top Mission, reconnue d’intérêt général. Pour répondre au mieux aux questions autour de l’existence d’un dieu, nous avons constitué une équipe composée de conférenciers en philosophie de la religion et d’experts de spiritualité." url="https://comprendredieu.com">
-      <folder name="Jésus" id="970c51d5-e391-4560-aa94-7759b9cc2238">
-        <video name="La résurrection du Christ, simple légende ou fait historique ? " id="788f1c7a-2c50-495f-bd74-0af582d3f4b7">
-          <description>C&apos;est la résurrection de Jésus.</description>
-          <references>
-            <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
-            <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
-            <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
-            <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
-            <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
-            <bible book="1 Cor" chapter="15" verseBegin="16" verseEnd="26"/>
-            <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
-          </references>
-          <url>https://www.youtube.com/v/S1i5VeBF4U8</url>
-        </video>
-        <video name="Qui est Jésus ?" id="fe0118be-bbf5-4b04-8f9b-184afc231118">
-          <tests>
-            <test input="Qui est Jésus ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
-            <test input="qui est jesus" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
-          </tests>
-          <answeredQuestions>Qui est Jésus ?</answeredQuestions>
-          <url>https://www.youtube.com/v/PxHDVbdJ9cY</url>
-        </video>
-      </folder>
+      <video name="La résurrection du Christ, simple légende ou fait historique ? " id="788f1c7a-2c50-495f-bd74-0af582d3f4b7">
+        <description>C&apos;est la résurrection de Jésus.</description>
+        <references>
+          <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
+          <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
+          <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
+          <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
+          <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
+          <bible book="1 Cor" chapter="15" verseBegin="16" verseEnd="26"/>
+          <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
+        </references>
+        <url>https://www.youtube.com/v/S1i5VeBF4U8</url>
+      </video>
+      <video name="Qui est Jésus ?" id="fe0118be-bbf5-4b04-8f9b-184afc231118">
+        <tests>
+          <test input="Qui est Jésus ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
+          <test input="qui est jesus" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/PxHDVbdJ9cY\" outputReferences="Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;fe0118be-bbf5-4b04-8f9b-184afc231118&quot; /&gt;"/>
+        </tests>
+        <answeredQuestions>Qui est Jésus ?</answeredQuestions>
+        <url>https://www.youtube.com/v/PxHDVbdJ9cY</url>
+      </video>
     </folder>
     <folder name="Cybercuré" id="afe6903f-b589-48c0-8adf-3e9a4155bdab" description="Un site, créé en 2000, qui s’adresse tout d’abord aux catholiques, mais surtout à ceux qui se questionnent sur la foi, les sacrements, la liturgie, les fêtes chrétiennes, l’actualité religieuse… Il s’agit bien souvent de non pratiquants, qui se rendent à la messe à l’occasion d’un mariage, d’un enterrement, et qui s’interrogent sur la religion chrétienne. Formidable outil d’évangélisation sur le web, le CyberCuré vulgarise la foi chrétienne. Il utilise les techniques actuelles pour « dialoguer avec l’homme d’aujourd’hui et l’amener à la rencontre du Christ. »" url="https://cybercure.fr">
       <folder name="Je célèbre les sacrements" id="5ec18797-277b-40ac-8e67-b0abf5f807ac">
@@ -666,10 +664,27 @@
         </video>
         <video name="53. Quelles sont les caractéristiques de l&apos;Église ?" id="aece1c32-d98e-4f5c-b088-ae26fad7f9ff">
           <tests>
-            <test input="Quelles sont les caractéristiques de l&apos;Église ?" output="Les caractéristiques de l&apos;Église sont \hc_resource_video=#fr_FR#https://www.youtube.com/v/9c_m1H1C_lk\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;aece1c32-d98e-4f5c-b088-ae26fad7f9ff&quot; /&gt;"/>
+            <test input="Quelles sont les caractéristiques de l&apos;Église ?" output="Les caractéristiques de l&apos;Église sont \hc_resource_video=#fr_FR#https://www.youtube.com/v/9c_m1H1C_lk\" outputReferences="Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;aece1c32-d98e-4f5c-b088-ae26fad7f9ff&quot; /&gt;"/>
           </tests>
           <description>C&apos;est les caractéristiques de l&apos;Église</description>
           <url>https://www.youtube.com/v/9c_m1H1C_lk</url>
+        </video>
+        <video name="60. Qui est Marie ?" id="8256d3e6-1b27-48b6-978f-616c60e8f73b">
+          <tests>
+            <test input="qui est Marie" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/YwGUR__180U\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;8256d3e6-1b27-48b6-978f-616c60e8f73b&quot; /&gt;"/>
+            <test input="qui est la mère de Jésus" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/YwGUR__180U\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;8256d3e6-1b27-48b6-978f-616c60e8f73b&quot; /&gt;"/>
+            <test input="Qui est la Vierge Marie ?" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/YwGUR__180U\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;8256d3e6-1b27-48b6-978f-616c60e8f73b&quot; /&gt;"/>
+            <test input="La Vierge Marie" output="\hc_resource_video=#fr_FR#https://www.youtube.com/v/YwGUR__180U\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; /&gt;&lt;br /&gt;Dans le catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;8256d3e6-1b27-48b6-978f-616c60e8f73b&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="28"/>
+            <bible book="Jn" chapter="19" verseBegin="25"/>
+            <bible book="Acts" chapter="1" verseBegin="14"/>
+            <ccc verseBegin="487" verseEnd="511"/>
+            <ccc verseBegin="963" verseEnd="975"/>
+          </references>
+          <answeredQuestions>Qui est Marie ?&#10;Qui est la Vierge Marie ?&#10;qui est la mère de Jésus</answeredQuestions>
+          <url>https://www.youtube.com/v/YwGUR__180U</url>
         </video>
       </folder>
       <folder name="8. Eschatologie" id="fbf97d49-30f2-4ccb-add0-a3aa42c30dbb"/>
@@ -1263,11 +1278,9 @@
         </site>
         <information name="Qui est Marie" id="2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9">
           <tests>
-            <test input="qui est Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9&quot; /&gt;"/>
-            <test input="qui est la mère de Jésus" output="Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9&quot; /&gt;"/>
+            <test input="Qui est la première des disciples ?" output="La première des disciples est Mère de Jésus." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9&quot; /&gt;"/>
           </tests>
           <description>Marie tient une place privilégiée dans la foi chrétienne. Mère de Jésus, elle est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.</description>
-          <answeredQuestions>Qui est Marie&#10;qui est la mère de Jésus</answeredQuestions>
         </information>
       </folder>
       <folder name="Mère Teresa" id="5182c2e9-8ac2-44f4-8bc4-863a26fe12fd">
