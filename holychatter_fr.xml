@@ -20,7 +20,6 @@
             <test input="Je connais bien l&apos;Eglise Catholique." output="Veux-tu lire l&apos;évangile du jour ?"/>
           </tests>
           <description>Veux-tu lire l&apos;évangile du jour ?</description>
-          <timeOffset>1</timeOffset>
           <triggers>Je connais bien l&apos;Eglise Catholique.</triggers>
         </conversation_flow>
       </folder>
@@ -36,6 +35,9 @@
     </folder>
     <folder name="Comprendre Dieu" id="57cb0dda-405a-4311-9d8f-4d0dc4197ee9" description="Ce site est géré par l’association Top Mission, reconnue d’intérêt général. Pour répondre au mieux aux questions autour de l’existence d’un dieu, nous avons constitué une équipe composée de conférenciers en philosophie de la religion et d’experts de spiritualité." url="https://comprendredieu.com">
       <html name="La résurrection du Christ, simple légende ou fait historique ? " id="788f1c7a-2c50-495f-bd74-0af582d3f4b7">
+        <tests>
+          <test input="la résurrection de Jésus" output="La Résurrection de Jésus est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;788f1c7a-2c50-495f-bd74-0af582d3f4b7&quot; /&gt;"/>
+        </tests>
         <description>C&apos;est la résurrection de Jésus.</description>
         <references>
           <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
@@ -131,7 +133,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ae7QpYSJgLw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="La résurrection de Jésus est-elle un fait historique ?" id="800c432b-450a-48c1-9da0-7b4fdd37e604">
-          <description>C&apos;est la résurrection de Jésus.</description>
+          <tests>
+            <test input="La résurrection de Jésus est-elle un fait historique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5dyd7LiMce4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;800c432b-450a-48c1-9da0-7b4fdd37e604&quot; /&gt;"/>
+          </tests>
           <references>
             <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
             <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
@@ -140,6 +144,7 @@
             <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
             <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
           </references>
+          <triggers>La résurrection de Jésus est-elle un fait historique ?</triggers>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5dyd7LiMce4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Les Evangiles et le Nouveau Testament, des documents fiables ? " id="1ff5d051-a3b1-4106-87db-6f0484dcc53d">
@@ -168,19 +173,20 @@
         </html>
         <conversation_flow name="Suggestion sur l&apos;existence de Dieu" id="7288e95c-79a4-48b1-9ddf-1dd1457a58fc">
           <description>Veux-tu voir des signes de l&apos;existence de Dieu ?</description>
-          <timeOffset>1</timeOffset>
           <triggers>Je ne suis pas chrétien.</triggers>
         </conversation_flow>
         <html name="Tyr - une confirmation de l&apos;inspiration prophétique de la Bible ?" id="43d331b7-8596-45f8-8f9e-34edd3c0ee4c">
           <tests>
             <test input="Tyr" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ez 26,7-15&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;43d331b7-8596-45f8-8f9e-34edd3c0ee4c&quot; /&gt;"/>
             <test input="Montre-moi une confirmation de l&apos;inspiration prophétique de la Bible" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ez 26,7-15&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;43d331b7-8596-45f8-8f9e-34edd3c0ee4c&quot; /&gt;"/>
+            <test input="Quel est l&apos;histoire de Tyr ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ez 26,7-15&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;43d331b7-8596-45f8-8f9e-34edd3c0ee4c&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce que c&apos;est Tyr ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ez 26,7-15&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;43d331b7-8596-45f8-8f9e-34edd3c0ee4c&quot; /&gt;"/>
           </tests>
           <description>C&apos;est une confirmation de l&apos;inspiration prophétique de la Bible.</description>
           <references>
             <bible book="Ezek" chapter="26" verseBegin="7" verseEnd="15"/>
           </references>
-          <triggers>Tyr</triggers>
+          <triggers>Quel est l&apos;histoire de Tyr ?&#10;Qu&apos;est-ce que c&apos;est Tyr ?&#10;Tyr</triggers>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Une preuve de l&apos;existence de Dieu ? Dieu existe -t-il réellement ?" id="ab850f06-20f0-4eda-847b-665883736459">
@@ -933,7 +939,6 @@
         </html>
         <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="5fa081a9-23a7-48c9-84f0-eb94a9369354">
           <description>Veux tu savoir qui a écrit la Bible ?</description>
-          <timeOffset>1</timeOffset>
           <triggers>Je suis chrétien.</triggers>
         </conversation_flow>
       </folder>
@@ -1104,7 +1109,6 @@
         </html>
         <conversation_flow name="Suggestion pour voir le message chrétien" id="75209917-4b3c-45fd-aa3c-cbe724743976">
           <description>Veux-tu voir le message chrétien ?</description>
-          <timeOffset>6</timeOffset>
         </conversation_flow>
       </folder>
     </folder>
@@ -1329,7 +1333,6 @@
         </html>
         <conversation_flow name="suggestion pour connaître l&apos;Esprit Saint" id="cfb5be60-c2a7-4629-84aa-ddbbc7a1ea26">
           <description>Veux tu connaître l&apos;Esprit Saint ?</description>
-          <timeOffset>6</timeOffset>
         </conversation_flow>
       </folder>
     </folder>
@@ -1352,7 +1355,6 @@
       </folder>
       <conversation_flow name="Es-tu chrétien ?" id="d14434b4-0805-4ece-8f48-2cf5c868f2a1">
         <description>Es-tu chrétien ?</description>
-        <timeOffset>6</timeOffset>
       </conversation_flow>
       <folder name="Miséricorde" id="93ad2f47-5f42-4ba1-8d44-9598161ae1f1">
         <html name="Catéchèse JMJ avec Mgr David Macaire" id="4c4047e6-82c5-49e4-9ee5-716e3bf1bae8">
@@ -1366,7 +1368,6 @@
             <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
           </tests>
           <description>Il est vraiment ressuscité !</description>
-          <timeOffset>1</timeOffset>
           <triggers>Christ est ressuscité !</triggers>
         </conversation_flow>
         <conversation_flow name="Que le Seigneur soit avec vous !" id="649ac1c7-6f1b-42b9-85ae-27ed483cee31">
@@ -1374,7 +1375,6 @@
             <test input="Que le Seigneur soit avec vous !" output="Et avec votre Esprit"/>
           </tests>
           <description>Et avec votre Esprit</description>
-          <timeOffset>1</timeOffset>
           <triggers>Que le Seigneur soit avec vous !</triggers>
         </conversation_flow>
       </folder>
@@ -1383,7 +1383,6 @@
           <test input="Je ne connais pas bien l&apos;Eglise Catholique." output="Veux-tu voir une vidéo qui décrit l&apos;Eglise ?"/>
         </tests>
         <description>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</description>
-        <timeOffset>1</timeOffset>
         <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
       </conversation_flow>
     </folder>
@@ -1528,12 +1527,10 @@
             <test input="Salut" output="Bonjour"/>
           </tests>
           <description>Bonjour</description>
-          <timeOffset>1</timeOffset>
           <triggers>Bonjour</triggers>
         </conversation_flow>
         <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="ff4bfc77-593c-454e-b36c-73915cb87e33">
           <description>Connais-tu déjà bien l&apos;Eglise Catholique ?</description>
-          <timeOffset>6</timeOffset>
         </conversation_flow>
         <information name="Mon nom" id="ac37e00f-b531-4cd0-83fd-30a050050f8a">
           <tests>
@@ -1552,7 +1549,7 @@
       </folder>
     </folder>
     <folder name="Témoignages" id="163b05b7-b7f1-4c4d-b236-1289bec80209">
-      <folder name="Guillaume" id="1ffe56f2-041a-4070-931b-867b166e3432">
+      <folder name="Guillaume - Est-ce que Dieu existe ?" id="1ffe56f2-041a-4070-931b-867b166e3432" description="J&apos;ai 23 ans et je suis séminariste. &quot;Sémiquoi?!&quot; Le terme séminariste désigne les hommes qui sont en formation en vue de devenir prêtres. &#10;&#10;J’ai créé cette chaîne parce que je ressens fortement le besoin de partager la joie et la paix qui m&apos;habitent depuis que j&apos;ai rencontré Jésus Christ il y a 5 ans. Dans mes vidéos je témoigne parfois des expériences spirituelles que j&apos;ai vécues jusqu&apos;ici et qui m&apos;ont menées jusqu&apos;au séminaire (lieu de formation des séminaristes). &#10;&#10;J’ai également créé cette chaîne pour parler des questions les plus importantes que l’être humain est amené à se poser durant sa vie: « est-ce que Dieu existe? », « quel est le sens de ma vie? », « qu’est-ce qui se passe après la mort…? » « comment être heureux »! Je partage les réponses qu’apporte la foi catholique à ces grandes questions. Le but de cette chaîne est de réfléchir et de partager sur ces questions quelque soit sa religion, que l’on soit croyant ou non. Tout le monde est le bienvenu, bonne visite! ;)" url="https://www.youtube.com/channel/UCmak4xFMAikQXYADsI9gLSg">
         <html name="Comment devenir immortel... en 8 minutes (passer de la mort à la vie éternelle)" id="7e4d2365-acab-467f-a211-54f03a445f68">
           <tests>
             <test input="Comment devenir immortel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 30,15-20&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,21-27&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;7e4d2365-acab-467f-a211-54f03a445f68&quot; /&gt;"/>
@@ -1726,7 +1723,6 @@
             <test input="Je ne veux pas voir vidéo qui décrit l&apos;Église." output="Est-ce que tu veux voir une guérison inexpliquée ?"/>
           </tests>
           <description>Est-ce que tu veux voir une guérison inexpliquée ?</description>
-          <timeOffset>1</timeOffset>
           <triggers>Je ne veux pas voir vidéo qui décrit l&apos;Église.</triggers>
         </conversation_flow>
       </folder>
