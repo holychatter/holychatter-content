@@ -569,8 +569,8 @@
           <apiId>second_reading</apiId>
         </api>
         <information name="Suggest to read the Holy Gospel" id="dd8cfe42-efb2-4a78-8e13-d71e83e1229e">
-          <description>Do you want to read the Holy Gospel of today ?</description>
           <triggers>I know the Catholic Church.</triggers>
+          <text>Do you want to read the Holy Gospel of today ?</text>
         </information>
       </folder>
       <folder name="Saint" id="b4aec685-2844-49c4-873d-bb929bbbb512">
@@ -595,7 +595,6 @@
             <test input="Why are we on earth?" output="We are on earth in order to know, to love God, to do good according to he ll and to go someday to Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:1-4&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:15-17&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:5-7&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;9a35f23a-3f9e-4c37-9fdd-8c55b7ff9421&quot; /&gt;"/>
             <test input="For what purpose are we here on earth?" output="We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:1-4&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:15-17&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:5-7&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;9a35f23a-3f9e-4c37-9fdd-8c55b7ff9421&quot; /&gt;"/>
           </tests>
-          <description>We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.</description>
           <references>
             <ccc verseBegin="1" verseEnd="3"/>
             <ccc verseBegin="358"/>
@@ -604,35 +603,36 @@
             <bible book="Jn" chapter="14" verseBegin="5" verseEnd="7"/>
           </references>
           <triggers>For what purpose are we here on earth?</triggers>
+          <text>We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.</text>
         </information>
         <information name="2 - Why did God create us?" id="2b521071-8fcb-4151-b3c8-e8a0284151a9">
           <tests>
             <test input="Why did God create us?" output="God created us out of free and unselfish love." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;2b521071-8fcb-4151-b3c8-e8a0284151a9&quot; /&gt;"/>
           </tests>
-          <description>God created us out of free and unselfish love.</description>
           <references>
             <ccc verseBegin="1" verseEnd="3"/>
           </references>
           <triggers>Why did God create us?</triggers>
+          <text>God created us out of free and unselfish love.</text>
         </information>
         <information name="3 - Why do we seek God?" id="29bf079f-5fd3-4501-97ce-479a3892baf9">
           <tests>
             <test input="Why do we seek God?" output="We seek God because God placed a longing to seek in our hearts." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;27-30&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;29bf079f-5fd3-4501-97ce-479a3892baf9&quot; /&gt;"/>
           </tests>
-          <description>We seek God because God has placed in our hearts a longing to seek and find him.</description>
           <references>
             <ccc verseBegin="27" verseEnd="30"/>
           </references>
+          <text>We seek God because God has placed in our hearts a longing to seek and find him.</text>
         </information>
         <information name="4 - Can we know the existence of God by our reason?" id="54a85aee-07e4-4a33-9908-ad9818ec9864">
           <tests>
             <test input="Can we know the existence of God by our reason?" output="Yes, we can know God&apos;s existence by our reason." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-36&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;54a85aee-07e4-4a33-9908-ad9818ec9864&quot; /&gt;"/>
           </tests>
-          <description>We can know the existence of God by our reason.</description>
           <references>
             <ccc verseBegin="31" verseEnd="36"/>
             <ccc verseBegin="44" verseEnd="47"/>
           </references>
+          <text>We can know the existence of God by our reason.</text>
         </information>
       </folder>
       <folder name="2 - How We Celebrate the Christian Mysteries" id="a78dc225-6b85-4a29-91af-c676eafc547d">
@@ -640,7 +640,7 @@
           <tests>
             <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;d1baeb04-7554-459a-ba1f-7175a33a579e&quot; /&gt;"/>
           </tests>
-          <description>Liturgy is the official divine worship of the Church.</description>
+          <text>Liturgy is the official divine worship of the Church.</text>
         </information>
       </folder>
     </folder>
@@ -673,65 +673,65 @@
           <tests>
             <test input="Did God become man?" output="Yes, God became man." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;238239c9-9df3-4c09-8465-b6a1f4aefa8a&quot; /&gt;"/>
           </tests>
-          <description>God became man to share everything of our human condition except sin.&#10;God has decided to come down to earth to take upon himself our curse out of love for us.</description>
+          <text>God became man to share everything of our human condition except sin.&#10;God has decided to come down to earth to take upon himself our curse out of love for us.</text>
         </information>
         <information name="God is not unfair." id="bfb27748-4f0b-400d-b888-f424ba5fba47">
-          <description>God is not unfair.</description>
           <references>
             <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
           </references>
+          <text>God is not unfair.</text>
         </information>
         <information name="God is not unfaithful" id="1d5c3892-3fc0-497a-8fb4-6dd36cde7377">
-          <description>God is not unfaithful.</description>
+          <text>God is not unfaithful.</text>
         </information>
         <information name="God surpasses reason" id="165f0f05-95d9-46d4-8e30-67a3ef71103c">
           <tests>
             <test input="God surpasses reason" output="Yes, I know God surpasses the reason." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 6:16&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;165f0f05-95d9-46d4-8e30-67a3ef71103c&quot; /&gt;"/>
           </tests>
-          <description>God surpasses reason.</description>
           <references>
             <bible book="1 Tim" chapter="6" verseBegin="16"/>
           </references>
+          <text>God surpasses reason.</text>
         </information>
         <information name="The Father is God" id="6c87d7b3-3611-480f-b9dd-f43bc7bcb812">
           <tests>
             <test input="The Father is God?" output="Yes, the Father is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;6c87d7b3-3611-480f-b9dd-f43bc7bcb812&quot; /&gt;"/>
           </tests>
-          <description>The Father is God.</description>
           <references>
             <bible book="Jn" chapter="6" verseBegin="27"/>
             <bible book="Rom" chapter="1" verseBegin="7"/>
             <bible book="1 Pet" chapter="1" verseBegin="2"/>
           </references>
+          <text>The Father is God.</text>
         </information>
         <information name="The Son is God" id="bbc0a9e1-d912-4202-93b6-6cc2db69b768">
           <tests>
             <test input="The Son is God?" output="Yes, the Son is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;bbc0a9e1-d912-4202-93b6-6cc2db69b768&quot; /&gt;"/>
           </tests>
-          <description>The Son is God.</description>
           <references>
             <bible book="Jn" chapter="1" verseBegin="1"/>
             <bible book="Rom" chapter="9" verseBegin="5"/>
             <bible book="Col" chapter="2" verseBegin="9"/>
           </references>
+          <text>The Son is God.</text>
         </information>
         <information name="The Spirit is God" id="aba8773e-8111-40d7-b3ce-d66fd4f3a8e5">
           <tests>
             <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 5:3-4&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;aba8773e-8111-40d7-b3ce-d66fd4f3a8e5&quot; /&gt;"/>
           </tests>
-          <description>The Spirit is God.</description>
           <references>
             <bible book="Acts" chapter="5" verseBegin="3" verseEnd="4"/>
             <bible book="1 Cor" chapter="3" verseBegin="16"/>
           </references>
+          <text>The Spirit is God.</text>
         </information>
         <information name="There is but one God" id="481ef65a-31da-48da-b56f-f14cfba5d1fc">
-          <description>There is but one God.</description>
           <references>
             <bible book="Deut" chapter="4" verseBegin="35"/>
             <bible book="Is" chapter="46" verseBegin="9"/>
             <bible book="1 Cor" chapter="8" verseBegin="4"/>
           </references>
+          <text>There is but one God.</text>
         </information>
       </folder>
       <folder name="God exists" id="08a74452-3083-483b-97a8-019f65675794">
@@ -743,7 +743,7 @@
           <tests>
             <test input="Does God exist?" output="Yes, God exists." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;0c7d8efa-d0a5-4102-92cf-4262c950d65b&quot; /&gt;"/>
           </tests>
-          <description>God exists.</description>
+          <text>God exists.</text>
         </information>
       </folder>
       <folder name="Gospel" id="840815e3-d6ca-4166-a947-c54aa62b1798">
@@ -751,7 +751,7 @@
           <tests>
             <test input="How many gospels are there?" output="There are 4 gospels."/>
           </tests>
-          <description>There is 4 gospels.</description>
+          <text>There is 4 gospels.</text>
         </information>
       </folder>
       <folder name="Resurrection" id="71e6b176-f09d-4d44-9531-a6d2bece9e5d">
@@ -760,7 +760,7 @@
             <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f&quot; /&gt;"/>
             <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f&quot; /&gt;"/>
           </tests>
-          <description>Jesus is resurrected.</description>
+          <text>Jesus is resurrected.</text>
         </information>
         <html name="The Resurrection of Jesus (Introduction) " id="87600b1c-4a1c-41c7-955c-6c4d6fab6958">
           <tests>
@@ -782,32 +782,32 @@
         <tests>
           <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;9b22fe34-e655-4bd9-85b7-1986a6be6a91&quot; /&gt;"/>
         </tests>
-        <description>The Bible provides a way to access happiness by following Jesus.</description>
+        <text>The Bible provides a way to access happiness by following Jesus.</text>
       </information>
       <information name="The Bible tells..." id="1a70020a-626c-40d0-b3fb-4915575e69e4">
         <tests>
           <test input="What does the Bible tell?" output="The Bible tells who God is, our story, the suffering that is present in our heart and our thirst." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;1a70020a-626c-40d0-b3fb-4915575e69e4&quot; /&gt;"/>
         </tests>
-        <description>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</description>
+        <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
       </information>
       <information name="The beginning of the Bible is the book of Genesis." id="c88e10de-a3d5-4185-8d09-5b5398501b8e">
         <tests>
           <test input="What is the beginning of the Bible?" output="The beginning of the Bible is Genesis&apos; book." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;c88e10de-a3d5-4185-8d09-5b5398501b8e&quot; /&gt;"/>
         </tests>
-        <description>The beginning of the Bible is the book of Genesis.</description>
+        <text>The beginning of the Bible is the book of Genesis.</text>
       </information>
     </folder>
     <folder name="Church" id="159b9fe6-27b1-4437-a2ee-186e57c783bf">
       <information name="Suggest to know what is the Church" id="d8403dde-246a-49fd-8e11-048f96b4cb54">
-        <description>Do you want to see a video that describe the Church ?</description>
         <triggers>I don&apos;t know the Catholic Church.</triggers>
+        <text>Do you want to see a video that describe the Church ?</text>
       </information>
       <folder name="Teaching" id="a9d939a8-19e0-4139-8dd1-12228b448913">
         <information name="Credo" id="fa91ea4d-25e8-4920-adae-0bc36ac65f3a">
           <tests>
             <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;fa91ea4d-25e8-4920-adae-0bc36ac65f3a&quot; /&gt;"/>
           </tests>
-          <description>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</description>
+          <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
         </information>
       </folder>
       <folder name="Usual answers" id="9dce8cfe-4e23-48bf-8581-6d600f81bc93">
@@ -881,24 +881,24 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <information name="Jesus and prophecies" id="00c777e5-2b23-42bb-8ae5-84a6b009a028">
-          <description>Jesus fulfills all the prophecies of the Old Testament.</description>
+          <text>Jesus fulfills all the prophecies of the Old Testament.</text>
         </information>
         <information name="Jesus and the cross" id="4569b78f-5765-44f3-9121-f215f7023958">
-          <description>Jesus goes so far as to die on the cross to deliver us from sin and death.</description>
+          <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
         </information>
         <information name="Jesus is the sun of God" id="dc416bfb-a21b-4430-80c7-77715d9ba70c">
           <tests>
             <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
             <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
           </tests>
-          <description>Jesus is the sun of God.</description>
           <references>
             <ccc verseBegin="432"/>
           </references>
           <triggers>Who is Jesus?</triggers>
+          <text>Jesus is the sun of God.</text>
         </information>
         <information name="Jesus is..." id="a5ec6a94-c705-4111-9afa-ba21c7d3e7a9">
-          <description>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</description>
+          <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
         </information>
         <information name="Jesus loves us" id="ab610213-b21e-4bbe-b643-2b8e8de1f4dc">
           <tests>
@@ -906,7 +906,6 @@
             <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
             <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
           </tests>
-          <description>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</description>
           <references>
             <bible book="Jn" chapter="3" verseBegin="16"/>
             <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
@@ -917,6 +916,7 @@
             <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
             <bible book="Prov" chapter="8" verseBegin="17"/>
           </references>
+          <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
         </information>
         <html name="The Jesus Movie (1979)" id="1f12b0f7-8108-4813-aa71-53089977fde4">
           <description>It&apos;s the life of Jesus.</description>
@@ -930,13 +930,13 @@
           <tests>
             <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;2d0a9946-21d9-4db0-8da4-934cebdadd53&quot; /&gt;"/>
           </tests>
-          <description>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</description>
           <references>
             <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
             <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
             <ccc verseBegin="432"/>
           </references>
           <triggers>Why is Jesus God?</triggers>
+          <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
         </information>
       </folder>
       <folder name="Mary" id="eb9d178d-3671-4179-b6a3-6b22cc77093e">
@@ -965,7 +965,7 @@
       </folder>
       <folder name="Saint Jean Marie Vianney" id="29084767-1eed-4de9-9fbd-fb5424d015b6">
         <information name="Life" id="7571c968-3f1b-47db-820a-e57fc94d52eb">
-          <description>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</description>
+          <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
         </information>
       </folder>
       <folder name="Saint Maximilian Kolbe" id="ad7aa70f-2244-4064-8c1d-999ac4b7f7a4">
@@ -990,21 +990,21 @@
           <tests>
             <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
           </tests>
-          <description>Hello</description>
           <triggers>hello</triggers>
+          <text>Hello</text>
         </information>
         <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
           <tests>
             <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
           </tests>
-          <description>I&apos;m fine.</description>
+          <text>I&apos;m fine.</text>
         </information>
         <information name="My name" id="60d6821a-f714-443c-97ed-ac33592e4c82">
           <tests>
             <test input="What is your name?" output="My name is Holy Chatter."/>
             <test input="Who are you?" output="I am Holy Chatter."/>
           </tests>
-          <description>My name is Holy Chatter.</description>
+          <text>My name is Holy Chatter.</text>
         </information>
       </folder>
     </folder>
@@ -1025,8 +1025,8 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <information name="Suggest to see a Christian testimony" id="9ba03c2e-1aed-4a84-96ed-19c9fa89733f">
-        <description>Do you want to see a Christian testimony?</description>
         <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
+        <text>Do you want to see a Christian testimony?</text>
       </information>
     </folder>
   </folder>
