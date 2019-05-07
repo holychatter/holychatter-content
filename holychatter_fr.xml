@@ -828,8 +828,10 @@
       <html name="Carte des parcours Alpha" id="d44b2185-11e0-46ff-a800-aa423805e9ed">
         <tests>
           <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;d44b2185-11e0-46ff-a800-aa423805e9ed&quot; /&gt;"/>
+          <test input="Quel est le Parcours Alpha le plus proche de chez moi ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;d44b2185-11e0-46ff-a800-aa423805e9ed&quot; /&gt;"/>
         </tests>
         <description>C&apos;est la carte des Parcours Alpha.</description>
+        <triggers>Quel est le Parcours Alpha le plus proche de chez moi ?</triggers>
         <code>&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="Le Parcours Alpha, c&apos;est quoi?" id="23fdd95c-5ac6-454e-8013-32e5b79654e8">
@@ -1337,25 +1339,16 @@
       </folder>
     </folder>
     <folder name="Eglise" id="016bb79a-f435-4a10-8cde-7eed889cd2a7">
-      <folder name="Enseignements" id="545bfed0-4909-403b-9cd2-44cdbce52063">
-        <information name="Le credo" id="9859bd25-2811-453c-80d5-d2b3fc9840a5">
-          <tests>
-            <test input="le credo" output="Le credo est :&#10;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;9859bd25-2811-453c-80d5-d2b3fc9840a5&quot; /&gt;"/>
-            <test input="qu&apos;est-ce que c&apos;est le credo ?" output="Le credo est :&#10;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;9859bd25-2811-453c-80d5-d2b3fc9840a5&quot; /&gt;"/>
-          </tests>
-          <text>Le credo c&apos;est &quot;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen.&quot;</text>
-        </information>
-        <html name="Pourquoi Dieu permet les épreuves ?" id="43f49496-2a2c-499b-9502-41510164212d">
-          <tests>
-            <test input="Pourquoi Dieu permet les épreuves ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0ZFvb8WK0G4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;43f49496-2a2c-499b-9502-41510164212d&quot; /&gt;"/>
-          </tests>
-          <triggers>Pourquoi Dieu permet les épreuves ?</triggers>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0ZFvb8WK0G4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
       <conversation_flow name="Es-tu chrétien ?" id="d14434b4-0805-4ece-8f48-2cf5c868f2a1">
         <description>Es-tu chrétien ?</description>
       </conversation_flow>
+      <information name="Le credo" id="9859bd25-2811-453c-80d5-d2b3fc9840a5">
+        <tests>
+          <test input="le credo" output="Le credo est :&#10;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;9859bd25-2811-453c-80d5-d2b3fc9840a5&quot; /&gt;"/>
+          <test input="qu&apos;est-ce que c&apos;est le credo ?" output="Le credo est :&#10;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;9859bd25-2811-453c-80d5-d2b3fc9840a5&quot; /&gt;"/>
+        </tests>
+        <text>Le credo c&apos;est &quot;Je crois en Dieu,&#10;le Père tout-puissant,&#10;Créateur du ciel et de la terre&#10;et en Jésus-Christ&#10;Son Fils unique,&#10;&#10;Notre Seigneur;&#10;qui a été conçu du Saint-Esprit,&#10;est né de la Vierge Marie;&#10;a souffert sous Ponce Pilate,&#10;a été crucifié, est mort,&#10;et a été enseveli;&#10;est descendu aux enfers&#10;le troisième jour est ressuscité des morts;&#10;&#10;est monté aux cieux,&#10;est assis à la droite de Dieu&#10;le Père tout-puissant;&#10;d&apos;où Il viendra juger&#10;les vivants et les morts.&#10;Je crois au  Saint-Esprit,&#10;à la sainte Eglise Catholique,&#10;à la communion des Saints,&#10;à la rémission des péchés,&#10;à la résurrection de la chair,&#10;à la vie éternelle.&#10;Amen.&quot;</text>
+      </information>
       <folder name="Miséricorde" id="93ad2f47-5f42-4ba1-8d44-9598161ae1f1">
         <html name="Catéchèse JMJ avec Mgr David Macaire" id="4c4047e6-82c5-49e4-9ee5-716e3bf1bae8">
           <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
@@ -1386,11 +1379,59 @@
         <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
       </conversation_flow>
     </folder>
+    <folder name="Enseignements" id="545bfed0-4909-403b-9cd2-44cdbce52063">
+      <folder name="Père René-Luc" id="b44875b9-7f4e-48ec-82b9-f2fda2b3ff7b" description="Le Père René-Luc est prédicateur et  cofondateur de CapMissio, l&apos;école de Missions Montpellier. Il est aumônier d&apos;étudiants sur la paroisse Sainte bernadette de Montpellier." url="https://www.youtube.com/user/PereReneLuc/featured">
+        <html name="La Parabole des Etoiles ou comment reconnaître les signes de Dieu ?" id="f43b6ed9-b595-486c-80bb-4aaad1c078c9">
+          <tests>
+            <test input="Comment reconnaître les signes de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QZvnHYjw1ZI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;f43b6ed9-b595-486c-80bb-4aaad1c078c9&quot; /&gt;"/>
+          </tests>
+          <description>C&apos;est la Parabole des Etoiles.</description>
+          <references>
+            <bible book="Mt" chapter="2"/>
+          </references>
+          <triggers>Comment reconnaître les signes de Dieu ?</triggers>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QZvnHYjw1ZI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="La parabole du radiateur ou si Dieu est bon, pourquoi la souffrance ?" id="24996c55-283b-44db-9d1c-ccb432dbea69">
+          <tests>
+            <test input="Pourquoi la souffrance ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CuHBPZbw28w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;24996c55-283b-44db-9d1c-ccb432dbea69&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Ps" chapter="22"/>
+          </references>
+          <triggers>Si Dieu est bon, pourquoi la souffrance ?&#10;Pourquoi la souffrance ?</triggers>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CuHBPZbw28w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="La vie de Saint Maximilien Kolbe" id="62164d1e-5391-498f-a6f6-2e57d114b138">
+          <tests>
+            <test input="Qui est Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;62164d1e-5391-498f-a6f6-2e57d114b138&quot; /&gt;"/>
+            <test input="Montre-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;62164d1e-5391-498f-a6f6-2e57d114b138&quot; /&gt;"/>
+          </tests>
+          <description>C&apos;est Saint Maximilien Kolbe.&#10;C&apos;est la vie de Saint Maximilien Kolbe.&#10;Saint Maximilien Kolbe a travaillé au Japon.</description>
+          <triggers>Qui est Saint Maximilien Kolbe ?</triggers>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Pourquoi Dieu permet les épreuves ?" id="43f49496-2a2c-499b-9502-41510164212d">
+          <tests>
+            <test input="Pourquoi Dieu permet les épreuves ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0ZFvb8WK0G4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;43f49496-2a2c-499b-9502-41510164212d&quot; /&gt;"/>
+          </tests>
+          <triggers>Pourquoi Dieu permet les épreuves ?</triggers>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0ZFvb8WK0G4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Père René-Luc, né de Père inconnu, élevé par un truand" id="e98de523-f60b-4a48-bd72-ddc4887c330d">
+          <tests>
+            <test input="Qui est le Père René-Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZyzceQ614iM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;e98de523-f60b-4a48-bd72-ddc4887c330d&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est le Père René-Luc ?</triggers>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZyzceQ614iM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+    </folder>
     <folder name="Exemples de vie" id="4aecb21a-128b-4a77-9d36-ba9b5a0644da">
       <folder name="Abraham" id="c9224e6c-6e34-4682-9c44-60f941bf65f7">
-        <html name="ABRAHAM LE FILM COMPLET" id="38ccf154-6188-4fdc-9371-f92a1706b074">
-          <description>C&apos;est la vie d&apos;Abraham.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXpeMmS9zYw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        <html name="La Bible Abraham" id="38ccf154-6188-4fdc-9371-f92a1706b074">
+          <description>C&apos;est la vie d&apos;Abraham.&#10;C&apos;est Abraham.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PeitUBmfzm0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&#10;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fuwt4F3a6A8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
       <folder name="Jésus" id="19a0f0e0-686c-42cf-be2c-05929557f0ec">
@@ -1473,21 +1514,13 @@
           <text>Jean Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean Marie Vianney fit sa première communion dans le village voisin d&apos;Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean Marie Vianney fut appelé à l&apos;armée.&#10;Jean Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
         </information>
       </folder>
-      <folder name="Saint Maximilien Kolbe" id="7ed16ea4-1930-4a40-a33d-0c412038f06c">
-        <html name="Saint Maximilien Kolbe" id="b1f5a9fc-0e2e-4f3a-9cf4-469309ccace5">
+      <folder name="Saint Maximilien Kolbe" id="2c6a12b9-710d-4bd3-97b2-236aa6d5dc99">
+        <information name="Saint Maximilien Kolbe a travaillé au Japon." id="129ef7a6-489d-45c6-a9ca-5474bc4f6653">
           <tests>
-            <test input="Montre-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gppqYL42NRQ&amp;t=393s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;b1f5a9fc-0e2e-4f3a-9cf4-469309ccace5&quot; /&gt;"/>
+            <test input="Où a travaillé Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe a travaillé au Japon." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;129ef7a6-489d-45c6-a9ca-5474bc4f6653&quot; /&gt;"/>
           </tests>
-          <description>C&apos;est la vie de Saint Maximilien Kolbe.&#10;Saint Maximilien Kolbe a travaillé au Japon.&#10; </description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gppqYL42NRQ&amp;t=393s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="prédication - Père René Luc" id="62164d1e-5391-498f-a6f6-2e57d114b138">
-          <tests>
-            <test input="Qui est Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;62164d1e-5391-498f-a6f6-2e57d114b138&quot; /&gt;"/>
-          </tests>
-          <description>C&apos;est Saint Maximilien Kolbe.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
+          <text>Saint Maximilien Kolbe a travaillé au Japon.</text>
+        </information>
       </folder>
       <folder name="Sainte Faustine" id="a805a925-ec25-4021-981c-ad7cf318c635">
         <html name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="d691f93c-44c8-4f63-b3c2-2bd738ca132f">
