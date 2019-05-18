@@ -559,7 +559,10 @@
             <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
             <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
             <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
           </tests>
+          <triggers>What is the Gospel of the day ?&#10;What is the Gospel of this Sunday ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <apiId>holy_gospel</apiId>
         </api>
         <api name="Psalm" id="5f0ec985-ccaa-45dd-8fc9-ce92ddc45cee">
@@ -578,6 +581,8 @@
           <tests>
             <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;1120&quot; height=&quot;500&quot; src=&quot;http://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;22ff2135-294e-4084-8cd1-62c6306d34c7&quot; /&gt;"/>
           </tests>
+          <triggers>Who is the Saint of today ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <apiId>saint</apiId>
         </api>
       </folder>
@@ -876,10 +881,6 @@
           <description>It&apos;s the life of Jesus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <html name="Jesus Of Nazareth (1977)" id="dcbcb4d7-77a8-4196-a526-981dc56a1562">
-          <description>It&apos;s the life of Jesus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
         <information name="Jesus and prophecies" id="00c777e5-2b23-42bb-8ae5-84a6b009a028">
           <text>Jesus fulfills all the prophecies of the Old Testament.</text>
         </information>
@@ -918,11 +919,21 @@
           </references>
           <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
         </information>
+        <html name="Show me the life of JesusJesus Of Nazareth (1977)" id="dcbcb4d7-77a8-4196-a526-981dc56a1562">
+          <triggers>Show me the life of Jesus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <description>It&apos;s the life of Jesus.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <html name="The Jesus Movie (1979)" id="1f12b0f7-8108-4813-aa71-53089977fde4">
+          <triggers>Show me the life of Jesus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="The Life Of Jesus Christ (2013)" id="7a792902-f772-47f4-b4cb-c9820e124883">
+          <triggers>Show me the life of Jesus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -1010,17 +1021,20 @@
     </folder>
     <folder name="Testimony" id="3e49de9b-f85d-4199-b90e-b5feb38e0b1f">
       <html name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="d01ccf6c-74aa-47e0-b956-61e5aea13de9">
-        <triggers>I want to see a Christian testimony.</triggers>
+        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
         <description>It&apos;s a Christian testimony</description>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="Confessions of a High Class Prostitute" id="0d257ffb-6df7-4f07-ab21-7eefc9f1eb40">
-        <triggers>I want to see a Christian testimony.</triggers>
+        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
         <description>It&apos;s a Christian testimony.</description>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="Francesca Battistelli - He Knows My Name (Official Video) " id="b84ebf04-2349-4ec2-8caf-809065ddd51d">
-        <triggers>I want to see a Christian testimony.</triggers>
+        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
         <description>It&apos;s a Christian testimony.</description>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
