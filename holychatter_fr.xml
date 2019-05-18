@@ -19,8 +19,8 @@
           <tests>
             <test input="Je connais bien l&apos;Eglise Catholique." output="Veux-tu lire l&apos;évangile du jour ?"/>
           </tests>
-          <description>Veux-tu lire l&apos;évangile du jour ?</description>
           <triggers>Je connais bien l&apos;Eglise Catholique.</triggers>
+          <reply>Veux-tu lire l&apos;évangile du jour ?</reply>
         </conversation_flow>
       </folder>
       <folder name="Présentation" id="3794b86a-f580-4a2c-8d91-86b119f549f7">
@@ -34,7 +34,7 @@
       </folder>
     </folder>
     <folder name="Comprendre Dieu" id="57cb0dda-405a-4311-9d8f-4d0dc4197ee9" description="Ce site est géré par l’association Top Mission, reconnue d’intérêt général. Pour répondre au mieux aux questions autour de l’existence d’un dieu, nous avons constitué une équipe composée de conférenciers en philosophie de la religion et d’experts de spiritualité." url="https://comprendredieu.com">
-      <html name="La résurrection du Christ, simple légende ou fait historique ? " id="788f1c7a-2c50-495f-bd74-0af582d3f4b7">
+      <html name="La résurrection du Christ, simple légende ou fait historique ?" id="788f1c7a-2c50-495f-bd74-0af582d3f4b7">
         <tests>
           <test input="la résurrection de Jésus" output="La Résurrection de Jésus est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;788f1c7a-2c50-495f-bd74-0af582d3f4b7&quot; /&gt;"/>
         </tests>
@@ -172,8 +172,8 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDFi9zgcqVY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <conversation_flow name="Suggestion sur l&apos;existence de Dieu" id="7288e95c-79a4-48b1-9ddf-1dd1457a58fc">
-          <description>Veux-tu voir des signes de l&apos;existence de Dieu ?</description>
           <triggers>Je ne suis pas chrétien.</triggers>
+          <reply>Veux-tu voir des signes de l&apos;existence de Dieu ?</reply>
         </conversation_flow>
         <html name="Tyr - une confirmation de l&apos;inspiration prophétique de la Bible ?" id="43d331b7-8596-45f8-8f9e-34edd3c0ee4c">
           <tests>
@@ -940,8 +940,8 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_KNnKKtjH7M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="5fa081a9-23a7-48c9-84f0-eb94a9369354">
-          <description>Veux tu savoir qui a écrit la Bible ?</description>
           <triggers>Je suis chrétien.</triggers>
+          <reply>Veux tu savoir qui a écrit la Bible ?</reply>
         </conversation_flow>
       </folder>
       <folder name="2 - Tout (ou presque !) sur l&apos;Esprit-Saint" id="5661864e-cb7c-482d-8ca0-e5455a8835a7">
@@ -1110,7 +1110,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <conversation_flow name="Suggestion pour voir le message chrétien" id="75209917-4b3c-45fd-aa3c-cbe724743976">
-          <description>Veux-tu voir le message chrétien ?</description>
+          <reply>Veux-tu voir le message chrétien ?</reply>
         </conversation_flow>
       </folder>
     </folder>
@@ -1334,13 +1334,13 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XLtcASarxqU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <conversation_flow name="suggestion pour connaître l&apos;Esprit Saint" id="cfb5be60-c2a7-4629-84aa-ddbbc7a1ea26">
-          <description>Veux tu connaître l&apos;Esprit Saint ?</description>
+          <reply>Veux tu connaître l&apos;Esprit Saint ?</reply>
         </conversation_flow>
       </folder>
     </folder>
     <folder name="Eglise" id="016bb79a-f435-4a10-8cde-7eed889cd2a7">
       <conversation_flow name="Es-tu chrétien ?" id="d14434b4-0805-4ece-8f48-2cf5c868f2a1">
-        <description>Es-tu chrétien ?</description>
+        <reply>Es-tu chrétien ?</reply>
       </conversation_flow>
       <information name="Le credo" id="9859bd25-2811-453c-80d5-d2b3fc9840a5">
         <tests>
@@ -1360,23 +1360,23 @@
           <tests>
             <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
           </tests>
-          <description>Il est vraiment ressuscité !</description>
           <triggers>Christ est ressuscité !</triggers>
+          <reply>Il est vraiment ressuscité !</reply>
         </conversation_flow>
         <conversation_flow name="Que le Seigneur soit avec vous !" id="649ac1c7-6f1b-42b9-85ae-27ed483cee31">
           <tests>
             <test input="Que le Seigneur soit avec vous !" output="Et avec votre Esprit"/>
           </tests>
-          <description>Et avec votre Esprit</description>
           <triggers>Que le Seigneur soit avec vous !</triggers>
+          <reply>Et avec votre Esprit</reply>
         </conversation_flow>
       </folder>
       <conversation_flow name="Suggestion pour voir une vidéo qui décrit l&apos;Eglise" id="7d3ba0f2-1f5d-4be8-b8c9-53c8fcf02cc3">
         <tests>
           <test input="Je ne connais pas bien l&apos;Eglise Catholique." output="Veux-tu voir une vidéo qui décrit l&apos;Eglise ?"/>
         </tests>
-        <description>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</description>
         <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
+        <reply>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</reply>
       </conversation_flow>
     </folder>
     <folder name="Enseignements" id="545bfed0-4909-403b-9cd2-44cdbce52063">
@@ -1562,11 +1562,11 @@
             <test input="salut" output="Bonjour"/>
             <test input="Salut" output="Bonjour"/>
           </tests>
-          <description>Bonjour</description>
           <triggers>Bonjour</triggers>
+          <reply>Bonjour</reply>
         </conversation_flow>
         <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="ff4bfc77-593c-454e-b36c-73915cb87e33">
-          <description>Connais-tu déjà bien l&apos;Eglise Catholique ?</description>
+          <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
         </conversation_flow>
         <information name="Mon nom" id="ac37e00f-b531-4cd0-83fd-30a050050f8a">
           <tests>
@@ -1758,8 +1758,8 @@
           <tests>
             <test input="Je ne veux pas voir vidéo qui décrit l&apos;Église." output="Est-ce que tu veux voir une guérison inexpliquée ?"/>
           </tests>
-          <description>Est-ce que tu veux voir une guérison inexpliquée ?</description>
           <triggers>Je ne veux pas voir vidéo qui décrit l&apos;Église.</triggers>
+          <reply>Est-ce que tu veux voir une guérison inexpliquée ?</reply>
         </conversation_flow>
       </folder>
     </folder>
