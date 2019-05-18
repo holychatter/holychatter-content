@@ -556,9 +556,9 @@
         </api>
         <api name="Holy Gospel" id="d3720ca8-0651-4614-bdfc-efcc36474914">
           <tests>
-            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is :&#10;&lt;br /&gt;Gospel of today in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
-            <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is :&#10;&lt;br /&gt;Gospel of yesterday in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
-            <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is :&#10;&lt;br /&gt;Gospel of tomorrow in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
           </tests>
           <apiId>holy_gospel</apiId>
         </api>
@@ -576,7 +576,7 @@
       <folder name="Saint" id="b4aec685-2844-49c4-873d-bb929bbbb512">
         <api name="Saint" id="22ff2135-294e-4084-8cd1-62c6306d34c7">
           <tests>
-            <test input="Who is the Saint of today?" output="The Saint of today is :&#10;&lt;br /&gt;Fake Saint of the day for tests" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;22ff2135-294e-4084-8cd1-62c6306d34c7&quot; /&gt;"/>
+            <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;1120&quot; height=&quot;500&quot; src=&quot;http://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;22ff2135-294e-4084-8cd1-62c6306d34c7&quot; /&gt;"/>
           </tests>
           <apiId>saint</apiId>
         </api>

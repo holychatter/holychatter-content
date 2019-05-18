@@ -7,13 +7,12 @@
           <apiId>second_reading</apiId>
         </api>
         <api name="Evangile" id="97f8e3a6-7072-435d-ad7a-26c9fb90b0a4">
-          <triggers>Quel est l&apos;Évangile du jour ?</triggers>
+          <triggers>Quel est l&apos;Évangile du jour ?&#10;Quel est l&apos;Évangile de ce dimanche ?</triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <apiId>holy_gospel</apiId>
         </api>
         <api name="Première lecture" id="55598113-cfa3-4ec2-9f95-333419f54e94">
           <triggers>Quel est la première lecture du jour ?</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
           <apiId>first_reading</apiId>
         </api>
         <api name="Psaume" id="5c2beb55-e314-4d05-80cf-6f6c617e75a3">
@@ -114,7 +113,8 @@
             <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best Seller n°1." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;4464ab65-07ca-467e-bbdc-a230b00b711c&quot; /&gt;"/>
             <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est le Best Seller n°1, parole de Dieu, une parole humaine et la livre de la Genèse." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;4464ab65-07ca-467e-bbdc-a230b00b711c&quot; /&gt;; &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;b8b8a853-905a-4631-b662-6fe186ca0936&quot; /&gt;; &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;d8568b02-8f62-487d-a558-12e9490c01a9&quot; /&gt;"/>
           </tests>
-          <triggers>Dieu existe-t-il ?&#10;Je veux voir des signes de l&apos;existence de Dieu.</triggers>
+          <triggers>Montre-moi des signes de l&apos;existence de Dieu&#10;Dieu existe-t-il ?&#10;Je veux voir des signes de l&apos;existence de Dieu.</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>C&apos;est des signes de l&apos;existence de Dieu.&#10;C&apos;est pour cela que Dieu existe.&#10;Dieu existe.&#10;La Bible est le Best-Seller mondial n°1.</description>
           <references>
             <bible book="Gen" chapter="22" verseBegin="1" verseEnd="19"/>
@@ -133,6 +133,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/r2mxAzuqyTI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="L&apos;origine de l&apos;ADN défie les chercheurs" id="7dac446f-24cb-4975-bc5d-b9e5fc9f8a6a">
+          <triggers>Quel est l&apos;origine de la vie ?</triggers>
           <description>C&apos;est l&apos;origine de la vie.&#10;C&apos;est l&apos;ADN.&#10;C&apos;est les protéines.&#10;</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ae7QpYSJgLw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -156,6 +157,7 @@
             <test input="Pourquoi les évangiles sont fiables ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kezIsM4nnOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;1ff5d051-a3b1-4106-87db-6f0484dcc53d&quot; /&gt;"/>
           </tests>
           <triggers>Pourquoi les évangiles sont fiables ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>C&apos;est pour cela que les évangiles sont fiables.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kezIsM4nnOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -200,10 +202,14 @@
       </folder>
       <folder name="Témoignages" id="ab5e98b7-5522-48f4-89cf-38710e9e9bb9">
         <html name="Combattant de l&apos;Islam, Khalil a une révélation surnaturelle de Jésus" id="3ea5b8e6-b7e2-4827-835d-58e68c7e86f1">
+          <triggers>Montre-moi un témoignage chrétien</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>C&apos;est un témoignage chrétien.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TvBGw9vI6DQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Un musulman pieux a une vision de Jésus" id="bb0fe012-d787-4f52-942e-ac869be2c12a">
+          <triggers>Montre-moi un témoignage chrétien</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>C&apos;est un témoignage chrétien.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vYrrErfgpF0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -227,8 +233,10 @@
       <folder name="Saint" id="10d3a368-91fe-4bd3-8b6e-b6a8b9d7960b">
         <api name="Saint" id="aeb5600e-10a3-4c83-b17d-f399d10415fd">
           <tests>
-            <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est :&#10;&lt;br /&gt;Faux Saint du jour pour les tests" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;aeb5600e-10a3-4c83-b17d-f399d10415fd&quot; /&gt;"/>
+            <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;1120&quot; height=&quot;500&quot; src=&quot;http://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;aeb5600e-10a3-4c83-b17d-f399d10415fd&quot; /&gt;"/>
           </tests>
+          <triggers>Qui est le Saint du jour ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <apiId>saint</apiId>
         </api>
       </folder>
@@ -1482,6 +1490,8 @@
           <text>Jésus accomplit toutes les prophéties de l&apos;Ancien Testament.</text>
         </information>
         <html name="La Vie de Jésus (1979)" id="54984254-81f4-4624-8521-0d18d3b33bf0">
+          <triggers>Montre-moi la vie de Jésus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>C&apos;est la vie de Jésus.&#10;C&apos;est Jésus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -1562,7 +1572,7 @@
         <conversation_flow name="Bonjour" id="9736432a-a317-4c63-ab54-fcda6e7a0c95">
           <tests>
             <test input="Bonjour" output="Bonjour"/>
-            <test input="Hello" output="Bonjour"/>
+            <test input="Hello" output="Hello"/>
             <test input="salut" output="Bonjour"/>
             <test input="Salut" output="Bonjour"/>
             <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
