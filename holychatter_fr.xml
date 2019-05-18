@@ -61,20 +61,20 @@
     </folder>
     <folder name="Cybercuré" id="afe6903f-b589-48c0-8adf-3e9a4155bdab" description="Un site, créé en 2000, qui s’adresse tout d’abord aux catholiques, mais surtout à ceux qui se questionnent sur la foi, les sacrements, la liturgie, les fêtes chrétiennes, l’actualité religieuse… Il s’agit bien souvent de non pratiquants, qui se rendent à la messe à l’occasion d’un mariage, d’un enterrement, et qui s’interrogent sur la religion chrétienne. Formidable outil d’évangélisation sur le web, le CyberCuré vulgarise la foi chrétienne. Il utilise les techniques actuelles pour « dialoguer avec l’homme d’aujourd’hui et l’amener à la rencontre du Christ. »" url="https://cybercure.fr">
       <folder name="Je célèbre les sacrements" id="5ec18797-277b-40ac-8e67-b0abf5f807ac">
-        <site name="La communion eucharistique" id="b0e53d4c-9f42-410e-a3bb-bb6933012677">
+        <url name="La communion eucharistique" id="b0e53d4c-9f42-410e-a3bb-bb6933012677">
           <tests>
             <test input="Qu&apos;est-ce que c&apos;est la communion eucharistique ?" output="La communion eucharistique est \hc_resource_site=#fr_FR#https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;b0e53d4c-9f42-410e-a3bb-bb6933012677&quot; /&gt;"/>
           </tests>
           <description>C&apos;est la communion eucharistique.</description>
           <url>https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique</url>
-        </site>
-        <site name="Sens du sacrement baptême" id="8d570a3d-09a4-4aa2-bd5e-2860cf86d834">
+        </url>
+        <url name="Sens du sacrement baptême" id="8d570a3d-09a4-4aa2-bd5e-2860cf86d834">
           <tests>
             <test input="Quel est le sens du sacrement baptême ?" output="Le sens du sacrement baptême est \hc_resource_site=#fr_FR#https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;8d570a3d-09a4-4aa2-bd5e-2860cf86d834&quot; /&gt;"/>
           </tests>
           <description>C&apos;est le sens du sacrement baptême.</description>
           <url>https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme</url>
-        </site>
+        </url>
       </folder>
       <folder name="Présentation" id="0d8ebba2-9443-4674-9044-4c2186a744ee">
         <html name="Présentation du Cybercuré" id="387d880e-d399-4bb9-be69-1d9f2d1358ed">
@@ -876,7 +876,7 @@
         <triggers>Qu&apos;est ce qu&apos;on fête à pâques?</triggers>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <html name="Qu&apos;est ce que la fête de l&apos;ascension ? " id="5ecd3d7d-b6b4-4d95-945c-ba9fb7e5d10f">
+      <html name="Qu&apos;est ce que la fête de l&apos;ascension ?" id="5ecd3d7d-b6b4-4d95-945c-ba9fb7e5d10f">
         <tests>
           <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,50-53&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,1-11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;5ecd3d7d-b6b4-4d95-945c-ba9fb7e5d10f&quot; /&gt;"/>
         </tests>
@@ -1492,10 +1492,10 @@
         </information>
       </folder>
       <folder name="Marie" id="1dbd6448-5c45-4b2f-929f-6ef93cb780a8">
-        <site name="Marie" id="c174123c-e4a5-4ea5-8544-4388f0780209">
+        <url name="Marie" id="c174123c-e4a5-4ea5-8544-4388f0780209">
           <description>C&apos;est Marie</description>
           <url>https://croire.la-croix.com/Definitions/Bible/Marie</url>
-        </site>
+        </url>
         <information name="Qui est Marie" id="2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9">
           <tests>
             <test input="Qui est la première des disciples ?" output="La première des disciples est Mère de Jésus." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;2b6fd1f8-26f8-4c29-9d44-e2d47b0590a9&quot; /&gt;"/>
@@ -1504,10 +1504,10 @@
         </information>
       </folder>
       <folder name="Mère Teresa" id="5182c2e9-8ac2-44f4-8bc4-863a26fe12fd">
-        <site name="Quand Jésus a convaincu Mère Teresa de fonder les Sœurs de la charité" id="f64db7bc-59bc-4a3f-99b9-6d815a2b4fa0">
+        <url name="Quand Jésus a convaincu Mère Teresa de fonder les Sœurs de la charité" id="f64db7bc-59bc-4a3f-99b9-6d815a2b4fa0">
           <description>C&apos;est la vie de Mère Teresa.&#10;C&apos;est Mère Teresa.</description>
           <url>http://fr.aleteia.org/2016/06/08/quand-jesus-a-convaincu-mere-teresa-de-fonder-les-soeurs-de-la-charite/</url>
-        </site>
+        </url>
       </folder>
       <folder name="Saint Jean Marie Vianney" id="c8ea92c7-d6b2-4476-80ee-a103e48e8eeb">
         <information name="Dates et lieux" id="50b97f98-ad80-4e31-bfd7-09f60196b7c1">
@@ -1537,22 +1537,22 @@
     </folder>
     <folder name="Technologies" id="9774409a-1ba4-4f89-9f08-34fe38b033b3">
       <folder name="Applications" id="948c5d68-b74a-404b-8548-4f522c0f7dd1">
-        <site name="Entourage" id="f0f48d15-7aba-4939-9bbf-3ec4afe79658">
+        <url name="Entourage" id="f0f48d15-7aba-4939-9bbf-3ec4afe79658">
           <description>C&apos;est une application chrétienne.</description>
           <url>http://www.entourage.social/</url>
-        </site>
-        <site name="GeoConfess" id="ebeb6aea-c9c2-4687-8cd5-fd94afa66933">
+        </url>
+        <url name="GeoConfess" id="ebeb6aea-c9c2-4687-8cd5-fd94afa66933">
           <description>C&apos;est une application chrétienne.</description>
           <url>http://www.ktotv.com/geoconfess</url>
-        </site>
-        <site name="Hozana" id="26801f07-5a63-4a2d-b522-3ce43738168a">
+        </url>
+        <url name="Hozana" id="26801f07-5a63-4a2d-b522-3ce43738168a">
           <description>C&apos;est une application chrétienne.</description>
           <url>http://hozana.org/</url>
-        </site>
-        <site name="La Quête" id="b86133a7-dca4-4e62-8a08-4b76814c4047">
+        </url>
+        <url name="La Quête" id="b86133a7-dca4-4e62-8a08-4b76814c4047">
           <description>C&apos;est une application chrétienne.</description>
           <url>http://www.appli-laquete.fr/</url>
-        </site>
+        </url>
       </folder>
       <folder name="Holy Chatter" id="7557d0ad-bb98-4a1e-a319-0613e625ed26">
         <conversation_flow name="Bonjour" id="9736432a-a317-4c63-ab54-fcda6e7a0c95">
