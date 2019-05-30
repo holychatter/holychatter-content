@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
+  <folder name="Conversational Agent" id="0dd5fc96-9d46-47e1-a7ce-e4f6341141f0">
+    <conversation_flow name="Do you already know the Catholic Church?" id="d2834279-b743-4b7d-b9a3-b31ffafd479e">
+      <reply>Do you already know the Catholic Church?</reply>
+    </conversation_flow>
+    <information name="Greeting" id="432d3d5f-1f6a-444b-9038-ebc8eb7ce271">
+      <tests>
+        <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
+      </tests>
+      <triggers>hello</triggers>
+      <text>Hello</text>
+    </information>
+    <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
+      <tests>
+        <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
+      </tests>
+      <text>I&apos;m fine.</text>
+    </information>
+    <information name="My name" id="60d6821a-f714-443c-97ed-ac33592e4c82">
+      <tests>
+        <test input="What is your name?" output="My name is Holy Chatter."/>
+        <test input="Who are you?" output="I am Holy Chatter."/>
+      </tests>
+      <text>My name is Holy Chatter.</text>
+    </information>
+  </folder>
   <folder name="Sources" id="ad29aa6f-2619-46f4-ad45-9cc81c8ae68e">
     <folder name="3 Minute Catechism" id="34ef9d05-8fe5-4b77-89bd-fc390ce2330e" description="3MC (3 Minute Catechism) consists of 72 hand drawn and animated episodes each 3-4 minutes long, that follow the the creed and explain the basics of the Catholic Faith.&#10;&#10;But this goes beyond the basics and really tries to explain some of the deeper truths of the Catholic faith. All through amazing illustrations, creative presentation, humour, and even some deep theology. It’s like having a visual catechism." url="https://www.youtube.com/playlist?list=PLIcePO_eJb2_EElTdFm1PFLNkH17EQcV-">
       <folder name="1. Basics" id="c967b2f6-b6e5-45be-bc99-e6fe1c1e94be">
@@ -627,6 +652,16 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
+    <folder name="TheoMatters" id="5e7df331-a271-4b78-ba73-350e9948780d">
+      <html name="A sacrement" id="03410df4-3b5f-4049-b640-654fcf12d07a">
+        <tests>
+          <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;03410df4-3b5f-4049-b640-654fcf12d07a&quot; /&gt;"/>
+          <test input="A sacrement" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;03410df4-3b5f-4049-b640-654fcf12d07a&quot; /&gt;"/>
+        </tests>
+        <triggers>What is a sacrement ?</triggers>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
     <folder name="Youcat" id="60bed65b-ebb0-466e-87ac-9febda00f79b" description="The YOUCAT Foundation is a work of new evangelization that contributes to the renewal of the Church worldwide with the charism of &quot;teaching&quot;.&#10;&#10;&quot;Teaching&quot; is not everything in the Church, but without authentic teaching everything is nothing. YOUCAT wants to make the contents of faith, as they are given in Holy Scripture and in the Catechism, shine anew.&#10;&#10;YOUCAT not only develops and publishes target group-oriented catechisms and exciting Bible editions; YOUCAT goes digital and inspires young Catholics in every way learning and exchange processes about the common faith." url="https://www.youcat.org">
       <folder name="1 - What We Believe" id="685f19db-167d-41f8-977a-c76e6b9a9828">
         <information name="1 - Why are we on earth?" id="9a35f23a-3f9e-4c37-9fdd-8c55b7ff9421">
@@ -685,6 +720,12 @@
     </folder>
   </folder>
   <folder name="Themes" id="4d8e23f1-d2e7-46d4-a2cc-cdf02e24c942">
+    <folder name="Applications" id="8148c45b-2150-40ad-b9d2-36e06e143bb3">
+      <url name="Bible.is" id="23ca371f-cf98-4484-ba00-aeeeaebd9efc">
+        <description>It&apos;s a Christian application.</description>
+        <url>http://www.bible.is/</url>
+      </url>
+    </folder>
     <folder name="Bible" id="e4bf9c63-dc82-4ada-80fd-70f5bfd0ed38" description="The Bible is unique. It is the most widely circulated book in the world. No other book has been translated into as many different languages. No other book in human history has had a greater influence. For all Christians, the Bible is Sacred Scripture.&#10;&#10;The Bible is world literature. It contains wonderful stories. Many biblical writings are of great poetical beauty, for example the Book of Job and a whole series of psalms from the Old Testament or the great hymn of love (1 Cor 13) and the Revelation of John from the New Testament. Often the Bible is disturbing. It is critical. Many times it strikes contemporary readers as odd. It may take years to understand a particular passage from Sacred Scripture. But it is worthwhile to keep trying. For all Christians it is the charter of the faith.&#10;&#10;And more than that: the Bible is the “Word of God”. It expresses it with human words and in human language. But it is a revelation. It was written because men listened to God&apos;s Word and wrote it down in their own words. It was handed down, because others believed that those people did not just invent something but really had a message from God to convey.&#10;&#10;The Bible is meant to move people. It ought to motivate readers to a life of striving for good. This life should combine love for God and love for one&apos;s neighbors. That is why we cannot just read the Bible and leave it at that. Praying is part of it, helping others, reflecting on the faith—and in all this there is the joy that God exists, who gives us life.&#10;&#10;Youcat Bible (p. 12-13)" url="https://www.bible.com/bible/111/GEN.INTRO1.NIV">
       <folder name="Ascension" id="fd2db561-b12b-4356-a1e7-c7be648d53e6">
         <html name="ASCENSION OF JESUS CHRIST " id="e1d166c0-742e-4c7e-87ab-72446d29db31">
@@ -1018,39 +1059,6 @@
           <description>It&apos;s Saint Maximilian Kolbe.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/THT5QxhCiGE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-      </folder>
-    </folder>
-    <folder name="Technology" id="705ec8d8-9bda-4f7d-b34a-8445cc4f0f87">
-      <folder name="Applications" id="8148c45b-2150-40ad-b9d2-36e06e143bb3">
-        <url name="Bible.is" id="23ca371f-cf98-4484-ba00-aeeeaebd9efc">
-          <description>It&apos;s a Christian application.</description>
-          <url>http://www.bible.is/</url>
-        </url>
-      </folder>
-      <folder name="Holy Chatter" id="0dd5fc96-9d46-47e1-a7ce-e4f6341141f0">
-        <conversation_flow name="Do you already know the Catholic Church?" id="d2834279-b743-4b7d-b9a3-b31ffafd479e">
-          <reply>Do you already know the Catholic Church?</reply>
-        </conversation_flow>
-        <information name="Greeting" id="432d3d5f-1f6a-444b-9038-ebc8eb7ce271">
-          <tests>
-            <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
-          </tests>
-          <triggers>hello</triggers>
-          <text>Hello</text>
-        </information>
-        <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
-          <tests>
-            <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
-          </tests>
-          <text>I&apos;m fine.</text>
-        </information>
-        <information name="My name" id="60d6821a-f714-443c-97ed-ac33592e4c82">
-          <tests>
-            <test input="What is your name?" output="My name is Holy Chatter."/>
-            <test input="Who are you?" output="I am Holy Chatter."/>
-          </tests>
-          <text>My name is Holy Chatter.</text>
-        </information>
       </folder>
     </folder>
     <folder name="Testimony" id="3e49de9b-f85d-4199-b90e-b5feb38e0b1f">

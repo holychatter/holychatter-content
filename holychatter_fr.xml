@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
+  <folder name="Agent conversationnel" id="7557d0ad-bb98-4a1e-a319-0613e625ed26">
+    <conversation_flow name="Bonjour" id="9736432a-a317-4c63-ab54-fcda6e7a0c95">
+      <tests>
+        <test input="Bonjour" output="Bonjour"/>
+        <test input="Hello" output="Bonjour"/>
+        <test input="salut" output="Bonjour"/>
+        <test input="Salut" output="Bonjour"/>
+        <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
+        <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; /&gt;"/>
+      </tests>
+      <triggers>Bonjour</triggers>
+      <reply>Bonjour</reply>
+    </conversation_flow>
+    <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="ff4bfc77-593c-454e-b36c-73915cb87e33">
+      <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
+    </conversation_flow>
+    <information name="Mon nom" id="ac37e00f-b531-4cd0-83fd-30a050050f8a">
+      <tests>
+        <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
+        <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
+        <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
+      </tests>
+      <text>Mon nom est Holy Chatter.</text>
+    </information>
+    <information name="Moral" id="51da5082-8cc6-4ca0-bfcf-9f0b1db6d6be">
+      <tests>
+        <test input="Comment vas-tu ?" output="Je vais bien. Merci" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;51da5082-8cc6-4ca0-bfcf-9f0b1db6d6be&quot; /&gt;"/>
+      </tests>
+      <text>Je vais bien.</text>
+    </information>
+  </folder>
   <folder name="Sources" id="371a1836-a274-40fb-b0eb-0976dc18c732">
     <folder name="AELF" id="355f91a4-be7e-4ff8-ba8b-87706034a742" description="L&apos;Association épiscopale liturgique pour les pays francophones fut créée le 30 septembre 1969. C’est une association de droit français (loi de 1901) qui exécute les missions qui lui sont confiées par la Commission Épiscopale Francophone pour les Traductions Liturgiques.&#10;&#10;Cette association a pour but d&apos;élaborer, coordonner et promouvoir toutes études et activités intéressant la liturgie de l&apos;Eglise catholique, et plus particulièrement l&apos;élaboration de textes liturgiques destinés aux pays francophones." url="https://www.aelf.org">
       <folder name="Lectures" id="6b50d360-a186-4297-b855-df7a96329976">
@@ -214,6 +245,19 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vYrrErfgpF0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
+    </folder>
+    <folder name="KTO" id="84435118-5e73-481d-8d66-4840ccc8e8d3">
+      <information name="Définition d&apos;un sacrement" id="c6c864de-40bc-4ffb-9e9a-431be9c58d71">
+        <tests>
+          <test input="Un sacrement" output="Un sacrement est « un signe sensible et efficace, institué par le Christ, qui produit ou augmente en nous la grâce, c´est-à-dire la vie divine »." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=Xz4kPmtCIm0&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;c6c864de-40bc-4ffb-9e9a-431be9c58d71&quot; /&gt;"/>
+          <test input="sacrement" output="Sacrement est « un signe sensible et efficace, institué par le Christ, qui produit ou augmente en nous la grâce, c´est-à-dire la vie divine »." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=Xz4kPmtCIm0&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;c6c864de-40bc-4ffb-9e9a-431be9c58d71&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que c&apos;est un sacrement" output="Un sacrement est « un signe sensible et efficace, institué par le Christ, qui produit ou augmente en nous la grâce, c´est-à-dire la vie divine »." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=Xz4kPmtCIm0&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;c6c864de-40bc-4ffb-9e9a-431be9c58d71&quot; /&gt;"/>
+        </tests>
+        <references>
+          <site book="https://www.youtube.com/watch?v=Xz4kPmtCIm0"/>
+        </references>
+        <text>Un sacrement est « un signe sensible et efficace, institué par le Christ, qui produit ou augmente en nous la grâce, c´est-à-dire la vie divine ».</text>
+      </information>
     </folder>
     <folder name="L&apos;Évangile au Quotidien" id="a4af9d42-9c2a-48f1-afbf-47f4c14e8217" description="« Evangelizo / L&apos;Evangile au Quotidien » est un service proposé par l&apos;association internationale Evangelizo. La mission d&apos;Evangelizo est de diffuser l&apos;Évangile à travers le monde par Internet dans toutes les langues et de développer les moyens techniques à cette fin. L&apos;équipe Evangelizo est composée de plus de 70 laïcs et religieux catholiques de diverses communautés, congrégations ou sensibilités spirituelles : Bénédictins, Carmélites, Cisterciens, Fraternités Monastiques de Jérusalem, Jésuites, Rédemptoristes, Communauté de l&apos;Emmanuel, Focolari." url="https://levangileauquotidien.org">
       <folder name="Evangile" id="5fc703c6-687c-4e5e-93b3-d6b195c06451">
@@ -1219,6 +1263,25 @@
     </folder>
   </folder>
   <folder name="Thèmes" id="3b403ad5-0b3b-48a1-85a9-7df05ec5ef24">
+    <folder name="Applications" id="948c5d68-b74a-404b-8548-4f522c0f7dd1">
+      <url name="Entourage" id="f0f48d15-7aba-4939-9bbf-3ec4afe79658">
+        <description>C&apos;est une application chrétienne.</description>
+        <url>http://www.entourage.social/</url>
+      </url>
+      <url name="GeoConfess" id="ebeb6aea-c9c2-4687-8cd5-fd94afa66933">
+        <triggers>Comment rencontrer un prêtre ?</triggers>
+        <description>C&apos;est une application chrétienne.</description>
+        <url>http://www.ktotv.com/geoconfess</url>
+      </url>
+      <url name="Hozana" id="26801f07-5a63-4a2d-b522-3ce43738168a">
+        <description>C&apos;est une application chrétienne.</description>
+        <url>http://hozana.org/</url>
+      </url>
+      <url name="La Quête" id="b86133a7-dca4-4e62-8a08-4b76814c4047">
+        <description>C&apos;est une application chrétienne.</description>
+        <url>http://www.appli-laquete.fr/</url>
+      </url>
+    </folder>
     <folder name="Bible" id="0b7498a1-0246-4f14-a1d6-7793c90b5768" description="La Bible est unique. Elle est le livre le plus lu au monde. Aucun autre ne fut traduit en plus de langues. Aucun autre dans toute l’histoire de l’humanité n’eut plus de retentissements. Pour les chrétiens et les chrétiennes la Bible est l’Écriture Sainte.&#10;&#10;La Bible est un livre universel. Elle contient de magnifiques histoires. Beaucoup de récits de la Bible sont d’une grande beauté poétique comme le livre de Job, toute une série de Psaumes de l’Ancien Testament, ou bien l’hymne à l’amour (1Co 13) ou l’Apocalypse de saint Jean dans le Nouveau Testament. Souvent la Bible est bouleversante. Elle nous questionne. Parfois elle paraît étrangère. Il arrive qu’il faille des années pour comprendre un seul passage de l’Écriture. Mais cela vaut toujours la peine de se mettre à la lire. La Bible est le document central de la foi de tous les chrétiens.&#10;&#10;Plus encore : la Bible est « Parole de Dieu ». Elle l’est, écrite avec des mots humains et en langage humain. Elle est la Révélation divine. Elle fut écrite parce que des hommes ont écouté la Parole de Dieu et l’ont retranscrite. Elle fut transmise telle quelle pendant des siècles, parce que des générations entières ont cru que ceux qui transmettaient la Bonne Nouvelle n’imaginaient rien par eux-mêmes et bien au contraire qu’ils étaient inspirés par Dieu, et délivraient réellement son message.&#10;&#10;La Bible veut nous toucher, elle veut nous motiver pour une vie qui tend vers le Bien. Cette vie doit concilier l’amour de Dieu et l’amour du prochain. C’est pourquoi il n’est pas possible d’en rester à sa simple lecture. Il convient de prier, de méditer sur sa foi, d’aider autrui et surtout d’être dans la joie que Dieu existe et qu’il nous donne la vie.&#10;&#10;Youcat Bible (pp. 12-13)" url="https://www.aelf.org/bible">
       <folder name="Dieu" id="f10d9e79-6340-4605-b371-e155c377332e">
         <information name="Dieu dépasse la raison" id="270cb9d5-8354-4489-bdfc-99b2308c8f2f">
@@ -1586,199 +1649,159 @@
         </html>
       </folder>
     </folder>
-    <folder name="Technologies" id="9774409a-1ba4-4f89-9f08-34fe38b033b3">
-      <folder name="Applications" id="948c5d68-b74a-404b-8548-4f522c0f7dd1">
-        <url name="Entourage" id="f0f48d15-7aba-4939-9bbf-3ec4afe79658">
-          <description>C&apos;est une application chrétienne.</description>
-          <url>http://www.entourage.social/</url>
-        </url>
-        <url name="GeoConfess" id="ebeb6aea-c9c2-4687-8cd5-fd94afa66933">
-          <description>C&apos;est une application chrétienne.</description>
-          <url>http://www.ktotv.com/geoconfess</url>
-        </url>
-        <url name="Hozana" id="26801f07-5a63-4a2d-b522-3ce43738168a">
-          <description>C&apos;est une application chrétienne.</description>
-          <url>http://hozana.org/</url>
-        </url>
-        <url name="La Quête" id="b86133a7-dca4-4e62-8a08-4b76814c4047">
-          <description>C&apos;est une application chrétienne.</description>
-          <url>http://www.appli-laquete.fr/</url>
-        </url>
-      </folder>
-      <folder name="Holy Chatter" id="7557d0ad-bb98-4a1e-a319-0613e625ed26">
-        <conversation_flow name="Bonjour" id="9736432a-a317-4c63-ab54-fcda6e7a0c95">
-          <tests>
-            <test input="Bonjour" output="Bonjour"/>
-            <test input="Hello" output="Bonjour"/>
-            <test input="salut" output="Bonjour"/>
-            <test input="Salut" output="Bonjour"/>
-            <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
-            <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\"/>
-          </tests>
-          <triggers>Bonjour</triggers>
-          <reply>Bonjour</reply>
-        </conversation_flow>
-        <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="ff4bfc77-593c-454e-b36c-73915cb87e33">
-          <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
-        </conversation_flow>
-        <information name="Mon nom" id="ac37e00f-b531-4cd0-83fd-30a050050f8a">
-          <tests>
-            <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
-            <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
-            <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
-          </tests>
-          <text>Mon nom est Holy Chatter.</text>
-        </information>
-        <information name="Moral" id="51da5082-8cc6-4ca0-bfcf-9f0b1db6d6be">
-          <tests>
-            <test input="Comment vas-tu ?" output="Je vais bien. Merci" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;51da5082-8cc6-4ca0-bfcf-9f0b1db6d6be&quot; /&gt;"/>
-          </tests>
-          <text>Je vais bien.</text>
-        </information>
-      </folder>
-    </folder>
     <folder name="Témoignages" id="163b05b7-b7f1-4c4d-b236-1289bec80209">
       <folder name="Guillaume - Est-ce que Dieu existe ?" id="1ffe56f2-041a-4070-931b-867b166e3432" description="J&apos;ai 23 ans et je suis séminariste. &quot;Sémiquoi?!&quot; Le terme séminariste désigne les hommes qui sont en formation en vue de devenir prêtres. &#10;&#10;J’ai créé cette chaîne parce que je ressens fortement le besoin de partager la joie et la paix qui m&apos;habitent depuis que j&apos;ai rencontré Jésus Christ il y a 5 ans. Dans mes vidéos je témoigne parfois des expériences spirituelles que j&apos;ai vécues jusqu&apos;ici et qui m&apos;ont menées jusqu&apos;au séminaire (lieu de formation des séminaristes). &#10;&#10;J’ai également créé cette chaîne pour parler des questions les plus importantes que l’être humain est amené à se poser durant sa vie: « est-ce que Dieu existe? », « quel est le sens de ma vie? », « qu’est-ce qui se passe après la mort…? » « comment être heureux »! Je partage les réponses qu’apporte la foi catholique à ces grandes questions. Le but de cette chaîne est de réfléchir et de partager sur ces questions quelque soit sa religion, que l’on soit croyant ou non. Tout le monde est le bienvenu, bonne visite! ;)" url="https://www.youtube.com/channel/UCmak4xFMAikQXYADsI9gLSg">
-        <html name="Comment devenir immortel... en 8 minutes (passer de la mort à la vie éternelle)" id="7e4d2365-acab-467f-a211-54f03a445f68">
-          <tests>
-            <test input="Comment devenir immortel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 30,15-20&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,21-27&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;7e4d2365-acab-467f-a211-54f03a445f68&quot; /&gt;"/>
-          </tests>
-          <triggers>Comment devenir immortel ?</triggers>
-          <references>
-            <bible book="Deut" chapter="30" verseBegin="15" verseEnd="20"/>
-            <bible book="Jn" chapter="11" verseBegin="21" verseEnd="27"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Comment embrasser ? (la place du corps dans l&apos;Eglise)" id="04a75dee-bbad-4f78-a003-5093431e20fd">
-          <tests>
-            <test input="Comment embrasser ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43,1-5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;04a75dee-bbad-4f78-a003-5093431e20fd&quot; /&gt;"/>
-          </tests>
-          <triggers>Comment embrasser ?</triggers>
-          <references>
-            <bible book="Is" chapter="43" verseBegin="1" verseEnd="5"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Comment plaire? (le regard des autres)" id="670f53ed-4479-4511-822f-9b2be4ae6f5d">
-          <tests>
-            <test input="Comment plaire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VVF71zElo7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 138,13-24&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;670f53ed-4479-4511-822f-9b2be4ae6f5d&quot; /&gt;"/>
-          </tests>
-          <triggers>Comment plaire ?</triggers>
-          <references>
-            <bible book="Ps" chapter="138" verseBegin="13" verseEnd="24"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VVF71zElo7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Comment rencontrer Dieu?" id="7d4370e2-f625-43b0-aad3-50d9f374b586">
-          <tests>
-            <test input="Comment rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 3,20&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;7d4370e2-f625-43b0-aad3-50d9f374b586&quot; /&gt;"/>
-          </tests>
-          <triggers>Comment rencontrer Dieu ?</triggers>
-          <references>
-            <bible book="Rev" chapter="3" verseBegin="20"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Comment réussir sa vie? (les derniers seront les premiers)" id="576900f3-2ec3-4f93-9033-a222769f50aa">
-          <tests>
-            <test input="Comment réussir sa vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IooFq0v_zuc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,28-30&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 20,1-16&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 16,19-31&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;576900f3-2ec3-4f93-9033-a222769f50aa&quot; /&gt;"/>
-          </tests>
-          <triggers>Comment réussir sa vie ?</triggers>
-          <references>
-            <bible book="Mt" chapter="19" verseBegin="28" verseEnd="30"/>
-            <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
-            <bible book="Lk" chapter="16" verseBegin="19" verseEnd="31"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IooFq0v_zuc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Comment être heureux ? (le monde vs la paix de Jésus)" id="681a308a-ba23-476f-9a78-2be851bcf2ee">
-          <tests>
-            <test input="Comment être heureux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6QniJES-vo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 22,17&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;681a308a-ba23-476f-9a78-2be851bcf2ee&quot; /&gt;"/>
-          </tests>
-          <triggers>Comment être heureux ?</triggers>
-          <references>
-            <bible book="Rev" chapter="22" verseBegin="17"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6QniJES-vo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Jésus est-il Dieu ou le fils de Dieu ?" id="0067709e-4a8d-4b27-b41d-fa6c074e1481">
-          <tests>
-            <test input="La trinité" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,51-58&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;0067709e-4a8d-4b27-b41d-fa6c074e1481&quot; /&gt;"/>
-          </tests>
-          <triggers>Jésus est-il Dieu ou le fils de Dieu ?</triggers>
-          <description>C&apos;est la trinité.</description>
-          <references>
-            <bible book="Jn" chapter="8" verseBegin="51" verseEnd="58"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Pourquoi parler de Jésus ?" id="d0f56f07-3e3a-4063-b12d-c8579ab99eeb">
-          <tests>
-            <test input="Pourquoi parler de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,17-21&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 9,14-19&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;d0f56f07-3e3a-4063-b12d-c8579ab99eeb&quot; /&gt;"/>
-            <test input="l&apos;évangélisation" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,17-21&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 9,14-19&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;d0f56f07-3e3a-4063-b12d-c8579ab99eeb&quot; /&gt;"/>
-          </tests>
-          <triggers>Pourquoi parler de Jésus ?&#10;</triggers>
-          <description>C&apos;est l&apos;évangélisation</description>
-          <references>
-            <bible book="Jn" chapter="3" verseBegin="17" verseEnd="21"/>
-            <bible book="1 Cor" chapter="9" verseBegin="14" verseEnd="19"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Prier ensemble" id="23b2665e-dd52-4a16-92ad-db22184e95f8">
-          <tests>
-            <test input="Peut-on prier ensemble ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,7-13&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,1-4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;23b2665e-dd52-4a16-92ad-db22184e95f8&quot; /&gt;"/>
-            <test input="la prière" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,7-13&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,1-4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;23b2665e-dd52-4a16-92ad-db22184e95f8&quot; /&gt;"/>
-            <test input="prière" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,7-13&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,1-4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;23b2665e-dd52-4a16-92ad-db22184e95f8&quot; /&gt;"/>
-          </tests>
-          <triggers>Peut-on prier ensemble ?</triggers>
-          <description>C&apos;est la prière.</description>
-          <references>
-            <bible book="Mt" chapter="6" verseBegin="7" verseEnd="13"/>
-            <bible book="Lk" chapter="11" verseBegin="1" verseEnd="4"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Que faire quand on s&apos;ennuie? (la prière)" id="c46c79dc-bb17-429e-ac5d-3262ad193c94">
-          <tests>
-            <test input="Que faire quand on s&apos;ennuie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/odnYtrDiuiY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,7-29&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;c46c79dc-bb17-429e-ac5d-3262ad193c94&quot; /&gt;"/>
-          </tests>
-          <triggers>Que faire quand on s&apos;ennuie ?</triggers>
-          <references>
-            <bible book="Mt" chapter="7" verseBegin="7" verseEnd="29"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/odnYtrDiuiY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="a955f03b-b947-47c9-a0a1-affcb3031cb6">
-          <triggers>Que faire quand on s&apos;ennuie ?</triggers>
-          <references>
-            <bible book="Jn" chapter="1" verseBegin="1" verseEnd="15"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z6Ti_ZTGsAY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Quel est le sens de ma vie ?" id="3dde6def-4522-4934-8bd9-702a2258085c">
-          <tests>
-            <test input="quel est le sens de ma vie ?" output="Le sens de ta vie est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;3dde6def-4522-4934-8bd9-702a2258085c&quot; /&gt;"/>
-          </tests>
-          <description>C&apos;est le sens de ta vie.</description>
-          <references>
-            <bible book="Jn" chapter="8" verseBegin="12"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Qui est Dieu?" id="3e51eda7-69a9-4885-b799-5ff933de726c">
-          <tests>
-            <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 4,7-12&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 6,35-37&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;3e51eda7-69a9-4885-b799-5ff933de726c&quot; /&gt;"/>
-          </tests>
-          <description>Dieu est amour.</description>
-          <references>
-            <bible book="1 Jn" chapter="4" verseBegin="7" verseEnd="12"/>
-            <bible book="Is" chapter="49" verseBegin="15" verseEnd="16"/>
-            <bible book="Jn" chapter="6" verseBegin="35" verseEnd="37"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j_u-QbcWxC0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
+        <folder name="Comment rencontrer Dieu ?" id="4d2c3c82-76cf-4e1f-b859-c02ad24a6b5f">
+          <html name="Comment rencontrer Dieu?" id="7d4370e2-f625-43b0-aad3-50d9f374b586">
+            <tests>
+              <test input="Comment rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 3,20&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;7d4370e2-f625-43b0-aad3-50d9f374b586&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment rencontrer Dieu ?</triggers>
+            <references>
+              <bible book="Rev" chapter="3" verseBegin="20"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Est-ce que Dieu existe ?" id="75841b64-c249-43fb-81fd-e254c1268d02">
+          <html name="Quel est le sens de ma vie ?" id="3dde6def-4522-4934-8bd9-702a2258085c">
+            <tests>
+              <test input="quel est le sens de ma vie ?" output="Le sens de ta vie est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;3dde6def-4522-4934-8bd9-702a2258085c&quot; /&gt;"/>
+            </tests>
+            <description>C&apos;est le sens de ta vie.</description>
+            <references>
+              <bible book="Jn" chapter="8" verseBegin="12"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Evangélisation" id="b8064d58-8cac-4904-a89a-14aa1ee93019">
+          <html name="Pourquoi parler de Jésus ?" id="d0f56f07-3e3a-4063-b12d-c8579ab99eeb">
+            <tests>
+              <test input="Pourquoi parler de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,17-21&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 9,14-19&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;d0f56f07-3e3a-4063-b12d-c8579ab99eeb&quot; /&gt;"/>
+              <test input="l&apos;évangélisation" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,17-21&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 9,14-19&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;d0f56f07-3e3a-4063-b12d-c8579ab99eeb&quot; /&gt;"/>
+            </tests>
+            <triggers>Pourquoi parler de Jésus ?&#10;</triggers>
+            <description>C&apos;est l&apos;évangélisation</description>
+            <references>
+              <bible book="Jn" chapter="3" verseBegin="17" verseEnd="21"/>
+              <bible book="1 Cor" chapter="9" verseBegin="14" verseEnd="19"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Foi et société" id="11a0743d-1ab6-429e-8898-80ae6759ebee">
+          <html name="Comment embrasser ? (la place du corps dans l&apos;Eglise)" id="04a75dee-bbad-4f78-a003-5093431e20fd">
+            <tests>
+              <test input="Comment embrasser ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43,1-5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;04a75dee-bbad-4f78-a003-5093431e20fd&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment embrasser ?</triggers>
+            <references>
+              <bible book="Is" chapter="43" verseBegin="1" verseEnd="5"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Comment plaire? (le regard des autres)" id="670f53ed-4479-4511-822f-9b2be4ae6f5d">
+            <tests>
+              <test input="Comment plaire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VVF71zElo7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 138,13-24&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;670f53ed-4479-4511-822f-9b2be4ae6f5d&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment plaire ?</triggers>
+            <references>
+              <bible book="Ps" chapter="138" verseBegin="13" verseEnd="24"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VVF71zElo7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Lire la Bilbe" id="e2495f6d-9206-40e7-8b47-ffbcb30af3b9">
+          <html name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="a955f03b-b947-47c9-a0a1-affcb3031cb6">
+            <triggers>Que faire quand on s&apos;ennuie ?</triggers>
+            <references>
+              <bible book="Jn" chapter="1" verseBegin="1" verseEnd="15"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z6Ti_ZTGsAY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Prier" id="01bb015e-8c30-44f2-9e73-64cc4c4d0c55">
+          <html name="Prier ensemble" id="23b2665e-dd52-4a16-92ad-db22184e95f8">
+            <tests>
+              <test input="Peut-on prier ensemble ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,7-13&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,1-4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;23b2665e-dd52-4a16-92ad-db22184e95f8&quot; /&gt;"/>
+              <test input="la prière" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,7-13&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,1-4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;23b2665e-dd52-4a16-92ad-db22184e95f8&quot; /&gt;"/>
+              <test input="prière" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,7-13&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,1-4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;23b2665e-dd52-4a16-92ad-db22184e95f8&quot; /&gt;"/>
+            </tests>
+            <triggers>Peut-on prier ensemble ?</triggers>
+            <description>C&apos;est la prière.</description>
+            <references>
+              <bible book="Mt" chapter="6" verseBegin="7" verseEnd="13"/>
+              <bible book="Lk" chapter="11" verseBegin="1" verseEnd="4"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Que faire quand on s&apos;ennuie? (la prière)" id="c46c79dc-bb17-429e-ac5d-3262ad193c94">
+            <triggers>Que faire quand on s&apos;ennuie ?</triggers>
+            <references>
+              <bible book="Mt" chapter="7" verseBegin="7" verseEnd="29"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/odnYtrDiuiY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Qui est Dieu ?" id="01de00f8-1e99-4f50-a195-0737f618666e">
+          <html name="Comment devenir immortel... en 8 minutes (passer de la mort à la vie éternelle)" id="7e4d2365-acab-467f-a211-54f03a445f68">
+            <tests>
+              <test input="Comment devenir immortel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 30,15-20&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,21-27&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;7e4d2365-acab-467f-a211-54f03a445f68&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment devenir immortel ?</triggers>
+            <references>
+              <bible book="Deut" chapter="30" verseBegin="15" verseEnd="20"/>
+              <bible book="Jn" chapter="11" verseBegin="21" verseEnd="27"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Comment réussir sa vie? (les derniers seront les premiers)" id="576900f3-2ec3-4f93-9033-a222769f50aa">
+            <tests>
+              <test input="Comment réussir sa vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IooFq0v_zuc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,28-30&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 20,1-16&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 16,19-31&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;576900f3-2ec3-4f93-9033-a222769f50aa&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment réussir sa vie ?</triggers>
+            <references>
+              <bible book="Mt" chapter="19" verseBegin="28" verseEnd="30"/>
+              <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
+              <bible book="Lk" chapter="16" verseBegin="19" verseEnd="31"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IooFq0v_zuc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Comment être heureux ? (le monde vs la paix de Jésus)" id="681a308a-ba23-476f-9a78-2be851bcf2ee">
+            <tests>
+              <test input="Comment être heureux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6QniJES-vo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 22,17&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;681a308a-ba23-476f-9a78-2be851bcf2ee&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment être heureux ?</triggers>
+            <references>
+              <bible book="Rev" chapter="22" verseBegin="17"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6QniJES-vo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Jésus est-il Dieu ou le fils de Dieu ?" id="0067709e-4a8d-4b27-b41d-fa6c074e1481">
+            <tests>
+              <test input="La trinité" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,51-58&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;0067709e-4a8d-4b27-b41d-fa6c074e1481&quot; /&gt;"/>
+            </tests>
+            <triggers>Jésus est-il Dieu ou le fils de Dieu ?</triggers>
+            <description>C&apos;est la trinité.</description>
+            <references>
+              <bible book="Jn" chapter="8" verseBegin="51" verseEnd="58"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Qui est Dieu?" id="3e51eda7-69a9-4885-b799-5ff933de726c">
+            <tests>
+              <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 4,7-12&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 6,35-37&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;3e51eda7-69a9-4885-b799-5ff933de726c&quot; /&gt;"/>
+            </tests>
+            <description>Dieu est amour.</description>
+            <references>
+              <bible book="1 Jn" chapter="4" verseBegin="7" verseEnd="12"/>
+              <bible book="Is" chapter="49" verseBegin="15" verseEnd="16"/>
+              <bible book="Jn" chapter="6" verseBegin="35" verseEnd="37"/>
+            </references>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j_u-QbcWxC0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
       </folder>
       <folder name="Guérisons" id="0c812606-c303-4ef5-bc33-a44451491a05">
         <html name="&quot;Ma guérison à Lourdes&quot; : Serge François témoigne" id="0cc7655c-5a43-4639-a78d-39d76c4730bb">
