@@ -1,31 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Conversational Agent" id="0dd5fc96-9d46-47e1-a7ce-e4f6341141f0">
-    <conversation_flow name="Do you already know the Catholic Church?" id="d2834279-b743-4b7d-b9a3-b31ffafd479e">
-      <reply>Do you already know the Catholic Church?</reply>
-    </conversation_flow>
-    <information name="Greeting" id="432d3d5f-1f6a-444b-9038-ebc8eb7ce271">
+  <folder name="Applications" id="8148c45b-2150-40ad-b9d2-36e06e143bb3">
+    <url name="Bible.is" id="23ca371f-cf98-4484-ba00-aeeeaebd9efc">
+      <description>It&apos;s a Christian application.</description>
+      <url>http://www.bible.is/</url>
+    </url>
+  </folder>
+  <folder name="Bible" id="e4bf9c63-dc82-4ada-80fd-70f5bfd0ed38" description="The Bible is unique. It is the most widely circulated book in the world. No other book has been translated into as many different languages. No other book in human history has had a greater influence. For all Christians, the Bible is Sacred Scripture.&#10;&#10;The Bible is world literature. It contains wonderful stories. Many biblical writings are of great poetical beauty, for example the Book of Job and a whole series of psalms from the Old Testament or the great hymn of love (1 Cor 13) and the Revelation of John from the New Testament. Often the Bible is disturbing. It is critical. Many times it strikes contemporary readers as odd. It may take years to understand a particular passage from Sacred Scripture. But it is worthwhile to keep trying. For all Christians it is the charter of the faith.&#10;&#10;And more than that: the Bible is the “Word of God”. It expresses it with human words and in human language. But it is a revelation. It was written because men listened to God&apos;s Word and wrote it down in their own words. It was handed down, because others believed that those people did not just invent something but really had a message from God to convey.&#10;&#10;The Bible is meant to move people. It ought to motivate readers to a life of striving for good. This life should combine love for God and love for one&apos;s neighbors. That is why we cannot just read the Bible and leave it at that. Praying is part of it, helping others, reflecting on the faith—and in all this there is the joy that God exists, who gives us life.&#10;&#10;Youcat Bible (p. 12-13)" url="https://www.bible.com/bible/111/GEN.INTRO1.NIV">
+    <folder name="Ascension" id="fd2db561-b12b-4356-a1e7-c7be648d53e6">
+      <html name="ASCENSION OF JESUS CHRIST " id="e1d166c0-742e-4c7e-87ab-72446d29db31">
+        <tests>
+          <test input="Show me the Ascension of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:50-53&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:1-11&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;e1d166c0-742e-4c7e-87ab-72446d29db31&quot; /&gt;"/>
+        </tests>
+        <description>It&apos;s the Ascension of Jesus.</description>
+        <references>
+          <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
+          <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
+        </references>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Beloved Master Jesus&apos; Ascension " id="3147c1e4-f874-486b-a079-72a0dfdea337">
+        <description>It&apos;s the Ascension of Jesus.</description>
+        <references>
+          <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
+          <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
+        </references>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4qBbr1D-OlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <folder name="Daily Gospel" id="2f0c01ef-90bd-4d06-8dfd-3be664a9f3f5" description="« Evangelizo / Daily Gospel » is a service provided by our international association Evangelizo. Evangelizo&apos;s mission is to spread the voice of the Gospel in all languages throughout the world via the Internet and to develop the technical means to this end. Evangelizo is a team of more than 70 secular and clerical Roman Catholics, formed of priests, monks and nuns from various communities, congregations or spiritual sensitivities such as Jesuits, Redemptorists, Benedictines, Carmelites, Cistercians, the Monastic Communities of Jerusalem, the Emmanuel Community and Focolari. We are always working to add new languages so as to deliver the gospel to every corner of the world. Below we have attached some photos of our growing Evangelizo family." url="https://dailygospel.org">
+      <folder name="Readings" id="17aa41fc-27c2-4a12-9d1d-bed5646653d7">
+        <api name="First Reading" id="854eb729-e523-4661-a6ea-7242dbe1426c">
+          <apiId>first_reading</apiId>
+        </api>
+        <api name="Holy Gospel" id="d3720ca8-0651-4614-bdfc-efcc36474914">
+          <tests>
+            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+            <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
+          </tests>
+          <triggers>What is the Gospel of the day ?&#10;What is the Gospel of this Sunday ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <apiId>holy_gospel</apiId>
+        </api>
+        <api name="Psalm" id="5f0ec985-ccaa-45dd-8fc9-ce92ddc45cee">
+          <apiId>psalm</apiId>
+        </api>
+        <api name="Second Reading" id="4bdc54cb-32fa-4544-b4ab-08bd44f92ac9">
+          <apiId>second_reading</apiId>
+        </api>
+        <information name="Suggest to read the Holy Gospel" id="dd8cfe42-efb2-4a78-8e13-d71e83e1229e">
+          <triggers>I know the Catholic Church.</triggers>
+          <text>Do you want to read the Holy Gospel of today ?</text>
+        </information>
+      </folder>
+      <folder name="Saint" id="b4aec685-2844-49c4-873d-bb929bbbb512">
+        <api name="Saint" id="22ff2135-294e-4084-8cd1-62c6306d34c7">
+          <tests>
+            <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;1120&quot; height=&quot;500&quot; src=&quot;http://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;22ff2135-294e-4084-8cd1-62c6306d34c7&quot; /&gt;"/>
+          </tests>
+          <triggers>Who is the Saint of today ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <apiId>saint</apiId>
+        </api>
+      </folder>
+    </folder>
+    <folder name="God" id="ca117744-39d1-469e-8ddf-9777cf4807f3">
+      <information name="God became man" id="238239c9-9df3-4c09-8465-b6a1f4aefa8a">
+        <tests>
+          <test input="Did God become man?" output="Yes, God became man." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;238239c9-9df3-4c09-8465-b6a1f4aefa8a&quot; /&gt;"/>
+        </tests>
+        <text>God became man to share everything of our human condition except sin.&#10;God has decided to come down to earth to take upon himself our curse out of love for us.</text>
+      </information>
+      <information name="God is not unfair." id="bfb27748-4f0b-400d-b888-f424ba5fba47">
+        <references>
+          <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
+        </references>
+        <text>God is not unfair.</text>
+      </information>
+      <information name="God is not unfaithful" id="1d5c3892-3fc0-497a-8fb4-6dd36cde7377">
+        <text>God is not unfaithful.</text>
+      </information>
+      <information name="God surpasses reason" id="165f0f05-95d9-46d4-8e30-67a3ef71103c">
+        <tests>
+          <test input="God surpasses reason" output="Yes, I know God surpasses the reason." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 6:16&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;165f0f05-95d9-46d4-8e30-67a3ef71103c&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="1 Tim" chapter="6" verseBegin="16"/>
+        </references>
+        <text>God surpasses reason.</text>
+      </information>
+      <information name="The Father is God" id="6c87d7b3-3611-480f-b9dd-f43bc7bcb812">
+        <tests>
+          <test input="The Father is God?" output="Yes, the Father is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;6c87d7b3-3611-480f-b9dd-f43bc7bcb812&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="Jn" chapter="6" verseBegin="27"/>
+          <bible book="Rom" chapter="1" verseBegin="7"/>
+          <bible book="1 Pet" chapter="1" verseBegin="2"/>
+        </references>
+        <text>The Father is God.</text>
+      </information>
+      <information name="The Son is God" id="bbc0a9e1-d912-4202-93b6-6cc2db69b768">
+        <tests>
+          <test input="The Son is God?" output="Yes, the Son is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;bbc0a9e1-d912-4202-93b6-6cc2db69b768&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="Jn" chapter="1" verseBegin="1"/>
+          <bible book="Rom" chapter="9" verseBegin="5"/>
+          <bible book="Col" chapter="2" verseBegin="9"/>
+        </references>
+        <text>The Son is God.</text>
+      </information>
+      <information name="The Spirit is God" id="aba8773e-8111-40d7-b3ce-d66fd4f3a8e5">
+        <tests>
+          <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 5:3-4&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;aba8773e-8111-40d7-b3ce-d66fd4f3a8e5&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="Acts" chapter="5" verseBegin="3" verseEnd="4"/>
+          <bible book="1 Cor" chapter="3" verseBegin="16"/>
+        </references>
+        <text>The Spirit is God.</text>
+      </information>
+      <information name="There is but one God" id="481ef65a-31da-48da-b56f-f14cfba5d1fc">
+        <references>
+          <bible book="Deut" chapter="4" verseBegin="35"/>
+          <bible book="Is" chapter="46" verseBegin="9"/>
+          <bible book="1 Cor" chapter="8" verseBegin="4"/>
+        </references>
+        <text>There is but one God.</text>
+      </information>
+    </folder>
+    <folder name="God exists" id="08a74452-3083-483b-97a8-019f65675794">
+      <html name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="0ec031bb-5c32-4aa9-bd4b-69244cfd50bb">
+        <description>That is why God exists.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="God exists" id="0c7d8efa-d0a5-4102-92cf-4262c950d65b">
+        <tests>
+          <test input="Does God exist?" output="Yes, God exists." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;0c7d8efa-d0a5-4102-92cf-4262c950d65b&quot; /&gt;"/>
+        </tests>
+        <text>God exists.</text>
+      </information>
+    </folder>
+    <folder name="Gospel" id="840815e3-d6ca-4166-a947-c54aa62b1798">
+      <information name="There is 4 gospels" id="71c72134-ab60-4778-9963-e6d140cf33d9">
+        <tests>
+          <test input="How many gospels are there?" output="There are 4 gospels."/>
+        </tests>
+        <text>There is 4 gospels.</text>
+      </information>
+    </folder>
+    <folder name="Resurrection" id="71e6b176-f09d-4d44-9531-a6d2bece9e5d">
+      <information name="Jesus is resurrected" id="3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f">
+        <tests>
+          <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f&quot; /&gt;"/>
+          <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f&quot; /&gt;"/>
+        </tests>
+        <text>Jesus is resurrected.</text>
+      </information>
+      <html name="The Resurrection of Jesus (Introduction) " id="87600b1c-4a1c-41c7-955c-6c4d6fab6958">
+        <tests>
+          <test input="Show me Resurrection of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:1-12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:1-15&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:1-18&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 16:1-18&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:14-19&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 2:22-33&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;87600b1c-4a1c-41c7-955c-6c4d6fab6958&quot; /&gt;"/>
+        </tests>
+        <description>It&apos;s the Resurrection of Jesus</description>
+        <references>
+          <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
+          <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
+          <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
+          <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
+          <bible book="1 Cor" chapter="15" verseBegin="14" verseEnd="19"/>
+          <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
+        </references>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <information name="The Bible provides a way to access happiness by following Jesus." id="9b22fe34-e655-4bd9-85b7-1986a6be6a91">
       <tests>
-        <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
+        <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;9b22fe34-e655-4bd9-85b7-1986a6be6a91&quot; /&gt;"/>
       </tests>
-      <triggers>hello</triggers>
-      <text>Hello</text>
+      <text>The Bible provides a way to access happiness by following Jesus.</text>
     </information>
-    <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
+    <information name="The Bible tells..." id="1a70020a-626c-40d0-b3fb-4915575e69e4">
       <tests>
-        <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
+        <test input="What does the Bible tell?" output="The Bible tells who God is, our story, the suffering that is present in our heart and our thirst." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;1a70020a-626c-40d0-b3fb-4915575e69e4&quot; /&gt;"/>
       </tests>
-      <text>I&apos;m fine.</text>
+      <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
     </information>
-    <information name="My name" id="60d6821a-f714-443c-97ed-ac33592e4c82">
+    <information name="The beginning of the Bible is the book of Genesis." id="c88e10de-a3d5-4185-8d09-5b5398501b8e">
       <tests>
-        <test input="What is your name?" output="My name is Holy Chatter."/>
-        <test input="Who are you?" output="I am Holy Chatter."/>
+        <test input="What is the beginning of the Bible?" output="The beginning of the Bible is Genesis&apos; book." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;c88e10de-a3d5-4185-8d09-5b5398501b8e&quot; /&gt;"/>
       </tests>
-      <text>My name is Holy Chatter.</text>
+      <text>The beginning of the Bible is the book of Genesis.</text>
     </information>
   </folder>
-  <folder name="Sources" id="ad29aa6f-2619-46f4-ad45-9cc81c8ae68e">
+  <folder name="Catechism" id="565d7dbd-79a3-4825-ae55-385afeb64a55">
     <folder name="3 Minute Catechism" id="34ef9d05-8fe5-4b77-89bd-fc390ce2330e" description="3MC (3 Minute Catechism) consists of 72 hand drawn and animated episodes each 3-4 minutes long, that follow the the creed and explain the basics of the Catholic Faith.&#10;&#10;But this goes beyond the basics and really tries to explain some of the deeper truths of the Catholic faith. All through amazing illustrations, creative presentation, humour, and even some deep theology. It’s like having a visual catechism." url="https://www.youtube.com/playlist?list=PLIcePO_eJb2_EElTdFm1PFLNkH17EQcV-">
       <folder name="1. Basics" id="c967b2f6-b6e5-45be-bc99-e6fe1c1e94be">
         <html name="1. What is man?" id="ba16ef5c-987c-4ab5-8191-d47fd602cbfc">
@@ -449,6 +619,44 @@
           </references>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
+        <html name="31. How is Jesus different from the founders of other religions?" id="5a4afee4-d99f-4cf5-a74f-9c1ca863895b">
+          <tests>
+            <test input="How is Jesus different from the founders of other religions?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Phil 2:10-11&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;5a4afee4-d99f-4cf5-a74f-9c1ca863895b&quot; /&gt;"/>
+          </tests>
+          <triggers>How is Jesus different from the founders of other religions?</triggers>
+          <references>
+            <bible book="Phil" chapter="2" verseBegin="10" verseEnd="11"/>
+          </references>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="32. How did Jesus save us on the Cross?" id="118e71d2-bde3-4b1c-a7b1-6eb12161214d">
+          <tests>
+            <test input="How did Jesus save us on the Cross?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 53&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 8:31&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 10:33-34&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 13:1&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:3&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:18-19&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;118e71d2-bde3-4b1c-a7b1-6eb12161214d&quot; /&gt;"/>
+            <test input="What is Redemption ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 53&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 8:31&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 10:33-34&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 13:1&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:3&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:18-19&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;118e71d2-bde3-4b1c-a7b1-6eb12161214d&quot; /&gt;"/>
+          </tests>
+          <triggers>How did Jesus save us on the Cross?&#10;What is Redemption ?</triggers>
+          <references>
+            <bible book="Is" chapter="53"/>
+            <bible book="Ps" chapter="22"/>
+            <bible book="Mk" chapter="8" verseBegin="31"/>
+            <bible book="Mk" chapter="10" verseBegin="33" verseEnd="34"/>
+            <bible book="Jn" chapter="13" verseBegin="1"/>
+            <bible book="1 Cor" chapter="15" verseBegin="3"/>
+            <bible book="1 Pet" chapter="1" verseBegin="18" verseEnd="19"/>
+            <bible book="1 Jn" chapter="2" verseBegin="2"/>
+          </references>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="33. How does the grace of salvation come to us?" id="d2e9fbce-64ed-4efe-89ad-88706c8f4861">
+          <triggers>How does the grace of salvation come to us?</triggers>
+          <references>
+            <bible book="Rom" chapter="13" verseBegin="14"/>
+            <bible book="Gal" chapter="3" verseBegin="27"/>
+            <ccc verseBegin="618"/>
+            <ccc verseBegin="738" verseEnd="741"/>
+          </references>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kgqH0Q0kFgM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
       </folder>
       <folder name="6. Sanctification" id="fcc34f38-b48f-419f-ba99-3679908076f5">
         <html name="34. What is Grace?" id="a00750d4-207e-4ebb-b013-540b12e23094">
@@ -608,50 +816,6 @@
       <folder name="8. The Last Things" id="3ea220c7-6ce5-4d7e-b09b-1e34022401b5"/>
       <folder name="9. Life with God" id="9369719e-4ccb-4204-9de8-62353731aa1a"/>
     </folder>
-    <folder name="Daily Gospel" id="2f0c01ef-90bd-4d06-8dfd-3be664a9f3f5" description="« Evangelizo / Daily Gospel » is a service provided by our international association Evangelizo. Evangelizo&apos;s mission is to spread the voice of the Gospel in all languages throughout the world via the Internet and to develop the technical means to this end. Evangelizo is a team of more than 70 secular and clerical Roman Catholics, formed of priests, monks and nuns from various communities, congregations or spiritual sensitivities such as Jesuits, Redemptorists, Benedictines, Carmelites, Cistercians, the Monastic Communities of Jerusalem, the Emmanuel Community and Focolari. We are always working to add new languages so as to deliver the gospel to every corner of the world. Below we have attached some photos of our growing Evangelizo family." url="https://dailygospel.org">
-      <folder name="Readings" id="17aa41fc-27c2-4a12-9d1d-bed5646653d7">
-        <api name="First Reading" id="854eb729-e523-4661-a6ea-7242dbe1426c">
-          <apiId>first_reading</apiId>
-        </api>
-        <api name="Holy Gospel" id="d3720ca8-0651-4614-bdfc-efcc36474914">
-          <tests>
-            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
-            <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
-            <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
-            <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;d3720ca8-0651-4614-bdfc-efcc36474914&quot; /&gt;"/>
-          </tests>
-          <triggers>What is the Gospel of the day ?&#10;What is the Gospel of this Sunday ?</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <apiId>holy_gospel</apiId>
-        </api>
-        <api name="Psalm" id="5f0ec985-ccaa-45dd-8fc9-ce92ddc45cee">
-          <apiId>psalm</apiId>
-        </api>
-        <api name="Second Reading" id="4bdc54cb-32fa-4544-b4ab-08bd44f92ac9">
-          <apiId>second_reading</apiId>
-        </api>
-        <information name="Suggest to read the Holy Gospel" id="dd8cfe42-efb2-4a78-8e13-d71e83e1229e">
-          <triggers>I know the Catholic Church.</triggers>
-          <text>Do you want to read the Holy Gospel of today ?</text>
-        </information>
-      </folder>
-      <folder name="Saint" id="b4aec685-2844-49c4-873d-bb929bbbb512">
-        <api name="Saint" id="22ff2135-294e-4084-8cd1-62c6306d34c7">
-          <tests>
-            <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;1120&quot; height=&quot;500&quot; src=&quot;http://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;22ff2135-294e-4084-8cd1-62c6306d34c7&quot; /&gt;"/>
-          </tests>
-          <triggers>Who is the Saint of today ?</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <apiId>saint</apiId>
-        </api>
-      </folder>
-    </folder>
-    <folder name="Laudato Si " id="94009a97-22e1-4f1e-a37a-13a5ccec3a08" description="“LAUDATO SI’, mi’ Signore” – “Praise be to you, my Lord”. In the words of this beautiful canticle, Saint Francis of Assisi reminds us that our common home is like a sister with whom we share our life and a beautiful mother who opens her arms to embrace us. “Praise be to you, my Lord, through our Sister, Mother Earth, who sustains and governs us, and who produces various fruit with coloured flowers and herbs”.[1]" url="http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html">
-      <html name="Summary of Pope Francis &apos;Laudato Si&apos;" id="94f4e31c-14bc-4130-9b6b-b8ae7ffef884">
-        <description>Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;&#10;&#10;Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
     <folder name="TheoMatters" id="5e7df331-a271-4b78-ba73-350e9948780d">
       <html name="A sacrement" id="03410df4-3b5f-4049-b640-654fcf12d07a">
         <tests>
@@ -719,371 +883,245 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Themes" id="4d8e23f1-d2e7-46d4-a2cc-cdf02e24c942">
-    <folder name="Applications" id="8148c45b-2150-40ad-b9d2-36e06e143bb3">
-      <url name="Bible.is" id="23ca371f-cf98-4484-ba00-aeeeaebd9efc">
-        <description>It&apos;s a Christian application.</description>
-        <url>http://www.bible.is/</url>
-      </url>
-    </folder>
-    <folder name="Bible" id="e4bf9c63-dc82-4ada-80fd-70f5bfd0ed38" description="The Bible is unique. It is the most widely circulated book in the world. No other book has been translated into as many different languages. No other book in human history has had a greater influence. For all Christians, the Bible is Sacred Scripture.&#10;&#10;The Bible is world literature. It contains wonderful stories. Many biblical writings are of great poetical beauty, for example the Book of Job and a whole series of psalms from the Old Testament or the great hymn of love (1 Cor 13) and the Revelation of John from the New Testament. Often the Bible is disturbing. It is critical. Many times it strikes contemporary readers as odd. It may take years to understand a particular passage from Sacred Scripture. But it is worthwhile to keep trying. For all Christians it is the charter of the faith.&#10;&#10;And more than that: the Bible is the “Word of God”. It expresses it with human words and in human language. But it is a revelation. It was written because men listened to God&apos;s Word and wrote it down in their own words. It was handed down, because others believed that those people did not just invent something but really had a message from God to convey.&#10;&#10;The Bible is meant to move people. It ought to motivate readers to a life of striving for good. This life should combine love for God and love for one&apos;s neighbors. That is why we cannot just read the Bible and leave it at that. Praying is part of it, helping others, reflecting on the faith—and in all this there is the joy that God exists, who gives us life.&#10;&#10;Youcat Bible (p. 12-13)" url="https://www.bible.com/bible/111/GEN.INTRO1.NIV">
-      <folder name="Ascension" id="fd2db561-b12b-4356-a1e7-c7be648d53e6">
-        <html name="ASCENSION OF JESUS CHRIST " id="e1d166c0-742e-4c7e-87ab-72446d29db31">
-          <tests>
-            <test input="Show me the Ascension of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:50-53&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:1-11&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;e1d166c0-742e-4c7e-87ab-72446d29db31&quot; /&gt;"/>
-          </tests>
-          <description>It&apos;s the Ascension of Jesus.</description>
-          <references>
-            <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
-            <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Beloved Master Jesus&apos; Ascension " id="3147c1e4-f874-486b-a079-72a0dfdea337">
-          <description>It&apos;s the Ascension of Jesus.</description>
-          <references>
-            <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
-            <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4qBbr1D-OlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="God" id="ca117744-39d1-469e-8ddf-9777cf4807f3">
-        <information name="God became man" id="238239c9-9df3-4c09-8465-b6a1f4aefa8a">
-          <tests>
-            <test input="Did God become man?" output="Yes, God became man." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;238239c9-9df3-4c09-8465-b6a1f4aefa8a&quot; /&gt;"/>
-          </tests>
-          <text>God became man to share everything of our human condition except sin.&#10;God has decided to come down to earth to take upon himself our curse out of love for us.</text>
-        </information>
-        <information name="God is not unfair." id="bfb27748-4f0b-400d-b888-f424ba5fba47">
-          <references>
-            <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
-          </references>
-          <text>God is not unfair.</text>
-        </information>
-        <information name="God is not unfaithful" id="1d5c3892-3fc0-497a-8fb4-6dd36cde7377">
-          <text>God is not unfaithful.</text>
-        </information>
-        <information name="God surpasses reason" id="165f0f05-95d9-46d4-8e30-67a3ef71103c">
-          <tests>
-            <test input="God surpasses reason" output="Yes, I know God surpasses the reason." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 6:16&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;165f0f05-95d9-46d4-8e30-67a3ef71103c&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="1 Tim" chapter="6" verseBegin="16"/>
-          </references>
-          <text>God surpasses reason.</text>
-        </information>
-        <information name="The Father is God" id="6c87d7b3-3611-480f-b9dd-f43bc7bcb812">
-          <tests>
-            <test input="The Father is God?" output="Yes, the Father is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;6c87d7b3-3611-480f-b9dd-f43bc7bcb812&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Jn" chapter="6" verseBegin="27"/>
-            <bible book="Rom" chapter="1" verseBegin="7"/>
-            <bible book="1 Pet" chapter="1" verseBegin="2"/>
-          </references>
-          <text>The Father is God.</text>
-        </information>
-        <information name="The Son is God" id="bbc0a9e1-d912-4202-93b6-6cc2db69b768">
-          <tests>
-            <test input="The Son is God?" output="Yes, the Son is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;bbc0a9e1-d912-4202-93b6-6cc2db69b768&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Jn" chapter="1" verseBegin="1"/>
-            <bible book="Rom" chapter="9" verseBegin="5"/>
-            <bible book="Col" chapter="2" verseBegin="9"/>
-          </references>
-          <text>The Son is God.</text>
-        </information>
-        <information name="The Spirit is God" id="aba8773e-8111-40d7-b3ce-d66fd4f3a8e5">
-          <tests>
-            <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 5:3-4&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;aba8773e-8111-40d7-b3ce-d66fd4f3a8e5&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Acts" chapter="5" verseBegin="3" verseEnd="4"/>
-            <bible book="1 Cor" chapter="3" verseBegin="16"/>
-          </references>
-          <text>The Spirit is God.</text>
-        </information>
-        <information name="There is but one God" id="481ef65a-31da-48da-b56f-f14cfba5d1fc">
-          <references>
-            <bible book="Deut" chapter="4" verseBegin="35"/>
-            <bible book="Is" chapter="46" verseBegin="9"/>
-            <bible book="1 Cor" chapter="8" verseBegin="4"/>
-          </references>
-          <text>There is but one God.</text>
-        </information>
-      </folder>
-      <folder name="God exists" id="08a74452-3083-483b-97a8-019f65675794">
-        <html name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="0ec031bb-5c32-4aa9-bd4b-69244cfd50bb">
-          <description>That is why God exists.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="God exists" id="0c7d8efa-d0a5-4102-92cf-4262c950d65b">
-          <tests>
-            <test input="Does God exist?" output="Yes, God exists." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;0c7d8efa-d0a5-4102-92cf-4262c950d65b&quot; /&gt;"/>
-          </tests>
-          <text>God exists.</text>
-        </information>
-      </folder>
-      <folder name="Gospel" id="840815e3-d6ca-4166-a947-c54aa62b1798">
-        <information name="There is 4 gospels" id="71c72134-ab60-4778-9963-e6d140cf33d9">
-          <tests>
-            <test input="How many gospels are there?" output="There are 4 gospels."/>
-          </tests>
-          <text>There is 4 gospels.</text>
-        </information>
-      </folder>
-      <folder name="Resurrection" id="71e6b176-f09d-4d44-9531-a6d2bece9e5d">
-        <information name="Jesus is resurrected" id="3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f">
-          <tests>
-            <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f&quot; /&gt;"/>
-            <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;3bbd6d0d-e873-460c-abc2-0a99c7c3ab9f&quot; /&gt;"/>
-          </tests>
-          <text>Jesus is resurrected.</text>
-        </information>
-        <html name="The Resurrection of Jesus (Introduction) " id="87600b1c-4a1c-41c7-955c-6c4d6fab6958">
-          <tests>
-            <test input="Show me Resurrection of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:1-12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:1-15&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:1-18&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 16:1-18&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:14-19&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 2:22-33&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;87600b1c-4a1c-41c7-955c-6c4d6fab6958&quot; /&gt;"/>
-          </tests>
-          <description>It&apos;s the Resurrection of Jesus</description>
-          <references>
-            <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
-            <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
-            <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
-            <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
-            <bible book="1 Cor" chapter="15" verseBegin="14" verseEnd="19"/>
-            <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
-          </references>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <information name="The Bible provides a way to access happiness by following Jesus." id="9b22fe34-e655-4bd9-85b7-1986a6be6a91">
+  <folder name="Church" id="159b9fe6-27b1-4437-a2ee-186e57c783bf">
+    <information name="Suggest to know what is the Church" id="d8403dde-246a-49fd-8e11-048f96b4cb54">
+      <triggers>I don&apos;t know the Catholic Church.</triggers>
+      <text>Do you want to see a video that describe the Church ?</text>
+    </information>
+    <folder name="Teaching" id="a9d939a8-19e0-4139-8dd1-12228b448913">
+      <information name="Credo" id="fa91ea4d-25e8-4920-adae-0bc36ac65f3a">
         <tests>
-          <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;9b22fe34-e655-4bd9-85b7-1986a6be6a91&quot; /&gt;"/>
+          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;fa91ea4d-25e8-4920-adae-0bc36ac65f3a&quot; /&gt;"/>
         </tests>
-        <text>The Bible provides a way to access happiness by following Jesus.</text>
-      </information>
-      <information name="The Bible tells..." id="1a70020a-626c-40d0-b3fb-4915575e69e4">
-        <tests>
-          <test input="What does the Bible tell?" output="The Bible tells who God is, our story, the suffering that is present in our heart and our thirst." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;1a70020a-626c-40d0-b3fb-4915575e69e4&quot; /&gt;"/>
-        </tests>
-        <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
-      </information>
-      <information name="The beginning of the Bible is the book of Genesis." id="c88e10de-a3d5-4185-8d09-5b5398501b8e">
-        <tests>
-          <test input="What is the beginning of the Bible?" output="The beginning of the Bible is Genesis&apos; book." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;c88e10de-a3d5-4185-8d09-5b5398501b8e&quot; /&gt;"/>
-        </tests>
-        <text>The beginning of the Bible is the book of Genesis.</text>
+        <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
       </information>
     </folder>
-    <folder name="Church" id="159b9fe6-27b1-4437-a2ee-186e57c783bf">
-      <information name="Suggest to know what is the Church" id="d8403dde-246a-49fd-8e11-048f96b4cb54">
-        <triggers>I don&apos;t know the Catholic Church.</triggers>
-        <text>Do you want to see a video that describe the Church ?</text>
-      </information>
-      <folder name="Teaching" id="a9d939a8-19e0-4139-8dd1-12228b448913">
-        <information name="Credo" id="fa91ea4d-25e8-4920-adae-0bc36ac65f3a">
-          <tests>
-            <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;fa91ea4d-25e8-4920-adae-0bc36ac65f3a&quot; /&gt;"/>
-          </tests>
-          <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
-        </information>
-      </folder>
-      <folder name="Usual answers" id="9dce8cfe-4e23-48bf-8581-6d600f81bc93">
-        <conversation_flow name="Christ is risen!" id="b02afb1f-b0d1-4083-b989-c908438d19d4">
-          <tests>
-            <test input="Christ is risen!" output="Truly, He is Risen!"/>
-          </tests>
-          <triggers>Christ is risen!</triggers>
-          <reply>Truly, He is Risen!</reply>
-        </conversation_flow>
-        <conversation_flow name="Let us give thanks to the Lord our God." id="44ded736-26b2-4167-94ed-cbb2f7438e80">
-          <triggers>Let us give thanks to the Lord our God.</triggers>
-          <reply>It is right and just.</reply>
-        </conversation_flow>
-        <conversation_flow name="Lift up your hearts." id="26c6ae31-eeff-45fe-8bf3-9ef6fd6df3db">
-          <triggers>Lift up your hearts.</triggers>
-          <reply>We lift them up to the Lord.</reply>
-        </conversation_flow>
-        <conversation_flow name="The Lord be with you." id="1b815f55-166f-4e43-b841-cef038f5062f">
-          <triggers>The Lord be with you.</triggers>
-          <reply>And with your spirit.</reply>
-        </conversation_flow>
-        <conversation_flow name="The peace of the Lord be with you always." id="46561ab1-5219-48da-9eed-3f0a58466e5f">
-          <tests>
-            <test input="The peace of the Lord be with you always." output="And with your spirit."/>
-          </tests>
-          <triggers>The peace of the Lord be with you always.&#10;</triggers>
-          <reply>And with your spirit.</reply>
-        </conversation_flow>
-      </folder>
-      <html name="What are the four characteristics of the Church?" id="9dad4c71-6a1f-448e-8516-875040a84216">
+    <folder name="Usual answers" id="9dce8cfe-4e23-48bf-8581-6d600f81bc93">
+      <conversation_flow name="Christ is risen!" id="b02afb1f-b0d1-4083-b989-c908438d19d4">
         <tests>
-          <test input="What are the characteristics of the Church?" output="The characteristics of the Church are \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;9dad4c71-6a1f-448e-8516-875040a84216&quot; /&gt;"/>
+          <test input="Christ is risen!" output="Truly, He is Risen!"/>
         </tests>
-        <description>It&apos;s the characteristics of the Church.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        <triggers>Christ is risen!</triggers>
+        <reply>Truly, He is Risen!</reply>
+      </conversation_flow>
+      <conversation_flow name="Let us give thanks to the Lord our God." id="44ded736-26b2-4167-94ed-cbb2f7438e80">
+        <triggers>Let us give thanks to the Lord our God.</triggers>
+        <reply>It is right and just.</reply>
+      </conversation_flow>
+      <conversation_flow name="Lift up your hearts." id="26c6ae31-eeff-45fe-8bf3-9ef6fd6df3db">
+        <triggers>Lift up your hearts.</triggers>
+        <reply>We lift them up to the Lord.</reply>
+      </conversation_flow>
+      <conversation_flow name="The Lord be with you." id="1b815f55-166f-4e43-b841-cef038f5062f">
+        <triggers>The Lord be with you.</triggers>
+        <reply>And with your spirit.</reply>
+      </conversation_flow>
+      <conversation_flow name="The peace of the Lord be with you always." id="46561ab1-5219-48da-9eed-3f0a58466e5f">
+        <tests>
+          <test input="The peace of the Lord be with you always." output="And with your spirit."/>
+        </tests>
+        <triggers>The peace of the Lord be with you always.&#10;</triggers>
+        <reply>And with your spirit.</reply>
+      </conversation_flow>
+    </folder>
+    <html name="What are the four characteristics of the Church?" id="9dad4c71-6a1f-448e-8516-875040a84216">
+      <tests>
+        <test input="What are the characteristics of the Church?" output="The characteristics of the Church are \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;9dad4c71-6a1f-448e-8516-875040a84216&quot; /&gt;"/>
+      </tests>
+      <description>It&apos;s the characteristics of the Church.</description>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+    <html name="What is the Church?" id="365aa5bd-ceed-435a-ac0d-9ca091ec2465">
+      <triggers>I want to see a video that describe the Church.</triggers>
+      <description>It&apos;s the Church.</description>
+      <references>
+        <bible book="1 Pet" chapter="2" verseBegin="9"/>
+        <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
+        <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
+        <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
+        <bible book="Col" chapter="1" verseBegin="18"/>
+        <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+        <ccc verseBegin="748" verseEnd="810"/>
+      </references>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+  </folder>
+  <folder name="Conversational Agent" id="0dd5fc96-9d46-47e1-a7ce-e4f6341141f0">
+    <conversation_flow name="Do you already know the Catholic Church?" id="d2834279-b743-4b7d-b9a3-b31ffafd479e">
+      <reply>Do you already know the Catholic Church?</reply>
+    </conversation_flow>
+    <information name="Greeting" id="432d3d5f-1f6a-444b-9038-ebc8eb7ce271">
+      <tests>
+        <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;432d3d5f-1f6a-444b-9038-ebc8eb7ce271&quot; /&gt;"/>
+      </tests>
+      <triggers>hello</triggers>
+      <text>Hello</text>
+    </information>
+    <information name="Moral" id="f66b1745-9a86-4a78-be5b-1626607753ea">
+      <tests>
+        <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;f66b1745-9a86-4a78-be5b-1626607753ea&quot; /&gt;"/>
+      </tests>
+      <text>I&apos;m fine.</text>
+    </information>
+    <information name="My name" id="60d6821a-f714-443c-97ed-ac33592e4c82">
+      <tests>
+        <test input="What is your name?" output="My name is Holy Chatter."/>
+        <test input="Who are you?" output="I am Holy Chatter."/>
+      </tests>
+      <text>My name is Holy Chatter.</text>
+    </information>
+  </folder>
+  <folder name="Environment" id="5b72ca73-da8a-43e4-b4f4-b4453775c0f7">
+    <folder name="Laudato Si " id="94009a97-22e1-4f1e-a37a-13a5ccec3a08" description="“LAUDATO SI’, mi’ Signore” – “Praise be to you, my Lord”. In the words of this beautiful canticle, Saint Francis of Assisi reminds us that our common home is like a sister with whom we share our life and a beautiful mother who opens her arms to embrace us. “Praise be to you, my Lord, through our Sister, Mother Earth, who sustains and governs us, and who produces various fruit with coloured flowers and herbs”.[1]" url="http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html">
+      <html name="Summary of Pope Francis &apos;Laudato Si&apos;" id="94f4e31c-14bc-4130-9b6b-b8ae7ffef884">
+        <description>Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;&#10;&#10;Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <html name="What is the Church?" id="365aa5bd-ceed-435a-ac0d-9ca091ec2465">
-        <triggers>I want to see a video that describe the Church.</triggers>
-        <description>It&apos;s the Church.</description>
+    </folder>
+  </folder>
+  <folder name="Life" id="1bdc9ac0-bb04-48ac-a72a-e7b056a5d157">
+    <folder name="Abraham" id="f431fa1b-3c3d-45e1-88f7-d36408f36e4a">
+      <html name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="4c89bf1e-ff5b-4dcf-ad09-e297481f6b13">
+        <tests>
+          <test input="Show me the life of Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;4c89bf1e-ff5b-4dcf-ad09-e297481f6b13&quot; /&gt;"/>
+          <test input="Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;4c89bf1e-ff5b-4dcf-ad09-e297481f6b13&quot; /&gt;"/>
+        </tests>
+        <description>It&apos;s the life of Abraham.&#10;It&apos;s Abraham.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <folder name="Jesus" id="abcf48c4-6662-4331-b200-bb53ebc09197">
+      <html name="Gospel of John - THE LIFE OF JESUS (2003)" id="a80fccf8-a133-4909-a648-e8fbb6d1a926">
+        <description>It&apos;s the life of Jesus.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="Jesus and prophecies" id="00c777e5-2b23-42bb-8ae5-84a6b009a028">
+        <text>Jesus fulfills all the prophecies of the Old Testament.</text>
+      </information>
+      <information name="Jesus and the cross" id="4569b78f-5765-44f3-9121-f215f7023958">
+        <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
+      </information>
+      <information name="Jesus is the sun of God" id="dc416bfb-a21b-4430-80c7-77715d9ba70c">
+        <tests>
+          <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
+          <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
+        </tests>
+        <triggers>Who is Jesus?</triggers>
         <references>
-          <bible book="1 Pet" chapter="2" verseBegin="9"/>
-          <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
-          <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
-          <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
-          <bible book="Col" chapter="1" verseBegin="18"/>
-          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
-          <ccc verseBegin="748" verseEnd="810"/>
+          <ccc verseBegin="432"/>
         </references>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Life" id="1bdc9ac0-bb04-48ac-a72a-e7b056a5d157">
-      <folder name="Abraham" id="f431fa1b-3c3d-45e1-88f7-d36408f36e4a">
-        <html name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="4c89bf1e-ff5b-4dcf-ad09-e297481f6b13">
-          <tests>
-            <test input="Show me the life of Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;4c89bf1e-ff5b-4dcf-ad09-e297481f6b13&quot; /&gt;"/>
-            <test input="Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;4c89bf1e-ff5b-4dcf-ad09-e297481f6b13&quot; /&gt;"/>
-          </tests>
-          <description>It&apos;s the life of Abraham.&#10;It&apos;s Abraham.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Jesus" id="abcf48c4-6662-4331-b200-bb53ebc09197">
-        <html name="Gospel of John - THE LIFE OF JESUS (2003)" id="a80fccf8-a133-4909-a648-e8fbb6d1a926">
-          <description>It&apos;s the life of Jesus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="Jesus and prophecies" id="00c777e5-2b23-42bb-8ae5-84a6b009a028">
-          <text>Jesus fulfills all the prophecies of the Old Testament.</text>
-        </information>
-        <information name="Jesus and the cross" id="4569b78f-5765-44f3-9121-f215f7023958">
-          <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
-        </information>
-        <information name="Jesus is the sun of God" id="dc416bfb-a21b-4430-80c7-77715d9ba70c">
-          <tests>
-            <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
-            <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;dc416bfb-a21b-4430-80c7-77715d9ba70c&quot; /&gt;"/>
-          </tests>
-          <triggers>Who is Jesus?</triggers>
-          <references>
-            <ccc verseBegin="432"/>
-          </references>
-          <text>Jesus is the sun of God.</text>
-        </information>
-        <information name="Jesus is..." id="a5ec6a94-c705-4111-9afa-ba21c7d3e7a9">
-          <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
-        </information>
-        <information name="Jesus loves us" id="ab610213-b21e-4bbe-b643-2b8e8de1f4dc">
-          <tests>
-            <test input="Who likes me?" output="Jesus" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
-            <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
-            <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Jn" chapter="3" verseBegin="16"/>
-            <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
-            <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
-            <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
-            <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
-            <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
-            <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
-            <bible book="Prov" chapter="8" verseBegin="17"/>
-          </references>
-          <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
-        </information>
-        <html name="Show me the life of JesusJesus Of Nazareth (1977)" id="dcbcb4d7-77a8-4196-a526-981dc56a1562">
-          <triggers>Show me the life of Jesus</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <description>It&apos;s the life of Jesus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="The Jesus Movie (1979)" id="1f12b0f7-8108-4813-aa71-53089977fde4">
-          <triggers>Show me the life of Jesus</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <description>It&apos;s the life of Jesus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="The Life Of Jesus Christ (2013)" id="7a792902-f772-47f4-b4cb-c9820e124883">
-          <triggers>Show me the life of Jesus</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="Why is Jesus God?" id="2d0a9946-21d9-4db0-8da4-934cebdadd53">
-          <tests>
-            <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;2d0a9946-21d9-4db0-8da4-934cebdadd53&quot; /&gt;"/>
-          </tests>
-          <triggers>Why is Jesus God?</triggers>
-          <references>
-            <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
-            <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
-            <ccc verseBegin="432"/>
-          </references>
-          <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
-        </information>
-      </folder>
-      <folder name="Mary" id="eb9d178d-3671-4179-b6a3-6b22cc77093e">
-        <html name="Mary of Nazareth" id="9593d4d9-6854-4976-b71e-dee3682811b3">
-          <tests>
-            <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;9593d4d9-6854-4976-b71e-dee3682811b3&quot; /&gt;"/>
-          </tests>
-          <description>It&apos;s Mary.&#10;It&apos;s the life of Mary.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Mother Teresa" id="2a999522-de84-4d4c-ae2e-f85e68dbeb6c">
-        <html name="Mother Teresa of Calcutta on Irish Television, 1974 " id="c689ec8c-1db8-43d2-ab32-ac8a129f70c8">
-          <tests>
-            <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;c689ec8c-1db8-43d2-ab32-ac8a129f70c8&quot; /&gt;"/>
-          </tests>
-          <description>It&apos;s the life of Mother Teresa.&#10;It&apos;s Mother Teresa.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Saint Faustina" id="96e91330-67d2-43e5-b3fe-0c390568295f">
-        <html name="The Life of St. Faustina" id="61fe7872-110f-4ad9-9841-52638736260f">
-          <description>It&apos;s Saint Faustina.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FLAPt4waYxU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Saint Jean Marie Vianney" id="29084767-1eed-4de9-9fbd-fb5424d015b6">
-        <information name="Life" id="7571c968-3f1b-47db-820a-e57fc94d52eb">
-          <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
-        </information>
-      </folder>
-      <folder name="Saint Maximilian Kolbe" id="ad7aa70f-2244-4064-8c1d-999ac4b7f7a4">
-        <html name="Saint Maximilian Mary Kolbe" id="682fad84-ae37-46fe-a0cf-922caf8e7ffc">
-          <description>It&apos;s Saint Maximilian Kolbe.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/THT5QxhCiGE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-    </folder>
-    <folder name="Testimony" id="3e49de9b-f85d-4199-b90e-b5feb38e0b1f">
-      <html name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="d01ccf6c-74aa-47e0-b956-61e5aea13de9">
-        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <text>Jesus is the sun of God.</text>
+      </information>
+      <information name="Jesus is..." id="a5ec6a94-c705-4111-9afa-ba21c7d3e7a9">
+        <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
+      </information>
+      <information name="Jesus loves us" id="ab610213-b21e-4bbe-b643-2b8e8de1f4dc">
+        <tests>
+          <test input="Who likes me?" output="Jesus" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
+          <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
+          <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ab610213-b21e-4bbe-b643-2b8e8de1f4dc&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="Jn" chapter="3" verseBegin="16"/>
+          <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+          <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
+          <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
+          <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
+          <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
+          <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
+          <bible book="Prov" chapter="8" verseBegin="17"/>
+        </references>
+        <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
+      </information>
+      <html name="Show me the life of JesusJesus Of Nazareth (1977)" id="dcbcb4d7-77a8-4196-a526-981dc56a1562">
+        <triggers>Show me the life of Jesus</triggers>
         <isAHighImportanceFile>true</isAHighImportanceFile>
-        <description>It&apos;s a Christian testimony</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        <description>It&apos;s the life of Jesus.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <html name="Confessions of a High Class Prostitute" id="0d257ffb-6df7-4f07-ab21-7eefc9f1eb40">
-        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <html name="The Jesus Movie (1979)" id="1f12b0f7-8108-4813-aa71-53089977fde4">
+        <triggers>Show me the life of Jesus</triggers>
         <isAHighImportanceFile>true</isAHighImportanceFile>
-        <description>It&apos;s a Christian testimony.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        <description>It&apos;s the life of Jesus.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <html name="Francesca Battistelli - He Knows My Name (Official Video) " id="b84ebf04-2349-4ec2-8caf-809065ddd51d">
-        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <html name="The Life Of Jesus Christ (2013)" id="7a792902-f772-47f4-b4cb-c9820e124883">
+        <triggers>Show me the life of Jesus</triggers>
         <isAHighImportanceFile>true</isAHighImportanceFile>
-        <description>It&apos;s a Christian testimony.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <information name="Suggest to see a Christian testimony" id="9ba03c2e-1aed-4a84-96ed-19c9fa89733f">
-        <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
-        <text>Do you want to see a Christian testimony?</text>
+      <information name="Why is Jesus God?" id="2d0a9946-21d9-4db0-8da4-934cebdadd53">
+        <tests>
+          <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; /&gt;&lt;br /&gt;In the Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;2d0a9946-21d9-4db0-8da4-934cebdadd53&quot; /&gt;"/>
+        </tests>
+        <triggers>Why is Jesus God?</triggers>
+        <references>
+          <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
+          <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
+          <ccc verseBegin="432"/>
+        </references>
+        <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
       </information>
     </folder>
+    <folder name="Mary" id="eb9d178d-3671-4179-b6a3-6b22cc77093e">
+      <html name="Mary of Nazareth" id="9593d4d9-6854-4976-b71e-dee3682811b3">
+        <tests>
+          <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;9593d4d9-6854-4976-b71e-dee3682811b3&quot; /&gt;"/>
+        </tests>
+        <description>It&apos;s Mary.&#10;It&apos;s the life of Mary.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <folder name="Mother Teresa" id="2a999522-de84-4d4c-ae2e-f85e68dbeb6c">
+      <html name="Mother Teresa of Calcutta on Irish Television, 1974 " id="c689ec8c-1db8-43d2-ab32-ac8a129f70c8">
+        <tests>
+          <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;c689ec8c-1db8-43d2-ab32-ac8a129f70c8&quot; /&gt;"/>
+        </tests>
+        <description>It&apos;s the life of Mother Teresa.&#10;It&apos;s Mother Teresa.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <folder name="Saint Faustina" id="96e91330-67d2-43e5-b3fe-0c390568295f">
+      <html name="The Life of St. Faustina" id="61fe7872-110f-4ad9-9841-52638736260f">
+        <description>It&apos;s Saint Faustina.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FLAPt4waYxU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <folder name="Saint Jean Marie Vianney" id="29084767-1eed-4de9-9fbd-fb5424d015b6">
+      <information name="Life" id="7571c968-3f1b-47db-820a-e57fc94d52eb">
+        <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
+      </information>
+    </folder>
+    <folder name="Saint Maximilian Kolbe" id="ad7aa70f-2244-4064-8c1d-999ac4b7f7a4">
+      <html name="Saint Maximilian Mary Kolbe" id="682fad84-ae37-46fe-a0cf-922caf8e7ffc">
+        <description>It&apos;s Saint Maximilian Kolbe.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/THT5QxhCiGE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+  </folder>
+  <folder name="Testimony" id="3e49de9b-f85d-4199-b90e-b5feb38e0b1f">
+    <html name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="d01ccf6c-74aa-47e0-b956-61e5aea13de9">
+      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <isAHighImportanceFile>true</isAHighImportanceFile>
+      <description>It&apos;s a Christian testimony</description>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+    <html name="Confessions of a High Class Prostitute" id="0d257ffb-6df7-4f07-ab21-7eefc9f1eb40">
+      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <isAHighImportanceFile>true</isAHighImportanceFile>
+      <description>It&apos;s a Christian testimony.</description>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+    <html name="Francesca Battistelli - He Knows My Name (Official Video) " id="b84ebf04-2349-4ec2-8caf-809065ddd51d">
+      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <isAHighImportanceFile>true</isAHighImportanceFile>
+      <description>It&apos;s a Christian testimony.</description>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+    <information name="Suggest to see a Christian testimony" id="9ba03c2e-1aed-4a84-96ed-19c9fa89733f">
+      <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
+      <text>Do you want to see a Christian testimony?</text>
+    </information>
   </folder>
 </contentRoot>
