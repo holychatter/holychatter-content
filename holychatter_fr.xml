@@ -1222,6 +1222,27 @@
   <folder name="Eglise" id="bef88bb1-c4ac-4fc3-9f66-64d194279571">
     <folder name="Cybercuré" id="afe6903f-b589-48c0-8adf-3e9a4155bdab" description="Un site, créé en 2000, qui s’adresse tout d’abord aux catholiques, mais surtout à ceux qui se questionnent sur la foi, les sacrements, la liturgie, les fêtes chrétiennes, l’actualité religieuse… Il s’agit bien souvent de non pratiquants, qui se rendent à la messe à l’occasion d’un mariage, d’un enterrement, et qui s’interrogent sur la religion chrétienne. Formidable outil d’évangélisation sur le web, le CyberCuré vulgarise la foi chrétienne. Il utilise les techniques actuelles pour « dialoguer avec l’homme d’aujourd’hui et l’amener à la rencontre du Christ. »" url="https://cybercure.fr">
       <folder name="Je célèbre les sacrements" id="5ec18797-277b-40ac-8e67-b0abf5f807ac">
+        <information name="Comment communier " id="020bfb5c-c09d-4b38-b5fb-3c34ba822c42">
+          <triggers>Comment communier sur la langue ou dans la main ? &#10;Comment faire pour communier ? &#10;Je dois communier dans la main ou dans la bouche. &#10;Comment communier ?&#10;</triggers>
+          <references>
+            <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+          </references>
+          <text>On peut communier, recevoir l’hostie (et non la prendre), en recevant l’hostie dans la bouche sur la langue ou dans la main. On a communié dans la main jusqu’au IX° ou X° siècles. Ensuite la communion s’est faite uniquement dans la bouche. En France, la communion dans la main fut autorisée par le Conseil permanent de l’Épiscopat, le 19 juin 1969. On reçoit l’hostie sur la paume de la main ouverte. Saisir l’hostie entre le pouce et l’index, n’est pas un geste de réception. Le prêtre, ou la personne déléguée par lui, présente l’hostie en disant :&quot;Le Corps du Christ&quot; et l’on répond le mot :&quot;Amen&quot; mot hébreux qui exprime un acte de foi.</text>
+        </information>
+        <information name="Je n&apos;ai pas fait ma première communion" id="9d0765af-7774-4ea1-8e4e-2b240e39f2e6">
+          <triggers>Comment faire si je n&apos;ai pas fait ma première communion ? &#10;Je peux communier si je n&apos;ai pas fait ma première communion ? &#10;Communier à l&apos;église sans première communion. &#10;Ai-je le droit de communier ? &#10;Je peux communier si je n&apos;ai pas fait ma première communion ?&#10;Puis-je communier si je n&apos;ai pas fait ma première communion ?&#10;</triggers>
+          <references>
+            <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+          </references>
+          <text>Certains adultes, qui n’ont pas fait leur première communion, souhaiteraient communier. Pour cela, il faut suivre une préparation pour recevoir le sacrement de l’eucharistie, sinon la participation eucharistique risquerait de ne pas apporter grand chose d’un point de vue spirituel. Si vous désirez faire votre première communion, adressez-vous à la paroisse de votre domicile. </text>
+        </information>
+        <information name="Jeune avant la communion" id="84ddfb5a-ffb5-47ae-b076-5f65701854f0">
+          <triggers>Faut-il être à jeun avant de communier ?&#10;Peut-on manger avant de communier ?&#10;Combien de temps avant la communion faut-il arrêter de manger ? </triggers>
+          <references>
+            <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+          </references>
+          <text>Il faut s’abstenir, au moins une heure avant la participation eucharistique, de prendre tout aliment et boisson, à l’exception de l’eau et des médicaments (Can. 919, 1 et 3). Autrefois, il fallait être à jeun depuis minuit, c’était le jeûne eucharistique.</text>
+        </information>
         <url name="La communion eucharistique" id="b0e53d4c-9f42-410e-a3bb-bb6933012677">
           <tests>
             <test input="Qu&apos;est-ce que c&apos;est la communion eucharistique ?" output="La communion eucharistique est \hc_resource_site=#fr_FR#https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;b0e53d4c-9f42-410e-a3bb-bb6933012677&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -1229,13 +1250,32 @@
           <description>C&apos;est la communion eucharistique.</description>
           <url>https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique</url>
         </url>
-        <url name="Sens du sacrement baptême" id="8d570a3d-09a4-4aa2-bd5e-2860cf86d834">
+        <information name="Les personnes divorcées remariées et la participation eucharistique" id="f6da1416-9211-4a2e-a30f-58d91f94eae2">
+          <triggers>Puis-je communier si je suis divorcé ?&#10;Puis-je communier si je suis divorcée ?&#10;J&apos;ai divorcé. Je peux communier ? &#10;J&apos;ai le droit de communier si j&apos;ai divorcé ?</triggers>
+          <references>
+            <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+          </references>
+          <text>Beaucoup de gens pensent que le divorce est interdit par l’Église. Ce n’est pas le divorce qui est interdit, mais le remariage à l’église. En effet le divorce civil n’annule pas le mariage religieux. Dans certains cas, le divorce est le moindre mal, mais il ne permet pas le remariage religieux. Les divorcés peuvent donc communier s’ils ne sont pas remariés et s’ils ne vivent pas en concubinage.</text>
+        </information>
+        <information name="Sens du sacrement baptême" id="3d43128b-3415-4c7e-a47a-f85af9be1f3c">
           <tests>
-            <test input="Quel est le sens du sacrement baptême ?" output="Le sens du sacrement baptême est \hc_resource_site=#fr_FR#https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;8d570a3d-09a4-4aa2-bd5e-2860cf86d834&quot; textlength=&quot;10&quot; /&gt;"/>
+            <test input="Quel est le sens du baptême ? " output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;3d43128b-3415-4c7e-a47a-f85af9be1f3c&quot; textlength=&quot;10&quot; /&gt;"/>
+            <test input="baptême" output="Baptême est une célébration ecclésiale qui fait nous entrer dans la communauté chrétienne l&apos;Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;3d43128b-3415-4c7e-a47a-f85af9be1f3c&quot; textlength=&quot;10&quot; /&gt;"/>
           </tests>
+          <triggers>Qu&apos;est-ce que le sacrement du Baptême ? &#10;Quel est le sens du baptême ? &#10;Pourquoi baptiser mon enfant ?</triggers>
           <description>C&apos;est le sens du sacrement baptême.</description>
-          <url>https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme</url>
-        </url>
+          <references>
+            <site book="https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme"/>
+          </references>
+          <text>Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église.</text>
+        </information>
+        <information name="sens des différents rites du sacrement du baptême" id="d40ef96e-7151-47f3-99db-53f356a979fc">
+          <triggers>Quel est le sens des différents rites du sacrement du baptême ?&#10;&#10;Quelles sont les étapes du baptême ?&#10;&#10;Donne-moi les rites du sacrement du baptême&#10;</triggers>
+          <references>
+            <site book="https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme"/>
+          </references>
+          <text>Voici les différents rites du sacrement du baptême :&#10; &#10;L’appel du nom : Le prêtre demande aux parents le prénom choisi pour l’enfant.&#10;Le signe de la croix sur le front du baptisé : marque du signe du Christ.&#10;L’entrée dans l’Église : le sacrement du baptême est l’entrée dans la communauté chrétienne, l’Église.&#10;L’eau : la cérémonie du baptême purifie et donne la vie. L’eau versée exprime l’action de l’Esprit Saint.&#10;Le vêtement blanc : le changement de vêtement symbolise pour l’adulte le changement de vie. La robe blanche ou le vêtement blanc du bébé est le signe de la grâce du sacrement qui resplendit.&#10;L’onction d’huile sainte : le baptisé est pénétré de l’Esprit de Dieu.&#10;Le cierge allumé : le sacrement apporte la lumière du Christ et de l’Évangile. C’est le cierge pascal.</text>
+        </information>
       </folder>
       <folder name="Présentation" id="0d8ebba2-9443-4674-9044-4c2186a744ee">
         <html name="Présentation du Cybercuré" id="387d880e-d399-4bb9-be69-1d9f2d1358ed">
@@ -1484,6 +1524,35 @@
         <triggers>Pourquoi Dieu permet les épreuves ?</triggers>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0ZFvb8WK0G4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
+    </folder>
+    <folder name="Rencontrer Jésus" id="69fb3c6a-c481-4494-925c-8a0b43483bf1" description="Un site de référence sur Jésus pour le connaître et le rencontrer : prières, éclairages, œuvres d&apos;art, témoignages…" url="https://jesus.catholique.fr/">
+      <information name="Comment Jésus nous sauve-t-il ?" id="5c0c32c0-0c52-4c0a-9fa2-9c146a87e2d4">
+        <tests>
+          <test input="Comment Jésus nous sauve t-il? " output="Jésus n’est pas d’abord venu réparer notre péché, il est venu nous dire l’amour fou de Dieu qui veut nous faire participer à sa propre vie, une vie de réconciliation, de partage et de paix.&#10;" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/comment-jesus-nous-sauve-t-il/comment-jesus-nous-sauve-t-il/&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;5c0c32c0-0c52-4c0a-9fa2-9c146a87e2d4&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Comment Jésus nous sauve-t-il ?</triggers>
+        <references>
+          <site book="https://jesus.catholique.fr/questions/comment-jesus-nous-sauve-t-il/comment-jesus-nous-sauve-t-il/"/>
+        </references>
+        <text>Jésus n’est pas d’abord venu réparer notre péché, il est venu nous dire l’amour fou de Dieu qui veut nous faire participer à sa propre vie, une vie de réconciliation, de partage et de paix.&#10;</text>
+      </information>
+      <html name="Jésus guérit" id="d1080477-4c35-4720-8eac-18608cc7635b">
+        <triggers>Jésus guérit-il?</triggers>
+        <references>
+          <site book="https://jesus.catholique.fr/questions/jesus-guerit-il-encore-aujourdhui/jesus-guerit/"/>
+        </references>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f7DmnzSSMW8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="Pourquoi Jésus est-il mort sur la croix ?" id="70812f56-f34d-42cc-819e-1629234ac167">
+        <triggers>Pourquoi Jésus est-il mort sur la croix ?</triggers>
+        <references>
+          <bible book="1 Cor" chapter="1" verseBegin="17" verseEnd="25"/>
+          <bible book="Rom" chapter="4" verseBegin="25" verseEnd="25"/>
+          <bible book="Gal" chapter="3" verseBegin="13" verseEnd="13"/>
+          <bible book="Jn" chapter="15" verseBegin="13" verseEnd="13"/>
+        </references>
+        <text>Il est mort… parce qu’on l’a tué !&#10;Il est mort « pour nous »,  «pour nos péchés»</text>
+      </information>
     </folder>
   </folder>
   <folder name="Exemples de vie" id="4aecb21a-128b-4a77-9d36-ba9b5a0644da">
@@ -1742,6 +1811,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Une preuve de l&apos;existence de Dieu ? Dieu existe -t-il réellement ?" id="ab850f06-20f0-4eda-847b-665883736459">
+          <triggers>Donne-moi une preuve de l&apos;existence de Dieu.&#10;a-t-on une preuve de l&apos;existence de Dieu ?&#10;</triggers>
           <description>C&apos;est pour cela que Dieu existe.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/I7c7qs62r1Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
