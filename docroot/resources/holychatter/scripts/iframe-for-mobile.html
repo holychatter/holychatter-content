@@ -6,17 +6,10 @@
     top: 0;
     left: 0;
   }
-  .onTop1
+  .onTop
   {
     position: absolute;
     z-index:1;
-    top: 121px;
-    left: 275px;
-  }
-  .onTop2
-  {
-    position: absolute;
-    z-index:2;
     top: 0;
     left: 0;
   }
@@ -25,32 +18,21 @@
 <div style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
   <div style="position: relative; left: 0; top: 0; height:100%; width:100%;">
     <iframe id="fullscreen-iframe" style="height:100%; width:100%; border:none; margin:0; padding:0;" class="onBackground"></iframe>
-    <img id="fullscreen-img" style="height:150px; width:150px;" class="onTop1"/>
-    <div id="fullscreen-div" style="height:100%; width:100%; border:none; margin:0; padding:0; cursor:pointer;" class="onTop2"></div>
+    <div id="fullscreen-div" style="height:100%; width:100%; border:none; margin:0; padding:0; cursor:pointer;" class="onTop"></div>
   </div>
 </div>
 
 
 
 <script type="text/javascript">
-var button = document.getElementById('fullscreen-div');
-button.addEventListener('click', fullscreen);
+var fullsreenDiv = document.getElementById('fullscreen-div');
+fullsreenDiv.addEventListener('click', fullscreen);
 var urlParams = new URLSearchParams(window.location.search);
 var srcParam = urlParams.get('src');
-var videoParam = urlParams.get('video');
-var img = document.getElementById('fullscreen-img');
-if (videoParam == "1") {
-  img.src = "/resources/holychatter/images/play.png";
-}
-else {
-  img.src = "/resources/holychatter/images/fullscreen.png";
-}
-var iframe = document.getElementById('fullscreen-iframe');
-iframe.src = srcParam;
+document.getElementById('fullscreen-iframe').src = srcParam;
 
 function fullscreen() {
   window.open(srcParam, "_blank");
 }
-
 </script>
 
