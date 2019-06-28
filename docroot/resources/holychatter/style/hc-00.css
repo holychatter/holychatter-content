@@ -1,0 +1,102 @@
+h1 {
+  font-family: Droid Serif;
+  font-weight: bold;
+  text-align: center;
+  color: #66afe9;
+  font-size: 30px;
+}
+
+.breadcrumb {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  list-style: none;
+  border-radius: 4px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: \">\";
+}
+
+.breadcrumb > .active {
+  color: #999;
+}
+
+.hc-bold {
+  font-weight: bold;
+}
+
+.hc-white-font {
+  color: #ffffff;
+}
+
+.hc-link-font-from-bleue-background {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hc-logo-marie-jesus-box {
+  background-image:url(/resources/holychatter/images/marie_jesus_withtriangle.png);
+  background-position: left 20px bottom 0px;
+  background-size: 80px 50px;
+  background-repeat: no-repeat;
+}
+
+.hc-logo-human-box {
+  background-image:url(/resources/holychatter/images/human_withtriangle.png);
+  background-position: right 20px bottom 0px;
+  background-size: 80px 50px;
+  background-repeat: no-repeat;
+}
+
+.hc-logo-user-triangle-box {
+  background-image:url(/resources/holychatter/images/triangleOfUserChatBubble.png);
+  background-position: right 0px bottom 0px;
+  background-size: 24px 50px;
+  background-repeat: no-repeat;
+}
+
+.hc-logo-hc-triangle-box {
+  background-image:url(/resources/holychatter/images/triangleOfHcChatBubble.png);
+  background-position: left 0px bottom 0px;
+  background-size: 24px 50px;
+  background-repeat: no-repeat;
+}
+
+.hc-grey-box {
+  background-color: #f7f7f7;
+}
+
+.hc-blue-box {
+  background-color: #429fe2;
+}
+
+.hc-put-border-onright {
+  border-right: 1px solid #cccccc;
+}
+
+.hc-put-border-onbottom {
+  border-bottom: 1px solid #cccccc;
+}
+
+.hc-cursor-pointer {
+  cursor: pointer;
+}
+
+.hc-cursor-default {
+  cursor: default;
+}
+
+.hc-subtext {
+  font-size: 14px;
+}
+
+.hc-answer-text {
+  font-size: 15px;
+}
