@@ -28,6 +28,22 @@ h1 {
   color: #999;
 }
 
+.hc-centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.hc-onTopRight
+{
+  position: absolute;
+  z-index:1;
+  top: 15px;
+  right: 20px;
+}
+
 .hc-bold {
   font-weight: bold;
 }
