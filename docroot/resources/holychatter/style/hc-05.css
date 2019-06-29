@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
 h1 {
   font-family: Droid Serif;
   font-weight: bold;
@@ -26,6 +32,59 @@ h1 {
 
 .breadcrumb > .active {
   color: #999;
+}
+
+.hc-header {
+  position: fixed;
+  top: 0;
+  height: 65px;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+.hc-chat-content-wrapper {
+  position: absolute;
+  top: 65px;
+  bottom: 68px;
+  width: 100%;
+  overflow: none;
+}
+
+.hc-chat-content-wrapper-mobile {
+  position: absolute;
+  top: 65px;
+  bottom: 45px;
+  width: 100%;
+  overflow: none;
+}
+
+.hc-chat-content {
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  max-height: 100%;
+  width: 100%;
+}
+
+.hc-footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: auto;
+  height: 68px;
+}
+
+.hc-footer-mobile {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: auto;
+  height: 45px;
 }
 
 .hc-centered {
