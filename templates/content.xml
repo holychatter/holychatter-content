@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <messages>
   <message id="content">
+    <div class="hc-onTopRight2">${add-button}</div>
+    <div class="hc-onTopRight3">${trash-button}</div>
+    <div class="hc-onTopRight4">${settings-button}</div>
+    <div class="hc-onTopRight5">${tests-button}</div>
     ${header}
+    ${content}
+  </message>
+  <message id="content-content">
     <div class="hc-content-content-wrapper">
       ${content-folders}
+      ${content-content}
+    </div>
+  </message>
+  <message id="content-content-mobile">
+    <div class="hc-content-content-wrapper">
       ${content-content}
     </div>
   </message>

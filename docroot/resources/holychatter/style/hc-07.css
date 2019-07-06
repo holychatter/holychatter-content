@@ -1,3 +1,8 @@
+:root {
+  --hc-var-right-space: 20px;
+  --hc-var-button-width: 30px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -5,11 +10,13 @@ html, body {
 }
 
 h1 {
+  line-height: 0.7em;
+  display: inline-block;
   font-family: Droid Serif;
   font-weight: bold;
   text-align: center;
   color: #66afe9;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .breadcrumb {
@@ -171,9 +178,41 @@ h1 {
 .hc-onTopRight
 {
   position: fixed;
-  z-index:1;
+  z-index: 3;
   top: 15px;
-  right: 20px;
+  right: var(--hc-var-right-space);
+}
+
+.hc-onTopRight2
+{
+  position: fixed;
+  z-index: 3;
+  top: 15px;
+  right: calc(var(--hc-var-button-width) + calc(var(--hc-var-right-space) * 2));
+}
+
+.hc-onTopRight3
+{
+  position: fixed;
+  z-index: 3;
+  top: 15px;
+  right: calc(calc(var(--hc-var-button-width) * 2) + calc(var(--hc-var-right-space) * 3));
+}
+
+.hc-onTopRight4
+{
+  position: fixed;
+  z-index: 3;
+  top: 15px;
+  right: calc(calc(var(--hc-var-button-width) * 3) + calc(var(--hc-var-right-space) * 4));
+}
+
+.hc-onTopRight5
+{
+  position: fixed;
+  z-index: 3;
+  top: 15px;
+  right: calc(calc(var(--hc-var-button-width) * 4) + calc(var(--hc-var-right-space) * 5));
 }
 
 .hc-onTopRight-mobile
