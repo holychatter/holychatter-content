@@ -1,6 +1,7 @@
 :root {
   --hc-var-right-space: 20px;
   --hc-var-button-width: 30px;
+  --hc-breadcrumb-height: 77px;
 }
 
 html, body {
@@ -10,26 +11,30 @@ html, body {
 }
 
 h1 {
-  line-height: 0.7em;
-  display: inline-block;
+  line-height: 1em;
+  display: inline;
   font-family: Droid Serif;
   font-weight: bold;
   text-align: center;
   color: #66afe9;
-  font-size: 25px;
+  font-size: 23px;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .breadcrumb {
   /* center */
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
   list-style: none;
   border-radius: 4px;
   max-height: 100%;
-  overflow-y:auto;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
   box-sizing: border-box;
 }
 
@@ -114,19 +119,28 @@ h1 {
 
 .hc-content-breadcrumb-container {
   position: fixed;
-  height: 61px;
+  height: var(--hc-breadcrumb-height);
   left: 300px;
   right: 0px;
+  text-align: center;
   box-sizing: border-box;
-  border-left: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
-  vertical-align: middle;
+  border-left: 1px solid #cccccc;
+}
+
+.hc-content-breadcrumb-container-mobile {
+  position: fixed;
+  height: var(--hc-breadcrumb-height);
+  left: 0px;
+  right: 0px;
+  text-align: center;
   box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
 }
 
 .hc-content-content-sub-breadcrumb {
   position: absolute;
-  top: 61px;
+  top: var(--hc-breadcrumb-height);
   left: 300px;
   bottom: 0px;
   right: 0px;
@@ -136,20 +150,9 @@ h1 {
   box-sizing: border-box;
 }
 
-.hc-content-breadcrumb-container-mobile {
-  position: fixed;
-  height: 61px;
-  left: 0px;
-  right: 0px;
-  box-sizing: border-box;
-  border-bottom: 1px solid #cccccc;
-  vertical-align: middle;
-  box-sizing: border-box;
-}
-
 .hc-content-content-sub-breadcrumb-mobile {
   position: absolute;
-  top: 61px;
+  top: var(--hc-breadcrumb-height);
   left: 0px;
   bottom: 0px;
   right: 0px;
@@ -307,4 +310,43 @@ h1 {
 
 .hc-answer-text {
   font-size: 15px;
+}
+
+.hc-add-img-bkg {
+  background-image: url("/resources/holychatter/icons/add_button.png");
+  background-repeat: no-repeat;
+  background-position: top 6px left 3px;
+  background-size: 12px 12px;
+  padding-top: 4px;
+  font-size: 13px;
+  padding-left: 18px;
+  padding-right: 6px;
+}
+
+.hc-tests-img-bkg {
+  background-image: url("/resources/holychatter/icons/check_button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.hc-settings-img-bkg {
+  background-image: url("/resources/holychatter/icons/settings_button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.hc-trash-img-bkg {
+  background-image: url("/resources/holychatter/icons/trash_button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
+}
+
+.hc-move-img-bkg {
+  background-image: url("/resources/holychatter/icons/move_button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
 }
