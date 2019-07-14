@@ -52,6 +52,7 @@
   <message id="content-header-list-elt-folder">
     <tr class="add-category-row">
       <th style="width: 5px;"></th>
+      <th style="width: 5px;"></th>
       <th colspan="2">${folder-name}</th>
       <th colspan="3">${description}</th>
       <th colspan="4">${url}</th>
@@ -62,6 +63,7 @@
   <message id="content-header-list-elt-folder-mobile">
     <tr class="add-category-row">
       <th style="width: 5px;"></th>
+      <th style="width: 5px;"></th>
       <th colspan="2">${folder-name}</th>
       <th style="text-align: right;">${add-button}</th>
     </tr>
@@ -69,6 +71,7 @@
 
   <message id="content-header-for-empty-list-elt-folder">
     <tr class="add-category-row">
+      <th style="width: 5px;"></th>
       <th style="width: 5px;"></th>
       <th colspan="2"></th>
       <th colspan="3"></th>
@@ -80,6 +83,7 @@
   <message id="content-header-list-elt-file">
     <tr class="add-category-row">
       <th style="width: 5px;"></th>
+      <th style="width: 5px;"></th>
       <th colspan="2">${file-name}</th>
       <th colspan="3">${type}</th>
       <th colspan="4">${tested}</th>
@@ -90,6 +94,7 @@
   <message id="content-header-list-elt-file-mobile">
     <tr class="add-category-row">
       <th style="width: 5px;"></th>
+      <th style="width: 5px;"></th>
       <th colspan="2">${file-name}</th>
       <th style="text-align: right;">${add-button}</th>
     </tr>
@@ -97,6 +102,7 @@
 
   <message id="content-header-for-empty-list-elt-file">
     <tr class="add-category-row">
+      <th style="width: 5px;"></th>
       <th style="width: 5px;"></th>
       <th colspan="2"></th>
       <th colspan="3"></th>
@@ -108,6 +114,7 @@
   <message id="content-list-elt-folder">
     <tr class="hc-cursor-pointer">
       <td height="42px" style="padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td style="padding-top:10px;">${nb}</td>
       <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
       <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${description}</td>
       <td colspan="4" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><a href="${url}">${url}</a></td>
@@ -118,6 +125,7 @@
   <message id="content-list-elt-folder-mobile">
     <tr class="hc-cursor-pointer">
       <td height="42px" style="padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td style="padding-top:10px;">${nb}</td>
       <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
       <td style="text-align: right;">${buttons}</td>
     </tr>
@@ -126,6 +134,7 @@
   <message id="content-list-elt-file">
     <tr class="hc-cursor-pointer" oncontextmenu="event.cancelBubble = true; event.returnValue = false; return false;">
       <td height="42px" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td style="padding-top:10px;">${nb}</td>
       <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
       <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${type}</td>
       <td colspan="4" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${tested}</td>
@@ -136,6 +145,7 @@
   <message id="content-list-elt-file-mobile">
     <tr class="hc-cursor-pointer" oncontextmenu="event.cancelBubble = true; event.returnValue = false; return false;">
       <td height="42px" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td style="padding-top:10px;">${nb}</td>
       <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
       <td style="text-align: right;">${buttons}</td>
     </tr>
