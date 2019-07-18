@@ -15,6 +15,7 @@
       <span style="display: block; height: 70px;"></span>
       <div style="text-align: center;">${change-language}</div>
     </div>
+    ${ld-json-scripts}
   </message>
   <message id="main-mobile">
     <div class="hc-centered">
@@ -34,6 +35,35 @@
       <span style="display: block; height: 40px;"></span>
       <div style="text-align: center;">${change-language}</div>
     </div>
+    ${ld-json-scripts}
+  </message>
+  <message id="main-logo">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": ["https://holychatter.com", "https://holychatter.com/fr"],
+        "logo": "https://holychatter.com/logo_holy_chatter.png"
+      }
+    </script>
+  </message>
+  <message id="main-search-en">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://holychatter.com/content/en"
+      }
+    </script>
+  </message>
+  <message id="main-search-fr">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://holychatter.com/content/fr"
+      }
+    </script>
   </message>
 </messages>
 
