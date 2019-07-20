@@ -70,9 +70,9 @@
 
   <message id="content-list-parent-folder-elt">
     <tr class="hc-cursor-pointer">
-      <td height="42px" style="padding-top:10px"></td>
+      <td height="42px" style="padding-top:10px" onclick="document.location.href='${on-click-url}';"></td>
       <td colspan="3" style="width:1%; white-space:nowrap; text-align: center; padding-top:10px;" onclick="document.location.href='${on-click-url}';"> <img border="0" src="${url-icon}" width="18px" height="18px" /><span style="display:inline-block; width: 15px;"></span>${nb}${name}</td>
-      <td style="text-align: right;"></td>
+      <td style="text-align: right;" onclick="document.location.href='${on-click-url}';"></td>
     </tr>
   </message>
 
@@ -158,8 +158,8 @@
       <td height="42px" style="padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
       <td style="padding-top:10px;">${nb}</td>
       <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
-      <th colspan="4"></th>
-      <th colspan="5"></th>
+      <td colspan="4"></td>
+      <td colspan="5"></td>
       <td style="text-align: right;">${buttons}</td>
     </tr>
   </message>
@@ -180,10 +180,21 @@
       <td height="42px" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
       <td style="padding-top:10px;">${nb}</td>
       <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
-      <th colspan="4"></th>
-      <th colspan="5"></th>
+      <td colspan="4"></td>
+      <td colspan="5"></td>
       <td style="text-align: right;">${buttons}</td>
     </tr>
+  </message>
+
+  <message id="content-split-in-two-columns">
+    <table>
+      <tbody>
+        <tr>
+          <td style="width: 50%; padding-left:5px; padding-right:15px;">${left-space}</td>
+          <td style="width: 50%; padding-left:15px; padding-right:5px;">${right-space}</td>
+        </tr>
+      </tbody>
+    </table>
   </message>
 </messages>
 
