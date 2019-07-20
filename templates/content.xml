@@ -24,8 +24,7 @@
     ${content}
   </message>
 
-
-  <message id="content-list">
+  <message id="content-list-folders-and-files">
     <div style="right:0px;">
       <div class="table-responsive">
         <table class="table table-sm table-hover">
@@ -44,9 +43,38 @@
         </table>
       </div>
     </div>
-    ${file-content}
   </message>
 
+  <message id="content-list">
+    <div style="right:0px;">
+      <div class="table-responsive">
+        <table class="table table-sm table-hover">
+          <thead class="thead-default">
+            ${header-list}
+          </thead>
+          <tbody>
+            ${list}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </message>
+
+  <message id="content-header-parent-folder">
+    <tr class="add-category-row">
+      <th></th>
+      <th style="width:1%; white-space:nowrap; text-align: center;" colspan="3">${folder-name}</th>
+      <th style="text-align: right;"></th>
+    </tr>
+  </message>
+
+  <message id="content-list-parent-folder-elt">
+    <tr class="hc-cursor-pointer">
+      <td height="42px" style="padding-top:10px"></td>
+      <td colspan="3" style="width:1%; white-space:nowrap; text-align: center; padding-top:10px;" onclick="document.location.href='${on-click-url}';"> <img border="0" src="${url-icon}" width="18px" height="18px" /><span style="display:inline-block; width: 15px;"></span>${nb}${name}</td>
+      <td style="text-align: right;"></td>
+    </tr>
+  </message>
 
   <message id="content-header-list-elt-folder">
     <tr class="add-category-row">
