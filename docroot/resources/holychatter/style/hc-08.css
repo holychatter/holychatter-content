@@ -1,6 +1,5 @@
 :root {
   --hc-var-right-space: 20px;
-  --hc-var-button-width: 30px;
   --hc-breadcrumb-height: 77px;
 }
 
@@ -58,8 +57,6 @@ h1 {
   left: 0;
   width: 100%;
   border-bottom: 1px solid #cccccc;
-  padding-top: 7px;
-  padding-left: 21px;
   box-sizing: border-box;
 }
 
@@ -194,7 +191,6 @@ h1 {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
@@ -206,36 +202,10 @@ h1 {
   right: var(--hc-var-right-space);
 }
 
-.hc-onTopRight2
+.hc-onTopRight-from-header
 {
-  position: fixed;
-  z-index: 3;
-  top: 15px;
-  right: calc(var(--hc-var-button-width) + calc(var(--hc-var-right-space) * 2));
-}
-
-.hc-onTopRight3
-{
-  position: fixed;
-  z-index: 3;
-  top: 15px;
-  right: calc(calc(var(--hc-var-button-width) * 2) + calc(var(--hc-var-right-space) * 3));
-}
-
-.hc-onTopRight4
-{
-  position: fixed;
-  z-index: 3;
-  top: 15px;
-  right: calc(calc(var(--hc-var-button-width) * 3) + calc(var(--hc-var-right-space) * 4));
-}
-
-.hc-onTopRight5
-{
-  position: fixed;
-  z-index: 3;
-  top: 15px;
-  right: calc(calc(var(--hc-var-button-width) * 4) + calc(var(--hc-var-right-space) * 5));
+  margin-top: 15px;
+  margin-right: var(--hc-var-right-space);
 }
 
 .hc-onTopRight-mobile

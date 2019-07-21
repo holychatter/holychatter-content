@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <messages>
   <message id="body">
-    <div class="hc-onTopRight">${option}</div>
     ${content}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -13,7 +12,6 @@
     </script>
   </message>
   <message id="body-mobile">
-    <div class="hc-onTopRight-mobile">${option}</div>
     ${content}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,6 +21,26 @@
       ga('create', 'UA-74291505-1', 'auto');
       ga('send', 'pageview');
     </script>
+  </message>
+
+  <message id="body-header">
+    <div class="hc-header">
+      <table>
+        <tbody>
+          <tr>
+            <td style="padding-top:7px; padding-left: 21px;">${left-container}</td>
+            <td style="text-align:center; width: 30%;"></td>
+            <td style="text-align:center; width: 40%; padding-top:10px; display: table-cell; vertical-align: middle;">${centered-container}</td>
+            <td style="text-align:center; width: 30%;"></td>
+            <td>${right-container-5}</td>
+            <td>${right-container-4}</td>
+            <td>${right-container-3}</td>
+            <td>${right-container-2}</td>
+            <td>${right-container}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </message>
 </messages>
 
