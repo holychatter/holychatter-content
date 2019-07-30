@@ -30,6 +30,12 @@
           <tbody>
             ${folder-list}
           </tbody>
+        </table>
+      </div>
+    </div>
+    <div style="right:0px;">
+      <div class="table-responsive">
+        <table class="table table-sm table-hover">
           <thead class="thead-default">
             ${file-header-list}
           </thead>
@@ -192,5 +198,84 @@
       </tbody>
     </table>
   </message>
+
+
+  <message id="content-menu">
+    <style>
+      #accordion .glyphicon { margin-right:10px; }
+      .panel-collapse>.list-group .list-group-item:first-child {border-top-right-radius: 0;border-top-left-radius: 0;}
+      .panel-collapse>.list-group .list-group-item {border-width: 1px 0;}
+      .panel-collapse>.list-group {margin-bottom: 0;}
+      .panel-collapse .list-group-item {border-radius:0;}
+
+      .panel-collapse .list-group .list-group {margin: 0;margin-top: 10px;}
+      .panel-collapse .list-group-item li.list-group-item {margin: 0 -15px;border-top: 1px solid #ddd !important;border-bottom: 0;padding-left: 30px;}
+      .panel-collapse .list-group-item li.list-group-item:last-child {padding-bottom: 0;}
+
+      .panel-collapse div.list-group div.list-group{margin: 0;}
+      .panel-collapse div.list-group .list-group a.list-group-item {border-top: 1px solid #ddd !important;border-bottom: 0;padding-left: 30px;}
+      .panel-collapse .list-group-item li.list-group-item {border-top: 1px solid #DDD !important;}
+    </style>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">${resources-folder-name}</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" stylpe="margin:0px; padding:0px;">
+          <ul class="list-group" stylpe="margin:0px; padding:0px;">
+            ${resources-list}
+          </ul>
+        </div>
+      </div>
+      <div class="panel panel-default hc-cursor-pointer" onclick="document.location.href='${glossary-path}';">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="${glossary-path}">${glossary-folder-name}</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    ${end-of-menu}
+  </message>
+
+
+  <message id="content-menu-management">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">.Gestion</a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" stylpe="margin:0px; padding:0px;">
+        <ul class="list-group" stylpe="margin:0px; padding:0px;">
+          ${management-content}
+        </ul>
+      </div>
+    </div>
+  </message>
+
+
+  <message id="content-menu-item">
+    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item}">${name-item}</a></li>
+  </message>
+
+
+  <message id="content-menu-two-items">
+    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item-1}">${name-item-1}</a></li>
+    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item-2}">${name-item-2}</a></li>
+  </message>
+
+
+  <message id="content-menu-item-with-content">
+    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item}">${name-item}</a>
+      <ul class="list-group">
+        ${sub-items-list}
+      </ul>
+    </li>
+  </message>
+
+
 </messages>
 
