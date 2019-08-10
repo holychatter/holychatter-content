@@ -198,6 +198,18 @@
           </ul>
         </div>
       </div>
+      <div class="panel panel-default hc-cursor-pointer" onclick="document.location.href='${contexts-path}';">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="${contexts-path}">${contexts-folder-name}</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" stylpe="margin:0px; padding:0px;">
+          <ul class="list-group" stylpe="margin:0px; padding:0px;">
+            ${contexts-list}
+          </ul>
+        </div>
+      </div>
       <div class="panel panel-default hc-cursor-pointer" onclick="document.location.href='${glossary-path}';">
         <div class="panel-heading">
           <h4 class="panel-title">
