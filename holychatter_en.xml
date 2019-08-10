@@ -195,7 +195,244 @@
       <text>The beginning of the Bible is the book of Genesis.</text>
     </information>
   </folder>
-  <folder name="Catechism" id="catechism">
+  <folder name="Christian lifes" id="life">
+    <folder name="Biblical characters" id="biblical-characters">
+      <folder name="Abraham" id="abraham">
+        <html name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="abraham-sarah-isaac-jacob-full-movie">
+          <tests>
+            <test input="Show me the life of Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <description>It&apos;s the life of Abraham.&#10;It&apos;s Abraham.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Jesus" id="jesus">
+        <html name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus">
+          <description>It&apos;s the life of Jesus.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <information name="Jesus and prophecies" id="jesus-and-prophecies">
+          <text>Jesus fulfills all the prophecies of the Old Testament.</text>
+        </information>
+        <information name="Jesus and the cross" id="jesus-and-the-cross">
+          <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
+        </information>
+        <information name="Jesus is the sun of God" id="jesus-is-the-sun-of-god">
+          <tests>
+            <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Who is Jesus?</triggers>
+          <references>
+            <ccc verseBegin="432"/>
+          </references>
+          <text>Jesus is the sun of God.</text>
+        </information>
+        <information name="Jesus is..." id="jesus-is">
+          <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
+        </information>
+        <information name="Jesus loves us" id="jesus-loves-us">
+          <tests>
+            <test input="Who likes me?" output="Jesus" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Jn" chapter="3" verseBegin="16"/>
+            <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+            <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
+            <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
+            <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
+            <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
+            <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
+            <bible book="Prov" chapter="8" verseBegin="17"/>
+          </references>
+          <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
+        </information>
+        <html name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth">
+          <triggers>Show me the life of Jesus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <description>It&apos;s the life of Jesus.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="The Jesus Movie (1979)" id="the-jesus-movie">
+          <triggers>Show me the life of Jesus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <description>It&apos;s the life of Jesus.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ">
+          <triggers>Show me the life of Jesus</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <information name="Why is Jesus God?" id="why-is-jesus-god">
+          <tests>
+            <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;why-is-jesus-god&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Why is Jesus God?</triggers>
+          <references>
+            <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
+            <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
+            <ccc verseBegin="432"/>
+          </references>
+          <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
+        </information>
+      </folder>
+      <folder name="Mary" id="mary">
+        <html name="Mary of Nazareth" id="mary-of-nazareth">
+          <tests>
+            <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mary-of-nazareth&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <description>It&apos;s Mary.&#10;It&apos;s the life of Mary.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+    </folder>
+    <folder name="Current lives" id="current-lives">
+      <html name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="my-testimony-about-jesus-christ-why-i-left-islam">
+        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
+        <description>It&apos;s a Christian testimony</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Confessions of a High Class Prostitute" id="confessions-of-a-high-class-prostitute">
+        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
+        <description>It&apos;s a Christian testimony.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Francesca Battistelli - He Knows My Name (Official Video) " id="francesca-battistelli-he-knows-my-name-official-video">
+        <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
+        <description>It&apos;s a Christian testimony.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
+        <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
+        <text>Do you want to see a Christian testimony?</text>
+      </information>
+    </folder>
+    <folder name="Saints" id="saints">
+      <folder name="Mother Teresa" id="mother-teresa">
+        <html name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television">
+          <tests>
+            <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mother-teresa-of-calcutta-on-irish-television&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <description>It&apos;s the life of Mother Teresa.&#10;It&apos;s Mother Teresa.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Saint Faustina" id="saint-faustina">
+        <html name="The Life of St. Faustina" id="the-life-of-st-faustina">
+          <description>It&apos;s Saint Faustina.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FLAPt4waYxU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Saint Jean Marie Vianney" id="saint-jean-marie-vianney">
+        <information name="Life" id="life">
+          <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
+        </information>
+      </folder>
+      <folder name="Saint Maximilian Kolbe" id="saint-maximilian-kolbe">
+        <html name="Saint Maximilian Mary Kolbe" id="saint-maximilian-mary-kolbe">
+          <description>It&apos;s Saint Maximilian Kolbe.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/THT5QxhCiGE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+    </folder>
+  </folder>
+  <folder name="Church" id="church">
+    <information name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
+      <triggers>I don&apos;t know the Catholic Church.</triggers>
+      <text>Do you want to see a video that describe the Church ?</text>
+    </information>
+    <folder name="Teaching" id="teaching">
+      <information name="Credo" id="credo">
+        <tests>
+          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;credo&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
+      </information>
+    </folder>
+    <folder name="Usual answers" id="usual-answers">
+      <conversation_flow name="Christ is risen!" id="christ-is-risen">
+        <tests>
+          <test input="Christ is risen!" output="Truly, He is Risen!"/>
+        </tests>
+        <triggers>Christ is risen!</triggers>
+        <reply>Truly, He is Risen!</reply>
+      </conversation_flow>
+      <conversation_flow name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
+        <triggers>Let us give thanks to the Lord our God.</triggers>
+        <reply>It is right and just.</reply>
+      </conversation_flow>
+      <conversation_flow name="Lift up your hearts." id="lift-up-your-hearts">
+        <triggers>Lift up your hearts.</triggers>
+        <reply>We lift them up to the Lord.</reply>
+      </conversation_flow>
+      <conversation_flow name="The Lord be with you." id="the-lord-be-with-you">
+        <triggers>The Lord be with you.</triggers>
+        <reply>And with your spirit.</reply>
+      </conversation_flow>
+      <conversation_flow name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
+        <tests>
+          <test input="The peace of the Lord be with you always." output="And with your spirit."/>
+        </tests>
+        <triggers>The peace of the Lord be with you always.&#10;</triggers>
+        <reply>And with your spirit.</reply>
+      </conversation_flow>
+    </folder>
+    <html name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church">
+      <tests>
+        <test input="What are the characteristics of the Church?" output="The characteristics of the Church are \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church&quot; textlength=&quot;8&quot; /&gt;"/>
+      </tests>
+      <description>It&apos;s the characteristics of the Church.</description>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+    <html name="What is the Church?" id="what-is-the-church">
+      <triggers>I want to see a video that describe the Church.</triggers>
+      <description>It&apos;s the Church.</description>
+      <references>
+        <bible book="1 Pet" chapter="2" verseBegin="9"/>
+        <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
+        <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
+        <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
+        <bible book="Col" chapter="1" verseBegin="18"/>
+        <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+        <ccc verseBegin="748" verseEnd="810"/>
+      </references>
+      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+    </html>
+  </folder>
+  <folder name="Conversational Agent" id="conversational-agent">
+    <conversation_flow name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
+      <reply>Do you already know the Catholic Church?</reply>
+    </conversation_flow>
+    <information name="Greeting" id="greeting">
+      <tests>
+        <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;greeting&quot; textlength=&quot;8&quot; /&gt;"/>
+      </tests>
+      <triggers>hello</triggers>
+      <text>Hello</text>
+    </information>
+    <information name="Moral" id="moral">
+      <tests>
+        <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;moral&quot; textlength=&quot;8&quot; /&gt;"/>
+      </tests>
+      <text>I&apos;m fine.</text>
+    </information>
+    <information name="My name" id="my-name">
+      <tests>
+        <test input="What is your name?" output="My name is Holy Chatter."/>
+        <test input="Who are you?" output="I am Holy Chatter."/>
+      </tests>
+      <text>My name is Holy Chatter.</text>
+    </information>
+  </folder>
+  <folder name="Teachings" id="catechism">
     <folder name="3 Minute Catechism" id="minute-catechism" description="3MC (3 Minute Catechism) consists of 72 hand drawn and animated episodes each 3-4 minutes long, that follow the the creed and explain the basics of the Catholic Faith.&#10;&#10;But this goes beyond the basics and really tries to explain some of the deeper truths of the Catholic faith. All through amazing illustrations, creative presentation, humour, and even some deep theology. It’s like having a visual catechism." url="https://www.youtube.com/playlist?list=PLIcePO_eJb2_EElTdFm1PFLNkH17EQcV-">
       <folder name="Basics" id="basics" nb="1">
         <html name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
@@ -969,6 +1206,14 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
+    <folder name="Vatican" id="vatican">
+      <folder name="Laudato Si " id="laudato-si" description="“LAUDATO SI’, mi’ Signore” – “Praise be to you, my Lord”. In the words of this beautiful canticle, Saint Francis of Assisi reminds us that our common home is like a sister with whom we share our life and a beautiful mother who opens her arms to embrace us. “Praise be to you, my Lord, through our Sister, Mother Earth, who sustains and governs us, and who produces various fruit with coloured flowers and herbs”.[1]" url="http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html">
+        <html name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
+          <description>Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;&#10;&#10;Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+    </folder>
     <folder name="Youcat" id="youcat" description="The YOUCAT Foundation is a work of new evangelization that contributes to the renewal of the Church worldwide with the charism of &quot;teaching&quot;.&#10;&#10;&quot;Teaching&quot; is not everything in the Church, but without authentic teaching everything is nothing. YOUCAT wants to make the contents of faith, as they are given in Holy Scripture and in the Catechism, shine anew.&#10;&#10;YOUCAT not only develops and publishes target group-oriented catechisms and exciting Bible editions; YOUCAT goes digital and inspires young Catholics in every way learning and exchange processes about the common faith." url="https://www.youcat.org">
       <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="2">
         <information name="What is liturgy?" id="what-is-liturgy" nb="167">
@@ -1025,246 +1270,5 @@
         </information>
       </folder>
     </folder>
-  </folder>
-  <folder name="Church" id="church">
-    <information name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
-      <triggers>I don&apos;t know the Catholic Church.</triggers>
-      <text>Do you want to see a video that describe the Church ?</text>
-    </information>
-    <folder name="Teaching" id="teaching">
-      <information name="Credo" id="credo">
-        <tests>
-          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;credo&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
-      </information>
-    </folder>
-    <folder name="Usual answers" id="usual-answers">
-      <conversation_flow name="Christ is risen!" id="christ-is-risen">
-        <tests>
-          <test input="Christ is risen!" output="Truly, He is Risen!"/>
-        </tests>
-        <triggers>Christ is risen!</triggers>
-        <reply>Truly, He is Risen!</reply>
-      </conversation_flow>
-      <conversation_flow name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
-        <triggers>Let us give thanks to the Lord our God.</triggers>
-        <reply>It is right and just.</reply>
-      </conversation_flow>
-      <conversation_flow name="Lift up your hearts." id="lift-up-your-hearts">
-        <triggers>Lift up your hearts.</triggers>
-        <reply>We lift them up to the Lord.</reply>
-      </conversation_flow>
-      <conversation_flow name="The Lord be with you." id="the-lord-be-with-you">
-        <triggers>The Lord be with you.</triggers>
-        <reply>And with your spirit.</reply>
-      </conversation_flow>
-      <conversation_flow name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
-        <tests>
-          <test input="The peace of the Lord be with you always." output="And with your spirit."/>
-        </tests>
-        <triggers>The peace of the Lord be with you always.&#10;</triggers>
-        <reply>And with your spirit.</reply>
-      </conversation_flow>
-    </folder>
-    <html name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church">
-      <tests>
-        <test input="What are the characteristics of the Church?" output="The characteristics of the Church are \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church&quot; textlength=&quot;8&quot; /&gt;"/>
-      </tests>
-      <description>It&apos;s the characteristics of the Church.</description>
-      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-    </html>
-    <html name="What is the Church?" id="what-is-the-church">
-      <triggers>I want to see a video that describe the Church.</triggers>
-      <description>It&apos;s the Church.</description>
-      <references>
-        <bible book="1 Pet" chapter="2" verseBegin="9"/>
-        <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
-        <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
-        <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
-        <bible book="Col" chapter="1" verseBegin="18"/>
-        <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
-        <ccc verseBegin="748" verseEnd="810"/>
-      </references>
-      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-    </html>
-  </folder>
-  <folder name="Conversational Agent" id="conversational-agent">
-    <conversation_flow name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
-      <reply>Do you already know the Catholic Church?</reply>
-    </conversation_flow>
-    <information name="Greeting" id="greeting">
-      <tests>
-        <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;greeting&quot; textlength=&quot;8&quot; /&gt;"/>
-      </tests>
-      <triggers>hello</triggers>
-      <text>Hello</text>
-    </information>
-    <information name="Moral" id="moral">
-      <tests>
-        <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;moral&quot; textlength=&quot;8&quot; /&gt;"/>
-      </tests>
-      <text>I&apos;m fine.</text>
-    </information>
-    <information name="My name" id="my-name">
-      <tests>
-        <test input="What is your name?" output="My name is Holy Chatter."/>
-        <test input="Who are you?" output="I am Holy Chatter."/>
-      </tests>
-      <text>My name is Holy Chatter.</text>
-    </information>
-  </folder>
-  <folder name="Environment" id="environment">
-    <folder name="Laudato Si " id="laudato-si" description="“LAUDATO SI’, mi’ Signore” – “Praise be to you, my Lord”. In the words of this beautiful canticle, Saint Francis of Assisi reminds us that our common home is like a sister with whom we share our life and a beautiful mother who opens her arms to embrace us. “Praise be to you, my Lord, through our Sister, Mother Earth, who sustains and governs us, and who produces various fruit with coloured flowers and herbs”.[1]" url="http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html">
-      <html name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
-        <description>Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;&#10;&#10;Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-  </folder>
-  <folder name="Life" id="life">
-    <folder name="Abraham" id="abraham">
-      <html name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="abraham-sarah-isaac-jacob-full-movie">
-        <tests>
-          <test input="Show me the life of Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <description>It&apos;s the life of Abraham.&#10;It&apos;s Abraham.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Jesus" id="jesus">
-      <html name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus">
-        <description>It&apos;s the life of Jesus.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <information name="Jesus and prophecies" id="jesus-and-prophecies">
-        <text>Jesus fulfills all the prophecies of the Old Testament.</text>
-      </information>
-      <information name="Jesus and the cross" id="jesus-and-the-cross">
-        <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
-      </information>
-      <information name="Jesus is the sun of God" id="jesus-is-the-sun-of-god">
-        <tests>
-          <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>Who is Jesus?</triggers>
-        <references>
-          <ccc verseBegin="432"/>
-        </references>
-        <text>Jesus is the sun of God.</text>
-      </information>
-      <information name="Jesus is..." id="jesus-is">
-        <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
-      </information>
-      <information name="Jesus loves us" id="jesus-loves-us">
-        <tests>
-          <test input="Who likes me?" output="Jesus" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <references>
-          <bible book="Jn" chapter="3" verseBegin="16"/>
-          <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
-          <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
-          <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
-          <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
-          <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
-          <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
-          <bible book="Prov" chapter="8" verseBegin="17"/>
-        </references>
-        <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
-      </information>
-      <html name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth">
-        <triggers>Show me the life of Jesus</triggers>
-        <isAHighImportanceFile>true</isAHighImportanceFile>
-        <description>It&apos;s the life of Jesus.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="The Jesus Movie (1979)" id="the-jesus-movie">
-        <triggers>Show me the life of Jesus</triggers>
-        <isAHighImportanceFile>true</isAHighImportanceFile>
-        <description>It&apos;s the life of Jesus.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ">
-        <triggers>Show me the life of Jesus</triggers>
-        <isAHighImportanceFile>true</isAHighImportanceFile>
-        <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <information name="Why is Jesus God?" id="why-is-jesus-god">
-        <tests>
-          <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;why-is-jesus-god&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>Why is Jesus God?</triggers>
-        <references>
-          <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
-          <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
-          <ccc verseBegin="432"/>
-        </references>
-        <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
-      </information>
-    </folder>
-    <folder name="Mary" id="mary">
-      <html name="Mary of Nazareth" id="mary-of-nazareth">
-        <tests>
-          <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mary-of-nazareth&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <description>It&apos;s Mary.&#10;It&apos;s the life of Mary.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Mother Teresa" id="mother-teresa">
-      <html name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television">
-        <tests>
-          <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mother-teresa-of-calcutta-on-irish-television&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <description>It&apos;s the life of Mother Teresa.&#10;It&apos;s Mother Teresa.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Saint Faustina" id="saint-faustina">
-      <html name="The Life of St. Faustina" id="the-life-of-st-faustina">
-        <description>It&apos;s Saint Faustina.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FLAPt4waYxU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Saint Jean Marie Vianney" id="saint-jean-marie-vianney">
-      <information name="Life" id="life">
-        <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
-      </information>
-    </folder>
-    <folder name="Saint Maximilian Kolbe" id="saint-maximilian-kolbe">
-      <html name="Saint Maximilian Mary Kolbe" id="saint-maximilian-mary-kolbe">
-        <description>It&apos;s Saint Maximilian Kolbe.</description>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/THT5QxhCiGE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-  </folder>
-  <folder name="Testimony" id="testimony">
-    <html name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="my-testimony-about-jesus-christ-why-i-left-islam">
-      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
-      <isAHighImportanceFile>true</isAHighImportanceFile>
-      <description>It&apos;s a Christian testimony</description>
-      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-    </html>
-    <html name="Confessions of a High Class Prostitute" id="confessions-of-a-high-class-prostitute">
-      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
-      <isAHighImportanceFile>true</isAHighImportanceFile>
-      <description>It&apos;s a Christian testimony.</description>
-      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-    </html>
-    <html name="Francesca Battistelli - He Knows My Name (Official Video) " id="francesca-battistelli-he-knows-my-name-official-video">
-      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
-      <isAHighImportanceFile>true</isAHighImportanceFile>
-      <description>It&apos;s a Christian testimony.</description>
-      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-    </html>
-    <information name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
-      <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
-      <text>Do you want to see a Christian testimony?</text>
-    </information>
   </folder>
 </contentRoot>
