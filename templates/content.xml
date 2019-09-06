@@ -186,75 +186,57 @@
       .panel-collapse .list-group-item li.list-group-item {border-top: 1px solid #DDD !important;}
     </style>
     <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">${resources-folder-name}</a>
-          </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse in" stylpe="margin:0px; padding:0px;">
-          <ul class="list-group" stylpe="margin:0px; padding:0px;">
-            ${resources-list}
-          </ul>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="${contexts-path}">${contexts-folder-name}</a>
-          </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse in" stylpe="margin:0px; padding:0px;">
-          <ul class="list-group" stylpe="margin:0px; padding:0px;">
-            ${contexts-list}
-          </ul>
-        </div>
-      </div>
-      <div class="panel panel-default hc-cursor-pointer" onclick="document.location.href='${glossary-path}';">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="${glossary-path}">${glossary-folder-name}</a>
-          </h4>
-        </div>
-      </div>
+      ${resources-menu}
+      ${context-menu}
+      ${glossary-menu}
+      ${end-of-menu}
     </div>
-    ${end-of-menu}
   </message>
 
 
-  <message id="content-menu-management">
+  <message id="content-menu-category">
     <div class="panel panel-default">
-      <div class="panel-heading">
+      <div class="panel-heading" style="background-color:#e9e9e9;">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">.Gestion</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="${category-href}">${category-name}</a>
         </h4>
       </div>
       <div id="collapseOne" class="panel-collapse collapse in" stylpe="margin:0px; padding:0px;">
-        <ul class="list-group" stylpe="margin:0px; padding:0px;">
-          ${management-content}
+        <ul class="list-group" style="margin:0px; padding:0px;">
+          ${elts-list}
         </ul>
       </div>
     </div>
   </message>
 
+  <message id="content-menu-empty-category">
+    <div class="panel panel-default hc-cursor-pointer" onclick="document.location.href='${category-href}';">
+      <div class="panel-heading" style="background-color:#e9e9e9;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="${category-href}">${category-name}</a>
+        </h4>
+      </div>
+    </div>
+  </message>
 
   <message id="content-menu-item">
-    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item}">${name-item}</a></li>
+    <a href="${path-item}" class="list-group-item" style="color:#428bca;">${name-item}</a>
   </message>
 
 
   <message id="content-menu-two-items">
-    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item-1}">${name-item-1}</a></li>
-    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item-2}">${name-item-2}</a></li>
+    <a href="${path-item-1}" class="list-group-item" style="color:#428bca;">${name-item-1}</a>
+    <a href="${path-item-2}" class="list-group-item" style="color:#428bca;">${name-item-2}</a>
   </message>
 
 
   <message id="content-menu-item-with-content">
-    <li class="list-group-item hc-cursor-pointer" onclick="document.location.href='${path-item}';"><a href="${path-item}">${name-item}</a>
-      <ul class="list-group">
+    <div class="list-group" style="margin:0px; padding:0px;">
+      <a href="${path-item}" class="list-group-item" style="color:#428bca;">${name-item}</a>
+      <div class="list-group" style="margin:0px; padding:0px;">
         ${sub-items-list}
-      </ul>
-    </li>
+      </div>
+    </div>
   </message>
 
 
