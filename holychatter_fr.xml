@@ -1,52 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Agent conversationnel" id="agent-conversationnel">
-    <conversation_flow name="Bonjour" id="bonjour">
-      <tests>
-        <test input="Bonjour" output="Bonjour"/>
-        <test input="Hello" output="Bonjour"/>
-        <test input="salut" output="Bonjour"/>
-        <test input="Salut" output="Bonjour"/>
-        <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
-        <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;"/>
-      </tests>
-      <triggers>Bonjour</triggers>
-      <reply>Bonjour</reply>
-    </conversation_flow>
-    <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
-      <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
-    </conversation_flow>
-    <information name="Mon nom" id="mon-nom">
-      <tests>
-        <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
-        <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
-        <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
-      </tests>
-      <text>Mon nom est Holy Chatter.</text>
-    </information>
-    <information name="Moral" id="moral">
-      <text>Je vais bien.</text>
-    </information>
-  </folder>
-  <folder name="Applications" id="applications">
-    <url name="Entourage" id="entourage">
-      <description>C&apos;est une application chrétienne.</description>
-      <url>http://www.entourage.social/</url>
-    </url>
-    <url name="GoConfess" id="goconfess">
-      <triggers>Comment rencontrer un prêtre ?&#10;_GoConfess&#10;_GeoConfess</triggers>
-      <description>C&apos;est une application chrétienne.</description>
-      <url>http://www.ktotv.com/goconfess</url>
-    </url>
-    <url name="Hozana" id="hozana">
-      <description>C&apos;est une application chrétienne.</description>
-      <url>http://hozana.org/</url>
-    </url>
-    <url name="La Quête" id="la-quete">
-      <description>C&apos;est une application chrétienne.</description>
-      <url>http://www.appli-laquete.fr/</url>
-    </url>
-  </folder>
   <folder name="Bible" id="bible" description="La Bible est unique. Elle est le livre le plus lu au monde. Aucun autre ne fut traduit en plus de langues. Aucun autre dans toute l’histoire de l’humanité n’eut plus de retentissements. Pour les chrétiens et les chrétiennes la Bible est l’Écriture Sainte.&#10;&#10;La Bible est un livre universel. Elle contient de magnifiques histoires. Beaucoup de récits de la Bible sont d’une grande beauté poétique comme le livre de Job, toute une série de Psaumes de l’Ancien Testament, ou bien l’hymne à l’amour (1Co 13) ou l’Apocalypse de saint Jean dans le Nouveau Testament. Souvent la Bible est bouleversante. Elle nous questionne. Parfois elle paraît étrangère. Il arrive qu’il faille des années pour comprendre un seul passage de l’Écriture. Mais cela vaut toujours la peine de se mettre à la lire. La Bible est le document central de la foi de tous les chrétiens.&#10;&#10;Plus encore : la Bible est « Parole de Dieu ». Elle l’est, écrite avec des mots humains et en langage humain. Elle est la Révélation divine. Elle fut écrite parce que des hommes ont écouté la Parole de Dieu et l’ont retranscrite. Elle fut transmise telle quelle pendant des siècles, parce que des générations entières ont cru que ceux qui transmettaient la Bonne Nouvelle n’imaginaient rien par eux-mêmes et bien au contraire qu’ils étaient inspirés par Dieu, et délivraient réellement son message.&#10;&#10;La Bible veut nous toucher, elle veut nous motiver pour une vie qui tend vers le Bien. Cette vie doit concilier l’amour de Dieu et l’amour du prochain. C’est pourquoi il n’est pas possible d’en rester à sa simple lecture. Il convient de prier, de méditer sur sa foi, d’aider autrui et surtout d’être dans la joie que Dieu existe et qu’il nous donne la vie.&#10;&#10;Youcat Bible (pp. 12-13)" url="https://www.aelf.org/bible">
     <folder name="AELF" id="aelf" description="L&apos;Association épiscopale liturgique pour les pays francophones fut créée le 30 septembre 1969. C’est une association de droit français (loi de 1901) qui exécute les missions qui lui sont confiées par la Commission Épiscopale Francophone pour les Traductions Liturgiques.&#10;&#10;Cette association a pour but d&apos;élaborer, coordonner et promouvoir toutes études et activités intéressant la liturgie de l&apos;Eglise catholique, et plus particulièrement l&apos;élaboration de textes liturgiques destinés aux pays francophones." url="https://www.aelf.org">
       <folder name="Lectures" id="lectures">
@@ -302,7 +255,7 @@
             <test input="Nous pouvons demander une guérison." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/p8G5UntzU30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Nous devons demander une guérison." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/p8G5UntzU30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Jésus est le même aujourd&apos;hui, hier et demain ?" output="Oui, Jésus est le même aujourd&apos;hui, hier et demain." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
-            <test input="Jésus est amour ?" output="Oui, Jésus est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Jésus est amour ?" output="Oui, Jésus est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,7-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 6,35-37&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;qui-est-dieu-2&quot; textlength=&quot;36&quot; /&gt;"/>
             <test input="Jésus veut faire du bien ?" output="Oui, Jésus veut faire le bien." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Jésus veut le bien ?" output="Oui, Jésus veut le bien." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Le Salut ne s&apos;arrête pas seulement à une partie de notre être ?" output="Oui, le Salut n&apos;arrête pas seulement à une partie de notre être." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -1602,7 +1555,7 @@
           </html>
           <html name="Qui est Dieu?" id="qui-est-dieu-2">
             <tests>
-              <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 4,7-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 6,35-37&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;qui-est-dieu-2&quot; textlength=&quot;36&quot; /&gt;"/>
+              <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,7-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 6,35-37&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;qui-est-dieu-2&quot; textlength=&quot;36&quot; /&gt;"/>
             </tests>
             <description>Dieu est amour.</description>
             <references>
@@ -1980,7 +1933,20 @@
             <text>Tout ce qui existe vient de Dieu.</text>
           </information>
           <information name="Pourquoi est-ce que j&apos;existe ?" id="pourquoi-est-ce-que-j-existe" nb="2">
+            <tests>
+              <test input="Qui m&apos;aime ?" output="Dieu" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
             <triggers>Pourquoi est-ce que j&apos;existe ?</triggers>
+            <references>
+              <bible book="Jn" chapter="3" verseBegin="16"/>
+              <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+              <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
+              <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
+              <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
+              <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
+              <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
+              <bible book="Prov" chapter="8" verseBegin="17"/>
+            </references>
             <text>Tu existes parce que Dieu te veut.&#10;&#10;Il te connaît.&#10;Il t&apos;aime infiniment et veut te rendre heureux.</text>
           </information>
         </folder>
@@ -2183,7 +2149,118 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Vies chrétiennes" id="exemples-de-vie">
+  <folder name="Outils" id="applications">
+    <url name="Entourage" id="entourage">
+      <description>C&apos;est une application chrétienne.</description>
+      <url>http://www.entourage.social/</url>
+    </url>
+    <url name="GoConfess" id="goconfess">
+      <triggers>Comment rencontrer un prêtre ?&#10;_GoConfess&#10;_GeoConfess</triggers>
+      <description>C&apos;est une application chrétienne.</description>
+      <url>http://www.ktotv.com/goconfess</url>
+    </url>
+    <url name="Hozana" id="hozana">
+      <description>C&apos;est une application chrétienne.</description>
+      <url>http://hozana.org/</url>
+    </url>
+    <url name="La Quête" id="la-quete">
+      <description>C&apos;est une application chrétienne.</description>
+      <url>http://www.appli-laquete.fr/</url>
+    </url>
+    <folder name="Moi" id="agent-conversationnel" description="Je suis un agent conversationel qui s&apos;appelle Holy Chatter. Je peux vous parler de chrétienté.">
+      <conversation_flow name="Bonjour" id="bonjour">
+        <tests>
+          <test input="Bonjour" output="Bonjour"/>
+          <test input="Hello" output="Bonjour"/>
+          <test input="salut" output="Bonjour"/>
+          <test input="Salut" output="Bonjour"/>
+          <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
+          <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;"/>
+        </tests>
+        <triggers>Bonjour</triggers>
+        <reply>Bonjour</reply>
+      </conversation_flow>
+      <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
+        <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
+      </conversation_flow>
+      <information name="Mon nom" id="mon-nom">
+        <tests>
+          <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
+          <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
+          <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
+        </tests>
+        <text>Mon nom est Holy Chatter.</text>
+      </information>
+      <information name="Moral" id="moral">
+        <text>Je vais bien.</text>
+      </information>
+    </folder>
+  </folder>
+  <folder name="Vies" id="exemples-de-vie">
+    <folder name="Jésus" id="jesus">
+      <html name="Jesus raconté aux enfants" id="jesus-raconte-aux-enfants">
+        <description>C&apos;est la vie de Jésus.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rah8qg0H04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="Jésus est Dieu" id="jesus-est-dieu">
+        <tests>
+          <test input="Jésus est-t-il Dieu ?" output="Oui, Jésus est Dieu."/>
+        </tests>
+        <text>Jésus est Dieu.</text>
+      </information>
+      <information name="Jésus est le fils de Dieu" id="jesus-est-le-fils-de-dieu">
+        <tests>
+          <test input="Est-ce que Jésus est le fils de Dieu ?" output="Oui, Jésus est le fils de Dieu." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;jesus-est-le-fils-de-dieu&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <references>
+          <ccc verseBegin="432"/>
+        </references>
+        <text>Jésus est le fils de Dieu.</text>
+      </information>
+      <information name="Jésus est..." id="jesus-est">
+        <text>Jésus est la réponse à toutes nos questions.&#10;Jésus est l&apos;assouvissement de tous nos désirs.&#10;</text>
+      </information>
+      <information name="Jésus et la croix" id="jesus-et-la-croix">
+        <text>Jésus va jusqu&apos;à mourir sur la croix pour nous délivrer du péché et de la mort.</text>
+      </information>
+      <information name="Jésus nous aime" id="jesus-nous-aime">
+        <tests>
+          <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus t&apos;aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;jesus-nous-aime&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <references>
+          <bible book="Jn" chapter="3" verseBegin="16"/>
+          <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+          <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
+          <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
+          <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
+          <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
+          <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
+          <bible book="Prov" chapter="8" verseBegin="17"/>
+        </references>
+        <text>Jésus nous aime gratuitement.&#10;L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
+      </information>
+      <information name="Jéus et les prophéties" id="jeus-et-les-propheties">
+        <text>Jésus accomplit toutes les prophéties de l&apos;Ancien Testament.</text>
+      </information>
+      <html name="La Vie de Jésus (1979)" id="la-vie-de-jesus">
+        <triggers>Montre-moi la vie de Jésus</triggers>
+        <isAHighImportanceFile>true</isAHighImportanceFile>
+        <description>C&apos;est la vie de Jésus.&#10;C&apos;est Jésus.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="Pourquoi Jésus est-il Dieu" id="pourquoi-jesus-est-il-dieu">
+        <tests>
+          <test input="Pourquoi Jésus est-il Dieu ?" output="Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ?" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 26,63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2,32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;pourquoi-jesus-est-il-dieu&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <triggers>Pourquoi Jésus est-il Dieu ?</triggers>
+        <references>
+          <ccc verseBegin="432"/>
+          <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
+          <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
+        </references>
+        <text>Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ?</text>
+      </information>
+    </folder>
     <folder name="Personnages bibliques" id="personnages-bibliques">
       <folder name="Abraham" id="abraham">
         <html name="La Bible Abraham" id="la-bible-abraham">
@@ -2191,71 +2268,21 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PeitUBmfzm0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&#10;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fuwt4F3a6A8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Biblical characters" id="biblical-characters"/>
-      <folder name="Jésus" id="jesus">
-        <html name="Jesus raconté aux enfants" id="jesus-raconte-aux-enfants">
-          <description>C&apos;est la vie de Jésus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rah8qg0H04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="Jésus est le fils de Dieu" id="jesus-est-le-fils-de-dieu">
-          <tests>
-            <test input="Est-ce que Jésus est le fils de Dieu ?" output="Oui, Jésus est le fils de Dieu." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;jesus-est-le-fils-de-dieu&quot; textlength=&quot;7&quot; /&gt;"/>
-          </tests>
-          <references>
-            <ccc verseBegin="432"/>
-          </references>
-          <text>Jésus est le fils de Dieu.</text>
-        </information>
-        <information name="Jésus est..." id="jesus-est">
-          <text>Jésus est la réponse à toutes nos questions.&#10;Jésus est l&apos;assouvissement de tous nos désirs.&#10;</text>
-        </information>
-        <information name="Jésus et la croix" id="jesus-et-la-croix">
-          <text>Jésus va jusqu&apos;à mourir sur la croix pour nous délivrer du péché et de la mort.</text>
-        </information>
-        <information name="Jésus nous aime" id="jesus-nous-aime">
-          <tests>
-            <test input="Qui m&apos;aime ?" output="Jésus" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;jesus-nous-aime&quot; textlength=&quot;7&quot; /&gt;"/>
-            <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus t&apos;aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;jesus-nous-aime&quot; textlength=&quot;7&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Jn" chapter="3" verseBegin="16"/>
-            <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
-            <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
-            <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
-            <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
-            <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
-            <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
-            <bible book="Prov" chapter="8" verseBegin="17"/>
-          </references>
-          <text>Jésus nous aime gratuitement.&#10;L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
-        </information>
-        <information name="Jéus et les prophéties" id="jeus-et-les-propheties">
-          <text>Jésus accomplit toutes les prophéties de l&apos;Ancien Testament.</text>
-        </information>
-        <html name="La Vie de Jésus (1979)" id="la-vie-de-jesus">
-          <triggers>Montre-moi la vie de Jésus</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <description>C&apos;est la vie de Jésus.&#10;C&apos;est Jésus.</description>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="Pourquoi Jésus est-il Dieu" id="pourquoi-jesus-est-il-dieu">
-          <tests>
-            <test input="Pourquoi Jésus est-il Dieu ?" output="Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ?" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 26,63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2,32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;pourquoi-jesus-est-il-dieu&quot; textlength=&quot;7&quot; /&gt;"/>
-          </tests>
-          <triggers>Pourquoi Jésus est-il Dieu ?</triggers>
-          <references>
-            <ccc verseBegin="432"/>
-            <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
-            <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
-          </references>
-          <text>Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ?</text>
-        </information>
-      </folder>
       <folder name="Marie" id="marie">
-        <url name="Marie" id="marie">
-          <description>C&apos;est Marie</description>
-          <url>https://croire.la-croix.com/Definitions/Bible/Marie</url>
-        </url>
+        <html name="Marie" id="marie">
+          <tests>
+            <test input="Quelle est la place de Marie dans l&apos;Eglise ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-56&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;marie&quot; textlength=&quot;7&quot; /&gt;"/>
+            <test input="Marie est-t-elle une déesse ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-56&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;marie&quot; textlength=&quot;7&quot; /&gt;"/>
+          </tests>
+          <triggers>Quelle est la place de Marie dans l&apos;Eglise ?&#10;Marie est-t-elle une déesse ?</triggers>
+          <description>C&apos;est Marie.&#10;Marie n&apos;est pas une déesse.</description>
+          <references>
+            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="56"/>
+            <bible book="Jn" chapter="19" verseBegin="25"/>
+            <ccc verseBegin="963" verseEnd="975"/>
+          </references>
+          <code>&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;</code>
+        </html>
         <information name="Qui est Marie" id="qui-est-marie-2">
           <tests>
             <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;qui-est-marie-2&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -2267,6 +2294,27 @@
         <html name="Saint Parfait de Cordoue" id="saint-parfait-de-cordoue">
           <description>C&apos;est Saint Parfait de Cordoue</description>
           <code>&lt;div style=&quot;width:864px; background-color: white;&quot;&gt;&#10;&lt;h2&gt;&lt;a href=&quot;https://nominis.cef.fr/contenus/saint/6657/Saint-Parfait-de-Cordoue.html&quot;&gt;Saint Parfait de Cordoue&lt;/a&gt;&lt;/h2&gt;&#10;&#9;&#9;&#9;&lt;h3&gt;Prêtre et martyr à Cordoue&amp;nbsp;(&amp;#10013;&amp;nbsp;850)&lt;/h3&gt;&#10;&#9;&#9;&#9;&lt;p&gt;Il desservait une paroisse et, comme tous ses confrères, il savait qu&apos;il risquait sa tête à vouloir convertir les musulmans. &lt;img class=&quot;img-polaroid&quot; src=&quot;https://nominis.cef.fr/images/gallerie/perfectodecordoba.jpg&quot; border=&quot;0&quot; alt=&quot;martyre de San Perfecto de Córdoba&quot; hspace=&quot;5&quot; vspace=&quot;5&quot; align=&quot;right&quot; /&gt;Il se méfia donc quand deux musulmans l&apos;abordant dans la rue lui demandèrent ce qu&apos;il pensait de Mahomet et de Jésus car, disaient-ils, &amp;quot;nous ne désirons que nous instruire&amp;quot;. Il se mit à leur prouver que Mahomet était un faux prophète et que seul Jésus était le sauveur. Ils souhaitèrent le bonjour à saint Parfait, le laissèrent rentrer tranquillement chez lui, puis quelques jours après, ils le dénoncèrent à des amis. Traduit devant le tribunal arabe, il fut condamné à mort. Une fois encore et publiquement, il dit ce qu&apos;il pensait de Mahomet et du Coran. Son culte passa en France puisque les chanoines de la cathédrale de Paris chantèrent longtemps une messe solennelle en son honneur chaque 18 avril. &lt;br /&gt;- &lt;a href=&quot;http://www.diocesisdecordoba.com/diocesis/historia/santoral&quot; target=&quot;_blank&quot;&gt;San Perfecto de Córdoba&lt;/a&gt;  (diocèse de Cordoue - site en espagnol)&lt;br /&gt;&lt;em&gt;À Cordoue en Andalousie, l&apos;an 850, saint Parfait, moine et martyr. Parce qu&apos;il s&apos;en était pris à la doctrine de Mahomet et avait confessé fermement sa foi dans le Christ Fils de Dieu, il fut mis en prison par les Maures et ensuite tué d&apos;un coup d&apos;épée.&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;/div&gt;</code>
+        </html>
+      </folder>
+      <folder name="Saint Joseph" id="saint-joseph">
+        <html name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
+          <tests>
+            <test input="Qui est Saint Joseph ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;7&quot; /&gt;"/>
+            <test input="Saint Joseph" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;7&quot; /&gt;"/>
+            <test input="saint joseph" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;7&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Saint Joseph ?&#10;saint joseph</triggers>
+          <description>C&apos;est Saint Joseph.</description>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Satan" id="satan">
+        <html name="Ce que Dit Marie à Medjugorje : Satan" id="c-est-satan">
+          <tests>
+            <test input="Que dit Marie sur Satan ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;c-est-satan&quot; textlength=&quot;7&quot; /&gt;"/>
+          </tests>
+          <triggers>Que dit Marie sur Satan ?</triggers>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
     </folder>
