@@ -2185,9 +2185,9 @@
       </conversation_flow>
       <information name="Mon nom" id="mon-nom">
         <tests>
-          <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
-          <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
-          <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
+          <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Moi&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="qui es-tu ?" output="Je suis Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Moi&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Moi&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;3&quot; /&gt;"/>
         </tests>
         <text>Mon nom est Holy Chatter.</text>
       </information>
@@ -2204,7 +2204,7 @@
       </html>
       <information name="Jésus est Dieu" id="jesus-est-dieu">
         <tests>
-          <test input="Jésus est-t-il Dieu ?" output="Oui, Jésus est Dieu."/>
+          <test input="Jésus est-t-il Dieu ?" output="Oui, Jésus est Dieu." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;jesus-est-dieu&quot; textlength=&quot;7&quot; /&gt;"/>
         </tests>
         <text>Jésus est Dieu.</text>
       </information>
