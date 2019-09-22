@@ -223,10 +223,8 @@
     <a href="${path-item}" class="list-group-item" style="color:#428bca;">${name-item}</a>
   </message>
 
-
-  <message id="content-menu-two-items">
-    <a href="${path-item-1}" class="list-group-item" style="color:#428bca;">${name-item-1}</a>
-    <a href="${path-item-2}" class="list-group-item" style="color:#428bca;">${name-item-2}</a>
+  <message id="content-menu-item-active">
+    <a href="${path-item}" class="list-group-item" style="color:#428bca; background-color: #f0f0f0; font-weight: bold;">${name-item}</a>
   </message>
 
 
@@ -239,6 +237,14 @@
     </div>
   </message>
 
+  <message id="content-menu-item-with-content-active">
+    <div class="list-group" style="margin:0px; padding:0px;">
+      <a href="${path-item}" class="list-group-item" style="color:#428bca; background-color: #f0f0f0; font-weight: bold;">${name-item}</a>
+      <div class="list-group" style="margin:0px; padding:0px;">
+        ${sub-items-list}
+      </div>
+    </div>
+  </message>
 
 </messages>
 
