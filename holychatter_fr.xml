@@ -632,7 +632,7 @@
           <references>
             <site book="https://cybercure.fr/je-celebre-les-sacrements/mariage/article/conditions-du-mariage-catholique"/>
           </references>
-          <text>En principe, il faut être baptisé pour se marier religieusement. Cependant une personne non chrétienne peut se marier si elle épouse quelqu’un qui est baptisé. Cependant il faut que la paroisse demande à l’évêché une dispense qu’on désigne du nom un peu surprenant de &quot;dispense de disparité de culte&quot;. Elle est pratiquement toujours accordée. La personne non chrétienne doit être en accord avec les éléments essentiels du mariage chrétien (liberté, fidélité, indissolubilité et ouverture à la fécondité) et s’engager à respecter la foi de son conjoint.&#10;&#10;Si aucun des deux partenaires n’est chrétien, il n’est pas possible de se marier, car il faut être baptisé pour recevoir un sacrement.</text>
+          <text>&#10;_En principe, il faut être baptisé pour se marier religieusement. Cependant une personne non chrétienne peut se marier si elle épouse quelqu’un qui est baptisé. Cependant il faut que la paroisse demande à l’évêché une dispense qu’on désigne du nom un peu surprenant de &quot;dispense de disparité de culte&quot;. Elle est pratiquement toujours accordée. La personne non chrétienne doit être en accord avec les éléments essentiels du mariage chrétien (liberté, fidélité, indissolubilité et ouverture à la fécondité) et s’engager à respecter la foi de son conjoint.&#10;&#10;&#10;_Si aucun des deux partenaires n’est chrétien, il n’est pas possible de se marier, car il faut être baptisé pour recevoir un sacrement.</text>
         </information>
         <information name="Faut-il être croyant pour se marier dans une église ?" id="faut-il-etre-croyant-pour-se-marier-dans-une-eglise">
           <triggers>Faut-il être croyant pour se marier dans une église ?&#10;Croire pour se marier&#10;Faut-il être croyant pour se marier</triggers>
@@ -2017,6 +2017,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s4EpOZyYykM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible" nb="1">
+          <tests>
+            <test input="Je suis chrétien." output="Veux tu savoir qui a écrit la Bible ?|otherAnswer-&gt;|Ok, tu es chrétien." outputReferences="|otherAnswer-&gt;|"/>
+          </tests>
           <triggers>Je suis chrétien.</triggers>
           <reply>Veux tu savoir qui a écrit la Bible ?</reply>
         </conversation_flow>
