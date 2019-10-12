@@ -1,6 +1,7 @@
 :root {
   --hc-var-right-space: 20px;
   --hc-breadcrumb-height: 115px;
+  --hc-title-height: 55px;
   --hc-folder-menu-width: 270px;
 }
 
@@ -11,8 +12,6 @@ html, body {
 }
 
 h1 {
-  margin-top: 5px;
-  display: inline;
   font-family: Droid Serif;
   font-weight: bold;
   text-align: center;
@@ -151,6 +150,51 @@ h1 {
 .hc-content-content-sub-breadcrumb-mobile {
   position: absolute;
   top: var(--hc-breadcrumb-height);
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  max-height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+
+.hc-content-title-container {
+  position: fixed;
+  height: var(--hc-title-height);
+  left: var(--hc-folder-menu-width);
+  right: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+}
+
+.hc-content-title-container-mobile {
+  position: fixed;
+  height: var(--hc-title-height);
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+}
+
+.hc-content-content-sub-title {
+  position: absolute;
+  top: var(--hc-title-height);
+  left: var(--hc-folder-menu-width);
+  bottom: 0px;
+  right: 0px;
+  border-left: 1px solid #cccccc;
+  max-height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.hc-content-content-sub-title-mobile {
+  position: absolute;
+  top: var(--hc-title-height);
   left: 0px;
   bottom: 0px;
   right: 0px;

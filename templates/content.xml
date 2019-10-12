@@ -20,27 +20,15 @@
     ${content}
   </message>
 
-  <message id="content-list-folders-and-files">
+  <message id="content-list-header-and-elts">
     <div style="right:0px;">
       <div class="table-responsive">
         <table class="table table-sm table-hover">
           <thead class="thead-default">
-            ${folder-header-list}
+            ${header-list}
           </thead>
           <tbody>
-            ${folder-list}
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div style="right:0px;">
-      <div class="table-responsive">
-        <table class="table table-sm table-hover">
-          <thead class="thead-default">
-            ${file-header-list}
-          </thead>
-          <tbody>
-            ${file-list}
+            ${elts-list}
           </tbody>
         </table>
       </div>
@@ -186,9 +174,9 @@
       .panel-collapse .list-group-item li.list-group-item {border-top: 1px solid #DDD !important;}
     </style>
     <div class="panel-group" id="accordion">
-      ${resources-menu}
+      ${messages-menu}
       ${context-menu}
-      ${glossary-menu}
+      ${resources-menu}
       ${end-of-menu}
     </div>
   </message>
@@ -244,6 +232,40 @@
         ${sub-items-list}
       </div>
     </div>
+  </message>
+
+
+
+  <message id="content-header-list-elt-sources">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${source-name}</th>
+      <th colspan="3" style="width: 20px;">${number-of-messages}</th>
+      <th colspan="4" style="width: 20px;">${number-of-references}</th>
+    </tr>
+  </message>
+
+  <message id="content-header-list-elt-sources-mobile">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${source-name}</th>
+    </tr>
+  </message>
+
+  <message id="content-list-elt-sources">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${source}</td>
+      <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${number-of-messages}</td>
+      <td colspan="4" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${number-of-references}</td>
+    </tr>
+  </message>
+
+  <message id="content-list-elt-sources-mobile">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${source}</td>
+    </tr>
   </message>
 
 </messages>
