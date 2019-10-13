@@ -4,18 +4,22 @@
     <folder name="AELF" id="aelf" description="L&apos;Association épiscopale liturgique pour les pays francophones fut créée le 30 septembre 1969. C’est une association de droit français (loi de 1901) qui exécute les missions qui lui sont confiées par la Commission Épiscopale Francophone pour les Traductions Liturgiques.&#10;&#10;Cette association a pour but d&apos;élaborer, coordonner et promouvoir toutes études et activités intéressant la liturgie de l&apos;Eglise catholique, et plus particulièrement l&apos;élaboration de textes liturgiques destinés aux pays francophones." url="https://www.aelf.org">
       <folder name="Lectures" id="lectures">
         <api name="Deuxième lecture" id="deuxieme-lecture">
+          <sourceId>aelf</sourceId>
           <apiId>second_reading</apiId>
         </api>
         <api name="Evangile" id="evangile">
           <triggers>Quel est l&apos;Évangile du jour ?&#10;Quel est l&apos;Évangile de ce dimanche ?</triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
+          <sourceId>aelf</sourceId>
           <apiId>holy_gospel</apiId>
         </api>
         <api name="Première lecture" id="premiere-lecture">
           <triggers>Quel est la première lecture du jour ?</triggers>
+          <sourceId>aelf</sourceId>
           <apiId>first_reading</apiId>
         </api>
         <api name="Psaume" id="psaume">
+          <sourceId>aelf</sourceId>
           <apiId>psalm</apiId>
         </api>
         <conversation_flow name="Suggérer de lire l&apos;évangile" id="suggerer-de-lire-l-evangile">
@@ -32,12 +36,17 @@
             <test input="c&apos;est quoi l&apos;AELF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;AELF&quot; resourceid=&quot;aelf&quot; textlength=&quot;4&quot; /&gt;"/>
           </tests>
           <description>C&apos;est l&apos;AELF</description>
+          <sourceId>aelf</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
     </folder>
     <folder name="Crosspaint" id="crosspaint"/>
     <folder name="Dieu" id="dieu">
+      <information name="Dieu choisit les moyens par lesquels il se fait connaître." id="dieu-choisit-les-moyens-par-lesquels-il-se-fait-connaitre">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Dieu choisit les moyens par lesquels il se fait connaître.</text>
+      </information>
       <information name="Dieu dépasse la raison" id="dieu-depasse-la-raison">
         <tests>
           <test input="Qu&apos;est-ce que Dieu dépasse ?" output="Dieu dépasse la raison." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Tm 6,16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-depasse-la-raison&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -114,6 +123,14 @@
         </references>
         <text>L&apos;Esprit est Dieu.</text>
       </information>
+      <information name="La manière de faire de Dieu..." id="la-maniere-de-faire-de-dieu">
+        <tests>
+          <test input="Quelle est la manière de faire de Dieu ?" output="La manière de faire de Dieu prend en compte toute la nature de l&apos;homme y compris sa  liberté." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-maniere-de-faire-de-dieu&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Quelle est la manière de faire de Dieu ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La manière de faire de Dieu prend en compte toute la nature de l&apos;homme y compris sa  liberté.</text>
+      </information>
       <information name="Le Fils est Dieu" id="le-fils-est-dieu">
         <tests>
           <test input="Est-ce que le Fils est Dieu ?" output="Jésus est Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 9,5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2,9&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -178,6 +195,10 @@
           <ccc verseBegin="432"/>
         </references>
         <text>Jésus est le fils de Dieu.</text>
+      </information>
+      <information name="Jésus est vrai Dieu et vrai homme." id="jesus-est-vrai-dieu-et-vrai-homme">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Jésus est vrai Dieu et vrai homme.</text>
       </information>
       <information name="Jésus est..." id="jesus-est">
         <text>Jésus est la réponse à toutes nos questions.&#10;Jésus est l&apos;assouvissement de tous nos désirs.&#10;</text>
@@ -873,6 +894,130 @@
         <triggers>Qui est Jésus ?</triggers>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
+    </folder>
+    <folder name="Ecritures Saintes" id="ecriture-sainte">
+      <information name="Dei Verbum" id="dei-verbum">
+        <triggers>Qu&apos;est-ce que c&apos;est Dei Verbum ?</triggers>
+        <sourceId>wikipedia</sourceId>
+        <text>Dei Verbum, ou la Constitution dogmatique sur la Révélation divine, est l&apos;une des quatre constitutions conciliaires promulguées par le IIe concile œcuménique du Vatican (Vatican II). Portant sur la révélation divine, ce texte est voté le 8 septembre 1965 et solennellement promulgué le 18 novembre 1965 par le pape Paul VI. En six chapitres, il refait le point sur la manière dont Dieu se révèle à l&apos;homme dans les Saintes Écritures reçues par les chrétiens comme Parole de Dieu.</text>
+      </information>
+      <information name="Dieu fait confiance à l&apos;homme par la transmission de la Parole." id="dieu-fait-confiance-a-l-homme-par-la-transmission-de-la-parole">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Dieu fait confiance à l&apos;homme par la transmission de la Parole.</text>
+      </information>
+      <information name="Dieu nous parle par la Bible." id="dieu-nous-parle-par-la-bible">
+        <tests>
+          <test input="Comment Dieu nous parle ?" output="Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Comment Dieu nous parle ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique.</text>
+      </information>
+      <information name="Il y a 3 langues bibliques." id="il-y-a-langues-bibliques">
+        <tests>
+          <test input="Quelles sont les langues bibliques ?" output="Il y a 3 langues bibliques: l&apos;araméen, l&apos;hébreux et le grec." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;il-y-a-langues-bibliques&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Quelles sont les langues bibliques ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Il y a 3 langues bibliques: l&apos;araméen, l&apos;hébreux et le grec.</text>
+      </information>
+      <information name="Je te conseille de lire l&apos;évangile avant d&apos;aller à la messe." id="je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Je te conseille de lire l&apos;évangile avant d&apos;aller à la messe.</text>
+      </information>
+      <information name="L&apos;écoute est l&apos;attitude principale du croyant." id="l-ecoute-est-l-attitude-principale-du-croyant">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>L&apos;écoute est l&apos;attitude principale du croyant.</text>
+      </information>
+      <information name="La Bible comporte 73 livres." id="la-bible-comporte-livres">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La Bible comporte 73 livres dont 46 dans l&apos;Ancien Testament.&#10;C&apos;était une tradition orale qui peu à peu a été mis par écrit.&#10;La tradition et l&apos;Ecriture vont de pair.</text>
+      </information>
+      <information name="La Parole est faite pour être reçue et donnée." id="la-parole-est-faite-pour-etre-recue-et-donnee">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La Parole est faite pour être reçue et donnée.</text>
+      </information>
+      <information name="La Parole est un don avant d&apos;être une exigence." id="la-parole-est-un-don-avant-d-etre-une-exigence">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La Parole est un don avant d&apos;être une exigence.</text>
+      </information>
+      <information name="La Parole produit du fruit quand on l&apos;acceuille avec joie." id="la-parole-produit-du-fruit-quand-on-l-acceuille-avec-joie">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La Parole produit du fruit quand on l&apos;acceuille avec joie.</text>
+      </information>
+      <information name="La Parole réalise ce qu&apos;elle dit." id="la-parole-realise-ce-qu-elle-dit">
+        <tests>
+          <test input="La Parole réalise quoi ?" output="La Parole réalise ce que ça dit." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-parole-realise-ce-qu-elle-dit&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+        </tests>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La Parole réalise ce qu&apos;elle dit.&#10;</text>
+      </information>
+      <information name="La Parole s&apos;accomplit dans les oeuvres." id="la-parole-s-accomplit-dans-les-oeuvres">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La Parole s&apos;accomplit dans les oeuvres.</text>
+      </information>
+      <information name="La communauté des croyants c&apos;est ceux qui ont reçu la Parole est qui ont crus." id="la-communaute-des-croyants-c-est-ceux-qui-ont-recu-la-parole-est-qui-ont-crus">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La communauté des croyants c&apos;est ceux qui ont reçu la Parole est qui ont crus.</text>
+      </information>
+      <information name="La séparation de la Bible en chapitres date de XIIIe siècle après JC." id="la-separation-en-chapitres-date-de-xiiie-siecle-apres-jc">
+        <tests>
+          <test input="De quand date la séparation de la Bible en chapitres ?" output="La séparation en chapitres date de XIIIe siècle après JC.&#10;" outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-separation-en-chapitres-date-de-xiiie-siecle-apres-jc&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>De quand date la séparation de la Bible en chapitres ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La séparation de la Bible en chapitres date de XIIIe siècle après JC.&#10;</text>
+      </information>
+      <information name="La séparation de la Bible en versets date de XVIe siècle après JC." id="la-separation-de-la-bible-en-versets-date-de-xvie-siecle-apres-jc">
+        <triggers>De quand date la séparation de la Bible en versets ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>La séparation de la Bible en versets date de XVIe siècle après JC.&#10;</text>
+      </information>
+      <information name="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." id="la-canon-est-l-ensemble-des-livres-reconnu-comme-inspires-par-une-communaute-religieuse">
+        <tests>
+          <test input="Qu&apos;est-ce que le Canon ?" output="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-canon-est-l-ensemble-des-livres-reconnu-comme-inspires-par-une-communaute-religieuse&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Qu&apos;est-ce que le Canon ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse.</text>
+      </information>
+      <information name="Le but de la Bible est de mener au salut." id="le-but-de-la-bible-est-de-mener-au-salut">
+        <tests>
+          <test input="Quel est le but de la Bible ?" output="Le but de la Bible est de mener au salut." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;le-but-de-la-bible-est-de-mener-au-salut&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Quel est le but de la Bible ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Le but de la Bible est de mener au salut.</text>
+      </information>
+      <information name="Les auteurs de la Bible écrivent en pleine possession de leurs moyens." id="les-auteurs-de-la-bible-ecrivent-en-pleine-possession-de-leurs-moyens">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Les auteurs de la Bible écrivent en pleine possession de leurs moyens.</text>
+      </information>
+      <information name="Les textes de la Bible sont fiables." id="les-textes-de-la-bible-sont-fiables">
+        <tests>
+          <test input="Est-ce que la Bible est fiable ?" output="Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les lettres, lorsqu&apos;il manquait une lettre on détruisait tout.|otherAnswer-&gt;|Oui, la Bible est fiable." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>Est-ce que la Bible est fiable ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les lettres, lorsqu&apos;il manquait une lettre on détruisait tout.</text>
+      </information>
+      <information name="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." id="les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc">
+        <tests>
+          <test input="De quand datent les textes les plus anciens de la Bible ?" output="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>De quand datent les textes les plus anciens de la Bible ?</triggers>
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Les textes les plus anciens de la Bible datent du Xe siècle avant JC.</text>
+      </information>
+      <html name="Parole de Dieu et Ecritures Saintes" id="parole-de-dieu-et-ecritures-saintes">
+        <triggers>Parole de Dieu et Ecritures Saintes</triggers>
+        <sourceId>kto</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B86mDSsO0yw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <information name="Toute l&apos;Ecriture est inspirée par Dieu." id="toute-l-ecriture-est-inspiree-par-dieu">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Toute l&apos;Ecriture est inspirée par Dieu.</text>
+      </information>
     </folder>
     <folder name="KTO" id="kto">
       <information name="Définition d&apos;un sacrement" id="definition-d-un-sacrement">
@@ -1762,6 +1907,12 @@
         </html>
       </folder>
       <folder name="Vie chrétienne" id="vie-chretienne" nb="9"/>
+    </folder>
+    <folder name="Le mal" id="le-mal">
+      <information name="Le mal n&apos;est pas toujours évident à trouver." id="le-mal-n-est-pas-toujours-evident-a-trouver">
+        <sourceId>batir-sur-le-roc</sourceId>
+        <text>Le mal n&apos;est pas toujours évident à trouver.</text>
+      </information>
     </folder>
     <folder name="Prédications" id="individuels">
       <folder name="Cospiel" id="cospiel" description="Né dans une famille catholique à La Baule, Cospiel grandit pendant toute son adolescence sans réellement savoir qu’un Dieu merveilleux veillait sur lui. C’est après une jeunesse mouvementée qu’à 19 ans il rencontra le Seigneur dans une église évangélique à Saint-Nazaire.&#10;&#10;Le 31 décembre 2015, il décida de suivre Christ en renonçant à tous ses désirs contraire à la volonté de Dieu.3 mois plus tard, le verset d’Esaïe 6:8 le transformera à jamais. Il y est écrit «J’entendis le Seigneur qui disait: Qui enverrai-je? Qui ira pour nous? Je répondis: Je suis là, envoie-moi!» Et c’est alors qu’il commença à témoigner dans les rues de la paix que CHRIST produisait dans sa vie malgré les épreuves.&#10;&#10;En juillet 2016 , il effectua son premier voyage missionnaire au Maroc à Casablanca où il prêcha pour la première fois dans une église. Ceci n’était que le début d’une grande œuvre au travers des nations toutes entières.&#10;&#10;En Décembre 2017 , il prit la décision de tout quitter pour servir Dieu dans un ministère à temps plein. Il parcourut de nombreux pays tel que la Suisse, la Belgique, la Martinique , La Guadeloupe, Le Sénégal, et ainsi il réalisa 13 voyages missionnaires en moins de 2 ans. " url="https://www.youtube.com/channel/UCm5OSWOMW9sr2nVgryKXwvw">
