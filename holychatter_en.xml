@@ -22,9 +22,10 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4qBbr1D-OlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Daily Gospel" id="daily-gospel" description="« Evangelizo / Daily Gospel » is a service provided by our international association Evangelizo. Evangelizo&apos;s mission is to spread the voice of the Gospel in all languages throughout the world via the Internet and to develop the technical means to this end. Evangelizo is a team of more than 70 secular and clerical Roman Catholics, formed of priests, monks and nuns from various communities, congregations or spiritual sensitivities such as Jesuits, Redemptorists, Benedictines, Carmelites, Cistercians, the Monastic Communities of Jerusalem, the Emmanuel Community and Focolari. We are always working to add new languages so as to deliver the gospel to every corner of the world. Below we have attached some photos of our growing Evangelizo family." url="https://dailygospel.org">
+    <folder name="Daily Gospel" id="daily-gospel" defaultSourceId="daily-gospel">
       <folder name="Readings" id="readings">
         <api name="First Reading" id="first-reading">
+          <sourceId>daily-gospel</sourceId>
           <apiId>first_reading</apiId>
         </api>
         <api name="Holy Gospel" id="holy-gospel">
@@ -36,16 +37,20 @@
           </tests>
           <triggers>What is the Gospel of the day ?&#10;What is the Gospel of this Sunday ?</triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
+          <sourceId>daily-gospel</sourceId>
           <apiId>holy_gospel</apiId>
         </api>
         <api name="Psalm" id="psalm">
+          <sourceId>daily-gospel</sourceId>
           <apiId>psalm</apiId>
         </api>
         <api name="Second Reading" id="second-reading">
+          <sourceId>daily-gospel</sourceId>
           <apiId>second_reading</apiId>
         </api>
         <information name="Suggest to read the Holy Gospel" id="suggest-to-read-the-holy-gospel">
           <triggers>I know the Catholic Church.</triggers>
+          <sourceId>daily-gospel</sourceId>
           <text>Do you want to read the Holy Gospel of today ?</text>
         </information>
       </folder>
@@ -56,6 +61,7 @@
           </tests>
           <triggers>Who is the Saint of today ?</triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
+          <sourceId>daily-gospel</sourceId>
           <apiId>saint</apiId>
         </api>
       </folder>
@@ -129,6 +135,7 @@
     <folder name="God exists" id="god-exists">
       <html name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part">
         <description>That is why God exists.</description>
+        <sourceId>restored-cog</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <information name="God exists" id="god-exists">
@@ -167,6 +174,7 @@
           <bible book="1 Cor" chapter="15" verseBegin="14" verseEnd="19"/>
           <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
         </references>
+        <sourceId>inspiring-philosophy</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
@@ -240,6 +248,7 @@
             <test input="Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <description>It&apos;s the life of Abraham.&#10;It&apos;s Abraham.</description>
+          <sourceId>thinbey-sk</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -378,7 +387,7 @@
     </folder>
   </folder>
   <folder name="Teachings" id="catechism">
-    <folder name="3 Minute Catechism" id="minute-catechism" description="3MC (3 Minute Catechism) consists of 72 hand drawn and animated episodes each 3-4 minutes long, that follow the the creed and explain the basics of the Catholic Faith.&#10;&#10;But this goes beyond the basics and really tries to explain some of the deeper truths of the Catholic faith. All through amazing illustrations, creative presentation, humour, and even some deep theology. It’s like having a visual catechism." url="https://www.youtube.com/playlist?list=PLIcePO_eJb2_EElTdFm1PFLNkH17EQcV-">
+    <folder name="3 Minute Catechism" id="minute-catechism" defaultSourceId="minute-catechism">
       <folder name="Basics" id="basics" nb="1">
         <html name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
           <tests>
@@ -390,6 +399,7 @@
             <ccc verseBegin="31" verseEnd="37"/>
             <ccc verseBegin="44" verseEnd="47"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1Rhabwbw7MI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are miracles?" id="what-are-miracles" nb="6">
@@ -402,6 +412,7 @@
             <bible book="Jn" chapter="20" verseBegin="30" verseEnd="31"/>
             <ccc verseBegin="547" verseEnd="550"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What does it mean to “believe in God”?" id="what-does-it-mean-to-believe-in-god" nb="4">
@@ -420,6 +431,7 @@
             <ccc verseBegin="179" verseEnd="180"/>
             <ccc verseBegin="183"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GU5QwpHV04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is man?" id="what-is-man" nb="1">
@@ -436,6 +448,7 @@
             <ccc verseBegin="26" verseEnd="30"/>
             <ccc verseBegin="44" verseEnd="45"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SpJt3ZrpkEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is the Soul?" id="what-is-the-soul" nb="2">
@@ -452,6 +465,7 @@
             <ccc verseBegin="362" verseEnd="368"/>
             <ccc verseBegin="382"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GH3nsxCGmEM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is the difference between believing and knowing?" id="what-is-the-difference-between-believing-and-knowing" nb="3">
@@ -464,6 +478,7 @@
             <bible book="Heb" chapter="11" verseBegin="1"/>
             <ccc verseBegin="159"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FKVoLu_UAkU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -491,6 +506,7 @@
             <ccc verseBegin="391" verseEnd="395"/>
             <ccc verseBegin="414"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uUHjWoD3zhI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Is there a contradiction between Faith and Science?" id="is-there-a-contradiction-between-faith-and-science" nb="22">
@@ -506,6 +522,7 @@
             <bible book="Jn" chapter="14" verseBegin="1"/>
             <bible book="Jn" chapter="3" verseBegin="2"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/JWJFAeI3r3E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Is there a contradiction between the Creation and Evolution?" id="is-there-a-contradiction-between-the-creation-and-evolution" nb="23">
@@ -516,6 +533,7 @@
           <references>
             <ccc verseBegin="282" verseEnd="289"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Bzxfab6qdQg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Creation according to the Church?" id="what-is-creation-according-to-the-church" nb="21">
@@ -532,6 +550,7 @@
             <ccc verseBegin="183"/>
             <bible book="Ps" chapter="117" verseBegin="8"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1qrHme0lOjc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Evil?" id="what-is-evil" nb="24">
@@ -545,6 +564,7 @@
             <ccc verseBegin="324"/>
             <ccc verseBegin="400"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/n-2VNTDgDAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Original Sin?" id="what-is-original-sin" nb="25">
@@ -560,6 +580,7 @@
             <ccc verseBegin="396"/>
             <ccc verseBegin="421"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -582,6 +603,7 @@
             <ccc verseBegin="249" verseEnd="256"/>
             <ccc verseBegin="261"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/MU_VrDmfPl8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How can we understand the Trinity?" id="how-can-we-understand-the-trinity" nb="18">
@@ -593,6 +615,7 @@
           <references>
             <ccc verseBegin="237"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3BcvPMsvtk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Is God a man with a long beard?" id="is-god-a-man-with-a-long-beard" nb="15">
@@ -608,6 +631,7 @@
             <ccc verseBegin="238" verseEnd="240"/>
             <ccc verseBegin="370"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ehMQDoz2xQI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Is God really All-powerful?" id="is-god-really-all-powerful" nb="13">
@@ -623,6 +647,7 @@
             <bible book="Job" chapter="42" verseBegin="2"/>
             <ccc verseBegin="268" verseEnd="278"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3VxizuWWTE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Is God really unchanging?" id="is-god-really-unchanging" nb="14">
@@ -638,6 +663,7 @@
             <bible book="1 Jn" chapter="2" verseBegin="17"/>
             <bible book="Ex" chapter="3" verseBegin="14"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kikujtUBqG8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What does it mean that God is Love?" id="what-does-it-mean-that-god-is-love" nb="20">
@@ -649,6 +675,7 @@
             <bible book="1 Jn" chapter="4" verseBegin="8"/>
             <ccc verseBegin="218" verseEnd="221"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/OxO5Z-PjPLg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What does it mean that God is Triune?" id="what-does-it-mean-that-god-is-triune" nb="16">
@@ -669,6 +696,7 @@
             <ccc verseBegin="249" verseEnd="256"/>
             <ccc verseBegin="261"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/pILdDxBavts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What pictures do we have of the Holy Trinity?" id="what-pictures-do-we-have-of-the-holy-trinity" nb="19">
@@ -676,6 +704,7 @@
           <references>
             <bible book="Gen" chapter="18"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/58eEmK6Z6i8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Who is God?" id="who-is-god" nb="12">
@@ -697,6 +726,7 @@
             <ccc verseBegin="228"/>
             <ccc verseBegin="230" verseEnd="231"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -710,6 +740,7 @@
           <references>
             <ccc verseBegin="484" verseEnd="682"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How did Jesus save us on the Cross?" id="how-did-jesus-save-us-on-the-cross" nb="32">
@@ -728,6 +759,7 @@
             <bible book="1 Pet" chapter="1" verseBegin="18" verseEnd="19"/>
             <bible book="1 Jn" chapter="2" verseBegin="2"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How does the grace of salvation come to us?" id="how-does-the-grace-of-salvation-come-to-us" nb="33">
@@ -738,6 +770,7 @@
             <ccc verseBegin="618"/>
             <ccc verseBegin="738" verseEnd="741"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kgqH0Q0kFgM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How is Jesus different from the founders of other religions?" id="how-is-jesus-different-from-the-founders-of-other-religions" nb="31">
@@ -748,6 +781,7 @@
           <references>
             <bible book="Phil" chapter="2" verseBegin="10" verseEnd="11"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Who was Jesus?" id="who-was-jesus" nb="27">
@@ -767,6 +801,7 @@
             <bible book="Jn" chapter="20" verseBegin="28"/>
             <ccc verseBegin="422" verseEnd="455"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Why did God become Man?" id="why-did-god-become-man" nb="28">
@@ -781,6 +816,7 @@
             <bible book="Phil" chapter="2" verseBegin="5" verseEnd="10"/>
             <ccc verseBegin="456" verseEnd="482"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ak_OX77ASh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Why did Jesus come into the world 2000 years ago?" id="why-did-jesus-come-into-the-world-years-ago" nb="29">
@@ -788,6 +824,7 @@
             <test input="Why did Jesus come into the world 2000 years ago?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-jesus-come-into-the-world-years-ago&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>Why did Jesus come into the world 2000 years ago?</triggers>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -802,6 +839,7 @@
             <bible book="Heb" chapter="1" verseBegin="1" verseEnd="2"/>
             <ccc verseBegin="50" verseEnd="73"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cbn2_IS6CEk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How is Revelation passed on?" id="how-is-revelation-passed-on" nb="9">
@@ -819,6 +857,7 @@
             <ccc verseBegin="85" verseEnd="87"/>
             <ccc verseBegin="97"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oewe1uiQIyE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How is the Bible structured?" id="how-is-the-bible-structured" nb="10">
@@ -832,6 +871,7 @@
             <ccc verseBegin="121" verseEnd="130"/>
             <ccc verseBegin="140"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oyXk9TNRcF8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Who decided what belongs in the Bible?" id="who-decided-what-belongs-in-the-bible" nb="11">
@@ -842,6 +882,7 @@
           <references>
             <ccc verseBegin="103" verseEnd="109"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4YTPO88yzXE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Why does God reveal Himself?" id="why-does-god-reveal-himself" nb="7">
@@ -856,6 +897,7 @@
             <ccc verseBegin="50" verseEnd="53"/>
             <ccc verseBegin="68" verseEnd="69"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/163c4xg4F5s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -875,6 +917,7 @@
             <ccc verseBegin="1113" verseEnd="1134"/>
             <ccc verseBegin="2003"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/fEXx3gP-Mf0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are Sins?" id="what-are-sins" nb="41">
@@ -888,6 +931,7 @@
             <bible book="1 Jn" chapter="5" verseBegin="16" verseEnd="17"/>
             <ccc verseBegin="1849" verseEnd="1876"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/QKhuWT30WdY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the 10 Commandments?" id="what-are-the-commandments" nb="42">
@@ -896,6 +940,7 @@
             <bible book="Ex" chapter="20" verseBegin="2" verseEnd="17"/>
             <ccc verseBegin="2052" verseEnd="2557"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3U4B__ZQ5Mw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the 7 Capital Sins?" id="what-are-the-capital-sins" nb="43">
@@ -905,6 +950,7 @@
             <bible book="Gal" chapter="5" verseBegin="21" verseEnd="29"/>
             <ccc verseBegin="1866" verseEnd="1967"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/vJszgq2_x1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the degrees of the Sacrament of Holy Orders?" id="what-are-the-degrees-of-the-sacrament-of-holy-orders" nb="47">
@@ -921,6 +967,7 @@
             <ccc verseBegin="1554" verseEnd="1561"/>
             <ccc verseBegin="1593"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aq315ppTiOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the parts of the Mass?" id="what-are-the-parts-of-the-mass" nb="40">
@@ -932,6 +979,7 @@
             <ccc verseBegin="1345" verseEnd="1355"/>
             <ccc verseBegin="1408"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KJgEYDVmgYk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What does the Church teach about sexual morality?" id="what-does-the-church-teach-about-sexual-morality" nb="50">
@@ -950,6 +998,7 @@
             <ccc verseBegin="2368" verseEnd="2391"/>
             <ccc verseBegin="2399" verseEnd="2400"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/J70AGlRacMY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Anointing of the Sick?" id="what-is-anointing-of-the-sick" nb="45">
@@ -962,6 +1011,7 @@
             <bible book="Jas" chapter="5" verseBegin="14" verseEnd="15"/>
             <ccc verseBegin="1499" verseEnd="1525"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/dUlP_0TpRgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Baptism?" id="what-is-baptism" nb="36">
@@ -981,6 +1031,7 @@
             <ccc verseBegin="1213" verseEnd="1284"/>
             <ccc verseBegin="2167"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZXK8Q2rUGxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Confession?" id="what-is-confession" nb="44">
@@ -995,6 +1046,7 @@
             <bible book="Jn" chapter="20" verseBegin="22" verseEnd="23"/>
             <ccc verseBegin="1422" verseEnd="1498"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KEn8xfQy7Ik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Confirmation?" id="what-is-confirmation" nb="37">
@@ -1009,6 +1061,7 @@
             <bible book="Rom" chapter="5" verseBegin="5"/>
             <ccc verseBegin="1285" verseEnd="1314"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Grace?" id="what-is-grace" nb="34">
@@ -1022,6 +1075,7 @@
             <bible book="Rom" chapter="5" verseBegin="15" verseEnd="17"/>
             <ccc verseBegin="1987" verseEnd="2027"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ywypuAarXeA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Holy Mass?" id="what-is-holy-mass" nb="39">
@@ -1037,6 +1091,7 @@
             <bible book="Heb" chapter="13" verseBegin="10" verseEnd="12"/>
             <ccc verseBegin="1135" verseEnd="1190"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/jdz44UStfMk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is a Catholic Priest?" id="what-is-a-catholic-priest" nb="46">
@@ -1055,6 +1110,7 @@
             <bible book="1 Cor" chapter="17" verseBegin="32" verseEnd="38"/>
             <ccc verseBegin="1536" verseEnd="1592"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RQcx2ZwO01U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is marriage?" id="what-is-marriage" nb="48">
@@ -1072,6 +1128,7 @@
             <bible book="Rom" chapter="1" verseBegin="24" verseEnd="27"/>
             <ccc verseBegin="1601" verseEnd="1666"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kkrjMa_LFC8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is sex?" id="what-is-sex" nb="49">
@@ -1085,6 +1142,7 @@
             <ccc verseBegin="2331" verseEnd="2350"/>
             <ccc verseBegin="2362" verseEnd="2367"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/89A5Kk_vcyI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is the Eucharist?" id="what-is-the-eucharist" nb="38">
@@ -1098,6 +1156,7 @@
             <bible book="1 Cor" chapter="11" verseBegin="27"/>
             <ccc verseBegin="1322" verseEnd="1419"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -1118,6 +1177,7 @@
             <ccc verseBegin="914" verseEnd="933"/>
             <ccc verseBegin="944" verseEnd="945"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church-2" nb="53">
@@ -1132,6 +1192,7 @@
             <bible book="1 Cor" chapter="12" verseBegin="20" verseEnd="21"/>
             <ccc verseBegin="811" verseEnd="865"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is the Church?" id="what-is-the-church-2" nb="52">
@@ -1149,6 +1210,7 @@
             <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
             <ccc verseBegin="748" verseEnd="810"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is the structure of the Church?" id="what-is-the-structure-of-the-church" nb="55">
@@ -1169,6 +1231,7 @@
             <bible book="Jas" chapter="5" verseBegin="14" verseEnd="15"/>
             <ccc verseBegin="871" verseEnd="943"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cHEzyxxIktY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Who is Mary?" id="who-is-mary" nb="60">
@@ -1185,6 +1248,7 @@
             <ccc verseBegin="487" verseEnd="511"/>
             <ccc verseBegin="963" verseEnd="975"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Who is the Holy Spirit?" id="who-is-the-holy-spirit" nb="51">
@@ -1199,6 +1263,7 @@
             <bible book="Acts" chapter="7"/>
             <ccc verseBegin="683" verseEnd="741"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_eePtl5QwMc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="Why does the Church even exist?" id="why-does-the-church-even-exist" nb="54">
@@ -1213,17 +1278,19 @@
             <bible book="Eph" chapter="2" verseBegin="19" verseEnd="22"/>
             <ccc verseBegin="748" verseEnd="780"/>
           </references>
+          <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3AqfPAsPZ30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
     </folder>
-    <folder name="TheoMatters" id="theomatters">
+    <folder name="TheoMatters" id="theomatters" defaultSourceId="theomatters">
       <html name="A sacrement" id="a-sacrement">
         <tests>
           <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="A sacrement" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <triggers>What is a sacrement ?</triggers>
+        <sourceId>theomatters</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
@@ -1231,16 +1298,18 @@
       <folder name="Laudato Si " id="laudato-si" description="“LAUDATO SI’, mi’ Signore” – “Praise be to you, my Lord”. In the words of this beautiful canticle, Saint Francis of Assisi reminds us that our common home is like a sister with whom we share our life and a beautiful mother who opens her arms to embrace us. “Praise be to you, my Lord, through our Sister, Mother Earth, who sustains and governs us, and who produces various fruit with coloured flowers and herbs”.[1]" url="http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html">
         <html name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
           <description>Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;&#10;&#10;Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it.</description>
+          <sourceId>america-media</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
     </folder>
-    <folder name="Youcat" id="youcat" description="The YOUCAT Foundation is a work of new evangelization that contributes to the renewal of the Church worldwide with the charism of &quot;teaching&quot;.&#10;&#10;&quot;Teaching&quot; is not everything in the Church, but without authentic teaching everything is nothing. YOUCAT wants to make the contents of faith, as they are given in Holy Scripture and in the Catechism, shine anew.&#10;&#10;YOUCAT not only develops and publishes target group-oriented catechisms and exciting Bible editions; YOUCAT goes digital and inspires young Catholics in every way learning and exchange processes about the common faith." url="https://www.youcat.org">
+    <folder name="Youcat" id="youcat" defaultSourceId="youcat">
       <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="2">
         <information name="What is liturgy?" id="what-is-liturgy" nb="167">
           <tests>
             <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
+          <sourceId>youcat</sourceId>
           <text>Liturgy is the official divine worship of the Church.</text>
         </information>
       </folder>
@@ -1253,6 +1322,7 @@
             <ccc verseBegin="31" verseEnd="36"/>
             <ccc verseBegin="44" verseEnd="47"/>
           </references>
+          <sourceId>youcat</sourceId>
           <text>We can know the existence of God by our reason.</text>
         </information>
         <information name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
@@ -1268,6 +1338,7 @@
             <bible book="1 Jn" chapter="4" verseBegin="15" verseEnd="17"/>
             <bible book="Jn" chapter="14" verseBegin="5" verseEnd="7"/>
           </references>
+          <sourceId>youcat</sourceId>
           <text>We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.</text>
         </information>
         <information name="Why did God create us?" id="why-did-god-create-us" nb="2">
@@ -1278,6 +1349,7 @@
           <references>
             <ccc verseBegin="1" verseEnd="3"/>
           </references>
+          <sourceId>youcat</sourceId>
           <text>God created us out of free and unselfish love.</text>
         </information>
         <information name="Why do we seek God?" id="why-do-we-seek-god" nb="3">
@@ -1287,6 +1359,7 @@
           <references>
             <ccc verseBegin="27" verseEnd="30"/>
           </references>
+          <sourceId>youcat</sourceId>
           <text>We seek God because God has placed in our hearts a longing to seek and find him.</text>
         </information>
       </folder>
@@ -1297,6 +1370,7 @@
             <references>
               <bible book="Gen" chapter="1" verseBegin="1"/>
             </references>
+            <sourceId>youcat</sourceId>
             <text>&#10;_Everything that is comes from God.</text>
           </information>
           <information name="Why do I exist?" id="why-do-i-exist" nb="2">
@@ -1316,6 +1390,7 @@
               <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
               <bible book="Prov" chapter="8" verseBegin="17"/>
             </references>
+            <sourceId>youcat</sourceId>
             <text>You are here because God wants you.&#10;&#10;He knows you.&#10;He loves you beyond measure, and he wants to make you happy.</text>
           </information>
         </folder>
