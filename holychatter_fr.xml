@@ -71,6 +71,9 @@
         </references>
         <text>Dieu est amour.</text>
       </information>
+      <information name="Dieu est bon" id="dieu-est-bon">
+        <text>Dieu est bon</text>
+      </information>
       <information name="Dieu est devenu homme" id="dieu-est-devenu-homme">
         <tests>
           <test input="Dieu est-il devenu homme" output="Dieu est devenu un homme pour partager tout ce qui concerne notre condition humaine à l&apos;exception du péché." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 9,6-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 2,7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 9,5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Tt 2,13&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 4,15&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-devenu-homme&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -2669,7 +2672,55 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m3lr-QFOqrc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Sciences et foi" id="sciences-et-foi" nb="5"/>
+      <folder name="Sciences et foi" id="sciences-et-foi" nb="5">
+        <html name="Est-ce que mon chat va ressusciter ?" id="est-ce-que-mon-chat-va-ressusciter" nb="2">
+          <triggers>Est-ce que les animaux vont ressusciter ?&#10;Est-ce que mon chat va ressusciter ?</triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="29"/>
+            <bible book="Rev" chapter="21" verseBegin="1"/>
+            <bible book="Is" chapter="11" verseBegin="6" verseEnd="8"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FuxKcnmztTI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Etre catho est-ce écolo ?" id="etre-catho-est-ce-ecolo" nb="2">
+          <tests>
+            <test input="Etre catho est-ce écolo ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q4STWD2A3cU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,31&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;etre-catho-est-ce-ecolo&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="La création est bonne ?" output="Oui, la création est bonne." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,31&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;etre-catho-est-ce-ecolo&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Etre catho est-ce écolo ?</triggers>
+          <description>La création est bonne.</description>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="31"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q4STWD2A3cU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Science et bible que nous apprennent-elles sur Dieu ?" id="science-et-bible-que-nous-apprennent-elles-sur-dieu" nb="1">
+          <tests>
+            <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>Science et bible que nous apprennent-elles sur Dieu ?</triggers>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zn7xSowFWCY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Un scientifique peut-il croire la Genèse ?" id="un-scientifique-peut-il-croire-la-genese" nb="1">
+          <tests>
+            <test input="Un scientifique peut-il croire la Genèse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h7s_ueSFJoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;un-scientifique-peut-il-croire-la-genese&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Doit-on rejeter tout ce que dit la Bible sur la création du monde comme étant irrationnel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h7s_ueSFJoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;un-scientifique-peut-il-croire-la-genese&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Comment peut-on articuler la connaissance scientifique avec le savoir religieux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h7s_ueSFJoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;un-scientifique-peut-il-croire-la-genese&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="La Bible n&apos;est pas un traité de physique." output="Oui, je sais que la Bible n&apos;est pas un traité physique." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;un-scientifique-peut-il-croire-la-genese&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Un scientifique peut-il croire la Genèse ?&#10;Doit-on rejeter tout ce que dit la Bible sur la création du monde comme étant irrationnel ?&#10;Comment peut-on articuler la connaissance scientifique avec le savoir religieux ?</triggers>
+          <description>La Bible n&apos;est pas un traité de physique.</description>
+          <references>
+            <bible book="Gen" chapter="1"/>
+            <bible book="Gen" chapter="2"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h7s_ueSFJoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
       <folder name="Tout (ou presque !) sur l&apos;Esprit-Saint" id="tout-ou-presque-sur-l-esprit-saint" nb="2">
         <html name="Comment parler de l&apos;Esprit-Saint ?" id="comment-parler-de-l-esprit-saint" nb="1">
           <tests>
@@ -3090,7 +3141,7 @@
       </html>
       <html name="Pourquoi être chrétien ? - Charlotte d&apos;Ornellas" id="pourquoi-etre-chretien-charlotte-d-ornellas">
         <tests>
-          <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot; SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;24&quot; /&gt;"/>
+          <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;23&quot; /&gt;"/>
         </tests>
         <triggers>Pourquoi être chrétien ?</triggers>
         <sourceId>sos-chretiens-d-orient</sourceId>
