@@ -40,19 +40,6 @@
       <th style="width: 5px;"></th>
       <th style="width: 5px;"></th>
       <th colspan="3">${folder-name}</th>
-      <th colspan="4">${description}</th>
-      <th colspan="5">${url}</th>
-      <th style="text-align: right;">${add-button}</th>
-    </tr>
-  </message>
-
-  <message id="content-header-list-elt-folder-mobile">
-    <tr class="add-category-row" style="background-color:#e9e9e9;">
-      <th style="width: 5px;"></th>
-      <th style="width: 5px;"></th>
-      <th colspan="3">${folder-name}</th>
-      <th colspan="4"></th>
-      <th colspan="5"></th>
       <th style="text-align: right;">${add-button}</th>
     </tr>
   </message>
@@ -84,8 +71,6 @@
       <th style="width: 5px;"></th>
       <th style="width: 5px;"></th>
       <th colspan="3">${file-name}</th>
-      <th colspan="4"></th>
-      <th colspan="5"></th>
       <th style="text-align: right;">${add-button}</th>
     </tr>
   </message>
@@ -106,19 +91,6 @@
       <td height="42px" style="padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
       <td style="padding-top:10px;">${nb}</td>
       <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
-      <td colspan="4" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${description}</td>
-      <td colspan="5" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><a href="${url}">${url-truncated}</a></td>
-      <td style="text-align: right;">${buttons}</td>
-    </tr>
-  </message>
-
-  <message id="content-list-elt-folder-mobile">
-    <tr class="hc-cursor-pointer">
-      <td height="42px" style="padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
-      <td style="padding-top:10px;">${nb}</td>
-      <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
-      <td colspan="4"></td>
-      <td colspan="5"></td>
       <td style="text-align: right;">${buttons}</td>
     </tr>
   </message>
