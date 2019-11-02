@@ -2575,12 +2575,101 @@
         </html>
       </folder>
       <folder name="Le mariage" id="le-mariage" nb="4">
+        <html name="Comment choisir son texte de mariage ?" id="comment-choisir-son-texte-de-mariage" nb="3">
+          <tests>
+            <test input="Comment choisir ses lectures de mariage ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQZ5mEAiifA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Tb 8,5-10&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 2,10-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,13-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 2,10-11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 5,21-25&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 1,27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 13,4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-choisir-son-texte-de-mariage&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Comment choisir ses lectures de mariage ?</triggers>
+          <references>
+            <bible book="Tob" chapter="8" verseBegin="5" verseEnd="10"/>
+            <bible book="Song" chapter="2" verseBegin="10" verseEnd="16"/>
+            <bible book="Mt" chapter="5" verseBegin="13" verseEnd="16"/>
+            <bible book="Jn" chapter="2" verseBegin="10" verseEnd="11"/>
+            <bible book="Eph" chapter="5" verseBegin="21" verseEnd="25"/>
+            <bible book="Gen" chapter="1" verseBegin="27"/>
+            <bible book="1 Cor" chapter="13" verseBegin="4"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQZ5mEAiifA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Comment se passe la procédure en nullité de mariage ?" id="comment-se-passe-la-procedure-en-nullite-de-mariage" nb="4">
+          <tests>
+            <test input="Comment se passe la procédure en nullité de mariage ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mAbjLDPpGG8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 84,11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-se-passe-la-procedure-en-nullite-de-mariage&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Comment se passe la procédure en nullité de mariage ?</triggers>
+          <references>
+            <bible book="Ps" chapter="84" verseBegin="11"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mAbjLDPpGG8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="La validité et la nullité du mariage, qu’est ce que c’est ?" id="la-validite-et-la-nullite-du-mariage-qu-est-ce-que-c-est" nb="4">
+          <tests>
+            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="(&#9;Qu&apos;est-ce que c&apos;est la validité ?&#9;AND&#9;Quelle est la nullité du mariage ?&#9;)|otherAnswer-&gt;|Je ne sais pas ce que c&apos;est mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>La validité et la nullité du mariage, qu’est ce que c’est ?</triggers>
+          <references>
+            <bible book="Gen" chapter="2" verseBegin="24"/>
+            <bible book="Mt" chapter="19" verseBegin="6"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hl2Nq0YlQxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Les différentes étapes de la célébration du mariage" id="les-differentes-etapes-de-la-celebration-du-mariage" nb="5">
+          <tests>
+            <test input="Les différentes étapes de la célébration du mariage" output="Quelles sont les différentes étapes de la célébration du mariage ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z72_Y8AryCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2,18&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-differentes-etapes-de-la-celebration-du-mariage&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>Les différentes étapes de la célébration du mariage</triggers>
+          <references>
+            <bible book="Gen" chapter="2" verseBegin="18"/>
+            <bible book="Gen" chapter="2" verseBegin="24"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z72_Y8AryCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="L’Eglise a t elle un problème avec le sexe ?" id="l-eglise-a-t-elle-un-probleme-avec-le-sexe" nb="2">
+          <tests>
+            <test input="L’Eglise a t elle un problème avec le sexe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rHGbnJTjur4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,27-31&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-eglise-a-t-elle-un-probleme-avec-le-sexe&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>L’Eglise a t elle un problème avec le sexe ?</triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="27" verseEnd="31"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rHGbnJTjur4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <html name="Pourquoi le mariage est-il un sacrement ?" id="pourquoi-le-mariage-est-il-un-sacrement" nb="1">
+          <tests>
+            <test input="Pourquoi le mariage est-il un sacrement ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HObpm9zSBn8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ep 5,21-30&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-le-mariage-est-il-un-sacrement&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
           <triggers>Pourquoi le mariage est-il un sacrement ?</triggers>
+          <references>
+            <bible book="Eph" chapter="5" verseBegin="21" verseEnd="30"/>
+          </references>
           <sourceId>theodom</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HObpm9zSBn8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
+        <html name="Que dit la Bible sur le couple ?" id="que-dit-la-bible-sur-le-couple" nb="3">
+          <tests>
+            <test input="Que dit la Bible sur le couple ?" output="La Bible dit qui est Dieu, notre histoire, la souffrance qui est présent dans notre coeur et notre soif de vivre et d&apos;être heureux sur le couple.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m3lr-QFOqrc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-bible-raconte&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,26-27&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Os 1,2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Os 2,21-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Tb 3,16-17&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Tb 8,4-8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 2,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 4,7-30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 1,2-4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;que-dit-la-bible-sur-le-couple&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>Que dit la Bible sur le couple ?</triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="26" verseEnd="27"/>
+            <bible book="Hos" chapter="1" verseBegin="2"/>
+            <bible book="Hos" chapter="2" verseBegin="21" verseEnd="22"/>
+            <bible book="Tob" chapter="3" verseBegin="16" verseEnd="17"/>
+            <bible book="Tob" chapter="8" verseBegin="4" verseEnd="8"/>
+            <bible book="Jn" chapter="2" verseBegin="1" verseEnd="11"/>
+            <bible book="Jn" chapter="4" verseBegin="7" verseEnd="30"/>
+            <bible book="Mt" chapter="19" verseBegin="9"/>
+            <bible book="Song" chapter="1" verseBegin="2" verseEnd="4"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m3lr-QFOqrc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
       </folder>
+      <folder name="Sciences et foi" id="sciences-et-foi" nb="5"/>
       <folder name="Tout (ou presque !) sur l&apos;Esprit-Saint" id="tout-ou-presque-sur-l-esprit-saint" nb="2">
         <html name="Comment parler de l&apos;Esprit-Saint ?" id="comment-parler-de-l-esprit-saint" nb="1">
           <tests>
