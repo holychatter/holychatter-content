@@ -28,10 +28,7 @@
       <table>
         <tbody>
           <tr>
-            <td style="padding-top:7px; padding-left: 21px;">${left-container}</td>
-            <td style="text-align:center; width: 30%;"></td>
-            <td style="text-align:center; width: 40%; padding-top:10px; display: table-cell; vertical-align: middle;">${centered-container}</td>
-            <td style="text-align:center; width: 30%;"></td>
+            <td style="text-align:center; width: 100%;"></td>
             <td>${right-container-5}</td>
             <td>${right-container-4}</td>
             <td>${right-container-3}</td>
@@ -41,16 +38,14 @@
         </tbody>
       </table>
     </div>
+    <div style="position: fixed; left: 50%; transform: translateX(-50%); top:7px;">${centered-container}</div>
   </message>
   <message id="body-header-mobile">
     <div class="hc-header">
       <table>
         <tbody>
           <tr>
-            <td style="padding-top:7px; padding-left: 21px;">${left-container}</td>
-            <td style="text-align:center; width: 10%;"></td>
-            <td style="text-align:center; width: 80%; padding-top:10px; display: table-cell; vertical-align: middle;">${centered-container}</td>
-            <td style="text-align:center; width: 10%;"></td>
+            <td style="text-align:center; width: 100%;"></td>
             <td>${right-container-5}</td>
             <td>${right-container-4}</td>
             <td>${right-container-3}</td>
@@ -60,6 +55,7 @@
         </tbody>
       </table>
     </div>
+    <div style="position: fixed; left: 50%; transform: translateX(-50%); top:7px;">${centered-container}</div>
   </message>
 </messages>
 
