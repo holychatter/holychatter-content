@@ -1,6 +1,6 @@
 :root {
   --hc-var-right-space: 20px;
-  --hc-breadcrumb-height: 115px;
+  --hc-breadcrumb-height: 100px;
   --hc-title-height: 55px;
   --hc-folder-menu-width: 270px;
 }
@@ -16,7 +16,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: red;
-  font-size: 23px;
+  font-size: 25px;
   text-overflow: clip;
   overflow: hidden;
   white-space: nowrap;
@@ -353,6 +353,13 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 12px 12px;
+}
+
+.hc-search-btn {
+  background-image:url('/resources/holychatter/images/search.png');
+  background-size: 28px 19px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .hc-send-btn {
