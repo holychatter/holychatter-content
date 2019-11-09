@@ -202,5 +202,20 @@
     </tr>
   </message>
 
+
+  <message id="content-header-list-elt-folder">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${name}</th>
+    </tr>
+  </message>
+
+  <message id="content-list-elt-folder">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"><img border="0" src="${url-icon}"  height="18px" /></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
+    </tr>
+  </message>
+
 </messages>
 
