@@ -460,7 +460,7 @@
     </folder>
   </folder>
   <folder name="Découverte" id="initiation-a-la-vie-chretienne">
-    <folder name="Parcours Alpha" id="parcours-alpha" defaultSourceId="parcours-alpha">
+    <folder name="Rencontrer des chrétiens" id="parcours-alpha">
       <html name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
         <tests>
           <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -481,7 +481,9 @@
         <sourceId>parcours-alpha</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <folder name="Série Alpha" id="serie-alpha">
+    </folder>
+    <folder name="Sens de la vie" id="questions-basiques-sur-la-foi">
+      <folder name="Série Alpha" id="serie-alpha-2">
         <html name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="3">
           <tests>
             <test input="Pourquoi Jésus est-il mort ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 3,23&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 2,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 2,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;pourquoi-jesus-est-il-mort&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -3122,43 +3124,82 @@
       </folder>
     </folder>
     <folder name="Personnels" id="personnels">
-      <html name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari - Marie-Andrée Rinck" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari">
-        <tests>
-          <test input="Y a-t-il une vie après la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
-          <test input="Nos défunts sont-ils vivants ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
-          <test input="Je suis athé." output="Ok, tu es athé.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
-        </tests>
-        <triggers>Y a-t-il une vie après la vie ?&#10;Nos défunts sont-ils vivants ?&#10;Je suis athé.</triggers>
-        <sourceId>rassemblement-a-son-image</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="La foi et l&apos;espérance désir de Dieu - P. René Luc" id="pere-rene-luc-ne-de-pere-inconnu-eleve-par-un-truand">
-        <tests>
-          <test input="Qui est le Père René-Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;pere-rene-luc-ne-de-pere-inconnu-eleve-par-un-truand&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>Qui est le Père René-Luc ?</triggers>
-        <sourceId>cn-media</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="Pourquoi être chrétien ? - Charlotte d&apos;Ornellas" id="pourquoi-etre-chretien-charlotte-d-ornellas">
-        <tests>
-          <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;23&quot; /&gt;"/>
-        </tests>
-        <triggers>Pourquoi être chrétien ?</triggers>
-        <sourceId>sos-chretiens-d-orient</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie">
-        <tests>
-          <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie&quot; textlength=&quot;36&quot; /&gt;"/>
-        </tests>
-        <triggers>Quel est le sens de ma vie ?</triggers>
-        <references>
-          <bible book="Jn" chapter="8" verseBegin="12"/>
-        </references>
-        <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
+      <folder name="Ancien athée" id="ancien-athe">
+        <html name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari - Marie-Andrée Rinck" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari">
+          <tests>
+            <test input="Y a-t-il une vie après la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
+            <test input="Nos défunts sont-ils vivants ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
+            <test input="Je suis athé." output="Ok, tu es athé.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
+          </tests>
+          <triggers>Y a-t-il une vie après la vie ?&#10;Nos défunts sont-ils vivants ?&#10;Je suis athé.</triggers>
+          <sourceId>rassemblement-a-son-image</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Yvon Fillebeen, ancien athée devenu prêtre" id="yvon-fillebeen-ancien-athee-devenu-pretre">
+          <tests>
+            <test input="Qui est Yvon Fillebeen ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;yvon-fillebeen-ancien-athee-devenu-pretre&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="Montre-moi un athée qui devient prêtre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;yvon-fillebeen-ancien-athee-devenu-pretre&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Yvon Fillebeen ?&#10;Montre-moi un athée qui devient prêtre</triggers>
+          <sourceId>le-jour-du-seigneur</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Laïc" id="lac">
+        <html name="Pourquoi être chrétien ? - Charlotte d&apos;Ornellas" id="pourquoi-etre-chretien-charlotte-d-ornellas">
+          <tests>
+            <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;23&quot; /&gt;"/>
+          </tests>
+          <triggers>Pourquoi être chrétien ?</triggers>
+          <sourceId>sos-chretiens-d-orient</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Prêtre" id="pretre">
+        <html name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
+          <tests>
+            <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,40&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
+            <test input="Et si on décidait d&apos;être heureux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,40&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
+            <test input="Le Christ compte sur toi !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,40&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est le Père Didier Noblot ?&#10;Et si on décidait d&apos;être heureux ?&#10;Le Christ compte sur toi !</triggers>
+          <references>
+            <bible book="Mt" chapter="25" verseBegin="40"/>
+            <bible book="Mt" chapter="19" verseBegin="21"/>
+          </references>
+          <sourceId>jeunes-cathos</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="La foi et l&apos;espérance désir de Dieu - P. René Luc" id="pere-rene-luc-ne-de-pere-inconnu-eleve-par-un-truand">
+          <tests>
+            <test input="Qui est le Père René-Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;pere-rene-luc-ne-de-pere-inconnu-eleve-par-un-truand&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est le Père René-Luc ?</triggers>
+          <sourceId>cn-media</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Père Nicolas Buttet, Fondateur de la Fraternité Eucharistein" id="pere-nicolas-buttet-fondateur-de-la-fraternite-eucharistein">
+          <tests>
+            <test input="Qui est le Père Nicolas Buttet ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;pere-nicolas-buttet-fondateur-de-la-fraternite-eucharistein&quot; textlength=&quot;3&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est le Père Nicolas Buttet ?</triggers>
+          <sourceId>kto</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Séminariste" id="seminariste">
+        <html name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie">
+          <tests>
+            <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Quel est le sens de ma vie ?</triggers>
+          <references>
+            <bible book="Jn" chapter="8" verseBegin="12"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
     </folder>
   </folder>
 </contentRoot>
