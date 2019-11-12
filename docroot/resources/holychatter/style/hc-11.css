@@ -1,6 +1,5 @@
 :root {
   --hc-var-right-space: 20px;
-  --hc-breadcrumb-height: 100px;
   --hc-title-height: 55px;
   --hc-folder-menu-width: 240px;
 }
@@ -16,7 +15,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: red;
-  font-size: 25px;
+  font-size: var(--hc-h1-font-size);
   text-overflow: clip;
   overflow: hidden;
   white-space: nowrap;
