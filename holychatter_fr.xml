@@ -2698,6 +2698,26 @@
           <sourceId>theodom</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q4STWD2A3cU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
+        <html name="L&apos;âme, à quoi ça sert ?" id="l-ame-a-quoi-ca-sert" nb="3">
+          <tests>
+            <test input="L&apos;âme, à quoi ça sert ?" output="Quelle est la âme que ça sert ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xQgkXBjaTgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2,7&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-ame-a-quoi-ca-sert&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>L&apos;âme, à quoi ça sert ?</triggers>
+          <references>
+            <bible book="Gen" chapter="2" verseBegin="7"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xQgkXBjaTgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Peut-on croire aux miracles ?" id="peut-on-croire-aux-miracles" nb="4">
+          <tests>
+            <test input="Peut-on croire aux miracles ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBtRcz61xuM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-croire-aux-miracles&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Que penser du Da Vinci Code ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBtRcz61xuM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-croire-aux-miracles&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Peut-on croire aux miracles ?&#10;Que penser du Da Vinci Code ?</triggers>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBtRcz61xuM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <html name="Science et bible que nous apprennent-elles sur Dieu ?" id="science-et-bible-que-nous-apprennent-elles-sur-dieu" nb="1">
           <tests>
             <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
