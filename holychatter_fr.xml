@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
   <folder name="Bible" id="bible">
-    <folder name="AELF" id="aelf" defaultSourceId="aelf">
-      <folder name="Lectures" id="lectures">
-        <api name="Deuxième lecture" id="deuxieme-lecture">
-          <sourceId>aelf</sourceId>
-          <apiId>second_reading</apiId>
-        </api>
-        <api name="Evangile" id="evangile">
-          <triggers>Quel est l&apos;Évangile du jour ?&#10;Quel est l&apos;Évangile de ce dimanche ?</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <sourceId>aelf</sourceId>
-          <apiId>holy_gospel</apiId>
-        </api>
-        <api name="Première lecture" id="premiere-lecture">
-          <triggers>Quel est la première lecture du jour ?</triggers>
-          <sourceId>aelf</sourceId>
-          <apiId>first_reading</apiId>
-        </api>
-        <api name="Psaume" id="psaume">
-          <sourceId>aelf</sourceId>
-          <apiId>psalm</apiId>
-        </api>
-        <conversation_flow name="Suggérer de lire l&apos;évangile" id="suggerer-de-lire-l-evangile">
-          <tests>
-            <test input="Je connais bien l&apos;Eglise Catholique." output="Veux-tu lire l&apos;évangile du jour ?"/>
-          </tests>
-          <triggers>Je connais bien l&apos;Eglise Catholique.</triggers>
-          <reply>Veux-tu lire l&apos;évangile du jour ?</reply>
-        </conversation_flow>
-      </folder>
-      <folder name="Présentation" id="presentation">
-        <html name="AELF" id="aelf">
-          <tests>
-            <test input="c&apos;est quoi l&apos;AELF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;AELF&quot; resourceid=&quot;aelf&quot; textlength=&quot;4&quot; /&gt;"/>
-          </tests>
-          <description>C&apos;est l&apos;AELF</description>
-          <sourceId>aelf</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-    </folder>
     <folder name="Dieu" id="dieu">
       <information name="Dieu a décidé de descendre sur terre pour..." id="dieu-a-decide-de-descendre-sur-terre-pour">
         <references>
@@ -315,24 +275,6 @@
         <sourceId>comprendre-dieu</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-    </folder>
-    <folder name="L&apos;Évangile au Quotidien" id="l-evangile-au-quotidien" defaultSourceId="l-evangile-au-quotidien">
-      <folder name="Evangile" id="evangile-2">
-        <api name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
-          <sourceId>l-evangile-au-quotidien</sourceId>
-          <apiId>holy_gospel_comment</apiId>
-        </api>
-      </folder>
-      <folder name="Présentation" id="presentation-2">
-        <html name="L&apos;Évangile au Quotidien" id="l-evangile-au-quotidien">
-          <tests>
-            <test input="C&apos;est quoi &quot;L&apos;Évangile au Quotidien&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;l-evangile-au-quotidien&quot; textlength=&quot;24&quot; /&gt;"/>
-          </tests>
-          <description>C&apos;est &quot;L&apos;Évangile au Quotidien&quot;.</description>
-          <sourceId>l-evangile-au-quotidien</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
     </folder>
     <information name="La Bible donne le moyen d&apos;accéder au bonheur" id="la-bible-donne-le-moyen-d-acceder-au-bonheur">
       <text>La Bible donne le moyen d&apos;accéder au bonheur en suivant Jésus.</text>
@@ -624,6 +566,54 @@
         <description>C&apos;est une application chrétienne.</description>
         <url>http://www.appli-laquete.fr/</url>
       </url>
+      <folder name="Lectures" id="lectures-2">
+        <html name="AELF" id="aelf">
+          <tests>
+            <test input="c&apos;est quoi l&apos;AELF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;AELF&quot; resourceid=&quot;aelf&quot; textlength=&quot;4&quot; /&gt;"/>
+          </tests>
+          <description>C&apos;est l&apos;AELF</description>
+          <sourceId>aelf</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <api name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
+          <sourceId>l-evangile-au-quotidien</sourceId>
+          <apiId>holy_gospel_comment</apiId>
+        </api>
+        <api name="Deuxième lecture" id="deuxieme-lecture">
+          <sourceId>aelf</sourceId>
+          <apiId>second_reading</apiId>
+        </api>
+        <api name="Evangile" id="evangile">
+          <triggers>Quel est l&apos;Évangile du jour ?&#10;Quel est l&apos;Évangile de ce dimanche ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <sourceId>aelf</sourceId>
+          <apiId>holy_gospel</apiId>
+        </api>
+        <html name="L&apos;Évangile au Quotidien" id="l-evangile-au-quotidien">
+          <tests>
+            <test input="C&apos;est quoi &quot;L&apos;Évangile au Quotidien&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;l-evangile-au-quotidien&quot; textlength=&quot;24&quot; /&gt;"/>
+          </tests>
+          <description>C&apos;est &quot;L&apos;Évangile au Quotidien&quot;.</description>
+          <sourceId>l-evangile-au-quotidien</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <api name="Première lecture" id="premiere-lecture">
+          <triggers>Quel est la première lecture du jour ?</triggers>
+          <sourceId>aelf</sourceId>
+          <apiId>first_reading</apiId>
+        </api>
+        <api name="Psaume" id="psaume">
+          <sourceId>aelf</sourceId>
+          <apiId>psalm</apiId>
+        </api>
+        <conversation_flow name="Suggérer de lire l&apos;évangile" id="suggerer-de-lire-l-evangile">
+          <tests>
+            <test input="Je connais bien l&apos;Eglise Catholique." output="Veux-tu lire l&apos;évangile du jour ?"/>
+          </tests>
+          <triggers>Je connais bien l&apos;Eglise Catholique.</triggers>
+          <reply>Veux-tu lire l&apos;évangile du jour ?</reply>
+        </conversation_flow>
+      </folder>
     </folder>
     <folder name="Questions" id="questions">
       <information name="A quoi sert l&apos;Eglise ?" id="a-quoi-sert-l-eglise">
