@@ -82,9 +82,14 @@
             <bible book="1 Jn" chapter="4" verseBegin="8"/>
             <ccc verseBegin="218" verseEnd="221"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Dieu est amour.</text>
         </information>
         <information name="Dieu est bon" id="dieu-est-bon">
+          <references>
+            <bible book="Mk" chapter="10" verseBegin="8"/>
+          </references>
+          <sourceId>bible</sourceId>
           <text>Dieu est bon</text>
         </information>
         <information name="Dieu est omniscient" id="dieu-est-omniscient">
@@ -92,8 +97,13 @@
             <test input="Dieu est omniscient" output="Oui, je sais que Dieu est omniscient." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jb 34,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;dieu-est-omniscient&quot; textlength=&quot;7&quot; /&gt;"/>
           </tests>
           <references>
+            <bible book="Ps" chapter="138" verseBegin="4"/>
+            <bible book="Ps" chapter="146" verseBegin="5"/>
             <bible book="Job" chapter="34" verseBegin="21"/>
+            <bible book="Heb" chapter="4" verseBegin="13"/>
+            <bible book="1 Jn" chapter="3" verseBegin="20"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Dieu est omniscient.</text>
         </information>
         <information name="Dieu est éternel" id="dieu-est-eternel">
@@ -101,8 +111,10 @@
             <test input="Dieu est éternel" output="Oui, je sais que Dieu est éternel." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jb 36,26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;dieu-est-eternel&quot; textlength=&quot;7&quot; /&gt;"/>
           </tests>
           <references>
+            <bible book="Deut" chapter="32" verseBegin="40"/>
             <bible book="Job" chapter="36" verseBegin="26"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Dieu est éternel.</text>
         </information>
         <information name="Dieu existe" id="dieu-existe">
@@ -137,6 +149,7 @@
           <references>
             <bible book="Rom" chapter="9" verseBegin="3" verseEnd="13"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Dieu n&apos;est pas infidèle.</text>
         </information>
         <information name="Dieu n&apos;est pas injuste" id="dieu-n-est-pas-injuste">
@@ -147,9 +160,17 @@
           <references>
             <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Dieu n&apos;est pas injuste.</text>
         </information>
         <information name="Dieu s&apos;est fait homme" id="dieu-s-est-fait-homme">
+          <references>
+            <bible book="Jn" chapter="1" verseBegin="14"/>
+            <bible book="1 Jn" chapter="1" verseBegin="1" verseEnd="2"/>
+            <bible book="Lk" chapter="23" verseBegin="41"/>
+            <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+          </references>
+          <sourceId>bible</sourceId>
           <text>Dieu s&apos;est fait homme pour tout partager de notre condition humaine sauf le péché.&#10;Dieu a décidé de descendre sur terre pour prendre sur lui notre malédiction par amour pour nous.&#10;</text>
         </information>
         <html name="Démonstration de l&apos;existence de Dieu et raisons de croire chrétiennes " id="demonstration-de-l-existence-de-dieu-et-raisons-de-croire-chretiennes">
@@ -163,6 +184,7 @@
             <bible book="Is" chapter="46" verseBegin="9"/>
             <bible book="1 Cor" chapter="8" verseBegin="4"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Il n&apos;y a qu&apos;un Dieu.</text>
         </information>
         <information name="La manière de faire de Dieu..." id="la-maniere-de-faire-de-dieu">
@@ -192,10 +214,39 @@
             <test input="Où est Dieu ?" output="Dieu est au ciel, sur terre et en tout lieu.|otherAnswer-&gt;|Dieu est à lieu en tout et sur terre." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;7&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;1Tm 2,1-4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,15-17&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14,5-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-sommes-nous-sur-terre&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>Où est Dieu ?</triggers>
+          <references>
+            <bible book="Ps" chapter="138" verseBegin="7" verseEnd="11"/>
+          </references>
+          <sourceId>bible</sourceId>
           <text>Dieu est au ciel, sur terre et en tout lieu.</text>
         </information>
+        <html name="Qui est Dieu?" id="qui-est-dieu-2">
+          <tests>
+            <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Jésus est amour ?" output="Oui, Jésus est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <description>Dieu est amour.</description>
+          <references>
+            <bible book="1 Jn" chapter="4" verseBegin="7" verseEnd="12"/>
+            <bible book="Is" chapter="49" verseBegin="15" verseEnd="16"/>
+            <bible book="Jn" chapter="6" verseBegin="35" verseEnd="37"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j_u-QbcWxC0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
       </folder>
       <folder name="Le fils" id="jesus" nb="1">
+        <html name="100% Dieu, 100% homme (l&apos;incarnation)" id="dieu-homme-l-incarnation">
+          <tests>
+            <test input="C&apos;est quoi l&apos;incarnation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0mgV-IO7ixc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2Co 5,14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;dieu-homme-l-incarnation&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>C&apos;est quoi l&apos;incarnation ?</triggers>
+          <references>
+            <bible book="2 Cor" chapter="5" verseBegin="14" verseEnd="15"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0mgV-IO7ixc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <information name="Dieu est devenu homme" id="dieu-est-devenu-homme">
           <tests>
             <test input="Dieu est-il devenu homme" output="Dieu est devenu un homme pour partager tout ce qui concerne notre condition humaine à l&apos;exception du péché." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 9,6-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 2,7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 9,5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Tt 2,13&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 4,15&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-devenu-homme&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -236,10 +287,26 @@
           <sourceId>batir-sur-le-roc</sourceId>
           <text>&#10;_Jésus est vrai Dieu et vrai homme.</text>
         </information>
+        <html name="Jésus est-il Dieu ou le fils de Dieu ?" id="jesus-est-il-dieu-ou-le-fils-de-dieu">
+          <tests>
+            <test input="La trinité" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,51-58&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;jesus-est-il-dieu-ou-le-fils-de-dieu&quot; textlength=&quot;36&quot; /&gt;"/>
+            <test input="Pourquoi Jésus est Dieu et le fils de Dieu ?" output="Je ne sais pas pourquoi Jésus est Dieu et le fils de Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>C&apos;est quoi la trinité ?&#10;Jésus est-il Dieu ou le fils de Dieu ?&#10;Pourquoi Jésus est Dieu et le fils de Dieu ?</triggers>
+          <references>
+            <bible book="Jn" chapter="8" verseBegin="51" verseEnd="58"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <information name="Jésus est..." id="jesus-est">
           <text>Jésus est la réponse à toutes nos questions.&#10;Jésus est l&apos;assouvissement de tous nos désirs.&#10;</text>
         </information>
         <information name="Jésus et la croix" id="jesus-et-la-croix">
+          <references>
+            <bible book="1 Pet" chapter="2" verseBegin="24"/>
+          </references>
+          <sourceId>bible</sourceId>
           <text>Jésus va jusqu&apos;à mourir sur la croix pour nous délivrer du péché et de la mort.</text>
         </information>
         <information name="Jésus nous aime" id="jesus-nous-aime">
@@ -256,9 +323,14 @@
             <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
             <bible book="Prov" chapter="8" verseBegin="17"/>
           </references>
+          <sourceId>bible</sourceId>
           <text>Jésus nous aime gratuitement.&#10;L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
         </information>
         <information name="Jéus et les prophéties" id="jeus-et-les-propheties">
+          <references>
+            <site book="https://www.bible-ouverte.ch/faq/faq-theme/qr-dieu-jesus-le-saint-esprit/2083-reponse-91.html"/>
+          </references>
+          <sourceId>bible-ouverte</sourceId>
           <text>Jésus accomplit toutes les prophéties de l&apos;Ancien Testament.</text>
         </information>
         <html name="La Vie de Jésus (1979)" id="la-vie-de-jesus">
@@ -330,6 +402,7 @@
           <references>
             <bible book="1 Cor" chapter="12"/>
           </references>
+          <sourceId>hosanna-lcsc</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XLtcASarxqU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <conversation_flow name="suggestion pour connaître l&apos;Esprit Saint" id="suggestion-pour-connaitre-l-esprit-saint">
@@ -835,6 +908,14 @@
         <sourceId>bible</sourceId>
         <text>La Bible raconte qui est Dieu.&#10;La Bible raconte notre histoire.&#10;La Bible raconte la souffrance qui est présente dans notre coeur.&#10;La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
       </information>
+      <html name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="que-faire-quand-on-s-ennuie-partie-ii-la-bible">
+        <triggers>Que faire quand on s&apos;ennuie ?</triggers>
+        <references>
+          <bible book="Jn" chapter="1" verseBegin="1" verseEnd="15"/>
+        </references>
+        <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z6Ti_ZTGsAY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
     </folder>
   </folder>
   <folder name="Découverte" id="initiation-a-la-vie-chretienne">
@@ -938,10 +1019,15 @@
       </html>
     </folder>
     <folder name="Messe" id="messe">
-      <url name="La Quête" id="la-quete">
-        <description>C&apos;est une application chrétienne.</description>
-        <url>http://www.appli-laquete.fr/</url>
-      </url>
+      <html name="Comment faire son offrande au bon moment et avec un montant réfléchi ?" id="comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi">
+        <tests>
+          <test input="Comment faire son offrande au bon moment ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
+          <test input="Comment faire son offrande avec un montant réfléchi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
+        </tests>
+        <triggers>Comment faire son offrande au bon moment ?&#10;Comment faire son offrande avec un montant réfléchi ?</triggers>
+        <sourceId>appli-la-quete</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
       <folder name="Lectures" id="lectures-2">
         <html name="AELF" id="aelf">
           <tests>
@@ -1411,7 +1497,11 @@
           <tests>
             <test input="Quand Jean Marie Vianney fut appelé à l&apos;armée ?" output="Jean Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;7&quot; /&gt;"/>
           </tests>
-          <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean-Marie Vianney fit sa première communion dans le village voisin d&apos;Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.&#10;Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
+          <references>
+            <site book="https://fr.wikipedia.org/wiki/Jean-Marie_Vianney"/>
+          </references>
+          <sourceId>wikipedia</sourceId>
+          <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean-Marie Vianney fit sa première communion à Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.&#10;Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
         </information>
       </folder>
       <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe">
@@ -2621,28 +2711,7 @@
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VVF71zElo7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
         </folder>
-        <folder name="Lire la Bilbe" id="lire-la-bilbe">
-          <html name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="que-faire-quand-on-s-ennuie-partie-ii-la-bible">
-            <triggers>Que faire quand on s&apos;ennuie ?</triggers>
-            <references>
-              <bible book="Jn" chapter="1" verseBegin="1" verseEnd="15"/>
-            </references>
-            <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z6Ti_ZTGsAY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-        </folder>
         <folder name="Qui est Dieu ?" id="qui-est-dieu">
-          <html name="100% Dieu, 100% homme (l&apos;incarnation)" id="dieu-homme-l-incarnation">
-            <tests>
-              <test input="C&apos;est quoi l&apos;incarnation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0mgV-IO7ixc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2Co 5,14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;dieu-homme-l-incarnation&quot; textlength=&quot;36&quot; /&gt;"/>
-            </tests>
-            <triggers>C&apos;est quoi l&apos;incarnation ?</triggers>
-            <references>
-              <bible book="2 Cor" chapter="5" verseBegin="14" verseEnd="15"/>
-            </references>
-            <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0mgV-IO7ixc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
           <html name="Comment devenir immortel... en 8 minutes (passer de la mort à la vie éternelle)" id="comment-devenir-immortel-en-minutes-passer-de-la-mort-a-la-vie-eternelle">
             <tests>
               <test input="Comment devenir immortel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 30,15-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,21-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-devenir-immortel-en-minutes-passer-de-la-mort-a-la-vie-eternelle&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -2675,32 +2744,6 @@
             </references>
             <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6QniJES-vo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-          <html name="Jésus est-il Dieu ou le fils de Dieu ?" id="jesus-est-il-dieu-ou-le-fils-de-dieu">
-            <tests>
-              <test input="La trinité" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,51-58&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;jesus-est-il-dieu-ou-le-fils-de-dieu&quot; textlength=&quot;36&quot; /&gt;"/>
-              <test input="Pourquoi Jésus est Dieu et le fils de Dieu ?" output="Je ne sais pas pourquoi Jésus est Dieu et le fils de Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
-            </tests>
-            <triggers>C&apos;est quoi la trinité ?&#10;Jésus est-il Dieu ou le fils de Dieu ?&#10;Pourquoi Jésus est Dieu et le fils de Dieu ?</triggers>
-            <references>
-              <bible book="Jn" chapter="8" verseBegin="51" verseEnd="58"/>
-            </references>
-            <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X30POp-wxIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-          <html name="Qui est Dieu?" id="qui-est-dieu-2">
-            <tests>
-              <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
-              <test input="Jésus est amour ?" output="Oui, Jésus est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
-            </tests>
-            <description>Dieu est amour.</description>
-            <references>
-              <bible book="1 Jn" chapter="4" verseBegin="7" verseEnd="12"/>
-              <bible book="Is" chapter="49" verseBegin="15" verseEnd="16"/>
-              <bible book="Jn" chapter="6" verseBegin="35" verseEnd="37"/>
-            </references>
-            <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j_u-QbcWxC0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
         </folder>
       </folder>
@@ -3450,6 +3493,7 @@
           <test input="Comment méditer ses Mystères ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;prier-le-chapelet-les-mysteres-glorieux-de-la-priere-du-rosaire&quot; textlength=&quot;7&quot; /&gt;"/>
         </tests>
         <triggers>Comment réciter le chapelet ?&#10;Comment prier le Saint Rosaire ?&#10;Comment méditer ses Mystères ? </triggers>
+        <sourceId>christ-roi</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
