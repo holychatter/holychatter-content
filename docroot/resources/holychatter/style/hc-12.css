@@ -113,6 +113,12 @@ h1 {
   box-sizing: border-box;
 }
 
+.hc-aligned {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .hc-content-breadcrumb-container {
   position: fixed;
   height: var(--hc-breadcrumb-height);
