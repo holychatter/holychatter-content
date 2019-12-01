@@ -405,9 +405,6 @@
           <sourceId>hosanna-lcsc</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XLtcASarxqU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <conversation_flow name="suggestion pour connaître l&apos;Esprit Saint" id="suggestion-pour-connaitre-l-esprit-saint">
-          <reply>Veux tu connaître l&apos;Esprit Saint ?</reply>
-        </conversation_flow>
       </folder>
     </folder>
     <folder name="Nouveau Testament" id="nouveau-testament" nb="2">
@@ -920,7 +917,20 @@
   </folder>
   <folder name="Chatbots" id="chatbots">
     <chatbot name="La Défense" id="la-defense"/>
-    <chatbot name="Par défaut" id="par-defaut"/>
+    <chatbot name="Par défaut" id="par-defaut">
+      <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
+        <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
+      </conversation_flow>
+      <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien">
+        <reply>Es-tu chrétien ?</reply>
+      </conversation_flow>
+      <conversation_flow name="Suggestion pour voir le message chrétien" id="suggestion-pour-voir-le-message-chretien">
+        <reply>Veux-tu voir le message chrétien ?</reply>
+      </conversation_flow>
+      <conversation_flow name="suggestion pour connaître l&apos;Esprit Saint" id="suggestion-pour-connaitre-l-esprit-saint">
+        <reply>Veux tu connaître l&apos;Esprit Saint ?</reply>
+      </conversation_flow>
+    </chatbot>
     <chatbot name="martigues2019" id="martigues"/>
   </folder>
   <folder name="Découverte" id="initiation-a-la-vie-chretienne">
@@ -945,9 +955,6 @@
         <sourceId>webtele-ecdq</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <conversation_flow name="Suggestion pour voir le message chrétien" id="suggestion-pour-voir-le-message-chretien">
-        <reply>Veux-tu voir le message chrétien ?</reply>
-      </conversation_flow>
     </folder>
     <folder name="Rencontrer des chrétiens" id="parcours-alpha">
       <html name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
@@ -1107,9 +1114,6 @@
           <triggers>Bonjour</triggers>
           <reply>Bonjour</reply>
         </conversation_flow>
-        <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
-          <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
-        </conversation_flow>
         <information name="Mon nom" id="mon-nom">
           <tests>
             <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -1145,9 +1149,6 @@
         </tests>
         <triggers>Christ est ressuscité !</triggers>
         <reply>Il est vraiment ressuscité !</reply>
-      </conversation_flow>
-      <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien">
-        <reply>Es-tu chrétien ?</reply>
       </conversation_flow>
       <conversation_flow name="Que le Seigneur soit avec vous !" id="que-le-seigneur-soit-avec-vous">
         <tests>
