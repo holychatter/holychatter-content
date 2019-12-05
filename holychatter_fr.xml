@@ -525,6 +525,30 @@
               <text>&#10;_Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;</text>
             </information>
           </folder>
+          <folder name="La graine de moutarde" id="la-graine-de-moutarde">
+            <html name="Film d&apos;animation LA BIBLE : la parabole de la graine de moutarde" id="film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde">
+              <tests>
+                <test input="Montre-moi la parabole de la graine de moutarde." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;15&quot; /&gt;"/>
+              </tests>
+              <triggers>Montre-moi la parabole de la graine de moutarde.</triggers>
+              <references>
+                <bible book="Mt" chapter="13" verseBegin="31" verseEnd="32"/>
+              </references>
+              <sourceId>chantliturgique</sourceId>
+              <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+            </html>
+            <information name="Lire la parabole de la graine de moutarde" id="lire-la-parabole-de-la-graine-de-moutarde">
+              <tests>
+                <test input="Lire la parabole de la graine de moutarde." output="Tu peux lire la parabole de la graine de moutarde grâce aux versets de la Bible ci-dessous." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;5&quot; /&gt;"/>
+              </tests>
+              <triggers>Lire la parabole de la graine de moutarde.</triggers>
+              <references>
+                <bible book="Mt" chapter="13" verseBegin="31" verseEnd="32"/>
+              </references>
+              <sourceId>bible</sourceId>
+              <text>Tu peux lire la parabole de la graine de moutarde grâce aux versets de la Bible ci-dessous.</text>
+            </information>
+          </folder>
           <folder name="La maison bâtie sur le roc" id="la-maison-batie-sur-le-roc">
             <html name="Film d&apos;animation LA BIBLE : l&apos;homme qui a bâti sa maison sur le roc" id="film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc">
               <triggers>Montre-moi la parabole de la maison bâtie sur le roc.</triggers>
@@ -840,6 +864,31 @@
               <sourceId>centre-d-accueil-suisse</sourceId>
               <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
             </html>
+          </folder>
+          <folder name="Les ouvriers de la onzième heure" id="les-ouvriers-de-la-onzieme-heure">
+            <html name="La parabole des ouvriers, évangile de Matthieu 20: 1-16" id="la-parabole-des-ouvriers-evangile-de-matthieu">
+              <tests>
+                <test input="Montre-moi la parabole des ouvriers de la onzième heure." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
+                <test input="Montre-moi la parabole de la vigne et du vigneron." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
+              </tests>
+              <triggers>Montre-moi la parabole des ouvriers de la onzième heure.&#10;Montre-moi la parabole de la vigne et du vigneron.</triggers>
+              <references>
+                <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
+              </references>
+              <sourceId>gilles-rossel</sourceId>
+              <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+            </html>
+            <information name="Lire la parabole des ouvriers de la onzième heure" id="lire-la-parabole-des-ouvriers-de-la-onzieme-heure">
+              <tests>
+                <test input="Lire la parabole des ouvriers de la onzième heure." output="Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-des-ouvriers-de-la-onzieme-heure&quot; textlength=&quot;5&quot; /&gt;"/>
+              </tests>
+              <triggers>Lire la parabole des ouvriers de la onzième heure.</triggers>
+              <references>
+                <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
+              </references>
+              <sourceId>bible</sourceId>
+              <text>Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous.</text>
+            </information>
           </folder>
           <folder name="À propos" id="a-propos-2">
             <html name="Les paraboles" id="les-paraboles">
@@ -3693,6 +3742,9 @@
       <folder name="Laïc" id="lac">
         <html name="Ma grande carrière ne me rendait pas heureux - Témoignage de Jean-Marc Potdevin" id="ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin">
           <triggers>Quel est le témoignage de Jean-Marc Potdevin ?</triggers>
+          <references>
+            <bible book="Phil" chapter="4" verseBegin="4" verseEnd="6"/>
+          </references>
           <sourceId>communaute-de-l-emmanuel</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
