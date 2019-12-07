@@ -965,8 +965,8 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="La Défense" id="la-defense"/>
-    <chatbot name="Par défaut" id="par-defaut">
+    <chatbot name="La Défense" id="la-defense" starters="Bienvenue à La Défense !"/>
+    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré">
       <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
         <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
       </conversation_flow>
