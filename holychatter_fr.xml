@@ -369,7 +369,7 @@
             <bible book="Jn" chapter="10" verseBegin="30"/>
           </references>
           <sourceId>bible</sourceId>
-          <text>Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ?</text>
+          <text>Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité !&#10;_Aurait-il ressuscité un menteur ?&#10;</text>
         </information>
         <html name="Qui est Jésus ?" id="qui-est-jesus">
           <tests>
@@ -965,7 +965,11 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="La Défense" id="la-defense" starters="Bienvenue à La Défense !"/>
+    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starters="Bienvenue à La Défense !" starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
+      <conversation_flow name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense">
+        <reply>Es-tu nouveau à La Défense ?</reply>
+      </conversation_flow>
+    </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré">
       <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
         <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
