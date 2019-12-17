@@ -359,7 +359,7 @@
         </information>
         <information name="Pourquoi Jésus est-il Dieu" id="pourquoi-jesus-est-il-dieu">
           <tests>
-            <test input="Pourquoi Jésus est-il Dieu ?" output="Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ?" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 26,63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,61-62&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,30&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;pourquoi-jesus-est-il-dieu&quot; textlength=&quot;5&quot; /&gt;"/>
+            <test input="Pourquoi Jésus est-il Dieu ?" output="Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! Aurait-il ressuscité un menteur ? " outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 26,63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,61-62&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,30&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;pourquoi-jesus-est-il-dieu&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
           <triggers>Pourquoi Jésus est-il Dieu ?</triggers>
           <references>
@@ -977,6 +977,9 @@
       <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien">
         <reply>Es-tu chrétien ?</reply>
       </conversation_flow>
+      <conversation_flow name="Quelle est la fête la plus importante des chrétiens ?" id="quel-est-la-fete-la-plus-importante-des-chretiens">
+        <reply>Quelle est la fête la plus importante des chrétiens ?</reply>
+      </conversation_flow>
       <conversation_flow name="Suggestion pour voir le message chrétien" id="suggestion-pour-voir-le-message-chretien">
         <reply>Veux-tu voir le message chrétien ?</reply>
       </conversation_flow>
@@ -1062,14 +1065,38 @@
   </folder>
   <folder name="Eglise" id="eglise">
     <folder name="Fêtes" id="fetes">
-      <html name="Qu&apos;est ce qu&apos;on fête à Pâques?" id="qu-est-ce-qu-on-fete-a-paques">
-        <tests>
-          <test input="Qu&apos;est ce qu&apos;on fête à pâques?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-qu-on-fete-a-paques&quot; textlength=&quot;7&quot; /&gt;"/>
-        </tests>
-        <triggers>Qu&apos;est ce qu&apos;on fête à pâques?</triggers>
-        <sourceId>pratiks</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
+      <folder name="Pâques" id="paques">
+        <information name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
+          <tests>
+            <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus une chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+          </tests>
+          <text>La fête la plus importante des chrétiens est Pâques.</text>
+        </information>
+        <html name="Les trois Pâques" id="les-trois-paques">
+          <triggers>Quels sont les trois Pâques ?&#10;C&apos;est quoi la Pâques ?&#10;C&apos;est quoi la fête de Pâques ?</triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="1" verseEnd="3"/>
+            <bible book="Ps" chapter="113" verseBegin="1" verseEnd="3"/>
+            <bible book="Ex" chapter="3" verseBegin="8"/>
+            <bible book="1 Cor" chapter="15" verseBegin="3" verseEnd="4"/>
+            <bible book="Rom" chapter="6" verseBegin="3" verseEnd="4"/>
+            <bible book="2 Cor" chapter="4" verseBegin="6"/>
+            <bible book="Jn" chapter="12" verseBegin="24"/>
+            <bible book="Mt" chapter="13" verseBegin="8"/>
+            <bible book="1 Pet" chapter="1" verseBegin="3" verseEnd="5"/>
+          </references>
+          <sourceId>webtele-ecdq</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ToRVjseNv20&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Qu&apos;est ce qu&apos;on fête à Pâques?" id="qu-est-ce-qu-on-fete-a-paques">
+          <tests>
+            <test input="Qu&apos;est ce qu&apos;on fête à pâques?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-qu-on-fete-a-paques&quot; textlength=&quot;7&quot; /&gt;"/>
+          </tests>
+          <triggers>Qu&apos;est ce qu&apos;on fête à pâques?</triggers>
+          <sourceId>pratiks</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
       <html name="Qu&apos;est ce que la fête de l&apos;ascension ?" id="qu-est-ce-que-la-fete-de-l-ascension">
         <tests>
           <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,1-11&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-l-ascension&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -1092,6 +1119,19 @@
         <triggers>Comment faire son offrande au bon moment ?&#10;Comment faire son offrande avec un montant réfléchi ?</triggers>
         <sourceId>appli-la-quete</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Le mystère de la liturgie" id="le-mystere-de-la-liturgie">
+        <tests>
+          <test input="C&apos;est quoi la liturgie ?" output="La liturgie est le service public de l&apos;Église et le culte officiel de l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,12-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18,18-20&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-prier-ensemble&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ep 3,5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 1,3&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 12,1-2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
+        </tests>
+        <triggers>C&apos;est quoi la liturgie ?</triggers>
+        <references>
+          <bible book="Eph" chapter="3" verseBegin="5"/>
+          <bible book="Eph" chapter="1" verseBegin="3"/>
+          <bible book="Rom" chapter="12" verseBegin="1" verseEnd="2"/>
+        </references>
+        <sourceId>webtele-ecdq</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <folder name="Lectures" id="lectures-2">
         <html name="AELF" id="aelf">
