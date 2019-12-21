@@ -990,53 +990,31 @@
     <chatbot name="martigues2019" id="martigues"/>
   </folder>
   <folder name="Découverte" id="initiation-a-la-vie-chretienne">
-    <folder name="Message chrétien" id="message-chretien">
-      <html name="Le message chrétien en 7 minutes" id="le-message-chretien-en-minutes">
-        <tests>
-          <test input="Je veux voir le message chrétien" output="Ok, tu veux voir le message chrétien.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
-          <test input="Quel est le message chrétien ?" output="Le message chrétien est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
-          <test input="le kérygme" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
-        </tests>
-        <triggers>Je veux voir le message chrétien</triggers>
-        <description>C&apos;est le message chrétien.&#10;C&apos;est le kérygme.</description>
-        <references>
-          <bible book="Gen" chapter="1" verseBegin="1"/>
-          <bible book="Rom" chapter="5" verseBegin="12"/>
-          <bible book="Jn" chapter="3" verseBegin="16"/>
-          <bible book="Mk" chapter="1" verseBegin="15"/>
-          <bible book="Rom" chapter="4" verseBegin="25"/>
-          <bible book="Rom" chapter="10" verseBegin="9"/>
-          <bible book="Mt" chapter="9" verseBegin="2"/>
-        </references>
-        <sourceId>webtele-ecdq</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Rencontrer des chrétiens" id="parcours-alpha">
-      <html name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
-        <tests>
-          <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
-          <test input="Quel est le Parcours Alpha le plus proche de chez moi ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
-        </tests>
-        <triggers>Quel est le Parcours Alpha le plus proche de chez moi ?</triggers>
-        <description>C&apos;est la carte des Parcours Alpha.</description>
-        <sourceId>parcours-alpha</sourceId>
-        <code>&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="Le Parcours Alpha, c&apos;est quoi?" id="le-parcours-alpha-c-est-quoi">
-        <tests>
-          <test input="Le Parcours Alpha, c&apos;est quoi?" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
-          <test input="Le Parcours Alpha" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
-        </tests>
-        <triggers>Le Parcours Alpha, c&apos;est quoi?</triggers>
-        <description>C&apos;est le Parcours Alpha.</description>
-        <sourceId>parcours-alpha</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Sens de la vie" id="questions-basiques-sur-la-foi">
-      <folder name="Série Alpha" id="serie-alpha-2">
-        <html name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="3">
+    <folder name="Par thème" id="par-theme">
+      <folder name="Message chrétien" id="message-chretien">
+        <html name="Le message chrétien en 7 minutes" id="le-message-chretien-en-minutes">
+          <tests>
+            <test input="Je veux voir le message chrétien" output="Ok, tu veux voir le message chrétien.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="Quel est le message chrétien ?" output="Le message chrétien est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="le kérygme" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
+          </tests>
+          <triggers>Je veux voir le message chrétien</triggers>
+          <description>C&apos;est le message chrétien.&#10;C&apos;est le kérygme.</description>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="1"/>
+            <bible book="Rom" chapter="5" verseBegin="12"/>
+            <bible book="Jn" chapter="3" verseBegin="16"/>
+            <bible book="Mk" chapter="1" verseBegin="15"/>
+            <bible book="Rom" chapter="4" verseBegin="25"/>
+            <bible book="Rom" chapter="10" verseBegin="9"/>
+            <bible book="Mt" chapter="9" verseBegin="2"/>
+          </references>
+          <sourceId>webtele-ecdq</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Qui est Jésus ?" id="qui-est-jesus">
+        <html name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort">
           <tests>
             <test input="Pourquoi Jésus est-il mort ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 3,23&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 2,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 2,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;pourquoi-jesus-est-il-mort&quot; textlength=&quot;14&quot; /&gt;"/>
           </tests>
@@ -1049,7 +1027,9 @@
           <sourceId>parcours-alpha</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <html name="Quel est le sens de la vie ?" id="quel-est-le-sens-de-la-vie" nb="1">
+      </folder>
+      <folder name="Sens de la vie" id="questions-basiques-sur-la-foi">
+        <html name="Quel est le sens de la vie ?" id="quel-est-le-sens-de-la-vie">
           <tests>
             <test input="quel est le sens de la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h2kexzdFc3c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;quel-est-le-sens-de-la-vie&quot; textlength=&quot;14&quot; /&gt;"/>
           </tests>
@@ -1062,10 +1042,212 @@
         </html>
       </folder>
     </folder>
+    <folder name="Par âge" id="par-age">
+      <folder name="Adultes" id="adultes" nb="3">
+        <html name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
+          <tests>
+            <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="Quel est le Parcours Alpha le plus proche de chez moi ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
+          </tests>
+          <triggers>Quel est le Parcours Alpha le plus proche de chez moi ?</triggers>
+          <description>C&apos;est la carte des Parcours Alpha.</description>
+          <sourceId>parcours-alpha</sourceId>
+          <code>&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Le Parcours Alpha, c&apos;est quoi?" id="le-parcours-alpha-c-est-quoi">
+          <tests>
+            <test input="Le Parcours Alpha, c&apos;est quoi?" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="Le Parcours Alpha" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
+          </tests>
+          <triggers>Le Parcours Alpha, c&apos;est quoi?</triggers>
+          <description>C&apos;est le Parcours Alpha.</description>
+          <sourceId>parcours-alpha</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Enfants" id="enfants" nb="1">
+        <html name="Le caté c&apos;est quoi ?" id="le-cate-c-est-quoi">
+          <tests>
+            <test input="C&apos;est quoi le caté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Médiaclap édition&quot; resourceid=&quot;le-cate-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="Pourquoi inscrire mon enfant au caté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Médiaclap édition&quot; resourceid=&quot;le-cate-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce que le caté apporte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Médiaclap édition&quot; resourceid=&quot;le-cate-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="Est-ce que mon enfant doit-être baptisé pour aller au caté ?" output="Qui est ton enfant doit-être baptisé pour aller au caté ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Médiaclap édition&quot; resourceid=&quot;le-cate-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;" isOk="false"/>
+            <test input="Quelle est la différence entre le caté et les autres activités ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Médiaclap édition&quot; resourceid=&quot;le-cate-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>C&apos;est quoi le caté ?&#10;Pourquoi inscrire mon enfant au caté ?&#10;Qu&apos;est-ce que le caté apporte ?&#10;Est-ce que mon enfant doit-être baptisé pour aller au caté ?&#10;Quelle est la différence entre le caté et les autres activités ?</triggers>
+          <sourceId>mediaclap-edition</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="2"/>
+      <folder name="Tous" id="tous" nb="4">
+        <folder name="Holy Chatter" id="agent-conversationnel">
+          <conversation_flow name="Bonjour" id="bonjour">
+            <tests>
+              <test input="Bonjour" output="Bonjour"/>
+              <test input="Hello" output="Bonjour"/>
+              <test input="salut" output="Bonjour"/>
+              <test input="Salut" output="Bonjour"/>
+              <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
+              <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;"/>
+            </tests>
+            <triggers>Bonjour</triggers>
+            <reply>Bonjour</reply>
+          </conversation_flow>
+          <information name="Mon nom" id="mon-nom">
+            <tests>
+              <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
+              <test input="qui es-tu ?" output="Je suis Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
+              <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
+            </tests>
+            <text>Mon nom est Holy Chatter.</text>
+          </information>
+          <information name="Moral" id="moral">
+            <text>Je vais bien.</text>
+          </information>
+        </folder>
+        <html name="Présentation du Cybercuré" id="presentation-du-cybercure">
+          <tests>
+            <test input="qui est le Cybercuré" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;presentation-du-cybercure&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <description>C&apos;est le Cybercuré</description>
+          <sourceId>diocese-nanterre</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+    </folder>
   </folder>
   <folder name="Eglise" id="eglise">
+    <folder name="Découverte" id="decouverte">
+      <information name="A quoi sert l&apos;Eglise ?" id="a-quoi-sert-l-eglise">
+        <tests>
+          <test input="A quoi sert l’Eglise ?" output="L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme." outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;"/>
+        </tests>
+        <triggers>A quoi sert l&apos;Eglise ?</triggers>
+        <references>
+          <site book="https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/"/>
+        </references>
+        <sourceId>eglise-catholique-en-france</sourceId>
+        <text>L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme.</text>
+      </information>
+      <html name="Critique de l’Église" id="critique-de-l-eglise">
+        <triggers>Critique de l&apos;Église&#10;_L&apos;Eglise est mauvaise.&#10;_Les prêtres sont des pédophiles.&#10;_Pédophiles&#10;_Pédophile&#10;_pédophiles&#10;_pédophile&#10;</triggers>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EuwNCe632_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Pourquoi faut-il l’Église ?" id="pourquoi-faut-il-l-eglise">
+        <tests>
+          <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+        </tests>
+        <triggers>Pourquoi faut-il l’Église ?</triggers>
+        <references>
+          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+          <bible book="1 Cor" chapter="12" verseBegin="12" verseEnd="13"/>
+          <bible book="1 Cor" chapter="12" verseBegin="28"/>
+          <bible book="Eph" chapter="2" verseBegin="19" verseEnd="22"/>
+          <ccc verseBegin="748" verseEnd="780"/>
+        </references>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/lx256QYSGY8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Qu&apos;est-ce que c&apos;est l&apos;Église ?" id="qu-est-ce-que-c-est-l-eglise">
+        <tests>
+          <test input="Qu&apos;est-ce que c&apos;est l&apos;Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4PCYAtuwRmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1P 2,9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 19,7-9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-c-est-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Je veux voir une vidéo qui décrit l&apos;Eglise." output="Ok, tu veux voir une vidéo qui décrit l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4PCYAtuwRmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;1P 2,9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 19,7-9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-c-est-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
+        </tests>
+        <triggers>Je veux voir une vidéo qui décrit l&apos;Eglise.</triggers>
+        <description>C&apos;est l&apos;Église.</description>
+        <references>
+          <bible book="1 Pet" chapter="2" verseBegin="9"/>
+          <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
+          <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
+          <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
+          <bible book="Col" chapter="1" verseBegin="18"/>
+          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+          <ccc verseBegin="748" verseEnd="810"/>
+        </references>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4PCYAtuwRmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Quelle est la structure de l’Église ?" id="quelle-est-la-structure-de-l-eglise">
+        <tests>
+          <test input="Quelle est la structure de l’Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uJlkXlhdO1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 20,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Th 5,12-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,17&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1P 5,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;2Tm 2,1-2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2Tm 4,1-6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Tt 2,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18,18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 5,14-15&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;871-943&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelle-est-la-structure-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
+        </tests>
+        <triggers>Quelle est la structure de l’Église ?</triggers>
+        <references>
+          <bible book="Acts" chapter="20" verseBegin="28"/>
+          <bible book="1 Thess" chapter="5" verseBegin="12" verseEnd="13"/>
+          <bible book="Heb" chapter="13" verseBegin="7"/>
+          <bible book="Heb" chapter="13" verseBegin="17"/>
+          <bible book="1 Pet" chapter="5" verseBegin="1"/>
+          <bible book="2 Tim" chapter="2" verseBegin="1" verseEnd="2"/>
+          <bible book="2 Tim" chapter="4" verseBegin="1" verseEnd="6"/>
+          <bible book="Titus" chapter="2" verseBegin="15"/>
+          <bible book="Mt" chapter="18" verseBegin="18"/>
+          <bible book="Jas" chapter="5" verseBegin="14" verseEnd="15"/>
+          <ccc verseBegin="871" verseEnd="943"/>
+        </references>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uJlkXlhdO1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Quels sont les quatre caractéristiques de l’Église ?" id="quelles-sont-les-caracteristiques-de-l-eglise">
+        <tests>
+          <test input="Quelles sont les caractéristiques de l&apos;Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,10-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,20-21&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-caracteristiques-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Quels sont les quatre caractéristiques de l’Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,10-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,20-21&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-caracteristiques-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
+        </tests>
+        <triggers>Quels sont les quatre caractéristiques de l’Église ?&#10;Quelles sont les caractéristiques de l&apos;Église ?</triggers>
+        <references>
+          <bible book="Jn" chapter="10" verseBegin="16"/>
+          <bible book="1 Cor" chapter="1" verseBegin="10" verseEnd="13"/>
+          <bible book="1 Cor" chapter="12" verseBegin="20" verseEnd="21"/>
+          <ccc verseBegin="811" verseEnd="865"/>
+        </references>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Qu’est-ce et combien ?" id="qu-est-ce-et-combien">
+        <tests>
+          <test input="L&apos;Eglise catholique en chiffres" output="Quel est l&apos;Église catholique de chiffres ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-et-combien&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
+        </tests>
+        <triggers>L&apos;Eglise catholique en chiffres</triggers>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Qu’est-ce que les moines, les moniales et les religieux ?" id="qu-est-ce-que-les-moines-les-moniales-et-les-religieux">
+        <tests>
+          <test input="Qu’est-ce que les moines, les moniales et les religieux ?" isOk="false"/>
+          <test input="Qu&apos;est ce que les moines ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 7,37-40&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 6,19&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Qu&apos;est ce que les moniales ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 7,37-40&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 6,19&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Qu&apos;est ce que les religieux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 7,37-40&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 6,19&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
+        </tests>
+        <triggers>Qu’est-ce que les moines, les moniales et les religieux ?&#10;Qu&apos;est ce que les moines ?&#10;Qu&apos;est ce que les moniales ?&#10;Qu&apos;est ce que les religieux ?</triggers>
+        <references>
+          <bible book="Mt" chapter="19" verseBegin="21"/>
+          <bible book="1 Cor" chapter="7" verseBegin="37" verseEnd="40"/>
+          <bible book="1 Cor" chapter="6" verseBegin="19"/>
+          <ccc verseBegin="914" verseEnd="933"/>
+          <ccc verseBegin="944" verseEnd="945"/>
+        </references>
+        <sourceId>le-cate-en-minutes</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <conversation_flow name="Suggestion pour voir une vidéo qui décrit l&apos;Eglise" id="suggestion-pour-voir-une-video-qui-decrit-l-eglise">
+        <tests>
+          <test input="Je ne connais pas bien l&apos;Eglise Catholique." output="Veux-tu voir une vidéo qui décrit l&apos;Eglise ?"/>
+        </tests>
+        <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
+        <reply>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</reply>
+      </conversation_flow>
+    </folder>
     <folder name="Fêtes" id="fetes">
       <folder name="Pâques" id="paques">
+        <conversation_flow name="Christ est ressuscité !" id="christ-est-ressuscite">
+          <tests>
+            <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
+          </tests>
+          <triggers>Christ est ressuscité !</triggers>
+          <reply>Il est vraiment ressuscité !</reply>
+        </conversation_flow>
         <information name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
           <tests>
             <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus une chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
@@ -1181,68 +1363,6 @@
           <reply>Veux-tu lire l&apos;évangile du jour ?</reply>
         </conversation_flow>
       </folder>
-    </folder>
-    <folder name="Questions" id="questions">
-      <information name="A quoi sert l&apos;Eglise ?" id="a-quoi-sert-l-eglise">
-        <tests>
-          <test input="A quoi sert l’Eglise ?" output="L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme." outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;"/>
-        </tests>
-        <triggers>A quoi sert l&apos;Eglise ?</triggers>
-        <references>
-          <site book="https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/"/>
-        </references>
-        <sourceId>eglise-catholique-en-france</sourceId>
-        <text>L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme.</text>
-      </information>
-      <folder name="Holy Chatter" id="agent-conversationnel">
-        <conversation_flow name="Bonjour" id="bonjour">
-          <tests>
-            <test input="Bonjour" output="Bonjour"/>
-            <test input="Hello" output="Bonjour"/>
-            <test input="salut" output="Bonjour"/>
-            <test input="Salut" output="Bonjour"/>
-            <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
-            <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;"/>
-          </tests>
-          <triggers>Bonjour</triggers>
-          <reply>Bonjour</reply>
-        </conversation_flow>
-        <information name="Mon nom" id="mon-nom">
-          <tests>
-            <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
-            <test input="qui es-tu ?" output="Je suis Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
-            <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
-          </tests>
-          <text>Mon nom est Holy Chatter.</text>
-        </information>
-        <information name="Moral" id="moral">
-          <text>Je vais bien.</text>
-        </information>
-      </folder>
-      <html name="Présentation du Cybercuré" id="presentation-du-cybercure">
-        <tests>
-          <test input="qui est le Cybercuré" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;presentation-du-cybercure&quot; textlength=&quot;20&quot; /&gt;"/>
-        </tests>
-        <description>C&apos;est le Cybercuré</description>
-        <sourceId>diocese-nanterre</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <conversation_flow name="Suggestion pour voir une vidéo qui décrit l&apos;Eglise" id="suggestion-pour-voir-une-video-qui-decrit-l-eglise">
-        <tests>
-          <test input="Je ne connais pas bien l&apos;Eglise Catholique." output="Veux-tu voir une vidéo qui décrit l&apos;Eglise ?"/>
-        </tests>
-        <triggers>Je ne connais pas bien l&apos;Eglise Catholique.</triggers>
-        <reply>Veux-tu voir une vidéo qui décrit l&apos;Eglise ?</reply>
-      </conversation_flow>
-    </folder>
-    <folder name="Réponses usuelles" id="reponses-usuelles">
-      <conversation_flow name="Christ est ressuscité !" id="christ-est-ressuscite">
-        <tests>
-          <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
-        </tests>
-        <triggers>Christ est ressuscité !</triggers>
-        <reply>Il est vraiment ressuscité !</reply>
-      </conversation_flow>
       <conversation_flow name="Que le Seigneur soit avec vous !" id="que-le-seigneur-soit-avec-vous">
         <tests>
           <test input="Que le Seigneur soit avec vous !" output="Et avec votre Esprit|otherAnswer-&gt;|Oui, je sais que le Seigneur est avec moi." outputReferences="|otherAnswer-&gt;|"/>
@@ -2152,81 +2272,6 @@
         </html>
       </folder>
       <folder name="L&apos;église" id="l-eglise" nb="7">
-        <html name="Critique de l’Église" id="critique-de-l-eglise" nb="58">
-          <triggers>Critique de l&apos;Église&#10;_L&apos;Eglise est mauvaise.&#10;_Les prêtres sont des pédophiles.&#10;_Pédophiles&#10;_Pédophile&#10;_pédophiles&#10;_pédophile&#10;</triggers>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EuwNCe632_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Pourquoi faut-il l’Église ?" id="pourquoi-faut-il-l-eglise" nb="54">
-          <tests>
-            <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
-          </tests>
-          <triggers>Pourquoi faut-il l’Église ?</triggers>
-          <references>
-            <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
-            <bible book="1 Cor" chapter="12" verseBegin="12" verseEnd="13"/>
-            <bible book="1 Cor" chapter="12" verseBegin="28"/>
-            <bible book="Eph" chapter="2" verseBegin="19" verseEnd="22"/>
-            <ccc verseBegin="748" verseEnd="780"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/lx256QYSGY8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Qu&apos;est-ce que c&apos;est l&apos;Église ?" id="qu-est-ce-que-c-est-l-eglise" nb="52">
-          <tests>
-            <test input="Qu&apos;est-ce que c&apos;est l&apos;Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4PCYAtuwRmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1P 2,9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 19,7-9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-c-est-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Je veux voir une vidéo qui décrit l&apos;Eglise." output="Ok, tu veux voir une vidéo qui décrit l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4PCYAtuwRmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;1P 2,9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 19,7-9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-c-est-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Je veux voir une vidéo qui décrit l&apos;Eglise.</triggers>
-          <description>C&apos;est l&apos;Église.</description>
-          <references>
-            <bible book="1 Pet" chapter="2" verseBegin="9"/>
-            <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
-            <bible book="Jn" chapter="10" verseBegin="11" verseEnd="14"/>
-            <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
-            <bible book="Col" chapter="1" verseBegin="18"/>
-            <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
-            <ccc verseBegin="748" verseEnd="810"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4PCYAtuwRmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Quelle est la structure de l’Église ?" id="quelle-est-la-structure-de-l-eglise" nb="55">
-          <tests>
-            <test input="Quelle est la structure de l’Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uJlkXlhdO1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 20,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Th 5,12-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,17&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1P 5,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;2Tm 2,1-2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2Tm 4,1-6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Tt 2,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18,18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 5,14-15&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;871-943&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelle-est-la-structure-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Quelle est la structure de l’Église ?</triggers>
-          <references>
-            <bible book="Acts" chapter="20" verseBegin="28"/>
-            <bible book="1 Thess" chapter="5" verseBegin="12" verseEnd="13"/>
-            <bible book="Heb" chapter="13" verseBegin="7"/>
-            <bible book="Heb" chapter="13" verseBegin="17"/>
-            <bible book="1 Pet" chapter="5" verseBegin="1"/>
-            <bible book="2 Tim" chapter="2" verseBegin="1" verseEnd="2"/>
-            <bible book="2 Tim" chapter="4" verseBegin="1" verseEnd="6"/>
-            <bible book="Titus" chapter="2" verseBegin="15"/>
-            <bible book="Mt" chapter="18" verseBegin="18"/>
-            <bible book="Jas" chapter="5" verseBegin="14" verseEnd="15"/>
-            <ccc verseBegin="871" verseEnd="943"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uJlkXlhdO1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Quels sont les quatre caractéristiques de l’Église ?" id="quelles-sont-les-caracteristiques-de-l-eglise" nb="53">
-          <tests>
-            <test input="Quelles sont les caractéristiques de l&apos;Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,10-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,20-21&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-caracteristiques-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Quels sont les quatre caractéristiques de l’Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,10-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,20-21&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-caracteristiques-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Quels sont les quatre caractéristiques de l’Église ?&#10;Quelles sont les caractéristiques de l&apos;Église ?</triggers>
-          <references>
-            <bible book="Jn" chapter="10" verseBegin="16"/>
-            <bible book="1 Cor" chapter="1" verseBegin="10" verseEnd="13"/>
-            <bible book="1 Cor" chapter="12" verseBegin="20" verseEnd="21"/>
-            <ccc verseBegin="811" verseEnd="865"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
         <html name="Qui est l’Esprit Saint ?" id="qui-est-l-esprit-saint" nb="51">
           <tests>
             <test input="Qui est l’Esprit Saint ?" output="Le Saint-Esprit est Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/0sWDHCdh4ps&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 5,3-4&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Sacrements/Confirmation/L-Esprit-saint-est-il-Dieu&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;l-esprit-est-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ac 4,31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 7&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-l-esprit-saint&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2244,32 +2289,6 @@
           </references>
           <sourceId>le-cate-en-minutes</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/0sWDHCdh4ps&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Qu’est-ce et combien ?" id="qu-est-ce-et-combien" nb="57">
-          <tests>
-            <test input="L&apos;Eglise catholique en chiffres" output="Quel est l&apos;Église catholique de chiffres ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-et-combien&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
-          </tests>
-          <triggers>L&apos;Eglise catholique en chiffres</triggers>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Qu’est-ce que les moines, les moniales et les religieux ?" id="qu-est-ce-que-les-moines-les-moniales-et-les-religieux" nb="56">
-          <tests>
-            <test input="Qu’est-ce que les moines, les moniales et les religieux ?" isOk="false"/>
-            <test input="Qu&apos;est ce que les moines ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 7,37-40&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 6,19&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Qu&apos;est ce que les moniales ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 7,37-40&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 6,19&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Qu&apos;est ce que les religieux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 7,37-40&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 6,19&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Qu’est-ce que les moines, les moniales et les religieux ?&#10;Qu&apos;est ce que les moines ?&#10;Qu&apos;est ce que les moniales ?&#10;Qu&apos;est ce que les religieux ?</triggers>
-          <references>
-            <bible book="Mt" chapter="19" verseBegin="21"/>
-            <bible book="1 Cor" chapter="7" verseBegin="37" verseEnd="40"/>
-            <bible book="1 Cor" chapter="6" verseBegin="19"/>
-            <ccc verseBegin="914" verseEnd="933"/>
-            <ccc verseBegin="944" verseEnd="945"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
       <folder name="Rédemption" id="redemption" nb="5">
