@@ -105,7 +105,6 @@
     </style>
     <div class="panel-group" id="accordion">
       ${messages-menu}
-      ${context-menu}
       ${shared-data-menu}
       ${end-of-menu}
     </div>
@@ -127,15 +126,6 @@
     </div>
   </message>
 
-  <message id="content-menu-empty-category">
-    <div class="panel panel-default hc-cursor-pointer" onclick="document.location.href='${category-href}';">
-      <div class="panel-heading" style="background-color:#e9e9e9;">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="${category-href}">${category-name}</a>
-        </h4>
-      </div>
-    </div>
-  </message>
 
   <message id="content-menu-item">
     <a href="${path-item}" class="list-group-item" style="color:#428bca;">${name-item}</a>
@@ -164,6 +154,40 @@
     </div>
   </message>
 
+
+  <message id="content-header-list-elt-people">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${person-name}</th>
+      <th colspan="3" style="width: 20px;">${see-messages}</th>
+      <th colspan="4" style="width: 20px;">${number-of-messages}</th>
+    </tr>
+  </message>
+
+  <message id="content-header-list-elt-people-mobile">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${person-name}</th>
+      <th colspan="3" style="width: 20px;">${see-messages}</th>
+    </tr>
+  </message>
+
+  <message id="content-list-elt-people">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${person}</td>
+      <td colspan="3" style="padding-top:10px;">${see-messages}</td>
+      <td colspan="4" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${number-of-messages}</td>
+    </tr>
+  </message>
+
+  <message id="content-list-elt-people-mobile">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${person}</td>
+      <td colspan="3" style="padding-top:10px;">${see-messages}</td>
+    </tr>
+  </message>
 
 
   <message id="content-header-list-elt-sources">
