@@ -1079,7 +1079,18 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="2"/>
+      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="2">
+        <html name="Qu&apos;est-ce qu&apos;un groupe JP ?" id="qu-est-ce-qu-un-groupe-jp">
+          <tests>
+            <test input="C&apos;est quoi un groupe jeunes pros ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;qu-est-ce-qu-un-groupe-jp&quot; textlength=&quot;13&quot; /&gt;"/>
+            <test input="C&apos;est quoi un groupe jeunes professionnels ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;qu-est-ce-qu-un-groupe-jp&quot; textlength=&quot;13&quot; /&gt;"/>
+            <test input="C&apos;est quoi un groupe JP ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;qu-est-ce-qu-un-groupe-jp&quot; textlength=&quot;13&quot; /&gt;"/>
+          </tests>
+          <triggers>C&apos;est quoi un groupe jeunes pros ?&#10;C&apos;est quoi un groupe jeunes professionnels ?&#10;C&apos;est quoi un groupe JP ?</triggers>
+          <sourceId>jeunes-cathos</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
       <folder name="Tous" id="tous" nb="4">
         <folder name="Holy Chatter" id="agent-conversationnel">
           <conversation_flow name="Bonjour" id="bonjour">
