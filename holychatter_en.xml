@@ -17,7 +17,7 @@
       </information>
     </folder>
     <folder name="God" id="god">
-      <folder name="Jesus" id="jesus-2">
+      <folder name="Jesus" id="jesus">
         <information name="God became man" id="god-became-man">
           <tests>
             <test input="Did God become man?" output="Yes, God became man." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 9:6-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4:2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 2:7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4:6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 2:13&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 4:15&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-became-man&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -425,7 +425,7 @@
     </folder>
   </folder>
   <folder name="Prayers" id="prayers">
-    <folder name="Jesus" id="jesus">
+    <folder name="Jesus" id="jesus-prayers">
       <html name="Eucharistic Adoration: St. Stephen Catholic Church" id="eucharistic-adoration-st-stephen-catholic-church">
         <tests>
           <test input="I want to see Jesus." output="Ok, you want to see Jesus.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source: &lt;hc_source name=&quot;Shalom World&quot; resourceid=&quot;eucharistic-adoration-st-stephen-catholic-church&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -442,7 +442,7 @@
       </html>
     </folder>
   </folder>
-  <folder name="Teachings" id="catechism">
+  <folder name="Teachings" id="teachings">
     <folder name="3 Minute Catechism" id="minute-catechism" defaultSourceId="minute-catechism">
       <folder name="Basics" id="basics" nb="1">
         <html name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
@@ -640,7 +640,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="God" id="god-2" nb="3">
+      <folder name="God" id="god-minute-catechism" nb="3">
         <html name="How can we summarize belief in the Trinity?" id="how-can-we-summarize-belief-in-the-trinity" nb="17">
           <tests>
             <test input="How can we summarize belief in the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/MU_VrDmfPl8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 7:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 1:1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 5:3-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;232-236&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;249-256&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;261&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-summarize-belief-in-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1440,7 +1440,7 @@
           <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <html name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church-2" nb="53">
+        <html name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church" nb="53">
           <tests>
             <test input="What are the four characteristics of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 10:16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:10-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:20-21&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church-2&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are the characteristics of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 10:16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:10-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:20-21&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church-2&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1455,7 +1455,7 @@
           <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <html name="What is the Church?" id="what-is-the-church-2" nb="52">
+        <html name="What is the Church?" id="what-is-the-church" nb="52">
           <tests>
             <test input="What is the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 2:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:7-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-church-2&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="I want to see a video that describe the Church." output="Ok, you want to see a video describe the Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Bible verses: &lt;hc_bible ref=&quot;1 Pet 2:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:7-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-church-2&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
@@ -1692,12 +1692,12 @@
       <text>Do you want to see a Christian testimony?</text>
     </information>
   </folder>
-  <folder name="Tools" id="applications">
+  <folder name="Tools" id="tools">
     <url name="Bible.is" id="bibleis">
       <description>It&apos;s a Christian application.</description>
       <url>http://www.bible.is/</url>
     </url>
-    <folder name="Me" id="conversational-agent">
+    <folder name="Me" id="me">
       <conversation_flow name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
         <reply>Do you already know the Catholic Church?</reply>
       </conversation_flow>

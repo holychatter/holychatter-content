@@ -5,7 +5,7 @@
       <folder name="Pentateuque" id="pentateuque" nb="1">
         <folder name="Genèse" id="genese" nb="1">
           <folder name="Abraham" id="abraham">
-            <html name="Abraham, Père des croyants" id="la-bible-abraham">
+            <html name="Abraham, Père des croyants" id="abraham-pere-des-croyants">
               <description>C&apos;est la vie d&apos;Abraham.&#10;C&apos;est Abraham.</description>
               <sourceId>kto</sourceId>
               <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vKJZx7DH3yc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
@@ -501,7 +501,7 @@
               <text>Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous.</text>
             </information>
           </folder>
-          <folder name="À propos" id="a-propos-2">
+          <folder name="À propos" id="a-propos">
             <html name="Les paraboles" id="les-paraboles">
               <triggers>Quels sont les paraboles de Jésus ?</triggers>
               <sourceId>kto</sourceId>
@@ -547,7 +547,7 @@
         </folder>
       </folder>
     </folder>
-    <folder name="À propos" id="a-propos">
+    <folder name="À propos" id="a-propos-bible">
       <information name="La Bible donne le moyen d&apos;accéder au bonheur" id="la-bible-donne-le-moyen-d-acceder-au-bonheur">
         <text>La Bible donne le moyen d&apos;accéder au bonheur en suivant Jésus.</text>
       </information>
@@ -588,7 +588,7 @@
       <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien">
         <reply>Es-tu chrétien ?</reply>
       </conversation_flow>
-      <conversation_flow name="Quelle est la fête la plus importante des chrétiens ?" id="quel-est-la-fete-la-plus-importante-des-chretiens">
+      <conversation_flow name="Quelle est la fête la plus importante des chrétiens ?" id="quelle-est-la-fete-la-plus-importante-des-chretiens">
         <reply>Quelle est la fête la plus importante des chrétiens ?</reply>
       </conversation_flow>
       <conversation_flow name="Suggestion pour voir le message chrétien" id="suggestion-pour-voir-le-message-chretien">
@@ -600,7 +600,7 @@
     </chatbot>
     <chatbot name="martigues2019" id="martigues"/>
   </folder>
-  <folder name="Découverte" id="initiation-a-la-vie-chretienne">
+  <folder name="Découverte" id="decouverte">
     <folder name="Par thème" id="par-theme">
       <folder name="Message chrétien" id="message-chretien">
         <html name="Le message chrétien en 7 minutes" id="le-message-chretien-en-minutes">
@@ -639,7 +639,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Sens de la vie" id="questions-basiques-sur-la-foi">
+      <folder name="Sens de la vie" id="sens-de-la-vie">
         <html name="Quel est le sens de la vie ?" id="quel-est-le-sens-de-la-vie">
           <tests>
             <test input="quel est le sens de la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h2kexzdFc3c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;quel-est-le-sens-de-la-vie&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -703,7 +703,7 @@
         </html>
       </folder>
       <folder name="Tous" id="tous" nb="4">
-        <folder name="Holy Chatter" id="agent-conversationnel">
+        <folder name="Holy Chatter" id="holy-chatter">
           <conversation_flow name="Bonjour" id="bonjour">
             <tests>
               <test input="Bonjour" output="Bonjour"/>
@@ -742,7 +742,7 @@
   <folder name="Eglise" id="eglise">
     <folder name="Anges" id="anges" nb="2">
       <folder name="Satan" id="satan">
-        <html name="Ce que Dit Marie à Medjugorje : Satan" id="c-est-satan">
+        <html name="Ce que Dit Marie à Medjugorje : Satan" id="ce-que-dit-marie-a-medjugorje-satan">
           <tests>
             <test input="Que dit Marie sur Satan ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;c-est-satan&quot; textlength=&quot;41&quot; /&gt;"/>
           </tests>
@@ -1045,7 +1045,7 @@
           <sourceId>bible</sourceId>
           <text>Dieu est au ciel, sur terre et en tout lieu.</text>
         </information>
-        <html name="Qui est Dieu?" id="qui-est-dieu-2">
+        <html name="Qui est Dieu?" id="qui-est-dieu">
           <tests>
             <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Jésus est amour ?" output="Oui, Jésus est amour." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,17-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 10,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -1060,7 +1060,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j_u-QbcWxC0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Le fils" id="jesus" nb="1">
+      <folder name="Le fils" id="le-fils" nb="1">
         <html name="100% Dieu, 100% homme (l&apos;incarnation)" id="dieu-homme-l-incarnation">
           <tests>
             <test input="C&apos;est quoi l&apos;incarnation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0mgV-IO7ixc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2Co 5,14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;dieu-homme-l-incarnation&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -1407,7 +1407,7 @@
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
         </folder>
-        <folder name="À propos" id="a-propos-9">
+        <folder name="À propos" id="a-propos-messe">
           <html name="C’est quoi, la Sainte Messe ?" id="c-est-quoi-la-sainte-messe">
             <tests>
               <test input="C’est quoi, la Sainte Messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RLG1yUQwLB8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 11,23-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,23-24&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;He 9,11-14&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 9,24-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,10-12&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1135-1190&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-la-sainte-messe&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -1445,7 +1445,7 @@
           </html>
         </folder>
       </folder>
-      <folder name="Sacrements" id="les-sacrements-2" nb="2">
+      <folder name="Sacrements" id="sacrements" nb="2">
         <folder name="Baptême" id="bapteme">
           <html name="C’est quoi, le baptême ?" id="c-est-quoi-le-bapteme">
             <tests>
@@ -1663,7 +1663,7 @@
             <sourceId>cybercure</sourceId>
             <text>Une personne non croyante peut se marier à condition qu’elle soit en accord avec les éléments essentiels du mariage chrétien (liberté, fidélité, indissolubilité et ouverture à la fécondité) et qu’elle s’engage à respecter la foi de son conjoint.</text>
           </information>
-          <information name="Le mariage chrétien est l’alliance entre un homme et une femme unis par un même amour." id="le-mariage-est-l-alliance-entre-un-homme-et-une-femme-unis-par-un-meme-amour">
+          <information name="Le mariage chrétien est l’alliance entre un homme et une femme unis par un même amour." id="le-mariage-chretien-est-l-alliance-entre-un-homme-et-une-femme-unis-par-un-meme-amour">
             <triggers>C’est quoi, le mariage ?</triggers>
             <references>
               <site book="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-sacrements/le-mariage/"/>
@@ -1761,7 +1761,7 @@
           </url>
         </folder>
       </folder>
-      <folder name="À propos" id="a-propos-7">
+      <folder name="À propos" id="a-propos-liturgie">
         <html name="Le mystère de la liturgie" id="le-mystere-de-la-liturgie">
           <tests>
             <test input="C&apos;est quoi la liturgie ?" output="La liturgie est le service public de l&apos;Église et le culte officiel de l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,12-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18,18-20&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-prier-ensemble&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ep 3,5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 1,3&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 12,1-2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -1778,7 +1778,7 @@
       </folder>
     </folder>
     <folder name="Saints" id="saints" nb="4">
-      <api name="Le Saint du jour" id="saint">
+      <api name="Le Saint du jour" id="le-saint-du-jour">
         <tests>
           <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;saint&quot; textlength=&quot;24&quot; /&gt;"/>
         </tests>
@@ -1788,7 +1788,7 @@
         <apiId>saint</apiId>
       </api>
       <folder name="Marie" id="marie">
-        <information name="La place de Marie dans la foi chrétienne" id="qui-est-marie-2">
+        <information name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
           <tests>
             <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;qui-est-marie-2&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
@@ -1879,7 +1879,7 @@
           <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <information name="Saint Joseph est le père adoptif de Jésus." id="saint-joseph-est-la-pere-adoptif-de-jesus">
+        <information name="Saint Joseph est le père adoptif de Jésus." id="saint-joseph-est-le-pere-adoptif-de-jesus">
           <text>Saint Joseph est le père adoptif de Jésus.&#10;</text>
         </information>
       </folder>
@@ -1929,14 +1929,14 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Sainte Mère Teresa" id="mere-teresa">
+      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa">
         <url name="Quand Jésus a convaincu Mère Teresa de fonder les Sœurs de la charité" id="quand-jesus-a-convaincu-mere-teresa-de-fonder-les-surs-de-la-charite">
           <description>C&apos;est la vie de Mère Teresa.&#10;C&apos;est Mère Teresa.</description>
           <sourceId>aleteia</sourceId>
           <url>http://fr.aleteia.org/2016/06/08/quand-jesus-a-convaincu-mere-teresa-de-fonder-les-soeurs-de-la-charite/</url>
         </url>
       </folder>
-      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese">
+      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux">
         <html name="Qui est Thérèse de Lisieux?" id="qui-est-therese-de-lisieux">
           <triggers>Qui est Thérèse de Lisieux?&#10;_Thérèse de Lisieux</triggers>
           <sourceId>cn-media</sourceId>
@@ -1944,7 +1944,7 @@
         </html>
       </folder>
     </folder>
-    <folder name="À propos" id="a-propos-3">
+    <folder name="À propos" id="a-propos-eglise">
       <information name="A quoi sert l&apos;Eglise ?" id="a-quoi-sert-l-eglise">
         <tests>
           <test input="A quoi sert l’Eglise ?" output="L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme." outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;"/>
@@ -2016,7 +2016,7 @@
         <sourceId>le-cate-en-minutes</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uJlkXlhdO1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <html name="Quels sont les quatre caractéristiques de l’Église ?" id="quelles-sont-les-caracteristiques-de-l-eglise">
+      <html name="Quels sont les quatre caractéristiques de l’Église ?" id="quels-sont-les-quatre-caracteristiques-de-l-eglise">
         <tests>
           <test input="Quelles sont les caractéristiques de l&apos;Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,10-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,20-21&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-caracteristiques-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
           <test input="Quels sont les quatre caractéristiques de l’Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qY-5GwdhGwY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,10-13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12,20-21&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-caracteristiques-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2086,7 +2086,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QZvnHYjw1ZI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Ecritures Saintes" id="ecriture-sainte">
+    <folder name="Ecritures Saintes" id="ecritures-saintes">
       <information name="Dei Verbum" id="dei-verbum">
         <triggers>Qu&apos;est-ce que c&apos;est Dei Verbum ?</triggers>
         <sourceId>wikipedia</sourceId>
@@ -2151,7 +2151,7 @@
         <sourceId>batir-sur-le-roc</sourceId>
         <text>La communauté des croyants c&apos;est ceux qui ont reçu la Parole est qui ont crus.</text>
       </information>
-      <information name="La séparation de la Bible en chapitres date de XIIIe siècle après JC." id="la-separation-en-chapitres-date-de-xiiie-siecle-apres-jc">
+      <information name="La séparation de la Bible en chapitres date de XIIIe siècle après JC." id="la-separation-de-la-bible-en-chapitres-date-de-xiiie-siecle-apres-jc">
         <tests>
           <test input="De quand date la séparation de la Bible en chapitres ?" output="La séparation de la Bible en chapitres date de XIIIe siècle après JC.&#10;" outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-separation-en-chapitres-date-de-xiiie-siecle-apres-jc&quot; textlength=&quot;17&quot; /&gt;"/>
         </tests>
@@ -2164,7 +2164,7 @@
         <sourceId>batir-sur-le-roc</sourceId>
         <text>La séparation de la Bible en versets date de XVIe siècle après JC.&#10;</text>
       </information>
-      <information name="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." id="la-canon-est-l-ensemble-des-livres-reconnu-comme-inspires-par-une-communaute-religieuse">
+      <information name="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." id="le-canon-est-l-ensemble-des-livres-reconnus-comme-inspires-par-une-communaute-religieuse">
         <tests>
           <test input="Qu&apos;est-ce que le Canon ?" output="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-canon-est-l-ensemble-des-livres-reconnu-comme-inspires-par-une-communaute-religieuse&quot; textlength=&quot;17&quot; /&gt;"/>
         </tests>
@@ -2366,7 +2366,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SrWAiRDPL6w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Dieu" id="dieu-2" nb="3">
+      <folder name="Dieu" id="dieu-le-cate-en-minutes" nb="3">
         <html name="Dieu est Amour, qu’est-ce que cela veut dire ?" id="dieu-est-amour-qu-est-ce-que-cela-veut-dire" nb="20">
           <tests>
             <test input="Dieu est Amour, qu’est-ce que cela veut dire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/fHrvFUNKPjc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 4,8&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;dieu-est-amour-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2427,7 +2427,7 @@
           <sourceId>le-cate-en-minutes</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hj-ZCeKUBsY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
-        <html name="Qui est Dieu ?" id="qui-est-dieu" nb="12">
+        <html name="Qui est Dieu ?" id="qui-est-dieu-dieu" nb="12">
           <tests>
             <test input="Qui est Dieu ?" output="Dieu est le Saint-Esprit.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/HUHsPCG56s8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 5,3-4&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Sacrements/Confirmation/L-Esprit-saint-est-il-Dieu&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;l-esprit-est-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 4,24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 4,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 8,4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 6,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 34,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 36,26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-dieu&quot; textlength=&quot;21&quot; /&gt;"/>
             <test input="Dieu" output="Dieu est le Saint-Esprit.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/HUHsPCG56s8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 5,3-4&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Sacrements/Confirmation/L-Esprit-saint-est-il-Dieu&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;l-esprit-est-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 4,24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 4,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 8,4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 6,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 34,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 36,26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-dieu&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2893,7 +2893,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l6bL4PGbPIs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Prédications" id="individuels">
+    <folder name="Prédications" id="predications">
       <html name="Catéchèse JMJ avec Mgr David Macaire" id="catechese-jmj-avec-mgr-david-macaire">
         <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
         <sourceId>kto</sourceId>
@@ -3401,7 +3401,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/OJ3fjecB4D4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="À propos" id="a-propos-8">
+      <folder name="À propos" id="a-propos-vie-apres-la-mort">
         <html name="EMI : Y a-t-il quelque chose après la mort ?" id="emi-y-a-t-il-quelque-chose-apres-la-mort">
           <tests>
             <test input="Y a-t-il quelque chose après la mort ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WY-ilN31g80&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse Avignon&quot; resourceid=&quot;emi-y-a-t-il-quelque-chose-apres-la-mort&quot; textlength=&quot;16&quot; /&gt;"/>
@@ -3491,9 +3491,9 @@
           <text>La liturgie est le culte officiel de l&apos;Eglise.</text>
         </information>
       </folder>
-      <folder name="Youcat pour les enfants" id="pour-les-enfants">
+      <folder name="Youcat pour les enfants" id="youcat-pour-les-enfants">
         <folder name="Prologue" id="prologue">
-          <information name="D&apos;où vient le monde et tout ce qui existe ?" id="d-o-vient-me-monde-et-tout-ce-qui-existe" nb="1">
+          <information name="D&apos;où vient le monde et tout ce qui existe ?" id="d-o-vient-le-monde-et-tout-ce-qui-existe" nb="1">
             <tests>
               <test input="D&apos;où vient le monde et tout ce qui existe ?" output="Je ne sais pas où le monde vient mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
             </tests>
@@ -3528,7 +3528,7 @@
     </folder>
   </folder>
   <folder name="Miracles" id="miracles">
-    <folder name="Charimes" id="les-charimes" nb="1">
+    <folder name="Charimes" id="charimes" nb="1">
       <html name="Le charisme de Foi" id="le-charisme-de-foi">
         <tests>
           <test input="C&apos;est quoi le charisme de Foi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xlj-0iEW0BI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12,9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 11,24&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-foi&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -3612,7 +3612,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qgcj0qnhqZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Guérisons" id="guerisons-2" nb="2">
+    <folder name="Guérisons" id="guerisons" nb="2">
       <folder name="Corps" id="corps" nb="1">
         <folder name="Alcoolisme" id="alcoolisme">
           <html name="Comment l&apos;alcoolisme mondain a détruit ma vie" id="comment-l-alcoolisme-mondain-a-detruit-ma-vie">
@@ -3647,7 +3647,7 @@
           </conversation_flow>
         </folder>
       </folder>
-      <folder name="À propos" id="a-propos-5">
+      <folder name="À propos" id="a-propos-guerisons">
         <html name="Le Docteur qui témoignait des miracles à Lourdes" id="le-docteur-qui-temoignait-des-miracles-a-lourdes">
           <tests>
             <test input="Montre-moi un docteur qui témoigne des miracles à Lourdes" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hEeCrhXW8Ts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Media Investigation&quot; resourceid=&quot;le-docteur-qui-temoignait-des-miracles-a-lourdes&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -3705,7 +3705,7 @@
         </folder>
       </folder>
     </folder>
-    <folder name="À propos" id="a-propos-6">
+    <folder name="À propos" id="a-propos-miracles">
       <html name="Que sont les miracles ?" id="que-sont-les-miracles">
         <tests>
           <test input="Que sont les miracles ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Q1vVi3rFwvc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 17,12-18&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,30-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;que-sont-les-miracles&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -3758,7 +3758,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TDSJ_dwqXRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Jésus" id="jesus-2">
+    <folder name="Jésus" id="jesus">
       <html name="Adoration guidée par Sr Emmanuel : Adorer comme sainte Véronique" id="adoration-guidee-par-sr-emmanuel-adorer-comme-sainte-veronique">
         <tests>
           <test input="Je veux voir Jésus." output="Ok, tu veux voir Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/I84vvhEau6k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14,14-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 2,13-17&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 2,43-47&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 8,1-4&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2,13-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 44,3&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;adoration-guidee-par-sr-emmanuel-adorer-comme-sainte-veronique&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -3777,7 +3777,7 @@
       </html>
     </folder>
     <folder name="La souffrance" id="la-souffrance">
-      <html name="Jésus rejoint toute personne en souffrance" id="jesus-rejoint-toute-personne-en-souffrance-par-sr-emmanuel-de-medjugorje">
+      <html name="Jésus rejoint toute personne en souffrance" id="jesus-rejoint-toute-personne-en-souffrance">
         <tests>
           <test input="Comment prier quand on est malade ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dt5VAB0c4bo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;jesus-rejoint-toute-personne-en-souffrance-par-sr-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
           <test input="Quel est le sens de la vie quand on est malade ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dt5VAB0c4bo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;jesus-rejoint-toute-personne-en-souffrance-par-sr-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -3857,7 +3857,7 @@
       <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/7LPUsLmjgVo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
     </html>
   </folder>
-  <folder name="Solidarité" id="applications">
+  <folder name="Solidarité" id="solidarite">
     <folder name="Pauvreté" id="pauvrete">
       <html name="Pauvreté en France : voici 4 profils parmi ceux que nous rencontrons le plus dans nos accueils" id="pauvrete-en-france-voici-profils-parmi-ceux-que-nous-rencontrons-le-plus-dans-nos-accueils">
         <tests>
@@ -3888,9 +3888,9 @@
       </html>
     </folder>
   </folder>
-  <folder name="Témoignages" id="exemples-de-vie">
-    <folder name="Ancien athée" id="ancien-athe" nb="1">
-      <html name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari">
+  <folder name="Témoignages" id="temoignages">
+    <folder name="Ancien athée" id="ancien-athee" nb="1">
+      <html name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
           <test input="Y a-t-il une vie après la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
           <test input="Nos défunts sont-ils vivants ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari&quot; textlength=&quot;26&quot; /&gt;"/>
@@ -3968,7 +3968,7 @@
         <sourceId>jeunes-cathos</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <html name="La foi et l&apos;espérance désir de Dieu - P. René Luc" id="pere-rene-luc-ne-de-pere-inconnu-eleve-par-un-truand">
+      <html name="La foi et l&apos;espérance désir de Dieu - P. René Luc" id="la-foi-et-l-esperance-desir-de-dieu-p-rene-luc">
         <tests>
           <test input="Qui est le Père René-Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;pere-rene-luc-ne-de-pere-inconnu-eleve-par-un-truand&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
@@ -3994,7 +3994,7 @@
       </html>
     </folder>
     <folder name="Séminariste" id="seminariste" nb="5">
-      <html name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie">
+      <html name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie&quot; textlength=&quot;36&quot; /&gt;"/>
         </tests>
@@ -4006,7 +4006,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="À propos" id="a-propos-4">
+    <folder name="À propos" id="a-propos-temoignages">
       <html name="Pourquoi parler de Jésus ?" id="pourquoi-parler-de-jesus">
         <tests>
           <test input="Pourquoi parler de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,17-21&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 9,14-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;pourquoi-parler-de-jesus&quot; textlength=&quot;36&quot; /&gt;"/>
