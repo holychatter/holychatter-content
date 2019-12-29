@@ -96,6 +96,7 @@
           <tests>
             <test input="Combien y a-t-il d&apos;évangiles ?" output="Il y a 4 évangiles."/>
           </tests>
+          <sourceId>bible</sourceId>
           <text>Il y a 4 évangiles.</text>
         </information>
         <folder name="Paraboles" id="paraboles">
@@ -1961,6 +1962,17 @@
         <sourceId>le-cate-en-minutes</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EuwNCe632_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
+      <html name="JÉSUS ET L&apos;ÉGLISE (PARTIE 1)" id="jesus-et-l-eglise-partie">
+        <triggers>Quel rapport entre Jésus et l&apos;Eglise ?&#10;Ne peut-on pas être chrétien sans forcément être en lien avec l&apos;Eglise ?&#10;Ne peut-on pas être chrétien sans partager ce que dit l&apos;Eglise en terme de dogme et de morale ?&#10;Après tout est-ce que ce n&apos;est pas le &quot;coeur à coeur avec Jésus&quot; qui compte ?&#10;L&apos;Eglise est-elle vraiment nécessaire ?</triggers>
+        <references>
+          <bible book="Mt" chapter="16" verseBegin="18"/>
+          <bible book="1 Pet" chapter="2" verseBegin="10"/>
+          <bible book="2 Pet" chapter="1" verseBegin="16"/>
+          <bible book="2 Pet" chapter="1" verseBegin="19" verseEnd="21"/>
+        </references>
+        <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XhGwXuSSyrI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
       <html name="Pourquoi faut-il l’Église ?" id="pourquoi-faut-il-l-eglise">
         <tests>
           <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
@@ -3369,6 +3381,11 @@
         </html>
       </folder>
       <folder name="Paradis" id="paradis" nb="1">
+        <html name="COMMENT ENTRER AU PARADIS ?" id="comment-entrer-au-paradis">
+          <triggers>Comment entrer au Paradis ?</triggers>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o4nB8QZ9mPg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <html name="Qu’est-ce qu’on va faire au Ciel ?" id="qu-est-ce-qu-on-va-faire-au-ciel" nb="62">
           <tests>
             <test input="Qu’est-ce qu’on va faire au Ciel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/50dnLrjWwvI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 3,2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ap 21,3&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-va-faire-au-ciel&quot; textlength=&quot;21&quot; /&gt;"/>
