@@ -573,8 +573,8 @@
       </information>
       <information name="La Bible est le Best-Seller mondial n°1." id="la-bible-est-le-best-seller-mondial-n">
         <tests>
-          <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;7&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est le Best-Seller n°1 mondial, fiable, parole de Dieu et une parole humaine." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="Source : &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est le Best-Seller n°1 mondial, fiable, parole de Dieu et une parole humaine." outputReferences="Source : &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <sourceId>franceinfo</sourceId>
         <text>La Bible est le Best-Seller mondial n°1.</text>
@@ -1401,6 +1401,14 @@
             <sourceId>retraite-dans-la-ville</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qUErjXtBnxo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
+          <information name="Le geste de Paix" id="le-geste-de-paix">
+            <triggers>que signifie le geste de paix ?&#10;c&apos;est quoi la paix du christ à la messe ?&#10;le baiser de paix&#10;la paix du Christ à la messe</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>Au cours de la messe après le Notre Père, le prêtre ou le diacre dit à l’assemblée : &quot;Dans la charité du Christ, donnez vous la paix&quot;. Cela signifie que c’est la paix du Christ qui est la source de notre union fraternelle. </text>
+          </information>
           <html name="Qu&apos;est-ce que l&apos;anamnèse ?" id="qu-est-ce-que-l-anamnese">
             <tests>
               <test input="Qu&apos;est-ce que l&apos;anamnèse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NTB8BlYb1oY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 6,6-10&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qu-est-ce-que-l-anamnese&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -1455,6 +1463,14 @@
             <sourceId>le-cate-en-minutes</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RLG1yUQwLB8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
+          <information name="Les étapes de la messe" id="les-etapes-de-la-messe">
+            <triggers>Comment se déroule la messe ?&#10;Quelles sont les étapes de la messe ? &#10;La préparation pénitentielle. &#10;Les rites de la messe&#10;Les rites à l&apos;église&#10;suivre la messe</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>Le déroulé de la respecte différents rites structurants : la préparation pénitentielle, la lecture de la Bible, l&apos;Offertoire, le rite de la Paix, l&apos;Eucharistie, l&apos;envoi dans la Paix. </text>
+          </information>
           <html name="Quelles sont les parts de la Messe ?" id="quelles-sont-les-parts-de-la-messe">
             <tests>
               <test input="Quelles sont les différentes parties de la Messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/S5Tazmjssvo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1345-1355&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1408&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-parts-de-la-messe&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -1570,8 +1586,9 @@
               <test input="Qu&apos;est-ce que c&apos;est l&apos;Eucharistie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZHRWjBkm3Uc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,47-66&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,27&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-eucharistie&quot; textlength=&quot;21&quot; /&gt;"/>
               <test input="l&apos;eucharistie" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZHRWjBkm3Uc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,47-66&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,27&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-eucharistie&quot; textlength=&quot;21&quot; /&gt;"/>
               <test input="C&apos;est quoi, l&apos;Eucharistie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZHRWjBkm3Uc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,47-66&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,27&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-eucharistie&quot; textlength=&quot;21&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que c&apos;est la communion eucharistique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZHRWjBkm3Uc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,47-66&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,27&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-eucharistie&quot; textlength=&quot;21&quot; /&gt;"/>
             </tests>
-            <triggers>C&apos;est quoi, l&apos;Eucharistie ?</triggers>
+            <triggers>C&apos;est quoi, l&apos;Eucharistie ?&#10;C&apos;est quoi la communion eucharistique ?</triggers>
             <references>
               <bible book="Jn" chapter="6" verseBegin="47" verseEnd="66"/>
               <bible book="1 Cor" chapter="10" verseBegin="16"/>
@@ -1596,6 +1613,39 @@
             <sourceId>cybercure</sourceId>
             <text>&#10;_On peut communier, recevoir l’hostie (et non la prendre), en recevant l’hostie dans la bouche sur la langue ou dans la main. On a communié dans la main jusqu’au IX° ou X° siècles. Ensuite la communion s’est faite uniquement dans la bouche. En France, la communion dans la main fut autorisée par le Conseil permanent de l’Épiscopat, le 19 juin 1969. On reçoit l’hostie sur la paume de la main ouverte. Saisir l’hostie entre le pouce et l’index, n’est pas un geste de réception. Le prêtre, ou la personne déléguée par lui, présente l’hostie en disant :&quot;Le Corps du Christ&quot; et l’on répond le mot :&quot;Amen&quot; mot hébreux qui exprime un acte de foi.</text>
           </information>
+          <information name="Comment préparer sa première communion à l’âge adulte ?" id="comment-preparer-sa-premiere-communion-a-l-age-adulte">
+            <tests>
+              <test input="Comment préparer sa première communion à l’âge adulte ?" output="Si un adulte désire faire sa première communion, il peut s’adresser à la paroisse de son domicile. Celle-ci lui indique la manière de se préparer au sacrement de l’eucharistie. On trouve dans chaque ville un groupe de préparation qui est une partie de ce qu’on appelle &quot;le catéchuménat&quot;. Le catéchuménat est un service qui prépare les adultes au baptême, à la confirmation et à la participation eucharistique avec un accompagnateur. Il est destiné aussi bien aux personnes récemment baptisées, qu’à celles qui, baptisées enfants et même catéchisées, n’ont pas achevé leur initiation chrétienne." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-preparer-sa-premiere-communion-a-l-age-adulte&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment préparer sa première communion à l’âge adulte ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>&#10;_Si un adulte désire faire sa première communion, il peut s’adresser à la paroisse de son domicile. Celle-ci lui indique la manière de se préparer au sacrement de l’eucharistie. On trouve dans chaque ville un groupe de préparation qui est une partie de ce qu’on appelle &quot;le catéchuménat&quot;. Le catéchuménat est un service qui prépare les adultes au baptême, à la confirmation et à la participation eucharistique avec un accompagnateur. Il est destiné aussi bien aux personnes récemment baptisées, qu’à celles qui, baptisées enfants et même catéchisées, n’ont pas achevé leur initiation chrétienne.</text>
+          </information>
+          <information name="Est-il normal que les laïcs donnent la communion ?" id="est-il-normal-que-les-lacs-donnent-la-communion">
+            <tests>
+              <test input="Est-il normal que les laïcs donnent la communion ?" output="Je ne sais pas si il est normal que les laïcs donnent la communion mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+            </tests>
+            <triggers>Est-il normal que les laïcs donnent la communion ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>&#10;_Les ministres ordinaires du sacrement de l’eucharistie sont les prêtres et les diacres, mais des laïcs (hommes ou femmes) peuvent, sous l’autorité de l’évêque, être appelés à ce service comme une suppléance en raison du manque de prêtre, soit pour donner la communion pendant la messe, soit pour porter la communion aux malades (Code de Droit canonique can. 910 et 230 § 3). Dans le contexte actuel du manque important de ministres ordonnés, ce service tend à devenir habituel.</text>
+          </information>
+          <information name="Faut-il se confesser avant de communier ?" id="faut-il-se-confesser-avant-de-communier">
+            <tests>
+              <test input="Faut-il se confesser avant de communier ?" output="On doit se confesser avant de communier si l’on a fait des fautes graves. Dans l’Évangile, Jésus nous dit : « Si tu as quelque chose contre ton frère, va d’abord te réconcilier avec lui, ensuite tu viendras à l’autel ». Mais si on a commis des fautes légères, des péchés véniels, on n’est pas obligé de recevoir le sacrement de réconciliation avant de communier. Il n’est pas nécessaire d’être parfait pour communier. Se confesser avant la première communion n’est pas obligatoire ; mais fortement conseillé." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;faut-il-se-confesser-avant-de-communier&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Faut-il se confesser avant de communier ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>On doit se confesser avant de communier si l’on a fait des fautes graves. Dans l’Évangile, Jésus nous dit : « Si tu as quelque chose contre ton frère, va d’abord te réconcilier avec lui, ensuite tu viendras à l’autel ». Mais si on a commis des fautes légères, des péchés véniels, on n’est pas obligé de recevoir le sacrement de réconciliation avant de communier. Il n’est pas nécessaire d’être parfait pour communier. Se confesser avant la première communion n’est pas obligatoire ; mais fortement conseillé.</text>
+          </information>
           <information name="Je n&apos;ai pas fait ma première communion" id="je-n-ai-pas-fait-ma-premiere-communion">
             <triggers>Comment faire si je n&apos;ai pas fait ma première communion ? &#10;Je peux communier si je n&apos;ai pas fait ma première communion ? &#10;Communier à l&apos;église sans première communion. &#10;Ai-je le droit de communier ? &#10;Je peux communier si je n&apos;ai pas fait ma première communion ?&#10;Puis-je communier si je n&apos;ai pas fait ma première communion ?&#10;</triggers>
             <references>
@@ -1605,6 +1655,9 @@
             <text>Certains adultes, qui n’ont pas fait leur première communion, souhaiteraient communier. Pour cela, il faut suivre une préparation pour recevoir le sacrement de l’eucharistie, sinon la participation eucharistique risquerait de ne pas apporter grand chose d’un point de vue spirituel. Si vous désirez faire votre première communion, adressez-vous à la paroisse de votre domicile. </text>
           </information>
           <information name="Jeune avant la communion" id="jeune-avant-la-communion">
+            <tests>
+              <test input="Faut-il être à jeun avant de communier ?" output="Il faut s’abstenir, au moins une heure avant la participation eucharistique, de prendre tout aliment et boisson, à l’exception de l’eau et des médicaments (Can. 919, 1 et 3). Autrefois, il fallait être à jeun depuis minuit, c’était le jeûne eucharistique." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;jeune-avant-la-communion&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
             <triggers>Faut-il être à jeun avant de communier ?&#10;Peut-on manger avant de communier ?&#10;Combien de temps avant la communion faut-il arrêter de manger ? </triggers>
             <references>
               <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
@@ -1612,29 +1665,104 @@
             <sourceId>cybercure</sourceId>
             <text>Il faut s’abstenir, au moins une heure avant la participation eucharistique, de prendre tout aliment et boisson, à l’exception de l’eau et des médicaments (Can. 919, 1 et 3).&#10;_Autrefois, il fallait être à jeun depuis minuit, c’était le jeûne eucharistique.</text>
           </information>
-          <url name="La communion eucharistique" id="la-communion-eucharistique">
+          <information name="La communion au sang du Christ est-elle réservée aux prêtres ?" id="la-communion-au-sang-du-christ-est-elle-reservee-aux-pretres">
             <tests>
-              <test input="Qu&apos;est-ce que c&apos;est la communion eucharistique ?" output="La communion eucharistique est \hc_resource_site=#fr_FR#https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;la-communion-eucharistique&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="La communion au sang du Christ est-elle réservée aux prêtres ?" output="Communion sous les deux espèces pain et vin :&#10;&#10;Depuis le concile Vatican II, les fidèles peuvent communier au sang du Christ (lors de la Cène, Jésus a dit « prenez et buvez-en tous »). La communion au calice est recommandée dans différentes circonstances : lors des grandes fêtes liturgiques comme le Jeudi saint, Pâques ou la Pentecôte, pour les mariés à la célébration de leur mariage, pour les confirmands à la célébration de leur confirmation. On l’appelle communion &quot;sous les deux espèces&quot; c’est à dire le corps et le sang du Christ. C’est la pratique habituelle des rites orientaux. &quot; La sainte communion réalise plus pleinement sa forme de signe lorsqu’elle se fait sous les deux espèces. Car, sous cette forme, le signe du banquet eucharistique est mis plus pleinement en lumière &quot; (IGMR 240).&#10;&#10;La communion au sang du Christ se fait soit en buvant à la coupe, soit, plus habituellement pour des raisons d’hygiène, avec une hostie que le prêtre plonge dans le calice. En cas d’épidémie, en particulier de la grippe A, la communion au calice est dangereuse. Les personnes qui ont une allergie au gluten, qui se trouve dans les hosties, peuvent demander au prêtre de communier au calice." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;la-communion-au-sang-du-christ-est-elle-reservee-aux-pretres&quot; textlength=&quot;10&quot; /&gt;"/>
             </tests>
-            <description>C&apos;est la communion eucharistique.</description>
-            <sourceId>cybercure</sourceId>
-            <url>https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique</url>
-          </url>
-          <information name="Le geste de Paix" id="le-geste-de-paix">
-            <triggers>que signifie le geste de paix ?&#10;c&apos;est quoi la paix du christ à la messe ?&#10;le baiser de paix&#10;la paix du Christ à la messe</triggers>
+            <triggers>La communion au sang du Christ est-elle réservée aux prêtres ?</triggers>
             <references>
-              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
             </references>
             <sourceId>cybercure</sourceId>
-            <text>Au cours de la messe après le Notre Père, le prêtre ou le diacre dit à l’assemblée : &quot;Dans la charité du Christ, donnez vous la paix&quot;. Cela signifie que c’est la paix du Christ qui est la source de notre union fraternelle. </text>
+            <text>Communion sous les deux espèces pain et vin :&#10;&#10;Depuis le concile Vatican II, les fidèles peuvent communier au sang du Christ (lors de la Cène, Jésus a dit « prenez et buvez-en tous »). La communion au calice est recommandée dans différentes circonstances : lors des grandes fêtes liturgiques comme le Jeudi saint, Pâques ou la Pentecôte, pour les mariés à la célébration de leur mariage, pour les confirmands à la célébration de leur confirmation. On l’appelle communion &quot;sous les deux espèces&quot; c’est à dire le corps et le sang du Christ. C’est la pratique habituelle des rites orientaux. &quot; La sainte communion réalise plus pleinement sa forme de signe lorsqu’elle se fait sous les deux espèces. Car, sous cette forme, le signe du banquet eucharistique est mis plus pleinement en lumière &quot; (IGMR 240).&#10;&#10;La communion au sang du Christ se fait soit en buvant à la coupe, soit, plus habituellement pour des raisons d’hygiène, avec une hostie que le prêtre plonge dans le calice. En cas d’épidémie, en particulier de la grippe A, la communion au calice est dangereuse. Les personnes qui ont une allergie au gluten, qui se trouve dans les hosties, peuvent demander au prêtre de communier au calice.</text>
           </information>
-          <information name="Les étapes de la messe" id="les-etapes-de-la-messe">
-            <triggers>Comment se déroule la messe ?&#10;Quelles sont les étapes de la messe ? &#10;La préparation pénitentielle. &#10;Les rites de la messe&#10;Les rites à l&apos;église&#10;suivre la messe</triggers>
+          <information name="Les divorcés peuvent-ils communier ?" id="les-divorces-peuvent-ils-communier">
+            <tests>
+              <test input="Les divorcés peuvent-ils communier ?" output="Beaucoup de gens pensent que le divorce est interdit par l’Église. Ce n’est pas le divorce qui est interdit, mais le remariage à l’église. En effet le divorce civil n’annule pas le mariage religieux. Dans certains cas, le divorce est le moindre mal, mais il ne permet pas le remariage religieux.&#10;&#10;Les divorcés peuvent donc communier s’ils ne sont pas remariés et s’ils ne vivent pas en concubinage." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;les-divorces-peuvent-ils-communier&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Les divorcés peuvent-ils communier ?</triggers>
             <references>
-              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
             </references>
             <sourceId>cybercure</sourceId>
-            <text>Le déroulé de la respecte différents rites structurants : la préparation pénitentielle, la lecture de la Bible, l&apos;Offertoire, le rite de la Paix, l&apos;Eucharistie, l&apos;envoi dans la Paix. </text>
+            <text>Beaucoup de gens pensent que le divorce est interdit par l’Église. Ce n’est pas le divorce qui est interdit, mais le remariage à l’église. En effet le divorce civil n’annule pas le mariage religieux. Dans certains cas, le divorce est le moindre mal, mais il ne permet pas le remariage religieux.&#10;&#10;Les divorcés peuvent donc communier s’ils ne sont pas remariés et s’ils ne vivent pas en concubinage.</text>
+          </information>
+          <information name="Les divorcés remariés sont-ils excommuniés ?" id="les-divorces-remaries-sont-ils-excommunies">
+            <tests>
+              <test input="Les divorcés remariés sont-ils excommuniés ?" output="Leur situation dans l’Église est très différente de celles des personnes qui sont excommuniées. Ils peuvent avoir certaines responsabilités dans l’Église (catéchèse...) et avoir un rôle dans des célébrations (faire des lectures, animer des chants). Ils peuvent être parrain et marraine, avoir des obsèques religieuses. La situation des divorcés remariés n’est donc pas un rejet par l’Église, mais une participation incomplète à la vie de l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;les-divorces-remaries-sont-ils-excommunies&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Les divorcés remariés sont-ils excommuniés ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>&#10;_Leur situation dans l’Église est très différente de celles des personnes qui sont excommuniées. Ils peuvent avoir certaines responsabilités dans l’Église (catéchèse...) et avoir un rôle dans des célébrations (faire des lectures, animer des chants). Ils peuvent être parrain et marraine, avoir des obsèques religieuses. La situation des divorcés remariés n’est donc pas un rejet par l’Église, mais une participation incomplète à la vie de l’Église.</text>
+          </information>
+          <information name="Peut-on communier chaque fois que l’on participe à la messe ?" id="peut-on-communier-chaque-fois-que-l-on-participe-a-la-messe">
+            <tests>
+              <test input="Peut-on communier chaque fois que l’on participe à la messe ?" output="Il est souhaitable de communier quand on participe à la messe. Cependant il arrive que des personnes qui ne viennent qu’exceptionnellement à la messe, ou même qui sont incroyantes, participent à l’eucharistie lors d’un mariage, d’un enterrement etc. Au moment où on va vers l’autel, ils suivent le mouvement... Communier est une démarche de foi qui suppose une certaine disposition du cœur et une initiation au mystère eucharistique.&#10;&#10;Jadis on communiait rarement, on participait le plus souvent à la messe sans communier. On considérait qu’il était suffisant de contempler l’hostie consacrée au moment de l’élévation. Il suffisait de communier une fois par an au moment de Pâques, on faisait &quot;ses Pâques&quot;. Actuellement on communie habituellement quand on participe à la messe, mais il y a le risque que la pratique devienne un automatisme, une routine. Il faut donc chercher les moyens pour garder la qualité de la démarche personnelle et se préparer à recevoir le Seigneur en reconnaissant que nous avons besoin du pardon de Dieu." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;peut-on-communier-chaque-fois-que-l-on-participe-a-la-messe&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Peut-on communier chaque fois que l’on participe à la messe ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>Il est souhaitable de communier quand on participe à la messe. Cependant il arrive que des personnes qui ne viennent qu’exceptionnellement à la messe, ou même qui sont incroyantes, participent à l’eucharistie lors d’un mariage, d’un enterrement etc. Au moment où on va vers l’autel, ils suivent le mouvement... Communier est une démarche de foi qui suppose une certaine disposition du cœur et une initiation au mystère eucharistique.&#10;&#10;Jadis on communiait rarement, on participait le plus souvent à la messe sans communier. On considérait qu’il était suffisant de contempler l’hostie consacrée au moment de l’élévation. Il suffisait de communier une fois par an au moment de Pâques, on faisait &quot;ses Pâques&quot;. Actuellement on communie habituellement quand on participe à la messe, mais il y a le risque que la pratique devienne un automatisme, une routine. Il faut donc chercher les moyens pour garder la qualité de la démarche personnelle et se préparer à recevoir le Seigneur en reconnaissant que nous avons besoin du pardon de Dieu.</text>
+          </information>
+          <information name="Pourquoi les concubins ne peuvent pas communier ?" id="pourquoi-les-concubins-ne-peuvent-pas-communier">
+            <tests>
+              <test input="Pourquoi les concubins ne peuvent pas communier ?" output="C’est une question que beaucoup de chrétiens se posent et qui concerne beaucoup de monde.&#10;&#10;Mais alors qu’est-ce qui empêche les concubins de communier au Corps du Christ ? En effet, c’est bien d’un empêchement qu’il s’agit. Car le baptême a fait entrer le chrétien dans une vie d’alliance avec le Christ dans l’Église. Pour les chrétiens qui veulent fonder une famille, cette alliance est normalement scellée par le sacrement de mariage et nourrie et fortifiée par l’Eucharistie, le grand Sacrement de l’Alliance. Dans le cas du concubinage, il y a un manque l’alliance du sacrement de mariage. Cela nous aide à réaliser à la fois la grandeur du sacrement de mariage et du sacrement de l’Eucharistie." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Pourquoi les concubins ne peuvent pas communier ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>C’est une question que beaucoup de chrétiens se posent et qui concerne beaucoup de monde.&#10;&#10;Mais alors qu’est-ce qui empêche les concubins de communier au Corps du Christ ? En effet, c’est bien d’un empêchement qu’il s’agit. Car le baptême a fait entrer le chrétien dans une vie d’alliance avec le Christ dans l’Église. Pour les chrétiens qui veulent fonder une famille, cette alliance est normalement scellée par le sacrement de mariage et nourrie et fortifiée par l’Eucharistie, le grand Sacrement de l’Alliance. Dans le cas du concubinage, il y a un manque l’alliance du sacrement de mariage. Cela nous aide à réaliser à la fois la grandeur du sacrement de mariage et du sacrement de l’Eucharistie.</text>
+          </information>
+          <information name="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" id="pourquoi-l-eglise-demande-t-elle-a-ceux-qui-ont-epouse-un-divorce-de-ne-pas-communier">
+            <tests>
+              <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Je ne sais pas pourquoi l&apos;Église me demande Elle qui a épousé un divorcé de communier à ils mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+            </tests>
+            <triggers>Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>Beaucoup de personnes, qui ont épousé un divorcé, ne comprennent pas pourquoi elles ne peuvent pas communier. N’étant pas divorcé elle-même, elles ont l’impression qu’on leur fait porter la &quot;faute&quot; de leur conjoint, qu’elles sont &quot;punies&quot; sans qu’il y ait faute de leur part.&#10;&#10;On ne peut pas communier parce que l’on vit avec quelqu’un qui est déjà marié devant Dieu, même s’il est divorcé civilement.&#10;&#10;Pour ce genre de problème douloureux, il est nécessaire d’avoir un dialogue personnel avec un prêtre.</text>
+          </information>
+          <information name="Pourquoi l’Église demande-telle aux divorcés remariés de ne pas communier ?" id="pourquoi-l-eglise-demande-telle-aux-divorces-remaries-de-ne-pas-communier">
+            <tests>
+              <test input="Pourquoi l’Église demande-telle aux divorcés remariés de ne pas communier ?" output="Des personnes divorcées remariées ou vivant en concubinage souffrent de ne pas pouvoir communier, recevoir l’hostie. Elles se sentent exclues, rejetées par l’Église et sont conduites parfois à ne plus participer à la messe. Si l’Église demande aux divorcés remariés de ne pas participer au don eucharistique, c’est parce que leur vie (en rupture d’alliance) n’est pas en pleine cohérence avec lui (sacrement de l’alliance nouvelle).&#10;&#10;Même si on ne communie pas, la messe garde sa valeur, la participation à la messe n’est pas sans fruit. Elle nous fait participer par notre baptême au sacrifice du Christ et à l’offrande du sacrifice de toute l’Église. Elle nous permet aussi de recevoir la Parole de Dieu et de nous en imprégner. Saint Louis, qui participait à la messe chaque jour, ne communiait que quelquefois par an, comme c’était la pratique de l’Église jusqu’à saint Pie X.|otherAnswer-&gt;|Quel est l&apos;Église demande-telle de divorcés pourquoi remarié communier ?" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-l-eglise-demande-telle-aux-divorces-remaries-de-ne-pas-communier&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|" isOk="false"/>
+            </tests>
+            <triggers>Pourquoi l’Église demande-telle aux divorcés remariés de ne pas communier ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>Des personnes divorcées remariées ou vivant en concubinage souffrent de ne pas pouvoir communier, recevoir l’hostie. Elles se sentent exclues, rejetées par l’Église et sont conduites parfois à ne plus participer à la messe. Si l’Église demande aux divorcés remariés de ne pas participer au don eucharistique, c’est parce que leur vie (en rupture d’alliance) n’est pas en pleine cohérence avec lui (sacrement de l’alliance nouvelle).&#10;&#10;Même si on ne communie pas, la messe garde sa valeur, la participation à la messe n’est pas sans fruit. Elle nous fait participer par notre baptême au sacrifice du Christ et à l’offrande du sacrifice de toute l’Église. Elle nous permet aussi de recevoir la Parole de Dieu et de nous en imprégner. Saint Louis, qui participait à la messe chaque jour, ne communiait que quelquefois par an, comme c’était la pratique de l’Église jusqu’à saint Pie X.</text>
+          </information>
+          <information name="Que faire si on a pas fait sa &quot;première communion&quot; ?" id="que-faire-si-on-a-pas-fait-sa-premiere-communion">
+            <tests>
+              <test input="Que faire si on a pas fait sa &quot;première communion&quot; ?" output="Certains adultes, qui n’ont pas fait leur première communion, souhaiteraient communier. Pour cela, il faut suivre une préparation pour recevoir le sacrement de l’eucharistie, sinon la participation eucharistique risquerait de ne pas apporter grand chose d’un point de vue spirituel. La durée de la préparation dépend de l’itinéraire et des connaissances religieuses de chacun, elle est différente si l’on a été ou non au catéchisme." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;que-faire-si-on-a-pas-fait-sa-premiere-communion&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Que faire si on a pas fait sa &quot;première communion&quot; ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>&#10;_Certains adultes, qui n’ont pas fait leur première communion, souhaiteraient communier. Pour cela, il faut suivre une préparation pour recevoir le sacrement de l’eucharistie, sinon la participation eucharistique risquerait de ne pas apporter grand chose d’un point de vue spirituel. La durée de la préparation dépend de l’itinéraire et des connaissances religieuses de chacun, elle est différente si l’on a été ou non au catéchisme.</text>
+          </information>
+          <information name="Que nous apporte l’Eucharistie ?" id="que-nous-apporte-l-eucharistie">
+            <tests>
+              <test input="Que nous apporte l’Eucharistie ?" output="On reçoit le sacrement de l’eucharistie en communiant, normalement au cours de la messe. La communion nous met en contact personnel avec le Christ en créant une relation intime. Elle nous fait prendre conscience que le Christ est tout proche de nous, alors que souvent Dieu nous parait lointain. Elle nous invite au recueillement pour rencontrer le Christ. La communion touche notre coeur : elle nous apporte la paix, nous purifie de nos péchés et nous donne une force pour notre vie." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;que-nous-apporte-l-eucharistie&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>Que nous apporte l’Eucharistie ?</triggers>
+            <references>
+              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique"/>
+            </references>
+            <sourceId>cybercure</sourceId>
+            <text>On reçoit le sacrement de l’eucharistie en communiant, normalement au cours de la messe. La communion nous met en contact personnel avec le Christ en créant une relation intime. Elle nous fait prendre conscience que le Christ est tout proche de nous, alors que souvent Dieu nous parait lointain. Elle nous invite au recueillement pour rencontrer le Christ. La communion touche notre coeur : elle nous apporte la paix, nous purifie de nos péchés et nous donne une force pour notre vie.</text>
           </information>
         </folder>
         <folder name="Mariage" id="mariage">
@@ -1791,12 +1919,16 @@
             <sourceId>le-cate-en-minutes</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bZtFzzG9lYc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
-          <url name="GoConfess" id="goconfess">
+          <html name="GoConfess" id="goconfess">
+            <tests>
+              <test input="Comment rencontrer un prêtre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ARM9g7uh55E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;goconfess&quot; textlength=&quot;3&quot; /&gt;"/>
+              <test input="GoConfess" output="Qui est GoConfess ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ARM9g7uh55E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;goconfess&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
+            </tests>
             <triggers>Comment rencontrer un prêtre ?&#10;_GoConfess&#10;_GeoConfess</triggers>
             <description>C&apos;est une application chrétienne.</description>
             <sourceId>kto</sourceId>
-            <url>http://www.ktotv.com/goconfess</url>
-          </url>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ARM9g7uh55E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
         </folder>
       </folder>
       <folder name="À propos" id="a-propos-liturgie">
@@ -1909,9 +2041,9 @@
       <folder name="Saint Joseph" id="saint-joseph">
         <html name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
           <tests>
-            <test input="Qui est Saint Joseph ?" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;7&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-            <test input="Saint Joseph" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;7&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-            <test input="saint joseph" output="Saint joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;7&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+            <test input="Qui est Saint Joseph ?" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+            <test input="Saint Joseph" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+            <test input="saint joseph" output="Saint joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
           </tests>
           <triggers>Qui est Saint Joseph ?&#10;saint joseph</triggers>
           <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
@@ -1972,11 +2104,16 @@
         </html>
       </folder>
       <folder name="Sainte Mère Teresa" id="sainte-mere-teresa">
-        <url name="Quand Jésus a convaincu Mère Teresa de fonder les Sœurs de la charité" id="quand-jesus-a-convaincu-mere-teresa-de-fonder-les-surs-de-la-charite">
-          <description>C&apos;est la vie de Mère Teresa.&#10;C&apos;est Mère Teresa.</description>
+        <information name="Mère Teresa a été déclarée sainte le 4 septembre 2016" id="mere-teresa-a-ete-declaree-sainte-le-septembre">
+          <tests>
+            <test input="Quand Mère Teresa a été déclarée sainte ?" output="Je ne sais pas quand Sainte a déclaré Mère Teresa mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+          </tests>
+          <references>
+            <site book="https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre"/>
+          </references>
           <sourceId>aleteia</sourceId>
-          <url>http://fr.aleteia.org/2016/06/08/quand-jesus-a-convaincu-mere-teresa-de-fonder-les-soeurs-de-la-charite/</url>
-        </url>
+          <text>Mère Teresa a été déclarée sainte le 4 septembre 2016.</text>
+        </information>
       </folder>
       <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux">
         <html name="Qui est Thérèse de Lisieux?" id="qui-est-therese-de-lisieux">
