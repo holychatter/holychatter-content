@@ -1738,7 +1738,20 @@
           </html>
         </folder>
         <folder name="Ordre" id="ordre">
+          <html name="Femmes prêtres : c&apos;est pour quand ? - Abbé Amar" id="femmes-pretres-c-est-pour-quand-abbe-amar">
+            <tests>
+              <test input="Quand il y aura-t-il enfin des femmes prêtres ?" output="Je ne sais pas quand il y aura lui enfin." isOk="false"/>
+              <test input="L&apos;Eglise est misogyne." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9X-lq2KfLvM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;femmes-pretres-c-est-pour-quand-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
+              <test input="Les femmes n&apos;ont pas d&apos;âme." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9X-lq2KfLvM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;femmes-pretres-c-est-pour-quand-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
+            </tests>
+            <triggers>Quand il y aura-t-il enfin des femmes prêtres ?&#10;_L&apos;Eglise est misogyne.&#10;_Les femmes n&apos;ont pas d&apos;âme.</triggers>
+            <sourceId>padreblog</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9X-lq2KfLvM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
           <html name="Pourquoi le célibat des prêtres ? - Abbé Grosjean" id="pourquoi-le-celibat-des-pretres-abbe-grosjean">
+            <tests>
+              <test input="Pourquoi le célibat des prêtres ?" output="Quel est le célibat pourquoi un prêtre ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yYgUp69Irus&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;pourquoi-le-celibat-des-pretres-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;" isOk="false"/>
+            </tests>
             <triggers>Pourquoi le célibat des prêtres ?</triggers>
             <sourceId>padreblog</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yYgUp69Irus&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
@@ -2000,6 +2013,14 @@
         </references>
         <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XhGwXuSSyrI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="L&apos;Eglise : une secte qui a réussi ? - Abbé Amar" id="l-eglise-une-secte-qui-a-reussi-abbe-amar">
+        <tests>
+          <test input="L&apos;Eglise est-elle une secte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qlz4-zlqUfY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;l-eglise-une-secte-qui-a-reussi-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
+        </tests>
+        <triggers>L&apos;Eglise est-elle une secte ?</triggers>
+        <sourceId>padreblog</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qlz4-zlqUfY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="Pourquoi faut-il l’Église ?" id="pourquoi-faut-il-l-eglise">
         <tests>
