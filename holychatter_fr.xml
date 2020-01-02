@@ -549,6 +549,7 @@
       </folder>
     </folder>
     <folder name="À propos" id="a-propos-bible">
+      <folder name="Comment lire la Bible" id="comment-lire-la-bible"/>
       <information name="La Bible donne le moyen d&apos;accéder au bonheur" id="la-bible-donne-le-moyen-d-acceder-au-bonheur">
         <references>
           <site book="https://fr.aleteia.org/2018/08/11/dix-versets-bibliques-pour-trouver-le-bonheur"/>
@@ -623,7 +624,33 @@
   </folder>
   <folder name="Découverte" id="decouverte">
     <folder name="Par thème" id="par-theme">
-      <folder name="Message chrétien" id="message-chretien">
+      <folder name="Comment rencontrer Dieu ?" id="comment-rencontrer-dieu" nb="4">
+        <html name="Comment rencontrer Dieu ? (partie 2 : la violence)" id="comment-rencontrer-dieu-partie-la-violence" nb="2">
+          <tests>
+            <test input="Quelle attitude intérieure faut-il avoir pour rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2bEGB9c6VPw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 6,24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7,13-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-rencontrer-dieu-partie-la-violence&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Quelle attitude intérieure faut-il avoir pour rencontrer Dieu ?</triggers>
+          <references>
+            <bible book="Mt" chapter="11" verseBegin="12"/>
+            <bible book="Mt" chapter="6" verseBegin="24"/>
+            <bible book="Mt" chapter="7" verseBegin="13" verseEnd="14"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2bEGB9c6VPw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Comment rencontrer Dieu?" id="comment-rencontrer-dieu" nb="1">
+          <tests>
+            <test input="Comment rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 3,20&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-rencontrer-dieu&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Comment rencontrer Dieu ?</triggers>
+          <references>
+            <bible book="Rev" chapter="3" verseBegin="20"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Message chrétien" id="message-chretien" nb="2">
         <html name="Le message chrétien en 7 minutes" id="le-message-chretien-en-minutes">
           <tests>
             <test input="Je veux voir le message chrétien" output="Ok, tu veux voir le message chrétien.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1,15&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4,25&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9,2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -645,7 +672,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Qui est Jésus ?" id="qui-est-jesus">
+      <folder name="Qui est Jésus ?" id="qui-est-jesus" nb="3">
         <html name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort">
           <tests>
             <test input="Pourquoi Jésus est-il mort ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 3,23&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 2,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 2,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;pourquoi-jesus-est-il-mort&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -660,7 +687,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Sens de la vie" id="sens-de-la-vie">
+      <folder name="Sens de la vie" id="sens-de-la-vie" nb="1">
         <html name="Quel est le sens de la vie ?" id="quel-est-le-sens-de-la-vie">
           <tests>
             <test input="quel est le sens de la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h2kexzdFc3c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;quel-est-le-sens-de-la-vie&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -1332,7 +1359,56 @@
         </html>
       </folder>
       <folder name="Messe" id="messe" nb="1">
-        <folder name="Liturgie de la parole" id="liturgie-de-la-parole" nb="1">
+        <folder name="Accueil" id="accueil" nb="1">
+          <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee">
+            <information name="Au nom du Père et du Fils et du Saint-Esprit" id="au-nom-du-pere-et-du-fils-et-du-saint-esprit" nb="1">
+              <tests>
+                <test input="Au nom du Père et du Fils et du Saint-Esprit" output="Amen" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;au-nom-du-pere-et-du-fils-et-du-saint-esprit&quot; textlength=&quot;10&quot; /&gt;"/>
+              </tests>
+              <triggers>Au nom du Père et du Fils et du Saint-Esprit</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Amen</text>
+            </information>
+            <information name="La grâce de Jésus notre Seigneur, l’amour de Dieu le Père et..." id="la-grace-de-jesus-notre-seigneur-l-amour-de-dieu-le-pere-et" nb="2">
+              <triggers>La grâce de Jésus notre Seigneur, l’amour de Dieu le Père et la communion de l’Esprit Saint soient toujours avec vous</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Et avec votre esprit</text>
+            </information>
+            <information name="Le Seigneur soit avec vous" id="le-seigneur-soit-avec-vous" nb="3">
+              <tests>
+                <test input="Le Seigneur soit avec vous" output="Et avec votre esprit|otherAnswer-&gt;|Oui, je sais que le Seigneur est avec moi." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;le-seigneur-soit-avec-vous&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|"/>
+              </tests>
+              <triggers>Le Seigneur soit avec vous</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Et avec votre esprit</text>
+            </information>
+          </folder>
+        </folder>
+        <folder name="Envoi" id="envoi" nb="4">
+          <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee">
+            <information name="Allez, dans la paix du Christ" id="allez-dans-la-paix-du-christ">
+              <tests>
+                <test input="Allez, dans la paix du Christ" output="Nous rendons grâce à Dieu" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;allez-dans-la-paix-du-christ&quot; textlength=&quot;10&quot; /&gt;"/>
+              </tests>
+              <triggers>Allez, dans la paix du Christ</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Nous rendons grâce à Dieu</text>
+            </information>
+          </folder>
+        </folder>
+        <folder name="Liturgie de la parole" id="liturgie-de-la-parole" nb="2">
           <html name="AELF" id="aelf">
             <tests>
               <test input="c&apos;est quoi l&apos;AELF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;AELF&quot; resourceid=&quot;aelf&quot; textlength=&quot;4&quot; /&gt;"/>
@@ -1372,6 +1448,19 @@
             <sourceId>aelf</sourceId>
             <apiId>psalm</apiId>
           </api>
+          <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee-liturgie-de-la-parole">
+            <information name="Parole du Seigneur" id="parole-du-seigneur">
+              <tests>
+                <test input="Parole du Seigneur" output="Nous rendons gloire à Dieu|otherAnswer-&gt;|Quelle est parole de Seigneur ?" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;parole-du-seigneur&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|"/>
+              </tests>
+              <triggers>Parole du Seigneur</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Nous rendons gloire à Dieu</text>
+            </information>
+          </folder>
           <conversation_flow name="Suggérer de lire l&apos;évangile" id="suggerer-de-lire-l-evangile">
             <tests>
               <test input="Je connais bien l&apos;Eglise Catholique." output="Veux-tu lire l&apos;évangile du jour ?"/>
@@ -1421,24 +1510,63 @@
             <sourceId>retraite-dans-la-ville</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NTB8BlYb1oY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
-          <conversation_flow name="Que le Seigneur soit avec vous !" id="que-le-seigneur-soit-avec-vous">
-            <tests>
-              <test input="Que le Seigneur soit avec vous !" output="Et avec votre Esprit|otherAnswer-&gt;|Oui, je sais que le Seigneur est avec moi." outputReferences="|otherAnswer-&gt;|"/>
-            </tests>
-            <triggers>Que le Seigneur soit avec vous !</triggers>
-            <reply>Et avec votre Esprit</reply>
-          </conversation_flow>
-        </folder>
-        <folder name="Quête" id="quete" nb="2">
-          <html name="Comment faire son offrande au bon moment et avec un montant réfléchi ?" id="comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi">
-            <tests>
-              <test input="Comment faire son offrande au bon moment ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
-              <test input="Comment faire son offrande avec un montant réfléchi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
-            </tests>
-            <triggers>Comment faire son offrande au bon moment ?&#10;Comment faire son offrande avec un montant réfléchi ?</triggers>
-            <sourceId>appli-la-quete</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
+          <folder name="Quête" id="quete">
+            <html name="Comment faire son offrande au bon moment et avec un montant réfléchi ?" id="comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi">
+              <tests>
+                <test input="Comment faire son offrande au bon moment ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
+                <test input="Comment faire son offrande avec un montant réfléchi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
+              </tests>
+              <triggers>Comment faire son offrande au bon moment ?&#10;Comment faire son offrande avec un montant réfléchi ?</triggers>
+              <sourceId>appli-la-quete</sourceId>
+              <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+            </html>
+          </folder>
+          <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee-liturgie-eucharistique">
+            <information name="Elevons notre coeur" id="elevons-notre-coeur" nb="2">
+              <tests>
+                <test input="Elevons notre coeur" output="Nous le tournons vers le Seigneur" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;elevons-notre-coeur&quot; textlength=&quot;10&quot; /&gt;"/>
+              </tests>
+              <triggers>Elevons notre coeur</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Nous le tournons vers le Seigneur</text>
+            </information>
+            <information name="Le corps du Christ" id="le-corps-du-christ" nb="4">
+              <tests>
+                <test input="Le corps du Christ" output="Amen|otherAnswer-&gt;|Quel est le corps de Christ ?" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;le-corps-du-christ&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|" isOk="false"/>
+              </tests>
+              <triggers>Le corps du Christ</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Amen</text>
+            </information>
+            <information name="Prions ensemble, au moment d’offrir le sacrifice de toute I’Église" id="prions-ensemble-au-moment-d-offrir-le-sacrifice-de-toute-i-eglise" nb="1">
+              <tests>
+                <test input="Prions ensemble, au moment d’offrir le sacrifice de toute I’Église" output="Pour la gloire de Dieu et le salut du monde" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;prions-ensemble-au-moment-d-offrir-le-sacrifice-de-toute-i-eglise&quot; textlength=&quot;10&quot; /&gt;"/>
+              </tests>
+              <triggers>Prions ensemble, au moment d’offrir le sacrifice de toute I’Église</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Pour la gloire de Dieu et le salut du monde</text>
+            </information>
+            <information name="Rendons grâce au Seigneur notre Dieu" id="rendons-grace-au-seigneur-notre-dieu" nb="3">
+              <tests>
+                <test input="Rendons grâce au Seigneur notre Dieu" output="Cela est juste et bon" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;rendons-grace-au-seigneur-notre-dieu&quot; textlength=&quot;10&quot; /&gt;"/>
+              </tests>
+              <triggers>Rendons grâce au Seigneur notre Dieu</triggers>
+              <references>
+                <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              </references>
+              <sourceId>cybercure</sourceId>
+              <text>Cela est juste et bon</text>
+            </information>
+          </folder>
         </folder>
         <folder name="À propos" id="a-propos-messe">
           <html name="C’est quoi, la Sainte Messe ?" id="c-est-quoi-la-sainte-messe">
@@ -1464,12 +1592,15 @@
             <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RLG1yUQwLB8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
           <information name="Les étapes de la messe" id="les-etapes-de-la-messe">
-            <triggers>Comment se déroule la messe ?&#10;Quelles sont les étapes de la messe ? &#10;La préparation pénitentielle. &#10;Les rites de la messe&#10;Les rites à l&apos;église&#10;suivre la messe</triggers>
+            <tests>
+              <test input="Quelles sont les 4 parties de la messe ?" output="Les 4 parties de la messe sont l&apos;accueil, la litrugie de la Parole, la liturgie eucharistique et l&apos;envoi." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=Y9sPGNQVjg4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;les-etapes-de-la-messe&quot; textlength=&quot;17&quot; /&gt;"/>
+            </tests>
+            <triggers>Quelles sont les 4 parties de la messe ?</triggers>
             <references>
-              <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
+              <site book="https://www.youtube.com/watch?v=Y9sPGNQVjg4"/>
             </references>
-            <sourceId>cybercure</sourceId>
-            <text>Le déroulé de la respecte différents rites structurants : la préparation pénitentielle, la lecture de la Bible, l&apos;Offertoire, le rite de la Paix, l&apos;Eucharistie, l&apos;envoi dans la Paix. </text>
+            <sourceId>diocese-de-paris</sourceId>
+            <text>&#10;_Les 4 parties de la messe sont l&apos;accueil, la litrugie de la Parole, la liturgie eucharistique et l&apos;envoi.</text>
           </information>
           <html name="Quelles sont les parts de la Messe ?" id="quelles-sont-les-parts-de-la-messe">
             <tests>
@@ -1483,6 +1614,22 @@
             </references>
             <sourceId>le-cate-en-minutes</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/S5Tazmjssvo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Une messe expliquée en 6 minutes" id="une-messe-expliquee-en-minutes">
+            <tests>
+              <test input="Comment se déroule la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Quelles sont les étapes de la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Que se passe-t-il lors d&apos;une messe ?" output="Je ne sais pas ce qu&apos;il se passe lors mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+              <test input="Quelles sont les différentes étapes d&apos;une messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Que signifient les différentes étapes d&apos;une messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="En quoi la messe est une rencontre avec le Christ ?" output="Je ne sais pas si la Sainte Messe est une rencontre avec le Christ mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;" isOk="false"/>
+              <test input="Les rites de la messe" output="Quels sont les rites de la Sainte Messe ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+              <test input="Les rites à l&apos;église" output="Quels sont les rites de l&apos;Église ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+              <test input="Suivre la messe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment se déroule la messe ?&#10;Quelles sont les étapes de la messe ?&#10;Que se passe-t-il lors d&apos;une messe ?&#10;Quelles sont les différentes étapes d&apos;une messe ?&#10;Que signifient les différentes étapes d&apos;une messe ? &#10;En quoi la messe est une rencontre avec le Christ ?&#10;Les rites de la messe&#10;Les rites à l&apos;église&#10;Suivre la messe</triggers>
+            <sourceId>diocese-de-paris</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
         </folder>
       </folder>
@@ -1637,7 +1784,7 @@
           </information>
           <information name="Faut-il se confesser avant de communier ?" id="faut-il-se-confesser-avant-de-communier">
             <tests>
-              <test input="Faut-il se confesser avant de communier ?" output="On doit se confesser avant de communier si l’on a fait des fautes graves. Dans l’Évangile, Jésus nous dit : « Si tu as quelque chose contre ton frère, va d’abord te réconcilier avec lui, ensuite tu viendras à l’autel ». Mais si on a commis des fautes légères, des péchés véniels, on n’est pas obligé de recevoir le sacrement de réconciliation avant de communier. Il n’est pas nécessaire d’être parfait pour communier. Se confesser avant la première communion n’est pas obligatoire ; mais fortement conseillé." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;faut-il-se-confesser-avant-de-communier&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Faut-il se confesser avant de communier ?" output="On doit se confesser avant de communier si l’on a fait des fautes graves. Dans l’Évangile, Jésus nous dit : « Si tu as quelque chose contre ton frère, va d’abord te réconcilier avec lui, ensuite tu viendras à l’autel ». Mais si on a commis des fautes légères, des péchés véniels, on n’est pas obligé de recevoir le sacrement de réconciliation avant de communier. Il n’est pas nécessaire d’être parfait pour communier. Se confesser avant la première communion n’est pas obligatoire ; mais fortement conseillé." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 5,23-24&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;faut-il-se-confesser-avant-de-communier&quot; textlength=&quot;10&quot; /&gt;"/>
             </tests>
             <triggers>Faut-il se confesser avant de communier ?</triggers>
             <references>
@@ -3107,19 +3254,6 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ncL9hQhfKCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <folder name="Guillaume - Est-ce que Dieu existe ?" id="guillaume-est-ce-que-dieu-existe" defaultSourceId="guillaume-est-ce-que-dieu-existe">
-        <folder name="Comment rencontrer Dieu ?" id="comment-rencontrer-dieu">
-          <html name="Comment rencontrer Dieu?" id="comment-rencontrer-dieu">
-            <tests>
-              <test input="Comment rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 3,20&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-rencontrer-dieu&quot; textlength=&quot;36&quot; /&gt;"/>
-            </tests>
-            <triggers>Comment rencontrer Dieu ?</triggers>
-            <references>
-              <bible book="Rev" chapter="3" verseBegin="20"/>
-            </references>
-            <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-        </folder>
         <folder name="Foi et société" id="foi-et-societe">
           <html name="Comment embrasser ? (la place du corps dans l&apos;Eglise)" id="comment-embrasser-la-place-du-corps-dans-l-eglise">
             <tests>
