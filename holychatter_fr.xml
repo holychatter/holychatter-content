@@ -786,6 +786,17 @@
         </html>
       </folder>
       <folder name="Tous" id="tous" nb="4">
+        <html name="Comment poser une question à un prêtre ?" id="comment-poser-une-question-a-un-pretre">
+          <tests>
+            <test input="Comment puis-je poser une question à un prêtre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
+          </tests>
+          <triggers>Comment puis-je poser une question à un prêtre ?</triggers>
+          <references>
+            <site book="https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure"/>
+          </references>
+          <sourceId>cybercure</sourceId>
+          <code>&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;</code>
+        </html>
         <folder name="Holy Chatter" id="holy-chatter">
           <conversation_flow name="Bonjour" id="bonjour">
             <tests>
