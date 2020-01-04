@@ -549,7 +549,42 @@
       </folder>
     </folder>
     <folder name="À propos" id="a-propos-bible">
-      <folder name="Comment lire la Bible" id="comment-lire-la-bible"/>
+      <folder name="Comment lire la Bible" id="comment-lire-la-bible">
+        <html name="Comment lire la Bible ? (partie 1)" id="comment-lire-la-bible-partie" nb="1">
+          <tests>
+            <test input="Comment lire la Bible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JkIXSY4R--0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-lire-la-bible-partie&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Comment lire la Bible ?</triggers>
+          <references>
+            <bible book="Jn" chapter="8" verseBegin="12"/>
+            <bible book="Jn" chapter="14" verseBegin="21"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JkIXSY4R--0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Comment lire la Bible ? (partie 2)" id="comment-lire-la-bible-partie-comment-lire-la-bible" nb="2">
+          <tests>
+            <test input="Montre-moi une méthode pour lire la Bible !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/59gPMjtCcoM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jr 29,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-lire-la-bible-partie-comment-lire-la-bible&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Montre-moi une méthode pour lire la Bible !</triggers>
+          <references>
+            <bible book="Jer" chapter="29" verseBegin="13"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/59gPMjtCcoM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Comment lire la Bible ? (partie 3)" id="comment-lire-la-bible-partie-comment-lire-la-bible-3" nb="3">
+          <tests>
+            <test input="Pourquoi l&apos;Ancien Testament est important ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MhNwDChKwN8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 9,28-35&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-lire-la-bible-partie-comment-lire-la-bible-3&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Pourquoi l&apos;Ancien Testament est important ?</triggers>
+          <references>
+            <bible book="Lk" chapter="9" verseBegin="28" verseEnd="35"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MhNwDChKwN8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
       <information name="La Bible donne le moyen d&apos;accéder au bonheur" id="la-bible-donne-le-moyen-d-acceder-au-bonheur">
         <references>
           <site book="https://fr.aleteia.org/2018/08/11/dix-versets-bibliques-pour-trouver-le-bonheur"/>
@@ -2427,6 +2462,17 @@
         <sourceId>communaute-de-l-emmanuel</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1vt7eUnyzDs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
+      <html name="Comment trouver sa voie ? (la vocation)" id="comment-trouver-sa-voie-la-vocation">
+        <tests>
+          <test input="Comment trouver sa voie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iF02zCN-oNY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,28-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-trouver-sa-voie-la-vocation&quot; textlength=&quot;36&quot; /&gt;"/>
+        </tests>
+        <triggers>Comment trouver sa voie ?</triggers>
+        <references>
+          <bible book="Mt" chapter="19" verseBegin="28" verseEnd="29"/>
+        </references>
+        <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iF02zCN-oNY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
       <html name="La Parabole des Etoiles ou comment reconnaître les signes de Dieu ?" id="la-parabole-des-etoiles-ou-comment-reconnaitre-les-signes-de-dieu">
         <tests>
           <test input="Comment reconnaître les signes de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QZvnHYjw1ZI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 2&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-parabole-des-etoiles-ou-comment-reconnaitre-les-signes-de-dieu&quot; textlength=&quot;15&quot; /&gt;"/>
@@ -4053,6 +4099,19 @@
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pfQd2RI5w8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
         </folder>
+        <folder name="Vocation" id="vocation">
+          <html name="Ma vocation (je vous en dis un peu plus sur moi...)" id="ma-vocation-je-vous-en-dis-un-peu-plus-sur-moi">
+            <tests>
+              <test input="Montre-moi le témoignage d&apos;une vocation !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jqo8rYeo0oQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,16-20&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;ma-vocation-je-vous-en-dis-un-peu-plus-sur-moi&quot; textlength=&quot;36&quot; /&gt;"/>
+            </tests>
+            <triggers>Montre-moi le témoignage d&apos;une vocation !</triggers>
+            <references>
+              <bible book="Mt" chapter="19" verseBegin="16" verseEnd="20"/>
+            </references>
+            <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jqo8rYeo0oQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
       </folder>
     </folder>
     <folder name="À propos" id="a-propos-miracles">
@@ -4160,6 +4219,20 @@
         <triggers>Comment réciter le chapelet ?&#10;Comment prier le Saint Rosaire ?&#10;Comment méditer ses Mystères ? </triggers>
         <sourceId>christ-roi</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+    </folder>
+    <folder name="Marie" id="marie-prieres">
+      <html name="Prier avec Marie" id="prier-avec-marie">
+        <tests>
+          <test input="Pourquoi prier avec Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2RJq505vlrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 19,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 1,26-38&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;prier-avec-marie&quot; textlength=&quot;36&quot; /&gt;"/>
+        </tests>
+        <triggers>Pourquoi prier avec Marie ?</triggers>
+        <references>
+          <bible book="Jn" chapter="19" verseBegin="27"/>
+          <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38"/>
+        </references>
+        <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2RJq505vlrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
     <html name="Que faire quand on s&apos;ennuie? (la prière)" id="que-faire-quand-on-s-ennuie-la-priere">
