@@ -696,7 +696,7 @@
         <reply>Veux tu connaître l&apos;Esprit Saint ?</reply>
       </conversation_flow>
     </chatbot>
-    <chatbot name="martigues2019" id="martigues"/>
+    <chatbot name="martigues2019" id="martigues" useDefaultContent="true"/>
   </folder>
   <folder name="Découverte" id="decouverte">
     <folder name="Par thème" id="par-theme">
@@ -1151,6 +1151,20 @@
           <sourceId>le-cate-en-minutes</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/aPHd1r_ReSU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
+        <html name="Qui est Dieu ?" id="qui-est-dieu-la-trinite">
+          <tests>
+            <test input="Dieu existe-t-il ?" output="Oui, Dieu existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;dieu-existe&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2,16-17&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 7,19&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;qui-est-dieu-la-trinite&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="Si Dieu existe, pourquoi le mal ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2,16-17&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 7,19&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;qui-est-dieu-la-trinite&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>Dieu existe-t-il ?&#10;Si Dieu existe, pourquoi le mal ?</triggers>
+          <references>
+            <bible book="Gen" chapter="2" verseBegin="16" verseEnd="17"/>
+            <bible book="Rom" chapter="7" verseBegin="19"/>
+            <bible book="Jn" chapter="15" verseBegin="11"/>
+          </references>
+          <sourceId>decouvrir-dieu</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
       </folder>
       <folder name="Le Père" id="le-pere" nb="2">
         <information name="Dieu a décidé de descendre sur terre pour..." id="dieu-a-decide-de-descendre-sur-terre-pour">
@@ -1160,6 +1174,20 @@
           <sourceId>bible</sourceId>
           <text>Dieu a décidé de descendre sur terre pour prendre notre malédiction par amour pour nous.</text>
         </information>
+        <html name="Dieu a quelque chose à te dire" id="dieu-a-quelque-chose-a-te-dire">
+          <tests>
+            <test input="Qu&apos;est-ce que Dieu a à me dire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sCLW91mAiw8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1,27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 12,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,10-13&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;dieu-a-quelque-chose-a-te-dire&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>Qu&apos;est-ce que Dieu a à me dire ?</triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="27"/>
+            <bible book="Lk" chapter="12" verseBegin="7"/>
+            <bible book="Is" chapter="49" verseBegin="15"/>
+            <bible book="Lk" chapter="11" verseBegin="10" verseEnd="13"/>
+          </references>
+          <sourceId>decouvrir-dieu</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sCLW91mAiw8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
         <information name="Dieu choisit les moyens par lesquels il se fait connaître." id="dieu-choisit-les-moyens-par-lesquels-il-se-fait-connaitre">
           <sourceId>batir-sur-le-roc</sourceId>
           <text>Dieu choisit les moyens par lesquels il se fait connaître.</text>
@@ -1217,7 +1245,7 @@
         </information>
         <information name="Dieu existe" id="dieu-existe">
           <tests>
-            <test input="Dieu existe-t-il ?" output="Oui, Dieu existe." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;dieu-existe&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="Dieu existe-t-il ?" output="Oui, Dieu existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;dieu-existe&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2,16-17&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 7,19&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;qui-est-dieu-la-trinite&quot; textlength=&quot;15&quot; /&gt;"/>
             <test input="Dieu n&apos;existe pas" output="Non, Dieu existe." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 22,1-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7,14&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52,13-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mi 5,1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Za 12,3&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;dieu-existe&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
           <triggers>_Comment sait-on que Dieu existe ?</triggers>
@@ -2745,7 +2773,7 @@
       <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine">
         <html name="Sainte Marie Madeleine à la Sainte-Baume" id="sainte-marie-madeleine-a-la-sainte-baume">
           <tests>
-            <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 16,1-10&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <triggers>Où sont les reliques de Sainte Marie Madeleine ?</triggers>
           <description>Les reliques de Sainte Marie Madeleine sont à la Sainte-Baume.&#10;Les reliques de Sainte Marie Madeleine sont en Provence.&#10;</description>
@@ -4110,6 +4138,14 @@
             <sourceId>canal</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XABA6ep0Tt4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
+          <html name="François : &quot;J&apos;étais devenu alcoolique&quot;" id="francois-j-etais-devenu-alcoolique">
+            <tests>
+              <test input="Montre-moi le témoignage d&apos;un alcoolique." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DeP0Kl_0gck&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;francois-j-etais-devenu-alcoolique&quot; textlength=&quot;15&quot; /&gt;"/>
+            </tests>
+            <triggers>Montre-moi le témoignage d&apos;un alcoolique.</triggers>
+            <sourceId>decouvrir-dieu</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DeP0Kl_0gck&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
         </folder>
         <folder name="Paralysie partielle" id="paralysie-partielle">
           <html name="&quot;Ma guérison à Lourdes&quot; : Serge François témoigne" id="ma-guerison-a-lourdes-serge-francois-temoigne">
@@ -4518,6 +4554,18 @@
         <description>C&apos;est Marie-Andrée Rinck</description>
         <sourceId>rassemblement-a-son-image</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Florian: &quot;Ni l&apos;argent ni la gloire ne me rendaient heureux&quot;" id="florian-ni-l-argent-ni-la-gloire-ne-me-rendaient-heureux">
+        <tests>
+          <test input="Montre-moi le témoignage d&apos;un ancien joueur de football !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/28KD0F0fn7Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;florian-ni-l-argent-ni-la-gloire-ne-me-rendaient-heureux&quot; textlength=&quot;15&quot; /&gt;"/>
+          <test input="Montre-moi le témoignage d&apos;un ancien joueur de foot !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/28KD0F0fn7Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;florian-ni-l-argent-ni-la-gloire-ne-me-rendaient-heureux&quot; textlength=&quot;15&quot; /&gt;"/>
+        </tests>
+        <triggers>Montre-moi le témoignage d&apos;un ancien joueur de football !&#10;Montre-moi le témoignage d&apos;un ancien joueur de foot !</triggers>
+        <references>
+          <bible book="Jn" chapter="14" verseBegin="6"/>
+        </references>
+        <sourceId>decouvrir-dieu</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/28KD0F0fn7Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="Yvon Fillebeen, ancien athée devenu prêtre" id="yvon-fillebeen-ancien-athee-devenu-pretre">
         <tests>
