@@ -668,7 +668,7 @@
         <tests>
           <test input="Je suis chrétien." output="Veux tu savoir qui a écrit la Bible ?"/>
         </tests>
-        <triggers>Je suis chrétien.</triggers>
+        <triggers>-Je suis chrétien.</triggers>
         <reply>Veux tu savoir qui a écrit la Bible ?</reply>
       </conversation_flow>
     </folder>
@@ -686,14 +686,8 @@
       <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien">
         <reply>Es-tu chrétien ?</reply>
       </conversation_flow>
-      <conversation_flow name="Quelle est la fête la plus importante des chrétiens ?" id="quelle-est-la-fete-la-plus-importante-des-chretiens">
-        <reply>Quelle est la fête la plus importante des chrétiens ?</reply>
-      </conversation_flow>
       <conversation_flow name="Suggestion pour voir le message chrétien" id="suggestion-pour-voir-le-message-chretien">
         <reply>Veux-tu voir le message chrétien ?</reply>
-      </conversation_flow>
-      <conversation_flow name="suggestion pour connaître l&apos;Esprit Saint" id="suggestion-pour-connaitre-l-esprit-saint">
-        <reply>Veux tu connaître l&apos;Esprit Saint ?</reply>
       </conversation_flow>
     </chatbot>
     <chatbot name="martigues2019" id="martigues" useDefaultContent="true"/>
@@ -935,7 +929,7 @@
     <folder name="Dieu" id="dieu" nb="1">
       <folder name="L&apos;Esprit" id="l-esprit" nb="3">
         <information name="Comment définir l’Esprit Saint ?" id="comment-definir-l-esprit-saint">
-          <triggers>Qui est l’Esprit Saint ?&#10;Comment définir l’Esprit Saint ?&#10;Qu&apos;est-ce que c&apos;est l’Esprit Saint ?</triggers>
+          <triggers>Qui est l’Esprit Saint ?&#10;Comment définir l’Esprit Saint ?&#10;Qu&apos;est-ce que c&apos;est l’Esprit Saint ?&#10;_l’Esprit Saint</triggers>
           <references>
             <site book="https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint"/>
           </references>
@@ -1039,7 +1033,7 @@
             <test input="le Saint Esprit" output="L’Esprit Saint est une des Trois Personnes de la Sainte Trinité. L’Esprit Saint est un seul Dieu avec le Père et le Fils. Il est l’Amour mutuel, le don total échangé entre le Père et le Fils. Le Père engendre le Fils dans le feu de l’Amour, il se donne tout entier à lui dans l’Amour ; le Fils se reçoit du Père, il se redonne tout entier au Père, dans le même Amour que celui qu’il a reçu. Cet Amour échangé entre le Père et le Fils, c’est l’Esprit Saint.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/0sWDHCdh4ps&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint&quot; textlength=&quot;69&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; textlength=&quot;25&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ac 4,31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 7&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-l-esprit-saint&quot; textlength=&quot;21&quot; /&gt;"/>
             <test input="le Saint-Esprit" output="L’Esprit Saint est une des Trois Personnes de la Sainte Trinité. L’Esprit Saint est un seul Dieu avec le Père et le Fils. Il est l’Amour mutuel, le don total échangé entre le Père et le Fils. Le Père engendre le Fils dans le feu de l’Amour, il se donne tout entier à lui dans l’Amour ; le Fils se reçoit du Père, il se redonne tout entier au Père, dans le même Amour que celui qu’il a reçu. Cet Amour échangé entre le Père et le Fils, c’est l’Esprit Saint.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/0sWDHCdh4ps&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint&quot; textlength=&quot;69&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; textlength=&quot;25&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ac 4,31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 7&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-l-esprit-saint&quot; textlength=&quot;21&quot; /&gt;"/>
           </tests>
-          <triggers>Qui est l’Esprit Saint ?</triggers>
+          <triggers>Qui est l’Esprit Saint ?&#10;_l’Esprit Saint</triggers>
           <references>
             <bible book="Acts" chapter="4" verseBegin="31"/>
             <bible book="Acts" chapter="6"/>
@@ -1174,7 +1168,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <information name="Qui est Dieu un et trine ?" id="qui-est-dieu-un-et-trine">
-          <triggers>Qui est Dieu ?</triggers>
+          <triggers>Qui est Dieu ?&#10;_Dieu</triggers>
           <references>
             <site book="https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)"/>
           </references>
@@ -1365,9 +1359,9 @@
         <html name="Qui est Dieu ?" id="qui-est-dieu">
           <tests>
             <test input="Qui est Dieu ?" output="Dieu est unique en trois personnes : le Père, le Fils et le Saint-Esprit, égaux, participant d&apos;une même essence divine mais fondamentalement distincts dans une communion d&apos;amour parfaite.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/HUHsPCG56s8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)&quot; textlength=&quot;58&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;qui-est-dieu-un-et-trine&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 4,24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 4,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 8,4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 6,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 34,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 36,26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-dieu&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Dieu" output="L’Esprit Saint est une des Trois Personnes de la Sainte Trinité. L’Esprit Saint est un seul Dieu avec le Père et le Fils. Il est l’Amour mutuel, le don total échangé entre le Père et le Fils. Le Père engendre le Fils dans le feu de l’Amour, il se donne tout entier à lui dans l’Amour ; le Fils se reçoit du Père, il se redonne tout entier au Père, dans le même Amour que celui qu’il a reçu. Cet Amour échangé entre le Père et le Fils, c’est l’Esprit Saint.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/0sWDHCdh4ps&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint&quot; textlength=&quot;69&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; textlength=&quot;25&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ac 4,31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 7&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-l-esprit-saint&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Dieu" output="Dieu est unique en trois personnes : le Père, le Fils et le Saint-Esprit, égaux, participant d&apos;une même essence divine mais fondamentalement distincts dans une communion d&apos;amour parfaite.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/HUHsPCG56s8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)&quot; textlength=&quot;58&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;qui-est-dieu-un-et-trine&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 4,24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 4,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 8,4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 6,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 34,21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jb 36,26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-dieu&quot; textlength=&quot;21&quot; /&gt;"/>
           </tests>
-          <triggers>Qui est Dieu ?</triggers>
+          <triggers>Qui est Dieu ?&#10;_Dieu</triggers>
           <references>
             <bible book="Jn" chapter="4" verseBegin="24"/>
             <bible book="1 Jn" chapter="4" verseBegin="12"/>
@@ -1604,12 +1598,12 @@
             <test input="Qui est Jésus ?" output="Pour les chrétiens, Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
             <test input="qui est jesus" output="Pour les chrétiens, Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
           </tests>
-          <triggers>Qui est Jésus ?</triggers>
+          <triggers>Qui est Jésus ?&#10;_Jésus</triggers>
           <sourceId>comprendre-dieu</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <information name="Qui est Jésus pour les chrétiens ?" id="qui-est-jesus-pour-les-chretiens">
-          <triggers>Qui est Jésus ?&#10;Qui est Jésus pour les chrétiens ?</triggers>
+          <triggers>Qui est Jésus ?&#10;Qui est Jésus pour les chrétiens ?&#10;_Jésus</triggers>
           <references>
             <site book="https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens"/>
           </references>
@@ -1790,7 +1784,7 @@
               <tests>
                 <test input="Au nom du Père et du Fils et du Saint-Esprit" output="Amen" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;au-nom-du-pere-et-du-fils-et-du-saint-esprit&quot; textlength=&quot;10&quot; /&gt;"/>
               </tests>
-              <triggers>Au nom du Père et du Fils et du Saint-Esprit</triggers>
+              <triggers>-Au nom du Père et du Fils et du Saint-Esprit</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1798,7 +1792,7 @@
               <text>Amen</text>
             </information>
             <information name="La grâce de Jésus notre Seigneur, l’amour de Dieu le Père et..." id="la-grace-de-jesus-notre-seigneur-l-amour-de-dieu-le-pere-et" nb="2">
-              <triggers>La grâce de Jésus notre Seigneur, l’amour de Dieu le Père et la communion de l’Esprit Saint soient toujours avec vous</triggers>
+              <triggers>-La grâce de Jésus notre Seigneur, l’amour de Dieu le Père et la communion de l’Esprit Saint soient toujours avec vous</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1809,7 +1803,7 @@
               <tests>
                 <test input="Le Seigneur soit avec vous" output="Et avec votre esprit" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;le-seigneur-soit-avec-vous&quot; textlength=&quot;10&quot; /&gt;"/>
               </tests>
-              <triggers>Le Seigneur soit avec vous</triggers>
+              <triggers>-Le Seigneur soit avec vous</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1824,7 +1818,7 @@
               <tests>
                 <test input="Allez, dans la paix du Christ" output="Nous rendons grâce à Dieu" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;allez-dans-la-paix-du-christ&quot; textlength=&quot;10&quot; /&gt;"/>
               </tests>
-              <triggers>Allez, dans la paix du Christ</triggers>
+              <triggers>-Allez, dans la paix du Christ</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1878,7 +1872,7 @@
               <tests>
                 <test input="Parole du Seigneur" output="Nous rendons gloire à Dieu|otherAnswer-&gt;|Quelle est parole de Seigneur ?" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;parole-du-seigneur&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|"/>
               </tests>
-              <triggers>Parole du Seigneur</triggers>
+              <triggers>-Parole du Seigneur</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1951,7 +1945,7 @@
               <tests>
                 <test input="Elevons notre coeur" output="Nous le tournons vers le Seigneur" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;elevons-notre-coeur&quot; textlength=&quot;10&quot; /&gt;"/>
               </tests>
-              <triggers>Elevons notre coeur</triggers>
+              <triggers>-Elevons notre coeur</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1962,7 +1956,7 @@
               <tests>
                 <test input="Le corps du Christ" output="Amen|otherAnswer-&gt;|Quel est le corps de Christ ?" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;le-corps-du-christ&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|" isOk="false"/>
               </tests>
-              <triggers>Le corps du Christ</triggers>
+              <triggers>-Le corps du Christ</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1973,7 +1967,7 @@
               <tests>
                 <test input="Prions ensemble, au moment d’offrir le sacrifice de toute I’Église" output="Pour la gloire de Dieu et le salut du monde" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;prions-ensemble-au-moment-d-offrir-le-sacrifice-de-toute-i-eglise&quot; textlength=&quot;10&quot; /&gt;"/>
               </tests>
-              <triggers>Prions ensemble, au moment d’offrir le sacrifice de toute I’Église</triggers>
+              <triggers>-Prions ensemble, au moment d’offrir le sacrifice de toute I’Église</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -1984,7 +1978,7 @@
               <tests>
                 <test input="Rendons grâce au Seigneur notre Dieu" output="Cela est juste et bon" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;rendons-grace-au-seigneur-notre-dieu&quot; textlength=&quot;10&quot; /&gt;"/>
               </tests>
-              <triggers>Rendons grâce au Seigneur notre Dieu</triggers>
+              <triggers>-Rendons grâce au Seigneur notre Dieu</triggers>
               <references>
                 <site book="https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe"/>
               </references>
@@ -2103,11 +2097,11 @@
             <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
             <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1QCuFZR0qy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
           </html>
-          <information name="Sens du sacrement baptême" id="sens-du-sacrement-bapteme">
+          <information name="Sens du sacrement du baptême" id="sens-du-sacrement-du-bapteme">
             <tests>
-              <test input="Quel est le sens du baptême ? " output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce que le sacrement du Baptême ?" output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
-              <test input="Pourquoi baptiser mon enfant ?" output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Quel est le sens du baptême ? " output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le sacrement du Baptême ?" output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Pourquoi baptiser mon enfant ?" output="Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
             </tests>
             <triggers>Qu&apos;est-ce que le sacrement du Baptême ? &#10;Quel est le sens du baptême ? &#10;Pourquoi baptiser mon enfant ?</triggers>
             <description>C&apos;est le sens du sacrement baptême.</description>
