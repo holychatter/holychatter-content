@@ -865,6 +865,14 @@
           <sourceId>diocese-nanterre</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
+        <html name="Qu&apos;est-ce qu&apos;une session de Paray ?" id="qu-est-ce-qu-une-session-de-paray">
+          <tests>
+            <test input="Qu&apos;est-ce qu&apos;une session de Paray ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gyyjoMjsXYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;qu-est-ce-qu-une-session-de-paray&quot; textlength=&quot;25&quot; /&gt;"/>
+          </tests>
+          <triggers>Qu&apos;est-ce qu&apos;une session de Paray ?</triggers>
+          <sourceId>communaute-de-l-emmanuel</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gyyjoMjsXYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
       </folder>
     </folder>
   </folder>
@@ -1707,6 +1715,16 @@
     </folder>
     <folder name="Liturgie" id="liturgie" nb="3">
       <folder name="Fêtes" id="fetes" nb="2">
+        <folder name="Noël" id="nol">
+          <html name="Comment vivre noel ? - Benjamin Pouzin" id="comment-vivre-noel-benjamin-pouzin">
+            <tests>
+              <test input="Comment vivre noel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Lyon Centre - église ste Blandine&quot; resourceid=&quot;comment-vivre-noel-benjamin-pouzin&quot; textlength=&quot;34&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment vivre noel ?</triggers>
+            <sourceId>lyon-centre-eglise-ste-blandine</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
         <folder name="Pâques" id="paques">
           <conversation_flow name="Christ est ressuscité !" id="christ-est-ressuscite">
             <tests>
@@ -3031,6 +3049,19 @@
         <sourceId>padreblog</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yhU1u4dWVK8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
+      <html name="Comment Dieu nous parle ? - Benjamin Pouzin" id="comment-dieu-nous-parle-benjamin-pouzin">
+        <tests>
+          <test input="Comment Dieu nous parle ?" output="Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f_1I5kp7aZU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,5-25&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 1,35-58&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1,18-25&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Lyon Centre - église ste Blandine&quot; resourceid=&quot;comment-dieu-nous-parle-benjamin-pouzin&quot; textlength=&quot;34&quot; /&gt;"/>
+        </tests>
+        <triggers>Comment Dieu nous parle ?</triggers>
+        <references>
+          <bible book="Lk" chapter="1" verseBegin="5" verseEnd="25"/>
+          <bible book="Lk" chapter="1" verseBegin="35" verseEnd="58"/>
+          <bible book="Mt" chapter="1" verseBegin="18" verseEnd="25"/>
+        </references>
+        <sourceId>lyon-centre-eglise-ste-blandine</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f_1I5kp7aZU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
       <html name="Comment plaire? (le regard des autres)" id="comment-plaire-le-regard-des-autres">
         <tests>
           <test input="Comment plaire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VVF71zElo7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 138,13-24&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-plaire-le-regard-des-autres&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -3201,7 +3232,7 @@
       </information>
       <information name="Dieu nous parle par la Bible." id="dieu-nous-parle-par-la-bible">
         <tests>
-          <test input="Comment Dieu nous parle ?" output="Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>Comment Dieu nous parle ?</triggers>
         <sourceId>batir-sur-le-roc</sourceId>
@@ -4615,18 +4646,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Expérience de mort imminente" id="experience-de-mort-imminente" nb="3">
-      <html name="Expérience de mort imminente (EMI) Ils sont revenus de l’au-delà" id="experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela">
-        <tests>
-          <test input="Montre-moi une expérience de mort imminente !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
-          <test input="C&apos;est quoi une expérience de mort imminente ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
-        </tests>
-        <triggers>Montre-moi une expérience de mort imminente !&#10;C&apos;est quoi une expérience de mort imminente ?</triggers>
-        <sourceId>reinformationtv</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-    </folder>
-    <folder name="Laïc" id="lac" nb="4">
+    <folder name="Laïc" id="lac" nb="3">
       <folder name="Conversions de l&apos;islam" id="conversions-de-l-islam">
         <html name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
           <tests>
@@ -4643,6 +4663,17 @@
           <triggers>Montre-moi un ancien musulman qui est maintenant baptisé !</triggers>
           <sourceId>famille-chretienne</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Expérience de mort imminente" id="experience-de-mort-imminente">
+        <html name="Expérience de mort imminente (EMI) Ils sont revenus de l’au-delà" id="experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela">
+          <tests>
+            <test input="Montre-moi une expérience de mort imminente !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
+            <test input="C&apos;est quoi une expérience de mort imminente ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>Montre-moi une expérience de mort imminente !&#10;C&apos;est quoi une expérience de mort imminente ?</triggers>
+          <sourceId>reinformationtv</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
       <html name="Ma grande carrière ne me rendait pas heureux - Témoignage de Jean-Marc Potdevin" id="ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin">
@@ -4675,7 +4706,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DqTkGIygqvQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="6">
+    <folder name="Prêtre" id="pretre" nb="5">
       <html name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,40&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -4690,6 +4721,21 @@
         <sourceId>jeunes-cathos</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
+      <folder name="Expérience mystique" id="experience-mystique">
+        <html name="&quot;Pour être guéri, il faut ouvrir notre cœur&quot; - Enseignement du père Thierry Avalle" id="pour-etre-gueri-il-faut-ouvrir-notre-cur-enseignement-du-pere-thierry-avalle">
+          <tests>
+            <test input="Montre-moi une expérience mystique." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tod4TdTipXg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ph 2,5-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 1,52-53&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;pour-etre-gueri-il-faut-ouvrir-notre-cur-enseignement-du-pere-thierry-avalle&quot; textlength=&quot;25&quot; /&gt;"/>
+          </tests>
+          <triggers>Montre-moi une expérience mystique.</triggers>
+          <references>
+            <bible book="Phil" chapter="2" verseBegin="5" verseEnd="11"/>
+            <bible book="Jn" chapter="19" verseBegin="28"/>
+            <bible book="Lk" chapter="1" verseBegin="52" verseEnd="53"/>
+          </references>
+          <sourceId>communaute-de-l-emmanuel</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tod4TdTipXg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
       <html name="La foi et l&apos;espérance désir de Dieu - P. René Luc" id="la-foi-et-l-esperance-desir-de-dieu-p-rene-luc">
         <tests>
           <test input="Qui est le Père René-Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;la-foi-et-l-esperance-desir-de-dieu-p-rene-luc&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -4715,7 +4761,7 @@
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="5">
+    <folder name="Séminariste" id="seminariste" nb="4">
       <html name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
