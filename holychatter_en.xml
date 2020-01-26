@@ -1581,61 +1581,124 @@
       <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="2">
         <information name="What is liturgy?" id="what-is-liturgy" nb="167">
           <tests>
-            <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
+          <references>
+            <ccc verseBegin="1077" verseEnd="1112"/>
+          </references>
           <sourceId>youcat</sourceId>
           <text>Liturgy is the official divine worship of the Church.</text>
         </information>
       </folder>
       <folder name="What We Believe" id="what-we-believe" nb="1">
-        <information name="Can we know the existence of God by our reason?" id="can-we-know-the-existence-of-god-by-our-reason" nb="4">
-          <tests>
-            <test input="Can we know the existence of God by our reason?" output="Yes, we can know God&apos;s existence by our reason." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-36&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-know-the-existence-of-god-by-our-reason&quot; textlength=&quot;6&quot; /&gt;"/>
-          </tests>
-          <references>
-            <ccc verseBegin="31" verseEnd="36"/>
-            <ccc verseBegin="44" verseEnd="47"/>
-          </references>
-          <sourceId>youcat</sourceId>
-          <text>We can know the existence of God by our reason.</text>
-        </information>
-        <information name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
-          <tests>
-            <test input="Why are we on earth?" output="We are on earth in order to know, in order to love God, in order to do good according to Will and in order to go to someday Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:1-4&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:15-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:5-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
-            <test input="For what purpose are we here on earth?" output="We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.|otherAnswer-&gt;|We are here on earth in order to know, in order to love God, in order to do good according to Will and in order to go to someday Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:1-4&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:15-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:5-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:1-4&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:15-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:5-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
-          </tests>
-          <triggers>For what purpose are we here on earth?</triggers>
-          <references>
-            <ccc verseBegin="1" verseEnd="3"/>
-            <ccc verseBegin="358"/>
-            <bible book="1 Tim" chapter="2" verseBegin="1" verseEnd="4"/>
-            <bible book="1 Jn" chapter="4" verseBegin="15" verseEnd="17"/>
-            <bible book="Jn" chapter="14" verseBegin="5" verseEnd="7"/>
-          </references>
-          <sourceId>youcat</sourceId>
-          <text>We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.</text>
-        </information>
-        <information name="Why did God create us?" id="why-did-god-create-us" nb="2">
-          <tests>
-            <test input="Why did God create us?" output="God created us out of free and unselfish love." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;"/>
-          </tests>
-          <triggers>Why did God create us?</triggers>
-          <references>
-            <ccc verseBegin="1" verseEnd="3"/>
-          </references>
-          <sourceId>youcat</sourceId>
-          <text>God created us out of free and unselfish love.</text>
-        </information>
-        <information name="Why do we seek God?" id="why-do-we-seek-god" nb="3">
-          <tests>
-            <test input="Why do we seek God?" output="We seek God because God placed a longing to seek in our hearts." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;27-30&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-we-seek-god&quot; textlength=&quot;6&quot; /&gt;"/>
-          </tests>
-          <references>
-            <ccc verseBegin="27" verseEnd="30"/>
-          </references>
-          <sourceId>youcat</sourceId>
-          <text>We seek God because God has placed in our hearts a longing to seek and find him.</text>
-        </information>
+        <folder name="Why We Are Able to Believe" id="why-we-are-able-to-believe" nb="1">
+          <folder name="God Approaches Us Men" id="god-approaches-us-men" nb="2">
+            <information name="How does God reveal himself in the Old Testament?" id="how-does-god-reveal-himself-in-the-old-testament" nb="8">
+              <tests>
+                <test input="How does God reveal himself in the Old Testament?" output="God shows himself in the Old Testament as God, who created the world out of love and remains faithful to men even when they have fallen away from him into sin." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 17:5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 12:3&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3:14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;54-64&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;70-72&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;how-does-god-reveal-himself-in-the-old-testament&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>How does God reveal himself in the Old Testament?</triggers>
+              <references>
+                <ccc verseBegin="54" verseEnd="64"/>
+                <ccc verseBegin="70" verseEnd="72"/>
+                <bible book="Gen" chapter="17" verseBegin="5"/>
+                <bible book="Gen" chapter="12" verseBegin="3"/>
+                <bible book="Ex" chapter="3" verseBegin="14"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>God shows himself in the Old Testament as God, who created the world out of love and remains faithful to men even when they have fallen away from him into sin.</text>
+            </information>
+            <information name="Why did God have to show himself in order for us to be able to know what he is like ?" id="why-did-god-have-to-show-himself-in-order-for-us-to-be-able-to-know-what-he-is-like" nb="7">
+              <tests>
+                <test input="Why did God have to show himself in order for us to be able to know what he is like ?" output="Man can know by reason that God exists, but not what God is really like. Yes because God would very much like to be known, he has revealed himself." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-have-to-show-himself-in-order-for-us-to-be-able-to-know-what-he-is-like&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>Why did God have to show himself in order for us to be able to know what he is like ?</triggers>
+              <references>
+                <ccc verseBegin="50" verseEnd="53"/>
+                <ccc verseBegin="68" verseEnd="69"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Man can know by reason that God exists, but not what God is really like. Yes because God would very much like to be known, he has revealed himself.</text>
+            </information>
+          </folder>
+          <folder name="Man Is Receptive to God" id="man-is-receptive-to-god" nb="1">
+            <information name="Can we grasp God at all in concepts?" id="can-we-grasp-god-at-all-in-concepts" nb="6">
+              <tests>
+                <test input="Can we grasp God at all in concepts?" output="Although we men are limited and the infinite greatness of God never fits into finite human concepts, we can nevertheless speak rightly about God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;39-43&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;48&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-grasp-god-at-all-in-concepts&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Is it possible to speak about God meaningfully?" output="I don&apos;t know if it&apos;s the possible to speak meaningfully about God." isOk="false"/>
+              </tests>
+              <triggers>Can we grasp God at all in concepts?&#10;Is it possible to speak about God meaningfully?</triggers>
+              <references>
+                <ccc verseBegin="39" verseEnd="43"/>
+                <ccc verseBegin="48"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Although we men are limited and the infinite greatness of God never fits into finite human concepts, we can nevertheless speak rightly about God.</text>
+            </information>
+            <information name="Can we know the existence of God by our reason?" id="can-we-know-the-existence-of-god-by-our-reason" nb="4">
+              <tests>
+                <test input="Can we know the existence of God by our reason?" output="Yes. Human reason can know God with certainty." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-36&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-know-the-existence-of-god-by-our-reason&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>Can we know the existence of God by our reason?</triggers>
+              <references>
+                <ccc verseBegin="31" verseEnd="36"/>
+                <ccc verseBegin="44" verseEnd="47"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Yes. Human reason can know God with certainty.</text>
+            </information>
+            <information name="Why do people deny that God exists, if they can know him by reason?" id="why-do-people-deny-that-god-exists-if-they-can-know-him-by-reason" nb="5">
+              <tests>
+                <test input="Why do people deny that God exists, if they can know him by reason?" output="I don&apos;t know why people deny if God can know himself by the reason then he exists." isOk="false"/>
+              </tests>
+              <triggers>Why do people deny that God exists, if they can know him by reason?</triggers>
+              <references>
+                <ccc verseBegin="37" verseEnd="38"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>To know the invisible God is a great challenge for the human mind. Many are scared off by it. Another reason why some do not want to know God is because they would then have to change their life. Anyone who says that the question about God is meaningless because it cannot be answered is making things too easy for himself.</text>
+            </information>
+            <information name="Why do we seek God?" id="why-do-we-seek-god" nb="3">
+              <tests>
+                <test input="Why do we seek God?" output="God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 17:27-28&quot; textlength=&quot;13&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;27-30&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-we-seek-god&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>Why do we seek God?</triggers>
+              <references>
+                <ccc verseBegin="27" verseEnd="30"/>
+                <bible book="Acts" chapter="17" verseBegin="27" verseEnd="28"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion.</text>
+            </information>
+          </folder>
+          <information name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
+            <tests>
+              <test input="Why are we on earth?" output="We are on earth in order to know, in order to love God, in order to do good according to Will and in order to go to someday Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
+              <test input="For what purpose are we here on earth?" output="We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.|otherAnswer-&gt;|We are here on earth in order to know, in order to love God, in order to do good according to Will and in order to go to someday Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
+            </tests>
+            <triggers>For what purpose are we here on earth?</triggers>
+            <references>
+              <ccc verseBegin="1" verseEnd="3"/>
+              <ccc verseBegin="358"/>
+              <bible book="1 Tim" chapter="2" verseBegin="4"/>
+              <bible book="1 Jn" chapter="4" verseBegin="16"/>
+              <bible book="Jn" chapter="14" verseBegin="6"/>
+            </references>
+            <sourceId>youcat</sourceId>
+            <text>We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.</text>
+          </information>
+          <information name="Why did God create us?" id="why-did-god-create-us" nb="2">
+            <tests>
+              <test input="Why did God create us?" output="God created us out of free and unselfish love." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>Why did God create us?</triggers>
+            <references>
+              <ccc verseBegin="1" verseEnd="3"/>
+            </references>
+            <sourceId>youcat</sourceId>
+            <text>God created us out of free and unselfish love.</text>
+          </information>
+        </folder>
       </folder>
       <folder name="Youcat for kids" id="youcat-for-kids">
         <folder name="Introduction" id="introduction">
