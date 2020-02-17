@@ -700,6 +700,12 @@
         <reply>Veux-tu voir le message chrétien ?</reply>
       </conversation_flow>
     </chatbot>
+    <chatbot name="Prochain par défaut" id="prochain-par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré">
+      <conversation_flow name="Quand es-tu né ?" id="quand-es-tu-ne">
+        <priority>3</priority>
+        <reply>Quand es-tu né ?</reply>
+      </conversation_flow>
+    </chatbot>
     <chatbot name="martigues2019" id="martigues" useDefaultContent="true"/>
   </folder>
   <folder name="Découverte" id="decouverte">
@@ -1681,8 +1687,8 @@
         </html>
         <html name="Qui est Jésus ?" id="qui-est-jesus">
           <tests>
-            <test input="Qui est Jésus ?" output="Pour les chrétiens, Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
-            <test input="qui est jesus" output="Pour les chrétiens, Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="Qui est Jésus ?" output="Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="qui est jesus" output="Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
           </tests>
           <triggers>Qui est Jésus ?&#10;_Jésus</triggers>
           <sourceId>comprendre-dieu</sourceId>
@@ -1694,7 +1700,7 @@
             <site book="https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens"/>
           </references>
           <sourceId>rencontrer-jesus</sourceId>
-          <text>Pour les chrétiens, Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.</text>
+          <text>Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.</text>
         </information>
         <html name="Qui était Jésus ?" id="qui-etait-jesus">
           <tests>
@@ -2216,6 +2222,258 @@
           </references>
           <sourceId>webtele-ecdq</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+    </folder>
+    <folder name="Personnes" id="personnes" nb="5">
+      <folder name="Frédéric Ozanam" id="frederic-ozanam">
+        <html name="Frédéric Ozanam" id="frederic-ozanam">
+          <triggers>Qui est Frédéric Ozanam ?</triggers>
+          <sourceId>college-saint-joseph-antoura</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RJH57Kb1wsk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Marie" id="marie">
+        <information name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
+          <tests>
+            <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Marie ?</triggers>
+          <references>
+            <site book="https://croire.la-croix.com/Definitions/Bible/Marie"/>
+          </references>
+          <sourceId>croire</sourceId>
+          <text>Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.</text>
+        </information>
+        <html name="Marie" id="marie">
+          <tests>
+            <test input="Quelle est la place de Marie dans l&apos;Eglise ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-56&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;marie&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="Marie est-t-elle une déesse ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-56&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;marie&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>Quelle est la place de Marie dans l&apos;Eglise ?&#10;Marie est-t-elle une déesse ?</triggers>
+          <description>C&apos;est Marie.&#10;Marie n&apos;est pas une déesse.</description>
+          <references>
+            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="56"/>
+            <bible book="Jn" chapter="19" verseBegin="25"/>
+            <ccc verseBegin="963" verseEnd="975"/>
+            <site book="https://croire.la-croix.com/Definitions/Bible/Marie"/>
+          </references>
+          <sourceId>croire</sourceId>
+          <code>&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;</code>
+        </html>
+        <information name="Marie est la mère de Jésus" id="marie-est-la-mere-de-jesus">
+          <triggers>Qui est la mère de Jésus ?</triggers>
+          <references>
+            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38"/>
+            <bible book="Mt" chapter="1" verseBegin="18" verseEnd="25"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>Marie est la mère de Jésus</text>
+        </information>
+        <html name="Qui est Marie ?" id="qui-est-marie">
+          <tests>
+            <test input="qui est Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="qui est la mère de Jésus" output="Marie est la mère de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-38&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1,18-25&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;marie-est-la-mere-de-jesus&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Qui est la Vierge Marie ?" output="Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="La Vierge Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Marie ?&#10;qui est la mère de Jésus</triggers>
+          <references>
+            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="28"/>
+            <bible book="Jn" chapter="19" verseBegin="25"/>
+            <bible book="Acts" chapter="1" verseBegin="14"/>
+            <ccc verseBegin="487" verseEnd="511"/>
+            <ccc verseBegin="963" verseEnd="975"/>
+          </references>
+          <sourceId>le-cate-en-minutes</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Padre Pio" id="padre-pio">
+        <html name="L’énigmatique Padre Pio !" id="l-enigmatique-padre-pio">
+          <tests>
+            <test input="Qui est Padre Pio ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;C&apos;est au programme&quot; resourceid=&quot;l-enigmatique-padre-pio&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Padre Pio ?</triggers>
+          <sourceId>c-est-au-programme</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney">
+        <information name="Dates et lieux" id="dates-et-lieux">
+          <tests>
+            <test input="Quand Jean-Marie Vianney fut appelé à l&apos;armée ?" output="Jean-Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Jean-Marie_Vianney&quot; textlength=&quot;48&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;10&quot; /&gt;"/>
+          </tests>
+          <references>
+            <site book="https://fr.wikipedia.org/wiki/Jean-Marie_Vianney"/>
+          </references>
+          <sourceId>wikipedia</sourceId>
+          <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean-Marie Vianney fit sa première communion à Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.&#10;Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
+        </information>
+      </folder>
+      <folder name="Saint Joseph" id="saint-joseph">
+        <html name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
+          <tests>
+            <test input="Qui est Saint Joseph ?" output="Le père adoptif de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+            <test input="Saint Joseph" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+            <test input="saint joseph" output="Saint joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Saint Joseph ?&#10;saint joseph</triggers>
+          <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <information name="Saint Joseph est le père adoptif de Jésus." id="saint-joseph-est-le-pere-adoptif-de-jesus">
+          <references>
+            <site book="https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus"/>
+          </references>
+          <sourceId>eglise-catholique-en-france</sourceId>
+          <text>Saint Joseph est le père adoptif de Jésus.&#10;</text>
+        </information>
+      </folder>
+      <folder name="Saint Luc" id="saint-luc">
+        <html name="Qui était Saint Luc ?" id="qui-etait-saint-luc">
+          <tests>
+            <test input="Qui était Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23,39-43&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
+            <test input="Qui est Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23,39-43&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
+            <test input="Saint Luc" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23,39-43&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui était Saint Luc ?</triggers>
+          <description>C&apos;est Saint Luc.</description>
+          <references>
+            <bible book="Lk" chapter="1" verseBegin="35"/>
+            <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
+            <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
+            <bible book="Lk" chapter="23" verseBegin="39" verseEnd="43"/>
+            <bible book="Lk" chapter="22" verseBegin="31" verseEnd="32"/>
+          </references>
+          <sourceId>retraite-dans-la-ville</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe">
+        <html name="La vie de Saint Maximilien Kolbe" id="la-vie-de-saint-maximilien-kolbe">
+          <tests>
+            <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="Montre-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="Où a travaillé Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe a travaillé au Japon." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Saint Maximilien Kolbe ?&#10;Montre-moi la vie de Saint Maximilien Kolbe</triggers>
+          <description>Saint Maximilien Kolbe a travaillé au Japon.</description>
+          <references>
+            <bible book="Jn" chapter="15" verseBegin="13"/>
+          </references>
+          <sourceId>pere-rene-luc</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous">
+        <html name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="fevrier-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
+          <tests>
+            <test input="Qui est Bernadette Soubirous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le Point&quot; resourceid=&quot;fevrier-le-jour-o-la-vierge-apparait-a-bernadette-soubirous&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est Bernadette Soubirous ?</triggers>
+          <sourceId>le-point</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Sainte Faustine" id="sainte-faustine">
+        <html name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="soeur-faustine-jesus-j-ai-confiance-en-toi">
+          <tests>
+            <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <description>C&apos;est la vie de Sainte Faustine.&#10;C&apos;est Sainte Faustine.</description>
+          <sourceId>fabienne-guerrero</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine">
+        <html name="Sainte Marie Madeleine à la Sainte-Baume" id="sainte-marie-madeleine-a-la-sainte-baume">
+          <tests>
+            <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 16,1-10&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>Où sont les reliques de Sainte Marie Madeleine ?</triggers>
+          <description>Les reliques de Sainte Marie Madeleine sont à la Sainte-Baume.&#10;Les reliques de Sainte Marie Madeleine sont en Provence.&#10;</description>
+          <references>
+            <bible book="Mk" chapter="16" verseBegin="1" verseEnd="10"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa">
+        <information name="Mère Teresa a été déclarée sainte le 4 septembre 2016" id="mere-teresa-a-ete-declaree-sainte-le-septembre">
+          <tests>
+            <test input="Quand Mère Teresa a été déclarée sainte ?" output="Sainte a déclaré Mère Teresa le 4 septembre 2016." outputReferences="Url : &lt;hc_site site=&quot;https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre&quot; textlength=&quot;70&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;mere-teresa-a-ete-declaree-sainte-le-septembre&quot; textlength=&quot;7&quot; /&gt;" isOk="false"/>
+          </tests>
+          <references>
+            <site book="https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre"/>
+          </references>
+          <sourceId>aleteia</sourceId>
+          <text>Mère Teresa a été déclarée sainte le 4 septembre 2016.</text>
+        </information>
+      </folder>
+      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux">
+        <html name="Qui est Thérèse de Lisieux?" id="qui-est-therese-de-lisieux">
+          <triggers>Qui est Thérèse de Lisieux?&#10;_Thérèse de Lisieux</triggers>
+          <sourceId>cn-media</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rxMU40_-GzA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
+      <folder name="À propos" id="a-propos-saints">
+        <html name="Devoir d&apos;état ? - Abbé Grosjean" id="devoir-d-etat-abbe-grosjean">
+          <tests>
+            <test input="Qu&apos;est-ce que le devoir d&apos;état ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;devoir-d-etat-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
+          </tests>
+          <triggers>Qu&apos;est-ce que le devoir d&apos;état ?</triggers>
+          <references>
+            <bible book="Mt" chapter="25" verseBegin="21"/>
+          </references>
+          <sourceId>padreblog</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
+          <tests>
+            <test input="Est-ce que nous sommes appelés à la Sainteté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lv 20,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,9-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 4,8&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 1,15-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-nous-sommes-appeles-a-la-saintete&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>Est-ce que nous sommes appelés à la Sainteté ?</triggers>
+          <references>
+            <bible book="Lev" chapter="20" verseBegin="7"/>
+            <bible book="Ps" chapter="50" verseBegin="3"/>
+            <bible book="Ps" chapter="50" verseBegin="9" verseEnd="12"/>
+            <bible book="Mt" chapter="5" verseBegin="48"/>
+            <bible book="Jas" chapter="4" verseBegin="8"/>
+            <bible book="1 Pet" chapter="1" verseBegin="15" verseEnd="16"/>
+            <bible book="1 Cor" chapter="3" verseBegin="9" verseEnd="10"/>
+            <bible book="1 Cor" chapter="1" verseBegin="2"/>
+            <bible book="Eph" chapter="4" verseBegin="24"/>
+            <ccc verseBegin="2012" verseEnd="2016"/>
+            <ccc verseBegin="2028" verseEnd="2029"/>
+          </references>
+          <sourceId>le-cate-en-minutes</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <api name="Le Saint du jour" id="le-saint-du-jour">
+          <tests>
+            <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;le-saint-du-jour&quot; textlength=&quot;24&quot; /&gt;"/>
+          </tests>
+          <triggers>Qui est le Saint du jour ?&#10;Quel Saint fêtons-nous aujourd&apos;hui ?</triggers>
+          <isAHighImportanceFile>true</isAHighImportanceFile>
+          <sourceId>l-evangile-au-quotidien</sourceId>
+          <apiId>saint</apiId>
+        </api>
+        <html name="Pourquoi les catholiques invoquent les saints ?" id="pourquoi-les-catholiques-invoquent-les-saints">
+          <tests>
+            <test input="Pourquoi les catholiques invoquent les saints ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bFZvn7tSw9U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;He 6,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Tb 12,12-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;946-962&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;pourquoi-les-catholiques-invoquent-les-saints&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>Pourquoi les catholiques invoquent les saints ?</triggers>
+          <references>
+            <bible book="Heb" chapter="6" verseBegin="12"/>
+            <bible book="Heb" chapter="13" verseBegin="7"/>
+            <bible book="Tob" chapter="12" verseBegin="12" verseEnd="15"/>
+            <ccc verseBegin="946" verseEnd="962"/>
+          </references>
+          <sourceId>le-cate-en-minutes</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bFZvn7tSw9U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
     </folder>
@@ -2810,251 +3068,6 @@
           <sourceId>kto</sourceId>
           <text>Un sacrement est « un signe sensible et efficace, institué par le Christ, qui produit ou augmente en nous la grâce, c´est-à-dire la vie divine ».</text>
         </information>
-      </folder>
-    </folder>
-    <folder name="Saints" id="saints" nb="5">
-      <folder name="Marie" id="marie">
-        <information name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
-          <tests>
-            <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est Marie ?</triggers>
-          <references>
-            <site book="https://croire.la-croix.com/Definitions/Bible/Marie"/>
-          </references>
-          <sourceId>croire</sourceId>
-          <text>Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.</text>
-        </information>
-        <html name="Marie" id="marie">
-          <tests>
-            <test input="Quelle est la place de Marie dans l&apos;Eglise ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-56&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;marie&quot; textlength=&quot;6&quot; /&gt;"/>
-            <test input="Marie est-t-elle une déesse ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-56&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;marie&quot; textlength=&quot;6&quot; /&gt;"/>
-          </tests>
-          <triggers>Quelle est la place de Marie dans l&apos;Eglise ?&#10;Marie est-t-elle une déesse ?</triggers>
-          <description>C&apos;est Marie.&#10;Marie n&apos;est pas une déesse.</description>
-          <references>
-            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="56"/>
-            <bible book="Jn" chapter="19" verseBegin="25"/>
-            <ccc verseBegin="963" verseEnd="975"/>
-            <site book="https://croire.la-croix.com/Definitions/Bible/Marie"/>
-          </references>
-          <sourceId>croire</sourceId>
-          <code>&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svxs58/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="Marie est la mère de Jésus" id="marie-est-la-mere-de-jesus">
-          <triggers>Qui est la mère de Jésus ?</triggers>
-          <references>
-            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38"/>
-            <bible book="Mt" chapter="1" verseBegin="18" verseEnd="25"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>Marie est la mère de Jésus</text>
-        </information>
-        <html name="Qui est Marie ?" id="qui-est-marie">
-          <tests>
-            <test input="qui est Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="qui est la mère de Jésus" output="Marie est la mère de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-38&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1,18-25&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;marie-est-la-mere-de-jesus&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Qui est la Vierge Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="La Vierge Marie" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est Marie ?&#10;Qui est la Vierge Marie ?&#10;qui est la mère de Jésus</triggers>
-          <references>
-            <bible book="Lk" chapter="1" verseBegin="26" verseEnd="28"/>
-            <bible book="Jn" chapter="19" verseBegin="25"/>
-            <bible book="Acts" chapter="1" verseBegin="14"/>
-            <ccc verseBegin="487" verseEnd="511"/>
-            <ccc verseBegin="963" verseEnd="975"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Padre Pio" id="padre-pio">
-        <html name="L’énigmatique Padre Pio !" id="l-enigmatique-padre-pio">
-          <tests>
-            <test input="Qui est Padre Pio ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;C&apos;est au programme&quot; resourceid=&quot;l-enigmatique-padre-pio&quot; textlength=&quot;18&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est Padre Pio ?</triggers>
-          <sourceId>c-est-au-programme</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney">
-        <information name="Dates et lieux" id="dates-et-lieux">
-          <tests>
-            <test input="Quand Jean-Marie Vianney fut appelé à l&apos;armée ?" output="Jean-Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Jean-Marie_Vianney&quot; textlength=&quot;48&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;10&quot; /&gt;"/>
-          </tests>
-          <references>
-            <site book="https://fr.wikipedia.org/wiki/Jean-Marie_Vianney"/>
-          </references>
-          <sourceId>wikipedia</sourceId>
-          <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean-Marie Vianney fit sa première communion à Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.&#10;Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
-        </information>
-      </folder>
-      <folder name="Saint Joseph" id="saint-joseph">
-        <html name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
-          <tests>
-            <test input="Qui est Saint Joseph ?" output="Le père adoptif de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-            <test input="Saint Joseph" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-            <test input="saint joseph" output="Saint joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est Saint Joseph ?&#10;saint joseph</triggers>
-          <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <information name="Saint Joseph est le père adoptif de Jésus." id="saint-joseph-est-le-pere-adoptif-de-jesus">
-          <references>
-            <site book="https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus"/>
-          </references>
-          <sourceId>eglise-catholique-en-france</sourceId>
-          <text>Saint Joseph est le père adoptif de Jésus.&#10;</text>
-        </information>
-      </folder>
-      <folder name="Saint Luc" id="saint-luc">
-        <html name="Qui était Saint Luc ?" id="qui-etait-saint-luc">
-          <tests>
-            <test input="Qui était Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23,39-43&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
-            <test input="Qui est Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23,39-43&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
-            <test input="Saint Luc" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,35&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23,39-43&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui était Saint Luc ?</triggers>
-          <description>C&apos;est Saint Luc.</description>
-          <references>
-            <bible book="Lk" chapter="1" verseBegin="35"/>
-            <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
-            <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
-            <bible book="Lk" chapter="23" verseBegin="39" verseEnd="43"/>
-            <bible book="Lk" chapter="22" verseBegin="31" verseEnd="32"/>
-          </references>
-          <sourceId>retraite-dans-la-ville</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe">
-        <html name="La vie de Saint Maximilien Kolbe" id="la-vie-de-saint-maximilien-kolbe">
-          <tests>
-            <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
-            <test input="Montre-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
-            <test input="Où a travaillé Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe a travaillé au Japon." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15,13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est Saint Maximilien Kolbe ?&#10;Montre-moi la vie de Saint Maximilien Kolbe</triggers>
-          <description>Saint Maximilien Kolbe a travaillé au Japon.</description>
-          <references>
-            <bible book="Jn" chapter="15" verseBegin="13"/>
-          </references>
-          <sourceId>pere-rene-luc</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous">
-        <html name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="fevrier-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
-          <tests>
-            <test input="Qui est Bernadette Soubirous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le Point&quot; resourceid=&quot;fevrier-le-jour-o-la-vierge-apparait-a-bernadette-soubirous&quot; textlength=&quot;8&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est Bernadette Soubirous ?</triggers>
-          <sourceId>le-point</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Sainte Faustine" id="sainte-faustine">
-        <html name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="soeur-faustine-jesus-j-ai-confiance-en-toi">
-          <tests>
-            <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
-          </tests>
-          <description>C&apos;est la vie de Sainte Faustine.&#10;C&apos;est Sainte Faustine.</description>
-          <sourceId>fabienne-guerrero</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine">
-        <html name="Sainte Marie Madeleine à la Sainte-Baume" id="sainte-marie-madeleine-a-la-sainte-baume">
-          <tests>
-            <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 16,1-10&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
-          </tests>
-          <triggers>Où sont les reliques de Sainte Marie Madeleine ?</triggers>
-          <description>Les reliques de Sainte Marie Madeleine sont à la Sainte-Baume.&#10;Les reliques de Sainte Marie Madeleine sont en Provence.&#10;</description>
-          <references>
-            <bible book="Mk" chapter="16" verseBegin="1" verseEnd="10"/>
-          </references>
-          <sourceId>theodom</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa">
-        <information name="Mère Teresa a été déclarée sainte le 4 septembre 2016" id="mere-teresa-a-ete-declaree-sainte-le-septembre">
-          <tests>
-            <test input="Quand Mère Teresa a été déclarée sainte ?" output="Sainte a déclaré Mère Teresa le 4 septembre 2016." outputReferences="Url : &lt;hc_site site=&quot;https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre&quot; textlength=&quot;70&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;mere-teresa-a-ete-declaree-sainte-le-septembre&quot; textlength=&quot;7&quot; /&gt;" isOk="false"/>
-          </tests>
-          <references>
-            <site book="https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre"/>
-          </references>
-          <sourceId>aleteia</sourceId>
-          <text>Mère Teresa a été déclarée sainte le 4 septembre 2016.</text>
-        </information>
-      </folder>
-      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux">
-        <html name="Qui est Thérèse de Lisieux?" id="qui-est-therese-de-lisieux">
-          <triggers>Qui est Thérèse de Lisieux?&#10;_Thérèse de Lisieux</triggers>
-          <sourceId>cn-media</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rxMU40_-GzA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
-      <folder name="À propos" id="a-propos-saints">
-        <html name="Devoir d&apos;état ? - Abbé Grosjean" id="devoir-d-etat-abbe-grosjean">
-          <tests>
-            <test input="Qu&apos;est-ce que le devoir d&apos;état ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;devoir-d-etat-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
-          </tests>
-          <triggers>Qu&apos;est-ce que le devoir d&apos;état ?</triggers>
-          <references>
-            <bible book="Mt" chapter="25" verseBegin="21"/>
-          </references>
-          <sourceId>padreblog</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <html name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
-          <tests>
-            <test input="Est-ce que nous sommes appelés à la Sainteté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lv 20,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,9-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 4,8&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 1,15-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-nous-sommes-appeles-a-la-saintete&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Est-ce que nous sommes appelés à la Sainteté ?</triggers>
-          <references>
-            <bible book="Lev" chapter="20" verseBegin="7"/>
-            <bible book="Ps" chapter="50" verseBegin="3"/>
-            <bible book="Ps" chapter="50" verseBegin="9" verseEnd="12"/>
-            <bible book="Mt" chapter="5" verseBegin="48"/>
-            <bible book="Jas" chapter="4" verseBegin="8"/>
-            <bible book="1 Pet" chapter="1" verseBegin="15" verseEnd="16"/>
-            <bible book="1 Cor" chapter="3" verseBegin="9" verseEnd="10"/>
-            <bible book="1 Cor" chapter="1" verseBegin="2"/>
-            <bible book="Eph" chapter="4" verseBegin="24"/>
-            <ccc verseBegin="2012" verseEnd="2016"/>
-            <ccc verseBegin="2028" verseEnd="2029"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-        <api name="Le Saint du jour" id="le-saint-du-jour">
-          <tests>
-            <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;le-saint-du-jour&quot; textlength=&quot;24&quot; /&gt;"/>
-          </tests>
-          <triggers>Qui est le Saint du jour ?&#10;Quel Saint fêtons-nous aujourd&apos;hui ?</triggers>
-          <isAHighImportanceFile>true</isAHighImportanceFile>
-          <sourceId>l-evangile-au-quotidien</sourceId>
-          <apiId>saint</apiId>
-        </api>
-        <html name="Pourquoi les catholiques invoquent les saints ?" id="pourquoi-les-catholiques-invoquent-les-saints">
-          <tests>
-            <test input="Pourquoi les catholiques invoquent les saints ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bFZvn7tSw9U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;He 6,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Tb 12,12-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;946-962&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;pourquoi-les-catholiques-invoquent-les-saints&quot; textlength=&quot;21&quot; /&gt;"/>
-          </tests>
-          <triggers>Pourquoi les catholiques invoquent les saints ?</triggers>
-          <references>
-            <bible book="Heb" chapter="6" verseBegin="12"/>
-            <bible book="Heb" chapter="13" verseBegin="7"/>
-            <bible book="Tob" chapter="12" verseBegin="12" verseEnd="15"/>
-            <ccc verseBegin="946" verseEnd="962"/>
-          </references>
-          <sourceId>le-cate-en-minutes</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bFZvn7tSw9U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
       </folder>
     </folder>
     <folder name="À propos" id="a-propos-eglise">
