@@ -689,18 +689,8 @@
         <reply>Es-tu nouveau à La Défense ?</reply>
       </conversation_flow>
     </chatbot>
-    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré">
-      <conversation_flow name="Connais-tu déjà bien l&apos;Eglise Catholique ?" id="connais-tu-deja-bien-l-eglise-catholique">
-        <reply>Connais-tu déjà bien l&apos;Eglise Catholique ?</reply>
-      </conversation_flow>
-    </chatbot>
-    <chatbot name="Prochain par défaut" id="prochain-par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré">
-      <conversation_flow name="Quand es-tu né ?" id="quand-es-tu-ne">
-        <priority>3</priority>
-        <reply>Quand es-tu né ?</reply>
-      </conversation_flow>
-    </chatbot>
-    <chatbot name="martigues2019" id="martigues" useDefaultContent="true"/>
+    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré"/>
+    <chatbot name="martigues2019" id="martigues" useDefaultContent="true" fallbackEngine="Cybercuré"/>
   </folder>
   <folder name="Découverte" id="decouverte">
     <folder name="Par thème" id="par-theme">
@@ -878,6 +868,10 @@
           <information name="Moral" id="moral">
             <text>Je vais bien.</text>
           </information>
+          <conversation_flow name="Quand es-tu né ?" id="quand-es-tu-ne-holy-chatter">
+            <priority>100</priority>
+            <reply>Quand es-tu né ?</reply>
+          </conversation_flow>
           <conversation_flow name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
             <triggers>Je ne suis pas chrétien.</triggers>
             <priority>300</priority>
@@ -3034,6 +3028,18 @@
           <description>C&apos;est une application chrétienne.</description>
           <sourceId>kto</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ARM9g7uh55E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+        <html name="Le christianisme est-il culpabilisant ?" id="le-christianisme-est-il-culpabilisant">
+          <tests>
+            <test input="Le christianisme est-il culpabilisant ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uini4fY6DvU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Sg 11,23-26&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Sg 12,1-2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;le-christianisme-est-il-culpabilisant&quot; textlength=&quot;36&quot; /&gt;"/>
+          </tests>
+          <triggers>Le christianisme est-il culpabilisant ?</triggers>
+          <references>
+            <bible book="Wis" chapter="11" verseBegin="23" verseEnd="26"/>
+            <bible book="Wis" chapter="12" verseBegin="1" verseEnd="2"/>
+          </references>
+          <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uini4fY6DvU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
       <folder name="À propos" id="a-propos-sacrements">
