@@ -677,13 +677,6 @@
         <sourceId>le-cate-en-minutes</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hVwNuYUc0Hs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
-      <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
-        <tests>
-          <test input="Je suis chrétien." output="Veux tu savoir qui a écrit la Bible ?"/>
-        </tests>
-        <triggers>-Je suis chrétien.</triggers>
-        <reply>Veux tu savoir qui a écrit la Bible ?</reply>
-      </conversation_flow>
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
@@ -874,6 +867,11 @@
           <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien-holy-chatter">
             <priority>300</priority>
             <reply>Es-tu chrétien ?</reply>
+          </conversation_flow>
+          <conversation_flow name="Je suis chrétien" id="je-suis-chretien">
+            <triggers>Je suis chrétien.</triggers>
+            <recommendations>Je veux prier.</recommendations>
+            <reply>Je suis content de l&apos;entendre. Que veux-tu qu&apos;on fasse ?</reply>
           </conversation_flow>
           <information name="Mon nom" id="mon-nom">
             <tests>
@@ -2162,14 +2160,22 @@
           </html>
         </folder>
         <folder name="Carême" id="careme" nb="4">
+          <html name="Le Carême c&apos;est quoi ?" id="le-careme-c-est-quoi">
+            <tests>
+              <test input="Le Carême c&apos;est quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;7&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;7&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;7&quot; /&gt;"/>
+            </tests>
+            <triggers>Le Carême c&apos;est quoi ?</triggers>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
           <html name="Vivre le carême" id="vivre-le-careme">
             <tests>
-              <test input="Qu&apos;est-ce que le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce que le carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
-              <test input="Comment vivre le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Comment vivre son carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
               <test input="Pourquoi jeûner ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Quelles démarches peut-on suivre pendant le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
             </tests>
-            <triggers>Qu&apos;est-ce que le Carême ?&#10;Comment vivre le Carême ?&#10;Pourquoi jeûner ?</triggers>
+            <triggers>Comment vivre son carême ?&#10;Quelles démarches peut-on suivre pendant le Carême ?&#10;Pourquoi jeûner ?</triggers>
             <references>
               <bible book="Mk" chapter="12" verseBegin="31"/>
               <bible book="Mt" chapter="4" verseBegin="4"/>
