@@ -2,6 +2,10 @@
 <contentRoot>
   <folder name="Bible" id="bible">
     <folder name="About" id="about">
+      <html name="Bible.is" id="bibleis">
+        <description>It&apos;s a Christian application.</description>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gTf-D0W_TUo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
       <information name="The Bible provides a way to access happiness by following Jesus." id="the-bible-provides-a-way-to-access-happiness-by-following-jesus">
         <tests>
           <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;the-bible-provides-a-way-to-access-happiness-by-following-jesus&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -48,16 +52,16 @@
         <information name="Jesus and the cross" id="jesus-and-the-cross">
           <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
         </information>
-        <information name="Jesus is the sun of God" id="jesus-is-the-sun-of-god">
+        <information name="Jesus is the son of God" id="jesus-is-the-son-of-god">
           <tests>
             <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
-            <test input="Jesus is the sun of God?" output="Yes, Jesus is God&apos;s sun." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Jesus is the son of God?" output="I don&apos;t know if Jesus is God&apos;s son." isOk="false"/>
           </tests>
           <triggers>Who is Jesus?</triggers>
           <references>
             <ccc verseBegin="432"/>
           </references>
-          <text>Jesus is the sun of God.</text>
+          <text>Jesus is the son of God.</text>
         </information>
         <information name="Jesus is..." id="jesus-is">
           <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
@@ -383,10 +387,10 @@
         </html>
       </folder>
     </folder>
-    <information name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
+    <conversation_flow name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
       <triggers>I don&apos;t know the Catholic Church.</triggers>
-      <text>Do you want to see a video that describe the Church ?</text>
-    </information>
+      <reply>Do you want to see a video that describe the Church ?</reply>
+    </conversation_flow>
     <folder name="Teaching" id="teaching">
       <information name="Credo" id="credo">
         <tests>
@@ -422,6 +426,38 @@
         <triggers>The peace of the Lord be with you always.&#10;</triggers>
         <reply>And with your spirit.</reply>
       </conversation_flow>
+    </folder>
+  </folder>
+  <folder name="Discovery" id="discovery">
+    <folder name="By age" id="by-age">
+      <folder name="Everybody" id="everybody">
+        <folder name="Holy Chatter" id="holy-chatter">
+          <conversation_flow name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
+            <priority>500</priority>
+            <reply>Do you already know the Catholic Church?</reply>
+          </conversation_flow>
+          <conversation_flow name="Greeting" id="greeting">
+            <tests>
+              <test input="Hello" output="Hello"/>
+            </tests>
+            <triggers>Hello</triggers>
+            <reply>Hello</reply>
+          </conversation_flow>
+          <information name="Moral" id="moral">
+            <tests>
+              <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;moral&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <text>I&apos;m fine.</text>
+          </information>
+          <information name="My name" id="my-name">
+            <tests>
+              <test input="What is your name?" output="My name is Holy Chatter." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;my-name&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="Who are you?" output="I am Holy Chatter." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;my-name&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <text>My name is Holy Chatter.</text>
+          </information>
+        </folder>
+      </folder>
     </folder>
   </folder>
   <folder name="Prayers" id="prayers">
@@ -1754,36 +1790,5 @@
       <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
       <text>Do you want to see a Christian testimony?</text>
     </information>
-  </folder>
-  <folder name="Tools" id="tools">
-    <html name="Bible.is" id="bibleis">
-      <description>It&apos;s a Christian application.</description>
-      <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gTf-D0W_TUo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-    </html>
-    <folder name="Me" id="me">
-      <conversation_flow name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
-        <reply>Do you already know the Catholic Church?</reply>
-      </conversation_flow>
-      <information name="Greeting" id="greeting">
-        <tests>
-          <test input="Hello" output="Hello" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;greeting&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>hello</triggers>
-        <text>Hello</text>
-      </information>
-      <information name="Moral" id="moral">
-        <tests>
-          <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;moral&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <text>I&apos;m fine.</text>
-      </information>
-      <information name="My name" id="my-name">
-        <tests>
-          <test input="What is your name?" output="My name is Holy Chatter." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;my-name&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Who are you?" output="I am Holy Chatter." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;my-name&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <text>My name is Holy Chatter.</text>
-      </information>
-    </folder>
   </folder>
 </contentRoot>

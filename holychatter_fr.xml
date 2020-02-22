@@ -851,7 +851,7 @@
               <test input="salut" output="Bonjour"/>
               <test input="Salut" output="Bonjour"/>
               <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
-              <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
             </tests>
             <triggers>Bonjour</triggers>
             <reply>Bonjour</reply>
@@ -1860,7 +1860,7 @@
           </conversation_flow>
           <information name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
             <tests>
-              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
             </tests>
             <references>
               <site book="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
@@ -2618,7 +2618,7 @@
         </information>
         <information name="Est-il normal que les laïcs donnent la communion ?" id="est-il-normal-que-les-lacs-donnent-la-communion">
           <tests>
-            <test input="Est-il normal que les laïcs donnent la communion ?" output="Je ne sais pas si il est normal que les laïcs donnent la communion mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="Est-il normal que les laïcs donnent la communion ?" output="Je ne sais pas si il est normal que les laïcs donnent la communion mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>Est-il normal que les laïcs donnent la communion ?</triggers>
           <references>
@@ -2715,7 +2715,7 @@
         </information>
         <information name="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" id="pourquoi-l-eglise-demande-t-elle-a-ceux-qui-ont-epouse-un-divorce-de-ne-pas-communier">
           <tests>
-            <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Je ne sais pas pourquoi l&apos;Église me demande Elle qui a épousé un divorcé de communier à ils mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Je ne sais pas pourquoi l&apos;Église me demande Elle qui a épousé un divorcé de communier à ils mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?</triggers>
           <references>
@@ -2839,7 +2839,7 @@
         </information>
         <html name="La validité et la nullité du mariage, qu’est ce que c’est ?" id="la-validite-et-la-nullite-du-mariage-qu-est-ce-que-c-est">
           <tests>
-            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="(&#9;Qu&apos;est-ce que la validité ?&#9;AND&#9;Quelle est la nullité du mariage ?&#9;)|otherAnswer-&gt;|Je ne sais pas ce que c&apos;est mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="(&#9;Qu&apos;est-ce que la validité ?&#9;AND&#9;Quelle est la nullité du mariage ?&#9;)|otherAnswer-&gt;|Je ne sais pas ce que c&apos;est mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>La validité et la nullité du mariage, qu’est ce que c’est ?</triggers>
           <references>
@@ -3118,7 +3118,7 @@
       </html>
       <html name="Pourquoi faut-il l’Église ?" id="pourquoi-faut-il-l-eglise">
         <tests>
-          <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>Pourquoi faut-il l’Église ?</triggers>
         <references>
@@ -3414,7 +3414,7 @@
       </information>
       <information name="Dieu nous parle par la Bible." id="dieu-nous-parle-par-la-bible">
         <tests>
-          <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>Comment Dieu nous parle ?</triggers>
         <sourceId>batir-sur-le-roc</sourceId>
@@ -3890,7 +3890,7 @@
       </html>
       <html name="Science et bible que nous apprennent-elles sur Dieu ?" id="science-et-bible-que-nous-apprennent-elles-sur-dieu">
         <tests>
-          <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>Science et bible que nous apprennent-elles sur Dieu ?</triggers>
         <sourceId>theodom</sourceId>
@@ -4153,7 +4153,7 @@
           <folder name="Nous les hommes, nous sommes ouverts à Dieu" id="nous-les-hommes-nous-sommes-ouverts-a-dieu" nb="1">
             <information name="Est-il vraiment possible de connaître Dieu ?" id="est-il-vraiment-possible-de-connaitre-dieu" nb="6">
               <tests>
-                <test input="Est-il vraiment possible de connaître Dieu ?" output="Je ne sais pas si il est vraiment possible de connaître Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+                <test input="Est-il vraiment possible de connaître Dieu ?" output="Je ne sais pas si il est vraiment possible de connaître Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
                 <test input="Peut-on parler de Dieu de manière juste ?" output="Bien que les hommes soient limités et que l&apos;infinie grandeur de Dieu ne puisse jamais entrer dans les limites de leur intelligence humaine, ils peuvent cependant parler de lui d&apos;une manière juste." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;39-43&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;48&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;est-il-vraiment-possible-de-connaitre-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>Est-il vraiment possible de connaître Dieu ?&#10;Peut-on parler de Dieu de manière juste ?</triggers>
@@ -4242,7 +4242,7 @@
         <folder name="Prologue" id="prologue">
           <information name="D&apos;où vient le monde et tout ce qui existe ?" id="d-o-vient-le-monde-et-tout-ce-qui-existe" nb="1">
             <tests>
-              <test input="D&apos;où vient le monde et tout ce qui existe ?" output="Je ne sais pas où le monde vient mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="D&apos;où vient le monde et tout ce qui existe ?" output="Je ne sais pas où le monde vient mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
             </tests>
             <triggers>D&apos;où vient le monde et tout ce qui existe ?</triggers>
             <references>
