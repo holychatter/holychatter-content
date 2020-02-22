@@ -775,7 +775,7 @@
       </folder>
     </folder>
     <folder name="Par âge" id="par-age">
-      <folder name="Adultes" id="adultes" nb="3">
+      <folder name="Adultes" id="adultes" nb="4">
         <html name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
           <tests>
             <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -797,6 +797,21 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
+      <folder name="Collégiens et lycéens" id="collegiens-et-lyceens" nb="2">
+        <html name="Pourquoi le Frat ?" id="pourquoi-le-frat">
+          <tests>
+            <test input="Qu&apos;est-ce que le Frat ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Pourquoi le Frat ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Frat" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="frat" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="fraternel" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Fraternel" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>Qu&apos;est-ce que le Frat ?&#10;Pourquoi le Frat ?</triggers>
+          <sourceId>le-fraternel</sourceId>
+          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+        </html>
+      </folder>
       <folder name="Enfants" id="enfants" nb="1">
         <html name="Le caté c&apos;est quoi ?" id="le-cate-c-est-quoi">
           <tests>
@@ -811,7 +826,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="2">
+      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="3">
         <html name="J&apos;hésite à pousser la porte du presbytère, à qui en parler ?" id="j-hesite-a-pousser-la-porte-du-presbytere-a-qui-en-parler">
           <tests>
             <test input="J&apos;hésite à pousser la porte du presbytère." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yHBWHVakhYc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;j-hesite-a-pousser-la-porte-du-presbytere-a-qui-en-parler&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -831,7 +846,7 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
-      <folder name="Tous" id="tous" nb="4">
+      <folder name="Tous" id="tous">
         <html name="Comment poser une question à un prêtre ?" id="comment-poser-une-question-a-un-pretre">
           <tests>
             <test input="Comment puis-je poser une question à un prêtre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -1839,87 +1854,6 @@
       </html>
     </folder>
     <folder name="Liturgie" id="liturgie" nb="3">
-      <folder name="Fêtes" id="fetes" nb="2">
-        <folder name="Noël" id="nol">
-          <html name="Comment vivre noel ? - Benjamin Pouzin" id="comment-vivre-noel-benjamin-pouzin">
-            <tests>
-              <test input="Comment vivre noel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Lyon Centre - église ste Blandine&quot; resourceid=&quot;comment-vivre-noel-benjamin-pouzin&quot; textlength=&quot;34&quot; /&gt;"/>
-            </tests>
-            <triggers>Comment vivre noel ?</triggers>
-            <sourceId>lyon-centre-eglise-ste-blandine</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-        </folder>
-        <folder name="Pâques" id="paques">
-          <conversation_flow name="Christ est ressuscité !" id="christ-est-ressuscite">
-            <tests>
-              <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
-            </tests>
-            <triggers>Christ est ressuscité !</triggers>
-            <reply>Il est vraiment ressuscité !</reply>
-          </conversation_flow>
-          <information name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
-            <tests>
-              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
-            </tests>
-            <references>
-              <site book="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
-            </references>
-            <sourceId>eglise-catholique-en-france</sourceId>
-            <text>La fête la plus importante des chrétiens est Pâques.</text>
-          </information>
-          <html name="Les trois Pâques" id="les-trois-paques">
-            <triggers>Quels sont les trois Pâques ?&#10;C&apos;est quoi la Pâques ?&#10;C&apos;est quoi la fête de Pâques ?</triggers>
-            <references>
-              <bible book="Gen" chapter="1" verseBegin="1" verseEnd="3"/>
-              <bible book="Ps" chapter="113" verseBegin="1" verseEnd="3"/>
-              <bible book="Ex" chapter="3" verseBegin="8"/>
-              <bible book="1 Cor" chapter="15" verseBegin="3" verseEnd="4"/>
-              <bible book="Rom" chapter="6" verseBegin="3" verseEnd="4"/>
-              <bible book="2 Cor" chapter="4" verseBegin="6"/>
-              <bible book="Jn" chapter="12" verseBegin="24"/>
-              <bible book="Mt" chapter="13" verseBegin="8"/>
-              <bible book="1 Pet" chapter="1" verseBegin="3" verseEnd="5"/>
-            </references>
-            <sourceId>webtele-ecdq</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ToRVjseNv20&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-          <html name="Qu&apos;est ce qu&apos;on fête à Pâques?" id="qu-est-ce-qu-on-fete-a-paques">
-            <tests>
-              <test input="Qu&apos;est ce qu&apos;on fête à pâques?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-qu-on-fete-a-paques&quot; textlength=&quot;7&quot; /&gt;"/>
-            </tests>
-            <triggers>Qu&apos;est ce qu&apos;on fête à pâques?</triggers>
-            <sourceId>pratiks</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-          <html name="Qu&apos;est ce qu&apos;une octave ?" id="qu-est-ce-qu-une-octave">
-            <tests>
-              <test input="Qu&apos;est ce qu&apos;une octave ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,19-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,24-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qu-est-ce-qu-une-octave&quot; textlength=&quot;22&quot; /&gt;"/>
-              <test input="octave" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,19-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,24-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qu-est-ce-qu-une-octave&quot; textlength=&quot;22&quot; /&gt;"/>
-            </tests>
-            <triggers>Qu&apos;est ce qu&apos;une octave ?</triggers>
-            <references>
-              <bible book="Lk" chapter="24" verseBegin="1" verseEnd="8"/>
-              <bible book="Jn" chapter="20" verseBegin="19" verseEnd="20"/>
-              <bible book="Jn" chapter="20" verseBegin="24" verseEnd="29"/>
-            </references>
-            <sourceId>retraite-dans-la-ville</sourceId>
-            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-          </html>
-        </folder>
-        <html name="Qu&apos;est ce que la fête de l&apos;ascension ?" id="qu-est-ce-que-la-fete-de-l-ascension">
-          <tests>
-            <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,1-11&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-l-ascension&quot; textlength=&quot;7&quot; /&gt;"/>
-          </tests>
-          <description>C&apos;est l&apos;ascension de Jésus.</description>
-          <references>
-            <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
-            <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
-          </references>
-          <sourceId>pratiks</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
-      </folder>
       <folder name="Messe" id="messe" nb="1">
         <folder name="Accueil" id="accueil" nb="1">
           <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee">
@@ -2201,6 +2135,132 @@
           </html>
         </folder>
       </folder>
+      <folder name="Temps liturgiques" id="temps-liturgiques" nb="2">
+        <folder name="Ascension" id="ascension" nb="6">
+          <html name="Qu&apos;est ce que la fête de l&apos;ascension ?" id="qu-est-ce-que-la-fete-de-l-ascension">
+            <tests>
+              <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,1-11&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-l-ascension&quot; textlength=&quot;7&quot; /&gt;"/>
+            </tests>
+            <description>C&apos;est l&apos;ascension de Jésus.</description>
+            <references>
+              <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
+              <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
+            </references>
+            <sourceId>pratiks</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Avent" id="avent" nb="2">
+          <html name="L&apos;Avent... et après ?" id="l-avent-et-apres">
+            <tests>
+              <test input="Qu&apos;est-ce que l&apos;Avent ?" output="\hc_resource_html=#fr_FR#&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;l-avent-et-apres&quot; textlength=&quot;9&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que l&apos;avent ?" output="\hc_resource_html=#fr_FR#&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;l-avent-et-apres&quot; textlength=&quot;9&quot; /&gt;"/>
+            </tests>
+            <triggers>Qu&apos;est-ce que l&apos;Avent ?</triggers>
+            <sourceId>padreblog</sourceId>
+            <code>&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Carême" id="careme" nb="4">
+          <html name="Vivre le carême" id="vivre-le-careme">
+            <tests>
+              <test input="Qu&apos;est-ce que le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Comment vivre le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Pourquoi jeûner ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+            </tests>
+            <triggers>Qu&apos;est-ce que le Carême ?&#10;Comment vivre le Carême ?&#10;Pourquoi jeûner ?</triggers>
+            <references>
+              <bible book="Mk" chapter="12" verseBegin="31"/>
+              <bible book="Mt" chapter="4" verseBegin="4"/>
+              <bible book="Mt" chapter="4" verseBegin="1" verseEnd="11"/>
+              <bible book="Lk" chapter="4" verseBegin="1" verseEnd="13"/>
+            </references>
+            <sourceId>diocese-de-paris</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Noël" id="nol" nb="3">
+          <html name="Comment vivre noel ? - Benjamin Pouzin" id="comment-vivre-noel-benjamin-pouzin">
+            <tests>
+              <test input="Comment vivre noel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Lyon Centre - église ste Blandine&quot; resourceid=&quot;comment-vivre-noel-benjamin-pouzin&quot; textlength=&quot;34&quot; /&gt;"/>
+            </tests>
+            <triggers>Comment vivre noel ?</triggers>
+            <sourceId>lyon-centre-eglise-ste-blandine</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Pâques" id="paques" nb="5">
+          <conversation_flow name="Christ est ressuscité !" id="christ-est-ressuscite">
+            <tests>
+              <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
+            </tests>
+            <triggers>Christ est ressuscité !</triggers>
+            <reply>Il est vraiment ressuscité !</reply>
+          </conversation_flow>
+          <information name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
+            <tests>
+              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            </tests>
+            <references>
+              <site book="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
+            </references>
+            <sourceId>eglise-catholique-en-france</sourceId>
+            <text>La fête la plus importante des chrétiens est Pâques.</text>
+          </information>
+          <html name="Les trois Pâques" id="les-trois-paques">
+            <triggers>Quels sont les trois Pâques ?&#10;C&apos;est quoi la Pâques ?&#10;C&apos;est quoi la fête de Pâques ?</triggers>
+            <references>
+              <bible book="Gen" chapter="1" verseBegin="1" verseEnd="3"/>
+              <bible book="Ps" chapter="113" verseBegin="1" verseEnd="3"/>
+              <bible book="Ex" chapter="3" verseBegin="8"/>
+              <bible book="1 Cor" chapter="15" verseBegin="3" verseEnd="4"/>
+              <bible book="Rom" chapter="6" verseBegin="3" verseEnd="4"/>
+              <bible book="2 Cor" chapter="4" verseBegin="6"/>
+              <bible book="Jn" chapter="12" verseBegin="24"/>
+              <bible book="Mt" chapter="13" verseBegin="8"/>
+              <bible book="1 Pet" chapter="1" verseBegin="3" verseEnd="5"/>
+            </references>
+            <sourceId>webtele-ecdq</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ToRVjseNv20&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Qu&apos;est ce qu&apos;on fête à Pâques?" id="qu-est-ce-qu-on-fete-a-paques">
+            <tests>
+              <test input="Qu&apos;est ce qu&apos;on fête à pâques?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-qu-on-fete-a-paques&quot; textlength=&quot;7&quot; /&gt;"/>
+            </tests>
+            <triggers>Qu&apos;est ce qu&apos;on fête à pâques?</triggers>
+            <sourceId>pratiks</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+          <html name="Qu&apos;est ce qu&apos;une octave ?" id="qu-est-ce-qu-une-octave">
+            <tests>
+              <test input="Qu&apos;est ce qu&apos;une octave ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,19-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,24-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qu-est-ce-qu-une-octave&quot; textlength=&quot;22&quot; /&gt;"/>
+              <test input="octave" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,19-20&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,24-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qu-est-ce-qu-une-octave&quot; textlength=&quot;22&quot; /&gt;"/>
+            </tests>
+            <triggers>Qu&apos;est ce qu&apos;une octave ?</triggers>
+            <references>
+              <bible book="Lk" chapter="24" verseBegin="1" verseEnd="8"/>
+              <bible book="Jn" chapter="20" verseBegin="19" verseEnd="20"/>
+              <bible book="Jn" chapter="20" verseBegin="24" verseEnd="29"/>
+            </references>
+            <sourceId>retraite-dans-la-ville</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+        <folder name="Temps ordinaire" id="temps-ordinaire" nb="1">
+          <html name="Devoir d&apos;état ? - Abbé Grosjean" id="devoir-d-etat-abbe-grosjean">
+            <tests>
+              <test input="Qu&apos;est-ce que le devoir d&apos;état ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;devoir-d-etat-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
+            </tests>
+            <triggers>Qu&apos;est-ce que le devoir d&apos;état ?</triggers>
+            <references>
+              <bible book="Mt" chapter="25" verseBegin="21"/>
+            </references>
+            <sourceId>padreblog</sourceId>
+            <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+          </html>
+        </folder>
+      </folder>
       <folder name="À propos" id="a-propos-liturgie">
         <html name="Le mystère de la liturgie" id="le-mystere-de-la-liturgie">
           <tests>
@@ -2412,17 +2472,6 @@
         </html>
       </folder>
       <folder name="À propos" id="a-propos-saints">
-        <html name="Devoir d&apos;état ? - Abbé Grosjean" id="devoir-d-etat-abbe-grosjean">
-          <tests>
-            <test input="Qu&apos;est-ce que le devoir d&apos;état ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;devoir-d-etat-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
-          </tests>
-          <triggers>Qu&apos;est-ce que le devoir d&apos;état ?</triggers>
-          <references>
-            <bible book="Mt" chapter="25" verseBegin="21"/>
-          </references>
-          <sourceId>padreblog</sourceId>
-          <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-        </html>
         <html name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
           <tests>
             <test input="Est-ce que nous sommes appelés à la Sainteté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lv 20,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,9-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 4,8&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 1,15-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-nous-sommes-appeles-a-la-saintete&quot; textlength=&quot;21&quot; /&gt;"/>
