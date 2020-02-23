@@ -725,6 +725,7 @@
           </tests>
           <triggers>Je veux voir le message chrétien</triggers>
           <description>C&apos;est le message chrétien.&#10;C&apos;est le kérygme.</description>
+          <recommendations>Je veux voir une guérison inexpliquée.&#10;L&apos;Église a des problèmes.&#10;Qui est Jésus ?</recommendations>
           <references>
             <bible book="Gen" chapter="1" verseBegin="1"/>
             <bible book="Rom" chapter="5" verseBegin="12"/>
@@ -868,11 +869,6 @@
             <priority>300</priority>
             <reply>Es-tu chrétien ?</reply>
           </conversation_flow>
-          <conversation_flow name="Je suis chrétien" id="je-suis-chretien">
-            <triggers>Je suis chrétien.</triggers>
-            <recommendations>Je veux prier.</recommendations>
-            <reply>Je suis content de l&apos;entendre. Que veux-tu qu&apos;on fasse ?</reply>
-          </conversation_flow>
           <information name="Mon nom" id="mon-nom">
             <tests>
               <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -887,6 +883,10 @@
           <conversation_flow name="Quand es-tu né ?" id="quand-es-tu-ne-holy-chatter">
             <priority>100</priority>
             <reply>Quand es-tu né ?</reply>
+          </conversation_flow>
+          <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
+            <triggers>Je suis chrétien.</triggers>
+            <reply>Veux tu savoir qui a écrit la Bible ?</reply>
           </conversation_flow>
           <conversation_flow name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
             <triggers>Je ne suis pas chrétien.</triggers>
@@ -3148,7 +3148,7 @@
           <test input="Les prêtres sont des pédophiles." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EuwNCe632_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;critique-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
           <test input="pédophiles" output="Qui sont pédophiles ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EuwNCe632_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;critique-de-l-eglise&quot; textlength=&quot;21&quot; /&gt;"/>
         </tests>
-        <triggers>Pourquoi l&apos;Église est critiquée ?&#10;_L&apos;Eglise est mauvaise.&#10;_Les prêtres sont des pédophiles.&#10;_Pédophiles&#10;_Pédophile&#10;_pédophiles&#10;_pédophile&#10;</triggers>
+        <triggers>Pourquoi l&apos;Église est critiquée ?&#10;L&apos;Église a des problèmes.&#10;_L&apos;Eglise est mauvaise.&#10;_Les prêtres sont des pédophiles.&#10;_Pédophiles&#10;_Pédophile&#10;_pédophiles&#10;_pédophile&#10;</triggers>
         <sourceId>le-cate-en-minutes</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EuwNCe632_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
@@ -3337,15 +3337,6 @@
         </references>
         <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e6QniJES-vo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
-      </html>
-      <html name="Je suis accro à la pornographie, comment m´en sortir ?" id="je-suis-accro-a-la-pornographie-comment-men-sortir">
-        <tests>
-          <test input="Je suis accro à la pornographie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MVm2cjVPAVw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;je-suis-accro-a-la-pornographie-comment-men-sortir&quot; textlength=&quot;3&quot; /&gt;"/>
-          <test input="Je suis accro au porno" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MVm2cjVPAVw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;je-suis-accro-a-la-pornographie-comment-men-sortir&quot; textlength=&quot;3&quot; /&gt;"/>
-        </tests>
-        <triggers>Je suis accro à la pornographie.&#10;_Je suis accro au porno.</triggers>
-        <sourceId>kto</sourceId>
-        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MVm2cjVPAVw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="La Parabole des Etoiles ou comment reconnaître les signes de Dieu ?" id="la-parabole-des-etoiles-ou-comment-reconnaitre-les-signes-de-dieu">
         <tests>
@@ -4006,6 +3997,15 @@
         </references>
         <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
+      </html>
+      <html name="Je suis accro à la pornographie, comment m´en sortir ?" id="je-suis-accro-a-la-pornographie-comment-men-sortir">
+        <tests>
+          <test input="Je suis accro à la pornographie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MVm2cjVPAVw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;je-suis-accro-a-la-pornographie-comment-men-sortir&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Je suis accro au porno" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MVm2cjVPAVw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;je-suis-accro-a-la-pornographie-comment-men-sortir&quot; textlength=&quot;3&quot; /&gt;"/>
+        </tests>
+        <triggers>Je suis accro à la pornographie.&#10;_Je suis accro au porno.</triggers>
+        <sourceId>kto</sourceId>
+        <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MVm2cjVPAVw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
       <html name="L’Eglise a t elle un problème avec le sexe ?" id="l-eglise-a-t-elle-un-probleme-avec-le-sexe">
         <tests>
