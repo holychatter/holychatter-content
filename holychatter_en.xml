@@ -57,7 +57,9 @@
             <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Jesus is the son of God?" output="I don&apos;t know if Jesus is God&apos;s son." isOk="false"/>
           </tests>
-          <triggers>Who is Jesus?</triggers>
+          <triggers>
+            <trigger value="Who is Jesus?"/>
+          </triggers>
           <references>
             <ccc verseBegin="432"/>
           </references>
@@ -85,19 +87,25 @@
           <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
         </information>
         <html name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth">
-          <triggers>Show me the life of Jesus</triggers>
+          <triggers>
+            <trigger value="Show me the life of Jesus"/>
+          </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="The Jesus Movie (1979)" id="the-jesus-movie">
-          <triggers>Show me the life of Jesus</triggers>
+          <triggers>
+            <trigger value="Show me the life of Jesus"/>
+          </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ">
-          <triggers>Show me the life of Jesus</triggers>
+          <triggers>
+            <trigger value="Show me the life of Jesus"/>
+          </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
@@ -121,7 +129,9 @@
           <tests>
             <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;why-is-jesus-god&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
-          <triggers>Why is Jesus God?</triggers>
+          <triggers>
+            <trigger value="Why is Jesus God?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
             <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
@@ -259,7 +269,9 @@
           <tests>
             <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mary-of-nazareth&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
-          <triggers>Show me the life of Mary</triggers>
+          <triggers>
+            <trigger value="Show me the life of Mary"/>
+          </triggers>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
       </folder>
@@ -330,7 +342,10 @@
             <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
             <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
           </tests>
-          <triggers>What is the Gospel of the day ?&#10;What is the Gospel of this Sunday ?</triggers>
+          <triggers>
+            <trigger value="What is the Gospel of the day ?"/>
+            <trigger value="What is the Gospel of this Sunday ?"/>
+          </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <sourceId>daily-gospel</sourceId>
           <apiId>holy_gospel</apiId>
@@ -344,7 +359,9 @@
           <apiId>second_reading</apiId>
         </api>
         <information name="Suggest to read the Holy Gospel" id="suggest-to-read-the-holy-gospel">
-          <triggers>I know the Catholic Church.</triggers>
+          <triggers>
+            <trigger value="I know the Catholic Church."/>
+          </triggers>
           <sourceId>daily-gospel</sourceId>
           <text>Do you want to read the Holy Gospel of today ?</text>
         </information>
@@ -364,7 +381,9 @@
         <tests>
           <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
-        <triggers>Who is the Saint of today ?</triggers>
+        <triggers>
+          <trigger value="Who is the Saint of today ?"/>
+        </triggers>
         <isAHighImportanceFile>true</isAHighImportanceFile>
         <sourceId>daily-gospel</sourceId>
         <apiId>saint</apiId>
@@ -388,7 +407,9 @@
       </folder>
     </folder>
     <conversation_flow name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
-      <triggers>I don&apos;t know the Catholic Church.</triggers>
+      <triggers>
+        <trigger value="I don&apos;t know the Catholic Church."/>
+      </triggers>
       <reply>Do you want to see a video that describe the Church ?</reply>
     </conversation_flow>
     <folder name="Teaching" id="teaching">
@@ -404,26 +425,36 @@
         <tests>
           <test input="Christ is risen!" output="Truly, He is Risen!"/>
         </tests>
-        <triggers>Christ is risen!</triggers>
+        <triggers>
+          <trigger value="Christ is risen!"/>
+        </triggers>
         <reply>Truly, He is Risen!</reply>
       </conversation_flow>
       <conversation_flow name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
-        <triggers>Let us give thanks to the Lord our God.</triggers>
+        <triggers>
+          <trigger value="Let us give thanks to the Lord our God."/>
+        </triggers>
         <reply>It is right and just.</reply>
       </conversation_flow>
       <conversation_flow name="Lift up your hearts." id="lift-up-your-hearts">
-        <triggers>Lift up your hearts.</triggers>
+        <triggers>
+          <trigger value="Lift up your hearts."/>
+        </triggers>
         <reply>We lift them up to the Lord.</reply>
       </conversation_flow>
       <conversation_flow name="The Lord be with you." id="the-lord-be-with-you">
-        <triggers>The Lord be with you.</triggers>
+        <triggers>
+          <trigger value="The Lord be with you."/>
+        </triggers>
         <reply>And with your spirit.</reply>
       </conversation_flow>
       <conversation_flow name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
         <tests>
           <test input="The peace of the Lord be with you always." output="And with your spirit."/>
         </tests>
-        <triggers>The peace of the Lord be with you always.&#10;</triggers>
+        <triggers>
+          <trigger value="The peace of the Lord be with you always."/>
+        </triggers>
         <reply>And with your spirit.</reply>
       </conversation_flow>
     </folder>
@@ -440,7 +471,9 @@
             <tests>
               <test input="Hello" output="Hello"/>
             </tests>
-            <triggers>Hello</triggers>
+            <triggers>
+              <trigger value="Hello"/>
+            </triggers>
             <reply>Hello</reply>
           </conversation_flow>
           <information name="Moral" id="moral">
@@ -466,14 +499,18 @@
         <tests>
           <test input="I want to see Jesus." output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Shalom World&quot; resourceid=&quot;eucharistic-adoration-st-stephen-catholic-church&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
-        <triggers>I want to see Jesus.</triggers>
+        <triggers>
+          <trigger value="I want to see Jesus."/>
+        </triggers>
         <sourceId>shalom-world</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
     <folder name="Rosary" id="rosary">
       <html name="Holy Rosary - Joyful Mysteries - Monday &amp; Saturday" id="holy-rosary-joyful-mysteries-monday-saturday">
-        <triggers>How to pray the rosary?</triggers>
+        <triggers>
+          <trigger value="How to pray the rosary?"/>
+        </triggers>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cvKWpiVLuRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
     </folder>
@@ -485,7 +522,9 @@
           <tests>
             <test input="Is there a proof for the existence of God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1Rhabwbw7MI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-37&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-proof-for-the-existence-of-god&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is there a proof for the existence of God?</triggers>
+          <triggers>
+            <trigger value="Is there a proof for the existence of God?"/>
+          </triggers>
           <description>It&apos;s a proof for the existence of God.</description>
           <references>
             <ccc verseBegin="31" verseEnd="37"/>
@@ -498,7 +537,9 @@
           <tests>
             <test input="What are miracles?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 17:12-18&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:30-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-miracles&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What are miracles?</triggers>
+          <triggers>
+            <trigger value="What are miracles?"/>
+          </triggers>
           <references>
             <bible book="Lk" chapter="17" verseBegin="12" verseEnd="18"/>
             <bible book="Jn" chapter="20" verseBegin="30" verseEnd="31"/>
@@ -512,7 +553,9 @@
             <test input="What does it mean to believe in God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GU5QwpHV04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 10:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 3:5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 28:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 118:8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;150-165&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;183&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-to-believe-in-god&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What does it mean to “believe in God”?" output="I don&apos;t know what it means in God” to “believe." isOk="false"/>
           </tests>
-          <triggers>What does it mean to “believe in God”?</triggers>
+          <triggers>
+            <trigger value="What does it mean to “believe in God”?"/>
+          </triggers>
           <description>It means to believe in God.</description>
           <references>
             <bible book="Rom" chapter="10" verseBegin="17"/>
@@ -530,7 +573,9 @@
           <tests>
             <test input="What is man?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SpJt3ZrpkEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 17:27-28&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 49:20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 1:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;2 Chr 1:7-12&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;26-30&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-45&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-man&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is man?</triggers>
+          <triggers>
+            <trigger value="What is man?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="17" verseBegin="27" verseEnd="28"/>
             <bible book="Ps" chapter="49" verseBegin="20"/>
@@ -547,7 +592,9 @@
           <tests>
             <test input="What is the soul?" output="The soul is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GH3nsxCGmEM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ezek 18:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Eccl 12:7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Deut 6:5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;362-368&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;382&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-soul&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the Soul?</triggers>
+          <triggers>
+            <trigger value="What is the Soul?"/>
+          </triggers>
           <description>It&apos;s the soul.</description>
           <references>
             <bible book="Ezek" chapter="18" verseBegin="4"/>
@@ -564,7 +611,9 @@
           <tests>
             <test input="What is the difference between believing and knowing?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FKVoLu_UAkU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;2 Cor 5:7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 11:1&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;159&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-difference-between-believing-and-knowing&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the difference between believing and knowing?</triggers>
+          <triggers>
+            <trigger value="What is the difference between believing and knowing?"/>
+          </triggers>
           <references>
             <bible book="2 Cor" chapter="5" verseBegin="7"/>
             <bible book="Heb" chapter="11" verseBegin="1"/>
@@ -584,7 +633,10 @@
             <test input="Who is Lucifer" output="Lucifer is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uUHjWoD3zhI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 24:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 1:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Chr 21:1&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 3:1&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 12:22-29&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 10:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 7:25-30&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jude 1:6&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-the-devil-exist&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Who is the daemon" output="The daemon is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uUHjWoD3zhI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 24:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 1:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Chr 21:1&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 3:1&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 12:22-29&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 10:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 7:25-30&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jude 1:6&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-the-devil-exist&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Does the Devil exist?&#10;Is there a Devil?</triggers>
+          <triggers>
+            <trigger value="Does the Devil exist?"/>
+            <trigger value="Is there a Devil?"/>
+          </triggers>
           <description>It&apos;s Satan.&#10;It&apos;s Lucifer.&#10;It&apos;s the daemon.&#10;Satan exists.&#10;Lucifer exists.&#10;The daemon exists.</description>
           <references>
             <bible book="Ps" chapter="24" verseBegin="4"/>
@@ -605,7 +657,9 @@
           <tests>
             <test input="Is there a contradiction between Faith and Science?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/JWJFAeI3r3E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ex 33:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 27:8-9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 63:2-3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3:2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-contradiction-between-faith-and-science&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is there a contradiction between Faith and Science?</triggers>
+          <triggers>
+            <trigger value="Is there a contradiction between Faith and Science?"/>
+          </triggers>
           <references>
             <bible book="Ex" chapter="33" verseBegin="18"/>
             <bible book="Ps" chapter="27" verseBegin="8" verseEnd="9"/>
@@ -621,7 +675,9 @@
           <tests>
             <test input="Is there a contradiction between the Creation and Evolution?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Bzxfab6qdQg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-contradiction-between-the-creation-and-evolution&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is there a contradiction between the Creation and Evolution?</triggers>
+          <triggers>
+            <trigger value="Is there a contradiction between the Creation and Evolution?"/>
+          </triggers>
           <references>
             <ccc verseBegin="282" verseEnd="289"/>
           </references>
@@ -632,7 +688,9 @@
           <tests>
             <test input="What is Creation according to the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1qrHme0lOjc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 10:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 3:5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 27:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 117:8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;150-165&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;183&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-creation-according-to-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Creation according to the Church?</triggers>
+          <triggers>
+            <trigger value="What is Creation according to the Church?"/>
+          </triggers>
           <references>
             <bible book="Rom" chapter="10" verseBegin="17"/>
             <bible book="Prov" chapter="3" verseBegin="5" verseEnd="6"/>
@@ -650,7 +708,9 @@
             <test input="What is Evil?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/n-2VNTDgDAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;309-314&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;324&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;400&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-evil&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is evil?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/n-2VNTDgDAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;309-314&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;324&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;400&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-evil&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Evil?</triggers>
+          <triggers>
+            <trigger value="What is Evil?"/>
+          </triggers>
           <references>
             <ccc verseBegin="309" verseEnd="314"/>
             <ccc verseBegin="324"/>
@@ -664,7 +724,9 @@
             <test input="What is Original Sin?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 3&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;396&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;421&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-original-sin&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="The Original Sin." output="The Original Sin is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 3&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;396&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;421&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-original-sin&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Original Sin?</triggers>
+          <triggers>
+            <trigger value="What is Original Sin?"/>
+          </triggers>
           <description>It&apos;s the Original Sin.</description>
           <references>
             <bible book="Gen" chapter="3"/>
@@ -681,7 +743,9 @@
           <tests>
             <test input="How can we summarize belief in the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/MU_VrDmfPl8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 7:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 1:1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 5:3-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;232-236&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;249-256&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;261&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-summarize-belief-in-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How can we summarize belief in the Trinity?</triggers>
+          <triggers>
+            <trigger value="How can we summarize belief in the Trinity?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="6" verseBegin="27"/>
             <bible book="Rom" chapter="7" verseBegin="1"/>
@@ -703,7 +767,10 @@
             <test input="How can we understand the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3BcvPMsvtk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-understand-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="How can we understand the mystery of the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3BcvPMsvtk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-understand-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How can we understand the Trinity?&#10;How can we understand the mystery of the Trinity?</triggers>
+          <triggers>
+            <trigger value="How can we understand the Trinity?"/>
+            <trigger value="How can we understand the mystery of the Trinity?"/>
+          </triggers>
           <references>
             <ccc verseBegin="237"/>
           </references>
@@ -714,7 +781,9 @@
           <tests>
             <test input="Is God a man with a long beard?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ehMQDoz2xQI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 6:9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Is 66:13&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 22:37&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 68:5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;238-240&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;370&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-a-man-with-a-long-beard&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is God a man with a long beard?</triggers>
+          <triggers>
+            <trigger value="Is God a man with a long beard?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="6" verseBegin="9"/>
             <bible book="Is" chapter="66" verseBegin="13"/>
@@ -730,7 +799,9 @@
           <tests>
             <test input="Is God really all powerful?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3VxizuWWTE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1:37&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Job 37:23&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 1:3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Job 42:2&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-really-all-powerful&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is God really all powerful?</triggers>
+          <triggers>
+            <trigger value="Is God really all powerful?"/>
+          </triggers>
           <references>
             <bible book="Lk" chapter="1" verseBegin="37"/>
             <bible book="Rom" chapter="1" verseBegin="20"/>
@@ -746,7 +817,9 @@
           <tests>
             <test input="Is God really unchanging?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kikujtUBqG8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jas 1:17&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mal 3:6&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 40:28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 6:17-18&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3:14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-really-unchanging&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is God really unchanging?</triggers>
+          <triggers>
+            <trigger value="Is God really unchanging?"/>
+          </triggers>
           <references>
             <bible book="Jas" chapter="1" verseBegin="17"/>
             <bible book="Mal" chapter="3" verseBegin="6"/>
@@ -762,7 +835,9 @@
           <tests>
             <test input="What does it mean that God is Love?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/OxO5Z-PjPLg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Jn 4:8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-that-god-is-love&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What does it mean that God is Love?</triggers>
+          <triggers>
+            <trigger value="What does it mean that God is Love?"/>
+          </triggers>
           <references>
             <bible book="1 Jn" chapter="4" verseBegin="8"/>
             <ccc verseBegin="218" verseEnd="221"/>
@@ -774,7 +849,9 @@
           <tests>
             <test input="What does it mean that God is Triune?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/pILdDxBavts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 1:1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 5:3-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;232-236&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;249-256&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;261&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-that-god-is-triune&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What does it mean that God is Triune?</triggers>
+          <triggers>
+            <trigger value="What does it mean that God is Triune?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="6" verseBegin="27"/>
             <bible book="Rom" chapter="1" verseBegin="7"/>
@@ -792,7 +869,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/pILdDxBavts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What pictures do we have of the Holy Trinity?" id="what-pictures-do-we-have-of-the-holy-trinity" nb="19">
-          <triggers>What pictures do we have of the Holy Trinity?</triggers>
+          <triggers>
+            <trigger value="What pictures do we have of the Holy Trinity?"/>
+          </triggers>
           <references>
             <bible book="Gen" chapter="18"/>
           </references>
@@ -804,7 +883,9 @@
             <test input="Who is God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 4:24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Deut 4:35&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 8:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 6:16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Job 34:21&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Job 36:26&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="God" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 4:24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Deut 4:35&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 8:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 6:16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Job 34:21&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Job 36:26&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Who is God?</triggers>
+          <triggers>
+            <trigger value="Who is God?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="4" verseBegin="24"/>
             <bible book="1 Jn" chapter="4" verseBegin="12"/>
@@ -830,7 +911,12 @@
             <test input="The world is violent because of religions." output="What are religions?" isOk="false"/>
             <test input="It is religion that is responsible for all the ills in the world." isOk="false"/>
           </tests>
-          <triggers>Does atheism lead to a better world?&#10;_Religions bring only problems.&#10;_The world is violent because of religions.&#10;_It is religion that is responsible for all the ills in the world.</triggers>
+          <triggers>
+            <trigger value="Does atheism lead to a better world?"/>
+            <trigger value="_Religions bring only problems."/>
+            <trigger value="_The world is violent because of religions."/>
+            <trigger value="_It is religion that is responsible for all the ills in the world."/>
+          </triggers>
           <references>
             <bible book="Ps" chapter="14" verseBegin="1"/>
             <ccc verseBegin="37" verseEnd="38"/>
@@ -843,7 +929,9 @@
           <tests>
             <test input="Is everyone called to holiness?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ayrvkqhwuoo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lev 20:7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 51:2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 51:7-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5:48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 4:8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:15-16&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:9-10&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 4:24&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-everyone-called-to-holiness&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Is everyone called to holiness?</triggers>
+          <triggers>
+            <trigger value="Is everyone called to holiness?"/>
+          </triggers>
           <references>
             <bible book="Lev" chapter="20" verseBegin="7"/>
             <bible book="Ps" chapter="51" verseBegin="2"/>
@@ -864,7 +952,9 @@
           <tests>
             <test input="What are virtues?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/VD49sz7Btno&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 4:8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2 Pet 1:3-8&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 13:1-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 1:3&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 5:5-6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 1:9-11&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 2:1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 5:23&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 6:16-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1803-1833&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-virtues&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What are virtues?</triggers>
+          <triggers>
+            <trigger value="What are virtues?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="5" verseBegin="48"/>
             <bible book="Phil" chapter="4" verseBegin="8"/>
@@ -885,7 +975,9 @@
           <tests>
             <test input="What is man in light of the faith?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/9jUDzLrI-dw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 139:13-16&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:15-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;355-361&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;381&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-man-in-light-of-the-faith&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is man in light of the faith?</triggers>
+          <triggers>
+            <trigger value="What is man in light of the faith?"/>
+          </triggers>
           <references>
             <bible book="Ps" chapter="139" verseBegin="13" verseEnd="16"/>
             <bible book="Jn" chapter="15" verseBegin="15" verseEnd="19"/>
@@ -901,7 +993,9 @@
             <test input="the prayer" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ED2palqNKa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 145:18&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 6:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:26&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 5:17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 2:8&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2558-2565&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2626-2649&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-prayer&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="prayer" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ED2palqNKa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 145:18&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 6:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:26&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 5:17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 2:8&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2558-2565&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2626-2649&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-prayer&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is prayer?</triggers>
+          <triggers>
+            <trigger value="What is prayer?"/>
+          </triggers>
           <references>
             <bible book="Ps" chapter="145" verseBegin="18"/>
             <bible book="Mt" chapter="7" verseBegin="11"/>
@@ -919,7 +1013,9 @@
           <tests>
             <test input="What is the Our Father?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/A5lg6QeZOBE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 6:9-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2759-2865&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-our-father&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the Our Father?</triggers>
+          <triggers>
+            <trigger value="What is the Our Father?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
             <ccc verseBegin="2759" verseEnd="2865"/>
@@ -931,7 +1027,9 @@
           <tests>
             <test input="What is the role of the body in prayer?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FvD2lr_UTu4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mk 1:40&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 14:11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:14&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2683-2698&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2720&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-role-of-the-body-in-prayer&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the role of the body in prayer?</triggers>
+          <triggers>
+            <trigger value="What is the role of the body in prayer?"/>
+          </triggers>
           <references>
             <bible book="Mk" chapter="1" verseBegin="40"/>
             <bible book="Rom" chapter="14" verseBegin="11"/>
@@ -947,7 +1045,9 @@
           <tests>
             <test input="Why are atheists wrong?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3rls2D149r4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 1:18-23&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 2:14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-are-atheists-not-wrong&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Why are atheists wrong?</triggers>
+          <triggers>
+            <trigger value="Why are atheists wrong?"/>
+          </triggers>
           <references>
             <bible book="Rom" chapter="1" verseBegin="18" verseEnd="23"/>
             <bible book="1 Cor" chapter="2" verseBegin="14"/>
@@ -963,7 +1063,9 @@
           <tests>
             <test input="How did Jesus live?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-live&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How did Jesus live?</triggers>
+          <triggers>
+            <trigger value="How did Jesus live?"/>
+          </triggers>
           <references>
             <ccc verseBegin="484" verseEnd="682"/>
           </references>
@@ -975,7 +1077,10 @@
             <test input="How did Jesus save us on the Cross?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 8:31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 10:33-34&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 13:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:3&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:18-19&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:2&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-save-us-on-the-cross&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is Redemption ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 8:31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 10:33-34&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 13:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:3&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:18-19&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:2&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-save-us-on-the-cross&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How did Jesus save us on the Cross?&#10;What is Redemption ?</triggers>
+          <triggers>
+            <trigger value="How did Jesus save us on the Cross?"/>
+            <trigger value="What is Redemption ?"/>
+          </triggers>
           <references>
             <bible book="Is" chapter="53"/>
             <bible book="Ps" chapter="22"/>
@@ -990,7 +1095,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="How does the grace of salvation come to us?" id="how-does-the-grace-of-salvation-come-to-us" nb="33">
-          <triggers>How does the grace of salvation come to us?</triggers>
+          <triggers>
+            <trigger value="How does the grace of salvation come to us?"/>
+          </triggers>
           <references>
             <bible book="Rom" chapter="13" verseBegin="14"/>
             <bible book="Gal" chapter="3" verseBegin="27"/>
@@ -1004,7 +1111,9 @@
           <tests>
             <test input="How is Jesus different from the founders of other religions?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Phil 2:10-11&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-jesus-different-from-the-founders-of-other-religions&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How is Jesus different from the founders of other religions?</triggers>
+          <triggers>
+            <trigger value="How is Jesus different from the founders of other religions?"/>
+          </triggers>
           <references>
             <bible book="Phil" chapter="2" verseBegin="10" verseEnd="11"/>
           </references>
@@ -1016,7 +1125,9 @@
             <test input="Who was Jesus?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:20&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 25:31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8:1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11:27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Who is the giver of Life?" output="Life&apos;s giver is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:20&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 25:31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8:1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11:27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Who was Jesus?</triggers>
+          <triggers>
+            <trigger value="Who was Jesus?"/>
+          </triggers>
           <description>It&apos;s the true Lawgiver.&#10;It&apos;s the judge of all.&#10;It&apos;s the Lord of all.&#10;It&apos;s the giver of Life.&#10;It&apos;s the only who knows the Father.</description>
           <references>
             <bible book="Mt" chapter="5" verseBegin="20"/>
@@ -1036,7 +1147,10 @@
             <test input="Why did God become Man?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ak_OX77ASh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 4:4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 2:5-10&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;456-482&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-god-become-man&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Why the Incarnation?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ak_OX77ASh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 4:4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 2:5-10&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;456-482&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-god-become-man&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Why did God become Man?&#10;Why the Incarnation?</triggers>
+          <triggers>
+            <trigger value="Why did God become Man?"/>
+            <trigger value="Why the Incarnation?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="3" verseBegin="16"/>
             <bible book="Gal" chapter="4" verseBegin="4" verseEnd="5"/>
@@ -1050,7 +1164,9 @@
           <tests>
             <test input="Why did Jesus come into the world 2000 years ago?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-jesus-come-into-the-world-years-ago&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Why did Jesus come into the world 2000 years ago?</triggers>
+          <triggers>
+            <trigger value="Why did Jesus come into the world 2000 years ago?"/>
+          </triggers>
           <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -1060,7 +1176,9 @@
           <tests>
             <test input="How has God revealed himself?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cbn2_IS6CEk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 7:2-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 1:1-2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-73&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-has-god-revealed-himself&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How has God revealed himself?</triggers>
+          <triggers>
+            <trigger value="How has God revealed himself?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="7" verseBegin="2" verseEnd="53"/>
             <bible book="Heb" chapter="1" verseBegin="1" verseEnd="2"/>
@@ -1073,7 +1191,9 @@
           <tests>
             <test input="How is Revelation passed on?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oewe1uiQIyE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Neh 8:7-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 24:15-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 8:27-35&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;2 Thess 2:15&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;76&quot; textlength=&quot;2&quot; /&gt;; &lt;hc_ccc ref=&quot;80-82&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;85-87&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;97&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-revelation-passed-on&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How is Revelation passed on?</triggers>
+          <triggers>
+            <trigger value="How is Revelation passed on?"/>
+          </triggers>
           <references>
             <bible book="Neh" chapter="8" verseBegin="7" verseEnd="12"/>
             <bible book="Lk" chapter="24" verseBegin="15" verseEnd="32"/>
@@ -1092,7 +1212,9 @@
             <test input="How is the Bible structured?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oyXk9TNRcF8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;121-130&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-the-bible-structured&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are parts of the Bible?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oyXk9TNRcF8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;121-130&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-the-bible-structured&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How is the Bible structured?</triggers>
+          <triggers>
+            <trigger value="How is the Bible structured?"/>
+          </triggers>
           <description>It&apos;s the parts of the Bible.</description>
           <references>
             <ccc verseBegin="121" verseEnd="130"/>
@@ -1105,7 +1227,9 @@
           <tests>
             <test input="Who decided what belongs in the Bible?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4YTPO88yzXE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;103-109&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-decided-what-belongs-in-the-bible&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Who decided what belongs in the Bible?</triggers>
+          <triggers>
+            <trigger value="Who decided what belongs in the Bible?"/>
+          </triggers>
           <references>
             <ccc verseBegin="103" verseEnd="109"/>
           </references>
@@ -1116,7 +1240,9 @@
           <tests>
             <test input="Why does God reveal himself?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/163c4xg4F5s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:18&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 1:1-3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:24&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-does-god-reveal-himself&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Why does God reveal himself?</triggers>
+          <triggers>
+            <trigger value="Why does God reveal himself?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="1" verseBegin="18"/>
             <bible book="Heb" chapter="1" verseBegin="1" verseEnd="3"/>
@@ -1133,7 +1259,9 @@
           <tests>
             <test input="How do we receive and increase grace?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/fEXx3gP-Mf0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 13:14&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 3:27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2 Cor 8:7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2 Pet 3:18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1076&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_ccc ref=&quot;1113-1134&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2003&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-do-we-receive-and-increase-grace&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>How do we receive and increase grace?</triggers>
+          <triggers>
+            <trigger value="How do we receive and increase grace?"/>
+          </triggers>
           <references>
             <bible book="Rom" chapter="13" verseBegin="14"/>
             <bible book="Gal" chapter="3" verseBegin="27"/>
@@ -1151,7 +1279,9 @@
           <tests>
             <test input="What are Sins?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/QKhuWT30WdY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Prov 24:16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 1:8-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 5:16-17&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1849-1876&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-sins&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What are Sins?</triggers>
+          <triggers>
+            <trigger value="What are Sins?"/>
+          </triggers>
           <references>
             <bible book="Prov" chapter="24" verseBegin="16"/>
             <bible book="1 Jn" chapter="1" verseBegin="8" verseEnd="9"/>
@@ -1162,7 +1292,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/QKhuWT30WdY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the 10 Commandments?" id="what-are-the-commandments" nb="42">
-          <triggers>What are the 10 Commandments?</triggers>
+          <triggers>
+            <trigger value="What are the 10 Commandments?"/>
+          </triggers>
           <references>
             <bible book="Ex" chapter="20" verseBegin="2" verseEnd="17"/>
             <ccc verseBegin="2052" verseEnd="2557"/>
@@ -1171,7 +1303,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3U4B__ZQ5Mw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the 7 Capital Sins?" id="what-are-the-capital-sins" nb="43">
-          <triggers>What are the 7 Capital Sins?</triggers>
+          <triggers>
+            <trigger value="What are the 7 Capital Sins?"/>
+          </triggers>
           <references>
             <bible book="Prov" chapter="6" verseBegin="16" verseEnd="19"/>
             <bible book="Gal" chapter="5" verseBegin="21" verseEnd="29"/>
@@ -1181,7 +1315,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/vJszgq2_x1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What are the degrees of the Sacrament of Holy Orders?" id="what-are-the-degrees-of-the-sacrament-of-holy-orders" nb="47">
-          <triggers>What are the degrees of the Sacrament of Holy Orders?</triggers>
+          <triggers>
+            <trigger value="What are the degrees of the Sacrament of Holy Orders?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="20" verseBegin="28"/>
             <bible book="1 Thess" chapter="5" verseBegin="12" verseEnd="13"/>
@@ -1201,7 +1337,9 @@
           <tests>
             <test input="What are the parts of the Mass?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KJgEYDVmgYk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1345-1355&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1408&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-parts-of-the-mass&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What are the parts of the Mass?</triggers>
+          <triggers>
+            <trigger value="What are the parts of the Mass?"/>
+          </triggers>
           <references>
             <ccc verseBegin="1345" verseEnd="1355"/>
             <ccc verseBegin="1408"/>
@@ -1213,7 +1351,9 @@
           <tests>
             <test input="What does the Church teach about sexual morality?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/J70AGlRacMY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:27-32&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19:3-11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 3:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5:3-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:24-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2368-2391&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2399-2400&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-the-church-teach-about-sexual-morality&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What does the Church teach about sexual morality?</triggers>
+          <triggers>
+            <trigger value="What does the Church teach about sexual morality?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="5" verseBegin="27" verseEnd="32"/>
             <bible book="Mt" chapter="19" verseBegin="3" verseEnd="11"/>
@@ -1233,7 +1373,10 @@
             <test input="What is Anointing of the Sick?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/dUlP_0TpRgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jas 5:14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1499-1525&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-anointing-of-the-sick&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is anointing of the Sick?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/dUlP_0TpRgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jas 5:14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1499-1525&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-anointing-of-the-sick&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Anointing of the Sick?&#10;What is anointing of the Sick?</triggers>
+          <triggers>
+            <trigger value="What is Anointing of the Sick?"/>
+            <trigger value="What is anointing of the Sick?"/>
+          </triggers>
           <references>
             <bible book="Jas" chapter="5" verseBegin="14" verseEnd="15"/>
             <ccc verseBegin="1499" verseEnd="1525"/>
@@ -1245,7 +1388,9 @@
           <tests>
             <test input="What is Baptism?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZXK8Q2rUGxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 28:19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3:5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 2:38-41&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 8:12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 18:8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 6:3-4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 3:5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1213-1284&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2167&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-baptism&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Baptism?</triggers>
+          <triggers>
+            <trigger value="What is Baptism?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="28" verseBegin="19"/>
             <bible book="Jn" chapter="3" verseBegin="5"/>
@@ -1267,7 +1412,9 @@
             <test input="confession" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KEn8xfQy7Ik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 19:18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:22-23&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1422-1498&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confession&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="the confession" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KEn8xfQy7Ik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 19:18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:22-23&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1422-1498&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confession&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Confession?</triggers>
+          <triggers>
+            <trigger value="What is Confession?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="19" verseBegin="18"/>
             <bible book="Jn" chapter="20" verseBegin="22" verseEnd="23"/>
@@ -1280,7 +1427,9 @@
           <tests>
             <test input="What is Confirmation?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 20:22&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 4:30&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 19:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 5:5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confirmation&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Confirmation?</triggers>
+          <triggers>
+            <trigger value="What is Confirmation?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="20" verseBegin="22"/>
             <bible book="Eph" chapter="4" verseBegin="30"/>
@@ -1295,7 +1444,9 @@
           <tests>
             <test input="What is Grace?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ywypuAarXeA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 15:11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 3:24&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 5:15-17&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1987-2027&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-grace&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Grace?</triggers>
+          <triggers>
+            <trigger value="What is Grace?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="15" verseBegin="11"/>
             <bible book="Rom" chapter="3" verseBegin="24"/>
@@ -1306,7 +1457,9 @@
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ywypuAarXeA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
         <html name="What is Holy Mass?" id="what-is-holy-mass" nb="39">
-          <triggers>What is Holy Mass?</triggers>
+          <triggers>
+            <trigger value="What is Holy Mass?"/>
+          </triggers>
           <references>
             <bible book="1 Cor" chapter="11" verseBegin="23" verseEnd="26"/>
             <bible book="1 Cor" chapter="10" verseBegin="16"/>
@@ -1325,7 +1478,9 @@
           <tests>
             <test input="What is a Catholic Priest?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RQcx2ZwO01U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 66:18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4:18-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 6:7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 4:11-16&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;2 Tim 1:6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 20:28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:7-9&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 17:32-38&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1536-1592&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-a-catholic-priest&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is a Catholic Priest?</triggers>
+          <triggers>
+            <trigger value="What is a Catholic Priest?"/>
+          </triggers>
           <references>
             <bible book="Is" chapter="66" verseBegin="18" verseEnd="21"/>
             <bible book="Mt" chapter="4" verseBegin="18" verseEnd="22"/>
@@ -1345,7 +1500,9 @@
             <test input="What is marriage?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kkrjMa_LFC8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Song 8:6-7&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5:32&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 4:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 4:3-5&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:2-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:24-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1601-1666&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-marriage&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Marriage" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kkrjMa_LFC8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Song 8:6-7&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5:32&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 4:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 4:3-5&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:2-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:24-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1601-1666&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-marriage&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is marriage?</triggers>
+          <triggers>
+            <trigger value="What is marriage?"/>
+          </triggers>
           <references>
             <bible book="Song" chapter="8" verseBegin="6" verseEnd="7"/>
             <bible book="Eph" chapter="5" verseBegin="32"/>
@@ -1363,7 +1520,9 @@
             <test input="What is sex?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/89A5Kk_vcyI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eph 5:3-5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2331-2350&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2362-2367&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-sex&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="The sex" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/89A5Kk_vcyI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eph 5:3-5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2331-2350&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2362-2367&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-sex&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is sex?</triggers>
+          <triggers>
+            <trigger value="What is sex?"/>
+          </triggers>
           <references>
             <bible book="Eph" chapter="5" verseBegin="3" verseEnd="5"/>
             <ccc verseBegin="2331" verseEnd="2350"/>
@@ -1376,7 +1535,9 @@
           <tests>
             <test input="What is the Eucharist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:47-66&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 10:16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 11:27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-eucharist&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the Eucharist?</triggers>
+          <triggers>
+            <trigger value="What is the Eucharist?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="6" verseBegin="47" verseEnd="66"/>
             <bible book="1 Cor" chapter="10" verseBegin="16"/>
@@ -1392,7 +1553,9 @@
           <tests>
             <test input="What happens at the end of our lives?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YVMNo1BacPo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Cor 15:13-43&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;988-1019&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-happens-at-the-end-of-our-lives&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What happens at the end of our lives?</triggers>
+          <triggers>
+            <trigger value="What happens at the end of our lives?"/>
+          </triggers>
           <references>
             <bible book="1 Cor" chapter="15" verseBegin="13" verseEnd="43"/>
             <ccc verseBegin="988" verseEnd="1019"/>
@@ -1404,7 +1567,9 @@
           <tests>
             <test input="What is Hell?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/8B-EB1Vx4Ls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 16:23&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 9:47&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1056-1057&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-hell&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is Hell?</triggers>
+          <triggers>
+            <trigger value="What is Hell?"/>
+          </triggers>
           <references>
             <bible book="Lk" chapter="16" verseBegin="23"/>
             <bible book="Mk" chapter="9" verseBegin="47"/>
@@ -1418,7 +1583,9 @@
           <tests>
             <test input="What is purgatory?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/56IELJssnOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Prov 17:3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Wis 3:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;2 Macc 12:39-45&quot; textlength=&quot;15&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1030-1031&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1054-1055&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-purgatory&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is purgatory?</triggers>
+          <triggers>
+            <trigger value="What is purgatory?"/>
+          </triggers>
           <references>
             <bible book="Prov" chapter="17" verseBegin="3"/>
             <bible book="Wis" chapter="3" verseBegin="5"/>
@@ -1433,7 +1600,9 @@
           <tests>
             <test input="What will we do in Heaven?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Jn 3:2&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 21:3&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-will-we-do-in-heaven&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What will we do in Heaven?</triggers>
+          <triggers>
+            <trigger value="What will we do in Heaven?"/>
+          </triggers>
           <references>
             <bible book="1 Jn" chapter="3" verseBegin="2"/>
             <bible book="Rev" chapter="21" verseBegin="3"/>
@@ -1446,7 +1615,9 @@
       </folder>
       <folder name="The Sanctified (Church)" id="the-sanctified-church" nb="7">
         <html name="Criticism of the Church" id="criticism-of-the-church" nb="58">
-          <triggers>Criticism of the Church</triggers>
+          <triggers>
+            <trigger value="Criticism of the Church"/>
+          </triggers>
           <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/rJRWOgtYLJE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -1454,7 +1625,9 @@
           <tests>
             <test input="The Church in numbers" output="What is the Church in numbers?|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/NkVcsvlj_gU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-and-how-many&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
           </tests>
-          <triggers>The Church in numbers</triggers>
+          <triggers>
+            <trigger value="The Church in numbers"/>
+          </triggers>
           <sourceId>minute-catechism</sourceId>
           <code>&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/NkVcsvlj_gU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
         </html>
@@ -1465,7 +1638,12 @@
             <test input="What are nuns?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 19:21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:37-40&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:19&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-monks-nuns-and-religious-orders&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are religious orders?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 19:21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:37-40&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:19&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-monks-nuns-and-religious-orders&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What are monks, nuns and religious orders?&#10;What are monks?&#10;What are nuns?&#10;What are religious orders?</triggers>
+          <triggers>
+            <trigger value="What are monks, nuns and religious orders?"/>
+            <trigger value="What are monks?"/>
+            <trigger value="What are nuns?"/>
+            <trigger value="What are religious orders?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="19" verseBegin="21"/>
             <bible book="1 Cor" chapter="7" verseBegin="37" verseEnd="40"/>
@@ -1481,7 +1659,10 @@
             <test input="What are the four characteristics of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 10:16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:10-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:20-21&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are the characteristics of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 10:16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:10-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:20-21&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What are the four characteristics of the Church?&#10;What are the characteristics of the Church?&#10;</triggers>
+          <triggers>
+            <trigger value="What are the four characteristics of the Church?"/>
+            <trigger value="What are the characteristics of the Church?"/>
+          </triggers>
           <references>
             <bible book="Jn" chapter="10" verseBegin="16"/>
             <bible book="1 Cor" chapter="1" verseBegin="10" verseEnd="13"/>
@@ -1496,7 +1677,10 @@
             <test input="What is the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 2:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:7-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="I want to see a video that describe the Church." output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 2:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:7-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the Church?&#10;I want to see a video that describe the Church.</triggers>
+          <triggers>
+            <trigger value="What is the Church?"/>
+            <trigger value="I want to see a video that describe the Church."/>
+          </triggers>
           <references>
             <bible book="1 Pet" chapter="2" verseBegin="9"/>
             <bible book="Jn" chapter="15" verseBegin="1" verseEnd="8"/>
@@ -1513,7 +1697,9 @@
           <tests>
             <test input="What is the structure of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cHEzyxxIktY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 20:28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 5:12-13&quot; textlength=&quot;15&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 13:7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 13:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 5:1&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2 Tim 2:1-2&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;2 Tim 4:1-6&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 2:15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 5:14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;871-943&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-structure-of-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>What is the structure of the Church?</triggers>
+          <triggers>
+            <trigger value="What is the structure of the Church?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="20" verseBegin="28"/>
             <bible book="1 Thess" chapter="5" verseBegin="12" verseEnd="13"/>
@@ -1536,7 +1722,10 @@
             <test input="Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1:26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19:25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Who is the Virgin Mary?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1:26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19:25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Who is Mary?&#10;Who is the Virgin Mary?</triggers>
+          <triggers>
+            <trigger value="Who is Mary?"/>
+            <trigger value="Who is the Virgin Mary?"/>
+          </triggers>
           <references>
             <bible book="Lk" chapter="1" verseBegin="26" verseEnd="28"/>
             <bible book="Jn" chapter="19" verseBegin="25"/>
@@ -1552,7 +1741,9 @@
             <test input="Who is the Holy Spirit?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_eePtl5QwMc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 4:31&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 7&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-the-holy-spirit&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="the Holy Spirit" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_eePtl5QwMc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 4:31&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 7&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-the-holy-spirit&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Who is the Holy Spirit?</triggers>
+          <triggers>
+            <trigger value="Who is the Holy Spirit?"/>
+          </triggers>
           <references>
             <bible book="Acts" chapter="4" verseBegin="31"/>
             <bible book="Acts" chapter="6"/>
@@ -1566,7 +1757,9 @@
           <tests>
             <test input="Why do Catholics call on the Saints?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GYURwtDeEEs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Heb 6:12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 13:7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Tob 12:12-15&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;946-962&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-do-catholics-call-on-the-saints&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Why do Catholics call on the Saints?</triggers>
+          <triggers>
+            <trigger value="Why do Catholics call on the Saints?"/>
+          </triggers>
           <references>
             <bible book="Heb" chapter="6" verseBegin="12"/>
             <bible book="Heb" chapter="13" verseBegin="7"/>
@@ -1580,7 +1773,9 @@
           <tests>
             <test input="Why does the Church even exist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3AqfPAsPZ30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:12-13&quot; textlength=&quot;14&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:28&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:19-22&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-780&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-does-the-church-even-exist&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <triggers>Why does the Church even exist?</triggers>
+          <triggers>
+            <trigger value="Why does the Church even exist?"/>
+          </triggers>
           <references>
             <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
             <bible book="1 Cor" chapter="12" verseBegin="12" verseEnd="13"/>
@@ -1599,7 +1794,9 @@
           <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
           <test input="A sacrement" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
         </tests>
-        <triggers>What is a sacrement ?</triggers>
+        <triggers>
+          <trigger value="What is a sacrement ?"/>
+        </triggers>
         <sourceId>theomatters</sourceId>
         <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
       </html>
@@ -1633,7 +1830,9 @@
               <tests>
                 <test input="How does God reveal himself in the Old Testament?" output="God shows himself in the Old Testament as God, who created the world out of love and remains faithful to men even when they have fallen away from him into sin." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 17:5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 12:3&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3:14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;54-64&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;70-72&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;how-does-god-reveal-himself-in-the-old-testament&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
-              <triggers>How does God reveal himself in the Old Testament?</triggers>
+              <triggers>
+                <trigger value="How does God reveal himself in the Old Testament?"/>
+              </triggers>
               <references>
                 <ccc verseBegin="54" verseEnd="64"/>
                 <ccc verseBegin="70" verseEnd="72"/>
@@ -1648,7 +1847,9 @@
               <tests>
                 <test input="Why did God have to show himself in order for us to be able to know what he is like ?" output="Man can know by reason that God exists, but not what God is really like. Yes because God would very much like to be known, he has revealed himself." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-have-to-show-himself-in-order-for-us-to-be-able-to-know-what-he-is-like&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
-              <triggers>Why did God have to show himself in order for us to be able to know what he is like ?</triggers>
+              <triggers>
+                <trigger value="Why did God have to show himself in order for us to be able to know what he is like ?"/>
+              </triggers>
               <references>
                 <ccc verseBegin="50" verseEnd="53"/>
                 <ccc verseBegin="68" verseEnd="69"/>
@@ -1663,7 +1864,10 @@
                 <test input="Can we grasp God at all in concepts?" output="Although we men are limited and the infinite greatness of God never fits into finite human concepts, we can nevertheless speak rightly about God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;39-43&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;48&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-grasp-god-at-all-in-concepts&quot; textlength=&quot;6&quot; /&gt;"/>
                 <test input="Is it possible to speak about God meaningfully?" output="I don&apos;t know if it&apos;s the possible to speak meaningfully about God." isOk="false"/>
               </tests>
-              <triggers>Can we grasp God at all in concepts?&#10;Is it possible to speak about God meaningfully?</triggers>
+              <triggers>
+                <trigger value="Can we grasp God at all in concepts?"/>
+                <trigger value="Is it possible to speak about God meaningfully?"/>
+              </triggers>
               <references>
                 <ccc verseBegin="39" verseEnd="43"/>
                 <ccc verseBegin="48"/>
@@ -1675,7 +1879,9 @@
               <tests>
                 <test input="Can we know the existence of God by our reason?" output="Yes. Human reason can know God with certainty." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-36&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-know-the-existence-of-god-by-our-reason&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
-              <triggers>Can we know the existence of God by our reason?</triggers>
+              <triggers>
+                <trigger value="Can we know the existence of God by our reason?"/>
+              </triggers>
               <references>
                 <ccc verseBegin="31" verseEnd="36"/>
                 <ccc verseBegin="44" verseEnd="47"/>
@@ -1687,7 +1893,9 @@
               <tests>
                 <test input="Why do people deny that God exists, if they can know him by reason?" output="I don&apos;t know why people deny if God can know himself by the reason then he exists." isOk="false"/>
               </tests>
-              <triggers>Why do people deny that God exists, if they can know him by reason?</triggers>
+              <triggers>
+                <trigger value="Why do people deny that God exists, if they can know him by reason?"/>
+              </triggers>
               <references>
                 <ccc verseBegin="37" verseEnd="38"/>
               </references>
@@ -1698,7 +1906,9 @@
               <tests>
                 <test input="Why do we seek God?" output="God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 17:27-28&quot; textlength=&quot;13&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;27-30&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-we-seek-god&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
-              <triggers>Why do we seek God?</triggers>
+              <triggers>
+                <trigger value="Why do we seek God?"/>
+              </triggers>
               <references>
                 <ccc verseBegin="27" verseEnd="30"/>
                 <bible book="Acts" chapter="17" verseBegin="27" verseEnd="28"/>
@@ -1712,7 +1922,9 @@
               <test input="Why are we on earth?" output="We are on earth in order to know, in order to love God, in order to do good according to Will and in order to go to someday Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
               <test input="For what purpose are we here on earth?" output="We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
-            <triggers>For what purpose are we here on earth?</triggers>
+            <triggers>
+              <trigger value="For what purpose are we here on earth?"/>
+            </triggers>
             <references>
               <ccc verseBegin="1" verseEnd="3"/>
               <ccc verseBegin="358"/>
@@ -1727,7 +1939,9 @@
             <tests>
               <test input="Why did God create us?" output="God created us out of free and unselfish love." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
-            <triggers>Why did God create us?</triggers>
+            <triggers>
+              <trigger value="Why did God create us?"/>
+            </triggers>
             <references>
               <ccc verseBegin="1" verseEnd="3"/>
             </references>
@@ -1739,7 +1953,9 @@
       <folder name="Youcat for kids" id="youcat-for-kids">
         <folder name="Introduction" id="introduction">
           <information name="Where does the world and everything that is come from ?" id="where-does-the-world-and-everything-that-is-come-from" nb="1">
-            <triggers>Where does the world and everything that is come from ?</triggers>
+            <triggers>
+              <trigger value="Where does the world and everything that is come from ?"/>
+            </triggers>
             <references>
               <bible book="Gen" chapter="1" verseBegin="1"/>
             </references>
@@ -1752,7 +1968,9 @@
               <test input="Who knows me ?" output="God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
               <test input="Who love me ?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
-            <triggers>Why do I exist?</triggers>
+            <triggers>
+              <trigger value="Why do I exist?"/>
+            </triggers>
             <references>
               <bible book="Jn" chapter="3" verseBegin="16"/>
               <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
@@ -1772,22 +1990,33 @@
   </folder>
   <folder name="Testimonies" id="testimonies">
     <html name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="my-testimony-about-jesus-christ-why-i-left-islam">
-      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <triggers>
+        <trigger value="Show me a Christian testimony"/>
+        <trigger value="I want to see a Christian testimony."/>
+      </triggers>
       <isAHighImportanceFile>true</isAHighImportanceFile>
       <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
     </html>
     <html name="Confessions of a High Class Prostitute" id="confessions-of-a-high-class-prostitute">
-      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <triggers>
+        <trigger value="Show me a Christian testimony"/>
+        <trigger value="I want to see a Christian testimony."/>
+      </triggers>
       <isAHighImportanceFile>true</isAHighImportanceFile>
       <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
     </html>
     <html name="Francesca Battistelli - He Knows My Name (Official Video) " id="francesca-battistelli-he-knows-my-name-official-video">
-      <triggers>Show me a Christian testimony&#10;I want to see a Christian testimony.</triggers>
+      <triggers>
+        <trigger value="Show me a Christian testimony"/>
+        <trigger value="I want to see a Christian testimony."/>
+      </triggers>
       <isAHighImportanceFile>true</isAHighImportanceFile>
       <code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</code>
     </html>
     <information name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
-      <triggers>I don&apos;t want to see a video that it describes the Church.</triggers>
+      <triggers>
+        <trigger value="I don&apos;t want to see a video that it describes the Church."/>
+      </triggers>
       <text>Do you want to see a Christian testimony?</text>
     </information>
   </folder>
