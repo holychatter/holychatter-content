@@ -680,10 +680,21 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starters="Bienvenue à La Défense !" starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
-      <conversation_flow name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense">
-        <reply>Es-tu nouveau à La Défense ?</reply>
-      </conversation_flow>
+    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starters="Bonjour je suis un agent conversationnel au service du bien être des gens.&lt;br/&gt; Si tu veux bien nous pouvons échanger brièvement pour éventuellement te rediriger vers quelque chose d&apos;approprié pour toi." starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
+      <information name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense">
+        <recommendations>
+          <recommendation value="Oui, je suis juste de passage."/>
+          <recommendation value="Je suis là depuis quelques années mais je ne connais pas encore bien tout."/>
+          <recommendation value="Non, je connais cet endroit bien depuis lontemps maintenant."/>
+        </recommendations>
+        <text>Es-tu nouveau à La Défense ?</text>
+      </information>
+      <folder name="Je suis juste de passage" id="je-suis-juste-de-passage" nb="1">
+        <information name="Ah d&apos;accord. Bienvenue à La défense dans ce cas !" id="ah-d-accord-bienvenue-a-la-defense-dans-ce-cas">
+          <triggers>Je suis juste de passage.</triggers>
+          <text>Ah d&apos;accord. Bienvenue à La défense dans ce cas !</text>
+        </information>
+      </folder>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré"/>
     <chatbot name="martigues2019" id="martigues" useDefaultContent="true" fallbackEngine="Cybercuré"/>
@@ -728,7 +739,11 @@
           </tests>
           <triggers>Je veux voir le message chrétien</triggers>
           <description>C&apos;est le message chrétien.&#10;C&apos;est le kérygme.</description>
-          <recommendations>Je veux voir une guérison inexpliquée.&#10;L&apos;Église a des problèmes.&#10;Qui est Jésus ?</recommendations>
+          <recommendations>
+            <recommendation value="Je veux voir une guérison inexpliquée."/>
+            <recommendation value="L&apos;Église a des problèmes."/>
+            <recommendation value="Qui est Jésus ?"/>
+          </recommendations>
           <references>
             <bible book="Gen" chapter="1" verseBegin="1"/>
             <bible book="Rom" chapter="5" verseBegin="12"/>
