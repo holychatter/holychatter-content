@@ -8,7 +8,7 @@
       </information>
       <information name="The Bible provides a way to access happiness by following Jesus." id="the-bible-provides-a-way-to-access-happiness-by-following-jesus">
         <tests>
-          <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;the-bible-provides-a-way-to-access-happiness-by-following-jesus&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus."/>
         </tests>
         <text>The Bible provides a way to access happiness by following Jesus.</text>
       </information>
@@ -54,8 +54,8 @@
         </information>
         <information name="Jesus is the son of God" id="jesus-is-the-son-of-god">
           <tests>
-            <test input="Who is Jesus?" output="Jesus is the sun of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-the-sun-of-god&quot; textlength=&quot;8&quot; /&gt;"/>
-            <test input="Jesus is the son of God?" output="I don&apos;t know if Jesus is God&apos;s son." isOk="false"/>
+            <test input="Who is Jesus?" output="Jesus is the son of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
+            <test input="Jesus is the son of God?" output="Yes, Jesus is God&apos;s son." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Who is Jesus?"/>
@@ -70,9 +70,9 @@
         </information>
         <information name="Jesus loves us" id="jesus-loves-us">
           <tests>
-            <test input="Who likes me?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
-            <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
-            <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Who likes me?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;"/>
+            <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;"/>
           </tests>
           <references>
             <bible book="Jn" chapter="3" verseBegin="16"/>
@@ -127,7 +127,7 @@
         </information>
         <information name="Why is Jesus God?" id="why-is-jesus-god">
           <tests>
-            <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;why-is-jesus-god&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Why is Jesus God?"/>
@@ -172,7 +172,7 @@
         </folder>
         <information name="God is good." id="god-is-good">
           <tests>
-            <test input="God is good ?" output="Yes, God is good." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;god-is-good&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="God is good ?" output="Yes, God is good."/>
           </tests>
           <text>God is good.</text>
         </information>
@@ -234,7 +234,7 @@
       <folder name="Ascension" id="ascension">
         <information name="ASCENSION OF JESUS CHRIST " id="ascension-of-jesus-christ">
           <tests>
-            <test input="Show me the Ascension of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:1-11&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;ascension-of-jesus-christ&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Show me the Ascension of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:1-11&quot; textlength=&quot;11&quot; /&gt;"/>
           </tests>
           <description>It&apos;s the Ascension of Jesus.</description>
           <references>
@@ -267,7 +267,7 @@
       <folder name="Mary" id="mary">
         <information name="Mary of Nazareth" id="mary-of-nazareth">
           <tests>
-            <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mary-of-nazareth&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
           </tests>
           <triggers>
             <trigger value="Show me the life of Mary"/>
@@ -278,8 +278,8 @@
       <folder name="Resurrection" id="resurrection">
         <information name="Jesus is resurrected" id="jesus-is-resurrected">
           <tests>
-            <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-resurrected&quot; textlength=&quot;8&quot; /&gt;"/>
-            <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-is-resurrected&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected."/>
+            <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected."/>
           </tests>
           <text>Jesus is resurrected.</text>
         </information>
@@ -317,7 +317,7 @@
           </folder>
           <information name="The beginning of the Bible is the book of Genesis." id="the-beginning-of-the-bible-is-the-book-of-genesis">
             <tests>
-              <test input="What is the beginning of the Bible?" output="The beginning of the Bible is Genesis&apos; book." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;the-beginning-of-the-bible-is-the-book-of-genesis&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="What is the beginning of the Bible?" output="The beginning of the Bible is Genesis&apos; book."/>
             </tests>
             <text>The beginning of the Bible is the book of Genesis.</text>
           </information>
@@ -371,7 +371,7 @@
       <folder name="Mother Teresa" id="mother-teresa">
         <information name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television">
           <tests>
-            <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;mother-teresa-of-calcutta-on-irish-television&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
           </tests>
           <description>It&apos;s the life of Mother Teresa.&#10;It&apos;s Mother Teresa.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -406,86 +406,82 @@
         </information>
       </folder>
     </folder>
-    <conversation_flow name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
+    <information name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
       <triggers>
         <trigger value="I don&apos;t know the Catholic Church."/>
       </triggers>
-      <reply>Do you want to see a video that describe the Church ?</reply>
-    </conversation_flow>
+      <text>Do you want to see a video that describe the Church ?</text>
+    </information>
     <folder name="Teaching" id="teaching">
       <information name="Credo" id="credo">
         <tests>
-          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;credo&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;."/>
         </tests>
         <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
       </information>
     </folder>
     <folder name="Usual answers" id="usual-answers">
-      <conversation_flow name="Christ is risen!" id="christ-is-risen">
-        <tests>
-          <test input="Christ is risen!" output="Truly, He is Risen!"/>
-        </tests>
+      <information name="Christ is risen!" id="christ-is-risen">
         <triggers>
           <trigger value="Christ is risen!"/>
         </triggers>
-        <reply>Truly, He is Risen!</reply>
-      </conversation_flow>
-      <conversation_flow name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
+        <references>
+          <site book="https://en.wikipedia.org/wiki/Paschal_greeting"/>
+        </references>
+        <text>Truly, He is Risen!</text>
+      </information>
+      <information name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
         <triggers>
           <trigger value="Let us give thanks to the Lord our God."/>
         </triggers>
-        <reply>It is right and just.</reply>
-      </conversation_flow>
-      <conversation_flow name="Lift up your hearts." id="lift-up-your-hearts">
+        <text>It is right and just.</text>
+      </information>
+      <information name="Lift up your hearts." id="lift-up-your-hearts">
         <triggers>
           <trigger value="Lift up your hearts."/>
         </triggers>
-        <reply>We lift them up to the Lord.</reply>
-      </conversation_flow>
-      <conversation_flow name="The Lord be with you." id="the-lord-be-with-you">
+        <text>We lift them up to the Lord.</text>
+      </information>
+      <information name="The Lord be with you." id="the-lord-be-with-you">
         <triggers>
           <trigger value="The Lord be with you."/>
         </triggers>
-        <reply>And with your spirit.</reply>
-      </conversation_flow>
-      <conversation_flow name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
-        <tests>
-          <test input="The peace of the Lord be with you always." output="And with your spirit."/>
-        </tests>
+        <text>And with your spirit.</text>
+      </information>
+      <information name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
         <triggers>
           <trigger value="The peace of the Lord be with you always."/>
         </triggers>
-        <reply>And with your spirit.</reply>
-      </conversation_flow>
+        <text>And with your spirit.</text>
+      </information>
     </folder>
   </folder>
   <folder name="Discovery" id="discovery">
     <folder name="By age" id="by-age">
       <folder name="Everybody" id="everybody">
         <folder name="Holy Chatter" id="holy-chatter">
-          <conversation_flow name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
-            <priority>500</priority>
-            <reply>Do you already know the Catholic Church?</reply>
-          </conversation_flow>
-          <conversation_flow name="Greeting" id="greeting">
-            <tests>
-              <test input="Hello" output="Hello"/>
-            </tests>
+          <information name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
+            <proactivities>
+              <proactivity priority="500"/>
+            </proactivities>
+            <text fileType="conversation_flow">Do you already know the Catholic Church?</text>
+          </information>
+          <information name="Greeting" id="greeting">
             <triggers>
               <trigger value="Hello"/>
             </triggers>
-            <reply>Hello</reply>
-          </conversation_flow>
+            <text>Hello</text>
+          </information>
           <information name="Moral" id="moral">
             <tests>
-              <test input="Are you fine?" output="Yes, I am fine." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;moral&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="Are you fine?" output="Yes, I am fine."/>
             </tests>
             <text>I&apos;m fine.</text>
           </information>
           <information name="My name" id="my-name">
             <tests>
-              <test input="What is your name?" output="My name is Holy Chatter." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;my-name&quot; textlength=&quot;8&quot; /&gt;"/>
-              <test input="Who are you?" output="I am Holy Chatter." outputReferences="Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;my-name&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="What is your name?" output="My name is Holy Chatter."/>
+              <test input="Who are you?" output="I am Holy Chatter."/>
             </tests>
             <text>My name is Holy Chatter.</text>
           </information>
@@ -1966,7 +1962,7 @@
             <tests>
               <test input="Why do I exist?" output="You are here because God wants you.&#10;&#10;He knows you.&#10;He loves you beyond measure, and he wants to make you happy." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
               <test input="Who knows me ?" output="God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
-              <test input="Who love me ?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Internal&quot; resourceid=&quot;jesus-loves-us&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="Who love me ?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Why do I exist?"/>

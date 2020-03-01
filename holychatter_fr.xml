@@ -794,12 +794,15 @@
   <folder name="Chatbots" id="chatbots">
     <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starters="Bonjour je suis un agent conversationnel au service du bien être des gens.&lt;br/&gt; Si tu veux bien nous pouvons échanger brièvement pour éventuellement te rediriger vers quelque chose d&apos;approprié pour toi." starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
       <information name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense">
+        <proactivities>
+          <proactivity priority="10"/>
+        </proactivities>
         <recommendations>
           <recommendation value="Oui, je suis juste de passage."/>
           <recommendation value="Je suis là depuis quelques années mais je ne connais pas encore bien tout."/>
           <recommendation value="Non, je connais cet endroit bien depuis lontemps maintenant."/>
         </recommendations>
-        <text>Es-tu nouveau à La Défense ?</text>
+        <text fileType="conversation_flow">Es-tu nouveau à La Défense ?</text>
       </information>
       <folder name="Je suis juste de passage" id="je-suis-juste-de-passage" nb="1">
         <information name="Ah d&apos;accord. Bienvenue à La défense dans ce cas !" id="ah-d-accord-bienvenue-a-la-defense-dans-ce-cas">
@@ -1016,52 +1019,50 @@
           <text fileType="html">&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;</text>
         </information>
         <folder name="Holy Chatter" id="holy-chatter">
-          <conversation_flow name="Bonjour" id="bonjour">
-            <tests>
-              <test input="Bonjour" output="Bonjour"/>
-              <test input="Hello" output="Bonjour"/>
-              <test input="salut" output="Bonjour"/>
-              <test input="Salut" output="Bonjour"/>
-              <test input="tu es content ?" output="Je ne sais pas si je suis content."/>
-              <test input="Paul est content ?" output="Je ne sais pas si Paul est content mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
-            </tests>
+          <information name="Bonjour" id="bonjour">
             <triggers>
               <trigger value="Bonjour"/>
             </triggers>
-            <reply>Bonjour</reply>
-          </conversation_flow>
-          <conversation_flow name="Es-tu chrétien ?" id="es-tu-chretien-holy-chatter">
-            <priority>300</priority>
-            <reply>Es-tu chrétien ?</reply>
-          </conversation_flow>
+            <text>Bonjour</text>
+          </information>
+          <information name="Es-tu chrétien ?" id="es-tu-chretien">
+            <proactivities>
+              <proactivity priority="300"/>
+            </proactivities>
+            <text fileType="conversation_flow">Es-tu chrétien ?</text>
+          </information>
           <information name="Mon nom" id="mon-nom">
             <tests>
-              <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
-              <test input="qui es-tu ?" output="Je suis Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
-              <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter." outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;mon-nom&quot; textlength=&quot;7&quot; /&gt;"/>
+              <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
+              <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
+              <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
             </tests>
             <text>Mon nom est Holy Chatter.</text>
           </information>
           <information name="Moral" id="moral">
             <text>Je vais bien.</text>
           </information>
-          <conversation_flow name="Quand es-tu né ?" id="quand-es-tu-ne-holy-chatter">
-            <priority>100</priority>
-            <reply>Quand es-tu né ?</reply>
-          </conversation_flow>
-          <conversation_flow name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
+          <information name="Quand es-tu né ?" id="quand-es-tu-ne">
+            <proactivities>
+              <proactivity priority="100"/>
+            </proactivities>
+            <text fileType="conversation_flow">Quand es-tu né ?</text>
+          </information>
+          <information name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
             <triggers>
               <trigger value="Je suis chrétien."/>
             </triggers>
-            <reply>Veux tu savoir qui a écrit la Bible ?</reply>
-          </conversation_flow>
-          <conversation_flow name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
+            <text>Veux tu savoir qui a écrit la Bible ?</text>
+          </information>
+          <information name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
             <triggers>
               <trigger value="Je ne suis pas chrétien."/>
             </triggers>
-            <priority>300</priority>
-            <reply>Veux-tu voir le message chrétien ?</reply>
-          </conversation_flow>
+            <proactivities>
+              <proactivity priority="300"/>
+            </proactivities>
+            <text fileType="conversation_flow">Veux-tu voir le message chrétien ?</text>
+          </information>
         </folder>
         <information name="Présentation du Cybercuré" id="presentation-du-cybercure">
           <tests>
@@ -2524,13 +2525,14 @@
         <folder name="Carême" id="careme" nb="4">
           <information name="Le Carême c&apos;est quoi ?" id="le-careme-c-est-quoi">
             <tests>
-              <test input="Le Carême c&apos;est quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;7&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce que le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;7&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce que le carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Interne&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;7&quot; /&gt;"/>
+              <test input="Le Carême c&apos;est quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Moulins&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Moulins&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Moulins&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Le Carême c&apos;est quoi ?"/>
             </triggers>
+            <sourceId>diocese-de-moulins</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </information>
           <information name="Vivre le carême" id="vivre-le-careme">
@@ -2567,15 +2569,27 @@
           </information>
         </folder>
         <folder name="Pâques" id="paques" nb="5">
-          <conversation_flow name="Christ est ressuscité !" id="christ-est-ressuscite">
+          <information name="&quot;Il est vraiment ressuscite&quot; Chant des Fraternités Monastiques de Jérusalem" id="il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem">
+            <triggers>
+              <trigger value="Christ est ressuscité !"/>
+            </triggers>
+            <sourceId>fraternites-monastiques-de-jerusalem</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </information>
+          <information name="Christ est ressuscité !" id="christ-est-ressuscite">
             <tests>
-              <test input="Christ est ressuscité !" output="Il est vraiment ressuscité !"/>
+              <test input="Christ est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
+              <test input="Jésus est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Christ est ressuscité !"/>
             </triggers>
-            <reply>Il est vraiment ressuscité !</reply>
-          </conversation_flow>
+            <references>
+              <site book="https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-"/>
+            </references>
+            <sourceId>etoile-notre-dame</sourceId>
+            <text>Il est vraiment ressuscité !</text>
+          </information>
           <information name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
             <tests>
               <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
@@ -5242,15 +5256,6 @@
             <sourceId>le-sanctuaire-notre-dame-de-lourdes</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eI90Nr07hNg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </information>
-          <conversation_flow name="Suggestion pour voir une gérison inexpliquée" id="suggestion-pour-voir-une-gerison-inexpliquee">
-            <tests>
-              <test input="Je ne veux pas voir vidéo qui décrit l&apos;Église." output="Est-ce que tu veux voir une guérison inexpliquée ?"/>
-            </tests>
-            <triggers>
-              <trigger value="Je ne veux pas voir vidéo qui décrit l&apos;Église."/>
-            </triggers>
-            <reply>Est-ce que tu veux voir une guérison inexpliquée ?</reply>
-          </conversation_flow>
         </folder>
         <folder name="À propos" id="a-propos-corps">
           <information name="Docteur Theillier : « À Lourdes, je recevais une personne guérie par semaine »" id="docteur-theillier-a-lourdes-je-recevais-une-personne-guerie-par-semaine">
