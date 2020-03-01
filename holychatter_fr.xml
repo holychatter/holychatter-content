@@ -809,8 +809,21 @@
           <triggers>
             <trigger value="Je suis juste de passage."/>
           </triggers>
-          <text>Ah d&apos;accord. Bienvenue à La défense dans ce cas !</text>
+          <recommendations>
+            <recommendation value="Oui, qu&apos;est-ce que je peux y faire ?"/>
+            <recommendation value="Oui, quels sont les caractéristiques du lieu ?"/>
+            <recommendation value="Non, je parle avec toi juste par curiosité"/>
+          </recommendations>
+          <text>Ah d&apos;accord. Bienvenue à La défense dans ce cas !&#10;&#10;Veux-tu en savoir plus sur La Défense ?</text>
         </information>
+        <folder name="Oui, quels sont les caractéristiques du lieu ?" id="oui-quels-sont-les-caracteristiques-du-lieu" nb="2">
+          <information name="Quels sont les caractéristiques du lieu ?" id="quels-sont-les-caracteristiques-du-lieu">
+            <triggers>
+              <trigger value="Quels sont les caractéristiques du lieu ?"/>
+            </triggers>
+            <text fileType="text_and_html">Il y a &lt;b&gt;180 000&lt;/b&gt; personnes qui travailles à La Défense.&lt;br/&gt;&#10;Il y a &lt;b&gt;70&lt;/b&gt; tours.&lt;br/&gt;&#10;Il y a &lt;b&gt;15&lt;/b&gt; entreprises du CAC 40 qui ont içi leur siège.&lt;br/&gt;&#10;&lt;br/&gt;&#10;&lt;img src=&quot;/resources/holychatter/upload/la-defense-gens.jpg&quot; /&gt;</text>
+          </information>
+        </folder>
       </folder>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré"/>
