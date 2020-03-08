@@ -792,7 +792,14 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starters="Bonjour je suis un agent conversationnel au service du bien être des gens.&lt;br/&gt; Si tu veux bien nous pouvons échanger brièvement pour éventuellement te rediriger vers quelque chose d&apos;approprié pour toi." starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
+    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
+      <information name="Bonjour de La Défense" id="bonjour-de-la-defense">
+        <proactivities>
+          <proactivity/>
+        </proactivities>
+        <nextMessageId>photo-arche-la-defense</nextMessageId>
+        <text fileType="conversation_flow">Bonjour je suis un agent conversationnel au service du bien être des gens.&#10;Si tu veux bien nous pouvons échanger brièvement pour éventuellement te rediriger vers quelque chose d&apos;approprié pour toi.</text>
+      </information>
       <information name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense">
         <proactivities>
           <proactivity priority="10"/>
@@ -825,6 +832,9 @@
           </information>
         </folder>
       </folder>
+      <information name="Photo arche La défense" id="photo-arche-la-defense">
+        <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/La-Defense.jpg&quot; /&gt;</text>
+      </information>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré"/>
     <chatbot name="martigues2019" id="martigues" useDefaultContent="true" fallbackEngine="Cybercuré"/>
