@@ -792,26 +792,23 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starterImage="La-Defense.jpg" fallbackEngine="Cybercuré">
-      <information name="Bonjour de La Défense" id="bonjour-de-la-defense">
+    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" starterImage="la_defense_logo.png" fallbackEngine="Cybercuré">
+      <information name="Bonjour de La Défense" id="bonjour-de-la-defense" nb="1">
         <proactivities>
           <proactivity/>
         </proactivities>
         <nextMessageId>photo-arche-la-defense</nextMessageId>
         <text fileType="conversation_flow">Bonjour je suis un agent conversationnel au service du bien être des gens.&#10;Si tu veux bien nous pouvons échanger brièvement pour éventuellement te rediriger vers quelque chose d&apos;approprié pour toi.</text>
       </information>
-      <information name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense">
-        <proactivities>
-          <proactivity priority="10"/>
-        </proactivities>
+      <information name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense" nb="3">
         <recommendations>
           <recommendation text="Oui, je suis juste de passage."/>
           <recommendation text="Je suis là depuis quelques années mais je ne connais pas encore bien tout."/>
           <recommendation text="Non, je connais cet endroit bien depuis lontemps maintenant."/>
         </recommendations>
-        <text fileType="conversation_flow">Es-tu nouveau à La Défense ?</text>
+        <text>Es-tu nouveau à La Défense ?</text>
       </information>
-      <folder name="Je suis juste de passage" id="je-suis-juste-de-passage" nb="1">
+      <folder name="Je suis juste de passage" id="je-suis-juste-de-passage" nb="31">
         <information name="Ah d&apos;accord. Bienvenue à La défense dans ce cas !" id="ah-d-accord-bienvenue-a-la-defense-dans-ce-cas">
           <triggers>
             <trigger value="Je suis juste de passage."/>
@@ -832,11 +829,23 @@
           </information>
         </folder>
       </folder>
-      <information name="Photo arche La défense" id="photo-arche-la-defense">
+      <information name="Photo arche La défense" id="photo-arche-la-defense" nb="2">
+        <nextMessageId>es-tu-nouveau-a-la-defense</nextMessageId>
         <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/La-Defense.jpg&quot; /&gt;</text>
       </information>
     </chatbot>
-    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" starters="Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !&#10;Bonjour, bienvenue sur le site Holy Chatter !" fallbackEngine="Cybercuré"/>
+    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" fallbackEngine="Cybercuré">
+      <information name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter">
+        <proactivities>
+          <proactivity/>
+        </proactivities>
+        <nextMessageId>consignes</nextMessageId>
+        <text fileType="conversation_flow">Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !</text>
+      </information>
+      <information name="Consignes" id="consignes">
+        <text>N&apos;héste pas à me poser les questions que tu veux à tout moment.</text>
+      </information>
+    </chatbot>
     <chatbot name="martigues2019" id="martigues" useDefaultContent="true" fallbackEngine="Cybercuré"/>
   </folder>
   <folder name="Découverte" id="decouverte">
