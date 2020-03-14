@@ -802,7 +802,7 @@
       </information>
       <information name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense" nb="3">
         <recommendations>
-          <recommendation text="Oui, je suis juste de passage."/>
+          <recommendation text="Oui, je suis juste de passage." outMessageId="ah-d-accord-bienvenue-a-la-defense-dans-ce-cas"/>
           <recommendation text="Je suis là depuis quelques années mais je ne connais pas encore bien tout."/>
           <recommendation text="Non, je connais cet endroit bien depuis lontemps maintenant."/>
         </recommendations>
@@ -814,12 +814,8 @@
           <triggers>
             <trigger value="Je suis juste de passage."/>
           </triggers>
-          <recommendations>
-            <recommendation text="Oui, qu&apos;est-ce que je peux y faire ?"/>
-            <recommendation text="Oui, quels sont les caractéristiques du lieu ?" outMessageId="quels-sont-les-caracteristiques-du-lieu"/>
-            <recommendation text="Non, je parle avec toi juste par curiosité"/>
-          </recommendations>
-          <text>Ah d&apos;accord. Bienvenue à La défense dans ce cas !&#10;&#10;Veux-tu en savoir plus sur La Défense ?</text>
+          <nextMessageId>veux-tu-en-savoir-plus-sur-la-defense</nextMessageId>
+          <text>Ah d&apos;accord. Bienvenue à La défense dans ce cas !</text>
         </information>
         <folder name="Oui, quels sont les caractéristiques du lieu ?" id="oui-quels-sont-les-caracteristiques-du-lieu" nb="2">
           <information name="Quels sont les caractéristiques du lieu ?" id="quels-sont-les-caracteristiques-du-lieu">
@@ -829,6 +825,15 @@
             <text fileType="text_and_html">Il y a &lt;b&gt;180 000&lt;/b&gt; personnes qui travailles à La Défense.&#10;Il y a &lt;b&gt;70&lt;/b&gt; tours.&#10;Il y a &lt;b&gt;15&lt;/b&gt; entreprises du CAC 40 qui ont içi leur siège.&#10;&#10;&lt;img src=&quot;/resources/holychatter/upload/la-defense-gens.jpg&quot; /&gt;</text>
           </information>
         </folder>
+        <information name="Veux-tu en savoir plus sur La Défense ?" id="veux-tu-en-savoir-plus-sur-la-defense">
+          <recommendations>
+            <recommendation text="Oui, qu&apos;est-ce que je peux y faire ?"/>
+            <recommendation text="Oui, quels sont les caractéristiques du lieu ?" outMessageId="quels-sont-les-caracteristiques-du-lieu"/>
+            <recommendation text="Non, je parle avec toi juste par curiosité"/>
+          </recommendations>
+          <canBeFollowedByAProactivity>false</canBeFollowedByAProactivity>
+          <text>Veux-tu en savoir plus sur La Défense ?</text>
+        </information>
       </folder>
       <information name="Photo arche La défense" id="photo-arche-la-defense" nb="2">
         <nextMessageId>es-tu-nouveau-a-la-defense</nextMessageId>
