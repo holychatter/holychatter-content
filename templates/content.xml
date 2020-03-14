@@ -75,6 +75,18 @@
     </tr>
   </message>
 
+  <message id="message-link">
+    <table>
+      <tbody>
+        <tr class="hc-cursor-pointer">
+         <td height="42px" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+         <td style="padding-top:10px;" width="20" ></td>
+         <td colspan="3" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
+       </tr>
+      </tbody>
+    </table>
+  </message>
+
   <message id="content-split-in-two-columns">
     <table>
       <tbody>
