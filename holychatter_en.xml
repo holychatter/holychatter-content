@@ -2,27 +2,27 @@
 <contentRoot>
   <folder name="Bible" id="bible">
     <folder name="About" id="about">
-      <information name="Bible.is" id="bibleis">
+      <message name="Bible.is" id="bibleis">
         <description>It&apos;s a Christian application.</description>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gTf-D0W_TUo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </information>
-      <information name="The Bible provides a way to access happiness by following Jesus." id="the-bible-provides-a-way-to-access-happiness-by-following-jesus">
+      </message>
+      <message name="The Bible provides a way to access happiness by following Jesus." id="the-bible-provides-a-way-to-access-happiness-by-following-jesus">
         <tests>
           <test input="What does the Bible provide" output="The Bible provides a way to access happiness by following Jesus."/>
         </tests>
         <text>The Bible provides a way to access happiness by following Jesus.</text>
-      </information>
-      <information name="The Bible tells..." id="the-bible-tells">
+      </message>
+      <message name="The Bible tells..." id="the-bible-tells">
         <tests>
           <test input="What does the Bible tell?" output="The Bible tells who God is, our story, the suffering that is present in our heart and our thirst." outputReferences="Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-bible-tells&quot; textlength=&quot;5&quot; /&gt;"/>
         </tests>
         <sourceId>bible</sourceId>
         <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
-      </information>
+      </message>
     </folder>
     <folder name="God" id="god">
       <folder name="Jesus" id="jesus">
-        <information name="God became man" id="god-became-man">
+        <message name="God became man" id="god-became-man">
           <tests>
             <test input="Did God become man?" output="Yes, God became man." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 9:6-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4:2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 2:7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4:6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 2:13&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 4:15&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-became-man&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
@@ -38,21 +38,21 @@
           </references>
           <sourceId>bible</sourceId>
           <text>God became man to share everything of our human condition except sin.</text>
-        </information>
-        <information name="God has decided to come down to earth to take upon himself our curse out of love for us." id="god-has-decided-to-come-down-to-earth-to-take-upon-himself-our-curse-out-of-love-for-us">
+        </message>
+        <message name="God has decided to come down to earth to take upon himself our curse out of love for us." id="god-has-decided-to-come-down-to-earth-to-take-upon-himself-our-curse-out-of-love-for-us">
           <references>
             <bible book="Jn" chapter="3" verseBegin="16" verseEnd="17"/>
           </references>
           <sourceId>bible</sourceId>
           <text>God has decided to come down to earth to take upon himself our curse out of love for us.</text>
-        </information>
-        <information name="Jesus and prophecies" id="jesus-and-prophecies">
+        </message>
+        <message name="Jesus and prophecies" id="jesus-and-prophecies">
           <text>Jesus fulfills all the prophecies of the Old Testament.</text>
-        </information>
-        <information name="Jesus and the cross" id="jesus-and-the-cross">
+        </message>
+        <message name="Jesus and the cross" id="jesus-and-the-cross">
           <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
-        </information>
-        <information name="Jesus is the son of God" id="jesus-is-the-son-of-god">
+        </message>
+        <message name="Jesus is the son of God" id="jesus-is-the-son-of-god">
           <tests>
             <test input="Who is Jesus?" output="Jesus is the son of God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
             <test input="Jesus is the son of God?" output="Yes, Jesus is God&apos;s son." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -64,11 +64,11 @@
             <ccc verseBegin="432"/>
           </references>
           <text>Jesus is the son of God.</text>
-        </information>
-        <information name="Jesus is..." id="jesus-is">
+        </message>
+        <message name="Jesus is..." id="jesus-is">
           <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
-        </information>
-        <information name="Jesus loves us" id="jesus-loves-us">
+        </message>
+        <message name="Jesus loves us" id="jesus-loves-us">
           <tests>
             <test input="Who likes me?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
             <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -85,32 +85,32 @@
             <bible book="Prov" chapter="8" verseBegin="17"/>
           </references>
           <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
-        </information>
-        <information name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth">
+        </message>
+        <message name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth">
           <triggers>
             <trigger value="Show me the life of Jesus"/>
           </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="The Jesus Movie (1979)" id="the-jesus-movie">
+        </message>
+        <message name="The Jesus Movie (1979)" id="the-jesus-movie">
           <triggers>
             <trigger value="Show me the life of Jesus"/>
           </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ">
+        </message>
+        <message name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ">
           <triggers>
             <trigger value="Show me the life of Jesus"/>
           </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="The Son is God" id="the-son-is-god">
+        </message>
+        <message name="The Son is God" id="the-son-is-god">
           <tests>
             <test input="The Son is God?" output="Yes, the Son is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14:61-62&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:30&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url: &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-son-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
@@ -124,8 +124,8 @@
           </references>
           <sourceId>bible</sourceId>
           <text>The Son is God.</text>
-        </information>
-        <information name="Why is Jesus God?" id="why-is-jesus-god">
+        </message>
+        <message name="Why is Jesus God?" id="why-is-jesus-god">
           <tests>
             <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26:63-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2:32-36&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
           </tests>
@@ -138,16 +138,16 @@
             <ccc verseBegin="432"/>
           </references>
           <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
-        </information>
+        </message>
       </folder>
       <folder name="The Father" id="the-father">
         <folder name="God exists" id="god-exists">
-          <information name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part">
+          <message name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part">
             <description>That is why God exists.</description>
             <sourceId>restored-cog</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </information>
-          <information name="God exists" id="god-exists">
+          </message>
+          <message name="God exists" id="god-exists">
             <tests>
               <test input="Does God exist?" output="Yes, God exists." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 22:1-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7:14&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52:13-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 16:15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mic 5:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 12:3&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Url: &lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-exists&quot; textlength=&quot;5&quot; /&gt;"/>
             </tests>
@@ -168,24 +168,24 @@
             </references>
             <sourceId>bible</sourceId>
             <text>God exists.</text>
-          </information>
+          </message>
         </folder>
-        <information name="God is good." id="god-is-good">
+        <message name="God is good." id="god-is-good">
           <tests>
             <test input="God is good ?" output="Yes, God is good."/>
           </tests>
           <text>God is good.</text>
-        </information>
-        <information name="God is not unfair." id="god-is-not-unfair">
+        </message>
+        <message name="God is not unfair." id="god-is-not-unfair">
           <references>
             <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
           </references>
           <text>God is not unfair.</text>
-        </information>
-        <information name="God is not unfaithful" id="god-is-not-unfaithful">
+        </message>
+        <message name="God is not unfaithful" id="god-is-not-unfaithful">
           <text>God is not unfaithful.</text>
-        </information>
-        <information name="God surpasses reason" id="god-surpasses-reason">
+        </message>
+        <message name="God surpasses reason" id="god-surpasses-reason">
           <tests>
             <test input="God surpasses reason" output="Yes, I know God surpasses the reason." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 6:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-surpasses-reason&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
@@ -194,8 +194,8 @@
           </references>
           <sourceId>bible</sourceId>
           <text>God surpasses reason.</text>
-        </information>
-        <information name="The Father is God" id="the-father-is-god">
+        </message>
+        <message name="The Father is God" id="the-father-is-god">
           <tests>
             <test input="The Father is God?" output="Yes, the Father is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-father-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
@@ -206,18 +206,18 @@
           </references>
           <sourceId>bible</sourceId>
           <text>The Father is God.</text>
-        </information>
-        <information name="There is but one God" id="there-is-but-one-god">
+        </message>
+        <message name="There is but one God" id="there-is-but-one-god">
           <references>
             <bible book="Deut" chapter="4" verseBegin="35"/>
             <bible book="Is" chapter="46" verseBegin="9"/>
             <bible book="1 Cor" chapter="8" verseBegin="4"/>
           </references>
           <text>There is but one God.</text>
-        </information>
+        </message>
       </folder>
       <folder name="The Holy Spirit" id="the-holy-spirit">
-        <information name="The Spirit is God" id="the-spirit-is-god">
+        <message name="The Spirit is God" id="the-spirit-is-god">
           <tests>
             <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 5:3-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-spirit-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
@@ -227,12 +227,12 @@
           </references>
           <sourceId>bible</sourceId>
           <text>The Spirit is God.</text>
-        </information>
+        </message>
       </folder>
     </folder>
     <folder name="New Testament" id="new-testament" nb="2">
       <folder name="Ascension" id="ascension">
-        <information name="ASCENSION OF JESUS CHRIST " id="ascension-of-jesus-christ">
+        <message name="ASCENSION OF JESUS CHRIST " id="ascension-of-jesus-christ">
           <tests>
             <test input="Show me the Ascension of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:1-11&quot; textlength=&quot;11&quot; /&gt;"/>
           </tests>
@@ -242,30 +242,30 @@
             <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
           </references>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Beloved Master Jesus&apos; Ascension " id="beloved-master-jesus-ascension">
+        </message>
+        <message name="Beloved Master Jesus&apos; Ascension " id="beloved-master-jesus-ascension">
           <description>It&apos;s the Ascension of Jesus.</description>
           <references>
             <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
             <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
           </references>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4qBbr1D-OlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Gospel" id="gospel">
-        <information name="There is 4 gospels" id="there-is-gospels">
+        <message name="There is 4 gospels" id="there-is-gospels">
           <tests>
             <test input="How many gospels are there?" output="There are 4 gospels."/>
           </tests>
           <text>There is 4 gospels.</text>
-        </information>
+        </message>
       </folder>
-      <information name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus">
+      <message name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus">
         <description>It&apos;s the life of Jesus.</description>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </information>
+      </message>
       <folder name="Mary" id="mary">
-        <information name="Mary of Nazareth" id="mary-of-nazareth">
+        <message name="Mary of Nazareth" id="mary-of-nazareth">
           <tests>
             <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
           </tests>
@@ -273,17 +273,17 @@
             <trigger value="Show me the life of Mary"/>
           </triggers>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Resurrection" id="resurrection">
-        <information name="Jesus is resurrected" id="jesus-is-resurrected">
+        <message name="Jesus is resurrected" id="jesus-is-resurrected">
           <tests>
             <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected."/>
             <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected."/>
           </tests>
           <text>Jesus is resurrected.</text>
-        </information>
-        <information name="The Resurrection of Jesus (Introduction) " id="the-resurrection-of-jesus-introduction">
+        </message>
+        <message name="The Resurrection of Jesus (Introduction) " id="the-resurrection-of-jesus-introduction">
           <tests>
             <test input="Show me Resurrection of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 24:1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 16:1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:14-19&quot; textlength=&quot;14&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 2:22-33&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Inspiring Philosophy&quot; resourceid=&quot;the-resurrection-of-jesus-introduction&quot; textlength=&quot;20&quot; /&gt;"/>
           </tests>
@@ -298,14 +298,14 @@
           </references>
           <sourceId>inspiring-philosophy</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
     </folder>
     <folder name="Old Testament" id="old-testament" nb="1">
       <folder name="Pentateuch" id="pentateuch" nb="1">
         <folder name="Genesis" id="genesis" nb="1">
           <folder name="Abraham" id="abraham">
-            <information name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="abraham-sarah-isaac-jacob-full-movie">
+            <message name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="abraham-sarah-isaac-jacob-full-movie">
               <tests>
                 <test input="Show me the life of Abraham" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Thinbey Sk&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;10&quot; /&gt;"/>
                 <test input="Abraham" output="Abraham is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Thinbey Sk&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -313,14 +313,14 @@
               <description>It&apos;s the life of Abraham.&#10;It&apos;s Abraham.</description>
               <sourceId>thinbey-sk</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V5WNbtj3gZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </information>
+            </message>
           </folder>
-          <information name="The beginning of the Bible is the book of Genesis." id="the-beginning-of-the-bible-is-the-book-of-genesis">
+          <message name="The beginning of the Bible is the book of Genesis." id="the-beginning-of-the-bible-is-the-book-of-genesis">
             <tests>
               <test input="What is the beginning of the Bible?" output="The beginning of the Bible is Genesis&apos; book."/>
             </tests>
             <text>The beginning of the Bible is the book of Genesis.</text>
-          </information>
+          </message>
         </folder>
       </folder>
     </folder>
@@ -331,11 +331,11 @@
   <folder name="Church" id="church">
     <folder name="Mass" id="mass">
       <folder name="Readings" id="readings">
-        <information name="First Reading" id="first-reading">
+        <message name="First Reading" id="first-reading">
           <sourceId>daily-gospel</sourceId>
           <text fileType="api">&lt;hc_api name=&quot;first_reading&quot; /&gt;</text>
-        </information>
-        <information name="Holy Gospel" id="holy-gospel">
+        </message>
+        <message name="Holy Gospel" id="holy-gospel">
           <tests>
             <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
             <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -349,35 +349,35 @@
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <sourceId>daily-gospel</sourceId>
           <text fileType="api">&lt;hc_api name=&quot;holy_gospel&quot; /&gt;</text>
-        </information>
-        <information name="Psalm" id="psalm">
+        </message>
+        <message name="Psalm" id="psalm">
           <sourceId>daily-gospel</sourceId>
           <text fileType="api">&lt;hc_api name=&quot;psalm&quot; /&gt;</text>
-        </information>
-        <information name="Second Reading" id="second-reading">
+        </message>
+        <message name="Second Reading" id="second-reading">
           <sourceId>daily-gospel</sourceId>
           <text fileType="api">&lt;hc_api name=&quot;second_reading&quot; /&gt;</text>
-        </information>
-        <information name="Suggest to read the Holy Gospel" id="suggest-to-read-the-holy-gospel">
+        </message>
+        <message name="Suggest to read the Holy Gospel" id="suggest-to-read-the-holy-gospel">
           <triggers>
             <trigger value="I know the Catholic Church."/>
           </triggers>
           <sourceId>daily-gospel</sourceId>
           <text>Do you want to read the Holy Gospel of today ?</text>
-        </information>
+        </message>
       </folder>
     </folder>
     <folder name="Saints" id="saints">
       <folder name="Mother Teresa" id="mother-teresa">
-        <information name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television">
+        <message name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television">
           <tests>
             <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
           </tests>
           <description>It&apos;s the life of Mother Teresa.&#10;It&apos;s Mother Teresa.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
-      <information name="Saint" id="saint">
+      <message name="Saint" id="saint">
         <tests>
           <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
@@ -387,41 +387,41 @@
         <isAHighImportanceFile>true</isAHighImportanceFile>
         <sourceId>daily-gospel</sourceId>
         <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
-      </information>
+      </message>
       <folder name="Saint Faustina" id="saint-faustina">
-        <information name="The Life of St. Faustina" id="the-life-of-st-faustina">
+        <message name="The Life of St. Faustina" id="the-life-of-st-faustina">
           <description>It&apos;s Saint Faustina.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FLAPt4waYxU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Saint Jean Marie Vianney" id="saint-jean-marie-vianney">
-        <information name="Life" id="life">
+        <message name="Life" id="life">
           <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
-        </information>
+        </message>
       </folder>
       <folder name="Saint Maximilian Kolbe" id="saint-maximilian-kolbe">
-        <information name="Saint Maximilian Mary Kolbe" id="saint-maximilian-mary-kolbe">
+        <message name="Saint Maximilian Mary Kolbe" id="saint-maximilian-mary-kolbe">
           <description>It&apos;s Saint Maximilian Kolbe.</description>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/THT5QxhCiGE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
     </folder>
-    <information name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
+    <message name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
       <triggers>
         <trigger value="I don&apos;t know the Catholic Church."/>
       </triggers>
       <text>Do you want to see a video that describe the Church ?</text>
-    </information>
+    </message>
     <folder name="Teaching" id="teaching">
-      <information name="Credo" id="credo">
+      <message name="Credo" id="credo">
         <tests>
           <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;."/>
         </tests>
         <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
-      </information>
+      </message>
     </folder>
     <folder name="Usual answers" id="usual-answers">
-      <information name="Christ is risen!" id="christ-is-risen">
+      <message name="Christ is risen!" id="christ-is-risen">
         <triggers>
           <trigger value="Christ is risen!"/>
         </triggers>
@@ -429,69 +429,69 @@
           <site book="https://en.wikipedia.org/wiki/Paschal_greeting"/>
         </references>
         <text>Truly, He is Risen!</text>
-      </information>
-      <information name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
+      </message>
+      <message name="Let us give thanks to the Lord our God." id="let-us-give-thanks-to-the-lord-our-god">
         <triggers>
           <trigger value="Let us give thanks to the Lord our God."/>
         </triggers>
         <text>It is right and just.</text>
-      </information>
-      <information name="Lift up your hearts." id="lift-up-your-hearts">
+      </message>
+      <message name="Lift up your hearts." id="lift-up-your-hearts">
         <triggers>
           <trigger value="Lift up your hearts."/>
         </triggers>
         <text>We lift them up to the Lord.</text>
-      </information>
-      <information name="The Lord be with you." id="the-lord-be-with-you">
+      </message>
+      <message name="The Lord be with you." id="the-lord-be-with-you">
         <triggers>
           <trigger value="The Lord be with you."/>
         </triggers>
         <text>And with your spirit.</text>
-      </information>
-      <information name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
+      </message>
+      <message name="The peace of the Lord be with you always." id="the-peace-of-the-lord-be-with-you-always">
         <triggers>
           <trigger value="The peace of the Lord be with you always."/>
         </triggers>
         <text>And with your spirit.</text>
-      </information>
+      </message>
     </folder>
   </folder>
   <folder name="Discovery" id="discovery">
     <folder name="By age" id="by-age">
       <folder name="Everybody" id="everybody">
         <folder name="Holy Chatter" id="holy-chatter">
-          <information name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
+          <message name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
             <proactivities>
               <proactivity priority="500"/>
             </proactivities>
             <text fileType="conversation_flow">Do you already know the Catholic Church?</text>
-          </information>
-          <information name="Greeting" id="greeting">
+          </message>
+          <message name="Greeting" id="greeting">
             <triggers>
               <trigger value="Hello"/>
             </triggers>
             <text>Hello</text>
-          </information>
-          <information name="Moral" id="moral">
+          </message>
+          <message name="Moral" id="moral">
             <tests>
               <test input="Are you fine?" output="Yes, I am fine."/>
             </tests>
             <text>I&apos;m fine.</text>
-          </information>
-          <information name="My name" id="my-name">
+          </message>
+          <message name="My name" id="my-name">
             <tests>
               <test input="What is your name?" output="My name is Holy Chatter."/>
               <test input="Who are you?" output="I am Holy Chatter."/>
             </tests>
             <text>My name is Holy Chatter.</text>
-          </information>
+          </message>
         </folder>
       </folder>
     </folder>
   </folder>
   <folder name="Prayers" id="prayers">
     <folder name="Jesus" id="jesus-prayers">
-      <information name="Eucharistic Adoration: St. Stephen Catholic Church" id="eucharistic-adoration-st-stephen-catholic-church">
+      <message name="Eucharistic Adoration: St. Stephen Catholic Church" id="eucharistic-adoration-st-stephen-catholic-church">
         <tests>
           <test input="I want to see Jesus." output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Shalom World&quot; resourceid=&quot;eucharistic-adoration-st-stephen-catholic-church&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
@@ -500,21 +500,21 @@
         </triggers>
         <sourceId>shalom-world</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </information>
+      </message>
     </folder>
     <folder name="Rosary" id="rosary">
-      <information name="Holy Rosary - Joyful Mysteries - Monday &amp; Saturday" id="holy-rosary-joyful-mysteries-monday-saturday">
+      <message name="Holy Rosary - Joyful Mysteries - Monday &amp; Saturday" id="holy-rosary-joyful-mysteries-monday-saturday">
         <triggers>
           <trigger value="How to pray the rosary?"/>
         </triggers>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cvKWpiVLuRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </information>
+      </message>
     </folder>
   </folder>
   <folder name="Teachings" id="teachings">
     <folder name="3 Minute Catechism" id="minute-catechism" defaultSourceId="minute-catechism">
       <folder name="Basics" id="basics" nb="1">
-        <information name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
+        <message name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
           <tests>
             <test input="Is there a proof for the existence of God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1Rhabwbw7MI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-37&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-proof-for-the-existence-of-god&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -528,8 +528,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1Rhabwbw7MI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are miracles?" id="what-are-miracles" nb="6">
+        </message>
+        <message name="What are miracles?" id="what-are-miracles" nb="6">
           <tests>
             <test input="What are miracles?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 17:12-18&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:30-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-miracles&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -543,8 +543,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What does it mean to “believe in God”?" id="what-does-it-mean-to-believe-in-god" nb="4">
+        </message>
+        <message name="What does it mean to “believe in God”?" id="what-does-it-mean-to-believe-in-god" nb="4">
           <tests>
             <test input="What does it mean to believe in God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GU5QwpHV04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 10:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 3:5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 28:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 118:8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;150-165&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;183&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-to-believe-in-god&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What does it mean to “believe in God”?" output="I don&apos;t know what it means in God” to “believe." isOk="false"/>
@@ -564,8 +564,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GU5QwpHV04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is man?" id="what-is-man" nb="1">
+        </message>
+        <message name="What is man?" id="what-is-man" nb="1">
           <tests>
             <test input="What is man?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SpJt3ZrpkEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 17:27-28&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 49:20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 1:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;2 Chr 1:7-12&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;26-30&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-45&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-man&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -583,8 +583,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SpJt3ZrpkEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the Soul?" id="what-is-the-soul" nb="2">
+        </message>
+        <message name="What is the Soul?" id="what-is-the-soul" nb="2">
           <tests>
             <test input="What is the soul?" output="The soul is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GH3nsxCGmEM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ezek 18:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Eccl 12:7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Deut 6:5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:26&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;362-368&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;382&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-soul&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -602,8 +602,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GH3nsxCGmEM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the difference between believing and knowing?" id="what-is-the-difference-between-believing-and-knowing" nb="3">
+        </message>
+        <message name="What is the difference between believing and knowing?" id="what-is-the-difference-between-believing-and-knowing" nb="3">
           <tests>
             <test input="What is the difference between believing and knowing?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FKVoLu_UAkU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;2 Cor 5:7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 11:1&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;159&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-difference-between-believing-and-knowing&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -617,10 +617,10 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FKVoLu_UAkU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Creation" id="creation" nb="4">
-        <information name="Does the Devil exist?" id="does-the-devil-exist" nb="26">
+        <message name="Does the Devil exist?" id="does-the-devil-exist" nb="26">
           <tests>
             <test input="Does the Devil exist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uUHjWoD3zhI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 24:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 1:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Chr 21:1&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 3:1&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 12:22-29&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 10:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 7:25-30&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jude 1:6&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-the-devil-exist&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Does the devil exist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uUHjWoD3zhI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 24:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 1:4&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Chr 21:1&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 3:1&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 12:22-29&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 10:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 7:25-30&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jude 1:6&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-the-devil-exist&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -648,8 +648,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uUHjWoD3zhI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Is there a contradiction between Faith and Science?" id="is-there-a-contradiction-between-faith-and-science" nb="22">
+        </message>
+        <message name="Is there a contradiction between Faith and Science?" id="is-there-a-contradiction-between-faith-and-science" nb="22">
           <tests>
             <test input="Is there a contradiction between Faith and Science?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/JWJFAeI3r3E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ex 33:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 27:8-9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 63:2-3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3:2&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-contradiction-between-faith-and-science&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -666,8 +666,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/JWJFAeI3r3E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Is there a contradiction between the Creation and Evolution?" id="is-there-a-contradiction-between-the-creation-and-evolution" nb="23">
+        </message>
+        <message name="Is there a contradiction between the Creation and Evolution?" id="is-there-a-contradiction-between-the-creation-and-evolution" nb="23">
           <tests>
             <test input="Is there a contradiction between the Creation and Evolution?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Bzxfab6qdQg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-contradiction-between-the-creation-and-evolution&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -679,8 +679,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Bzxfab6qdQg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Creation according to the Church?" id="what-is-creation-according-to-the-church" nb="21">
+        </message>
+        <message name="What is Creation according to the Church?" id="what-is-creation-according-to-the-church" nb="21">
           <tests>
             <test input="What is Creation according to the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1qrHme0lOjc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 10:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 3:5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 27:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 117:8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;150-165&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;183&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-creation-according-to-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -698,8 +698,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/1qrHme0lOjc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Evil?" id="what-is-evil" nb="24">
+        </message>
+        <message name="What is Evil?" id="what-is-evil" nb="24">
           <tests>
             <test input="What is Evil?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/n-2VNTDgDAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;309-314&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;324&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;400&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-evil&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is evil?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/n-2VNTDgDAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;309-314&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;324&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;400&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-evil&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -714,8 +714,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/n-2VNTDgDAc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Original Sin?" id="what-is-original-sin" nb="25">
+        </message>
+        <message name="What is Original Sin?" id="what-is-original-sin" nb="25">
           <tests>
             <test input="What is Original Sin?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 3&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;396&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;421&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-original-sin&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="The Original Sin." output="The Original Sin is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 3&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;396&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;421&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-original-sin&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -732,10 +732,10 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-p5LLEzLCms&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="God" id="god-minute-catechism" nb="3">
-        <information name="How can we summarize belief in the Trinity?" id="how-can-we-summarize-belief-in-the-trinity" nb="17">
+        <message name="How can we summarize belief in the Trinity?" id="how-can-we-summarize-belief-in-the-trinity" nb="17">
           <tests>
             <test input="How can we summarize belief in the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/MU_VrDmfPl8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 7:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 1:1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 5:3-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;232-236&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;249-256&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;261&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-summarize-belief-in-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -757,8 +757,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/MU_VrDmfPl8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="How can we understand the Trinity?" id="how-can-we-understand-the-trinity" nb="18">
+        </message>
+        <message name="How can we understand the Trinity?" id="how-can-we-understand-the-trinity" nb="18">
           <tests>
             <test input="How can we understand the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3BcvPMsvtk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-understand-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="How can we understand the mystery of the Trinity?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3BcvPMsvtk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-can-we-understand-the-trinity&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -772,8 +772,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3BcvPMsvtk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Is God a man with a long beard?" id="is-god-a-man-with-a-long-beard" nb="15">
+        </message>
+        <message name="Is God a man with a long beard?" id="is-god-a-man-with-a-long-beard" nb="15">
           <tests>
             <test input="Is God a man with a long beard?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ehMQDoz2xQI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 6:9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Is 66:13&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 22:37&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 68:5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;238-240&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;370&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-a-man-with-a-long-beard&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -790,8 +790,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ehMQDoz2xQI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Is God really All-powerful?" id="is-god-really-all-powerful" nb="13">
+        </message>
+        <message name="Is God really All-powerful?" id="is-god-really-all-powerful" nb="13">
           <tests>
             <test input="Is God really all powerful?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3VxizuWWTE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1:37&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Job 37:23&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 1:3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Job 42:2&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-really-all-powerful&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -808,8 +808,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/d3VxizuWWTE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Is God really unchanging?" id="is-god-really-unchanging" nb="14">
+        </message>
+        <message name="Is God really unchanging?" id="is-god-really-unchanging" nb="14">
           <tests>
             <test input="Is God really unchanging?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kikujtUBqG8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jas 1:17&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mal 3:6&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Is 40:28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 6:17-18&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3:14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-really-unchanging&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -826,8 +826,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kikujtUBqG8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What does it mean that God is Love?" id="what-does-it-mean-that-god-is-love" nb="20">
+        </message>
+        <message name="What does it mean that God is Love?" id="what-does-it-mean-that-god-is-love" nb="20">
           <tests>
             <test input="What does it mean that God is Love?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/OxO5Z-PjPLg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Jn 4:8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-that-god-is-love&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -840,8 +840,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/OxO5Z-PjPLg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What does it mean that God is Triune?" id="what-does-it-mean-that-god-is-triune" nb="16">
+        </message>
+        <message name="What does it mean that God is Triune?" id="what-does-it-mean-that-god-is-triune" nb="16">
           <tests>
             <test input="What does it mean that God is Triune?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/pILdDxBavts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 1:1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 5:3-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;232-236&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;249-256&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;261&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-that-god-is-triune&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -863,8 +863,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/pILdDxBavts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What pictures do we have of the Holy Trinity?" id="what-pictures-do-we-have-of-the-holy-trinity" nb="19">
+        </message>
+        <message name="What pictures do we have of the Holy Trinity?" id="what-pictures-do-we-have-of-the-holy-trinity" nb="19">
           <triggers>
             <trigger value="What pictures do we have of the Holy Trinity?"/>
           </triggers>
@@ -873,8 +873,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/58eEmK6Z6i8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Who is God?" id="who-is-god" nb="12">
+        </message>
+        <message name="Who is God?" id="who-is-god" nb="12">
           <tests>
             <test input="Who is God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 4:24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Deut 4:35&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 8:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 6:16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Job 34:21&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Job 36:26&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="God" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 4:24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Deut 4:35&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 46:9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 8:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 6:16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Job 34:21&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Job 36:26&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -897,10 +897,10 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Life with God" id="life-with-god" nb="9">
-        <information name="Does atheism lead to a better world?" id="does-atheism-lead-to-a-better-world" nb="72">
+        <message name="Does atheism lead to a better world?" id="does-atheism-lead-to-a-better-world" nb="72">
           <tests>
             <test input="Does atheism lead to a better world?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3rls2D149r4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 14:1&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-atheism-lead-to-a-better-world&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Religions bring only problems." output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3rls2D149r4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 14:1&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-atheism-lead-to-a-better-world&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -920,8 +920,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3rls2D149r4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Is everyone called to holiness?" id="is-everyone-called-to-holiness" nb="66">
+        </message>
+        <message name="Is everyone called to holiness?" id="is-everyone-called-to-holiness" nb="66">
           <tests>
             <test input="Is everyone called to holiness?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ayrvkqhwuoo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lev 20:7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 51:2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 51:7-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5:48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 4:8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:15-16&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3:9-10&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 4:24&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-everyone-called-to-holiness&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -943,8 +943,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ayrvkqhwuoo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are virtues?" id="what-are-virtues" nb="67">
+        </message>
+        <message name="What are virtues?" id="what-are-virtues" nb="67">
           <tests>
             <test input="What are virtues?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/VD49sz7Btno&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 4:8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2 Pet 1:3-8&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 13:1-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 1:3&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 5:5-6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 1:9-11&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 2:1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 5:23&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 6:16-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1803-1833&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-virtues&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -966,8 +966,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/VD49sz7Btno&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is man in light of the faith?" id="what-is-man-in-light-of-the-faith" nb="65">
+        </message>
+        <message name="What is man in light of the faith?" id="what-is-man-in-light-of-the-faith" nb="65">
           <tests>
             <test input="What is man in light of the faith?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/9jUDzLrI-dw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 139:13-16&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:15-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;355-361&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;381&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-man-in-light-of-the-faith&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -982,8 +982,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/9jUDzLrI-dw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is prayer?" id="what-is-prayer" nb="68">
+        </message>
+        <message name="What is prayer?" id="what-is-prayer" nb="68">
           <tests>
             <test input="What is prayer?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ED2palqNKa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 145:18&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 6:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:26&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 5:17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 2:8&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2558-2565&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2626-2649&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-prayer&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="the prayer" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ED2palqNKa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 145:18&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 6:11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:26&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 5:17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 2:8&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2558-2565&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2626-2649&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-prayer&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1004,8 +1004,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ED2palqNKa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the Our Father?" id="what-is-the-our-father" nb="70">
+        </message>
+        <message name="What is the Our Father?" id="what-is-the-our-father" nb="70">
           <tests>
             <test input="What is the Our Father?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/A5lg6QeZOBE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 6:9-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2759-2865&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-our-father&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1018,8 +1018,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/A5lg6QeZOBE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the role of the body in prayer?" id="what-is-the-role-of-the-body-in-prayer" nb="69">
+        </message>
+        <message name="What is the role of the body in prayer?" id="what-is-the-role-of-the-body-in-prayer" nb="69">
           <tests>
             <test input="What is the role of the body in prayer?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FvD2lr_UTu4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mk 1:40&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 14:11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:14&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2683-2698&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2720&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-role-of-the-body-in-prayer&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1036,8 +1036,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/FvD2lr_UTu4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Why are atheists (not) wrong?" id="why-are-atheists-not-wrong" nb="71">
+        </message>
+        <message name="Why are atheists (not) wrong?" id="why-are-atheists-not-wrong" nb="71">
           <tests>
             <test input="Why are atheists wrong?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3rls2D149r4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 1:18-23&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 2:14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-are-atheists-not-wrong&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1052,10 +1052,10 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3rls2D149r4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Redemption" id="redemption" nb="5">
-        <information name="How did Jesus live?" id="how-did-jesus-live" nb="30">
+        <message name="How did Jesus live?" id="how-did-jesus-live" nb="30">
           <tests>
             <test input="How did Jesus live?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-live&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1067,8 +1067,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="How did Jesus save us on the Cross?" id="how-did-jesus-save-us-on-the-cross" nb="32">
+        </message>
+        <message name="How did Jesus save us on the Cross?" id="how-did-jesus-save-us-on-the-cross" nb="32">
           <tests>
             <test input="How did Jesus save us on the Cross?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 8:31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 10:33-34&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 13:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:3&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:18-19&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:2&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-save-us-on-the-cross&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is Redemption ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 8:31&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 10:33-34&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 13:1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 15:3&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1:18-19&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 2:2&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-save-us-on-the-cross&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1089,8 +1089,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="How does the grace of salvation come to us?" id="how-does-the-grace-of-salvation-come-to-us" nb="33">
+        </message>
+        <message name="How does the grace of salvation come to us?" id="how-does-the-grace-of-salvation-come-to-us" nb="33">
           <triggers>
             <trigger value="How does the grace of salvation come to us?"/>
           </triggers>
@@ -1102,8 +1102,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kgqH0Q0kFgM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="How is Jesus different from the founders of other religions?" id="how-is-jesus-different-from-the-founders-of-other-religions" nb="31">
+        </message>
+        <message name="How is Jesus different from the founders of other religions?" id="how-is-jesus-different-from-the-founders-of-other-religions" nb="31">
           <tests>
             <test input="How is Jesus different from the founders of other religions?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Phil 2:10-11&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-jesus-different-from-the-founders-of-other-religions&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1115,8 +1115,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Who was Jesus?" id="who-was-jesus" nb="27">
+        </message>
+        <message name="Who was Jesus?" id="who-was-jesus" nb="27">
           <tests>
             <test input="Who was Jesus?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:20&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 25:31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8:1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11:27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Who is the giver of Life?" output="Life&apos;s giver is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:20&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 25:31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28:19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8:1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11:27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1137,8 +1137,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Why did God become Man?" id="why-did-god-become-man" nb="28">
+        </message>
+        <message name="Why did God become Man?" id="why-did-god-become-man" nb="28">
           <tests>
             <test input="Why did God become Man?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ak_OX77ASh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 4:4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 2:5-10&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;456-482&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-god-become-man&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Why the Incarnation?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ak_OX77ASh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 4:4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Phil 2:5-10&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;456-482&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-god-become-man&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1155,8 +1155,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ak_OX77ASh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Why did Jesus come into the world 2000 years ago?" id="why-did-jesus-come-into-the-world-years-ago" nb="29">
+        </message>
+        <message name="Why did Jesus come into the world 2000 years ago?" id="why-did-jesus-come-into-the-world-years-ago" nb="29">
           <tests>
             <test input="Why did Jesus come into the world 2000 years ago?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-jesus-come-into-the-world-years-ago&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1165,10 +1165,10 @@
           </triggers>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Revelation" id="revelation" nb="2">
-        <information name="How has God revealed himself?" id="how-has-god-revealed-himself" nb="8">
+        <message name="How has God revealed himself?" id="how-has-god-revealed-himself" nb="8">
           <tests>
             <test input="How has God revealed himself?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cbn2_IS6CEk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 7:2-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 1:1-2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-73&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-has-god-revealed-himself&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1182,8 +1182,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cbn2_IS6CEk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="How is Revelation passed on?" id="how-is-revelation-passed-on" nb="9">
+        </message>
+        <message name="How is Revelation passed on?" id="how-is-revelation-passed-on" nb="9">
           <tests>
             <test input="How is Revelation passed on?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oewe1uiQIyE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Neh 8:7-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 24:15-32&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 8:27-35&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;2 Thess 2:15&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;76&quot; textlength=&quot;2&quot; /&gt;; &lt;hc_ccc ref=&quot;80-82&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;85-87&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;97&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-revelation-passed-on&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1202,8 +1202,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oewe1uiQIyE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="How is the Bible structured?" id="how-is-the-bible-structured" nb="10">
+        </message>
+        <message name="How is the Bible structured?" id="how-is-the-bible-structured" nb="10">
           <tests>
             <test input="How is the Bible structured?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oyXk9TNRcF8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;121-130&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-the-bible-structured&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are parts of the Bible?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oyXk9TNRcF8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;121-130&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-the-bible-structured&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1218,8 +1218,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/oyXk9TNRcF8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Who decided what belongs in the Bible?" id="who-decided-what-belongs-in-the-bible" nb="11">
+        </message>
+        <message name="Who decided what belongs in the Bible?" id="who-decided-what-belongs-in-the-bible" nb="11">
           <tests>
             <test input="Who decided what belongs in the Bible?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4YTPO88yzXE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;103-109&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-decided-what-belongs-in-the-bible&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1231,8 +1231,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4YTPO88yzXE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Why does God reveal Himself?" id="why-does-god-reveal-himself" nb="7">
+        </message>
+        <message name="Why does God reveal Himself?" id="why-does-god-reveal-himself" nb="7">
           <tests>
             <test input="Why does God reveal himself?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/163c4xg4F5s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:18&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 1:1-3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:24&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-does-god-reveal-himself&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1248,10 +1248,10 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/163c4xg4F5s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="Sanctification" id="sanctification" nb="6">
-        <information name="How do we receive and increase grace?" id="how-do-we-receive-and-increase-grace" nb="35">
+        <message name="How do we receive and increase grace?" id="how-do-we-receive-and-increase-grace" nb="35">
           <tests>
             <test input="How do we receive and increase grace?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/fEXx3gP-Mf0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 13:14&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 3:27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2 Cor 8:7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2 Pet 1:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2 Pet 3:18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1076&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_ccc ref=&quot;1113-1134&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2003&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-do-we-receive-and-increase-grace&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1270,8 +1270,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/fEXx3gP-Mf0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are Sins?" id="what-are-sins" nb="41">
+        </message>
+        <message name="What are Sins?" id="what-are-sins" nb="41">
           <tests>
             <test input="What are Sins?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/QKhuWT30WdY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Prov 24:16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 1:8-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 5:16-17&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1849-1876&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-sins&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1286,8 +1286,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/QKhuWT30WdY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are the 10 Commandments?" id="what-are-the-commandments" nb="42">
+        </message>
+        <message name="What are the 10 Commandments?" id="what-are-the-commandments" nb="42">
           <triggers>
             <trigger value="What are the 10 Commandments?"/>
           </triggers>
@@ -1297,8 +1297,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3U4B__ZQ5Mw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are the 7 Capital Sins?" id="what-are-the-capital-sins" nb="43">
+        </message>
+        <message name="What are the 7 Capital Sins?" id="what-are-the-capital-sins" nb="43">
           <triggers>
             <trigger value="What are the 7 Capital Sins?"/>
           </triggers>
@@ -1309,8 +1309,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/vJszgq2_x1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are the degrees of the Sacrament of Holy Orders?" id="what-are-the-degrees-of-the-sacrament-of-holy-orders" nb="47">
+        </message>
+        <message name="What are the degrees of the Sacrament of Holy Orders?" id="what-are-the-degrees-of-the-sacrament-of-holy-orders" nb="47">
           <triggers>
             <trigger value="What are the degrees of the Sacrament of Holy Orders?"/>
           </triggers>
@@ -1328,8 +1328,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aq315ppTiOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are the parts of the Mass?" id="what-are-the-parts-of-the-mass" nb="40">
+        </message>
+        <message name="What are the parts of the Mass?" id="what-are-the-parts-of-the-mass" nb="40">
           <tests>
             <test input="What are the parts of the Mass?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KJgEYDVmgYk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1345-1355&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1408&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-parts-of-the-mass&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1342,8 +1342,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KJgEYDVmgYk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What does the Church teach about sexual morality?" id="what-does-the-church-teach-about-sexual-morality" nb="50">
+        </message>
+        <message name="What does the Church teach about sexual morality?" id="what-does-the-church-teach-about-sexual-morality" nb="50">
           <tests>
             <test input="What does the Church teach about sexual morality?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/J70AGlRacMY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 5:27-32&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19:3-11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 3:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5:3-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:24-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2368-2391&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2399-2400&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-the-church-teach-about-sexual-morality&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1363,8 +1363,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/J70AGlRacMY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Anointing of the Sick?" id="what-is-anointing-of-the-sick" nb="45">
+        </message>
+        <message name="What is Anointing of the Sick?" id="what-is-anointing-of-the-sick" nb="45">
           <tests>
             <test input="What is Anointing of the Sick?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/dUlP_0TpRgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jas 5:14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1499-1525&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-anointing-of-the-sick&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is anointing of the Sick?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/dUlP_0TpRgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jas 5:14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1499-1525&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-anointing-of-the-sick&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1379,8 +1379,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/dUlP_0TpRgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Baptism?" id="what-is-baptism" nb="36">
+        </message>
+        <message name="What is Baptism?" id="what-is-baptism" nb="36">
           <tests>
             <test input="What is Baptism?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZXK8Q2rUGxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 28:19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3:5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 2:38-41&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 8:12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 18:8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 6:3-4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2:12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 3:5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1213-1284&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2167&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-baptism&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1401,8 +1401,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZXK8Q2rUGxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Confession?" id="what-is-confession" nb="44">
+        </message>
+        <message name="What is Confession?" id="what-is-confession" nb="44">
           <tests>
             <test input="What is Confession?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KEn8xfQy7Ik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 19:18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:22-23&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1422-1498&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confession&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="confession" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KEn8xfQy7Ik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 19:18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20:22-23&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1422-1498&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confession&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1418,8 +1418,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/KEn8xfQy7Ik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Confirmation?" id="what-is-confirmation" nb="37">
+        </message>
+        <message name="What is Confirmation?" id="what-is-confirmation" nb="37">
           <tests>
             <test input="What is Confirmation?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 20:22&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 4:30&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 19:2&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 5:5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confirmation&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1435,8 +1435,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Grace?" id="what-is-grace" nb="34">
+        </message>
+        <message name="What is Grace?" id="what-is-grace" nb="34">
           <tests>
             <test input="What is Grace?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ywypuAarXeA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 15:11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 3:24&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 5:15-17&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1987-2027&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-grace&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1451,8 +1451,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ywypuAarXeA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Holy Mass?" id="what-is-holy-mass" nb="39">
+        </message>
+        <message name="What is Holy Mass?" id="what-is-holy-mass" nb="39">
           <triggers>
             <trigger value="What is Holy Mass?"/>
           </triggers>
@@ -1469,8 +1469,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/jdz44UStfMk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is a Catholic Priest?" id="what-is-a-catholic-priest" nb="46">
+        </message>
+        <message name="What is a Catholic Priest?" id="what-is-a-catholic-priest" nb="46">
           <tests>
             <test input="What is a Catholic Priest?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RQcx2ZwO01U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 66:18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4:18-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 6:7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 4:11-16&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;2 Tim 1:6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 20:28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:7-9&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 17:32-38&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1536-1592&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-a-catholic-priest&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1490,8 +1490,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RQcx2ZwO01U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is marriage?" id="what-is-marriage" nb="48">
+        </message>
+        <message name="What is marriage?" id="what-is-marriage" nb="48">
           <tests>
             <test input="What is marriage?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kkrjMa_LFC8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Song 8:6-7&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5:32&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 4:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 4:3-5&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:2-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:24-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1601-1666&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-marriage&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Marriage" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kkrjMa_LFC8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Song 8:6-7&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5:32&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Tim 4:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 4:3-5&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:2-17&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1:24-27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1601-1666&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-marriage&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1510,8 +1510,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kkrjMa_LFC8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is sex?" id="what-is-sex" nb="49">
+        </message>
+        <message name="What is sex?" id="what-is-sex" nb="49">
           <tests>
             <test input="What is sex?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/89A5Kk_vcyI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eph 5:3-5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2331-2350&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2362-2367&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-sex&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="The sex" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/89A5Kk_vcyI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eph 5:3-5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2331-2350&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2362-2367&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-sex&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1526,8 +1526,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/89A5Kk_vcyI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the Eucharist?" id="what-is-the-eucharist" nb="38">
+        </message>
+        <message name="What is the Eucharist?" id="what-is-the-eucharist" nb="38">
           <tests>
             <test input="What is the Eucharist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6:47-66&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 10:16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 11:27&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-eucharist&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1542,10 +1542,10 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="The Last Things" id="the-last-things" nb="8">
-        <information name="What happens at the end of our lives?" id="what-happens-at-the-end-of-our-lives" nb="61">
+        <message name="What happens at the end of our lives?" id="what-happens-at-the-end-of-our-lives" nb="61">
           <tests>
             <test input="What happens at the end of our lives?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YVMNo1BacPo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Cor 15:13-43&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;988-1019&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-happens-at-the-end-of-our-lives&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1558,8 +1558,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YVMNo1BacPo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is Hell?" id="what-is-hell" nb="64">
+        </message>
+        <message name="What is Hell?" id="what-is-hell" nb="64">
           <tests>
             <test input="What is Hell?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/8B-EB1Vx4Ls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 16:23&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 9:47&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1056-1057&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-hell&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1574,8 +1574,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/8B-EB1Vx4Ls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is purgatory?" id="what-is-purgatory" nb="63">
+        </message>
+        <message name="What is purgatory?" id="what-is-purgatory" nb="63">
           <tests>
             <test input="What is purgatory?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/56IELJssnOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Prov 17:3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Wis 3:5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;2 Macc 12:39-45&quot; textlength=&quot;15&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1030-1031&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1054-1055&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-purgatory&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1591,8 +1591,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/56IELJssnOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What will we do in Heaven?" id="what-will-we-do-in-heaven" nb="62">
+        </message>
+        <message name="What will we do in Heaven?" id="what-will-we-do-in-heaven" nb="62">
           <tests>
             <test input="What will we do in Heaven?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Jn 3:2&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 21:3&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-will-we-do-in-heaven&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1607,17 +1607,17 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
       <folder name="The Sanctified (Church)" id="the-sanctified-church" nb="7">
-        <information name="Criticism of the Church" id="criticism-of-the-church" nb="58">
+        <message name="Criticism of the Church" id="criticism-of-the-church" nb="58">
           <triggers>
             <trigger value="Criticism of the Church"/>
           </triggers>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/rJRWOgtYLJE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What and how many?" id="what-and-how-many" nb="57">
+        </message>
+        <message name="What and how many?" id="what-and-how-many" nb="57">
           <tests>
             <test input="The Church in numbers" output="What is the Church in numbers?|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/NkVcsvlj_gU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-and-how-many&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
           </tests>
@@ -1626,8 +1626,8 @@
           </triggers>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/NkVcsvlj_gU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are monks, nuns and religious orders?" id="what-are-monks-nuns-and-religious-orders" nb="56">
+        </message>
+        <message name="What are monks, nuns and religious orders?" id="what-are-monks-nuns-and-religious-orders" nb="56">
           <tests>
             <test input="What are monks, nuns and religious orders?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 19:21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:37-40&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:19&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-monks-nuns-and-religious-orders&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are monks?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 19:21&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 7:37-40&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 6:19&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-monks-nuns-and-religious-orders&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1649,8 +1649,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hNOsAxixf2U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church" nb="53">
+        </message>
+        <message name="What are the four characteristics of the Church?" id="what-are-the-four-characteristics-of-the-church" nb="53">
           <tests>
             <test input="What are the four characteristics of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 10:16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:10-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:20-21&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What are the characteristics of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 10:16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 1:10-13&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:20-21&quot; textlength=&quot;14&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;811-865&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-the-four-characteristics-of-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1667,8 +1667,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xsnABmNxsLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the Church?" id="what-is-the-church" nb="52">
+        </message>
+        <message name="What is the Church?" id="what-is-the-church" nb="52">
           <tests>
             <test input="What is the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 2:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:7-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="I want to see a video that describe the Church." output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 2:9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:1-8&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10:11-14&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rev 19:7-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-810&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1688,8 +1688,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hxN24-H8lTY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="What is the structure of the Church?" id="what-is-the-structure-of-the-church" nb="55">
+        </message>
+        <message name="What is the structure of the Church?" id="what-is-the-structure-of-the-church" nb="55">
           <tests>
             <test input="What is the structure of the Church?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cHEzyxxIktY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 20:28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1 Thess 5:12-13&quot; textlength=&quot;15&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 13:7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 13:17&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 5:1&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;2 Tim 2:1-2&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;2 Tim 4:1-6&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 2:15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18:18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 5:14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;871-943&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-structure-of-the-church&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1711,8 +1711,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cHEzyxxIktY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Who is Mary?" id="who-is-mary" nb="60">
+        </message>
+        <message name="Who is Mary?" id="who-is-mary" nb="60">
           <tests>
             <test input="Who is Mary?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1:26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19:25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1:26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19:25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 1:14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1731,8 +1731,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Who is the Holy Spirit?" id="who-is-the-holy-spirit" nb="51">
+        </message>
+        <message name="Who is the Holy Spirit?" id="who-is-the-holy-spirit" nb="51">
           <tests>
             <test input="Who is the Holy Spirit?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_eePtl5QwMc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 4:31&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 7&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-the-holy-spirit&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="the Holy Spirit" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_eePtl5QwMc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 4:31&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 7&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;683-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-the-holy-spirit&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -1748,8 +1748,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_eePtl5QwMc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Why do Catholics call on the Saints?" id="why-do-catholics-call-on-the-saints" nb="59">
+        </message>
+        <message name="Why do Catholics call on the Saints?" id="why-do-catholics-call-on-the-saints" nb="59">
           <tests>
             <test input="Why do Catholics call on the Saints?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GYURwtDeEEs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Heb 6:12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 13:7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Tob 12:12-15&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;946-962&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-do-catholics-call-on-the-saints&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1764,8 +1764,8 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GYURwtDeEEs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
-        <information name="Why does the Church even exist?" id="why-does-the-church-even-exist" nb="54">
+        </message>
+        <message name="Why does the Church even exist?" id="why-does-the-church-even-exist" nb="54">
           <tests>
             <test input="Why does the Church even exist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3AqfPAsPZ30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 16:18-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:12-13&quot; textlength=&quot;14&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 12:28&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:19-22&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;748-780&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-does-the-church-even-exist&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
@@ -1781,11 +1781,11 @@
           </references>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3AqfPAsPZ30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
     </folder>
     <folder name="TheoMatters" id="theomatters" defaultSourceId="theomatters">
-      <information name="A sacrement" id="a-sacrement">
+      <message name="A sacrement" id="a-sacrement">
         <tests>
           <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
           <test input="A sacrement" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
@@ -1795,20 +1795,20 @@
         </triggers>
         <sourceId>theomatters</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </information>
+      </message>
     </folder>
     <folder name="Vatican" id="vatican">
       <folder name="Laudato Si " id="laudato-si">
-        <information name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
+        <message name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
           <description>Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;&#10;&#10;Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it.</description>
           <sourceId>america-media</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </information>
+        </message>
       </folder>
     </folder>
     <folder name="Youcat" id="youcat" defaultSourceId="youcat">
       <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="2">
-        <information name="What is liturgy?" id="what-is-liturgy" nb="167">
+        <message name="What is liturgy?" id="what-is-liturgy" nb="167">
           <tests>
             <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
@@ -1817,12 +1817,12 @@
           </references>
           <sourceId>youcat</sourceId>
           <text>Liturgy is the official divine worship of the Church.</text>
-        </information>
+        </message>
       </folder>
       <folder name="What We Believe" id="what-we-believe" nb="1">
         <folder name="Why We Are Able to Believe" id="why-we-are-able-to-believe" nb="1">
           <folder name="God Approaches Us Men" id="god-approaches-us-men" nb="2">
-            <information name="How does God reveal himself in the Old Testament?" id="how-does-god-reveal-himself-in-the-old-testament" nb="8">
+            <message name="How does God reveal himself in the Old Testament?" id="how-does-god-reveal-himself-in-the-old-testament" nb="8">
               <tests>
                 <test input="How does God reveal himself in the Old Testament?" output="God shows himself in the Old Testament as God, who created the world out of love and remains faithful to men even when they have fallen away from him into sin." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 17:5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 12:3&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3:14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;54-64&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;70-72&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;how-does-god-reveal-himself-in-the-old-testament&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
@@ -1838,8 +1838,8 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>God shows himself in the Old Testament as God, who created the world out of love and remains faithful to men even when they have fallen away from him into sin.</text>
-            </information>
-            <information name="Why did God have to show himself in order for us to be able to know what he is like ?" id="why-did-god-have-to-show-himself-in-order-for-us-to-be-able-to-know-what-he-is-like" nb="7">
+            </message>
+            <message name="Why did God have to show himself in order for us to be able to know what he is like ?" id="why-did-god-have-to-show-himself-in-order-for-us-to-be-able-to-know-what-he-is-like" nb="7">
               <tests>
                 <test input="Why did God have to show himself in order for us to be able to know what he is like ?" output="Man can know by reason that God exists, but not what God is really like. Yes because God would very much like to be known, he has revealed himself." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;50-53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-have-to-show-himself-in-order-for-us-to-be-able-to-know-what-he-is-like&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
@@ -1852,10 +1852,10 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Man can know by reason that God exists, but not what God is really like. Yes because God would very much like to be known, he has revealed himself.</text>
-            </information>
+            </message>
           </folder>
           <folder name="Man Is Receptive to God" id="man-is-receptive-to-god" nb="1">
-            <information name="Can we grasp God at all in concepts?" id="can-we-grasp-god-at-all-in-concepts" nb="6">
+            <message name="Can we grasp God at all in concepts?" id="can-we-grasp-god-at-all-in-concepts" nb="6">
               <tests>
                 <test input="Can we grasp God at all in concepts?" output="Although we men are limited and the infinite greatness of God never fits into finite human concepts, we can nevertheless speak rightly about God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;39-43&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;48&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-grasp-god-at-all-in-concepts&quot; textlength=&quot;6&quot; /&gt;"/>
                 <test input="Is it possible to speak about God meaningfully?" output="I don&apos;t know if it&apos;s the possible to speak meaningfully about God." isOk="false"/>
@@ -1870,8 +1870,8 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Although we men are limited and the infinite greatness of God never fits into finite human concepts, we can nevertheless speak rightly about God.</text>
-            </information>
-            <information name="Can we know the existence of God by our reason?" id="can-we-know-the-existence-of-god-by-our-reason" nb="4">
+            </message>
+            <message name="Can we know the existence of God by our reason?" id="can-we-know-the-existence-of-god-by-our-reason" nb="4">
               <tests>
                 <test input="Can we know the existence of God by our reason?" output="Yes. Human reason can know God with certainty." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;31-36&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-know-the-existence-of-god-by-our-reason&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
@@ -1884,8 +1884,8 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Yes. Human reason can know God with certainty.</text>
-            </information>
-            <information name="Why do people deny that God exists, if they can know him by reason?" id="why-do-people-deny-that-god-exists-if-they-can-know-him-by-reason" nb="5">
+            </message>
+            <message name="Why do people deny that God exists, if they can know him by reason?" id="why-do-people-deny-that-god-exists-if-they-can-know-him-by-reason" nb="5">
               <tests>
                 <test input="Why do people deny that God exists, if they can know him by reason?" output="I don&apos;t know why people deny if God can know himself by the reason then he exists." isOk="false"/>
               </tests>
@@ -1897,8 +1897,8 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>To know the invisible God is a great challenge for the human mind. Many are scared off by it. Another reason why some do not want to know God is because they would then have to change their life. Anyone who says that the question about God is meaningless because it cannot be answered is making things too easy for himself.</text>
-            </information>
-            <information name="Why do we seek God?" id="why-do-we-seek-god" nb="3">
+            </message>
+            <message name="Why do we seek God?" id="why-do-we-seek-god" nb="3">
               <tests>
                 <test input="Why do we seek God?" output="God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 17:27-28&quot; textlength=&quot;13&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;27-30&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-we-seek-god&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
@@ -1911,9 +1911,9 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion.</text>
-            </information>
+            </message>
           </folder>
-          <information name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
+          <message name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
             <tests>
               <test input="Why are we on earth?" output="We are on earth in order to know, in order to love God, in order to do good according to Will and in order to go to someday Heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
               <test input="For what purpose are we here on earth?" output="We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 2:4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14:6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-are-we-on-earth&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -1930,8 +1930,8 @@
             </references>
             <sourceId>youcat</sourceId>
             <text>We are on earth in order to know and to love God, to do good according to his will, and to go someday to heaven.</text>
-          </information>
-          <information name="Why did God create us?" id="why-did-god-create-us" nb="2">
+          </message>
+          <message name="Why did God create us?" id="why-did-god-create-us" nb="2">
             <tests>
               <test input="Why did God create us?" output="God created us out of free and unselfish love." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
@@ -1943,12 +1943,12 @@
             </references>
             <sourceId>youcat</sourceId>
             <text>God created us out of free and unselfish love.</text>
-          </information>
+          </message>
         </folder>
       </folder>
       <folder name="Youcat for kids" id="youcat-for-kids">
         <folder name="Introduction" id="introduction">
-          <information name="Where does the world and everything that is come from ?" id="where-does-the-world-and-everything-that-is-come-from" nb="1">
+          <message name="Where does the world and everything that is come from ?" id="where-does-the-world-and-everything-that-is-come-from" nb="1">
             <triggers>
               <trigger value="Where does the world and everything that is come from ?"/>
             </triggers>
@@ -1957,8 +1957,8 @@
             </references>
             <sourceId>youcat</sourceId>
             <text>&#10;_Everything that is comes from God.</text>
-          </information>
-          <information name="Why do I exist?" id="why-do-i-exist" nb="2">
+          </message>
+          <message name="Why do I exist?" id="why-do-i-exist" nb="2">
             <tests>
               <test input="Why do I exist?" output="You are here because God wants you.&#10;&#10;He knows you.&#10;He loves you beyond measure, and he wants to make you happy." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
               <test input="Who knows me ?" output="God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;why-do-i-exist&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -1979,41 +1979,41 @@
             </references>
             <sourceId>youcat</sourceId>
             <text>You are here because God wants you.&#10;&#10;He knows you.&#10;He loves you beyond measure, and he wants to make you happy.</text>
-          </information>
+          </message>
         </folder>
       </folder>
     </folder>
   </folder>
   <folder name="Testimonies" id="testimonies">
-    <information name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="my-testimony-about-jesus-christ-why-i-left-islam">
+    <message name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="my-testimony-about-jesus-christ-why-i-left-islam">
       <triggers>
         <trigger value="Show me a Christian testimony"/>
         <trigger value="I want to see a Christian testimony."/>
       </triggers>
       <isAHighImportanceFile>true</isAHighImportanceFile>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-    </information>
-    <information name="Confessions of a High Class Prostitute" id="confessions-of-a-high-class-prostitute">
+    </message>
+    <message name="Confessions of a High Class Prostitute" id="confessions-of-a-high-class-prostitute">
       <triggers>
         <trigger value="Show me a Christian testimony"/>
         <trigger value="I want to see a Christian testimony."/>
       </triggers>
       <isAHighImportanceFile>true</isAHighImportanceFile>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EjlQdZBfkUw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-    </information>
-    <information name="Francesca Battistelli - He Knows My Name (Official Video) " id="francesca-battistelli-he-knows-my-name-official-video">
+    </message>
+    <message name="Francesca Battistelli - He Knows My Name (Official Video) " id="francesca-battistelli-he-knows-my-name-official-video">
       <triggers>
         <trigger value="Show me a Christian testimony"/>
         <trigger value="I want to see a Christian testimony."/>
       </triggers>
       <isAHighImportanceFile>true</isAHighImportanceFile>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-    </information>
-    <information name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
+    </message>
+    <message name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
       <triggers>
         <trigger value="I don&apos;t want to see a video that it describes the Church."/>
       </triggers>
       <text>Do you want to see a Christian testimony?</text>
-    </information>
+    </message>
   </folder>
 </contentRoot>
