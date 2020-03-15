@@ -2572,6 +2572,29 @@
             <sourceId>diocese-de-moulins</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Quelle est la symbolique des cendres ?" id="quelle-est-la-symbolique-des-cendres">
+            <tests>
+              <test input="Quelle est la symbolique des cendres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uo9Ou9XWR7w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;quelle-est-la-symbolique-des-cendres&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que le mercredi des cendres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uo9Ou9XWR7w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;quelle-est-la-symbolique-des-cendres&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="D&apos;où vient cette coutume du mercredi des cendres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uo9Ou9XWR7w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;quelle-est-la-symbolique-des-cendres&quot; textlength=&quot;17&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Quelle est la symbolique des cendres ?"/>
+              <trigger value="Qu&apos;est-ce que le mercredi des cendres ?"/>
+              <trigger value="D&apos;où vient cette coutume du mercredi des cendres ?"/>
+            </triggers>
+            <references>
+              <bible book="Jdt" chapter="9" verseBegin="1"/>
+              <bible book="Esth" chapter="4" verseBegin="1" verseEnd="3"/>
+              <bible book="Job" chapter="2" verseBegin="8"/>
+              <bible book="Job" chapter="30" verseBegin="19"/>
+              <bible book="Wis" chapter="2" verseBegin="2" verseEnd="3"/>
+              <bible book="Ps" chapter="112" verseBegin="7"/>
+              <bible book="Mt" chapter="11" verseBegin="21"/>
+            </references>
+            <sourceId>diocese-de-paris</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uo9Ou9XWR7w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Vivre le carême" id="vivre-le-careme">
             <tests>
               <test input="Comment vivre son carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
@@ -3350,6 +3373,17 @@
           </references>
           <sourceId>cybercure</sourceId>
           <text>On reçoit le sacrement de l’eucharistie en communiant, normalement au cours de la messe. La communion nous met en contact personnel avec le Christ en créant une relation intime. Elle nous fait prendre conscience que le Christ est tout proche de nous, alors que souvent Dieu nous parait lointain. Elle nous invite au recueillement pour rencontrer le Christ. La communion touche notre coeur : elle nous apporte la paix, nous purifie de nos péchés et nous donne une force pour notre vie.</text>
+        </message>
+        <message name="Témoignage de communion spirituelle" id="temoignage-de-communion-spirituelle">
+          <tests>
+            <test input="C&apos;est quoi la communion spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot; Ensemble Pastoral Asnières-Centre&quot; resourceid=&quot;temoignage-de-communion-spirituelle&quot; textlength=&quot;35&quot; /&gt;"/>
+            <test input="Communion spirituelle" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot; Ensemble Pastoral Asnières-Centre&quot; resourceid=&quot;temoignage-de-communion-spirituelle&quot; textlength=&quot;35&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="C&apos;est quoi la communion spirituelle ?"/>
+          </triggers>
+          <sourceId>ensemble-pastoral-asnieres-centre</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
       <folder name="Mariage" id="mariage" nb="6">
