@@ -331,11 +331,11 @@
   <folder name="Church" id="church">
     <folder name="Mass" id="mass">
       <folder name="Readings" id="readings">
-        <api name="First Reading" id="first-reading">
+        <information name="First Reading" id="first-reading">
           <sourceId>daily-gospel</sourceId>
-          <apiId>first_reading</apiId>
-        </api>
-        <api name="Holy Gospel" id="holy-gospel">
+          <text fileType="api">&lt;hc_api name=&quot;first_reading&quot; /&gt;</text>
+        </information>
+        <information name="Holy Gospel" id="holy-gospel">
           <tests>
             <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
             <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -348,16 +348,16 @@
           </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <sourceId>daily-gospel</sourceId>
-          <apiId>holy_gospel</apiId>
-        </api>
-        <api name="Psalm" id="psalm">
+          <text fileType="api">&lt;hc_api name=&quot;holy_gospel&quot; /&gt;</text>
+        </information>
+        <information name="Psalm" id="psalm">
           <sourceId>daily-gospel</sourceId>
-          <apiId>psalm</apiId>
-        </api>
-        <api name="Second Reading" id="second-reading">
+          <text fileType="api">&lt;hc_api name=&quot;psalm&quot; /&gt;</text>
+        </information>
+        <information name="Second Reading" id="second-reading">
           <sourceId>daily-gospel</sourceId>
-          <apiId>second_reading</apiId>
-        </api>
+          <text fileType="api">&lt;hc_api name=&quot;second_reading&quot; /&gt;</text>
+        </information>
         <information name="Suggest to read the Holy Gospel" id="suggest-to-read-the-holy-gospel">
           <triggers>
             <trigger value="I know the Catholic Church."/>
@@ -377,7 +377,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </information>
       </folder>
-      <api name="Saint" id="saint">
+      <information name="Saint" id="saint">
         <tests>
           <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source: &lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
@@ -386,8 +386,8 @@
         </triggers>
         <isAHighImportanceFile>true</isAHighImportanceFile>
         <sourceId>daily-gospel</sourceId>
-        <apiId>saint</apiId>
-      </api>
+        <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
+      </information>
       <folder name="Saint Faustina" id="saint-faustina">
         <information name="The Life of St. Faustina" id="the-life-of-st-faustina">
           <description>It&apos;s Saint Faustina.</description>

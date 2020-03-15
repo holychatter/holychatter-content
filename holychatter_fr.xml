@@ -2260,23 +2260,23 @@
             <sourceId>aelf</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </information>
-          <api name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
+          <information name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
             <sourceId>l-evangile-au-quotidien</sourceId>
-            <apiId>holy_gospel_comment</apiId>
-          </api>
-          <api name="Deuxième lecture" id="deuxieme-lecture">
+            <text fileType="api">&lt;hc_api name=&quot;holy_gospel_comment&quot; /&gt;</text>
+          </information>
+          <information name="Deuxième lecture" id="deuxieme-lecture">
             <sourceId>aelf</sourceId>
-            <apiId>second_reading</apiId>
-          </api>
-          <api name="Evangile" id="evangile">
+            <text fileType="api">&lt;hc_api name=&quot;second_reading&quot; /&gt;</text>
+          </information>
+          <information name="Evangile" id="evangile">
             <triggers>
               <trigger value="Quel est l&apos;Évangile du jour ?"/>
               <trigger value="Quel est l&apos;Évangile de ce dimanche ?"/>
             </triggers>
             <isAHighImportanceFile>true</isAHighImportanceFile>
             <sourceId>aelf</sourceId>
-            <apiId>holy_gospel</apiId>
-          </api>
+            <text fileType="api">&lt;hc_api name=&quot;holy_gospel&quot; /&gt;</text>
+          </information>
           <information name="L&apos;Évangile au Quotidien" id="l-evangile-au-quotidien">
             <tests>
               <test input="C&apos;est quoi &quot;L&apos;Évangile au Quotidien&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;l-evangile-au-quotidien&quot; textlength=&quot;24&quot; /&gt;"/>
@@ -2285,17 +2285,17 @@
             <sourceId>l-evangile-au-quotidien</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </information>
-          <api name="Première lecture" id="premiere-lecture">
+          <information name="Première lecture" id="premiere-lecture">
             <triggers>
               <trigger value="Quel est la première lecture du jour ?"/>
             </triggers>
             <sourceId>aelf</sourceId>
-            <apiId>first_reading</apiId>
-          </api>
-          <api name="Psaume" id="psaume">
+            <text fileType="api">&lt;hc_api name=&quot;first_reading&quot; /&gt;</text>
+          </information>
+          <information name="Psaume" id="psaume">
             <sourceId>aelf</sourceId>
-            <apiId>psalm</apiId>
-          </api>
+            <text fileType="api">&lt;hc_api name=&quot;psalm&quot; /&gt;</text>
+          </information>
           <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee-liturgie-de-la-parole">
             <information name="Parole du Seigneur" id="parole-du-seigneur">
               <tests>
@@ -2942,7 +2942,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rxMU40_-GzA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </information>
       </folder>
-      <folder name="À propos" id="a-propos-saints">
+      <folder name="À propos" id="a-propos-personnes">
         <information name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
           <tests>
             <test input="Est-ce que nous sommes appelés à la Sainteté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lv 20,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50,9-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,48&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 4,8&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;1P 1,15-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1,2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4,24&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-nous-sommes-appeles-a-la-saintete&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2966,7 +2966,7 @@
           <sourceId>le-cate-en-minutes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </information>
-        <api name="Le Saint du jour" id="le-saint-du-jour">
+        <information name="Le Saint du jour" id="le-saint-du-jour">
           <tests>
             <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;le-saint-du-jour&quot; textlength=&quot;24&quot; /&gt;"/>
           </tests>
@@ -2976,8 +2976,8 @@
           </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
           <sourceId>l-evangile-au-quotidien</sourceId>
-          <apiId>saint</apiId>
-        </api>
+          <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
+        </information>
         <information name="Pourquoi les catholiques invoquent les saints ?" id="pourquoi-les-catholiques-invoquent-les-saints">
           <tests>
             <test input="Pourquoi les catholiques invoquent les saints ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bFZvn7tSw9U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;He 6,12&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Tb 12,12-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;946-962&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;pourquoi-les-catholiques-invoquent-les-saints&quot; textlength=&quot;21&quot; /&gt;"/>
