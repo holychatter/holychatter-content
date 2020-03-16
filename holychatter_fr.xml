@@ -798,7 +798,7 @@
           <proactivity/>
         </proactivities>
         <nextMessageId>photo-arche-la-defense</nextMessageId>
-        <text fileType="conversation_flow">Bonjour je suis un agent conversationnel au service du bien être des gens.&#10;Si tu veux bien nous pouvons échanger brièvement pour éventuellement te rediriger vers quelque chose d&apos;approprié pour toi.</text>
+        <text fileType="conversation_flow">Bonjour je suis un agent conversationnel pour La Défense.&#10;Pose-moi ta question et je ferai tout mon possible pour essayer d’y répondre !</text>
       </message>
       <message name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense" nb="3">
         <recommendations>
@@ -880,10 +880,10 @@
           <proactivity/>
         </proactivities>
         <nextMessageId>consignes</nextMessageId>
-        <text fileType="conversation_flow">Bonjour, je te souhaite la bienvenue sur le site Holy Chatter !</text>
+        <text fileType="conversation_flow">Bonjour, je suis Holy Chatter, l’agent conversationnel au service de la religion chrétienne. Je te souhaite la bienvenue sur le site !</text>
       </message>
       <message name="Consignes" id="consignes">
-        <text>N&apos;héste pas à me poser les questions que tu veux à tout moment.</text>
+        <text>Tu peux me poser tes questions sur la foi et je ferai tout mon possible pour essayer d’y répondre !</text>
       </message>
     </chatbot>
   </folder>
@@ -1902,7 +1902,9 @@
           <text>&#10;_Dieu est devenu un homme pour partager tout ce qui concerne notre condition humaine à l&apos;exception du péché.</text>
         </message>
         <message name="Jesus raconté aux enfants" id="jesus-raconte-aux-enfants">
-          <description>C&apos;est la vie de Jésus.</description>
+          <triggers>
+            <trigger value="Montre-moi la vie de Jésus en bande dessinée !"/>
+          </triggers>
           <sourceId>imineo</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rah8qg0H04w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -1960,7 +1962,7 @@
             <trigger value="Montre-moi la vie de Jésus"/>
           </triggers>
           <isAHighImportanceFile>true</isAHighImportanceFile>
-          <description>C&apos;est la vie de Jésus.&#10;C&apos;est Jésus.</description>
+          <description>C&apos;est Jésus.</description>
           <sourceId>retour-du-christ</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
