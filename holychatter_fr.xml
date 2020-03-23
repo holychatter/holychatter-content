@@ -1014,14 +1014,6 @@
         </folder>
       </folder>
     </chatbot>
-    <chatbot name="test" id="test">
-      <message name="Je suis ancien et bientôt de nouveau SDF, je suis vraiment perdu que dois je faire..." id="je-suis-ancien-et-bientt-de-nouveau-sdf-je-suis-vraiment-perdu-que-dois-je-faire-test">
-        <triggers>
-          <trigger value="Je suis ancien et bientôt de nouveau SDF, je suis vraiment perdu que dois je faire..."/>
-        </triggers>
-        <text>aaa</text>
-      </message>
-    </chatbot>
   </folder>
   <folder name="Découverte" id="decouverte">
     <folder name="Par thème" id="par-theme">
@@ -5724,7 +5716,28 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ma1dOf51I3Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Dieu" id="dieu-prieres">
+    <folder name="Dieu le Père" id="dieu-le-pere">
+      <message name="Notre-Père" id="notre-pere">
+        <tests>
+          <test input="Montre-moi la prière du Notre-Père !" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que c&apos;est le Notre-Père ?" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="Peux-tu me réciter la prière du Notre-Père ?" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="notre Père" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="Notre Père" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="notre père" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11,2-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montre-moi la prière du Notre-Père !"/>
+          <trigger value="Qu&apos;est-ce que c&apos;est le Notre-Père ?"/>
+          <trigger value="Peux-tu me réciter la prière du Notre-Père ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
+          <bible book="Lk" chapter="11" verseBegin="2" verseEnd="4"/>
+        </references>
+        <sourceId>diocese-de-paris</sourceId>
+        <text>Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen.</text>
+      </message>
       <message name="Qu’est-ce qu’on prie dans le Notre-Père ?" id="qu-est-ce-qu-on-prie-dans-le-notre-pere">
         <tests>
           <test input="Qu’est-ce qu’on prie dans le Notre-Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,9-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;2759-2865&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-prie-dans-le-notre-pere&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -5849,6 +5862,29 @@
         </triggers>
         <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ayty6541pwU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="L&apos; appel à la prière quotidienne du chapelet" id="l-appel-a-la-priere-quotidienne-du-chapelet">
+        <tests>
+          <test input="Qu&apos;est-ce que le chapelet ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1mrFZpwkfT4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;l-appel-a-la-priere-quotidienne-du-chapelet&quot; textlength=&quot;39&quot; /&gt;"/>
+          <test input="Pourquoi prier le chapelet ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1mrFZpwkfT4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;l-appel-a-la-priere-quotidienne-du-chapelet&quot; textlength=&quot;39&quot; /&gt;"/>
+          <test input="chapelet" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1mrFZpwkfT4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;l-appel-a-la-priere-quotidienne-du-chapelet&quot; textlength=&quot;39&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;est-ce que le chapelet ?"/>
+          <trigger value="Pourquoi prier le chapelet ?"/>
+        </triggers>
+        <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1mrFZpwkfT4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Le chapelet - Ce Que Dit Marie à Medjugorje" id="le-chapelet-ce-que-dit-marie-a-medjugorje">
+        <tests>
+          <test input="Que dit Marie sur le chapelet ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fFJbQnro-8s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;le-chapelet-ce-que-dit-marie-a-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Que dit Marie sur le chapelet ?"/>
+        </triggers>
+        <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fFJbQnro-8s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Prier le Chapelet : les 5 Mystères Glorieux de la prière du Rosaire" id="prier-le-chapelet-les-mysteres-glorieux-de-la-priere-du-rosaire">
         <tests>
