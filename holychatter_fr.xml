@@ -2919,6 +2919,7 @@
         <message name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
           <tests>
             <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1,26-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19,25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Qui est Marie ?"/>
@@ -5902,6 +5903,20 @@
       </message>
     </folder>
     <folder name="Marie" id="marie-prieres">
+      <message name="Je vous salue Marie" id="je-vous-salue-marie">
+        <tests>
+          <test input="Qu&apos;est-ce que le je vous salue Marie ?" output="Je ne sais pas ce que c&apos;est le je vous salue Marie mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Je vous salue Marie" output="Je vous salue Marie,&#10;pleine de grâce&#10;Le Seigneur est avec vous,&#10;vous êtes bénie entre toutes les femmes&#10;et Jésus, le fruit de vos entrailles, est béni.&#10;Sainte Marie,&#10;Mère de Dieu,&#10;priez pour nous,&#10;pauvres pécheurs&#10;maintenant et à l’heure de notre mort.&#10;Amen" outputReferences="Url : &lt;hc_site site=&quot;https://www.paris.catholique.fr/je-vous-salue-marie.html&quot; textlength=&quot;56&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;je-vous-salue-marie&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Je vous salue Marie"/>
+        </triggers>
+        <references>
+          <site book="https://www.paris.catholique.fr/je-vous-salue-marie.html"/>
+        </references>
+        <sourceId>diocese-de-paris</sourceId>
+        <text>Je vous salue Marie,&#10;pleine de grâce&#10;Le Seigneur est avec vous,&#10;vous êtes bénie entre toutes les femmes&#10;et Jésus, le fruit de vos entrailles, est béni.&#10;Sainte Marie,&#10;Mère de Dieu,&#10;priez pour nous,&#10;pauvres pécheurs&#10;maintenant et à l’heure de notre mort.&#10;Amen</text>
+      </message>
       <message name="Prier avec Marie" id="prier-avec-marie">
         <tests>
           <test input="Pourquoi prier avec Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2RJq505vlrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 19,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 1,26-38&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;prier-avec-marie&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -5949,6 +5964,21 @@
       <sourceId>le-cate-en-minutes</sourceId>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/7LPUsLmjgVo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
     </message>
+    <folder name="Saint Joseph" id="saint-joseph-prieres">
+      <message name="Je vous salue, Joseph" id="je-vous-salue-joseph">
+        <tests>
+          <test input=" Je vous salue, Joseph" output="Je vous salue, Joseph,&#10;Vous que la grâce divine a comblé.&#10;Le sauveur a reposé dans vos bras et grandi sous vos yeux.&#10;Vous êtes béni entre tous les hommes,&#10;et Jésus, l’enfant divin de votre virginale épouse, est béni.&#10;&#10;Saint Joseph, donné pour père au Fils de Dieu,&#10;priez pour nous, dans nos soucis de famille, de santé et de travail, jusqu’à nos derniers jours,&#10;et daignez nous secourir à l’heure de notre mort. &#10;Amen." outputReferences="Url : &lt;hc_site site=&quot;https://hozana.org/priere/saint-joseph/je-vous-salue-joseph&quot; textlength=&quot;59&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Hozana&quot; resourceid=&quot;je-vous-salue-joseph&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Je vous salue, Joseph"/>
+        </triggers>
+        <references>
+          <site book="https://hozana.org/priere/saint-joseph/je-vous-salue-joseph"/>
+        </references>
+        <sourceId>hozana</sourceId>
+        <text>Je vous salue, Joseph,&#10;Vous que la grâce divine a comblé.&#10;Le sauveur a reposé dans vos bras et grandi sous vos yeux.&#10;Vous êtes béni entre tous les hommes,&#10;et Jésus, l’enfant divin de votre virginale épouse, est béni.&#10;&#10;Saint Joseph, donné pour père au Fils de Dieu,&#10;priez pour nous, dans nos soucis de famille, de santé et de travail, jusqu’à nos derniers jours,&#10;et daignez nous secourir à l’heure de notre mort. &#10;Amen.</text>
+      </message>
+    </folder>
   </folder>
   <folder name="Solidarité" id="solidarite">
     <folder name="Pauvreté" id="pauvrete" nb="1">
