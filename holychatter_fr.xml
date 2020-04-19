@@ -94,6 +94,7 @@
         </folder>
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1">
+        <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2"/>
         <folder name="Paraboles" id="paraboles" nb="1">
           <folder name="L&apos;ami importun" id="l-ami-importun">
             <message name="Lire la parabole de l&apos;ami importun" id="lire-la-parabole-de-l-ami-importun">
@@ -600,7 +601,7 @@
             </message>
           </folder>
         </folder>
-        <folder name="Résurrection" id="resurrection" nb="2">
+        <folder name="Résurrection" id="resurrection" nb="3">
           <message name="Jésus est réssuscité" id="jesus-est-ressuscite">
             <tests>
               <test input="Est-ce que Jésus est réssuscité ?" output="Oui, Jésus est réssuscité." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite&quot; textlength=&quot;74&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-est-ressuscite&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -792,7 +793,7 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" bannerImage="la_defense_logo.png" url="https://ndp92.fr" fallbackEngine="Cybercuré">
+    <chatbot name="La Défense" id="la-defense" useDefaultContent="true" useDefaultProactivity="true" bannerImage="la_defense_logo.png" url="https://ndp92.fr" fallbackEngine="Cybercuré">
       <message name="Bonjour de La Défense" id="bonjour-de-la-defense" nb="1">
         <proactivities>
           <proactivity/>
@@ -874,7 +875,7 @@
         <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/La-Defense.jpg&quot; /&gt;</text>
       </message>
     </chatbot>
-    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
+    <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
       <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter">
         <proactivities>
           <proactivity/>
@@ -2598,6 +2599,20 @@
           </folder>
         </folder>
         <folder name="À propos" id="a-propos-messe">
+          <message name="Comment la messe se déroule-t-elle ?" id="comment-la-messe-se-deroule-t-elle">
+            <tests>
+              <test input="Comment la messe se déroule-t-elle ?" output="La messe comporte un temps d&apos;écoute de la Parole de Dieu (lectures tirées de la Bible et en particulier des Évangiles) et un temps de bénédiction et de partage du pain et du vin, devenus corps et sang du Christ, geste que Jésus donna à ses disciples au soir de sa Passion, à la veille de sa mort." outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Lexique/Messe/Messe-deroulement/Comme-la-messe-se-deroule-t-elle&quot; textlength=&quot;104&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;comment-la-messe-se-deroule-t-elle&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment la messe se déroule-t-elle ?"/>
+              <trigger value="Que se passe-t-il lors d&apos;une messe ?"/>
+            </triggers>
+            <references>
+              <site book="https://croire.la-croix.com/Definitions/Lexique/Messe/Messe-deroulement/Comme-la-messe-se-deroule-t-elle"/>
+            </references>
+            <sourceId>croire</sourceId>
+            <text>La messe comporte un temps d&apos;écoute de la Parole de Dieu (lectures tirées de la Bible et en particulier des Évangiles) et un temps de bénédiction et de partage du pain et du vin, devenus corps et sang du Christ, geste que Jésus donna à ses disciples au soir de sa Passion, à la veille de sa mort.</text>
+          </message>
           <message name="C’est quoi, la Sainte Messe ?" id="c-est-quoi-la-sainte-messe">
             <tests>
               <test input="C’est quoi, la Sainte Messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RLG1yUQwLB8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 11,23-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,23-24&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;He 9,11-14&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 9,24-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,10-12&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1135-1190&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-la-sainte-messe&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2673,7 +2688,7 @@
             <tests>
               <test input="Comment se déroule la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
               <test input="Quelles sont les étapes de la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
-              <test input="Que se passe-t-il lors d&apos;une messe ?" output="La Bible vient de Dieu, ça raconte qui est Dieu, la Bible raconte notre histoire, ça raconte la souffrance qui est présent dans notre coeur, ça raconte notre soif de vivre et d&apos;être heureux, Dieu prend la nature toute de l&apos;homme en compte la liberté y compris de Dieu, il est venu pour nous dire l&apos;amour fou de Dieu qui veut faire nous participer à la propre vie de Jésus, à une vie de réconciliation, à partage et à paix, le sacrement nous fait ainsi, Au moment où va vers l&apos;autel, le grand Sacrement de l&apos;Alliance a l&apos;alliance du sacrement de mariage dans le cas du concubinage aide tout le monde qui réalise la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, l&apos;Église demande aux les divorcés, la participation de la Sainte Messe fait nous participer au sacrifice de Christ et à l&apos;offrande du sacrifice de l&apos;Église toute par notre baptême, la communion fait nous prendre conscience que le Christ est tout près nous alors que Dieu souvent nous parait loin, la communion touche notre coeur, _On demande à la personne catholique de faire tout ce qui dépend pour assurer le baptême et l&apos;éducation de ses enfants dans le communauté catholiques d&apos;Elle, communique la vie spirituelle, Dieu fait confiance à l&apos;homme par la transmission de la Parole, il nous parle par la Bible, l&apos;Ecriture va de pair, la Parole est faite pour être reçu et donné, ça réalise ce que ça dit, les auteurs de la Bible écrivent en pleine possession des moyens des auteurs de la Bible, l&apos;Ecriture toute est inspiré par Dieu, Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot; et Saint Augustin dit « Tu nous as créés pour toi, Seigneur, et notre coeur est sans repos tant qu&apos;il ne repose en toi. » Ce de Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 17,27-28&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;27-30&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/comment-jesus-nous-sauve-t-il/comment-jesus-nous-sauve-t-il/&quot; textlength=&quot;98&quot; /&gt;; &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;; &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;; &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/mariage/article/conditions-du-mariage-catholique&quot; textlength=&quot;95&quot; /&gt;; &lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-bible-raconte&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-maniere-de-faire-de-dieu&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;comment-jesus-nous-sauve-t-il&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;peut-on-communier-chaque-fois-que-l-on-participe-a-la-messe&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-l-eglise-demande-telle-aux-divorces-remaries-de-ne-pas-communier&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;que-nous-apporte-l-eucharistie&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;un-catholique-peut-il-se-marier-avec-une-personne-non-chretienne&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-fait-confiance-a-l-homme-par-la-transmission-de-la-parole&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-bible-comporte-livres&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-parole-est-faite-pour-etre-recue-et-donnee&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-parole-realise-ce-qu-elle-dit&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-auteurs-de-la-bible-ecrivent-en-pleine-possession-de-leurs-moyens&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;toute-l-ecriture-est-inspiree-par-dieu&quot; textlength=&quot;17&quot; /&gt;; &lt;hc_source name=&quot;KTO&quot; resourceid=&quot;catechese-jmj-avec-mgr-david-macaire&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-sommes-nous-en-recherche-de-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+              <test input="Que se passe-t-il lors d&apos;une messe ?" output="La messe comporte un temps d&apos;écoute de la Parole de Dieu (lectures tirées de la Bible et en particulier des Évangiles) et un temps de bénédiction et de partage du pain et du vin, devenus corps et sang du Christ, geste que Jésus donna à ses disciples au soir de sa Passion, à la veille de sa mort.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Lexique/Messe/Messe-deroulement/Comme-la-messe-se-deroule-t-elle&quot; textlength=&quot;104&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;comment-la-messe-se-deroule-t-elle&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
               <test input="Quelles sont les différentes étapes d&apos;une messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
               <test input="Que signifient les différentes étapes d&apos;une messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
               <test input="En quoi la messe est une rencontre avec le Christ ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y9sPGNQVjg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;une-messe-expliquee-en-minutes&quot; textlength=&quot;17&quot; /&gt;"/>
@@ -2985,13 +3000,35 @@
       <folder name="Padre Pio" id="padre-pio">
         <message name="L’énigmatique Padre Pio !" id="l-enigmatique-padre-pio">
           <tests>
-            <test input="Qui est Padre Pio ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;C&apos;est au programme&quot; resourceid=&quot;l-enigmatique-padre-pio&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Comment Padre Pio a-t-il eu ses stigmates ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;C&apos;est au programme&quot; resourceid=&quot;l-enigmatique-padre-pio&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment Padre Pio a-t-il eu ses stigmates ?"/>
+          </triggers>
+          <sourceId>c-est-au-programme</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="PADRE PIO (1/2) Meilleur interview jamais réalisé avec le père JEAN DeROBERT" id="padre-pio-meilleur-interview-jamais-realise-avec-le-pere-jean-derobert">
+          <triggers>
+            <trigger value="Interview du père Jean De Robert sur le Padre Pio"/>
+          </triggers>
+          <nextMessageId>padre-pio-ma-relation-personnelle-avec-le-padre-pio-jean-derobert</nextMessageId>
+          <sourceId>mystiques-chretiens</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HkfMuZ-rtMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="PADRE PIO (2/2) Ma relation personnelle avec le Padre Pio / JEAN DeROBERT" id="padre-pio-ma-relation-personnelle-avec-le-padre-pio-jean-derobert">
+          <sourceId>mystiques-chretiens</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JrvTODpnLhk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Padre Pio et San Giovanni Rotondo" id="padre-pio-et-san-giovanni-rotondo">
+          <tests>
+            <test input="Qui est Padre Pio ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;padre-pio-et-san-giovanni-rotondo&quot; textlength=&quot;17&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Qui est Padre Pio ?"/>
           </triggers>
-          <sourceId>c-est-au-programme</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6og0TDCqet8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <sourceId>etoile-notre-dame</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
       <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney">
@@ -3069,6 +3106,79 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
+      <folder name="Saint Pierre" id="saint-pierre">
+        <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la Miséricorde&quot; 2° partie" id="formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie-saint-pierre" nb="2">
+          <triggers>
+            <trigger value="Que fait Saint Pierre au moment de la Passion du Christ ?"/>
+            <trigger value="Que fait Saint Pierre après la Résurrection du Christ ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="13" verseBegin="1" verseEnd="17"/>
+            <bible book="Jn" chapter="12" verseBegin="1" verseEnd="8"/>
+            <bible book="Lk" chapter="22" verseBegin="61"/>
+            <bible book="Jn" chapter="21" verseBegin="14" verseEnd="18"/>
+            <site book="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
+          </references>
+          <sourceId>paroisse-st-pierre-st-paul-colombes</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qVEcwI0Sqec&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la miséricorde&quot; 1° partie" id="formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie" nb="1">
+          <tests>
+            <test input="Quel est la devise du Pape François ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1,29-31&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,18-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 14,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 17,4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+            <test input="Comment Saint Pierre peut nous rassurer ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1,29-31&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,18-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 14,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 17,4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+            <test input="Comment Saint Pierre nous aide à comprendre la miséricorde de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1,29-31&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,18-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 14,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 17,4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment Saint Pierre peut nous rassurer ?"/>
+            <trigger value="Comment Saint Pierre nous aide à comprendre la miséricorde de Dieu ?"/>
+            <trigger value="Qu&apos;est-ce que c&apos;est la miséricorde ?"/>
+            <trigger value="Quel est la devise du Pape François ?"/>
+          </triggers>
+          <nextMessageId>formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie-saint-pierre</nextMessageId>
+          <references>
+            <bible book="Mk" chapter="1" verseBegin="29" verseEnd="31"/>
+            <bible book="Mt" chapter="4" verseBegin="18" verseEnd="22"/>
+            <bible book="Mt" chapter="14" verseBegin="28"/>
+            <bible book="Mt" chapter="16" verseBegin="15" verseEnd="16"/>
+            <bible book="Mt" chapter="17" verseBegin="4" verseEnd="5"/>
+            <bible book="Mt" chapter="26" verseBegin="33"/>
+            <site book="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
+          </references>
+          <sourceId>paroisse-st-pierre-st-paul-colombes</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Saint Pierre" id="saint-pierre">
+          <triggers>
+            <trigger value="Qui est Saint Pierre ?"/>
+          </triggers>
+          <recommendations>
+            <recommendation text="Comment Saint Pierre peut nous rassurer ?" outMessageId="formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie"/>
+          </recommendations>
+          <references>
+            <bible book="Mt" chapter="16" verseBegin="15" verseEnd="19"/>
+            <bible book="Mt" chapter="26" verseBegin="69" verseEnd="75"/>
+            <bible book="Jn" chapter="21" verseBegin="15" verseEnd="17"/>
+            <bible book="Acts" chapter="2" verseBegin="14" verseEnd="32"/>
+            <bible book="Acts" chapter="11" verseBegin="2" verseEnd="3"/>
+            <bible book="Acts" chapter="15" verseBegin="7" verseEnd="11"/>
+          </references>
+          <sourceId>croire</sourceId>
+          <text fileType="html">&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svx3fx/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Saint Pierre - Croire" id="saint-pierre-croire">
+          <tests>
+            <test input="Qui est Saint Pierre ?" output="Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svx3fx/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 16,18-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-pierre-croire&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 16,15-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,69-75&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 21,15-17&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,14-32&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 11,2-3&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 15,7-11&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-pierre&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qui est Saint Pierre ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+          </references>
+          <sourceId>croire</sourceId>
+          <text>Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).</text>
+        </message>
+      </folder>
       <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous">
         <message name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="fevrier-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
           <tests>
@@ -3120,6 +3230,27 @@
         </message>
       </folder>
       <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux">
+        <message name="Grégoire chante et lit sainte Thérèse de Lisieux" id="gregoire-chante-et-lit-sainte-therese-de-lisieux">
+          <triggers>
+            <trigger value="Ecouter Grégoire interpréter des poèmes de Sainte Thérèse de Lisieux !"/>
+          </triggers>
+          <sourceId>la-petite-therese</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CJvfNRyldPY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="La pièce de théâtre &quot;Histoire d&apos;une âme&quot; dans la maison de la petite Thérèse" id="la-piece-de-theatre-histoire-d-une-ame-dans-la-maison-de-la-petite-therese">
+          <triggers>
+            <trigger value="Voir la pièce de théâtre &quot;Histoire d&apos;une âme&quot; sur Sainte Thérèse de Lisieux !"/>
+          </triggers>
+          <sourceId>la-petite-therese</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IfCpqjfLg7A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="La vie de Sainte Thérèse de Lisieux" id="la-vie-de-sainte-therese-de-lisieux">
+          <triggers>
+            <trigger value="Voir la vie de Sainte Thérèse de Lisieux !"/>
+          </triggers>
+          <sourceId>silouane</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZOMUOH1yOUY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Qui est Thérèse de Lisieux?" id="qui-est-therese-de-lisieux">
           <triggers>
             <trigger value="Qui est Thérèse de Lisieux?"/>
@@ -3127,6 +3258,20 @@
           </triggers>
           <sourceId>cn-media</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rxMU40_-GzA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Sainte Thérèse de Lisieux - Visites privées" id="sainte-therese-de-lisieux-visites-privees">
+          <triggers>
+            <trigger value="Voir l&apos;émission visites privées sur Sainte Thérèse de Lisieux !"/>
+          </triggers>
+          <sourceId>visites-privees</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lXSYEaVKGhM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Vivre d&apos;amour" id="vivre-d-amour">
+          <triggers>
+            <trigger value="Je veux écouter une poésie de Sainte Thérèse de Liseux mis en musique !"/>
+          </triggers>
+          <sourceId>rossana-pia</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BkSRNDM4Z7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
       <folder name="À propos" id="a-propos-personnes">
@@ -3909,6 +4054,19 @@
           </references>
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Uini4fY6DvU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Qu&apos;est-ce que la miséricorde ?" id="qu-est-ce-que-la-misericorde">
+          <tests>
+            <test input="Qu&apos;est-ce que la miséricorde ?" output="La miséricorde, c’est le chemin qui unit Dieu et l’homme, pour qu’il ouvre son cœur à l’espérance d’être aimé pour toujours malgré les limites de notre péché.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Misericordiae Vultus&quot; resourceid=&quot;qu-est-ce-que-la-misericorde&quot; textlength=&quot;20&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1,29-31&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,18-22&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 14,28&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 17,4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;formation-boostez-votre-temps-pascal-pierre-et-la-misericorde-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que la miséricorde ?"/>
+          </triggers>
+          <references>
+            <site book="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
+          </references>
+          <sourceId>misericordiae-vultus</sourceId>
+          <text>La miséricorde, c’est le chemin qui unit Dieu et l’homme, pour qu’il ouvre son cœur à l’espérance d’être aimé pour toujours malgré les limites de notre péché.</text>
         </message>
       </folder>
       <folder name="À propos" id="a-propos-sacrements">
