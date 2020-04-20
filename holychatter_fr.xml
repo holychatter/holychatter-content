@@ -755,7 +755,7 @@
       <message name="La Bible est le Best-Seller mondial n°1." id="la-bible-est-le-best-seller-mondial-n">
         <tests>
           <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="Source : &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial." outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dSujxs4kdn8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|"/>
         </tests>
         <sourceId>franceinfo</sourceId>
         <text>La Bible est le Best-Seller mondial n°1.</text>
@@ -766,6 +766,13 @@
         </tests>
         <sourceId>bible</sourceId>
         <text>La Bible raconte qui est Dieu.&#10;La Bible raconte notre histoire.&#10;La Bible raconte la souffrance qui est présente dans notre coeur.&#10;La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
+      </message>
+      <message name="Le Projet Biblique: qu’est-ce que c’est ?" id="le-projet-biblique-qu-est-ce-que-c-est">
+        <triggers>
+          <trigger value="Qu’est-ce que c’est la Bible ?"/>
+        </triggers>
+        <sourceId>bibleproject</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dSujxs4kdn8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="que-faire-quand-on-s-ennuie-partie-ii-la-bible">
         <triggers>
@@ -876,15 +883,15 @@
       </message>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
-      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter">
+      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter" nb="1">
         <proactivities>
           <proactivity/>
         </proactivities>
-        <nextMessageId>consignes</nextMessageId>
-        <text fileType="conversation_flow">Bonjour, je suis Holy Chatter, l’agent conversationnel au service de la religion chrétienne. Je te souhaite la bienvenue sur le site !</text>
+        <nextMessageId>n-aie-pas-peur-de-mon-ton-un-peu-direct</nextMessageId>
+        <text fileType="conversation_flow">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
       </message>
-      <message name="Consignes" id="consignes">
-        <text>Tu peux me poser tes questions sur la foi et je ferai tout mon possible pour essayer d’y répondre !</text>
+      <message name="N&apos;aie pas peur de mon ton un peu direct." id="n-aie-pas-peur-de-mon-ton-un-peu-direct" nb="2">
+        <text fileType="text_and_html">N&apos;aie pas peur de mon ton un peu direct. &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
       </message>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
@@ -1234,7 +1241,7 @@
               <text fileType="conversation_flow">Est-ce que tu veux lire l&apos;Évangile du 24 avril 2020 ?</text>
             </message>
             <folder name="Evangile" id="evangile">
-              <message name="Evangile 24 avril" id="evangile-avril">
+              <message name="Evangile 24 avril" id="evangile-avril" nb="3">
                 <recommendations>
                   <recommendation text="Ecouter un commentaire sur la multiplication des pains !" outMessageId="multiplication-des-pains"/>
                   <recommendation text="Comment lire un évangile ?" outMessageId="comment-lire-un-evangile"/>
@@ -1245,14 +1252,18 @@
                 <sourceId>aelf</sourceId>
                 <text>En ce temps-là,&#10;Jésus passa de l’autre côté de la mer de Galilée,&#10;le lac de Tibériade.&#10;Une grande foule le suivait,&#10;parce qu’elle avait vu les signes&#10;qu’il accomplissait sur les malades.&#10;Jésus gravit la montagne,&#10;et là, il était assis avec ses disciples.&#10;Or, la Pâque, la fête des Juifs, était proche.&#10;Jésus leva les yeux&#10;et vit qu’une foule nombreuse venait à lui.&#10;Il dit à Philippe :&#10;« Où pourrions- nous acheter du pain&#10;pour qu’ils aient à manger ? »&#10;Il disait cela pour le mettre à l’épreuve,&#10;car il savait bien, lui, ce qu’il allait faire.&#10;Philippe lui répondit :&#10;« Le salaire de deux cents journées ne suffirait pas&#10;pour que chacun reçoive un peu de pain. »&#10;Un de ses disciples, André, le frère de Simon-Pierre, lui dit :&#10;« Il y a là un jeune garçon qui a cinq pains d’orge&#10;et deux poissons,&#10;mais qu’est-ce que cela pour tant de monde ! »&#10;Jésus dit :&#10;« Faites asseoir les gens. »&#10;Il y avait beaucoup d’herbe à cet endroit.&#10;Ils s’assirent donc, au nombre d’environ cinq mille hommes.&#10;Alors Jésus prit les pains&#10;et, après avoir rendu grâce,&#10;il les distribua aux convives ;&#10;il leur donna aussi du poisson,&#10;autant qu’ils en voulaient.&#10;Quand ils eurent mangé à leur faim,&#10;il dit à ses disciples :&#10;« Rassemblez les morceaux en surplus,&#10;pour que rien ne se perde. »&#10;Ils les rassemblèrent, et ils remplirent douze paniers&#10;avec les morceaux des cinq pains d’orge,&#10;restés en surplus pour ceux qui prenaient cette nourriture.&#10;&#10;À la vue du signe que Jésus avait accompli,&#10;les gens disaient :&#10;« C’est vraiment lui le Prophète annoncé,&#10;celui qui vient dans le monde. »&#10;Mais Jésus savait qu’ils allaient venir l’enlever&#10;pour faire de lui leur roi ;&#10;alors de nouveau il se retira dans la montagne,&#10;lui seul.</text>
               </message>
-              <message name="Je veux lire l&apos;Évangile du 24 avril 2020" id="je-veux-lire-l-evangile-du-avril">
+              <message name="Je veux lire l&apos;Évangile du 24 avril 2020" id="je-veux-lire-l-evangile-du-avril" nb="1">
                 <triggers>
                   <trigger value="_Je veux lire l&apos;Évangile du 24 avril 2020"/>
                 </triggers>
-                <nextMessageId>evangile-avril</nextMessageId>
-                <text fileType="text_and_html">Très bon choix c&apos;est sur la multiplication des pains !&#10;&lt;img src=&quot;/resources/holychatter/upload/joy.gif&quot; width=&quot;200&quot; /&gt;</text>
+                <nextMessageId>joie-multiplication-des-pains</nextMessageId>
+                <text fileType="text_and_html">Cool c&apos;est sur la multiplication des pains !&lt;p&gt;&lt;/p&gt;</text>
               </message>
-              <message name="Multiplication des pains" id="multiplication-des-pains">
+              <message name="Joie multiplication des pains" id="joie-multiplication-des-pains" nb="2">
+                <nextMessageId>evangile-avril</nextMessageId>
+                <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/joy.gif&quot; width=&quot;192&quot; height=&quot;144&quot; /&gt;</text>
+              </message>
+              <message name="Multiplication des pains" id="multiplication-des-pains" nb="4">
                 <triggers>
                   <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
                 </triggers>
@@ -1262,19 +1273,20 @@
             </folder>
             <message name="J&apos;ai trouvé des informations sur Saint Fidèle. Est-ce que tu veux les voir ?" id="j-ai-trouve-des-informations-sur-saint-fidele-est-ce-que-tu-veux-les-voir" nb="4">
               <canBeFollowedByAProactivity>false</canBeFollowedByAProactivity>
-              <text>D&apos;ailleurs j&apos;ai trouvé des informations sur Saint Fidèle sur le site Nominis.&#10;Veux-tu voir un résumé de la vie de Saint Fidèle ?</text>
+              <text>J&apos;ai trouvé une page sur Saint Fidèle dans le site Nominis.&#10;Est-ce que tu veux voir un résumé de la vie de Saint Fidèle ?</text>
             </message>
-            <message name="Je suis un petit chatbot pour te faire sourire dans ce temps de confinement." id="je-suis-un-petit-chatbot-pour-te-faire-sourire-dans-ce-temps-de-confinement" nb="2">
+            <message name="Je suis un petit chatbot pour te faire sourire dans ce temps de confinement." id="je-suis-un-petit-chatbot-pour-te-faire-sourire-dans-ce-temps-de-confinement" nb="3">
               <nextMessageId>j-ai-trouve-des-informations-sur-saint-fidele-est-ce-que-tu-veux-les-voir</nextMessageId>
-              <text fileType="text_and_html">Je suis un petit chatbot créé pour cette occasion mais je suis aussi connecté à des connaissances sur la foi catholique. &lt;img src=&quot;/resources/holychatter/emojis/cotilons.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+              <text fileType="text_and_html">Je suis un petit chatbot créé pour ton anniversaire. &lt;img src=&quot;/resources/holychatter/emojis/cotilons.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
             </message>
             <message name="Merci pour ton attention je te laisse avec une petite vidéo de Sainte Thérèse." id="merci-pour-ton-attention-je-te-laisse-avec-une-petite-video-de-sainte-therese" nb="6">
               <proactivities>
                 <proactivity priority="3"/>
               </proactivities>
               <recommendations>
-                <recommendation text="Sainte Thérèse de Lisieux" outMessageId="sainte-therese-de-lisieux-visites-privees"/>
+                <recommendation text="Sœur Emmanuelle" outMessageId="sur-emmanuelle-le-questionnaire-de-bernard-pivot-dans-bouillon-de-culture"/>
                 <recommendation text="Padre Pio" outMessageId="padre-pio-et-san-giovanni-rotondo"/>
+                <recommendation text="Sainte Thérèse de Lisieux" outMessageId="sainte-therese-de-lisieux-visites-privees"/>
               </recommendations>
               <text fileType="conversation_flow">Merci pour ton attention, je te laisse avec la personne de ton choix. &lt;img src=&quot;/resources/holychatter/emojis/eyes_heart.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
             </message>
@@ -1309,9 +1321,16 @@
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
             </folder>
-            <message name="anniversaire gif" id="anniversaire-gif" nb="3">
+            <message name="anniversaire gif" id="anniversaire-gif" nb="2">
               <nextMessageId>je-suis-un-petit-chatbot-pour-te-faire-sourire-dans-ce-temps-de-confinement</nextMessageId>
               <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/birthday.gif&quot; width=&quot;250&quot; /&gt;</text>
+            </message>
+            <message name="surpris" id="surpris" nb="7">
+              <triggers>
+                <trigger value="_Je ne veux pas lire l&apos;Évangile du 24 avril 2020"/>
+                <trigger value="_Je ne veux pas voir un résumé de la vie de Saint Fidèle."/>
+              </triggers>
+              <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/surprised.gif&quot; width=&quot;240&quot; height=&quot;135&quot; /&gt;</text>
             </message>
           </chatbot>
           <message name="Bonjour" id="bonjour">
@@ -3369,6 +3388,15 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BkSRNDM4Z7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
+      <folder name="Sœur Emmanuelle" id="sur-emmanuelle">
+        <message name=" 1:48 / 6:02 Sœur Emmanuelle : Le questionnaire de Bernard Pivot dans Bouillon de Culture" id="sur-emmanuelle-le-questionnaire-de-bernard-pivot-dans-bouillon-de-culture">
+          <triggers>
+            <trigger value="Montre-moi un interview avec Sœur Emmanuelle !"/>
+          </triggers>
+          <sourceId>ina-culture</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4VXUoSNIjVM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <folder name="À propos" id="a-propos-personnes">
         <message name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
           <tests>
@@ -3781,8 +3809,8 @@
         </message>
         <message name="Témoignage de communion spirituelle" id="temoignage-de-communion-spirituelle">
           <tests>
-            <test input="C&apos;est quoi la communion spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot; Ensemble Pastoral Asnières-Centre&quot; resourceid=&quot;temoignage-de-communion-spirituelle&quot; textlength=&quot;35&quot; /&gt;"/>
-            <test input="Communion spirituelle" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot; Ensemble Pastoral Asnières-Centre&quot; resourceid=&quot;temoignage-de-communion-spirituelle&quot; textlength=&quot;35&quot; /&gt;"/>
+            <test input="C&apos;est quoi la communion spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Ensemble Pastoral Asnières-Centre&quot; resourceid=&quot;temoignage-de-communion-spirituelle&quot; textlength=&quot;34&quot; /&gt;"/>
+            <test input="Communion spirituelle" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Ensemble Pastoral Asnières-Centre&quot; resourceid=&quot;temoignage-de-communion-spirituelle&quot; textlength=&quot;34&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="C&apos;est quoi la communion spirituelle ?"/>

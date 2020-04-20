@@ -19,6 +19,16 @@
         <sourceId>bible</sourceId>
         <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
       </message>
+      <message name="What is BibleProject?" id="what-is-bibleproject">
+        <tests>
+          <test input="What is the Bible?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vFwNZNyDu9k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+        </tests>
+        <triggers>
+          <trigger value="What is the Bible?"/>
+        </triggers>
+        <sourceId>bibleproject</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vFwNZNyDu9k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
     <folder name="God" id="god">
       <folder name="Jesus" id="jesus">
@@ -326,7 +336,14 @@
     </folder>
   </folder>
   <folder name="Chatbots" id="chatbots">
-    <chatbot name="By default" id="by-default" useDefaultContent="true"/>
+    <chatbot name="By default" id="by-default" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true">
+      <message name="Welcome" id="welcome">
+        <proactivities>
+          <proactivity/>
+        </proactivities>
+        <text fileType="conversation_flow">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.&#10;Welcome! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+      </message>
+    </chatbot>
   </folder>
   <folder name="Church" id="church">
     <folder name="Mass" id="mass">
