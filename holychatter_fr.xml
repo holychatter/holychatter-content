@@ -3,6 +3,38 @@
   <folder name="Bible" id="bible">
     <folder name="Ancien Testament" id="ancien-testament" nb="1">
       <folder name="Pentateuque" id="pentateuque" nb="1">
+        <folder name="Exode" id="exode" nb="2">
+          <message name="Exode 1–18 - Synthèse" id="exode-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du début de l&apos;Exode !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6gAkIXm4ZN8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ex 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 11&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 15&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 16&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 17&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 18&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;exode-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du début de l&apos;Exode !"/>
+            </triggers>
+            <references>
+              <bible book="Ex" chapter="1"/>
+              <bible book="Ex" chapter="2"/>
+              <bible book="Ex" chapter="3"/>
+              <bible book="Ex" chapter="4"/>
+              <bible book="Ex" chapter="5"/>
+              <bible book="Ex" chapter="6"/>
+              <bible book="Ex" chapter="7"/>
+              <bible book="Ex" chapter="8"/>
+              <bible book="Ex" chapter="9"/>
+              <bible book="Ex" chapter="10"/>
+              <bible book="Ex" chapter="11"/>
+              <bible book="Ex" chapter="12"/>
+              <bible book="Ex" chapter="13"/>
+              <bible book="Ex" chapter="14"/>
+              <bible book="Ex" chapter="15"/>
+              <bible book="Ex" chapter="16"/>
+              <bible book="Ex" chapter="17"/>
+              <bible book="Ex" chapter="18"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6gAkIXm4ZN8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
         <folder name="Genèse" id="genese" nb="1">
           <folder name="Abraham" id="abraham">
             <message name="Abraham, Père des croyants" id="abraham-pere-des-croyants">
@@ -71,8 +103,11 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NylJU42gNnU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Genèse 1–11 - Synthèse" id="genese-synthese" nb="1">
+            <tests>
+              <test input="Fais-moi un résumé du début de la Genèse !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3m24IHVZ0XM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 11&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;genese-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
             <triggers>
-              <trigger value="Fait-moi un résumé de la Genèse !"/>
+              <trigger value="Fais-moi un résumé du début de la Genèse !"/>
             </triggers>
             <references>
               <bible book="Gen" chapter="1"/>
@@ -834,7 +869,7 @@
       <message name="La Bible est le Best-Seller mondial n°1." id="la-bible-est-le-best-seller-mondial-n">
         <tests>
           <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="Source : &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dSujxs4kdn8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;le-projet-biblique-qu-est-ce-que-c-est&quot; textlength=&quot;12&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;la-bible-qu-est-ce-que-c-est&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
         <sourceId>franceinfo</sourceId>
         <text>La Bible est le Best-Seller mondial n°1.</text>
@@ -846,12 +881,12 @@
         <sourceId>bible</sourceId>
         <text>La Bible raconte qui est Dieu.&#10;La Bible raconte notre histoire.&#10;La Bible raconte la souffrance qui est présente dans notre coeur.&#10;La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
       </message>
-      <message name="Le Projet Biblique: qu’est-ce que c’est ?" id="le-projet-biblique-qu-est-ce-que-c-est">
+      <message name="La Bible, qu&apos;est-ce que c&apos;est ?" id="la-bible-qu-est-ce-que-c-est">
         <triggers>
           <trigger value="Qu’est-ce que c’est la Bible ?"/>
         </triggers>
         <sourceId>bibleproject</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dSujxs4kdn8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="que-faire-quand-on-s-ennuie-partie-ii-la-bible">
         <triggers>
@@ -1417,7 +1452,7 @@
           </chatbot>
           <message name="Bonjour" id="bonjour">
             <triggers>
-              <trigger value="Bonjour"/>
+              <trigger value="-Bonjour"/>
             </triggers>
             <text>Bonjour</text>
           </message>
@@ -1426,6 +1461,9 @@
               <proactivity priority="300"/>
             </proactivities>
             <text fileType="conversation_flow">Es-tu chrétien ?</text>
+          </message>
+          <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-juillet">
+            <text>Je suis né le 14 juillet 2017.</text>
           </message>
           <message name="Mon nom" id="mon-nom">
             <tests>
