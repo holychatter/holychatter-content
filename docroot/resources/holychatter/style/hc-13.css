@@ -60,6 +60,15 @@ h1 {
   box-sizing: border-box;
 }
 
+.hc-h2-header {
+  margin-top: 30px;
+  height: 30px;
+}
+
+.hc-h3-header {
+  height: 27px;
+}
+
 .hc-chat-content-wrapper {
   position: absolute;
   top: 65px;
@@ -256,6 +265,16 @@ h1 {
 .hc-onTopRight-from-header
 {
   margin-top: 15px;
+  margin-right: var(--hc-var-right-space);
+}
+
+.hc-onTopRight-from-h2-header
+{
+  margin-right: var(--hc-var-right-space);
+}
+
+.hc-onTopRight-from-h3-header
+{
   margin-right: var(--hc-var-right-space);
 }
 
