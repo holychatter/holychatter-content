@@ -382,6 +382,22 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kOYy8iCfIJ4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Ruth" id="overview-ruth" nb="3">
+          <tests>
+            <test input="Give me a summary of the book of Ruth!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0h1eoBeR4Jk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ruth 1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Ruth 2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Ruth 3&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Ruth 4&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-ruth&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the book of Ruth!"/>
+          </triggers>
+          <references>
+            <bible book="Ruth" chapter="1"/>
+            <bible book="Ruth" chapter="2"/>
+            <bible book="Ruth" chapter="3"/>
+            <bible book="Ruth" chapter="4"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0h1eoBeR4Jk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
       <folder name="Pentateuch" id="pentateuch" nb="1">
         <folder name="Exodus" id="exodus" nb="2">

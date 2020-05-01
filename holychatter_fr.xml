@@ -72,6 +72,22 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CJhCzmboXSQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Ruth - Synthèse" id="ruth-synthese" nb="3">
+          <tests>
+            <test input="Fais-moi un résumé du livre de Ruth !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vwh7UOJYCGw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Rt 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Rt 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Rt 4&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ruth-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre de Ruth !"/>
+          </triggers>
+          <references>
+            <bible book="Ruth" chapter="1"/>
+            <bible book="Ruth" chapter="2"/>
+            <bible book="Ruth" chapter="3"/>
+            <bible book="Ruth" chapter="4"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vwh7UOJYCGw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
       <folder name="Pentateuque" id="pentateuque" nb="1">
         <message name="Deutéronome - Synthèse" id="deuteronome-synthese" nb="5">
