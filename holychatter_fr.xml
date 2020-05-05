@@ -593,6 +593,18 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
+      <folder name="À propos" id="a-propos-ancien-testament">
+        <message name="Comment lire un récit biblique ?" id="comment-lire-un-recit-biblique">
+          <triggers>
+            <trigger value="Comment lire un récit biblique ?"/>
+          </triggers>
+          <references>
+            <bible book="Ex" chapter="3" verseBegin="1" verseEnd="14"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MYtLSyUHfR0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Nouveau Testament" id="nouveau-testament" nb="2">
       <folder name="Livre prophétique" id="livre-prophetique" nb="5">
@@ -1339,6 +1351,19 @@
         </tests>
         <sourceId>franceinfo</sourceId>
         <text>La Bible est le Best-Seller mondial n°1.</text>
+      </message>
+      <message name="La Bible me dit-elle ce que je dois faire ?" id="la-bible-me-dit-elle-ce-que-je-dois-faire">
+        <tests>
+          <test input="La Bible me dit-elle ce que je dois faire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G0ROZUh-fzw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6,33&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-bible-me-dit-elle-ce-que-je-dois-faire&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="La Bible me dit-elle ce que je dois faire ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="33"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G0ROZUh-fzw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="La Bible raconte..." id="la-bible-raconte">
         <tests>
