@@ -723,7 +723,18 @@
         </folder>
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1">
-        <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2"/>
+        <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2">
+          <message name="Multiplication des pains" id="multiplication-des-pains">
+            <triggers>
+              <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
+            </triggers>
+            <references>
+              <bible book="Mt" chapter="14" verseBegin="13" verseEnd="21"/>
+            </references>
+            <sourceId>pierre-fricot</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7z_4koc9vrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
         <folder name="Paraboles" id="paraboles" nb="1">
           <folder name="L&apos;ami importun" id="l-ami-importun">
             <message name="Lire la parabole de l&apos;ami importun" id="lire-la-parabole-de-l-ami-importun">
@@ -1868,119 +1879,6 @@
           <text fileType="html">&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;</text>
         </message>
         <folder name="Holy Chatter" id="holy-chatter">
-          <chatbot name="Anniversaire Charlotte" id="anniversaire-charlotte" useDefaultContent="true">
-            <message name="Est-ce que tu veux lire l&apos;Évangile du 24 avril 2020 ?" id="est-ce-que-tu-veux-lire-l-evangile-du-avril" nb="5">
-              <proactivities>
-                <proactivity priority="2"/>
-              </proactivities>
-              <text fileType="conversation_flow">Est-ce que tu veux lire l&apos;Évangile du 24 avril 2020 ?</text>
-            </message>
-            <folder name="Evangile" id="evangile">
-              <message name="Cool c&apos;est sur la multiplication des pains !" id="cool-c-est-sur-la-multiplication-des-pains" nb="1">
-                <triggers>
-                  <trigger value="_Je veux lire l&apos;Évangile du 24 avril 2020"/>
-                  <trigger value="_Je veux lire l&apos;évangile"/>
-                  <trigger value="_Lire l&apos;évangile du 24 avril 2020"/>
-                  <trigger value="_Lire l&apos;évangile"/>
-                </triggers>
-                <nextMessageId>joie-multiplication-des-pains-gif</nextMessageId>
-                <text fileType="text_and_html">Cool c&apos;est sur la multiplication des pains !&lt;p&gt;&lt;/p&gt;</text>
-              </message>
-              <message name="Evangile 24 avril" id="evangile-avril" nb="3">
-                <recommendations>
-                  <recommendation text="Ecouter un commentaire sur la multiplication des pains !" outMessageId="multiplication-des-pains"/>
-                  <recommendation text="Comment lire un évangile ?" outMessageId="comment-lire-un-evangile"/>
-                </recommendations>
-                <references>
-                  <bible book="Jn" chapter="6" verseBegin="1" verseEnd="15"/>
-                </references>
-                <sourceId>aelf</sourceId>
-                <text>En ce temps-là,&#10;Jésus passa de l’autre côté de la mer de Galilée,&#10;le lac de Tibériade.&#10;Une grande foule le suivait,&#10;parce qu’elle avait vu les signes&#10;qu’il accomplissait sur les malades.&#10;Jésus gravit la montagne,&#10;et là, il était assis avec ses disciples.&#10;Or, la Pâque, la fête des Juifs, était proche.&#10;Jésus leva les yeux&#10;et vit qu’une foule nombreuse venait à lui.&#10;Il dit à Philippe :&#10;« Où pourrions- nous acheter du pain&#10;pour qu’ils aient à manger ? »&#10;Il disait cela pour le mettre à l’épreuve,&#10;car il savait bien, lui, ce qu’il allait faire.&#10;Philippe lui répondit :&#10;« Le salaire de deux cents journées ne suffirait pas&#10;pour que chacun reçoive un peu de pain. »&#10;Un de ses disciples, André, le frère de Simon-Pierre, lui dit :&#10;« Il y a là un jeune garçon qui a cinq pains d’orge&#10;et deux poissons,&#10;mais qu’est-ce que cela pour tant de monde ! »&#10;Jésus dit :&#10;« Faites asseoir les gens. »&#10;Il y avait beaucoup d’herbe à cet endroit.&#10;Ils s’assirent donc, au nombre d’environ cinq mille hommes.&#10;Alors Jésus prit les pains&#10;et, après avoir rendu grâce,&#10;il les distribua aux convives ;&#10;il leur donna aussi du poisson,&#10;autant qu’ils en voulaient.&#10;Quand ils eurent mangé à leur faim,&#10;il dit à ses disciples :&#10;« Rassemblez les morceaux en surplus,&#10;pour que rien ne se perde. »&#10;Ils les rassemblèrent, et ils remplirent douze paniers&#10;avec les morceaux des cinq pains d’orge,&#10;restés en surplus pour ceux qui prenaient cette nourriture.&#10;&#10;À la vue du signe que Jésus avait accompli,&#10;les gens disaient :&#10;« C’est vraiment lui le Prophète annoncé,&#10;celui qui vient dans le monde. »&#10;Mais Jésus savait qu’ils allaient venir l’enlever&#10;pour faire de lui leur roi ;&#10;alors de nouveau il se retira dans la montagne,&#10;lui seul.</text>
-              </message>
-              <message name="Joie multiplication des pains gif" id="joie-multiplication-des-pains-gif" nb="2">
-                <nextMessageId>evangile-avril</nextMessageId>
-                <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/joy.gif&quot; width=&quot;192&quot; height=&quot;144&quot; /&gt;</text>
-              </message>
-              <message name="Multiplication des pains" id="multiplication-des-pains" nb="4">
-                <triggers>
-                  <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
-                </triggers>
-                <references>
-                  <bible book="Mt" chapter="14" verseBegin="13" verseEnd="21"/>
-                </references>
-                <sourceId>pierre-fricot</sourceId>
-                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7z_4koc9vrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-              </message>
-            </folder>
-            <message name="Je suis un petit chatbot créé pour ton anniversaire." id="je-suis-un-petit-chatbot-cree-pour-ton-anniversaire" nb="3">
-              <nextMessageId>question-sur-saint-fidele</nextMessageId>
-              <text fileType="text_and_html">Je suis un petit chatbot créé pour ton anniversaire. &lt;img src=&quot;/resources/holychatter/emojis/birthday_face.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
-            </message>
-            <message name="Joyeux anniversaire Charlotte !" id="joyeux-anniversaire-charlotte" nb="1">
-              <proactivities>
-                <proactivity/>
-              </proactivities>
-              <nextMessageId>anniversaire-gif</nextMessageId>
-              <text fileType="conversation_flow">Joyeux anniversaire Charlotte ! &lt;img src=&quot;/resources/holychatter/emojis/birthday_cake.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
-            </message>
-            <message name="Merci pour ton attention" id="merci-pour-ton-attention" nb="6">
-              <proactivities>
-                <proactivity priority="3"/>
-              </proactivities>
-              <recommendations>
-                <recommendation text="Sœur Emmanuelle" outMessageId="sur-emmanuelle-le-questionnaire-de-bernard-pivot-dans-bouillon-de-culture"/>
-                <recommendation text="Padre Pio" outMessageId="padre-pio-et-san-giovanni-rotondo"/>
-                <recommendation text="Sainte Thérèse de Lisieux" outMessageId="sainte-therese-de-lisieux-visites-privees"/>
-              </recommendations>
-              <text fileType="conversation_flow">Merci pour ton attention, je te laisse avec la personne de ton choix. &lt;img src=&quot;/resources/holychatter/emojis/eyes_heart.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
-            </message>
-            <message name="Question sur Saint Fidèle" id="question-sur-saint-fidele" nb="4">
-              <canBeFollowedByAProactivity>false</canBeFollowedByAProactivity>
-              <text>J&apos;ai trouvé une page sur Saint Fidèle dans le site Nominis.&#10;Est-ce que tu veux voir un résumé de la vie de Saint Fidèle ?</text>
-            </message>
-            <folder name="Saint Fidèle" id="saint-fidele">
-              <message name="Image de Saint Fidèle" id="image-de-saint-fidele">
-                <triggers>
-                  <trigger value="Montre-moi Saint Fidèle !"/>
-                  <trigger value="Je veux voir un résumé de la vie de Saint Fidèle."/>
-                </triggers>
-                <nextMessageId>resume-sur-saint-fidele</nextMessageId>
-                <references>
-                  <site book="https://nominis.cef.fr/contenus/saint/1028/Saint-Fidele-de-Sigmaringen.html"/>
-                </references>
-                <sourceId>nominis</sourceId>
-                <text fileType="text_and_html">&lt;img src=&quot;https://nominis.cef.fr/images/gallerie/fideledesigmaringen.jpg&quot; height=&quot;343&quot; width=&quot;150&quot; align=&quot;center&quot; /&gt;&#10;Peinture murale de l&apos;église&#10;Saint Venance à Pfärrenbach&#10;en Allemagne</text>
-              </message>
-              <message name="Résumé sur Saint Fidèle" id="resume-sur-saint-fidele">
-                <triggers>
-                  <trigger value="Montre-moi un résumé de la vie de Saint Fidèle !"/>
-                </triggers>
-                <recommendations>
-                  <recommendation text="Ecouter un sermon sur Saint Fidèle !" outMessageId="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon"/>
-                </recommendations>
-                <references>
-                  <site book="https://nominis.cef.fr/contenus/saint/1028/Saint-Fidele-de-Sigmaringen.html"/>
-                </references>
-                <sourceId>nominis</sourceId>
-                <text>Marc Roy est né à Sigmaringen en Souabe (Allemagne). Il étudia d&apos;abord la philosophie et le droit et commença à Colmar une brillante carrière d&apos;avocat. Saint Fidèle de SigmaringenIl l&apos;abandonne à 34 ans pour entrer chez les Capucins de Fribourg-en-Brisgau, se dépouillant de tous ses biens et prenant le nom de Fidèle. En ce temps-là, la réforme protestante s&apos;étendait dans les pays germaniques. Fidèle se lança dans la controverse, par le ministère de la prédication. Sa parole et son exemple gagnèrent de nombreuses conversions. Même les protestants convaincus étaient séduits par ses paroles et l&apos;appelaient &quot;l&apos;ange de la paix&quot;. Pendant dix ans, il parcourut ainsi l&apos;Allemagne du Sud, l&apos;Autriche et la Suisse. Soucieux de la vie spirituelle des fidèles, il rédigea des &quot;Exercices spirituels&quot; selon l&apos;esprit franciscain. Il fut finalement victime de son zèle apostolique. Au cours d&apos;une mission dans le canton des Grisons en Suisse, il fut mis à mort par un petit groupe de protestants fanatiques.</text>
-              </message>
-              <message name="Saint Fidèle de Sigmaringen, martyr des calvinistes - Sermon" id="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon">
-                <sourceId>la-sapiniere</sourceId>
-                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-              </message>
-            </folder>
-            <message name="anniversaire gif" id="anniversaire-gif" nb="2">
-              <nextMessageId>je-suis-un-petit-chatbot-cree-pour-ton-anniversaire</nextMessageId>
-              <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/birthday.gif&quot; width=&quot;250&quot; /&gt;</text>
-            </message>
-            <message name="surpris gif" id="surpris-gif" nb="7">
-              <triggers>
-                <trigger value="_Je ne veux pas lire l&apos;Évangile du 24 avril 2020"/>
-                <trigger value="_Je ne veux pas voir un résumé de la vie de Saint Fidèle."/>
-              </triggers>
-              <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/surprised.gif&quot; width=&quot;240&quot; height=&quot;135&quot; /&gt;</text>
-            </message>
-          </chatbot>
           <folder name="Blagues" id="blagues">
             <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
               <triggers>
@@ -3879,6 +3777,12 @@
           </triggers>
           <sourceId>etoile-notre-dame</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Saint Fidèle" id="saint-fidele">
+        <message name="Saint Fidèle de Sigmaringen, martyr des calvinistes - Sermon" id="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon">
+          <sourceId>la-sapiniere</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
       <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney">
