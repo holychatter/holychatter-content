@@ -1620,10 +1620,18 @@
         </proactivities>
         <nextMessageId>n-aie-pas-peur-de-mon-ton-un-peu-direct</nextMessageId>
         <text fileType="conversation_flow">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+        <planningInfos>
+          <effects>
+            <effect value="dire-bonjour"/>
+          </effects>
+        </planningInfos>
       </message>
       <message name="N&apos;aie pas peur de mon ton un peu direct." id="n-aie-pas-peur-de-mon-ton-un-peu-direct" nb="2">
         <text fileType="text_and_html">N&apos;aie pas peur de mon ton un peu direct. &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
       </message>
+      <goals>
+        <goal value="dire-bonjour"/>
+      </goals>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
       <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage">
