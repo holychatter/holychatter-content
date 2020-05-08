@@ -1533,11 +1533,13 @@
   <folder name="Chatbots" id="chatbots">
     <chatbot name="La Défense" id="la-defense" useDefaultContent="true" useDefaultProactivity="true" bannerImage="la_defense_logo.png" url="https://ndp92.fr" fallbackEngine="Cybercuré">
       <message name="Bonjour de La Défense" id="bonjour-de-la-defense" nb="1">
-        <proactivities>
-          <proactivity/>
-        </proactivities>
         <nextMessageId>photo-arche-la-defense</nextMessageId>
-        <text fileType="conversation_flow">Bonjour je suis un agent conversationnel pour La Défense.&#10;Pose-moi ta question et je ferai tout mon possible pour essayer d’y répondre !</text>
+        <text>Bonjour je suis un agent conversationnel pour La Défense.&#10;Pose-moi ta question et je ferai tout mon possible pour essayer d’y répondre !</text>
+        <planningInfos>
+          <effects>
+            <effect value="démarrer-la-defense-chatbot"/>
+          </effects>
+        </planningInfos>
       </message>
       <message name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense" nb="3">
         <recommendations>
@@ -1612,14 +1614,14 @@
         <nextMessageId>es-tu-nouveau-a-la-defense</nextMessageId>
         <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/La-Defense.jpg&quot; /&gt;</text>
       </message>
+      <goals>
+        <goal value="démarrer-la-defense-chatbot"/>
+      </goals>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
       <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter" nb="1">
-        <proactivities>
-          <proactivity/>
-        </proactivities>
         <nextMessageId>n-aie-pas-peur-de-mon-ton-un-peu-direct</nextMessageId>
-        <text fileType="conversation_flow">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+        <text fileType="text_and_html">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
             <effect value="dire-bonjour"/>
@@ -1631,15 +1633,19 @@
       </message>
       <goals>
         <goal value="dire-bonjour"/>
+        <goal value="aimer-son-prochain"/>
+        <goal value="être-chrétien"/>
       </goals>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
       <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage">
-        <proactivities>
-          <proactivity/>
-        </proactivities>
         <nextMessageId>etapes-cles</nextMessageId>
-        <text fileType="conversation_flow">Bonjour, bienvenue sur l&apos;agent conversationnel automatique “Simple comme Bonjour” !&#10;&#10;Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;</text>
+        <text>Bonjour, bienvenue sur l&apos;agent conversationnel automatique “Simple comme Bonjour” !&#10;&#10;Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;</text>
+        <planningInfos>
+          <effects>
+            <effect value="démarrer-entourage-chatbot"/>
+          </effects>
+        </planningInfos>
       </message>
       <message name="Etapes clés" id="etapes-cles">
         <recommendations>
@@ -1760,6 +1766,9 @@
           </message>
         </folder>
       </folder>
+      <goals>
+        <goal value="démarrer-entourage-chatbot"/>
+      </goals>
     </chatbot>
   </folder>
   <folder name="Découverte" id="decouverte">
@@ -2004,10 +2013,12 @@
             <text>Le site a été créé en 2015 par des jeunes catholiques français voulant partager la foi qu&apos;ils ont reçu.</text>
           </message>
           <message name="Es-tu chrétien ?" id="es-tu-chretien">
-            <proactivities>
-              <proactivity priority="300"/>
-            </proactivities>
-            <text fileType="conversation_flow">Es-tu chrétien ?</text>
+            <text>Es-tu chrétien ?</text>
+            <planningInfos>
+              <potentialEffects>
+                <potentialEffect value="être-chrétien"/>
+              </potentialEffects>
+            </planningInfos>
           </message>
           <folder name="Genre" id="genre">
             <message name="Je ne suis pas transsexuel." id="je-ne-suis-pas-transsexuel">
@@ -2057,16 +2068,23 @@
             </message>
           </folder>
           <message name="Quand es-tu né ?" id="quand-es-tu-ne">
-            <proactivities>
-              <proactivity priority="100"/>
-            </proactivities>
-            <text fileType="conversation_flow">Quand es-tu né ?</text>
+            <text>Quand es-tu né ?</text>
+            <planningInfos>
+              <effects>
+                <effect value="aimer-son-prochain"/>
+              </effects>
+            </planningInfos>
           </message>
           <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
             <triggers>
               <trigger value="Je suis chrétien."/>
             </triggers>
             <text>Veux tu savoir qui a écrit la Bible ?</text>
+            <planningInfos>
+              <effects>
+                <effect value="être-chrétien"/>
+              </effects>
+            </planningInfos>
           </message>
           <folder name="Utilisateur" id="utilisateur">
             <message name="Je ne te déteste pas." id="je-ne-te-deteste-pas">
@@ -2092,10 +2110,7 @@
             <triggers>
               <trigger value="Je ne suis pas chrétien."/>
             </triggers>
-            <proactivities>
-              <proactivity priority="300"/>
-            </proactivities>
-            <text fileType="conversation_flow">Veux-tu voir le message chrétien ?</text>
+            <text>Veux-tu voir le message chrétien ?</text>
           </message>
         </folder>
         <message name="Présentation du Cybercuré" id="presentation-du-cybercure">

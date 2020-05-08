@@ -1036,11 +1036,17 @@
   <folder name="Chatbots" id="chatbots">
     <chatbot name="By default" id="by-default" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true">
       <message name="Welcome" id="welcome">
-        <proactivities>
-          <proactivity/>
-        </proactivities>
-        <text fileType="conversation_flow">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.&#10;Welcome! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+        <text fileType="text_and_html">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.&#10;Welcome! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+        <planningInfos>
+          <effects>
+            <effect value="say-hello"/>
+          </effects>
+        </planningInfos>
       </message>
+      <goals>
+        <goal value="say-hello"/>
+        <goal value="ask-about-knowing-the-church"/>
+      </goals>
     </chatbot>
   </folder>
   <folder name="Church" id="church">
@@ -1176,10 +1182,12 @@
       <folder name="Everybody" id="everybody">
         <folder name="Holy Chatter" id="holy-chatter">
           <message name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
-            <proactivities>
-              <proactivity priority="500"/>
-            </proactivities>
-            <text fileType="conversation_flow">Do you already know the Catholic Church?</text>
+            <text>Do you already know the Catholic Church?</text>
+            <planningInfos>
+              <effects>
+                <effect value="ask-about-knowing-the-church"/>
+              </effects>
+            </planningInfos>
           </message>
           <message name="Greeting" id="greeting">
             <triggers>
