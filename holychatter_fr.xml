@@ -2148,6 +2148,7 @@
                 <trigger value="Raconte-moi une blague !"/>
                 <trigger value="Je veux que tu me racontes une blague."/>
               </triggers>
+              <sourceId>humour-catho</sourceId>
               <text>Un juif se plaint à Dieu:&#10;&quot;-Ay ay, je suis bien à plaindre, il m&apos;arrive la plus terrible des hontes... Mon fils s&apos;est converti au christianisme !&#10;Dieu lui répond:&#10;-Tu sais... Le mien a fait la même chose!&#10;-Oh, vraiment !? Et qu&apos;as - tu fait?&#10;-Un nouveau testament...</text>
             </message>
             <message name="Quelle est la différence entre un chrétien et un boxeur ?" id="quelle-est-la-difference-entre-un-chretien-et-un-boxeur" nb="1">
@@ -2158,9 +2159,11 @@
               <recommendations>
                 <recommendation text="Donne-moi la réponse" outMessageId="reponse-blague"/>
               </recommendations>
+              <sourceId>parcours-alpha</sourceId>
               <text>Quelle est la différence entre un chrétien et un boxeur ?</text>
             </message>
             <message name="Réponse blague 1" id="reponse-blague" nb="1">
+              <sourceId>parcours-alpha</sourceId>
               <text fileType="text_and_html">&lt;span&gt;Aucune ils ont tous les 2 compris qu&apos;il y a plus de joie à donner qu&apos;à recevoir. &lt;img src=&quot;/resources/holychatter/emojis/laugh.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
             </message>
             <message name="Veux-tu que je te raconte une blague ?" id="veux-tu-que-je-te-raconte-une-blague">
@@ -3080,7 +3083,7 @@
         </message>
         <message name="Jésus nous aime" id="jesus-nous-aime">
           <tests>
-            <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus t&apos;aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus t&apos;aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;il-te-connait&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
           <references>
             <bible book="Jn" chapter="3" verseBegin="16"/>
@@ -6550,14 +6553,11 @@
             <sourceId>youcat</sourceId>
             <text>Tout ce qui existe vient de Dieu.</text>
           </message>
-          <message name="Pourquoi est-ce que j&apos;existe ?" id="pourquoi-est-ce-que-j-existe" nb="2">
+          <message name="Il te connaît." id="il-te-connait" nb="2">
             <tests>
-              <test input="Qui m&apos;aime ?" output="Moi et Dieu" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe&quot; textlength=&quot;6&quot; /&gt;"/>
-              <test input="Pourquoi est-ce que j&apos;existe ?" output="Tu existes parce que Dieu te veut.&#10;&#10;Il te connaît.&#10;Il t&apos;aime infiniment et veut te rendre heureux." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="Est-ce que Dieu me connaît ?" output="Oui, Dieu te connaît." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;il-te-connait&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="Qui m&apos;aime ?" output="Moi et Dieu" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;il-te-connait&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
-            <triggers>
-              <trigger value="Pourquoi est-ce que j&apos;existe ?"/>
-            </triggers>
             <references>
               <bible book="Jn" chapter="3" verseBegin="16"/>
               <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
@@ -6569,7 +6569,18 @@
               <bible book="Prov" chapter="8" verseBegin="17"/>
             </references>
             <sourceId>youcat</sourceId>
-            <text>Tu existes parce que Dieu te veut.&#10;&#10;Il te connaît.&#10;Il t&apos;aime infiniment et veut te rendre heureux.</text>
+            <text>Dieu te connaît.&#10;Dieu t&apos;aime infiniment et veut te rendre heureux.</text>
+          </message>
+          <message name="Pourquoi est-ce que j&apos;existe ?" id="pourquoi-est-ce-que-j-existe" nb="2">
+            <tests>
+              <test input="Pourquoi est-ce que j&apos;existe ?" output="Tu existes parce que Dieu te veut." outputReferences="Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Pourquoi est-ce que j&apos;existe ?"/>
+            </triggers>
+            <nextMessageId>il-te-connait</nextMessageId>
+            <sourceId>youcat</sourceId>
+            <text>Tu existes parce que Dieu te veut.</text>
           </message>
         </folder>
       </folder>
