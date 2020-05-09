@@ -183,6 +183,40 @@
   </message>
 
 
+
+  <message id="content-header-list-elt-facts">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${facts}</th>
+      <th colspan="3" style="width: 20px;">${triggers}</th>
+    </tr>
+  </message>
+
+  <message id="content-header-list-elt-facts-mobile">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th colspan="1" style="width: 50px;"></th>
+      <th colspan="2">${facts}</th>
+    </tr>
+  </message>
+
+
+  <message id="content-list-elt-facts">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${fact}</td>
+      <td colspan="3" style="padding-top:10px;">${trigger}</td>
+    </tr>
+  </message>
+
+  <message id="content-list-elt-facts-mobile">
+    <tr class="hc-cursor-pointer">
+      <td colspan="1" height="42px" style="padding-left:15px; padding-top:10px"></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${fact}</td>
+    </tr>
+  </message>
+
+
+
   <message id="content-header-list-elt-sources">
     <tr class="add-category-row" style="background-color:#e9e9e9;">
       <th colspan="1" style="width: 50px;"></th>
