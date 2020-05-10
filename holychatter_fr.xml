@@ -2059,14 +2059,6 @@
           </references>
           <sourceId>webtele-ecdq</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <planningInfos>
-            <preconditions>
-              <precondition value="je-ne-suis-pas-chrétien"/>
-            </preconditions>
-            <potentialEffects>
-              <potentialEffect value="être-chrétien"/>
-            </potentialEffects>
-          </planningInfos>
         </message>
       </folder>
       <folder name="Qui est Jésus ?" id="qui-est-jesus" nb="3">
@@ -2208,6 +2200,12 @@
           <text fileType="html">&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;</text>
         </message>
         <folder name="Holy Chatter" id="holy-chatter">
+          <message name="As-tu trouvé ta vocation ?" id="as-tu-trouve-ta-vocation">
+            <triggers>
+              <trigger value="-Je suis chrétien."/>
+            </triggers>
+            <text>As-tu trouvé ta vocation ?</text>
+          </message>
           <folder name="Blagues" id="blagues">
             <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
               <triggers>
@@ -2323,9 +2321,6 @@
             </planningInfos>
           </message>
           <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
-            <triggers>
-              <trigger value="Je suis chrétien."/>
-            </triggers>
             <text>Veux tu savoir qui a écrit la Bible ?</text>
             <planningInfos>
               <effects>
@@ -2354,15 +2349,24 @@
             </message>
           </folder>
           <message name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
+            <triggers>
+              <trigger value="-Je ne suis pas chrétien."/>
+            </triggers>
             <text>Veux-tu voir le message chrétien ?</text>
             <planningInfos>
-              <optionalPreconditions>
-                <optionalPrecondition value="je-ne-suis-pas-chrétien"/>
-              </optionalPreconditions>
-              <effects>
-                <effect value="je-suis-chrétien"/>
-              </effects>
+              <preconditions>
+                <precondition value="je-ne-suis-pas-chrétien"/>
+              </preconditions>
+              <potentialEffects>
+                <potentialEffect value="être-chrétien"/>
+              </potentialEffects>
             </planningInfos>
+          </message>
+          <message name="Veux-tu voir une vidéo pour trouver sa vocation ?" id="veux-tu-voir-une-video-pour-trouver-sa-vocation">
+            <triggers>
+              <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
+            </triggers>
+            <text>Veux-tu voir une vidéo pour trouver sa vocation ?</text>
           </message>
         </folder>
         <message name="Présentation du Cybercuré" id="presentation-du-cybercure">
@@ -5464,6 +5468,7 @@
         </tests>
         <triggers>
           <trigger value="Comment trouver sa voie ?"/>
+          <trigger value="Je veux voir une vidéo pour trouver sa vocation."/>
         </triggers>
         <references>
           <bible book="Mt" chapter="19" verseBegin="28" verseEnd="29"/>
