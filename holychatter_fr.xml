@@ -1860,8 +1860,7 @@
       </message>
       <goals>
         <goal value="dire-bonjour"/>
-        <goal value="aimer-son-prochain"/>
-        <goal value="être-chrétien"/>
+        <goal value="aller-au-ciel"/>
       </goals>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
@@ -2315,6 +2314,9 @@
           <message name="Quand es-tu né ?" id="quand-es-tu-ne">
             <text fileType="text_and_html">Quand es-tu né ? &lt;span&gt;(Tu n&apos;es pas obligé de me donner l&apos;année juste le jour et le mois suffisent &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;)&lt;/span&gt;</text>
             <planningInfos>
+              <optionalPreconditions>
+                <optionalPrecondition value="être-chrétien"/>
+              </optionalPreconditions>
               <effects>
                 <effect value="aimer-son-prochain"/>
               </effects>
@@ -2353,6 +2355,14 @@
           </folder>
           <message name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
             <text>Veux-tu voir le message chrétien ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <optionalPrecondition value="je-ne-suis-pas-chrétien"/>
+              </optionalPreconditions>
+              <effects>
+                <effect value="je-suis-chrétien"/>
+              </effects>
+            </planningInfos>
           </message>
         </folder>
         <message name="Présentation du Cybercuré" id="presentation-du-cybercure">

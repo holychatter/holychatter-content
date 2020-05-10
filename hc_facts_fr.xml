@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <factsRoot>
+  <fact id="aller-au-ciel">
+    <preconditionFacts>
+      <preconditionSet>aimer-son-prochain, être-chrétien</preconditionSet>
+    </preconditionFacts>
+  </fact>
   <fact id="je-ne-suis-pas-chrétien">
     <triggers>
-      <trigger str="Je ne suis pas chrétien."/>
+      <trigger>Je ne suis pas chrétien.</trigger>
     </triggers>
   </fact>
   <fact id="je-suis-chrétien">
     <triggers>
-      <trigger str="Je suis chrétien."/>
+      <trigger>Je suis chrétien.</trigger>
     </triggers>
   </fact>
 </factsRoot>
