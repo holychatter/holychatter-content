@@ -2871,6 +2871,17 @@
       </folder>
       <folder name="Youcat for kids" id="youcat-for-kids">
         <folder name="Introduction" id="introduction">
+          <message name="Can we know God?" id="can-we-know-god" nb="4">
+            <tests>
+              <test input="Can we know God?" output="Yes, but not without his help.&#10;God is greater than all of our images and all of our thoughts.&#10;God is a great mystery." outputReferences="Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-know-god&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Can we know God?"/>
+            </triggers>
+            <nextMessageId>god-wants-us-to-know-and-love-him</nextMessageId>
+            <sourceId>youcat</sourceId>
+            <text>Yes, but not without his help.&#10;God is greater than all of our images and all of our thoughts.&#10;God is a great mystery.</text>
+          </message>
           <message name="God knows you." id="god-knows-you" nb="2">
             <tests>
               <test input="Who knows me ?" output="God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;god-knows-you&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2888,6 +2899,10 @@
             </references>
             <sourceId>youcat</sourceId>
             <text>God knows you.&#10;God loves you beyond measure, and he wants to make you happy.</text>
+          </message>
+          <message name="God wants us to know and love him." id="god-wants-us-to-know-and-love-him" nb="4">
+            <sourceId>youcat</sourceId>
+            <text>God wants us to know and love him.&#10;That is why he shows himself to us.&#10;That is called &quot;revelation&quot;.</text>
           </message>
           <message name="How do we know that God exists?" id="how-do-we-know-that-god-exists" nb="3">
             <tests>

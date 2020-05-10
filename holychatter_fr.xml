@@ -2036,6 +2036,14 @@
           </references>
           <sourceId>webtele-ecdq</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <planningInfos>
+            <preconditions>
+              <precondition value="je-ne-suis-pas-chrétien"/>
+            </preconditions>
+            <potentialEffects>
+              <potentialEffect value="être-chrétien"/>
+            </potentialEffects>
+          </planningInfos>
         </message>
       </folder>
       <folder name="Qui est Jésus ?" id="qui-est-jesus" nb="3">
@@ -2320,9 +2328,6 @@
             </message>
           </folder>
           <message name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
-            <triggers>
-              <trigger value="Je ne suis pas chrétien."/>
-            </triggers>
             <text>Veux-tu voir le message chrétien ?</text>
           </message>
         </folder>
@@ -6610,6 +6615,10 @@
             <sourceId>youcat</sourceId>
             <text>Tout ce qui existe vient de Dieu.</text>
           </message>
+          <message name="Dieu veut que nous apprenions à le connaître et à l&apos;aimer." id="dieu-veut-que-nous-apprenions-a-le-connaitre-et-a-l-aimer" nb="4">
+            <sourceId>youcat</sourceId>
+            <text>Dieu veut que nous apprenions à le connaître et à l&apos;aimer.&#10;C&apos;est pourquoi il se fait connaître.&#10;On appelle cela la « révélation ».</text>
+          </message>
           <message name="Il te connaît." id="il-te-connait" nb="2">
             <tests>
               <test input="Est-ce que Dieu me connaît ?" output="Oui, Dieu te connaît." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;il-te-connait&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -6627,6 +6636,17 @@
             </references>
             <sourceId>youcat</sourceId>
             <text>Dieu te connaît.&#10;Dieu t&apos;aime infiniment et veut te rendre heureux.</text>
+          </message>
+          <message name="Peut-on connaître Dieu ?" id="peut-on-connaitre-dieu" nb="4">
+            <tests>
+              <test input="Peut-on connaître Dieu ?" output="Pas sans son aide.&#10;Dieu est plus grand que toutes les images et les idées que les hommes se font de lui.&#10;Dieu est un grand mystère." outputReferences="Source : &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;peut-on-connaitre-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Peut-on connaître Dieu ?"/>
+            </triggers>
+            <nextMessageId>dieu-veut-que-nous-apprenions-a-le-connaitre-et-a-l-aimer</nextMessageId>
+            <sourceId>youcat</sourceId>
+            <text>Pas sans son aide.&#10;Dieu est plus grand que toutes les images et les idées que les hommes se font de lui.&#10;Dieu est un grand mystère.</text>
           </message>
           <message name="Pourquoi est-ce que j&apos;existe ?" id="pourquoi-est-ce-que-j-existe" nb="2">
             <tests>
