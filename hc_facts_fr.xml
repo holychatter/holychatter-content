@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <factsRoot>
+  <fact id="aimer-dieu"/>
   <fact id="aimer-son-prochain"/>
   <fact id="aller-au-ciel">
     <preconditionFacts>
-      <preconditionSet>aimer-son-prochain, être-chrétien</preconditionSet>
+      <preconditionSet>aimer-dieu, aimer-son-prochain, être-chrétien</preconditionSet>
     </preconditionFacts>
   </fact>
-  <fact id="je-ne-suis-pas-chrétien">
+  <fact id="ne-pas-être-chrétien">
     <triggers>
       <trigger>Je ne suis pas chrétien.</trigger>
     </triggers>
   </fact>
-  <fact id="je-suis-chrétien">
+  <fact id="pourquoi-le-message-chrétien-est-vrai"/>
+  <fact id="être-chrétien">
     <triggers>
       <trigger>Je suis chrétien.</trigger>
     </triggers>
+    <preconditionFacts>
+      <preconditionSet>pourquoi-le-message-chrétien-est-vrai</preconditionSet>
+    </preconditionFacts>
   </fact>
-  <fact id="être-chrétien"/>
 </factsRoot>

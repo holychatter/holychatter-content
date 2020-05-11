@@ -2258,6 +2258,7 @@
             <text>Es-tu chrétien ?</text>
             <planningInfos>
               <potentialEffects>
+                <potentialEffect value="ne-pas-être-chrétien"/>
                 <potentialEffect value="être-chrétien"/>
               </potentialEffects>
             </planningInfos>
@@ -2315,17 +2316,17 @@
               <optionalPreconditions>
                 <optionalPrecondition value="être-chrétien"/>
               </optionalPreconditions>
-              <effects>
-                <effect value="aimer-son-prochain"/>
-              </effects>
+              <potentialEffects>
+                <potentialEffect value="aimer-dieu"/>
+              </potentialEffects>
             </planningInfos>
           </message>
           <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
             <text>Veux tu savoir qui a écrit la Bible ?</text>
             <planningInfos>
-              <effects>
-                <effect value="être-chrétien"/>
-              </effects>
+              <potentialEffects>
+                <potentialEffect value="aimer-dieu"/>
+              </potentialEffects>
             </planningInfos>
           </message>
           <folder name="Utilisateur" id="utilisateur">
@@ -2354,9 +2355,9 @@
             </triggers>
             <text>Veux-tu voir le message chrétien ?</text>
             <planningInfos>
-              <preconditions>
-                <precondition value="je-ne-suis-pas-chrétien"/>
-              </preconditions>
+              <optionalPreconditions>
+                <optionalPrecondition value="ne-pas-être-chrétien"/>
+              </optionalPreconditions>
               <potentialEffects>
                 <potentialEffect value="être-chrétien"/>
               </potentialEffects>
@@ -7351,15 +7352,25 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jsjorpzpl4o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <folder name="Sans-abri" id="sans-abri">
-        <message name="Démo de l&apos;application mobile Entourage pour associations de maraude" id="demo-de-l-application-mobile-entourage-pour-associations-de-maraude">
-          <tests>
-            <test input="Montre-moi une application pour m&apos;aider à faire des maraudes." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PW3JS1HnP70&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/P30tp5JwxgI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;demo-de-l-application-mobile-entourage-pour-associations-de-maraude&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;entourage-une-appli-pour-creer-du-lien-avec-les-sans-abri&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
-          </tests>
+        <message name="C&apos;est une application pour aller à la rencontre des sans-abri." id="c-est-une-application-pour-aller-a-la-rencontre-des-sans-abri">
           <triggers>
-            <trigger value="Montre-moi une application pour m&apos;aider à faire des maraudes."/>
+            <trigger value="Je ne connais pas l&apos;application Entourage."/>
           </triggers>
-          <sourceId>reseau-entourage</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PW3JS1HnP70&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <recommendations>
+            <recommendation text="Voir une démo de l&apos;application Entourage" outMessageId="entourage-une-appli-pour-creer-du-lien-avec-les-sans-abri"/>
+          </recommendations>
+          <text>C&apos;est une application pour aller à la rencontre des sans-abri.</text>
+        </message>
+        <message name="Connais-tu l&apos;application Entourage ?" id="connais-tu-l-application-entourage">
+          <text>Connais-tu l&apos;application Entourage ?</text>
+          <planningInfos>
+            <optionalPreconditions>
+              <optionalPrecondition value="être-chrétien"/>
+            </optionalPreconditions>
+            <potentialEffects>
+              <potentialEffect value="aimer-son-prochain"/>
+            </potentialEffects>
+          </planningInfos>
         </message>
         <message name="Entourage, une appli pour créer du lien avec les sans-abri !" id="entourage-une-appli-pour-creer-du-lien-avec-les-sans-abri">
           <tests>
