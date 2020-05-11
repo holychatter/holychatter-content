@@ -75,6 +75,30 @@
     </tr>
   </message>
 
+
+  <message id="content-header-list-fact">
+    <tr class="add-category-row" style="background-color:#e9e9e9;">
+      <th style="width: 5px;"></th>
+      <th colspan="2">${messsage-name}</th>
+      <th colspan="3">${potential-preconditions}</th>
+      <th colspan="4">${preconditions}</th>
+      <th colspan="5">${potential-effects}</th>
+      <th colspan="6">${effects}</th>
+    </tr>
+  </message>
+
+  <message id="content-list-fact">
+    <tr class="hc-cursor-pointer">
+      <td height="42px" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';"><img border="0" src="${url-icon}" width="18px" height="18px" /></td>
+      <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${name}</td>
+      <td colspan="3" style="padding-top:10px;">${potential-preconditions}</td>
+      <td colspan="4" style="padding-top:10px;">${preconditions}</td>
+      <td colspan="5" style="padding-top:10px;">${potential-effects}</td>
+      <td colspan="6" style="padding-top:10px;">${effects}</td>
+    </tr>
+  </message>
+
+
   <message id="message-link">
     <table>
       <tbody>
@@ -183,7 +207,6 @@
   </message>
 
 
-
   <message id="content-header-list-elt-facts">
     <tr class="add-category-row" style="background-color:#e9e9e9;">
       <th colspan="1" style="width: 50px;"></th>
@@ -214,7 +237,6 @@
       <td colspan="2" style="padding-top:10px;" onclick="document.location.href='${on-click-url}';">${fact}</td>
     </tr>
   </message>
-
 
 
   <message id="content-header-list-elt-sources">
