@@ -1766,7 +1766,7 @@
         <text>Bonjour je suis un agent conversationnel pour La Défense.&#10;Pose-moi ta question et je ferai tout mon possible pour essayer d’y répondre !</text>
         <planningInfos>
           <effects>
-            <effect value="démarrer-la-defense-chatbot"/>
+            <fact value="démarrer-la-defense-chatbot"/>
           </effects>
         </planningInfos>
       </message>
@@ -1851,7 +1851,7 @@
         <text fileType="text_and_html">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
-            <effect value="dire-bonjour"/>
+            <fact value="dire-bonjour"/>
           </effects>
         </planningInfos>
       </message>
@@ -1869,7 +1869,7 @@
         <text>Bonjour, bienvenue sur l&apos;agent conversationnel automatique “Simple comme Bonjour” !&#10;&#10;Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;</text>
         <planningInfos>
           <effects>
-            <effect value="démarrer-entourage-chatbot"/>
+            <fact value="démarrer-entourage-chatbot"/>
           </effects>
         </planningInfos>
       </message>
@@ -2257,9 +2257,13 @@
           <message name="Es-tu chrétien ?" id="es-tu-chretien">
             <text>Es-tu chrétien ?</text>
             <planningInfos>
+              <preconditions>
+                <notFact value="ne-pas-être-chrétien"/>
+                <notFact value="être-chrétien"/>
+              </preconditions>
               <potentialEffects>
-                <potentialEffect value="ne-pas-être-chrétien"/>
-                <potentialEffect value="être-chrétien"/>
+                <fact value="ne-pas-être-chrétien"/>
+                <fact value="être-chrétien"/>
               </potentialEffects>
             </planningInfos>
           </message>
@@ -2314,10 +2318,10 @@
             <text fileType="text_and_html">Quand es-tu né ? &lt;span&gt;(Tu n&apos;es pas obligé de me donner l&apos;année juste le jour et le mois suffisent &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;)&lt;/span&gt;</text>
             <planningInfos>
               <optionalPreconditions>
-                <optionalPrecondition value="être-chrétien"/>
+                <fact value="être-chrétien"/>
               </optionalPreconditions>
               <potentialEffects>
-                <potentialEffect value="aimer-dieu"/>
+                <fact value="aimer-dieu"/>
               </potentialEffects>
             </planningInfos>
           </message>
@@ -2325,7 +2329,7 @@
             <text>Veux tu savoir qui a écrit la Bible ?</text>
             <planningInfos>
               <potentialEffects>
-                <potentialEffect value="aimer-dieu"/>
+                <fact value="aimer-dieu"/>
               </potentialEffects>
             </planningInfos>
           </message>
@@ -2356,10 +2360,10 @@
             <text>Veux-tu voir le message chrétien ?</text>
             <planningInfos>
               <optionalPreconditions>
-                <optionalPrecondition value="ne-pas-être-chrétien"/>
+                <fact value="ne-pas-être-chrétien"/>
               </optionalPreconditions>
               <potentialEffects>
-                <potentialEffect value="être-chrétien"/>
+                <fact value="être-chrétien"/>
               </potentialEffects>
             </planningInfos>
           </message>
@@ -7365,10 +7369,10 @@
           <text>Connais-tu l&apos;application Entourage ?</text>
           <planningInfos>
             <optionalPreconditions>
-              <optionalPrecondition value="être-chrétien"/>
+              <fact value="être-chrétien"/>
             </optionalPreconditions>
             <potentialEffects>
-              <potentialEffect value="aimer-son-prochain"/>
+              <fact value="aimer-son-prochain"/>
             </potentialEffects>
           </planningInfos>
         </message>
