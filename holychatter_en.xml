@@ -593,6 +593,26 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j9phNEaPrv8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Song of Songs" id="overview-song-of-songs" nb="5">
+          <tests>
+            <test input="Give me a summary of the Song of Songs!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4KC7xE4fgOw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Song 1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 3&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Song 8&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-song-of-songs&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the Song of Songs!"/>
+          </triggers>
+          <references>
+            <bible book="Song" chapter="1"/>
+            <bible book="Song" chapter="2"/>
+            <bible book="Song" chapter="3"/>
+            <bible book="Song" chapter="4"/>
+            <bible book="Song" chapter="5"/>
+            <bible book="Song" chapter="6"/>
+            <bible book="Song" chapter="7"/>
+            <bible book="Song" chapter="8"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4KC7xE4fgOw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
       <folder name="Historical books" id="historical-books" nb="2">
         <message name="Overview: 1 Samuel" id="overview-samuel" nb="4">
@@ -1265,7 +1285,7 @@
         <text fileType="text_and_html">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.&#10;Welcome! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
-            <effect value="say-hello"/>
+            <fact value="say-hello"/>
           </effects>
         </planningInfos>
       </message>
@@ -1409,7 +1429,7 @@
             <text>Do you already know the Catholic Church?</text>
             <planningInfos>
               <effects>
-                <effect value="ask-about-knowing-the-church"/>
+                <fact value="ask-about-knowing-the-church"/>
               </effects>
             </planningInfos>
           </message>

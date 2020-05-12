@@ -364,6 +364,26 @@
         </message>
       </folder>
       <folder name="Livres sapientiaux" id="livres-sapientiaux" nb="3">
+        <message name="Cantique des cantiques - Synthèse" id="cantique-des-cantiques-synthese" nb="5">
+          <tests>
+            <test input="Fais-moi un résumé du Cantique des cantiques !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE-TO4LMbtQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ct 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 8&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;cantique-des-cantiques-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du Cantique des cantiques !"/>
+          </triggers>
+          <references>
+            <bible book="Song" chapter="1"/>
+            <bible book="Song" chapter="2"/>
+            <bible book="Song" chapter="3"/>
+            <bible book="Song" chapter="4"/>
+            <bible book="Song" chapter="5"/>
+            <bible book="Song" chapter="6"/>
+            <bible book="Song" chapter="7"/>
+            <bible book="Song" chapter="8"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE-TO4LMbtQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Ecclésiaste - Synthèse" id="ecclesiaste-synthese" nb="4">
           <tests>
             <test input="Fais-moi un résumé du livre d&apos;Ecclésiaste !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VURWsXy1nww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Qo 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 11&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Qo 12&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ecclesiaste-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -7443,6 +7463,19 @@
         <description>C&apos;est Marie-Andrée Rinck</description>
         <sourceId>rassemblement-a-son-image</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Athées, on a cherché la vérité - Tim et Nat" id="athees-on-a-cherche-la-verite-tim-et-nat">
+        <tests>
+          <test input="Montre-moi le témoignage de fans de jeux vidéos !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0cy-zgqgxxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,7&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Timothy&quot; resourceid=&quot;athees-on-a-cherche-la-verite-tim-et-nat&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montre-moi le témoignage de fans de jeux vidéos !"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="7" verseBegin="7"/>
+        </references>
+        <sourceId>timothy</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0cy-zgqgxxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Florian: &quot;Ni l&apos;argent ni la gloire ne me rendaient heureux&quot;" id="florian-ni-l-argent-ni-la-gloire-ne-me-rendaient-heureux">
         <tests>
