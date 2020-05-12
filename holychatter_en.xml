@@ -2970,6 +2970,23 @@
       </folder>
       <folder name="YOUCAT for kids" id="youcat-for-kids">
         <folder name="Introduction" id="introduction">
+          <message name="Can I talk to God?" id="can-i-talk-to-god" nb="5">
+            <triggers>
+              <trigger value="Can I talk to God?"/>
+            </triggers>
+            <references>
+              <bible book="Ps" chapter="139" verseBegin="16"/>
+            </references>
+            <sourceId>youcat-for-kids</sourceId>
+            <text>Yes.&#10;Talk to him!&#10;Ask him to make himself known in your heart.</text>
+          </message>
+          <message name="Can I talk to God? (continuation)" id="can-i-talk-to-god-continuation" nb="5">
+            <references>
+              <bible book="Ps" chapter="139" verseBegin="1" verseEnd="3"/>
+            </references>
+            <sourceId>youcat-for-kids</sourceId>
+            <text>Not only can you talk to God, God is already waiting for you.&#10;It does not matter if you are riding your bike or waiting for a bus.&#10;Just talk to him.</text>
+          </message>
           <message name="Can we know God?" id="can-we-know-god" nb="4">
             <tests>
               <test input="Can we know God?" output="Yes, but not without his help.&#10;God is greater than all of our images and all of our thoughts.&#10;God is a great mystery." outputReferences="Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;can-we-know-god&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2977,29 +2994,11 @@
             <triggers>
               <trigger value="Can we know God?"/>
             </triggers>
-            <nextMessageId>god-wants-us-to-know-and-love-him</nextMessageId>
+            <nextMessageId>can-we-know-god-continuation</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
             <text>Yes, but not without his help.&#10;God is greater than all of our images and all of our thoughts.&#10;God is a great mystery.</text>
           </message>
-          <message name="God knows you." id="god-knows-you" nb="2">
-            <tests>
-              <test input="Who knows me ?" output="God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;god-knows-you&quot; textlength=&quot;6&quot; /&gt;"/>
-              <test input="Who love me ?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;god-knows-you&quot; textlength=&quot;6&quot; /&gt;"/>
-            </tests>
-            <references>
-              <bible book="Jn" chapter="3" verseBegin="16"/>
-              <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
-              <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
-              <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
-              <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
-              <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
-              <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
-              <bible book="Prov" chapter="8" verseBegin="17"/>
-            </references>
-            <sourceId>youcat-for-kids</sourceId>
-            <text>God knows you.&#10;God loves you beyond measure, and he wants to make you happy.</text>
-          </message>
-          <message name="God wants us to know and love him." id="god-wants-us-to-know-and-love-him" nb="4">
+          <message name="Can we know God? (continuation)" id="can-we-know-god-continuation" nb="4">
             <sourceId>youcat-for-kids</sourceId>
             <text>God wants us to know and love him.&#10;That is why he shows himself to us.&#10;That is called &quot;revelation&quot;.</text>
           </message>
@@ -3010,14 +3009,14 @@
             <triggers>
               <trigger value="How do we know that God exists?"/>
             </triggers>
-            <nextMessageId>look-at-everything</nextMessageId>
+            <nextMessageId>how-do-we-know-that-god-exists-continuation</nextMessageId>
             <references>
               <bible book="Acts" chapter="17" verseBegin="28"/>
             </references>
             <sourceId>youcat-for-kids</sourceId>
             <text>We know that God exists because we see his traces everywhere.</text>
           </message>
-          <message name="Look at everything:" id="look-at-everything" nb="3">
+          <message name="How do we know that God exists? (continuation)" id="how-do-we-know-that-god-exists-continuation" nb="3">
             <sourceId>youcat-for-kids</sourceId>
             <text>Look at everything:&#10;the sun in the sky,&#10;the stars at night,&#10;the forests, the mountains, the seas, and the rivers,&#10;the big animals and the small,&#10;the people on all the continents.&#10;God has made all that.</text>
           </message>
@@ -3038,9 +3037,27 @@
             <triggers>
               <trigger value="Why do I exist?"/>
             </triggers>
-            <nextMessageId>god-knows-you</nextMessageId>
+            <nextMessageId>why-do-i-exist-continuation</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
             <text>You are here because God wants you.</text>
+          </message>
+          <message name="Why do I exist? (continuation)" id="why-do-i-exist-continuation" nb="2">
+            <tests>
+              <test input="Who knows me ?" output="God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;god-knows-you&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="Who love me ?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3:16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8:37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2:4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15:9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3:16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8:17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;Youcat&quot; resourceid=&quot;god-knows-you&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <references>
+              <bible book="Jn" chapter="3" verseBegin="16"/>
+              <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+              <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
+              <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
+              <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
+              <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
+              <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
+              <bible book="Prov" chapter="8" verseBegin="17"/>
+            </references>
+            <sourceId>youcat-for-kids</sourceId>
+            <text>God knows you.&#10;God loves you beyond measure, and he wants to make you happy.</text>
           </message>
         </folder>
       </folder>
