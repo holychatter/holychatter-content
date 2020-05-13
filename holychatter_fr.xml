@@ -6765,6 +6765,26 @@
             <sourceId>youcat-pour-les-enfants</sourceId>
             <text>Regarde autour de toi :&#10;le soleil dans le ciel,&#10;les étoiles dans la nuit,&#10;les forêts, les montagnes, la mer et les rivières,&#10;les animaux, petits et grands,&#10;les hommes sur tous les continents.&#10;Tout cela c&apos;est Dieu qui l&apos;a fait.</text>
           </message>
+          <message name="Croire en Dieu, qu&apos;est-ce que ça veut dire ?" id="croire-en-dieu-qu-est-ce-que-ca-veut-dire" nb="6">
+            <tests>
+              <test input="Croire en Dieu, qu&apos;est-ce que ça veut dire ?" output="Croire en Dieu, c&apos;est mettre toute ma confiance en celui qui m&apos;aime le plus, accepter ce qu&apos;il me révèle de lui-même, essayer de faire ce qu&apos;il me dit." outputReferences="Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Croire en Dieu, qu&apos;est-ce que ça veut dire ?"/>
+            </triggers>
+            <nextMessageId>croire-en-dieu-qu-est-ce-que-ca-veut-dire-suite</nextMessageId>
+            <sourceId>youcat-pour-les-enfants</sourceId>
+            <text>Croire en Dieu, c&apos;est mettre toute ma confiance en celui qui m&apos;aime le plus, accepter ce qu&apos;il me révèle de lui-même, essayer de faire ce qu&apos;il me dit.</text>
+          </message>
+          <message name="Croire en Dieu, qu&apos;est-ce que ça veut dire ? (suite)" id="croire-en-dieu-qu-est-ce-que-ca-veut-dire-suite" nb="6">
+            <references>
+              <bible book="Mt" chapter="9" verseBegin="22"/>
+              <bible book="Lk" chapter="17" verseBegin="19"/>
+              <bible book="Lk" chapter="18" verseBegin="42"/>
+            </references>
+            <sourceId>youcat-pour-les-enfants</sourceId>
+            <text fileType="text_and_html">Croire en Dieu, c&apos;est s&apos;abriter en lui. Dieu nous aime.&lt;span&gt;Nous n&apos;avons rien à craindre : avec lui, nous pouvons donner le meilleur de nous-mêmes !&lt;/span&gt;</text>
+          </message>
           <message name="D&apos;où vient le monde et tout ce qui existe ?" id="d-o-vient-le-monde-et-tout-ce-qui-existe" nb="1">
             <tests>
               <test input="D&apos;où vient le monde et tout ce qui existe ?" output="Je ne sais pas où le monde vient mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>

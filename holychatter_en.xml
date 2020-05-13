@@ -3009,10 +3009,34 @@
       </folder>
       <folder name="YOUCAT for kids" id="youcat-for-kids">
         <folder name="Introduction" id="introduction">
+          <message name="Believing in God, how does that work?" id="believing-in-god-how-does-that-work" nb="6">
+            <tests>
+              <test input="Believing in God, how does that work?" isOk="false"/>
+            </tests>
+            <triggers>
+              <trigger value="Believing in God, how does that work?"/>
+            </triggers>
+            <nextMessageId>believing-in-god-how-does-that-work-continuation</nextMessageId>
+            <sourceId>youcat-for-kids</sourceId>
+            <text>Believing in God means: I put all my trust in him who loves me most.&#10;I accept what God reveals about himself.&#10;I try to do what he tells me.</text>
+          </message>
+          <message name="Believing in God, how does that work? (continuation)" id="believing-in-god-how-does-that-work-continuation" nb="6">
+            <references>
+              <bible book="Mt" chapter="9" verseBegin="22"/>
+              <bible book="Lk" chapter="17" verseBegin="19"/>
+              <bible book="Lk" chapter="18" verseBegin="42"/>
+            </references>
+            <sourceId>youcat-for-kids</sourceId>
+            <text>Believing in God means being safe and secure with him.&#10;God loves us. We do not need to be afraid.&#10;With him, we can bring out the best in ourselves!</text>
+          </message>
           <message name="Can I talk to God?" id="can-i-talk-to-god" nb="5">
+            <tests>
+              <test input="Can I talk to God?" output="Yes.&#10;Talk to him!&#10;Ask him to make himself known in your heart." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ps 139:16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-i-talk-to-god&quot; textlength=&quot;15&quot; /&gt;"/>
+            </tests>
             <triggers>
               <trigger value="Can I talk to God?"/>
             </triggers>
+            <nextMessageId>can-i-talk-to-god-continuation</nextMessageId>
             <references>
               <bible book="Ps" chapter="139" verseBegin="16"/>
             </references>
