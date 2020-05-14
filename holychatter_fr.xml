@@ -3472,6 +3472,9 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Qui est Jésus pour les chrétiens ?" id="qui-est-jesus-pour-les-chretiens">
+          <tests>
+            <test input="qui est Jésus-Christ" output="Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxHDVbdJ9cY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;103&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;qui-est-jesus&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
           <triggers>
             <trigger value="Qui est Jésus ?"/>
             <trigger value="Qui est Jésus pour les chrétiens ?"/>
@@ -6676,7 +6679,7 @@
     <folder name="YOUCAT" id="youcat" defaultSourceId="youcat">
       <folder name="Ce que nous croyons" id="ce-que-nous-croyons" nb="1">
         <folder name="Les raisons de croire" id="les-raisons-de-croire" nb="1">
-          <folder name="Dieu vient à notre rencontre" id="dieu-vient-a-notre-rencontre" nb="2">
+          <folder name="Dieu vient à notre rencontre" id="dieu-vient-a-notre-rencontre" nb="7">
             <message name="Comment Dieu se révèle-t-il dans l&apos;Ancien Testament ?" id="comment-dieu-se-revele-t-il-dans-l-ancien-testament" nb="8">
               <tests>
                 <test input="Comment Dieu se révèle-t-il dans l&apos;Ancien Testament ?" output="Dans l&apos;Ancien Testament Dieu se manifeste comme celui qui a créé le monde par amour et reste fidèle aux hommes même lorsque ceux-ci s&apos;éloignent de lui dans le péché." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 17,5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 12,3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;54-64&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;70-72&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-dieu-se-revele-t-il-dans-l-ancien-testament&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -6708,8 +6711,22 @@
               <sourceId>youcat</sourceId>
               <text>Avec sa raison, l&apos;homme peut savoir que Dieu existe mais pas qui il est réellement. Dieu s&apos;est révélé parce qu&apos;il souhaite qu&apos;on le connaisse.</text>
             </message>
+            <message name="Quand Dieu nous envoie son Fils, que révèle-t-il de lui-même ?" id="quand-dieu-nous-envoie-son-fils-que-revele-t-il-de-lui-meme" nb="9">
+              <tests>
+                <test input="Quand Dieu nous envoie son Fils, que révèle-t-il de lui-même ?" output="En Jésus-Christ, Dieu nous montre toute la profondeur de son amour miséricordieux." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;65-66&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;73&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quand-dieu-nous-envoie-son-fils-que-revele-t-il-de-lui-meme&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quand Dieu nous envoie son Fils, que révèle-t-il de lui-même ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="65" verseEnd="66"/>
+                <ccc verseBegin="73"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>En Jésus-Christ, Dieu nous montre toute la profondeur de son amour miséricordieux.</text>
+            </message>
           </folder>
-          <folder name="Nous les hommes, nous sommes ouverts à Dieu" id="nous-les-hommes-nous-sommes-ouverts-a-dieu" nb="1">
+          <folder name="Nous les hommes, nous sommes ouverts à Dieu" id="nous-les-hommes-nous-sommes-ouverts-a-dieu" nb="3">
             <message name="Est-il vraiment possible de connaître Dieu ?" id="est-il-vraiment-possible-de-connaitre-dieu" nb="6">
               <tests>
                 <test input="Est-il vraiment possible de connaître Dieu ?" output="Je ne sais pas si il est vraiment possible de connaître Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
