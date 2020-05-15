@@ -2529,7 +2529,7 @@
             </message>
           </folder>
           <message name="Quand es-tu né ?" id="quand-es-tu-ne">
-            <text fileType="text_and_html">Quand es-tu né ? &lt;span&gt;(Tu n&apos;es pas obligé de me donner l&apos;année juste le jour et le mois suffisent &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;)&lt;/span&gt;</text>
+            <text>Quel jour es-tu né ?</text>
             <planningInfos>
               <optionalPreconditions>
                 <fact value="être-chrétien"/>
@@ -6715,6 +6715,21 @@
       <folder name="Ce que nous croyons" id="ce-que-nous-croyons" nb="1">
         <folder name="Les raisons de croire" id="les-raisons-de-croire" nb="1">
           <folder name="Dieu vient à notre rencontre" id="dieu-vient-a-notre-rencontre" nb="7">
+            <message name="Avec Jésus-Christ tout est-il dit ou bien la Révélation continuera-t-elle après lui ?" id="avec-jesus-christ-tout-est-il-dit-ou-bien-la-revelation-continuera-t-elle-apres-lui" nb="10">
+              <tests>
+                <test input="Avec Jésus-Christ tout est-il dit ou bien la Révélation continuera-t-elle après lui ?" output="En Jésus-Christ, Dieu lui-même est venu sur terre. Il est la parole ultime de Dieu. En l&apos;écoutant, les hommes de tous les temps peuvent savoir qui est Dieu et ce qui est nécessaire à leur salut." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;He 1,1-2&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 7,56&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;66-67&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;avec-jesus-christ-tout-est-il-dit-ou-bien-la-revelation-continuera-t-elle-apres-lui&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Avec Jésus-Christ tout est-il dit ou bien la Révélation continuera-t-elle après lui ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="66" verseEnd="67"/>
+                <bible book="Heb" chapter="1" verseBegin="1" verseEnd="2"/>
+                <bible book="Acts" chapter="7" verseBegin="56"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>En Jésus-Christ, Dieu lui-même est venu sur terre. Il est la parole ultime de Dieu. En l&apos;écoutant, les hommes de tous les temps peuvent savoir qui est Dieu et ce qui est nécessaire à leur salut.</text>
+            </message>
             <message name="Comment Dieu se révèle-t-il dans l&apos;Ancien Testament ?" id="comment-dieu-se-revele-t-il-dans-l-ancien-testament" nb="8">
               <tests>
                 <test input="Comment Dieu se révèle-t-il dans l&apos;Ancien Testament ?" output="Dans l&apos;Ancien Testament Dieu se manifeste comme celui qui a créé le monde par amour et reste fidèle aux hommes même lorsque ceux-ci s&apos;éloignent de lui dans le péché." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 17,5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 12,3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 3,14&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;54-64&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;70-72&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-dieu-se-revele-t-il-dans-l-ancien-testament&quot; textlength=&quot;6&quot; /&gt;"/>
