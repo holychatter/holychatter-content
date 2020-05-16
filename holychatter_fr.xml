@@ -1959,6 +1959,7 @@
     <chatbot name="La Défense" id="la-defense" useDefaultContent="true" useDefaultProactivity="true" bannerImage="la_defense_logo.png" url="https://ndp92.fr" fallbackEngine="Cybercuré">
       <message name="Bonjour de La Défense" id="bonjour-de-la-defense" nb="1">
         <nextMessageId>photo-arche-la-defense</nextMessageId>
+        <sourceId>la-defense-chatbot</sourceId>
         <text>Bonjour je suis un agent conversationnel pour La Défense.&#10;Pose-moi ta question et je ferai tout mon possible pour essayer d’y répondre !</text>
         <planningInfos>
           <effects>
@@ -1971,6 +1972,7 @@
           <recommendation text="Oui, je suis juste de passage." outMessageId="ah-d-accord-bienvenue-a-la-defense-dans-ce-cas"/>
           <recommendation text="Non, je connais cet endroit bien depuis lontemps maintenant." outMessageId="la-defense-est-comme-l-apartheid-non-institutionalise"/>
         </recommendations>
+        <sourceId>la-defense-chatbot</sourceId>
         <text>Es-tu nouveau à La Défense ?</text>
       </message>
       <folder name="Je suis juste de passage" id="je-suis-juste-de-passage" nb="31">
@@ -1979,6 +1981,7 @@
             <trigger value="Je suis juste de passage."/>
           </triggers>
           <nextMessageId>veux-tu-en-savoir-plus-sur-la-defense</nextMessageId>
+          <sourceId>la-defense-chatbot</sourceId>
           <text>Ah d&apos;accord. Bienvenue à La défense dans ce cas !</text>
         </message>
         <folder name="Oui, quels sont les caractéristiques du lieu ?" id="oui-quels-sont-les-caracteristiques-du-lieu" nb="2">
@@ -1986,18 +1989,21 @@
             <triggers>
               <trigger value="Pourquoi La Défense s&apos;appelle La Défense ?"/>
             </triggers>
+            <sourceId>hugues-morel-d-arleux</sourceId>
             <text fileType="text_and_html">Parce que pendant la guerre de 70, la France (et surtout Paris) a résisté contre la Prusse. A l&apos;issue de la guerre le gouvernement a demandé l&apos;érection d&apos;un monument à la mémoire de la défense de Paris. Ce monument a été mis dans le grand axe qui part des Tuileries, qui remonte l&apos;avenue des Champs-Élysées, descend l&apos;avenue de la Grande-Armée, qui traverse Neuilly et qui passe le pont de Neuilly et qui arrive sur la colline de La Défense.&#10;&#10;&lt;img src=&quot;/resources/holychatter/upload/statue_la_defense.jpg&quot; /&gt;&#10;&#10;Après guerre, le Général de Gaulle et le gouvernement avait dans l&apos;idée de développer un pôle économique à proximité de Paris. Cet espace de la banlieue parisienne semblait propice à cela. Le premier bâtiment sort de terre en 1960 avec le Cnit.</text>
           </message>
           <message name="Qu&apos;est-ce que le Cnit ?" id="qu-est-ce-que-le-cnit">
             <triggers>
               <trigger value="Qu&apos;est-ce que le Cnit ?"/>
             </triggers>
+            <sourceId>hugues-morel-d-arleux</sourceId>
             <text fileType="text_and_html">Ce bâtiment a été construit en 1958. C&apos;est une prouesse d&apos;ingénieur et non pas d&apos;architecte. Il a fait quelque chose d&apos;assez extraordinaire qui tient que sur 3 piliers. Les fondations sont très faibles, c&apos;est comme une tente dont les 3 bases sont reliées par des cables. Donc le Cnit est posé.&#10;&lt;img src=&quot;/resources/holychatter/upload/cnit.jpg&quot; /&gt;</text>
           </message>
           <message name="Quand a été construit l&apos;Arche de la Défense ?" id="quand-a-ete-construit-l-arche-de-la-defense">
             <triggers>
               <trigger value="Quand a été construit l&apos;Arche de la Défense ?"/>
             </triggers>
+            <sourceId>hugues-morel-d-arleux</sourceId>
             <text>L&apos;Arche de la Défense a été construit en 1989.</text>
           </message>
           <message name="Quels sont les caractéristiques du lieu ?" id="quels-sont-les-caracteristiques-du-lieu">
@@ -2009,12 +2015,14 @@
               <recommendation text="Pourquoi La Défense s&apos;appelle La Défense ?" outMessageId="pourquoi-la-defense-s-appelle-la-defense"/>
               <recommendation text="Qu&apos;est-ce que le Cnit ?" outMessageId="qu-est-ce-que-le-cnit"/>
             </recommendations>
+            <sourceId>hugues-morel-d-arleux</sourceId>
             <text fileType="text_and_html">La Défense c&apos;est un noeud dans l&apos;Ile de France. Un noeud de communication et férovière. C&apos;est le premier centre économique européen.&#10;&#10;Il y a &lt;b&gt;180 000&lt;/b&gt; personnes qui travailles à La Défense.&#10;Il y a &lt;b&gt;70&lt;/b&gt; tours.&#10;Il y a &lt;b&gt;15&lt;/b&gt; entreprises du CAC 40 qui ont içi leur siège.&#10;&#10;&lt;img src=&quot;/resources/holychatter/upload/la-defense-gens.jpg&quot; /&gt;</text>
           </message>
           <message name="Quels sont les territoires couverts par La Défense ?" id="quels-sont-les-territoires-couverts-par-la-defense">
             <triggers>
               <trigger value="Quels sont les territoires couverts par La Défense ?"/>
             </triggers>
+            <sourceId>hugues-morel-d-arleux</sourceId>
             <text>La Défense couvre plusieurs communes : Puteaux, Courbevoie, Nanterre et La Garenne-Colombes.</text>
           </message>
         </folder>
@@ -2022,6 +2030,7 @@
           <recommendations>
             <recommendation text="Oui, quels sont les caractéristiques du lieu ?" outMessageId="quels-sont-les-caracteristiques-du-lieu"/>
           </recommendations>
+          <sourceId>la-defense-chatbot</sourceId>
           <text>Veux-tu en savoir plus sur La Défense ?</text>
         </message>
       </folder>
@@ -2030,13 +2039,18 @@
           <triggers>
             <trigger value="La Défense est comme l’apartheid non institutionalisé ?"/>
           </triggers>
+          <sourceId>hugues-morel-d-arleux</sourceId>
           <text fileType="text_and_html">La Défense est comme l&apos;apartheid mais non institutionnalisé. Il y a des écarts de vie entre les personnes qui ont des très grosses responsabilités avec des salaires à donner le vertige et des gens très pauvres. La frontières c&apos;est la dalle. Sous la dalle il y a en permanence une centaine de personnes qui vivent dans une précarité immonde.&#10;&#10;&lt;img src=&quot;/resources/holychatter/upload/dalle-la-defense.jpg&quot; /&gt;</text>
         </message>
       </folder>
       <message name="Photo arche La défense" id="photo-arche-la-defense" nb="2">
         <nextMessageId>es-tu-nouveau-a-la-defense</nextMessageId>
+        <sourceId>la-defense-chatbot</sourceId>
         <text fileType="html">&lt;img src=&quot;/resources/holychatter/upload/La-Defense.jpg&quot; /&gt;</text>
       </message>
+      <sourcesNotToDisplay>
+        <source value="La Défense - chatbot"/>
+      </sourcesNotToDisplay>
       <goals>
         <goal value="démarrer-la-defense-chatbot"/>
       </goals>
@@ -2044,6 +2058,7 @@
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
       <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter" nb="1">
         <nextMessageId>n-aie-pas-peur-de-mon-ton-un-peu-direct</nextMessageId>
+        <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
@@ -2052,8 +2067,13 @@
         </planningInfos>
       </message>
       <message name="N&apos;aie pas peur de mon ton un peu direct." id="n-aie-pas-peur-de-mon-ton-un-peu-direct" nb="2">
+        <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">N&apos;aie pas peur de mon ton un peu direct. &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
       </message>
+      <sourcesNotToDisplay>
+        <source value="Chatbot par défault"/>
+        <source value="Interne"/>
+      </sourcesNotToDisplay>
       <goals>
         <goal value="dire-bonjour"/>
         <goal value="aller-au-ciel"/>
@@ -2062,6 +2082,7 @@
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
       <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage">
         <nextMessageId>etapes-cles</nextMessageId>
+        <sourceId>reseau-entourage</sourceId>
         <text>Bonjour, bienvenue sur l&apos;agent conversationnel automatique “Simple comme Bonjour” !&#10;&#10;Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;</text>
         <planningInfos>
           <effects>
@@ -2075,6 +2096,7 @@
           <recommendation text="Et si on changeait de regard ?" outMessageId="sdf-et-si-on-changeait-de-regard"/>
           <recommendation text="Et si on agissait ?" outMessageId="sdf-et-si-on-agissait"/>
         </recommendations>
+        <sourceId>reseau-entourage</sourceId>
         <text>Ici, on vous donne les trois étapes clé pour franchir le pas et aller à la rencontre des personnes sans-abri de votre quartier :</text>
       </message>
       <folder name="Vidéos" id="videos">
@@ -2354,6 +2376,9 @@
           </message>
         </folder>
       </folder>
+      <sourcesNotToDisplay>
+        <source value="Réseau Entourage"/>
+      </sourcesNotToDisplay>
       <goals>
         <goal value="démarrer-entourage-chatbot"/>
         <goal value="simple-comme-bonjour-et-si-on-comprenait"/>
@@ -2569,6 +2594,7 @@
             <triggers>
               <trigger value="-Je suis chrétien."/>
             </triggers>
+            <sourceId>interne</sourceId>
             <text>As-tu trouvé ta vocation ?</text>
           </message>
           <folder name="Blagues" id="blagues">
@@ -2578,6 +2604,7 @@
                 <trigger value="-Es-tu fun ?"/>
               </triggers>
               <nextMessageId>veux-tu-que-je-te-raconte-une-blague</nextMessageId>
+              <sourceId>interne</sourceId>
               <text>J&apos;espère.</text>
             </message>
             <message name="Juif et le nouveau testament" id="juif-et-le-nouveau-testament" nb="2">
@@ -2604,6 +2631,7 @@
               <text fileType="text_and_html">&lt;span&gt;Aucune ils ont tous les 2 compris qu&apos;il y a plus de joie à donner qu&apos;à recevoir. &lt;img src=&quot;/resources/holychatter/emojis/laugh.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
             </message>
             <message name="Veux-tu que je te raconte une blague ?" id="veux-tu-que-je-te-raconte-une-blague">
+              <sourceId>interne</sourceId>
               <text>Veux-tu que je te raconte une blague ?</text>
             </message>
           </folder>
@@ -2611,15 +2639,18 @@
             <triggers>
               <trigger value="-Bonjour"/>
             </triggers>
+            <sourceId>interne</sourceId>
             <text>Bonjour</text>
           </message>
           <message name="Création du site" id="creation-du-site">
             <triggers>
               <trigger value="-Qui t&apos;a créé ?"/>
             </triggers>
+            <sourceId>interne</sourceId>
             <text>Le site a été créé en 2015 par des jeunes catholiques français voulant partager la foi qu&apos;ils ont reçu.</text>
           </message>
           <message name="Es-tu chrétien ?" id="es-tu-chretien">
+            <sourceId>interne</sourceId>
             <text>Es-tu chrétien ?</text>
             <planningInfos>
               <preconditions>
@@ -2637,16 +2668,19 @@
               <tests>
                 <test input="Es-tu transsexuel ?" output="Non, je ne suis pas transsexuel."/>
               </tests>
+              <sourceId>interne</sourceId>
               <text>Je ne suis pas transsexuel.</text>
             </message>
           </folder>
           <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-juillet">
+            <sourceId>interne</sourceId>
             <text>Je suis né le 14 juillet 2017.</text>
           </message>
           <message name="Je suis un robot." id="je-suis-un-robot">
             <tests>
               <test input="Es-tu un robot ?" output="Oui, je suis un robot."/>
             </tests>
+            <sourceId>interne</sourceId>
             <text>Je suis un robot.</text>
           </message>
           <message name="Mon nom" id="mon-nom">
@@ -2655,6 +2689,7 @@
               <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
               <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
             </tests>
+            <sourceId>interne</sourceId>
             <text>Mon nom est Holy Chatter.</text>
           </message>
           <folder name="Moral" id="moral">
@@ -2662,12 +2697,14 @@
               <tests>
                 <test input="Es-tu heureux ?" output="Oui, je suis heureux."/>
               </tests>
+              <sourceId>interne</sourceId>
               <text>Je suis heureux.</text>
             </message>
             <message name="Je vais bien." id="je-vais-bien">
               <tests>
                 <test input="Comment vas-tu ?" output="Je vais bien. Merci"/>
               </tests>
+              <sourceId>interne</sourceId>
               <text>Je vais bien.</text>
             </message>
           </folder>
@@ -2676,10 +2713,12 @@
               <triggers>
                 <trigger value="-Que voudrais tu faire ?"/>
               </triggers>
+              <sourceId>interne</sourceId>
               <text>J&apos;aimerais te faire aimer Jésus.</text>
             </message>
           </folder>
           <message name="Quand es-tu né ?" id="quand-es-tu-ne">
+            <sourceId>interne</sourceId>
             <text>Quel jour es-tu né ?</text>
             <planningInfos>
               <optionalPreconditions>
@@ -2691,6 +2730,7 @@
             </planningInfos>
           </message>
           <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
+            <sourceId>interne</sourceId>
             <text>Veux tu savoir qui a écrit la Bible ?</text>
             <planningInfos>
               <potentialEffects>
@@ -2700,9 +2740,11 @@
           </message>
           <folder name="Utilisateur" id="utilisateur">
             <message name="Je ne te déteste pas." id="je-ne-te-deteste-pas">
+              <sourceId>interne</sourceId>
               <text>Je ne te déteste pas.</text>
             </message>
             <message name="Je t&apos;aime." id="je-t-aime">
+              <sourceId>interne</sourceId>
               <text>Je t&apos;aime.</text>
             </message>
             <message name="Tu es une merveille de Dieu." id="tu-es-une-merveille-de-dieu">
@@ -2715,6 +2757,7 @@
               <references>
                 <bible book="Ps" chapter="138" verseBegin="14"/>
               </references>
+              <sourceId>interne</sourceId>
               <text>Tu es une merveille de Dieu.</text>
             </message>
           </folder>
@@ -2722,6 +2765,7 @@
             <triggers>
               <trigger value="-Je ne suis pas chrétien."/>
             </triggers>
+            <sourceId>interne</sourceId>
             <text>Veux-tu voir le message chrétien ?</text>
             <planningInfos>
               <optionalPreconditions>
@@ -2736,6 +2780,7 @@
             <triggers>
               <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
             </triggers>
+            <sourceId>interne</sourceId>
             <text>Veux-tu voir une vidéo pour trouver sa vocation ?</text>
           </message>
         </folder>
@@ -3526,9 +3571,6 @@
         <message name="Jésus est vrai Dieu et vrai homme." id="jesus-est-vrai-dieu-et-vrai-homme">
           <sourceId>batir-sur-le-roc</sourceId>
           <text fileType="text_and_html">&lt;span&gt;Jésus est vrai Dieu et vrai homme.&lt;/span&gt;</text>
-        </message>
-        <message name="Jésus est..." id="jesus-est">
-          <text>Jésus est la réponse à toutes nos questions.&#10;Jésus est l&apos;assouvissement de tous nos désirs.&#10;</text>
         </message>
         <message name="Jésus et la croix" id="jesus-et-la-croix">
           <references>
@@ -7801,9 +7843,11 @@
           <recommendations>
             <recommendation text="Voir une démo de l&apos;application Entourage" outMessageId="entourage-une-appli-pour-creer-du-lien-avec-les-sans-abri"/>
           </recommendations>
+          <sourceId>reseau-entourage</sourceId>
           <text>C&apos;est une application pour aller à la rencontre des sans-abri.</text>
         </message>
         <message name="Connais-tu l&apos;application Entourage ?" id="connais-tu-l-application-entourage">
+          <sourceId>interne</sourceId>
           <text>Connais-tu l&apos;application Entourage ?</text>
           <planningInfos>
             <optionalPreconditions>
