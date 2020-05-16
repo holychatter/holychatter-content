@@ -2079,10 +2079,44 @@
       </message>
       <folder name="Vidéos" id="videos">
         <folder name="Et si on agissait ?" id="et-si-on-agissait" nb="3">
-          <message name="SDF : et si on agissait ?" id="sdf-et-si-on-agissait">
+          <message name="Comment aider les personnes SDF de ma ville ?" id="comment-aider-les-personnes-sdf-de-ma-ville" nb="2">
+            <triggers>
+              <trigger value="Comment aider les personnes SDF de ma ville ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Comment faire ?" outMessageId="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="SDF : Que faire ? Des exemples concrets pour créer du lien" id="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien" nb="3">
+            <triggers>
+              <trigger value="Comment faire ?"/>
+              <trigger value="Que faire ?"/>
+              <trigger value="Que faire pour un SDF par grand froid ?"/>
+              <trigger value="Quel numéro faire pour le demande d&apos;hébergement ?"/>
+              <trigger value="Que faire si un SDF a besoin de soins médicaux ?"/>
+              <trigger value="Que faire si un SDF a besoin d&apos;une urgence médicale ?"/>
+              <trigger value="Que faire si un SDF a besoin de médicaments ?"/>
+              <trigger value="Que faire pour aider une femme enceinte ?"/>
+              <trigger value="Que faire pour trouver une aide administrative ?"/>
+              <trigger value="Que faire si un SDF veut se laver ?"/>
+              <trigger value="Que faire pour aider un SDF devant un magasin ?"/>
+              <trigger value="Que faire pour ne pas être seul dans ma démarche ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Et si ça se passe mal ?" outMessageId="sdf-et-si-ca-se-passe-mal"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="SDF : et si on agissait ?" id="sdf-et-si-on-agissait" nb="1">
             <triggers>
               <trigger value="Et si on agissait ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="Comment aider les personnes SDF de ma ville ?" outMessageId="comment-aider-les-personnes-sdf-de-ma-ville"/>
+            </recommendations>
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SvYCZ3s0AFE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <planningInfos>
@@ -2091,13 +2125,67 @@
               </effects>
             </planningInfos>
           </message>
+          <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="4">
+            <triggers>
+              <trigger value="Et si ça se passe mal ?"/>
+              <trigger value="Et si un sans-abri m&apos;insulte ?"/>
+              <trigger value="Et si je me fais arnaquer ?"/>
+              <trigger value="Et si on rejette mon aide ?"/>
+              <trigger value="Et si un SDF est en souffrance physique ?"/>
+              <trigger value="Et si je veux refuser une demande ?"/>
+              <trigger value="Et si je vexe un SDF ?"/>
+              <trigger value="Et si j&apos;ai besoin de soutien ?"/>
+            </triggers>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
         <folder name="Et si on changeait de regard ?" id="et-si-on-changeait-de-regard" nb="2">
-          <message name="SDF : et si on changeait de regard ?" id="sdf-et-si-on-changeait-de-regard">
+          <message name="Comment devient-on SDF ? La désocialisation à la rue." id="comment-devient-on-sdf-la-desocialisation-a-la-rue" nb="2">
+            <triggers>
+              <trigger value="Comment devient-on SDF ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Mendicité des SDF : une activité pour survivre" outMessageId="mendicite-des-sdf-une-activite-pour-survivre"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dk3bo__5dvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Mendicité des SDF : une activité pour survivre" id="mendicite-des-sdf-une-activite-pour-survivre" nb="3">
+            <triggers>
+              <trigger value="Mendicité des SDF : une activité pour survivre"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="5 conseils pour aller vers l&apos;autre" outMessageId="sdf-conseils-pour-aller-vers-l-autre"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="SDF : 5 conseils pour aller vers l&apos;autre" id="sdf-conseils-pour-aller-vers-l-autre" nb="4">
+            <triggers>
+              <trigger value="5 conseils pour aller vers l&apos;autre"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Regards croisés Gilbert &amp; Gaël" outMessageId="sdf-regards-croises-gilbert-gael"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="SDF : Regards croisés Rachid &amp; Marie" id="sdf-regards-croises-rachid-marie" nb="6">
+            <triggers>
+              <trigger value="Regards croisés Rachid &amp; Marie"/>
+            </triggers>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="SDF : et si on changeait de regard ?" id="sdf-et-si-on-changeait-de-regard" nb="1">
             <triggers>
               <trigger value="Et si on changeait de regard sur la rue ?"/>
               <trigger value="Si on changeait de regard sur la situation des SDF ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="Comment devient-on SDF ?" outMessageId="comment-devient-on-sdf-la-desocialisation-a-la-rue"/>
+            </recommendations>
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <planningInfos>
@@ -2106,13 +2194,53 @@
               </effects>
             </planningInfos>
           </message>
+          <message name="SDF : regards croisés Gilbert &amp; Gaël" id="sdf-regards-croises-gilbert-gael" nb="5">
+            <triggers>
+              <trigger value="Regards croisés Gilbert &amp; Gaël"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Regards croisés Rachid &amp; Marie" outMessageId="sdf-regards-croises-rachid-marie"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIXWTdblnwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
         <folder name="Et si on comprenais ?" id="et-si-on-comprenais" nb="1">
-          <message name="SDF : et si on comprenait ?" id="sdf-et-si-on-comprenait">
+          <message name="Les souffrances psychiques à la rue" id="les-souffrances-psychiques-a-la-rue" nb="5">
+            <triggers>
+              <trigger value="Les souffrances psychiques à la rue"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Paroles de femmes" outMessageId="paroles-de-femmes-ex-ou-actuelles-sdf"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Paris, engagé contre l&apos;exclusion" id="paris-engage-contre-l-exclusion" nb="3">
+            <triggers>
+              <trigger value="Paris, engagé contre l&apos;exclusion"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Souffrance psychique : 6 conseils pour créer du lien" outMessageId="souffrance-psychique-conseils-pour-creer-du-lien"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Paroles de femmes ex ou actuelles SDF" id="paroles-de-femmes-ex-ou-actuelles-sdf" nb="6">
+            <triggers>
+              <trigger value="Paroles de femmes"/>
+            </triggers>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="SDF : et si on comprenait ?" id="sdf-et-si-on-comprenait" nb="1">
             <triggers>
               <trigger value="Et si on comprenait le monde de la rue ?"/>
               <trigger value="Si on comprenait la situation des SDF ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="Vivre en bidonville" outMessageId="sdf-la-vie-en-bidonville"/>
+            </recommendations>
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <planningInfos>
@@ -2120,6 +2248,29 @@
                 <fact value="simple-comme-bonjour-et-si-on-comprenait"/>
               </effects>
             </planningInfos>
+          </message>
+          <message name="SDF : la vie en bidonville" id="sdf-la-vie-en-bidonville" nb="2">
+            <triggers>
+              <trigger value="Vivre en bidonville"/>
+              <trigger value="Quelle vie de famille sur un bidonville ?"/>
+              <trigger value="Les enfants des bidonvilles peuvent-ils aller à l&apos;école ?"/>
+              <trigger value="Comment en tant que riverain aider les familles des bidonvilles  ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Paris, engagé contre l&apos;exclusion" outMessageId="paris-engage-contre-l-exclusion"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Souffrance psychique : 6 conseils pour créer du lien" id="souffrance-psychique-conseils-pour-creer-du-lien" nb="4">
+            <triggers>
+              <trigger value="Souffrance psychique : 6 conseils pour créer du lien"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Les souffrances psychiques à la rue" outMessageId="les-souffrances-psychiques-a-la-rue"/>
+            </recommendations>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE2oRWPPB4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
       </folder>
