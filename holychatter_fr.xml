@@ -2127,28 +2127,37 @@
       </goals>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
-      <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage">
-        <nextMessageId>etapes-cles</nextMessageId>
+      <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage" nb="1">
+        <nextMessageId>contenu</nextMessageId>
         <sourceId>reseau-entourage</sourceId>
-        <text>Bonjour, bienvenue sur l&apos;agent conversationnel automatique “Simple comme Bonjour” !&#10;&#10;Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;</text>
+        <text>Bonjour, bienvenue sur le chatbot &lt;b&gt;“Simple comme Bonjour” !&lt;/b&gt;&#10;</text>
         <planningInfos>
           <effects>
             <fact value="démarrer-entourage-chatbot"/>
           </effects>
         </planningInfos>
       </message>
-      <message name="Etapes clés" id="etapes-cles">
+      <message name="Contenu" id="contenu" nb="2">
+        <nextMessageId>etapes-cles</nextMessageId>
+        <sourceId>reseau-entourage</sourceId>
+        <text>Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;&#10;Des vidéos, des interviews, des témoignages et un guide, voici ce que vous allez pouvoir retrouver tout au long de votre discussion.</text>
+      </message>
+      <message name="Etapes clés" id="etapes-cles" nb="3">
         <recommendations>
-          <recommendation text="Et si on comprenait ?" outMessageId="sdf-et-si-on-comprenait"/>
-          <recommendation text="Et si on changeait de regard ?" outMessageId="sdf-et-si-on-changeait-de-regard"/>
-          <recommendation text="Et si on agissait ?" outMessageId="sdf-et-si-on-agissait"/>
+          <recommendation text="Et si on comprenait ?" outMessageId="et-si-on-comprenais-introduction"/>
+          <recommendation text="Et si on changeait de regard ?" outMessageId="et-si-on-changeait-de-regard-introduction"/>
+          <recommendation text="Et si on agissait ?" outMessageId="et-si-on-agissait-introduction"/>
         </recommendations>
         <sourceId>reseau-entourage</sourceId>
         <text>Ici, on vous donne les trois étapes clé pour franchir le pas et aller à la rencontre des personnes sans-abri de votre quartier :</text>
       </message>
-      <folder name="Vidéos" id="videos">
+      <message name="Prêt à passer à l&apos;action ?" id="pret-a-passer-a-l-action" nb="7">
+        <sourceId>reseau-entourage</sourceId>
+        <text>Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement avec vos voisins.</text>
+      </message>
+      <folder name="Vidéos" id="videos" nb="4" defaultSourceId="interne">
         <folder name="Et si on agissait ?" id="et-si-on-agissait" nb="3">
-          <message name="Comment aider les personnes SDF de ma ville ?" id="comment-aider-les-personnes-sdf-de-ma-ville" nb="2">
+          <message name="Comment aider les personnes SDF de ma ville ?" id="comment-aider-les-personnes-sdf-de-ma-ville" nb="3">
             <tests>
               <test input="Comment aider les personnes SDF de ma ville ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Où trouver des informations pour aider les sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2165,7 +2174,12 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="SDF : Que faire ? Des exemples concrets pour créer du lien" id="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien" nb="3">
+          <message name="Et si on agissait ? (Introduction)" id="et-si-on-agissait-introduction" nb="1">
+            <nextMessageId>sdf-et-si-on-agissait</nextMessageId>
+            <sourceId>reseau-entourage</sourceId>
+            <text>Tous acteur de la solidarité, à son échelle : dans ce chapitre, faites le plein de conseils concrets pour oser la rencontre. Hop, on se lance !</text>
+          </message>
+          <message name="SDF : Que faire ? Des exemples concrets pour créer du lien" id="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien" nb="4">
             <tests>
               <test input="Comment faire ?" output="Faire découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;; &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|"/>
               <test input="Que faire ?" output="Découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;; &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|"/>
@@ -2200,7 +2214,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="SDF : et si on agissait ?" id="sdf-et-si-on-agissait" nb="1">
+          <message name="SDF : et si on agissait ?" id="sdf-et-si-on-agissait" nb="2">
             <tests>
               <test input="Et si on agissait ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SvYCZ3s0AFE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
             </tests>
@@ -2218,7 +2232,7 @@
               </effects>
             </planningInfos>
           </message>
-          <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="4">
+          <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="5">
             <tests>
               <test input="Et si ça se passe mal ?" output="Je ne sais pas si ça se passe mal." isOk="false"/>
               <test input="Et si un sans-abri m&apos;insulte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2244,7 +2258,7 @@
           </message>
         </folder>
         <folder name="Et si on changeait de regard ?" id="et-si-on-changeait-de-regard" nb="2">
-          <message name="Comment devient-on SDF ? La désocialisation à la rue." id="comment-devient-on-sdf-la-desocialisation-a-la-rue" nb="2">
+          <message name="Comment devient-on SDF ? La désocialisation à la rue." id="comment-devient-on-sdf-la-desocialisation-a-la-rue" nb="3">
             <tests>
               <test input="Comment devient-on SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dk3bo__5dvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
             </tests>
@@ -2257,7 +2271,12 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dk3bo__5dvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="Mendicité des SDF : une activité pour survivre" id="mendicite-des-sdf-une-activite-pour-survivre" nb="3">
+          <message name="Et si on changeait de regard ? (Introduction)" id="et-si-on-changeait-de-regard-introduction" nb="1">
+            <nextMessageId>sdf-et-si-on-changeait-de-regard</nextMessageId>
+            <sourceId>reseau-entourage</sourceId>
+            <text>Changer son regard, c’est savoir... ne pas se prendre pour un Zorro de la rue, rester dans sa posture de voisin bienveillant... et s’inspirer de témoignages sur les belles amitiés riverains / SDF !</text>
+          </message>
+          <message name="Mendicité des SDF : une activité pour survivre" id="mendicite-des-sdf-une-activite-pour-survivre" nb="4">
             <tests>
               <test input="Mendicité des SDF : une activité pour survivre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Pourquoi la mendisité s&apos;impose à certains ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2280,7 +2299,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="SDF : 5 conseils pour aller vers l&apos;autre" id="sdf-conseils-pour-aller-vers-l-autre" nb="4">
+          <message name="SDF : 5 conseils pour aller vers l&apos;autre" id="sdf-conseils-pour-aller-vers-l-autre" nb="5">
             <tests>
               <test input="5 conseils pour aller vers l&apos;autre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input=" Je me sens coupable face aux SDF." output="Pourquoi te sens-tu coupable ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|"/>
@@ -2301,7 +2320,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="SDF : Regards croisés Rachid &amp; Marie" id="sdf-regards-croises-rachid-marie" nb="6">
+          <message name="SDF : Regards croisés Rachid &amp; Marie" id="sdf-regards-croises-rachid-marie" nb="7">
             <tests>
               <test input="Regards croisés Rachid &amp; Marie" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="La rue est un monde transparent ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2317,7 +2336,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="SDF : et si on changeait de regard ?" id="sdf-et-si-on-changeait-de-regard" nb="1">
+          <message name="SDF : et si on changeait de regard ?" id="sdf-et-si-on-changeait-de-regard" nb="2">
             <tests>
               <test input="Et si on changeait de regard sur la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Si on changeait de regard sur la situation des SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2341,7 +2360,7 @@
               </effects>
             </planningInfos>
           </message>
-          <message name="SDF : regards croisés Gilbert &amp; Gaël" id="sdf-regards-croises-gilbert-gael" nb="5">
+          <message name="SDF : regards croisés Gilbert &amp; Gaël" id="sdf-regards-croises-gilbert-gael" nb="6">
             <tests>
               <test input="Regards croisés Gilbert &amp; Gaël" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIXWTdblnwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Riverains et SDF deux mondes qui s&apos;ignorent ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIXWTdblnwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2360,7 +2379,12 @@
           </message>
         </folder>
         <folder name="Et si on comprenais ?" id="et-si-on-comprenais" nb="1">
-          <message name="Les souffrances psychiques à la rue" id="les-souffrances-psychiques-a-la-rue" nb="5">
+          <message name="Et si on comprenais ? (Introduction)" id="et-si-on-comprenais-introduction" nb="1">
+            <nextMessageId>sdf-et-si-on-comprenait</nextMessageId>
+            <sourceId>reseau-entourage</sourceId>
+            <text>Pas facile de savoir comment réagir quand on croise une personne SDF ! Première chose à faire ? Mieux comprendre le monde de la rue.</text>
+          </message>
+          <message name="Les souffrances psychiques à la rue" id="les-souffrances-psychiques-a-la-rue" nb="6">
             <tests>
               <test input="C&apos;est quoi les troubles psychiques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Comment accéder aux soins pour les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2379,7 +2403,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="Paris, engagé contre l&apos;exclusion" id="paris-engage-contre-l-exclusion" nb="3">
+          <message name="Paris, engagé contre l&apos;exclusion" id="paris-engage-contre-l-exclusion" nb="4">
             <tests>
               <test input="Paris, engagé contre l&apos;exclusion" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Qui est en charge de l&apos;aide aux sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2398,7 +2422,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="Paroles de femmes ex ou actuelles SDF" id="paroles-de-femmes-ex-ou-actuelles-sdf" nb="6">
+          <message name="Paroles de femmes ex ou actuelles SDF" id="paroles-de-femmes-ex-ou-actuelles-sdf" nb="7">
             <tests>
               <test input="Paroles de femmes" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="À quoi ressemble la vie dans la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2412,7 +2436,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="SDF : et si on comprenait ?" id="sdf-et-si-on-comprenait" nb="1">
+          <message name="SDF : et si on comprenait ?" id="sdf-et-si-on-comprenait" nb="2">
             <tests>
               <test input="Et si on comprenait le monde de la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Si on comprenait la situation des SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2444,7 +2468,7 @@
               </effects>
             </planningInfos>
           </message>
-          <message name="SDF : la vie en bidonville" id="sdf-la-vie-en-bidonville" nb="2">
+          <message name="SDF : la vie en bidonville" id="sdf-la-vie-en-bidonville" nb="3">
             <tests>
               <test input="Vivre en bidonville" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Quelle vie de famille sur un bidonville ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2463,7 +2487,7 @@
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="Souffrance psychique : 6 conseils pour créer du lien" id="souffrance-psychique-conseils-pour-creer-du-lien" nb="4">
+          <message name="Souffrance psychique : 6 conseils pour créer du lien" id="souffrance-psychique-conseils-pour-creer-du-lien" nb="5">
             <tests>
               <test input="Souffrance psychique : 6 conseils pour créer du lien" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE2oRWPPB4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Quel est le rôle des riverains face aux SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE2oRWPPB4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2480,7 +2504,7 @@
           </message>
         </folder>
       </folder>
-      <folder name="faq" id="faq">
+      <folder name="faq" id="faq" nb="6" defaultSourceId="interne">
         <folder name="Hébergement" id="hebergement">
           <message name="Je suis ancien et bientôt de nouveau SDF, je suis vraiment perdu que dois je faire..." id="je-suis-ancien-et-bientt-de-nouveau-sdf-je-suis-vraiment-perdu-que-dois-je-faire">
             <tests>
@@ -2560,6 +2584,24 @@
           </message>
         </folder>
       </folder>
+      <folder name="livret" id="livret" nb="5" defaultSourceId="interne">
+        <message name="Voir le livret" id="voir-le-livret" nb="2">
+          <triggers>
+            <trigger value="Je veux voir le livret qui résume tout ça."/>
+          </triggers>
+          <sourceId>reseau-entourage</sourceId>
+          <text fileType="text_and_html">Vous pouvez consulter le livret ici :&#10;&lt;a href=&quot;https://s3-eu-west-1.amazonaws.com/entourage-ressources/Livret_Simple_comme_Bonjour.pdf&quot; target=&quot;_blank&quot;&gt;https://s3-eu-west-1.amazonaws.com/entourage-ressources/Livret_Simple_comme_Bonjour.pdf&lt;/a&gt;</text>
+        </message>
+        <message name="Voulez-vous voir le livret qui résume tout ça ?" id="voulez-vous-voir-le-livret-qui-resume-tout-ca" nb="1">
+          <sourceId>reseau-entourage</sourceId>
+          <text>Voulez-vous voir le livret qui résume tout ça ?</text>
+          <planningInfos>
+            <effects>
+              <fact value="simple-comme-bonjour-proposer-le-livret"/>
+            </effects>
+          </planningInfos>
+        </message>
+      </folder>
       <sourcesNotToDisplay>
         <source value="Réseau Entourage"/>
       </sourcesNotToDisplay>
@@ -2568,6 +2610,7 @@
         <goal value="simple-comme-bonjour-et-si-on-comprenait"/>
         <goal value="simple-comme-bonjour-et-si-on-changeait-de-regard"/>
         <goal value="simple-comme-bonjour-et-si-on-agissait"/>
+        <goal value="simple-comme-bonjour-proposer-le-livret"/>
       </goals>
     </chatbot>
   </folder>
