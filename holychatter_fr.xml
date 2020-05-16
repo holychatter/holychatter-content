@@ -2102,8 +2102,15 @@
       <folder name="Vidéos" id="videos">
         <folder name="Et si on agissait ?" id="et-si-on-agissait" nb="3">
           <message name="Comment aider les personnes SDF de ma ville ?" id="comment-aider-les-personnes-sdf-de-ma-ville" nb="2">
+            <tests>
+              <test input="Comment aider les personnes SDF de ma ville ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Où trouver des informations pour aider les sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment s&apos;investir dans l&apos;aide aux sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Comment aider les personnes SDF de ma ville ?"/>
+              <trigger value="Où trouver des informations pour aider les sans-abri ?"/>
+              <trigger value="Comment s&apos;investir dans l&apos;aide aux sans-abri ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Comment faire ?" outMessageId="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien"/>
@@ -2112,6 +2119,20 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NnoojB0yqlA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="SDF : Que faire ? Des exemples concrets pour créer du lien" id="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien" nb="3">
+            <tests>
+              <test input="Comment faire ?" output="Faire découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;; &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|"/>
+              <test input="Que faire ?" output="Découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par un professionnel du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;; &lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|"/>
+              <test input="Que faire pour un SDF par grand froid ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Quel numéro faire pour le demande d&apos;hébergement ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire si un SDF a besoin de soins médicaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire si un SDF a besoin d&apos;une urgence médicale ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire si un SDF a besoin de médicaments ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input=" Que faire pour aider une femme enceinte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire pour trouver une aide administrative ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire si un SDF veut se laver ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input=" Que faire pour aider un SDF devant un magasin ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire pour ne pas être seul dans ma démarche ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Comment faire ?"/>
               <trigger value="Que faire ?"/>
@@ -2133,6 +2154,9 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="SDF : et si on agissait ?" id="sdf-et-si-on-agissait" nb="1">
+            <tests>
+              <test input="Et si on agissait ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SvYCZ3s0AFE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Et si on agissait ?"/>
             </triggers>
@@ -2148,6 +2172,16 @@
             </planningInfos>
           </message>
           <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="4">
+            <tests>
+              <test input="Et si ça se passe mal ?" output="Je ne sais pas si ça se passe mal." isOk="false"/>
+              <test input="Et si un sans-abri m&apos;insulte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Et si je me fais arnaquer ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Et si on rejette mon aide ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Et si un SDF est en souffrance physique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Et si je veux refuser une demande ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Et si je vexe un SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Et si j&apos;ai besoin de soutien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Et si ça se passe mal ?"/>
               <trigger value="Et si un sans-abri m&apos;insulte ?"/>
@@ -2164,6 +2198,9 @@
         </folder>
         <folder name="Et si on changeait de regard ?" id="et-si-on-changeait-de-regard" nb="2">
           <message name="Comment devient-on SDF ? La désocialisation à la rue." id="comment-devient-on-sdf-la-desocialisation-a-la-rue" nb="2">
+            <tests>
+              <test input="Comment devient-on SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dk3bo__5dvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Comment devient-on SDF ?"/>
             </triggers>
@@ -2174,8 +2211,21 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dk3bo__5dvs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Mendicité des SDF : une activité pour survivre" id="mendicite-des-sdf-une-activite-pour-survivre" nb="3">
+            <tests>
+              <test input="Mendicité des SDF : une activité pour survivre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Pourquoi la mendisité s&apos;impose à certains ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Est-ce facile de mendier ?" output="Je ne sais pas si c&apos;est facile de mendier." isOk="false"/>
+              <test input="S&apos;enrichir avec la mendicité, c&apos;est possible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input=" Qu&apos;est-ce que la mendicité rapporte en moyenne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Peut-on créer du lien avec une personne en mendicité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Mendicité des SDF : une activité pour survivre"/>
+              <trigger value="Pourquoi la mendisité s&apos;impose à certains ?"/>
+              <trigger value="Est-ce facile de mendier ?"/>
+              <trigger value="S&apos;enrichir avec la mendicité, c&apos;est possible ?"/>
+              <trigger value="Qu&apos;est-ce que la mendicité rapporte en moyenne ?"/>
+              <trigger value="Peut-on créer du lien avec une personne en mendicité ?"/>
             </triggers>
             <recommendations>
               <recommendation text="5 conseils pour aller vers l&apos;autre" outMessageId="sdf-conseils-pour-aller-vers-l-autre"/>
@@ -2184,8 +2234,19 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="SDF : 5 conseils pour aller vers l&apos;autre" id="sdf-conseils-pour-aller-vers-l-autre" nb="4">
+            <tests>
+              <test input="5 conseils pour aller vers l&apos;autre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input=" Je me sens coupable face aux SDF." output="Pourquoi te sens-tu coupable ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|"/>
+              <test input="Comment être patient avec les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Est-ce que les SDF sont reconnaissants ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment accompagner une personne SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="5 conseils pour aller vers l&apos;autre"/>
+              <trigger value="Je me sens coupable face aux SDF."/>
+              <trigger value="Comment être patient avec les SDF ?"/>
+              <trigger value="Est-ce que les SDF sont reconnaissants ?"/>
+              <trigger value="Comment accompagner une personne SDF ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Regards croisés Gilbert &amp; Gaël" outMessageId="sdf-regards-croises-gilbert-gael"/>
@@ -2194,16 +2255,33 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="SDF : Regards croisés Rachid &amp; Marie" id="sdf-regards-croises-rachid-marie" nb="6">
+            <tests>
+              <test input="Regards croisés Rachid &amp; Marie" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="La rue est un monde transparent ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment faire le premier pas avec les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment faire le premier contact avec les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Regards croisés Rachid &amp; Marie"/>
+              <trigger value="La rue est un monde transparent ?"/>
+              <trigger value="Comment faire le premier pas avec les SDF ?"/>
+              <trigger value="Comment faire le premier contact avec les SDF ?"/>
             </triggers>
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QXcUptypnOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="SDF : et si on changeait de regard ?" id="sdf-et-si-on-changeait-de-regard" nb="1">
+            <tests>
+              <test input="Et si on changeait de regard sur la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Si on changeait de regard sur la situation des SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="J&apos;ai peur des sans-abris." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="J&apos;ai peur de me lancer dans une relation trop engageante avec des SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hemPKnpsfWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Et si on changeait de regard sur la rue ?"/>
               <trigger value="Si on changeait de regard sur la situation des SDF ?"/>
+              <trigger value="J&apos;ai peur des sans-abris."/>
+              <trigger value="J&apos;ai peur de me lancer dans une relation trop engageante avec des SDF ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Comment devient-on SDF ?" outMessageId="comment-devient-on-sdf-la-desocialisation-a-la-rue"/>
@@ -2217,8 +2295,15 @@
             </planningInfos>
           </message>
           <message name="SDF : regards croisés Gilbert &amp; Gaël" id="sdf-regards-croises-gilbert-gael" nb="5">
+            <tests>
+              <test input="Regards croisés Gilbert &amp; Gaël" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIXWTdblnwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Riverains et SDF deux mondes qui s&apos;ignorent ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIXWTdblnwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment casser les barrières avec les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIXWTdblnwQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Regards croisés Gilbert &amp; Gaël"/>
+              <trigger value="Riverains et SDF deux mondes qui s&apos;ignorent ?"/>
+              <trigger value="Comment casser les barrières avec les SDF ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Regards croisés Rachid &amp; Marie" outMessageId="sdf-regards-croises-rachid-marie"/>
@@ -2229,8 +2314,17 @@
         </folder>
         <folder name="Et si on comprenais ?" id="et-si-on-comprenais" nb="1">
           <message name="Les souffrances psychiques à la rue" id="les-souffrances-psychiques-a-la-rue" nb="5">
+            <tests>
+              <test input="C&apos;est quoi les troubles psychiques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment accéder aux soins pour les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment aider les personnes SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Les souffrances psychiques à la rue" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Les souffrances psychiques à la rue"/>
+              <trigger value="C&apos;est quoi les troubles psychiques ?"/>
+              <trigger value="Comment accéder aux soins pour les SDF ?"/>
+              <trigger value="Comment aider les personnes SDF ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Paroles de femmes" outMessageId="paroles-de-femmes-ex-ou-actuelles-sdf"/>
@@ -2239,8 +2333,17 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Paris, engagé contre l&apos;exclusion" id="paris-engage-contre-l-exclusion" nb="3">
+            <tests>
+              <test input="Paris, engagé contre l&apos;exclusion" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Qui est en charge de l&apos;aide aux sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Qu&apos;est-ce que le Pacte parisien de lutte contre l&apos;exclusion ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Les Parisiens ont-ils un rôle à jouer auprès des sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Paris, engagé contre l&apos;exclusion"/>
+              <trigger value="Qui est en charge de l&apos;aide aux sans-abri ?"/>
+              <trigger value="Qu&apos;est-ce que le Pacte parisien de lutte contre l&apos;exclusion ?"/>
+              <trigger value="Les Parisiens ont-ils un rôle à jouer auprès des sans-abri ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Souffrance psychique : 6 conseils pour créer du lien" outMessageId="souffrance-psychique-conseils-pour-creer-du-lien"/>
@@ -2249,16 +2352,39 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TkOCkTH6mtw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Paroles de femmes ex ou actuelles SDF" id="paroles-de-femmes-ex-ou-actuelles-sdf" nb="6">
+            <tests>
+              <test input="Paroles de femmes" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="À quoi ressemble la vie dans la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Que faire en tant que riverain de SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Paroles de femmes"/>
+              <trigger value="À quoi ressemble la vie dans la rue ?"/>
+              <trigger value="Que faire en tant que riverain de SDF ?"/>
             </triggers>
             <sourceId>reseau-entourage</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF7CnsSsBxE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="SDF : et si on comprenait ?" id="sdf-et-si-on-comprenait" nb="1">
+            <tests>
+              <test input="Et si on comprenait le monde de la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Si on comprenait la situation des SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input=" Je veux m&apos;informer sur le monde de la rue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Les SDF sont alcoolos ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Les SDF sont alcooliques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="C&apos;est un choix de vivre à la rue ?" output="Je ne sais pas si c&apos;est un choix de vivre à la rue." isOk="false"/>
+              <test input="Est-ce que ça rapporte beaucoup de faire la manche ?" output="Je ne sais pas si ça rapporte beaucoup faire la manche." isOk="false"/>
+              <test input="Si on comprenait la situation des sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Si on comprenait la situation des clochards ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Et si on comprenait le monde de la rue ?"/>
               <trigger value="Si on comprenait la situation des SDF ?"/>
+              <trigger value="Je veux m&apos;informer sur le monde de la rue."/>
+              <trigger value="Les SDF sont alcoolos ?"/>
+              <trigger value="Les SDF sont alcooliques ?"/>
+              <trigger value="C&apos;est un choix de vivre à la rue ?"/>
+              <trigger value="Est-ce que ça rapporte beaucoup de faire la manche ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Vivre en bidonville" outMessageId="sdf-la-vie-en-bidonville"/>
@@ -2272,11 +2398,17 @@
             </planningInfos>
           </message>
           <message name="SDF : la vie en bidonville" id="sdf-la-vie-en-bidonville" nb="2">
+            <tests>
+              <test input="Vivre en bidonville" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Quelle vie de famille sur un bidonville ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Les enfants des bidonvilles peuvent-ils aller à l&apos;école ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Comment aider les familles des bidonvilles, en tant que riverain  ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Vivre en bidonville"/>
               <trigger value="Quelle vie de famille sur un bidonville ?"/>
               <trigger value="Les enfants des bidonvilles peuvent-ils aller à l&apos;école ?"/>
-              <trigger value="Comment en tant que riverain aider les familles des bidonvilles  ?"/>
+              <trigger value="Comment aider les familles des bidonvilles, en tant que riverain  ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Paris, engagé contre l&apos;exclusion" outMessageId="paris-engage-contre-l-exclusion"/>
@@ -2285,8 +2417,13 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GMOPcMU2Q10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Souffrance psychique : 6 conseils pour créer du lien" id="souffrance-psychique-conseils-pour-creer-du-lien" nb="4">
+            <tests>
+              <test input="Souffrance psychique : 6 conseils pour créer du lien" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE2oRWPPB4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Quel est le rôle des riverains face aux SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YE2oRWPPB4w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            </tests>
             <triggers>
               <trigger value="Souffrance psychique : 6 conseils pour créer du lien"/>
+              <trigger value="Quel est le rôle des riverains face aux SDF ?"/>
             </triggers>
             <recommendations>
               <recommendation text="Les souffrances psychiques à la rue" outMessageId="les-souffrances-psychiques-a-la-rue"/>
