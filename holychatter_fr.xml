@@ -2142,32 +2142,7 @@
         <sourceId>reseau-entourage</sourceId>
         <text>Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;&#10;Des vidéos, des interviews, des témoignages et un guide, voici ce que vous allez pouvoir retrouver tout au long de votre discussion.</text>
       </message>
-      <message name="Etapes clés" id="etapes-cles" nb="3">
-        <recommendations>
-          <recommendation text="Et si on comprenait ?" outMessageId="et-si-on-comprenais-introduction"/>
-          <recommendation text="Et si on changeait de regard ?" outMessageId="et-si-on-changeait-de-regard-introduction"/>
-          <recommendation text="Et si on agissait ?" outMessageId="et-si-on-agissait-introduction"/>
-        </recommendations>
-        <sourceId>reseau-entourage</sourceId>
-        <text>Ici, on vous donne les trois étapes clé pour franchir le pas et aller à la rencontre des personnes sans-abri de votre quartier :</text>
-      </message>
-      <message name="Faire un don à Entourage" id="faire-un-don-a-entourage" nb="8">
-        <sourceId>reseau-entourage</sourceId>
-        <text fileType="text_and_html">&lt;a href=&quot;https://entourage.iraiser.eu/effet-entourage/~mon-don?utm_source=Bouton&amp;utm_medium=SCB&amp;utm_campaign=DON&quot;&gt;Faire un don !&lt;/a&gt;</text>
-      </message>
-      <message name="Prêt à passer à l&apos;action ?" id="pret-a-passer-a-l-action" nb="7">
-        <recommendations>
-          <recommendation text="Ou faites un don pour nous aider !" outMessageId="faire-un-don-a-entourage"/>
-        </recommendations>
-        <sourceId>reseau-entourage</sourceId>
-        <text fileType="text_and_html">&lt;span&gt;Prêt à passer à l&apos;action ? &lt;img src=&quot;/resources/holychatter/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;&#10;&#10;Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement avec vos voisins grâce à l&apos;application entourage.&#10;&lt;center&gt;&lt;img src=&quot;https://www.simplecommebonjour.org/wp-content/themes/SCB-2019-09-04/images/app-screenshot.png?1567583488&quot; height=&quot;170&quot; /&gt;&lt;/center&gt;</text>
-        <planningInfos>
-          <effects>
-            <fact value="simple-comme-bonjour-passer-a-l-action"/>
-          </effects>
-        </planningInfos>
-      </message>
-      <folder name="Vidéos" id="videos" nb="4" defaultSourceId="interne">
+      <folder name="Etapes" id="etapes" nb="4" defaultSourceId="interne">
         <folder name="Et si on agissait ?" id="et-si-on-agissait" nb="3">
           <message name="Comment aider les personnes SDF de ma ville ?" id="comment-aider-les-personnes-sdf-de-ma-ville" nb="3">
             <tests>
@@ -2396,6 +2371,13 @@
             <sourceId>reseau-entourage</sourceId>
             <text>Pas facile de savoir comment réagir quand on croise une personne SDF ! Première chose à faire ? Mieux comprendre le monde de la rue.</text>
           </message>
+          <message name="Les SDF sont tous des fainéants, ils ne veulent pas travailler. Vraiment ?" id="les-sdf-sont-tous-des-faineants-ils-ne-veulent-pas-travailler-vraiment">
+            <triggers>
+              <trigger value="Les SDF sont tous des fainéants, ils ne veulent pas travailler."/>
+            </triggers>
+            <sourceId>reseau-entourage</sourceId>
+            <text fileType="text_and_html">Cette idée reçue est particulièrement répandue. &lt;a href=&quot;https://blog.entourage.social/2017/06/13/les-sdf-sont-des-faineants-ils-ne-veulent-pas-travailler-vraiment/&quot;&gt;Nous avons fait le point sur notre blog pour en savoir plus avec quelques éléments factuels.&lt;/a&gt;&#10;</text>
+          </message>
           <message name="Les souffrances psychiques à la rue" id="les-souffrances-psychiques-a-la-rue" nb="6">
             <tests>
               <test input="C&apos;est quoi les troubles psychiques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSqpvcbbRT0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2516,7 +2498,16 @@
           </message>
         </folder>
       </folder>
-      <folder name="faq" id="faq" nb="6" defaultSourceId="interne">
+      <message name="Etapes clés" id="etapes-cles" nb="3">
+        <recommendations>
+          <recommendation text="Et si on comprenait ?" outMessageId="et-si-on-comprenais-introduction"/>
+          <recommendation text="Et si on changeait de regard ?" outMessageId="et-si-on-changeait-de-regard-introduction"/>
+          <recommendation text="Et si on agissait ?" outMessageId="et-si-on-agissait-introduction"/>
+        </recommendations>
+        <sourceId>reseau-entourage</sourceId>
+        <text>Ici, on vous donne les trois étapes clé pour franchir le pas et aller à la rencontre des personnes sans-abri de votre quartier :</text>
+      </message>
+      <folder name="FAQ" id="faq" nb="6" defaultSourceId="interne">
         <folder name="Hébergement" id="hebergement">
           <message name="Je suis ancien et bientôt de nouveau SDF, je suis vraiment perdu que dois je faire..." id="je-suis-ancien-et-bientt-de-nouveau-sdf-je-suis-vraiment-perdu-que-dois-je-faire">
             <tests>
@@ -2596,7 +2587,11 @@
           </message>
         </folder>
       </folder>
-      <folder name="livret" id="livret" nb="5" defaultSourceId="interne">
+      <message name="Faire un don à Entourage" id="faire-un-don-a-entourage" nb="8">
+        <sourceId>reseau-entourage</sourceId>
+        <text fileType="text_and_html">&lt;a href=&quot;https://entourage.iraiser.eu/effet-entourage/~mon-don?utm_source=Bouton&amp;utm_medium=SCB&amp;utm_campaign=DON&quot;&gt;Faire un don !&lt;/a&gt;</text>
+      </message>
+      <folder name="Livret" id="livret" nb="5" defaultSourceId="interne">
         <message name="Voir le livret" id="voir-le-livret" nb="2">
           <triggers>
             <trigger value="Je veux voir le livret qui résume tout ça."/>
@@ -2614,6 +2609,18 @@
           </planningInfos>
         </message>
       </folder>
+      <message name="Prêt à passer à l&apos;action ?" id="pret-a-passer-a-l-action" nb="7">
+        <recommendations>
+          <recommendation text="Ou faites un don pour nous aider !" outMessageId="faire-un-don-a-entourage"/>
+        </recommendations>
+        <sourceId>reseau-entourage</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Prêt à passer à l&apos;action ? &lt;img src=&quot;/resources/holychatter/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;&#10;&#10;Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement avec vos voisins grâce à l&apos;application entourage.&#10;&lt;center&gt;&lt;img src=&quot;https://www.simplecommebonjour.org/wp-content/themes/SCB-2019-09-04/images/app-screenshot.png?1567583488&quot; height=&quot;170&quot; /&gt;&lt;/center&gt;</text>
+        <planningInfos>
+          <effects>
+            <fact value="simple-comme-bonjour-passer-a-l-action"/>
+          </effects>
+        </planningInfos>
+      </message>
       <sourcesNotToDisplay>
         <source value="Réseau Entourage"/>
       </sourcesNotToDisplay>
