@@ -2126,7 +2126,7 @@
         <goal value="aller-au-ciel"/>
       </goals>
     </chatbot>
-    <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" userBackgroundBubbleColor="#e44d20">
+    <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
       <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage" nb="1">
         <nextMessageId>contenu</nextMessageId>
         <sourceId>reseau-entourage</sourceId>
@@ -2151,9 +2151,21 @@
         <sourceId>reseau-entourage</sourceId>
         <text>Ici, on vous donne les trois étapes clé pour franchir le pas et aller à la rencontre des personnes sans-abri de votre quartier :</text>
       </message>
-      <message name="Prêt à passer à l&apos;action ?" id="pret-a-passer-a-l-action" nb="7">
+      <message name="Faire un don à Entourage" id="faire-un-don-a-entourage" nb="8">
         <sourceId>reseau-entourage</sourceId>
-        <text>Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement avec vos voisins.</text>
+        <text fileType="text_and_html">&lt;a href=&quot;https://entourage.iraiser.eu/effet-entourage/~mon-don?utm_source=Bouton&amp;utm_medium=SCB&amp;utm_campaign=DON&quot;&gt;Faire un don !&lt;/a&gt;</text>
+      </message>
+      <message name="Prêt à passer à l&apos;action ?" id="pret-a-passer-a-l-action" nb="7">
+        <recommendations>
+          <recommendation text="Ou faites un don pour nous aider !" outMessageId="faire-un-don-a-entourage"/>
+        </recommendations>
+        <sourceId>reseau-entourage</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Prêt à passer à l&apos;action ? &lt;img src=&quot;/resources/holychatter/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;&#10;&#10;Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement avec vos voisins grâce à l&apos;application entourage.&#10;&lt;center&gt;&lt;img src=&quot;https://www.simplecommebonjour.org/wp-content/themes/SCB-2019-09-04/images/app-screenshot.png?1567583488&quot; height=&quot;170&quot; /&gt;&lt;/center&gt;</text>
+        <planningInfos>
+          <effects>
+            <fact value="simple-comme-bonjour-passer-a-l-action"/>
+          </effects>
+        </planningInfos>
       </message>
       <folder name="Vidéos" id="videos" nb="4" defaultSourceId="interne">
         <folder name="Et si on agissait ?" id="et-si-on-agissait" nb="3">
@@ -2611,6 +2623,7 @@
         <goal value="simple-comme-bonjour-et-si-on-changeait-de-regard"/>
         <goal value="simple-comme-bonjour-et-si-on-agissait"/>
         <goal value="simple-comme-bonjour-proposer-le-livret"/>
+        <goal value="simple-comme-bonjour-passer-a-l-action"/>
       </goals>
     </chatbot>
   </folder>
