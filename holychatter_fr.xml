@@ -2103,19 +2103,14 @@
       </goals>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
-      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter" nb="1">
-        <nextMessageId>n-aie-pas-peur-de-mon-ton-un-peu-direct</nextMessageId>
+      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter">
         <sourceId>chatbot-par-default</sourceId>
-        <text fileType="text_and_html">Bonjour, je suis Holy Chatter, un agent conversationnel au service de la religion chrétienne.&#10;Je te souhaite la bienvenue sur le site ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+        <text fileType="text_and_html">Bonjour, je suis &lt;b&gt;Holy Chatter&lt;/b&gt;, un chatbot au service de la religion chrétienne.&#10;Je vous souhaite la bienvenue ! &lt;img src=&quot;/resources/holychatter/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
             <fact value="dire-bonjour"/>
           </effects>
         </planningInfos>
-      </message>
-      <message name="N&apos;aie pas peur de mon ton un peu direct." id="n-aie-pas-peur-de-mon-ton-un-peu-direct" nb="2">
-        <sourceId>chatbot-par-default</sourceId>
-        <text fileType="text_and_html">N&apos;aie pas peur de mon ton un peu direct. &lt;img src=&quot;/resources/holychatter/emojis/wink.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
       </message>
       <sourcesNotToDisplay>
         <source value="Chatbot par défault"/>
@@ -2837,12 +2832,12 @@
           <text fileType="html">&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;</text>
         </message>
         <folder name="Holy Chatter" id="holy-chatter">
-          <message name="As-tu trouvé ta vocation ?" id="as-tu-trouve-ta-vocation">
+          <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation">
             <triggers>
               <trigger value="-Je suis chrétien."/>
             </triggers>
             <sourceId>interne</sourceId>
-            <text>As-tu trouvé ta vocation ?</text>
+            <text>Avez-vous trouvé votre vocation ?</text>
           </message>
           <folder name="Blagues" id="blagues">
             <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
@@ -2895,20 +2890,6 @@
             </triggers>
             <sourceId>interne</sourceId>
             <text>Le site a été créé en 2015 par des jeunes catholiques français voulant partager la foi qu&apos;ils ont reçu.</text>
-          </message>
-          <message name="Es-tu chrétien ?" id="es-tu-chretien">
-            <sourceId>interne</sourceId>
-            <text>Es-tu chrétien ?</text>
-            <planningInfos>
-              <preconditions>
-                <notFact value="ne-pas-être-chrétien"/>
-                <notFact value="être-chrétien"/>
-              </preconditions>
-              <potentialEffects>
-                <fact value="ne-pas-être-chrétien"/>
-                <fact value="être-chrétien"/>
-              </potentialEffects>
-            </planningInfos>
           </message>
           <folder name="Genre" id="genre">
             <message name="Je ne suis pas transsexuel." id="je-ne-suis-pas-transsexuel">
@@ -2964,9 +2945,9 @@
               <text>J&apos;aimerais te faire aimer Jésus.</text>
             </message>
           </folder>
-          <message name="Quand es-tu né ?" id="quand-es-tu-ne">
+          <message name="Quand êtes-vous né ?" id="quand-etes-vous-ne">
             <sourceId>interne</sourceId>
-            <text>Quel jour es-tu né ?</text>
+            <text>Quand êtes-vous né ?</text>
             <planningInfos>
               <optionalPreconditions>
                 <fact value="être-chrétien"/>
@@ -2978,7 +2959,7 @@
           </message>
           <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
             <sourceId>interne</sourceId>
-            <text>Veux tu savoir qui a écrit la Bible ?</text>
+            <text>Voulez-vous savoir qui a écrit la Bible ?</text>
             <planningInfos>
               <potentialEffects>
                 <fact value="aimer-dieu"/>
@@ -3008,12 +2989,12 @@
               <text>Tu es une merveille de Dieu.</text>
             </message>
           </folder>
-          <message name="Veux-tu voir le message chrétien ?" id="veux-tu-voir-le-message-chretien">
+          <message name="Voulez-vous voir le message chrétien ?" id="voulez-vous-voir-le-message-chretien">
             <triggers>
               <trigger value="-Je ne suis pas chrétien."/>
             </triggers>
             <sourceId>interne</sourceId>
-            <text>Veux-tu voir le message chrétien ?</text>
+            <text>Voulez-vous voir le message chrétien ?</text>
             <planningInfos>
               <optionalPreconditions>
                 <fact value="ne-pas-être-chrétien"/>
@@ -3023,12 +3004,26 @@
               </potentialEffects>
             </planningInfos>
           </message>
-          <message name="Veux-tu voir une vidéo pour trouver sa vocation ?" id="veux-tu-voir-une-video-pour-trouver-sa-vocation">
+          <message name="Voulez-vous voir une vidéo pour trouver sa vocation ?" id="voulez-vous-voir-une-video-pour-trouver-sa-vocation">
             <triggers>
               <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
             </triggers>
             <sourceId>interne</sourceId>
-            <text>Veux-tu voir une vidéo pour trouver sa vocation ?</text>
+            <text>Voulez-vous voir une vidéo pour trouver sa vocation ?</text>
+          </message>
+          <message name="Êtes-vous chrétien ?" id="etes-vous-chretien">
+            <sourceId>interne</sourceId>
+            <text>Êtes-vous chrétien ?</text>
+            <planningInfos>
+              <preconditions>
+                <notFact value="ne-pas-être-chrétien"/>
+                <notFact value="être-chrétien"/>
+              </preconditions>
+              <potentialEffects>
+                <fact value="ne-pas-être-chrétien"/>
+                <fact value="être-chrétien"/>
+              </potentialEffects>
+            </planningInfos>
           </message>
         </folder>
         <message name="Présentation du Cybercuré" id="presentation-du-cybercure">
@@ -8108,9 +8103,9 @@
           <sourceId>reseau-entourage</sourceId>
           <text>C&apos;est une application pour aller à la rencontre des sans-abri.</text>
         </message>
-        <message name="Connais-tu l&apos;application Entourage ?" id="connais-tu-l-application-entourage">
+        <message name="Connaissez-vous l&apos;application Entourage ?" id="connaissez-vous-l-application-entourage">
           <sourceId>interne</sourceId>
-          <text>Connais-tu l&apos;application Entourage ?</text>
+          <text>Connaissez-vous l&apos;application Entourage ?</text>
           <planningInfos>
             <optionalPreconditions>
               <fact value="être-chrétien"/>
