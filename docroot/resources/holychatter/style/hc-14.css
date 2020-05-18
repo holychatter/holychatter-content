@@ -4,6 +4,20 @@
   --hc-folder-menu-width: 240px;
 }
 
+@media screen and (max-width: 900px) {
+:root {
+  --hc-folder-menu-width: 0px;
+}
+.hc-long-screen {
+    display: none;
+  }
+}
+@media screen and (min-width: 901px) {
+.hc-short-screen {
+    display: none;
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
