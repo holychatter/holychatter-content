@@ -364,6 +364,32 @@
         </message>
       </folder>
       <folder name="Livres prophétiques" id="livres-prophetiques" nb="4">
+        <message name="Daniel - Synthèse" id="daniel-synthese" nb="5">
+          <tests>
+            <test input="Fais-moi un résumé du livre du prophère Daniel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 11&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 14&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;daniel-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre du prophère Daniel !"/>
+          </triggers>
+          <references>
+            <bible book="Dan" chapter="1"/>
+            <bible book="Dan" chapter="2"/>
+            <bible book="Dan" chapter="3"/>
+            <bible book="Dan" chapter="4"/>
+            <bible book="Dan" chapter="5"/>
+            <bible book="Dan" chapter="6"/>
+            <bible book="Dan" chapter="7"/>
+            <bible book="Dan" chapter="8"/>
+            <bible book="Dan" chapter="9"/>
+            <bible book="Dan" chapter="10"/>
+            <bible book="Dan" chapter="11"/>
+            <bible book="Dan" chapter="12"/>
+            <bible book="Dan" chapter="13"/>
+            <bible book="Dan" chapter="14"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <folder name="Ezéchiel" id="ezechiel" nb="4" defaultSourceId="interne">
           <message name="Ézéchiel 1–33 - Synthèse" id="ezechiel-synthese" nb="1">
             <tests>
@@ -2244,7 +2270,7 @@
           </message>
           <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="5">
             <tests>
-              <test input="Et si ça se passe mal ?" output="Je ne sais pas si ça se passe mal." isOk="false"/>
+              <test input="Et si ça se passe mal ?" output="Je ne sais pas si ça se passe mal mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
               <test input="Et si un sans-abri m&apos;insulte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Et si je me fais arnaquer ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Et si on rejette mon aide ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2290,7 +2316,7 @@
             <tests>
               <test input="Mendicité des SDF : une activité pour survivre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Pourquoi la mendisité s&apos;impose à certains ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
-              <test input="Est-ce facile de mendier ?" output="Je ne sais pas si c&apos;est facile de mendier." isOk="false"/>
+              <test input="Est-ce facile de mendier ?" output="Je ne sais pas si c&apos;est facile de mendier mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
               <test input="S&apos;enrichir avec la mendicité, c&apos;est possible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input=" Qu&apos;est-ce que la mendicité rapporte en moyenne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Peut-on créer du lien avec une personne en mendicité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2312,7 +2338,7 @@
           <message name="SDF : 5 conseils pour aller vers l&apos;autre" id="sdf-conseils-pour-aller-vers-l-autre" nb="5">
             <tests>
               <test input="5 conseils pour aller vers l&apos;autre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
-              <test input=" Je me sens coupable face aux SDF." output="Pourquoi te sens-tu coupable ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|"/>
+              <test input=" Je me sens coupable face aux SDF." output="Pourquoi vous sentez-vous coupable ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|"/>
               <test input="Comment être patient avec les SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Est-ce que les SDF sont reconnaissants ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Comment accompagner une personne SDF ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-peTAjuZZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2460,8 +2486,8 @@
               <test input=" Je veux m&apos;informer sur le monde de la rue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Les SDF sont alcoolos ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Les SDF sont alcooliques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
-              <test input="C&apos;est un choix de vivre à la rue ?" output="Je ne sais pas si c&apos;est un choix de vivre à la rue." isOk="false"/>
-              <test input="Est-ce que ça rapporte beaucoup de faire la manche ?" output="Je ne sais pas si ça rapporte beaucoup faire la manche." isOk="false"/>
+              <test input="C&apos;est un choix de vivre à la rue ?" output="Je ne sais pas si c&apos;est un choix de vivre à la rue mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
+              <test input="Est-ce que ça rapporte beaucoup de faire la manche ?" output="Je ne sais pas si ça rapporte beaucoup faire la manche mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
               <test input="Si on comprenait la situation des sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Si on comprenait la situation des clochards ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
             </tests>
@@ -3851,7 +3877,7 @@
         </message>
         <message name="Jésus nous aime" id="jesus-nous-aime">
           <tests>
-            <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus t&apos;aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
+            <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus vous aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
           </tests>
           <references>
             <bible book="Jn" chapter="3" verseBegin="16"/>
@@ -4619,7 +4645,7 @@
           </message>
           <message name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
             <tests>
-              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
             </tests>
             <references>
               <site book="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
@@ -5314,7 +5340,7 @@
         </message>
         <message name="Est-il normal que les laïcs donnent la communion ?" id="est-il-normal-que-les-lacs-donnent-la-communion">
           <tests>
-            <test input="Est-il normal que les laïcs donnent la communion ?" output="Je ne sais pas si il est normal que les laïcs donnent la communion mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="Est-il normal que les laïcs donnent la communion ?" output="Je ne sais pas si il est normal que les laïcs donnent la communion mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Est-il normal que les laïcs donnent la communion ?"/>
@@ -5436,7 +5462,7 @@
         </message>
         <message name="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" id="pourquoi-l-eglise-demande-t-elle-a-ceux-qui-ont-epouse-un-divorce-de-ne-pas-communier">
           <tests>
-            <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Je ne sais pas pourquoi l&apos;Église me demande Elle qui a épousé un divorcé de communier à ils mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Je ne sais pas pourquoi l&apos;Église me demande Elle qui a épousé un divorcé de communier à ils mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?"/>
@@ -5603,7 +5629,7 @@
         </message>
         <message name="La validité et la nullité du mariage, qu’est ce que c’est ?" id="la-validite-et-la-nullite-du-mariage-qu-est-ce-que-c-est">
           <tests>
-            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="(&#9;Qu&apos;est-ce que la validité ?&#9;AND&#9;Quelle est la nullité du mariage ?&#9;)|otherAnswer-&gt;|Je ne sais pas ce que c&apos;est mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="(&#9;Qu&apos;est-ce que la validité ?&#9;AND&#9;Quelle est la nullité du mariage ?&#9;)|otherAnswer-&gt;|Je ne sais pas ce que c&apos;est mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="La validité et la nullité du mariage, qu’est ce que c’est ?"/>
@@ -5965,7 +5991,7 @@
       </message>
       <message name="Pourquoi faut-il l’Église ?" id="pourquoi-faut-il-l-eglise">
         <tests>
-          <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Pourquoi faut-il l’Église ?" output="Je ne sais pas pourquoi il faut l&apos;Église mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Pourquoi faut-il l’Église ?"/>
@@ -6316,7 +6342,7 @@
       </message>
       <message name="Dieu nous parle par la Bible." id="dieu-nous-parle-par-la-bible">
         <tests>
-          <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Comment Dieu nous parle ?"/>
@@ -6894,7 +6920,7 @@
       </message>
       <message name="Science et bible que nous apprennent-elles sur Dieu ?" id="science-et-bible-que-nous-apprennent-elles-sur-dieu">
         <tests>
-          <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Science et bible que nous apprennent-elles sur Dieu ?"/>
@@ -7210,6 +7236,24 @@
               <sourceId>youcat</sourceId>
               <text>Dans l&apos;Ancien Testament Dieu se manifeste comme celui qui a créé le monde par amour et reste fidèle aux hommes même lorsque ceux-ci s&apos;éloignent de lui dans le péché.</text>
             </message>
+            <message name="Comment savons-nous ce qui appartient à la vraie foi ?" id="comment-savons-nous-ce-qui-appartient-a-la-vraie-foi" nb="12">
+              <tests>
+                <test input="Comment savons-nous ce qui appartient à la vraie foi ?" output="Nous trouvons la vraie foi dans les Saintes Écritures et dans la transmission vivante qu&apos;en fait l&apos;Église (la Tradition)." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 2,42&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;76&quot; textlength=&quot;2&quot; /&gt;; &lt;hc_ccc ref=&quot;80-82&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;85-87&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;97&quot; textlength=&quot;2&quot; /&gt;; &lt;hc_ccc ref=&quot;100&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-savons-nous-ce-qui-appartient-a-la-vraie-foi&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment savons-nous ce qui appartient à la vraie foi ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="76"/>
+                <ccc verseBegin="80" verseEnd="82"/>
+                <ccc verseBegin="85" verseEnd="87"/>
+                <ccc verseBegin="97"/>
+                <ccc verseBegin="100"/>
+                <bible book="Acts" chapter="2" verseBegin="42"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Nous trouvons la vraie foi dans les Saintes Écritures et dans la transmission vivante qu&apos;en fait l&apos;Église (la Tradition).</text>
+            </message>
             <message name="Dieu devait-il se révéler afin que nous sachions qui il est ?" id="dieu-devait-il-se-reveler-afin-que-nous-sachions-qui-il-est" nb="7">
               <tests>
                 <test input="Dieu devait-il se révéler afin que nous sachions qui il est ?" output="Avec sa raison, l&apos;homme peut savoir que Dieu existe mais pas qui il est réellement. Dieu s&apos;est révélé parce qu&apos;il souhaite qu&apos;on le connaisse." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;50-53&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;68-69&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-devait-il-se-reveler-afin-que-nous-sachions-qui-il-est&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -7223,6 +7267,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Avec sa raison, l&apos;homme peut savoir que Dieu existe mais pas qui il est réellement. Dieu s&apos;est révélé parce qu&apos;il souhaite qu&apos;on le connaisse.</text>
+            </message>
+            <message name="Pourquoi transmettons-nous la foi ?" id="pourquoi-transmettons-nous-la-foi" nb="11">
+              <tests>
+                <test input="Pourquoi transmettons-nous la foi ?" output="Nous transmettons la foi parce que Jésus nous le demande : \hc_resource_html=#fr_FR#&lt;i&gt;Allez donc, de toutes les nations fates des disciples.&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 28,19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,23&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 2,4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-transmettons-nous-la-foi&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi transmettons-nous la foi ?"/>
+              </triggers>
+              <references>
+                <bible book="Mt" chapter="28" verseBegin="19"/>
+                <bible book="1 Cor" chapter="11" verseBegin="23"/>
+                <bible book="1 Tim" chapter="2" verseBegin="4"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text fileType="text_and_html">Nous transmettons la foi parce que Jésus nous le demande :&lt;i&gt;Allez donc, de toutes les nations fates des disciples.&lt;/i&gt;</text>
             </message>
             <message name="Quand Dieu nous envoie son Fils, que révèle-t-il de lui-même ?" id="quand-dieu-nous-envoie-son-fils-que-revele-t-il-de-lui-meme" nb="9">
               <tests>
@@ -7242,7 +7301,7 @@
           <folder name="Nous les hommes, nous sommes ouverts à Dieu" id="nous-les-hommes-nous-sommes-ouverts-a-dieu" nb="3">
             <message name="Est-il vraiment possible de connaître Dieu ?" id="est-il-vraiment-possible-de-connaitre-dieu" nb="6">
               <tests>
-                <test input="Est-il vraiment possible de connaître Dieu ?" output="Je ne sais pas si il est vraiment possible de connaître Dieu mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+                <test input="Est-il vraiment possible de connaître Dieu ?" output="Je ne sais pas si il est vraiment possible de connaître Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
                 <test input="Peut-on parler de Dieu de manière juste ?" output="Bien que les hommes soient limités et que l&apos;infinie grandeur de Dieu ne puisse jamais entrer dans les limites de leur intelligence humaine, ils peuvent cependant parler de lui d&apos;une manière juste." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;39-43&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;48&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;est-il-vraiment-possible-de-connaitre-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
@@ -7381,7 +7440,7 @@
           </message>
           <message name="D&apos;où vient le monde et tout ce qui existe ?" id="d-o-vient-le-monde-et-tout-ce-qui-existe" nb="1">
             <tests>
-              <test input="D&apos;où vient le monde et tout ce qui existe ?" output="Je ne sais pas où le monde vient mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="D&apos;où vient le monde et tout ce qui existe ?" output="Je ne sais pas où le monde vient mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
             </tests>
             <triggers>
               <trigger value="D&apos;où vient le monde et tout ce qui existe ?"/>
@@ -7394,7 +7453,7 @@
           </message>
           <message name="Est-ce que chacun peut croire ce qu&apos;il veut ?" id="est-ce-que-chacun-peut-croire-ce-qu-il-veut" nb="7">
             <tests>
-              <test input="Est-ce que chacun peut croire ce qu&apos;il veut ?" output="Je ne sais pas si ça peut croire ce qu&apos;il veut mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="Est-ce que chacun peut croire ce qu&apos;il veut ?" output="Je ne sais pas si ça peut croire ce qu&apos;il veut mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
             </tests>
             <triggers>
               <trigger value="Est-ce que chacun peut croire ce qu&apos;il veut ?"/>
@@ -7456,7 +7515,7 @@
           </message>
           <message name="Pourquoi est-ce que j&apos;existe ? (suite)" id="pourquoi-est-ce-que-j-existe-suite" nb="2">
             <tests>
-              <test input="Est-ce que Dieu me connaît ?" output="Oui, Dieu te connaît." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
+              <test input="Est-ce que Dieu me connaît ?" output="Oui, Dieu vous connaît." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
               <test input="Qui m&apos;aime ?" output="Moi et Dieu" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,8-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,18-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8,37-39&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2,4-7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15,9-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3,16-19&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8,17&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
             </tests>
             <references>
@@ -8033,7 +8092,7 @@
     <folder name="Marie" id="marie-prieres">
       <message name="Je vous salue Marie" id="je-vous-salue-marie">
         <tests>
-          <test input="Qu&apos;est-ce que le je vous salue Marie ?" output="Je ne sais pas ce que c&apos;est le je vous salue Marie mais tu peux demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Qu&apos;est-ce que le je vous salue Marie ?" output="Je ne sais pas ce que c&apos;est le je vous salue Marie mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           <test input="Je vous salue Marie" output="Je vous salue Marie,&#10;pleine de grâce&#10;Le Seigneur est avec vous,&#10;vous êtes bénie entre toutes les femmes&#10;et Jésus, le fruit de vos entrailles, est béni.&#10;Sainte Marie,&#10;Mère de Dieu,&#10;priez pour nous,&#10;pauvres pécheurs&#10;maintenant et à l’heure de notre mort.&#10;Amen" outputReferences="Url : &lt;hc_site site=&quot;https://www.paris.catholique.fr/je-vous-salue-marie.html&quot; textlength=&quot;56&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;je-vous-salue-marie&quot; textlength=&quot;17&quot; /&gt;"/>
         </tests>
         <triggers>
