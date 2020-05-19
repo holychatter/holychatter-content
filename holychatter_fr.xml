@@ -639,6 +639,32 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nY4dZgLRzSg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Osée - Synthèse" id="osee-synthese" nb="6">
+          <tests>
+            <test input="Fais-moi un résumé du livre du prophère Osée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cFUsMnQe1Ts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Os 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Os 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Os 11&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Os 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Os 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Os 14&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;osee-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre du prophère Osée !"/>
+          </triggers>
+          <references>
+            <bible book="Hos" chapter="1"/>
+            <bible book="Hos" chapter="2"/>
+            <bible book="Hos" chapter="3"/>
+            <bible book="Hos" chapter="4"/>
+            <bible book="Hos" chapter="5"/>
+            <bible book="Hos" chapter="6"/>
+            <bible book="Hos" chapter="7"/>
+            <bible book="Hos" chapter="8"/>
+            <bible book="Hos" chapter="9"/>
+            <bible book="Hos" chapter="10"/>
+            <bible book="Hos" chapter="11"/>
+            <bible book="Hos" chapter="12"/>
+            <bible book="Hos" chapter="13"/>
+            <bible book="Hos" chapter="14"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cFUsMnQe1Ts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
       <folder name="Livres sapientiaux" id="livres-sapientiaux" nb="3">
         <message name="Cantique des cantiques - Synthèse" id="cantique-des-cantiques-synthese" nb="5">
@@ -7417,6 +7443,26 @@
           <message name="Comment savons-nous que Dieu existe ? (suite)" id="comment-savons-nous-que-dieu-existe-suite" nb="3">
             <sourceId>youcat-pour-les-enfants</sourceId>
             <text>Regarde autour de toi :&#10;le soleil dans le ciel,&#10;les étoiles dans la nuit,&#10;les forêts, les montagnes, la mer et les rivières,&#10;les animaux, petits et grands,&#10;les hommes sur tous les continents.&#10;Tout cela c&apos;est Dieu qui l&apos;a fait.</text>
+          </message>
+          <message name="Comment se transmet ce que l&apos;on sait de Dieu ?" id="comment-se-transmet-ce-que-l-on-sait-de-dieu" nb="8">
+            <tests>
+              <test input="Comment se transmet ce que l&apos;on sait de Dieu ?" isOk="false"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment se transmet ce que l&apos;on sait de Dieu ?"/>
+            </triggers>
+            <nextMessageId>comment-se-transmet-ce-que-l-on-sait-de-dieu-suite</nextMessageId>
+            <sourceId>youcat-pour-les-enfants</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Dans le peuple de Dieu, on raconte depuis toujours ce que l&apos;on sait de Dieu.&#10;On l&apos;a écrit dans la Bible, on l&apos;a célébré dans la liturgie et annnoncé dans l&apos;Église.&lt;/span&gt;</text>
+          </message>
+          <message name="Comment se transmet ce que l&apos;on sait de Dieu ? (suite 2)" id="comment-se-transmet-ce-que-l-on-sait-de-dieu-suite-2" nb="8">
+            <sourceId>youcat-pour-les-enfants</sourceId>
+            <text>Parfois, ce sont des amis qui racontent comment ils ont découvert Dieu.&#10;Lorsque des chrétiens racontent comment Dieu s&apos;est révélé à eux ou comment il les a conduits et guéris, ils « témoignent » de leur foi.</text>
+          </message>
+          <message name="Comment se transmet ce que l&apos;on sait de Dieu ? (suite)" id="comment-se-transmet-ce-que-l-on-sait-de-dieu-suite" nb="8">
+            <nextMessageId>comment-se-transmet-ce-que-l-on-sait-de-dieu-suite-2</nextMessageId>
+            <sourceId>youcat-pour-les-enfants</sourceId>
+            <text>Le peuple de Dieu, c&apos;est la communauté dans laquelle l&apos;expérience du Dieu vivant est bien comprise et transmise de génération en génération.&#10;Chaque chrétien qui accepte Dieu dans sa vie a une histoire à raconter.&#10;Souvent, ce sont les parents ou les grands-parents qui transmettent leur foi en Dieu à leurs enfants et petits-enfants.</text>
           </message>
           <message name="Croire en Dieu, qu&apos;est-ce que ça veut dire ?" id="croire-en-dieu-qu-est-ce-que-ca-veut-dire" nb="6">
             <tests>
