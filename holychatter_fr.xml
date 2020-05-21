@@ -4490,6 +4490,17 @@
             <sourceId>croire</sourceId>
             <text>La messe comporte un temps d&apos;écoute de la Parole de Dieu (lectures tirées de la Bible et en particulier des Évangiles) et un temps de bénédiction et de partage du pain et du vin, devenus corps et sang du Christ, geste que Jésus donna à ses disciples au soir de sa Passion, à la veille de sa mort.</text>
           </message>
+          <message name="Conseils pour bien vivre la Messe par la télé" id="conseils-pour-bien-vivre-la-messe-par-la-tele">
+            <tests>
+              <test input="Comment suivre la messe à la télé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mbCKj9NQqec&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;conseils-pour-bien-vivre-la-messe-par-la-tele&quot; textlength=&quot;19&quot; /&gt;"/>
+              <test input="Comment suivre la messe à la télévision ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mbCKj9NQqec&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;conseils-pour-bien-vivre-la-messe-par-la-tele&quot; textlength=&quot;19&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment suivre la messe à la télé ?"/>
+            </triggers>
+            <sourceId>cedric-de-la-serre</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mbCKj9NQqec&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="C’est quoi, la Sainte Messe ?" id="c-est-quoi-la-sainte-messe">
             <tests>
               <test input="C’est quoi, la Sainte Messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RLG1yUQwLB8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 11,23-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10,16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,23-24&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22,20&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;He 9,11-14&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 9,24-28&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 13,10-12&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1135-1190&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-la-sainte-messe&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -4589,6 +4600,17 @@
       </folder>
       <folder name="Temps liturgiques" id="temps-liturgiques" nb="2">
         <folder name="Ascension" id="ascension" nb="6">
+          <message name="Deux bonnes raisons de fêter l&apos;Ascension" id="deux-bonnes-raisons-de-feter-l-ascension">
+            <tests>
+              <test input="À quoi sert l&apos;Ascension ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lkl9fnNx1L4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;deux-bonnes-raisons-de-feter-l-ascension&quot; textlength=&quot;19&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="À quoi sert l&apos;Ascension ?"/>
+              <trigger value="La vie chrétienne est une morale."/>
+            </triggers>
+            <sourceId>cedric-de-la-serre</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lkl9fnNx1L4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Qu&apos;est ce que la fête de l&apos;ascension ?" id="qu-est-ce-que-la-fete-de-l-ascension">
             <tests>
               <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,50-53&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1,1-11&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-l-ascension&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -6782,6 +6804,25 @@
         <sourceId>pere-rene-luc</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CuHBPZbw28w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Le coronavirus est-il une punition divine ? Que dit la Bible ?" id="le-coronavirus-est-il-une-punition-divine-que-dit-la-bible">
+        <triggers>
+          <trigger value="Le coronavirus est-il une punition divine ?"/>
+          <trigger value="Qu&apos;est-ce que j&apos;ai fait au bon Dieu ?"/>
+          <trigger value="Est-ce que la nature se venge ?"/>
+          <trigger value="Est-ce un complot ?"/>
+          <trigger value="Est-ce châtiment écologique ?"/>
+        </triggers>
+        <references>
+          <bible book="Gen" chapter="9" verseBegin="8" verseEnd="11"/>
+          <bible book="Ezek" chapter="18" verseBegin="23"/>
+          <bible book="2 Sam" chapter="24" verseBegin="10"/>
+          <bible book="Rev" chapter="21" verseBegin="4"/>
+          <bible book="Lk" chapter="13" verseBegin="5"/>
+          <bible book="Rom" chapter="8" verseBegin="22"/>
+        </references>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6GFQ0DURQIE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Le mal n&apos;est pas toujours évident à trouver." id="le-mal-n-est-pas-toujours-evident-a-trouver">
         <sourceId>batir-sur-le-roc</sourceId>
         <text>Le mal n&apos;est pas toujours évident à trouver.</text>
@@ -6850,6 +6891,19 @@
         <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ncL9hQhfKCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Quelle est la paix que Jésus nous donne?" id="quelle-est-la-paix-que-jesus-nous-donne">
+        <tests>
+          <test input="Quelle est la paix que Jésus nous donne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wYfkGY1vNF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14,27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;quelle-est-la-paix-que-jesus-nous-donne&quot; textlength=&quot;19&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle est la paix que Jésus nous donne ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="14" verseBegin="27"/>
+        </references>
+        <sourceId>cedric-de-la-serre</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wYfkGY1vNF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Si tu es au bout de ta vie regarde cette vidéo..." id="si-tu-es-au-bout-de-ta-vie-regarde-cette-video">
         <tests>
