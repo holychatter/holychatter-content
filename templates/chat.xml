@@ -1,18 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <messages>
+
   <message id="chat">
-    ${header}
-    <div class="hc-chat-content-wrapper">
+    ${top-right-container}
+    <div class="hc-header">
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td width="50%"></td>
+            <td style="padding-top: 7px;">${centered-banner-space}</td>
+            <td width="50%"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="hc-chat-unique-container">
       ${content}
     </div>
     ${footer}
   </message>
-  <message id="chat-mobile">
-    ${header}
-    <div class="hc-chat-content-wrapper-mobile">
+
+  <message id="chat-with-subject-recommendations">
+    ${top-right-container}
+    <div class="hc-header">
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td style="width: var(--hc-chat-left-space); text-align:center;"><span class="hc-long-screen"><h2>Changer de sujet</h2></span></td>
+            <td style="width: var(--hc-chat-right-space);">
+              <table width="100%">
+                <tbody>
+                  <tr>
+                    <td width="50%"></td>
+                    <td style="padding-top: 7px;">${centered-banner-space}</td>
+                    <td width="50%"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="hc-chat-left-container hc-long-screen">
+      <div class="list-group">
+        ${subject-propositions}
+      </div>
+    </div>
+    <div class="hc-chat-right-container">
       ${content}
     </div>
     ${footer}
   </message>
+
+  <message id="chat-new-subject-proposition">
+    <a class="list-group-item list-group-item-action flex-column align-items-start hc-cursor-pointer">
+      <div class="d-flex w-100 justify-content-between">
+        <h3 class="mb-1">${title}</h3>
+      </div>
+      <p class="mb-1">${description}</p>
+    </a>
+  </message>
+
 </messages>
 

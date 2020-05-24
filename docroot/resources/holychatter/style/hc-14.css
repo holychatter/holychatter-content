@@ -2,11 +2,22 @@
   --hc-var-right-space: 20px;
   --hc-title-height: 55px;
   --hc-folder-menu-width: 240px;
+  --hc-chat-title-height: 65px;
+
+  --hc-chat-border-space: 0%;
+  --hc-chat-left-space: 30%;
+  --hc-chat-right-space: 70%;
+  --hc-chat-unique-container-border-space: 15%;
+
+  --hc-chat-bottom-height: 68px;
 }
 
 @media screen and (max-width: 900px) {
 :root {
   --hc-folder-menu-width: 0px;
+  --hc-chat-left-space: 0%;
+  --hc-chat-right-space: 100%;
+  --hc-chat-unique-container-border-space: 1%;
 }
 .hc-long-screen {
     display: none;
@@ -23,6 +34,7 @@ html, body {
   padding: 0;
   height: 100%;
 }
+
 
 h1 {
   font-family: Droid Serif;
@@ -83,21 +95,62 @@ h1 {
   height: 27px;
 }
 
-.hc-chat-content-wrapper {
+
+.hc-chat-left-container {
   position: absolute;
-  top: 65px;
-  bottom: 68px;
-  width: 100%;
+  top: var(--hc-chat-title-height);
+  bottom: var(--hc-chat-bottom-height);
+  left: var(--hc-chat-border-space);
+  width: var(--hc-chat-left-space);
   overflow: none;
 }
 
-.hc-chat-content-wrapper-mobile {
+.hc-chat-right-container {
   position: absolute;
-  top: 65px;
-  bottom: 55px;
-  width: 100%;
+  top: var(--hc-chat-title-height);
+  bottom: var(--hc-chat-bottom-height);
+  right: 0px;
+  width: var(--hc-chat-right-space);
   overflow: none;
 }
+
+.hc-chat-unique-container {
+  position: absolute;
+  top: var(--hc-chat-title-height);
+  bottom: var(--hc-chat-bottom-height);
+  margin-left: var(--hc-chat-unique-container-border-space);
+  margin-right: var(--hc-chat-unique-container-border-space);
+  right: 0px;
+  left: 0px;
+  overflow: none;
+}
+
+.hc-right-footer {
+  position: fixed;
+  right: 0px;
+  width: var(--hc-chat-right-space);
+  bottom: 0px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: auto;
+  height: var(--hc-chat-bottom-height);
+}
+
+.hc-centered-footer {
+  position: fixed;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  padding-left: var(--hc-chat-unique-container-border-space);
+  padding-right: var(--hc-chat-unique-container-border-space);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: auto;
+  height: var(--hc-chat-bottom-height);
+}
+
 
 .hc-chat-content {
   overflow: auto;
@@ -241,26 +294,6 @@ h1 {
   box-sizing: border-box;
 }
 
-.hc-footer {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  top: auto;
-  height: 68px;
-}
-
-.hc-footer-mobile {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  top: auto;
-  height: 55px;
-  padding: 5px;
-}
 
 .hc-centered {
   position: fixed;
