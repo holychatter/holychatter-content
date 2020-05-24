@@ -13,6 +13,12 @@
     </triggers>
   </fact>
   <fact id="pourquoi-le-message-chrétien-est-vrai"/>
+  <fact id="quiz"/>
+  <fact id="quiz-finished-to-ask-the-questions">
+    <preconditionFacts>
+      <preconditionSet>${quiz-number-of-questions}=3</preconditionSet>
+    </preconditionFacts>
+  </fact>
   <fact id="simple-comme-bonjour-et-si-on-agissait"/>
   <fact id="simple-comme-bonjour-et-si-on-changeait-de-regard"/>
   <fact id="simple-comme-bonjour-et-si-on-comprenait"/>
