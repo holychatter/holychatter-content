@@ -364,6 +364,19 @@
         </message>
       </folder>
       <folder name="Livres prophétiques" id="livres-prophetiques" nb="4">
+        <message name="Abdias - Synthèse" id="abdias-synthese" nb="9">
+          <tests>
+            <test input="Fais-moi un résumé du livre du prophète Abdias !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RgTE--fi8m0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ab 1&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;abdias-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre du prophète Abdias !"/>
+          </triggers>
+          <references>
+            <bible book="Ob" chapter="1"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RgTE--fi8m0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Amos - Synthèse" id="amos-synthese" nb="8">
           <tests>
             <test input="Fais-moi un résumé du livre du prophète Amos !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8sRTnbX_TJY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Am 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 9&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;amos-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3074,6 +3087,26 @@
               </potentialEffects>
             </planningInfos>
           </message>
+          <folder name="Questions" id="questions" defaultSourceId="interne">
+            <message name="Dans quelle ville est né Jésus ?" id="dans-quelle-ville-est-ne-jesus" nb="1">
+              <sourceId>bible</sourceId>
+              <text>Dans quelle ville est né Jésus ?</text>
+            </message>
+            <message name="Non. Jésus est né à Bethléem." id="non-jesus-est-ne-a-bethleem" nb="1">
+              <references>
+                <bible book="Mt" chapter="2" verseBegin="1"/>
+              </references>
+              <sourceId>bible</sourceId>
+              <text fileType="text_and_html">&lt;span&gt;Non. Jésus est né à Bethléem.&lt;/span&gt;</text>
+            </message>
+            <message name="Oui. Jésus est né à Bethléem." id="oui-jesus-est-ne-a-bethleem" nb="1">
+              <references>
+                <bible book="Mt" chapter="2" verseBegin="1"/>
+              </references>
+              <sourceId>bible</sourceId>
+              <text fileType="text_and_html">&lt;span&gt;Oui. &lt;img src=&quot;/resources/holychatter/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; Jésus est né à Bethléem.&lt;/span&gt;</text>
+            </message>
+          </folder>
           <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
             <sourceId>interne</sourceId>
             <text>Voulez-vous savoir qui a écrit la Bible ?</text>
