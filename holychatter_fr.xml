@@ -3140,10 +3140,10 @@
           <folder name="Questions" id="questions" defaultSourceId="interne">
             <message name="Bilan du quiz" id="bilan-du-quiz">
               <sourceId>interne</sourceId>
-              <text>Tu as fait ${quiz-number-of-good-answers} bonnes questions.</text>
+              <text fileType="text_and_html">&lt;span&gt;Tu as fait ${quiz-nombre-de-bonnes-réponses} bonnes questions.&lt;/span&gt;</text>
               <planningInfos>
                 <preconditions>
-                  <fact value="quiz-finished-to-ask-the-questions"/>
+                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
                 </preconditions>
                 <effects>
                   <fact value="quiz"/>
@@ -3160,9 +3160,16 @@
               <sourceId>bible</sourceId>
               <text>Dans quelle ville est né Jésus ?</text>
               <planningInfos>
-                <effects/>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="quiz-nombre-de-questions"/>
+                    </elts>
+                  </exps>
+                </effects>
                 <potentialEffects>
-                  <fact value="quiz-finished-to-ask-the-questions"/>
+                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
                 </potentialEffects>
               </planningInfos>
             </message>
@@ -3180,7 +3187,14 @@
               <sourceId>bible</sourceId>
               <text fileType="text_and_html">&lt;span&gt;Oui. &lt;img src=&quot;/resources/holychatter/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; Jésus est né à Bethléem.&lt;/span&gt;</text>
               <planningInfos>
-                <effects/>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                    </elts>
+                  </exps>
+                </effects>
               </planningInfos>
             </message>
             <message name="Pose-moi des questions" id="pose-moi-des-questions">
@@ -3188,7 +3202,7 @@
                 <trigger value="Pose-moi des questions"/>
               </triggers>
               <sourceId>interne</sourceId>
-              <text>Ok, je vais te poser 10 questions.</text>
+              <text>Ok, je vais te poser 3 questions.</text>
               <planningInfos>
                 <goalsToAdd>
                   <goalsToAdd value="quiz"/>
