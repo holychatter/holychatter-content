@@ -1514,6 +1514,21 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9cSC9uobtPM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Habakkuk" id="overview-habakkuk" nb="13">
+          <tests>
+            <test input="Give me a summary of the book of the prophet Habakkuk!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OPMaRqGJPUU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Hab 1&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hab 2&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hab 3&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-habakkuk&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the book of the prophet Habakkuk!"/>
+          </triggers>
+          <references>
+            <bible book="Hab" chapter="1"/>
+            <bible book="Hab" chapter="2"/>
+            <bible book="Hab" chapter="3"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OPMaRqGJPUU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Overview: Hosea" id="overview-hosea" nb="6">
           <tests>
             <test input="Give me a summary of the book of the prophet Hosea!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kE6SZ1ogOVU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Hos 1&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 2&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 3&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 4&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 5&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 6&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 7&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 8&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 9&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 10&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 11&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 13&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 14&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-hosea&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3339,6 +3354,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.</text>
+            </message>
+            <message name="What significance does the New Testament have for Christians?" id="what-significance-does-the-new-testament-have-for-christians" nb="18">
+              <tests>
+                <test input="What significance does the New Testament have for Christians?" output="I don&apos;t know what the significance does the New Testament has for christians." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="What significance does the New Testament have for Christians?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="124" verseEnd="127"/>
+                <ccc verseBegin="128" verseEnd="130"/>
+                <ccc verseBegin="140"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>In the New Testament God’s Revelation is completed. The four Gospels according to Matthew, Mark, Luke, and John are the centerpiece of Sacred Scripture and the most precious treasure of the Church. In them the Son of God shows himself as he is and encounters us. In the Acts of the Apostles we learn about the beginnings of the Church and the working of the Holy Spirit. In the letters written by the apostles, all facets of human life are set in the light of Christ. In the Book of Revelation we foresee the end of the ages.</text>
             </message>
             <message name="What significance does the Old Testament have for Christians?" id="what-significance-does-the-old-testament-have-for-christians" nb="17">
               <tests>

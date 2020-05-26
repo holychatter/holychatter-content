@@ -499,6 +499,22 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MyFcRxLzW6g&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
+        <message name="Habacuc - Synthèse" id="habacuc-synthese" nb="13">
+          <tests>
+            <test input="Fais-moi un résumé du livre du prophète Habacuc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lBQbCKsvwCI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ha 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ha 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ha 3&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;habacuc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Fais-moi un résumé du livre du prophète Habaquq !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lBQbCKsvwCI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ha 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ha 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ha 3&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;habacuc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre du prophète Habacuc !"/>
+          </triggers>
+          <references>
+            <bible book="Hab" chapter="1"/>
+            <bible book="Hab" chapter="2"/>
+            <bible book="Hab" chapter="3"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lBQbCKsvwCI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <folder name="Isaïe" id="isae" nb="1">
           <message name="Ésaïe 1–39 - Synthèse" id="esae-139-synthese" nb="1">
             <tests>
@@ -7896,6 +7912,21 @@
               <sourceId>youcat</sourceId>
               <text>Dans l&apos;Ancien Testament, Dieu se révèle comme le créateur du monde et comme celui qui Le maintient en existence mais aussi comme guide et éducateur des hommes. Les livres de l&apos;Ancien Testament eux aussi sont Parole de Dieu et Écriture sainte. Sans l&apos;Ancien Testament, on ne peut pas comprendre Jésus.</text>
             </message>
+            <message name="Quelle est la signification du Nouveau Testament pour les chrétiens ?" id="quelle-est-la-signification-du-nouveau-testament-pour-les-chretiens" nb="18">
+              <tests>
+                <test input="Quelle est la signification du Nouveau Testament pour les chrétiens ?" output="Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église. En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;124-127&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;128-130&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-signification-du-nouveau-testament-pour-les-chretiens&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quelle est la signification du Nouveau Testament pour les chrétiens ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="124" verseEnd="127"/>
+                <ccc verseBegin="128" verseEnd="130"/>
+                <ccc verseBegin="140"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église. En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps.</text>
+            </message>
           </folder>
           <folder name="Nous les hommes, nous sommes ouverts à Dieu" id="nous-les-hommes-nous-sommes-ouverts-a-dieu" nb="3">
             <message name="Est-il vraiment possible de connaître Dieu ?" id="est-il-vraiment-possible-de-connaitre-dieu" nb="6">
@@ -8376,13 +8407,13 @@
           </message>
         </folder>
         <folder name="Occultisme" id="occultisme">
-          <message name="Occultisme : des ténèbres à la joie en 20 min avec soeur Emmanuel de Medjugorje" id="occultisme-des-tenebres-a-la-joie-en-min-avec-soeur-emmanuel-de-medjugorje">
+          <message name="Occultisme : des ténèbres à la joie en 20 min avec soeur Emmanuel de Medjugorje" id="occultisme-des-tenebres-a-la-joie-en-2-min-avec-soeur-emmanuel-de-medjugorje">
             <tests>
-              <test input="C&apos;est quoi l&apos;occultisme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
-              <test input="Montre-moi le témoignage de la conversion de soeur Emmanuel Maillard" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
-              <test input="Montre-moi une conversion" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
-              <test input="C&apos;est quoi le wicca ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
-              <test input="wicca" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
+              <test input="C&apos;est quoi l&apos;occultisme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 18,9-12&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-2-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
+              <test input="Montre-moi le témoignage de la conversion de soeur Emmanuel Maillard" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 18,9-12&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-2-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
+              <test input="Montre-moi une conversion" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 18,9-12&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-2-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
+              <test input="C&apos;est quoi le wicca ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 18,9-12&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-2-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
+              <test input="wicca" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 18,9-12&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-2-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="C&apos;est quoi l&apos;occultisme ?"/>
@@ -8390,6 +8421,9 @@
               <trigger value="Montre-moi une conversion"/>
               <trigger value="_C&apos;est quoi le wicca ?"/>
             </triggers>
+            <references>
+              <bible book="Deut" chapter="18" verseBegin="9" verseEnd="12"/>
+            </references>
             <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
