@@ -13,7 +13,13 @@
     </triggers>
   </fact>
   <fact id="pourquoi-le-message-chrétien-est-vrai"/>
-  <fact id="quiz"/>
+  <fact id="quiz">
+    <continuationTexts>
+      <continuation facts="${quiz-nombre-de-questions}=0" text="Jouer"/>
+      <continuation facts="${quiz-nombre-de-questions}=3" text="Voir le résultat"/>
+      <continuation text="Nouvelle question"/>
+    </continuationTexts>
+  </fact>
   <fact id="quiz-fini-de-poser-toutes-les-questions">
     <preconditionFacts>
       <preconditionSet>${quiz-nombre-de-questions}=3</preconditionSet>

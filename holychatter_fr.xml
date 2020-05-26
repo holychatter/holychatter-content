@@ -2301,6 +2301,9 @@
         <goal value="dire-bonjour"/>
         <goal value="aller-au-ciel"/>
       </goals>
+      <changeSubjectInfos>
+        <subjectInfos title="Quiz" description="Répondre à un petit questionnaire sur la foi chrétienne." message="Pose-moi des questions"/>
+      </changeSubjectInfos>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
       <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage" nb="1">
@@ -3163,7 +3166,7 @@
             </message>
             <message name="Bilan du quiz" id="bilan-du-quiz">
               <sourceId>interne</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Tu as fait ${quiz-nombre-de-bonnes-réponses} bonnes réponses.&lt;/span&gt;</text>
+              <text fileType="text_and_html">&lt;span&gt;Vous avez fait ${quiz-nombre-de-bonnes-réponses} bonnes réponses.&lt;/span&gt;</text>
               <planningInfos>
                 <preconditions>
                   <fact value="quiz-fini-de-poser-toutes-les-questions"/>
@@ -3344,8 +3347,17 @@
                 <trigger value="Pose-moi des questions"/>
               </triggers>
               <sourceId>interne</sourceId>
-              <text>Ok, je vais te poser 3 questions.</text>
+              <text fileType="text_and_html">&lt;span&gt;Ok, je vais vous poser 3 questions.&lt;/span&gt;</text>
               <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="fact" value="quiz-nombre-de-questions"/>
+                      <elt type="operator" value="="/>
+                      <elt type="value" value="0"/>
+                    </elts>
+                  </exps>
+                </effects>
                 <goalsToAdd>
                   <goalsToAdd value="quiz"/>
                 </goalsToAdd>
