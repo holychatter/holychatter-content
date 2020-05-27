@@ -1715,6 +1715,21 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i4ogCrEoG5s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Zephaniah" id="overview-zephaniah" nb="14">
+          <tests>
+            <test input="Give me a summary of the book of the prophet Zephaniah!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oFZknKPNvz8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Zeph 1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Zeph 2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Zeph 3&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-zephaniah&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the book of the prophet Zephaniah!"/>
+          </triggers>
+          <references>
+            <bible book="Zeph" chapter="1"/>
+            <bible book="Zeph" chapter="2"/>
+            <bible book="Zeph" chapter="3"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oFZknKPNvz8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
     </folder>
   </folder>
@@ -3354,6 +3369,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.</text>
+            </message>
+            <message name="What role does Sacred Scripture play in the Church?" id="what-role-does-sacred-scripture-play-in-the-church" nb="19">
+              <tests>
+                <test input="What role does Sacred Scripture play in the Church?" output="The Church draws her life and strength from Sacred Scripture." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;103-104&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;131-133&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;141&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-role-does-sacred-scripture-play-in-the-church&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What role does Sacred Scripture play in the Church?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="103" verseEnd="104"/>
+                <ccc verseBegin="131" verseEnd="133"/>
+                <ccc verseBegin="141"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The Church draws her life and strength from Sacred Scripture.</text>
             </message>
             <message name="What significance does the New Testament have for Christians?" id="what-significance-does-the-new-testament-have-for-christians" nb="18">
               <tests>

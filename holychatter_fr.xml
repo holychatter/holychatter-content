@@ -781,6 +781,21 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cFUsMnQe1Ts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Sophonie - Synthèse" id="sophonie-synthese" nb="14">
+          <tests>
+            <test input="Fais-moi un résumé du livre du prophète Sophonie !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiTxzjDvjgk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;So 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;So 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;So 3&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;sophonie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre du prophète Sophonie !"/>
+          </triggers>
+          <references>
+            <bible book="Zeph" chapter="1"/>
+            <bible book="Zeph" chapter="2"/>
+            <bible book="Zeph" chapter="3"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiTxzjDvjgk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
       <folder name="Livres sapientiaux" id="livres-sapientiaux" nb="3">
         <message name="Cantique des cantiques - Synthèse" id="cantique-des-cantiques-synthese" nb="5">
@@ -7899,6 +7914,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>En Jésus-Christ, Dieu nous montre toute la profondeur de son amour miséricordieux.</text>
+            </message>
+            <message name="Quel rôle l&apos;Écriture sainte joue-t-elle dans l&apos;Église ?" id="quel-rle-l-ecriture-sainte-joue-t-elle-dans-l-eglise" nb="19">
+              <tests>
+                <test input="Quel rôle l&apos;Écriture sainte joue-t-elle dans l&apos;Église ?" output="L&apos;Église puise sa vie et sa force dans l&apos;Écriture sainte." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;103-104&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;131-133&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;141&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quel-rle-l-ecriture-sainte-joue-t-elle-dans-l-eglise&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quel rôle l&apos;Écriture sainte joue-t-elle dans l&apos;Église ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="103" verseEnd="104"/>
+                <ccc verseBegin="131" verseEnd="133"/>
+                <ccc verseBegin="141"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>L&apos;Église puise sa vie et sa force dans l&apos;Écriture sainte.</text>
             </message>
             <message name="Quelle est la signification de l&apos;Ancien Testament pour les chrétiens ?" id="quelle-est-la-signification-de-l-ancien-testament-pour-les-chretiens" nb="17">
               <tests>
