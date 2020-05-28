@@ -377,6 +377,20 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RgTE--fi8m0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Aggée - Synthèse" id="aggee-synthese" nb="15">
+          <tests>
+            <test input="Fais-moi un résumé du livre du prophète Aggée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DOoPKFpFZZE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ag 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ag 2&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;aggee-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé du livre du prophète Aggée !"/>
+          </triggers>
+          <references>
+            <bible book="Hag" chapter="1"/>
+            <bible book="Hag" chapter="2"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DOoPKFpFZZE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Amos - Synthèse" id="amos-synthese" nb="8">
           <tests>
             <test input="Fais-moi un résumé du livre du prophète Amos !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8sRTnbX_TJY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Am 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Am 9&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;amos-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -7961,6 +7975,22 @@
               <text>Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église. En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps.</text>
             </message>
           </folder>
+          <folder name="Les hommes répondent à Dieu" id="les-hommes-repondent-a-dieu" nb="20" defaultSourceId="interne">
+            <message name="Quand Dieu nous parle, comment pouvons-nous lui répondre ?" id="quand-dieu-nous-parle-comment-pouvons-nous-lui-repondre" nb="20">
+              <tests>
+                <test input="Quand Dieu nous parle, comment pouvons-nous lui répondre ?" output="Répondre à Dieu, c&apos;est croire en lui." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1R 3,9&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;142-149&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quand-dieu-nous-parle-comment-pouvons-nous-lui-repondre&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quand Dieu nous parle, comment pouvons-nous lui répondre ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="142" verseEnd="149"/>
+                <bible book="1 Kgs" chapter="3" verseBegin="9"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Répondre à Dieu, c&apos;est croire en lui.</text>
+            </message>
+          </folder>
           <folder name="Nous les hommes, nous sommes ouverts à Dieu" id="nous-les-hommes-nous-sommes-ouverts-a-dieu" nb="3">
             <message name="Est-il vraiment possible de connaître Dieu ?" id="est-il-vraiment-possible-de-connaitre-dieu" nb="6">
               <tests>
@@ -8361,6 +8391,25 @@
             </triggers>
             <sourceId>le-sanctuaire-notre-dame-de-lourdes</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eI90Nr07hNg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Ma guérison témoigne de la puissance de la prière - Témoignage de Foucauld" id="ma-guerison-temoigne-de-la-puissance-de-la-priere-temoignage-de-foucauld">
+            <tests>
+              <test input="Montre-moi le témoignage d&apos;une personne qui a eu un cavernome !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TjX6Px6Y4_k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2R 4,18-26&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 3,6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,43-44&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;ma-guerison-temoigne-de-la-puissance-de-la-priere-temoignage-de-foucauld&quot; textlength=&quot;25&quot; /&gt;"/>
+              <test input=" Montre-moi le témoignage d&apos;une personne qui a eu un mal de tête !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TjX6Px6Y4_k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2R 4,18-26&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 3,6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,43-44&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;ma-guerison-temoigne-de-la-puissance-de-la-priere-temoignage-de-foucauld&quot; textlength=&quot;25&quot; /&gt;"/>
+              <test input="Montre-moi le témoignage de Foucauld !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TjX6Px6Y4_k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2R 4,18-26&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 3,6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11,43-44&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;ma-guerison-temoigne-de-la-puissance-de-la-priere-temoignage-de-foucauld&quot; textlength=&quot;25&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montre-moi le témoignage d&apos;une personne qui a eu un cavernome !"/>
+              <trigger value="Montre-moi le témoignage d&apos;une personne qui a eu un mal de tête !"/>
+              <trigger value="Montre-moi le témoignage de Foucauld !"/>
+            </triggers>
+            <references>
+              <bible book="2 Kgs" chapter="4" verseBegin="18" verseEnd="26"/>
+              <bible book="Ps" chapter="3" verseBegin="6"/>
+              <bible book="Jn" chapter="11" verseBegin="43" verseEnd="44"/>
+            </references>
+            <sourceId>communaute-de-l-emmanuel</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TjX6Px6Y4_k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
         <folder name="À propos" id="a-propos-corps">

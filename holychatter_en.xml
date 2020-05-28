@@ -1529,6 +1529,20 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OPMaRqGJPUU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Haggai" id="overview-haggai" nb="15">
+          <tests>
+            <test input="Give me a summary of the book of the prophet Haggai!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/juPvv_xcX-U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Hag 1&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hag 2&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-haggai&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the book of the prophet Haggai!"/>
+          </triggers>
+          <references>
+            <bible book="Hag" chapter="1"/>
+            <bible book="Hag" chapter="2"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/juPvv_xcX-U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Overview: Hosea" id="overview-hosea" nb="6">
           <tests>
             <test input="Give me a summary of the book of the prophet Hosea!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kE6SZ1ogOVU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Hos 1&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 2&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 3&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 4&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 5&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 6&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 7&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 8&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 9&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 10&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 11&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 12&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 13&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Hos 14&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-hosea&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3368,7 +3382,7 @@
                 <ccc verseBegin="137"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.</text>
+              <text fileType="text_and_html">&lt;span&gt;The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.&lt;/span&gt;</text>
             </message>
             <message name="What role does Sacred Scripture play in the Church?" id="what-role-does-sacred-scripture-play-in-the-church" nb="19">
               <tests>
@@ -3517,6 +3531,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion.</text>
+            </message>
+          </folder>
+          <folder name="Man Responds to God" id="man-responds-to-god" nb="20" defaultSourceId="internal">
+            <message name="How can we respond to God when he speaks to us?" id="how-can-we-respond-to-god-when-he-speaks-to-us" nb="20">
+              <tests>
+                <test input="How can we respond to God when he speaks to us?" output="To respond to God means to believe him." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Kgs 3:9&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;142-149&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-can-we-respond-to-god-when-he-speaks-to-us&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="How can we respond to God when he speaks to us?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="142" verseEnd="149"/>
+                <bible book="1 Kgs" chapter="3" verseBegin="9"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>To respond to God means to believe him.</text>
             </message>
           </folder>
           <message name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
