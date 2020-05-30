@@ -8,7 +8,7 @@
     </preconditionFacts>
     <continuationTexts>
       <continuation facts="debut-de-la-conversation" text="Je veux dialoguer avec vous"/>
-      <continuation text="Continuez votre raisonnement"/>
+      <continuation text="Continuez la discussion"/>
     </continuationTexts>
   </fact>
   <fact id="debut-de-la-conversation"/>
@@ -25,6 +25,7 @@
   <fact id="pourquoi-le-message-chrétien-est-vrai"/>
   <fact id="quiz">
     <continuationTexts>
+      <continuation facts="replanifier-pour-quiz" text="Repose-moi ta question"/>
       <continuation facts="${quiz-nombre-de-questions}=0" text="Jouer"/>
       <continuation facts="${quiz-nombre-de-questions}=3" text="Voir le résultat"/>
       <continuation text="Nouvelle question"/>
