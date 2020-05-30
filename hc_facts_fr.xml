@@ -6,6 +6,16 @@
     <preconditionFacts>
       <preconditionSet>aimer-dieu, aimer-son-prochain, être-chrétien</preconditionSet>
     </preconditionFacts>
+    <continuationTexts>
+      <continuation facts="debut-de-la-conversation" text="Je veux dialoguer avec vous"/>
+      <continuation text="Continuez votre raisonnement"/>
+    </continuationTexts>
+  </fact>
+  <fact id="debut-de-la-conversation"/>
+  <fact id="dire-bonjour">
+    <continuationTexts>
+      <continuation text="Qui êtes-vous ?"/>
+    </continuationTexts>
   </fact>
   <fact id="ne-pas-être-chrétien">
     <triggers>
