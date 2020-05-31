@@ -28,7 +28,7 @@
       <continuation facts="replanifier-pour-quiz" text="Repose-moi ta question"/>
       <continuation facts="${quiz-nombre-de-questions}=0" text="Jouer"/>
       <continuation facts="${quiz-nombre-de-questions}=3" text="Voir le résultat"/>
-      <continuation text="Nouvelle question"/>
+      <continuation text="Posez moi la `${quiz-nombre-de-questions}+1`e question sur 3."/>
     </continuationTexts>
   </fact>
   <fact id="quiz-fini-de-poser-toutes-les-questions">
