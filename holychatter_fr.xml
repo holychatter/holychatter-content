@@ -2347,7 +2347,8 @@
         <goal value="aller-au-ciel"/>
       </goals>
       <changeSubjectInfos>
-        <subjectInfos title="Je veux faire un quiz" description="C&apos;est un petit jeux où vous devrez répondre à 5 questions à choix multiples." message="Pose-moi des questions"/>
+        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeux où vous devrez répondre à 5 questions à choix multiples." message="Pose-moi des questions"/>
+        <subjectInfos title="Je veux en savoir plus sur la louange." description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." message="Je veux en savoir plus sur la louange."/>
       </changeSubjectInfos>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
@@ -8836,6 +8837,159 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
+    <folder name="Louange" id="louange" defaultSourceId="interne">
+      <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges" defaultSourceId="interne">
+        <message name="Ce que Dieu désire" id="ce-que-dieu-desire">
+          <tests>
+            <test input="Qu&apos;est-ce que Dieu désire ?" output="Dieu désir créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ces merveilles dans nos vies." outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;ce-que-dieu-desire&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que Dieu désire ?"/>
+          </triggers>
+          <sourceId>marie-biokou</sourceId>
+          <text>Dieu désir créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ces merveilles dans nos vies.</text>
+          <planningInfos>
+            <effects>
+              <fact value="louange-qu-est-ce-que-dieu-desire"/>
+            </effects>
+          </planningInfos>
+        </message>
+        <message name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges">
+          <triggers>
+            <trigger value="Dieu a-t-il besoin de nos louanges ?"/>
+          </triggers>
+          <nextMessageId>ce-que-dieu-desire</nextMessageId>
+          <references>
+            <bible book="Lk" chapter="19" verseBegin="40"/>
+          </references>
+          <sourceId>marie-biokou</sourceId>
+          <text>La réponse est non. Mais</text>
+        </message>
+      </folder>
+      <message name="La louange c&apos;est quoi ?" id="la-louange-c-est-quoi">
+        <tests>
+          <test input="Qu&apos;est-ce que la louange ?" output="Le terme louange vient de l&apos;hébreu alléluia, qui veut dire &quot;louer Dieu&quot;. Il s&apos;agit donc de faire des éloges à Dieu en révélant ces mérites et ces actions dans nos vies. " outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;qu-est-ce-que-la-louange&quot; textlength=&quot;12&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="La louange c&apos;est quoi ?"/>
+        </triggers>
+        <sourceId>marie-biokou</sourceId>
+        <text>Le terme louange vient de l&apos;hébreu alléluia, qui veut dire &quot;louer Dieu&quot;. Il s&apos;agit donc de faire des éloges à Dieu en révélant ces mérites et ces actions dans nos vies. </text>
+        <planningInfos>
+          <effects>
+            <fact value="louange-définir"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="La louange c&apos;est un sujet intéressant, de quoi voulez-vous qu&apos;on parle ?" id="la-louange-c-est-un-sujet-interessant-de-quoi-voulez-vous-qu-on-parle">
+        <triggers>
+          <trigger value="Parlez-moi de la louange !"/>
+          <trigger value="Je veux en savoir plus sur la louange."/>
+        </triggers>
+        <recommendations>
+          <recommendation text="La louange c&apos;est quoi ?" outMessageId="la-louange-c-est-quoi"/>
+          <recommendation text="Pourquoi louer Dieu ?" outMessageId="pourquoi-louer-dieu-16"/>
+          <recommendation text="Dieu a-t-il besoin de nos louanges ?" outMessageId="dieu-a-t-il-besoin-de-nos-louanges"/>
+          <recommendation text="A quoi ça ressemble des chants de louange ?" outMessageId="voila-des-examples-de-chants-de-louange"/>
+          <recommendation text="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" outMessageId="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">J&apos;aime beaucoup la louange.&lt;img src=&quot;/resources/holychatter/emojis/eyes_heart.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;De quoi voulez-vous qu&apos;on parle ?</text>
+        <planningInfos>
+          <goalsToAdd>
+            <goalsToAdd value="louange-définir"/>
+            <goalsToAdd value="louange-pourquoi-louer-dieu"/>
+            <goalsToAdd value="louange-qu-est-ce-que-dieu-desire"/>
+            <goalsToAdd value="louange-ecouter"/>
+            <goalsToAdd value="louange-louer-avec-marie"/>
+          </goalsToAdd>
+        </planningInfos>
+      </message>
+      <folder name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu" defaultSourceId="interne">
+        <message name="Pourquoi louer Dieu ? (1/6)" id="pourquoi-louer-dieu-16" nb="1">
+          <triggers>
+            <trigger value="Pourquoi louer Dieu ?"/>
+          </triggers>
+          <recommendations>
+            <recommendation text="Donnez-moi une autre raison de louer Dieu." outMessageId="pourquoi-louer-dieu-26"/>
+          </recommendations>
+          <references>
+            <bible book="Acts" chapter="16" verseBegin="23" verseEnd="31"/>
+            <site book="https://fr.aleteia.org/2020/04/11/tout-est-grace/"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text fileType="text_and_html">&lt;span&gt;Pour sortir de nos cages de dépressions, de tristesses...&lt;/span&gt;</text>
+          <planningInfos>
+            <effects>
+              <fact value="louange-pourquoi-louer-dieu"/>
+            </effects>
+          </planningInfos>
+        </message>
+        <message name="Pourquoi louer Dieu ? (2/6)" id="pourquoi-louer-dieu-26" nb="2">
+          <recommendations>
+            <recommendation text="Donnez-moi une autre raison de louer Dieu." outMessageId="pourquoi-louer-dieu-36"/>
+          </recommendations>
+          <references>
+            <bible book="Dan" chapter="6"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text fileType="text_and_html">&lt;span&gt;Pour être un témoignage vivant de l&apos;amour de notre Dieu&lt;/span&gt;</text>
+        </message>
+        <message name="Pourquoi louer Dieu ? (3/6)" id="pourquoi-louer-dieu-36" nb="3">
+          <recommendations>
+            <recommendation text="Donnez-moi une autre raison de louer Dieu." outMessageId="pourquoi-louer-dieu-46"/>
+          </recommendations>
+          <references>
+            <bible book="Ps" chapter="114"/>
+            <bible book="Ps" chapter="115"/>
+            <bible book="Ps" chapter="116"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>Pour nous rappeler et célébrer les merveilles de Dieu dans nos vies.</text>
+        </message>
+        <message name="Pourquoi louer Dieu ? (4/6)" id="pourquoi-louer-dieu-46" nb="4">
+          <recommendations>
+            <recommendation text="Donnez-moi une autre raison de louer Dieu." outMessageId="pourquoi-louer-dieu-56"/>
+          </recommendations>
+          <references>
+            <bible book="Ps" chapter="116"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>Pour célébrer les qualités de Dieu</text>
+        </message>
+        <message name="Pourquoi louer Dieu ? (5/6)" id="pourquoi-louer-dieu-56" nb="5">
+          <recommendations>
+            <recommendation text="Donnez-moi une autre raison de louer Dieu." outMessageId="pourquoi-louer-dieu-66"/>
+          </recommendations>
+          <references>
+            <bible book="Ps" chapter="143" verseBegin="6"/>
+            <bible book="Ps" chapter="117"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>Pour connaitre Dieu et  nous rapprocher de Dieu</text>
+        </message>
+        <message name="Pourquoi louer Dieu ? (6/6)" id="pourquoi-louer-dieu-66" nb="6">
+          <references>
+            <bible book="Is" chapter="43" verseBegin="21"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>Parce que nous sommes son peuple et il dit dans Esaie : « Ce peuple que je me suis façonné redira ma louange. »</text>
+        </message>
+      </folder>
+      <message name="Voilà des examples de chants de louange" id="voila-des-examples-de-chants-de-louange">
+        <triggers>
+          <trigger value="A quoi ça ressemble des chants de louange ?"/>
+          <trigger value="Montrez-moi des chants de louange !"/>
+        </triggers>
+        <sourceId>marie-biokou</sourceId>
+        <text fileType="text_and_html">Vous pouvez trouver des chants de louange&lt;a href=&quot;https://www.youtube.com/playlist?list=PLi9d4quOzkjPsW2e4pLAYXSgxx-RSZQNL&quot;&gt;ici&lt;/a&gt;.</text>
+        <planningInfos>
+          <effects>
+            <fact value="louange-ecouter"/>
+          </effects>
+        </planningInfos>
+      </message>
+    </folder>
     <folder name="Marie" id="marie-prieres">
       <message name="Je vous salue Marie" id="je-vous-salue-marie">
         <tests>
@@ -8851,6 +9005,34 @@
         <sourceId>diocese-de-paris</sourceId>
         <text>Je vous salue Marie,&#10;pleine de grâce&#10;Le Seigneur est avec vous,&#10;vous êtes bénie entre toutes les femmes&#10;et Jésus, le fruit de vos entrailles, est béni.&#10;Sainte Marie,&#10;Mère de Dieu,&#10;priez pour nous,&#10;pauvres pécheurs&#10;maintenant et à l’heure de notre mort.&#10;Amen</text>
       </message>
+      <folder name="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie" defaultSourceId="interne">
+        <message name="Explication &quot;Je vous salue Marie&quot;" id="explication-je-vous-salue-marie">
+          <triggers>
+            <trigger value="Le &quot;Je vous salue Marie&quot; est-il biblique ?"/>
+          </triggers>
+          <references>
+            <bible book="Judg" chapter="6" verseBegin="11" verseEnd="14"/>
+            <bible book="Lk" chapter="1" verseBegin="28" verseEnd="29"/>
+            <bible book="Zeph" chapter="3" verseBegin="14" verseEnd="15"/>
+            <bible book="Zech" chapter="2" verseBegin="14"/>
+            <bible book="Zech" chapter="9" verseBegin="9"/>
+          </references>
+          <sourceId>paroisse-universitaire-notre-dame-de-l-esperance</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rc6LoVK2YII&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie">
+          <triggers>
+            <trigger value="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?"/>
+          </triggers>
+          <sourceId>paroisse-universitaire-notre-dame-de-l-esperance</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bD1Mi-8hg5Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <planningInfos>
+            <effects>
+              <fact value="louange-louer-avec-marie"/>
+            </effects>
+          </planningInfos>
+        </message>
+      </folder>
       <message name="Prier avec Marie" id="prier-avec-marie">
         <tests>
           <test input="Pourquoi prier avec Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2RJq505vlrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 19,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 1,26-38&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;prier-avec-marie&quot; textlength=&quot;36&quot; /&gt;"/>
