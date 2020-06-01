@@ -2347,7 +2347,7 @@
         <goal value="aller-au-ciel"/>
       </goals>
       <changeSubjectInfos>
-        <subjectInfos title="Quiz" description="Répondre à un petit questionnaire sur la foi chrétienne." message="Pose-moi des questions"/>
+        <subjectInfos title="Je veux faire un quiz" description="C&apos;est un petit jeux où vous devrez répondre à 5 questions à choix multiples." message="Pose-moi des questions"/>
       </changeSubjectInfos>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
@@ -3195,7 +3195,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>diocese-de-toulouse</sourceId>
-              <text> Quel livre de la Bible raconte la « Création » ?</text>
+              <text fileType="text_and_html">&lt;span&gt; [`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel livre de la Bible raconte la « Création » ?&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
@@ -3230,7 +3230,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>diocese-de-toulouse</sourceId>
-              <text>Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament?</text>
+              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament?&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
@@ -3271,7 +3271,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>diocese-de-toulouse</sourceId>
-              <text>Combien de fois Pierre a-t-il renié Jésus ?</text>
+              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien de fois Pierre a-t-il renié Jésus ?&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
@@ -3313,7 +3313,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>bible</sourceId>
-              <text>Dans quelle ville est né Jésus ?</text>
+              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Dans quelle ville est né Jésus ?&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
@@ -3377,7 +3377,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>diocese-de-toulouse</sourceId>
-              <text>Jésus a été circoncis.</text>
+              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Jésus a été circoncis.&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
@@ -3400,10 +3400,15 @@
                 <recommendation/>
               </recommendations>
               <sourceId>interne</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Ok, je vais vous poser 3 questions.&lt;/span&gt;</text>
+              <text fileType="text_and_html">&lt;span&gt;Ok, je vais vous poser 5 questions.&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
+                    <elts>
+                      <elt type="fact" value="quiz-max-nombre-de-questions"/>
+                      <elt type="operator" value="="/>
+                      <elt type="value" value="5"/>
+                    </elts>
                     <elts>
                       <elt type="fact" value="quiz-nombre-de-questions"/>
                       <elt type="operator" value="="/>
@@ -3424,7 +3429,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>diocese-de-toulouse</sourceId>
-              <text>Quel est le jour où les chrétiens doivent se consacrer à Dieu ?</text>
+              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel est le jour où les chrétiens doivent se consacrer à Dieu ?&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>
@@ -3483,7 +3488,7 @@
               </recommendations>
               <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
               <sourceId>diocese-de-toulouse</sourceId>
-              <text>Quels sont les deux premiers mots de la Bible ?</text>
+              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quels sont les deux premiers mots de la Bible ?&lt;/span&gt;</text>
               <planningInfos>
                 <effects>
                   <exps>

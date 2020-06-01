@@ -27,13 +27,14 @@
     <continuationTexts>
       <continuation facts="replanifier-pour-quiz" text="Repose-moi ta question"/>
       <continuation facts="${quiz-nombre-de-questions}=0" text="Jouer"/>
-      <continuation facts="${quiz-nombre-de-questions}=3" text="Voir le résultat"/>
-      <continuation text="Posez moi la `${quiz-nombre-de-questions}+1`e question sur 3."/>
+      <continuation facts="${quiz-max-nombre-de-questions}=${quiz-nombre-de-questions}" text="Voir le résultat"/>
+      <continuation facts="${quiz-max-nombre-de-questions}=${quiz-nombre-de-questions}+1" text="Posez-moi la dernière question."/>
+      <continuation text="Posez-moi la `${quiz-nombre-de-questions}+1`e question sur ${quiz-max-nombre-de-questions}."/>
     </continuationTexts>
   </fact>
   <fact id="quiz-fini-de-poser-toutes-les-questions">
     <preconditionFacts>
-      <preconditionSet>${quiz-nombre-de-questions}=3</preconditionSet>
+      <preconditionSet>${quiz-nombre-de-questions}=${quiz-max-nombre-de-questions}</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="simple-comme-bonjour-et-si-on-agissait"/>
