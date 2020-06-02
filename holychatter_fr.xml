@@ -1539,559 +1539,590 @@
         </folder>
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1">
-        <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2">
-          <message name="Multiplication des pains" id="multiplication-des-pains">
-            <triggers>
-              <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
-            </triggers>
-            <references>
-              <bible book="Mt" chapter="14" verseBegin="13" verseEnd="21"/>
-            </references>
-            <sourceId>pierre-fricot</sourceId>
-            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7z_4koc9vrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </message>
+        <folder name="Par thèmes" id="par-themes" nb="1" defaultSourceId="interne">
+          <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2">
+            <message name="Multiplication des pains" id="multiplication-des-pains">
+              <triggers>
+                <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
+              </triggers>
+              <references>
+                <bible book="Mt" chapter="14" verseBegin="13" verseEnd="21"/>
+              </references>
+              <sourceId>pierre-fricot</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7z_4koc9vrY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
+          <folder name="Paraboles" id="paraboles" nb="1">
+            <folder name="L&apos;ami importun" id="l-ami-importun">
+              <message name="Lire la parabole de l&apos;ami importun" id="lire-la-parabole-de-l-ami-importun">
+                <tests>
+                  <test input="Lire la parabole de l&apos;ami importun." output="Tu peux lire la parabole de l&apos;ami importunu grâce aux versets de la Bible ci-dessous." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 11,5-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-l-ami-importun&quot; textlength=&quot;5&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole de l&apos;ami importun."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="11" verseBegin="5" verseEnd="13"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole de l&apos;ami importunu grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="La brebis égarée" id="la-brebis-egaree">
+              <message name="Jésus raconte la parabole de la brebis égarée 【HD】" id="jesus-raconte-la-parabole-de-la-brebis-egaree-hd">
+                <tests>
+                  <test input="Montre-moi la parabole de la brebis égarée." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,2-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole de la brebis égarée."/>
+                  <trigger value="_Lire la parabole de la brebis égarée."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="15" verseBegin="2" verseEnd="7"/>
+                </references>
+                <sourceId>nedar</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole de la brebis égarée" id="lire-la-parabole-de-la-brebis-egaree">
+                <tests>
+                  <test input="Lire la parabole de la brebis égarée." output="Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,2-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-brebis-egaree&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,2-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole de la brebis égarée."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="15" verseBegin="2" verseEnd="7"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;</text>
+              </message>
+            </folder>
+            <folder name="La graine de moutarde" id="la-graine-de-moutarde">
+              <message name="Film d&apos;animation LA BIBLE : la parabole de la graine de moutarde" id="film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde">
+                <tests>
+                  <test input="Montre-moi la parabole de la graine de moutarde." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;15&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole de la graine de moutarde."/>
+                  <trigger value="_Lire la parabole de la graine de moutarde."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="31" verseEnd="32"/>
+                </references>
+                <sourceId>chantliturgique</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole de la graine de moutarde" id="lire-la-parabole-de-la-graine-de-moutarde">
+                <tests>
+                  <test input="Lire la parabole de la graine de moutarde." output="Tu peux lire la parabole de la graine de moutarde grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;15&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole de la graine de moutarde."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="31" verseEnd="32"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole de la graine de moutarde grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="La maison bâtie sur le roc" id="la-maison-batie-sur-le-roc">
+              <message name="Film d&apos;animation LA BIBLE : l&apos;homme qui a bâti sa maison sur le roc" id="film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc">
+                <tests>
+                  <test input="Montre-moi la parabole de la maison bâtie sur le roc." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,21-27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc&quot; textlength=&quot;15&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole de la maison bâtie sur le roc."/>
+                  <trigger value="_Lire la parabole de la maison bâtie sur le roc."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="7" verseBegin="21" verseEnd="27"/>
+                </references>
+                <sourceId>chantliturgique</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="La parabole de la maison bâtie sur le roc" id="la-parabole-de-la-maison-batie-sur-le-roc">
+                <tests>
+                  <test input="Lire la parabole de la maison bâtie sur le roc." output="Tu peux lire la parabole de la maison bâtie sur le roc grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,21-27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-de-la-maison-batie-sur-le-roc&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,21-27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc&quot; textlength=&quot;15&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole de la maison bâtie sur le roc."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="7" verseBegin="21" verseEnd="27"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole de la maison bâtie sur le roc grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="La parabole du filet" id="la-parabole-du-filet">
+              <message name="La parabole du filet" id="la-parabole-du-filet">
+                <tests>
+                  <test input="Montre-moi la parabole du filet." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-du-filet&quot; textlength=&quot;13&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du filet rempli de poissons." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-du-filet&quot; textlength=&quot;13&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du filet."/>
+                  <trigger value="Montre-moi la parabole du filet rempli de poissons."/>
+                  <trigger value="_Lire la parabole du filet rempli de poissons."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="47" verseEnd="50"/>
+                </references>
+                <sourceId>gilles-rossel</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="La parabole du filet rempli de poissons" id="la-parabole-du-filet-rempli-de-poissons">
+                <tests>
+                  <test input="Lire la parabole du filet rempli de poissons" output="La parabole du filet rempli de poissons est une métaphore sur la fin des temps et le tri des âmes.&#10;Tu peux lire cette parabole aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-filet-rempli-de-poissons&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-du-filet&quot; textlength=&quot;13&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du filet rempli de poissons."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="47" verseEnd="50"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>La parabole du filet rempli de poissons est une métaphore sur la fin des temps et le tri des âmes.&#10;Tu peux lire cette parabole aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="La parabole du publicain et du pharisien" id="la-parabole-du-publicain-et-du-pharisien">
+              <message name="Le pharisien et le collecteur d&apos;impôts" id="le-pharisien-et-le-collecteur-d-impts">
+                <tests>
+                  <test input="Montre-moi la parabole du pharisien et du collecteur d&apos;impôts." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CENTRE ÉVANGÉLIQUE - assemblée de Dieu de DRUCOURT&quot; resourceid=&quot;le-pharisien-et-le-collecteur-d-impts&quot; textlength=&quot;53&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du pharisien et du publicain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CENTRE ÉVANGÉLIQUE - assemblée de Dieu de DRUCOURT&quot; resourceid=&quot;le-pharisien-et-le-collecteur-d-impts&quot; textlength=&quot;53&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du pharisien et du collecteur d&apos;impôts."/>
+                  <trigger value="Montre-moi la parabole du pharisien et du publicain."/>
+                  <trigger value="_Lire la parabole du publicain et du pharisien."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="18" verseBegin="9" verseEnd="14"/>
+                </references>
+                <sourceId>centre-evangelique-assemblee-de-dieu-de-drucourt</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du publicain et du pharisien" id="lire-la-parabole-du-publicain-et-du-pharisien">
+                <tests>
+                  <test input="Lire la parabole du publicain et du pharisien." output="Tu peux lire la parabole du publicain et du pharisien grâce aux versets de la Bible&#10;ci-dessous|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-publicain-et-du-pharisien&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CENTRE ÉVANGÉLIQUE - assemblée de Dieu de DRUCOURT&quot; resourceid=&quot;le-pharisien-et-le-collecteur-d-impts&quot; textlength=&quot;53&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du publicain et du pharisien."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="18" verseBegin="9" verseEnd="14"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du publicain et du pharisien grâce aux versets de la Bible&#10;ci-dessous</text>
+              </message>
+            </folder>
+            <folder name="La parabole du semeur" id="la-parabole-du-semeur">
+              <message name="La parabole du semeur" id="la-parabole-du-semeur">
+                <tests>
+                  <test input="Montre-moi la parabole du semeur." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X03hBkd2_xc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,1-23&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 4,1-20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 8,4-15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Campus pour Christ&quot; resourceid=&quot;la-parabole-du-semeur&quot; textlength=&quot;18&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du semeur."/>
+                  <trigger value="_Lire la parabole du semeur."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="1" verseEnd="23"/>
+                  <bible book="Mk" chapter="4" verseBegin="1" verseEnd="20"/>
+                  <bible book="Lk" chapter="8" verseBegin="4" verseEnd="15"/>
+                </references>
+                <sourceId>campus-pour-christ</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X03hBkd2_xc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du semeur" id="lire-la-parabole-du-semeur">
+                <tests>
+                  <test input="Lire la parabole du semeur." output="Tu peux lire la parabole du semeur grâce aux versets de la Bible&#10;ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X03hBkd2_xc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,1-23&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 4,1-20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 8,4-15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-semeur&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,1-23&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 4,1-20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 8,4-15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Campus pour Christ&quot; resourceid=&quot;la-parabole-du-semeur&quot; textlength=&quot;18&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du semeur."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="1" verseEnd="23"/>
+                  <bible book="Mk" chapter="4" verseBegin="1" verseEnd="20"/>
+                  <bible book="Lk" chapter="8" verseBegin="4" verseEnd="15"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du semeur grâce aux versets de la Bible&#10;ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le bon Samaritain" id="le-bon-samaritain">
+              <message name="La parabole du bon Samaritain 【HD】" id="la-parabole-du-bon-samaritain-hd">
+                <tests>
+                  <test input="Montre-moi la parabole du bon Samaritain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du bon Samaritain."/>
+                  <trigger value="_Lire la parabole du bon Samaritain."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
+                </references>
+                <sourceId>nedar</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du bon Samaritain" id="lire-la-parabole-du-bon-samaritain">
+                <tests>
+                  <test input="Lire la parabole du bon Samaritain." output="Tu peux lire la parabole du bon Samaritain grâce aux versets de la Bible&#10;ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du bon Samaritain."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du bon Samaritain grâce aux versets de la Bible&#10;ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le bon grain et l&apos;ivraie" id="le-bon-grain-et-l-ivraie">
+              <message name="Jésus raconte la parabole du blé et de l’ivraie 【HD】" id="jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd">
+                <tests>
+                  <test input="Montre-moi la parabole du blé et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du bon grain et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du blé et de l’ivraie."/>
+                  <trigger value="Montre-moi la parabole du bon grain et de l’ivraie."/>
+                  <trigger value="_Lire la parabole du bon grain et de l&apos;ivraie."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="24" verseEnd="30"/>
+                  <bible book="Mt" chapter="13" verseBegin="36" verseEnd="43"/>
+                </references>
+                <sourceId>nedar</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du bon grain et de l&apos;ivraie" id="lire-la-parabole-du-bon-grain-et-de-l-ivraie">
+                <tests>
+                  <test input="Lire la parabole du bon grain et de l&apos;ivraie." output="Tu peux Lire la parabole du bon grain et de l&apos;ivraie grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-grain-et-de-l-ivraie&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du bon grain et de l&apos;ivraie."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="24" verseEnd="30"/>
+                  <bible book="Mt" chapter="13" verseBegin="36" verseEnd="43"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux Lire la parabole du bon grain et de l&apos;ivraie grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le bon pasteur" id="le-bon-pasteur">
+              <message name="Je suis le bon berger 【HD】" id="je-suis-le-bon-berger-hd">
+                <tests>
+                  <test input="Montre-moi la parabole du bon berger." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du bon pasteur." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Qui est mon maître ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Qui est ton maître ?" output="Mon maître est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Qui est ton berger ?" output="Mon berger est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Qui est ton pasteur ?" output="Mon pasteur est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du bon berger."/>
+                  <trigger value="Montre-moi la parabole du bon pasteur."/>
+                  <trigger value="Qui est mon maître ?"/>
+                  <trigger value="_Lire la parabole du bon pasteur."/>
+                </triggers>
+                <description>C&apos;est mon maître.&#10;C&apos;est mon berger.&#10;C&apos;est mon pasteur.</description>
+                <references>
+                  <bible book="Jn" chapter="10" verseBegin="1" verseEnd="18"/>
+                </references>
+                <sourceId>nedar</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du bon pasteur" id="lire-la-parabole-du-bon-pasteur">
+                <tests>
+                  <test input="Lire la parabole du bon pasteur." output="Tu peux lire la parabole du bon pasteur grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-pasteur&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du bon pasteur."/>
+                </triggers>
+                <references>
+                  <bible book="Jn" chapter="10" verseBegin="1" verseEnd="18"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du bon pasteur grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le fils prodigue" id="le-fils-prodigue">
+              <message name="La parabole du fils prodigue 【HD】" id="la-parabole-du-fils-prodigue-hd">
+                <tests>
+                  <test input="Montre-moi la parabole du fils prodigue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du fils prodigue."/>
+                  <trigger value="_Lire la parabole du fils prodigue."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
+                </references>
+                <sourceId>nedar</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du fils prodigue" id="lire-la-parabole-du-fils-prodigue">
+                <tests>
+                  <test input="Lire la parabole du fils prodigue." output="Tu peux lire la parabole du fils prodigue grâce aux versets de la Bible&#10;ci-dessous|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-fils-prodigue&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du fils prodigue."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du fils prodigue grâce aux versets de la Bible&#10;ci-dessous</text>
+              </message>
+            </folder>
+            <folder name="Le levain" id="le-levain">
+              <message name="La parabole du levain" id="la-parabole-du-levain">
+                <tests>
+                  <test input="Montre-moi la parabole du levain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Godly Play Foundation&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;21&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du levain."/>
+                  <trigger value="_Lire la parabole du levain."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="33"/>
+                </references>
+                <sourceId>godly-play-foundation</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du levain" id="lire-la-parabole-du-levain">
+                <tests>
+                  <test input="Lire la parabole du levain." output="Tu peux lire la parabole du levain grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-levain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Godly Play Foundation&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;21&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du levain."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="13" verseBegin="33"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du levain grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le mauvais riche et le pauvre Lazare" id="le-mauvais-riche-et-le-pauvre-lazare">
+              <message name="Lazare et l&apos;homme riche | Luc 16:19–31" id="lazare-et-l-homme-riche-luc">
+                <tests>
+                  <test input="Montre-moi la parabole de l&apos;homme riche et de Lazare." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iXmDNeEoDy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 16,19-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;José André&quot; resourceid=&quot;lazare-et-l-homme-riche-luc&quot; textlength=&quot;12&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole de l&apos;homme riche et de Lazare."/>
+                  <trigger value="_Lire la parabole du mauvais riche et du pauvre Lazare."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="16" verseBegin="19" verseEnd="31"/>
+                </references>
+                <sourceId>jose-andre</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iXmDNeEoDy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole du mauvais riche et du pauvre Lazare" id="lire-la-parabole-du-mauvais-riche-et-du-pauvre-lazare">
+                <tests>
+                  <test input="Lire la parabole du mauvais riche et du pauvre Lazare." output="Tu peux lire la parabole du mauvais riche et du pauvre Lazare grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iXmDNeEoDy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 16,19-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-mauvais-riche-et-du-pauvre-lazare&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 16,19-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;José André&quot; resourceid=&quot;lazare-et-l-homme-riche-luc&quot; textlength=&quot;12&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du mauvais riche et du pauvre Lazare."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="16" verseBegin="19" verseEnd="31"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du mauvais riche et du pauvre Lazare grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le riche insensé" id="le-riche-insense">
+              <message name="Lire la parabole du riche insensé" id="lire-la-parabole-du-riche-insense">
+                <tests>
+                  <test input="lire la parabole du riche insensé" output="Tu peux lire la parabole du riche insensé grâce aux versets de la Bible ci-dessous." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 12,15-21&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-riche-insense&quot; textlength=&quot;5&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du riche insensé."/>
+                </triggers>
+                <references>
+                  <bible book="Lk" chapter="12" verseBegin="15" verseEnd="21"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du riche insensé grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="Le serviteur impitoyable" id="le-serviteur-impitoyable">
+              <message name="La parabole du serviteur impitoyable" id="la-parabole-du-serviteur-impitoyable">
+                <tests>
+                  <test input="Lire la parabole du serviteur impitoyable." output="Tu peux lire la parabole du serviteur impitoyable grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bh1SoDCzEOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 18,23-35&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-serviteur-impitoyable&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 18,23-35&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pasto Vieux-Beauport&quot; resourceid=&quot;le-serviteur-impitoyablewmv&quot; textlength=&quot;20&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole du serviteur impitoyable."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="18" verseBegin="23" verseEnd="35"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole du serviteur impitoyable grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+              <message name="Le Serviteur Impitoyable.wmv" id="le-serviteur-impitoyablewmv">
+                <tests>
+                  <test input="Montre-moi la parabole du serviteur impitoyable." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bh1SoDCzEOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 18,23-35&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pasto Vieux-Beauport&quot; resourceid=&quot;le-serviteur-impitoyablewmv&quot; textlength=&quot;20&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole du serviteur impitoyable."/>
+                  <trigger value="_Lire la parabole du serviteur impitoyable."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="18" verseBegin="23" verseEnd="35"/>
+                </references>
+                <sourceId>pasto-vieux-beauport</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bh1SoDCzEOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+            </folder>
+            <folder name="Les dix vierges" id="les-dix-vierges">
+              <message name="La parable des dix vierges" id="la-parable-des-dix-vierges">
+                <tests>
+                  <test input="Lire la parable de la nuit de l&apos;Epoux." output="Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parable-des-dix-vierges&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
+                  <test input="Lire la parable des vierges sages et des vierges folles." output="Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parable-des-dix-vierges&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
+                  <test input="Lire la parable des dix vierges." output="Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parable-des-dix-vierges&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parable des dix vierges."/>
+                  <trigger value="Lire la parable des vierges sages et des vierges folles."/>
+                  <trigger value="Lire la parable de la nuit de l&apos;Epoux."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="25" verseBegin="1" verseEnd="13"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.</text>
+              </message>
+              <message name="Parabole des dix vierges - La nuit de l&apos;Epoux" id="parabole-des-dix-vierges-la-nuit-de-l-epoux">
+                <tests>
+                  <test input="Montre-moi la parabole des dix vierges." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole des vierges sages et des vierges folles." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole des dix vierges."/>
+                  <trigger value="Montre-moi la parabole des vierges sages et des vierges folles."/>
+                  <trigger value="_Lire la parable des dix vierges."/>
+                  <trigger value="_Lire la parable des vierges sages et des vierges folles."/>
+                  <trigger value="_Lire la parable de la nuit de l&apos;Epoux."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="25" verseBegin="1" verseEnd="13"/>
+                </references>
+                <sourceId>centre-d-accueil-suisse</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+            </folder>
+            <folder name="Les ouvriers de la onzième heure" id="les-ouvriers-de-la-onzieme-heure">
+              <message name="La parabole des ouvriers, évangile de Matthieu 20: 1-16" id="la-parabole-des-ouvriers-evangile-de-matthieu">
+                <tests>
+                  <test input="Montre-moi la parabole des ouvriers de la onzième heure." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole de la vigne et du vigneron." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Montre-moi la parabole des ouvriers de la onzième heure."/>
+                  <trigger value="Montre-moi la parabole de la vigne et du vigneron."/>
+                  <trigger value="_Lire la parabole des ouvriers de la onzième heure."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
+                </references>
+                <sourceId>gilles-rossel</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+              <message name="Lire la parabole des ouvriers de la onzième heure" id="lire-la-parabole-des-ouvriers-de-la-onzieme-heure">
+                <tests>
+                  <test input="Lire la parabole des ouvriers de la onzième heure." output="Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-des-ouvriers-de-la-onzieme-heure&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Lire la parabole des ouvriers de la onzième heure."/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
+                </references>
+                <sourceId>bible</sourceId>
+                <text>Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous.</text>
+              </message>
+            </folder>
+            <folder name="À propos" id="a-propos">
+              <message name="Les paraboles" id="les-paraboles">
+                <triggers>
+                  <trigger value="Quels sont les paraboles de Jésus ?"/>
+                </triggers>
+                <sourceId>kto</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c8IiedtrEwM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+            </folder>
+          </folder>
+          <folder name="Résurrection" id="resurrection" nb="3">
+            <message name="Jésus est réssuscité" id="jesus-est-ressuscite">
+              <tests>
+                <test input="Est-ce que Jésus est réssuscité ?" output="Oui, Jésus est réssuscité." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite&quot; textlength=&quot;74&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-est-ressuscite&quot; textlength=&quot;5&quot; /&gt;"/>
+              </tests>
+              <references>
+                <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
+                <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
+                <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
+                <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
+                <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
+                <bible book="1 Cor" chapter="15" verseBegin="16" verseEnd="26"/>
+                <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
+                <site book="https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite"/>
+              </references>
+              <sourceId>bible</sourceId>
+              <text>Jésus est réssuscité.</text>
+            </message>
+            <message name="La résurrection du Christ, simple légende ou fait historique ?" id="la-resurrection-du-christ-simple-legende-ou-fait-historique">
+              <tests>
+                <test input="la résurrection de Jésus" output="La Résurrection de Jésus est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;la-resurrection-du-christ-simple-legende-ou-fait-historique&quot; textlength=&quot;15&quot; /&gt;"/>
+              </tests>
+              <description>C&apos;est la résurrection de Jésus.</description>
+              <references>
+                <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
+                <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
+                <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
+                <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
+                <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
+                <bible book="1 Cor" chapter="15" verseBegin="16" verseEnd="26"/>
+                <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
+              </references>
+              <sourceId>comprendre-dieu</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
         </folder>
-        <folder name="Paraboles" id="paraboles" nb="1">
-          <folder name="L&apos;ami importun" id="l-ami-importun">
-            <message name="Lire la parabole de l&apos;ami importun" id="lire-la-parabole-de-l-ami-importun">
+        <folder name="Par évangélistes" id="par-evangelistes" nb="2" defaultSourceId="interne">
+          <folder name="Matthieu" id="matthieu" nb="1" defaultSourceId="interne">
+            <message name="Matthieu 1–13 - Synthèse" id="matthieu-113-synthese" nb="1">
               <tests>
-                <test input="Lire la parabole de l&apos;ami importun." output="Tu peux lire la parabole de l&apos;ami importunu grâce aux versets de la Bible ci-dessous." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 11,5-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-l-ami-importun&quot; textlength=&quot;5&quot; /&gt;"/>
+                <test input="Fais-moi un résumé du début de l&apos;Évangile selon Matthieu !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wOJY7gRBkNU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;matthieu-113-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
               <triggers>
-                <trigger value="Lire la parabole de l&apos;ami importun."/>
+                <trigger value="Fais-moi un résumé du début de l&apos;Évangile selon Matthieu !"/>
               </triggers>
               <references>
-                <bible book="Lk" chapter="11" verseBegin="5" verseEnd="13"/>
+                <bible book="Mt" chapter="1"/>
+                <bible book="Mt" chapter="2"/>
+                <bible book="Mt" chapter="3"/>
+                <bible book="Mt" chapter="4"/>
+                <bible book="Mt" chapter="5"/>
+                <bible book="Mt" chapter="6"/>
+                <bible book="Mt" chapter="7"/>
+                <bible book="Mt" chapter="8"/>
+                <bible book="Mt" chapter="9"/>
+                <bible book="Mt" chapter="10"/>
+                <bible book="Mt" chapter="11"/>
+                <bible book="Mt" chapter="12"/>
+                <bible book="Mt" chapter="13"/>
               </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole de l&apos;ami importunu grâce aux versets de la Bible ci-dessous.</text>
+              <sourceId>bibleproject</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wOJY7gRBkNU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="La brebis égarée" id="la-brebis-egaree">
-            <message name="Jésus raconte la parabole de la brebis égarée 【HD】" id="jesus-raconte-la-parabole-de-la-brebis-egaree-hd">
-              <tests>
-                <test input="Montre-moi la parabole de la brebis égarée." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,2-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole de la brebis égarée."/>
-                <trigger value="_Lire la parabole de la brebis égarée."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="15" verseBegin="2" verseEnd="7"/>
-              </references>
-              <sourceId>nedar</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole de la brebis égarée" id="lire-la-parabole-de-la-brebis-egaree">
-              <tests>
-                <test input="Lire la parabole de la brebis égarée." output="Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,2-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-brebis-egaree&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,2-7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole de la brebis égarée."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="15" verseBegin="2" verseEnd="7"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;</text>
-            </message>
-          </folder>
-          <folder name="La graine de moutarde" id="la-graine-de-moutarde">
-            <message name="Film d&apos;animation LA BIBLE : la parabole de la graine de moutarde" id="film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde">
-              <tests>
-                <test input="Montre-moi la parabole de la graine de moutarde." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;15&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole de la graine de moutarde."/>
-                <trigger value="_Lire la parabole de la graine de moutarde."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="31" verseEnd="32"/>
-              </references>
-              <sourceId>chantliturgique</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole de la graine de moutarde" id="lire-la-parabole-de-la-graine-de-moutarde">
-              <tests>
-                <test input="Lire la parabole de la graine de moutarde." output="Tu peux lire la parabole de la graine de moutarde grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,31-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-la-parabole-de-la-graine-de-moutarde&quot; textlength=&quot;15&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole de la graine de moutarde."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="31" verseEnd="32"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole de la graine de moutarde grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="La maison bâtie sur le roc" id="la-maison-batie-sur-le-roc">
-            <message name="Film d&apos;animation LA BIBLE : l&apos;homme qui a bâti sa maison sur le roc" id="film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc">
-              <tests>
-                <test input="Montre-moi la parabole de la maison bâtie sur le roc." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,21-27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc&quot; textlength=&quot;15&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole de la maison bâtie sur le roc."/>
-                <trigger value="_Lire la parabole de la maison bâtie sur le roc."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="7" verseBegin="21" verseEnd="27"/>
-              </references>
-              <sourceId>chantliturgique</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="La parabole de la maison bâtie sur le roc" id="la-parabole-de-la-maison-batie-sur-le-roc">
-              <tests>
-                <test input="Lire la parabole de la maison bâtie sur le roc." output="Tu peux lire la parabole de la maison bâtie sur le roc grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,21-27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-de-la-maison-batie-sur-le-roc&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 7,21-27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;chantliturgique&quot; resourceid=&quot;film-d-animation-la-bible-l-homme-qui-a-bati-sa-maison-sur-le-roc&quot; textlength=&quot;15&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole de la maison bâtie sur le roc."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="7" verseBegin="21" verseEnd="27"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole de la maison bâtie sur le roc grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="La parabole du filet" id="la-parabole-du-filet">
-            <message name="La parabole du filet" id="la-parabole-du-filet">
-              <tests>
-                <test input="Montre-moi la parabole du filet." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-du-filet&quot; textlength=&quot;13&quot; /&gt;"/>
-                <test input="Montre-moi la parabole du filet rempli de poissons." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-du-filet&quot; textlength=&quot;13&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du filet."/>
-                <trigger value="Montre-moi la parabole du filet rempli de poissons."/>
-                <trigger value="_Lire la parabole du filet rempli de poissons."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="47" verseEnd="50"/>
-              </references>
-              <sourceId>gilles-rossel</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="La parabole du filet rempli de poissons" id="la-parabole-du-filet-rempli-de-poissons">
-              <tests>
-                <test input="Lire la parabole du filet rempli de poissons" output="La parabole du filet rempli de poissons est une métaphore sur la fin des temps et le tri des âmes.&#10;Tu peux lire cette parabole aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t7YOAahaDV0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-filet-rempli-de-poissons&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,47-50&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-du-filet&quot; textlength=&quot;13&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du filet rempli de poissons."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="47" verseEnd="50"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>La parabole du filet rempli de poissons est une métaphore sur la fin des temps et le tri des âmes.&#10;Tu peux lire cette parabole aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="La parabole du publicain et du pharisien" id="la-parabole-du-publicain-et-du-pharisien">
-            <message name="Le pharisien et le collecteur d&apos;impôts" id="le-pharisien-et-le-collecteur-d-impts">
-              <tests>
-                <test input="Montre-moi la parabole du pharisien et du collecteur d&apos;impôts." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CENTRE ÉVANGÉLIQUE - assemblée de Dieu de DRUCOURT&quot; resourceid=&quot;le-pharisien-et-le-collecteur-d-impts&quot; textlength=&quot;53&quot; /&gt;"/>
-                <test input="Montre-moi la parabole du pharisien et du publicain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CENTRE ÉVANGÉLIQUE - assemblée de Dieu de DRUCOURT&quot; resourceid=&quot;le-pharisien-et-le-collecteur-d-impts&quot; textlength=&quot;53&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du pharisien et du collecteur d&apos;impôts."/>
-                <trigger value="Montre-moi la parabole du pharisien et du publicain."/>
-                <trigger value="_Lire la parabole du publicain et du pharisien."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="18" verseBegin="9" verseEnd="14"/>
-              </references>
-              <sourceId>centre-evangelique-assemblee-de-dieu-de-drucourt</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du publicain et du pharisien" id="lire-la-parabole-du-publicain-et-du-pharisien">
-              <tests>
-                <test input="Lire la parabole du publicain et du pharisien." output="Tu peux lire la parabole du publicain et du pharisien grâce aux versets de la Bible&#10;ci-dessous|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8uNeDLlU690&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-publicain-et-du-pharisien&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,9-14&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;CENTRE ÉVANGÉLIQUE - assemblée de Dieu de DRUCOURT&quot; resourceid=&quot;le-pharisien-et-le-collecteur-d-impts&quot; textlength=&quot;53&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du publicain et du pharisien."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="18" verseBegin="9" verseEnd="14"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du publicain et du pharisien grâce aux versets de la Bible&#10;ci-dessous</text>
-            </message>
-          </folder>
-          <folder name="La parabole du semeur" id="la-parabole-du-semeur">
-            <message name="La parabole du semeur" id="la-parabole-du-semeur">
-              <tests>
-                <test input="Montre-moi la parabole du semeur." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X03hBkd2_xc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,1-23&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 4,1-20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 8,4-15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Campus pour Christ&quot; resourceid=&quot;la-parabole-du-semeur&quot; textlength=&quot;18&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du semeur."/>
-                <trigger value="_Lire la parabole du semeur."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="1" verseEnd="23"/>
-                <bible book="Mk" chapter="4" verseBegin="1" verseEnd="20"/>
-                <bible book="Lk" chapter="8" verseBegin="4" verseEnd="15"/>
-              </references>
-              <sourceId>campus-pour-christ</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X03hBkd2_xc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du semeur" id="lire-la-parabole-du-semeur">
-              <tests>
-                <test input="Lire la parabole du semeur." output="Tu peux lire la parabole du semeur grâce aux versets de la Bible&#10;ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X03hBkd2_xc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,1-23&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 4,1-20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 8,4-15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-semeur&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,1-23&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 4,1-20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 8,4-15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Campus pour Christ&quot; resourceid=&quot;la-parabole-du-semeur&quot; textlength=&quot;18&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du semeur."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="1" verseEnd="23"/>
-                <bible book="Mk" chapter="4" verseBegin="1" verseEnd="20"/>
-                <bible book="Lk" chapter="8" verseBegin="4" verseEnd="15"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du semeur grâce aux versets de la Bible&#10;ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le bon Samaritain" id="le-bon-samaritain">
-            <message name="La parabole du bon Samaritain 【HD】" id="la-parabole-du-bon-samaritain-hd">
-              <tests>
-                <test input="Montre-moi la parabole du bon Samaritain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du bon Samaritain."/>
-                <trigger value="_Lire la parabole du bon Samaritain."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
-              </references>
-              <sourceId>nedar</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du bon Samaritain" id="lire-la-parabole-du-bon-samaritain">
-              <tests>
-                <test input="Lire la parabole du bon Samaritain." output="Tu peux lire la parabole du bon Samaritain grâce aux versets de la Bible&#10;ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10,25-37&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du bon Samaritain."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du bon Samaritain grâce aux versets de la Bible&#10;ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le bon grain et l&apos;ivraie" id="le-bon-grain-et-l-ivraie">
-            <message name="Jésus raconte la parabole du blé et de l’ivraie 【HD】" id="jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd">
-              <tests>
-                <test input="Montre-moi la parabole du blé et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                <test input="Montre-moi la parabole du bon grain et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du blé et de l’ivraie."/>
-                <trigger value="Montre-moi la parabole du bon grain et de l’ivraie."/>
-                <trigger value="_Lire la parabole du bon grain et de l&apos;ivraie."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="24" verseEnd="30"/>
-                <bible book="Mt" chapter="13" verseBegin="36" verseEnd="43"/>
-              </references>
-              <sourceId>nedar</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du bon grain et de l&apos;ivraie" id="lire-la-parabole-du-bon-grain-et-de-l-ivraie">
-              <tests>
-                <test input="Lire la parabole du bon grain et de l&apos;ivraie." output="Tu peux Lire la parabole du bon grain et de l&apos;ivraie grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-grain-et-de-l-ivraie&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,24-30&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13,36-43&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du bon grain et de l&apos;ivraie."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="24" verseEnd="30"/>
-                <bible book="Mt" chapter="13" verseBegin="36" verseEnd="43"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux Lire la parabole du bon grain et de l&apos;ivraie grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le bon pasteur" id="le-bon-pasteur">
-            <message name="Je suis le bon berger 【HD】" id="je-suis-le-bon-berger-hd">
-              <tests>
-                <test input="Montre-moi la parabole du bon berger." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                <test input="Montre-moi la parabole du bon pasteur." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                <test input="Qui est mon maître ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                <test input="Qui est ton maître ?" output="Mon maître est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                <test input="Qui est ton berger ?" output="Mon berger est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                <test input="Qui est ton pasteur ?" output="Mon pasteur est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du bon berger."/>
-                <trigger value="Montre-moi la parabole du bon pasteur."/>
-                <trigger value="Qui est mon maître ?"/>
-                <trigger value="_Lire la parabole du bon pasteur."/>
-              </triggers>
-              <description>C&apos;est mon maître.&#10;C&apos;est mon berger.&#10;C&apos;est mon pasteur.</description>
-              <references>
-                <bible book="Jn" chapter="10" verseBegin="1" verseEnd="18"/>
-              </references>
-              <sourceId>nedar</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du bon pasteur" id="lire-la-parabole-du-bon-pasteur">
-              <tests>
-                <test input="Lire la parabole du bon pasteur." output="Tu peux lire la parabole du bon pasteur grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-pasteur&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,1-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du bon pasteur."/>
-              </triggers>
-              <references>
-                <bible book="Jn" chapter="10" verseBegin="1" verseEnd="18"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du bon pasteur grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le fils prodigue" id="le-fils-prodigue">
-            <message name="La parabole du fils prodigue 【HD】" id="la-parabole-du-fils-prodigue-hd">
-              <tests>
-                <test input="Montre-moi la parabole du fils prodigue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du fils prodigue."/>
-                <trigger value="_Lire la parabole du fils prodigue."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
-              </references>
-              <sourceId>nedar</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du fils prodigue" id="lire-la-parabole-du-fils-prodigue">
-              <tests>
-                <test input="Lire la parabole du fils prodigue." output="Tu peux lire la parabole du fils prodigue grâce aux versets de la Bible&#10;ci-dessous|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-fils-prodigue&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15,11-32&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du fils prodigue."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du fils prodigue grâce aux versets de la Bible&#10;ci-dessous</text>
-            </message>
-          </folder>
-          <folder name="Le levain" id="le-levain">
-            <message name="La parabole du levain" id="la-parabole-du-levain">
-              <tests>
-                <test input="Montre-moi la parabole du levain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Godly Play Foundation&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;21&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du levain."/>
-                <trigger value="_Lire la parabole du levain."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="33"/>
-              </references>
-              <sourceId>godly-play-foundation</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du levain" id="lire-la-parabole-du-levain">
-              <tests>
-                <test input="Lire la parabole du levain." output="Tu peux lire la parabole du levain grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-levain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13,33&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Godly Play Foundation&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;21&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du levain."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="13" verseBegin="33"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du levain grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le mauvais riche et le pauvre Lazare" id="le-mauvais-riche-et-le-pauvre-lazare">
-            <message name="Lazare et l&apos;homme riche | Luc 16:19–31" id="lazare-et-l-homme-riche-luc">
-              <tests>
-                <test input="Montre-moi la parabole de l&apos;homme riche et de Lazare." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iXmDNeEoDy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 16,19-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;José André&quot; resourceid=&quot;lazare-et-l-homme-riche-luc&quot; textlength=&quot;12&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole de l&apos;homme riche et de Lazare."/>
-                <trigger value="_Lire la parabole du mauvais riche et du pauvre Lazare."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="16" verseBegin="19" verseEnd="31"/>
-              </references>
-              <sourceId>jose-andre</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iXmDNeEoDy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole du mauvais riche et du pauvre Lazare" id="lire-la-parabole-du-mauvais-riche-et-du-pauvre-lazare">
-              <tests>
-                <test input="Lire la parabole du mauvais riche et du pauvre Lazare." output="Tu peux lire la parabole du mauvais riche et du pauvre Lazare grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iXmDNeEoDy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 16,19-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-mauvais-riche-et-du-pauvre-lazare&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 16,19-31&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;José André&quot; resourceid=&quot;lazare-et-l-homme-riche-luc&quot; textlength=&quot;12&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du mauvais riche et du pauvre Lazare."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="16" verseBegin="19" verseEnd="31"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du mauvais riche et du pauvre Lazare grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le riche insensé" id="le-riche-insense">
-            <message name="Lire la parabole du riche insensé" id="lire-la-parabole-du-riche-insense">
-              <tests>
-                <test input="lire la parabole du riche insensé" output="Tu peux lire la parabole du riche insensé grâce aux versets de la Bible ci-dessous." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 12,15-21&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-riche-insense&quot; textlength=&quot;5&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du riche insensé."/>
-              </triggers>
-              <references>
-                <bible book="Lk" chapter="12" verseBegin="15" verseEnd="21"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du riche insensé grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="Le serviteur impitoyable" id="le-serviteur-impitoyable">
-            <message name="La parabole du serviteur impitoyable" id="la-parabole-du-serviteur-impitoyable">
-              <tests>
-                <test input="Lire la parabole du serviteur impitoyable." output="Tu peux lire la parabole du serviteur impitoyable grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bh1SoDCzEOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 18,23-35&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-serviteur-impitoyable&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 18,23-35&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pasto Vieux-Beauport&quot; resourceid=&quot;le-serviteur-impitoyablewmv&quot; textlength=&quot;20&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole du serviteur impitoyable."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="18" verseBegin="23" verseEnd="35"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole du serviteur impitoyable grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-            <message name="Le Serviteur Impitoyable.wmv" id="le-serviteur-impitoyablewmv">
-              <tests>
-                <test input="Montre-moi la parabole du serviteur impitoyable." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bh1SoDCzEOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 18,23-35&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Pasto Vieux-Beauport&quot; resourceid=&quot;le-serviteur-impitoyablewmv&quot; textlength=&quot;20&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole du serviteur impitoyable."/>
-                <trigger value="_Lire la parabole du serviteur impitoyable."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="18" verseBegin="23" verseEnd="35"/>
-              </references>
-              <sourceId>pasto-vieux-beauport</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bh1SoDCzEOs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-          </folder>
-          <folder name="Les dix vierges" id="les-dix-vierges">
-            <message name="La parable des dix vierges" id="la-parable-des-dix-vierges">
-              <tests>
-                <test input="Lire la parable de la nuit de l&apos;Epoux." output="Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parable-des-dix-vierges&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
-                <test input="Lire la parable des vierges sages et des vierges folles." output="Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parable-des-dix-vierges&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
-                <test input="Lire la parable des dix vierges." output="Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parable-des-dix-vierges&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parable des dix vierges."/>
-                <trigger value="Lire la parable des vierges sages et des vierges folles."/>
-                <trigger value="Lire la parable de la nuit de l&apos;Epoux."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="25" verseBegin="1" verseEnd="13"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole des dix vierges grâce aux versets de la Bible ci-dessous.</text>
-            </message>
-            <message name="Parabole des dix vierges - La nuit de l&apos;Epoux" id="parabole-des-dix-vierges-la-nuit-de-l-epoux">
-              <tests>
-                <test input="Montre-moi la parabole des dix vierges." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
-                <test input="Montre-moi la parabole des vierges sages et des vierges folles." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Centre d’Accueil Suisse&quot; resourceid=&quot;parabole-des-dix-vierges-la-nuit-de-l-epoux&quot; textlength=&quot;25&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole des dix vierges."/>
-                <trigger value="Montre-moi la parabole des vierges sages et des vierges folles."/>
-                <trigger value="_Lire la parable des dix vierges."/>
-                <trigger value="_Lire la parable des vierges sages et des vierges folles."/>
-                <trigger value="_Lire la parable de la nuit de l&apos;Epoux."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="25" verseBegin="1" verseEnd="13"/>
-              </references>
-              <sourceId>centre-d-accueil-suisse</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/drzMepMtnfU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-          </folder>
-          <folder name="Les ouvriers de la onzième heure" id="les-ouvriers-de-la-onzieme-heure">
-            <message name="La parabole des ouvriers, évangile de Matthieu 20: 1-16" id="la-parabole-des-ouvriers-evangile-de-matthieu">
-              <tests>
-                <test input="Montre-moi la parabole des ouvriers de la onzième heure." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
-                <test input="Montre-moi la parabole de la vigne et du vigneron." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Montre-moi la parabole des ouvriers de la onzième heure."/>
-                <trigger value="Montre-moi la parabole de la vigne et du vigneron."/>
-                <trigger value="_Lire la parabole des ouvriers de la onzième heure."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
-              </references>
-              <sourceId>gilles-rossel</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-            <message name="Lire la parabole des ouvriers de la onzième heure" id="lire-la-parabole-des-ouvriers-de-la-onzieme-heure">
-              <tests>
-                <test input="Lire la parabole des ouvriers de la onzième heure." output="Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yb4J52AYczk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-des-ouvriers-de-la-onzieme-heure&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 20,1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Gilles Rossel&quot; resourceid=&quot;la-parabole-des-ouvriers-evangile-de-matthieu&quot; textlength=&quot;13&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Lire la parabole des ouvriers de la onzième heure."/>
-              </triggers>
-              <references>
-                <bible book="Mt" chapter="20" verseBegin="1" verseEnd="16"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text>Tu peux lire la parabole des ouvriers de la onzième heure aux versets de la Bible ci-dessous.</text>
-            </message>
-          </folder>
-          <folder name="À propos" id="a-propos">
-            <message name="Les paraboles" id="les-paraboles">
-              <triggers>
-                <trigger value="Quels sont les paraboles de Jésus ?"/>
-              </triggers>
-              <sourceId>kto</sourceId>
-              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c8IiedtrEwM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-            </message>
-          </folder>
-        </folder>
-        <folder name="Résurrection" id="resurrection" nb="3">
-          <message name="Jésus est réssuscité" id="jesus-est-ressuscite">
-            <tests>
-              <test input="Est-ce que Jésus est réssuscité ?" output="Oui, Jésus est réssuscité." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite&quot; textlength=&quot;74&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-est-ressuscite&quot; textlength=&quot;5&quot; /&gt;"/>
-            </tests>
-            <references>
-              <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
-              <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
-              <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
-              <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
-              <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
-              <bible book="1 Cor" chapter="15" verseBegin="16" verseEnd="26"/>
-              <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
-              <site book="https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite"/>
-            </references>
-            <sourceId>bible</sourceId>
-            <text>Jésus est réssuscité.</text>
-          </message>
-          <message name="La résurrection du Christ, simple légende ou fait historique ?" id="la-resurrection-du-christ-simple-legende-ou-fait-historique">
-            <tests>
-              <test input="la résurrection de Jésus" output="La Résurrection de Jésus est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;la-resurrection-du-christ-simple-legende-ou-fait-historique&quot; textlength=&quot;15&quot; /&gt;"/>
-            </tests>
-            <description>C&apos;est la résurrection de Jésus.</description>
-            <references>
-              <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
-              <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
-              <bible book="Jn" chapter="20" verseBegin="1" verseEnd="18"/>
-              <bible book="Mk" chapter="16" verseBegin="1" verseEnd="18"/>
-              <bible book="1 Cor" chapter="15" verseBegin="1" verseEnd="10"/>
-              <bible book="1 Cor" chapter="15" verseBegin="16" verseEnd="26"/>
-              <bible book="Acts" chapter="2" verseBegin="22" verseEnd="33"/>
-            </references>
-            <sourceId>comprendre-dieu</sourceId>
-            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </message>
         </folder>
         <folder name="À propos" id="a-propos-evangiles">
           <message name="Comment lire un évangile ?" id="comment-lire-un-evangile">
