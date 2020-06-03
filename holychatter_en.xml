@@ -253,11 +253,6 @@
       </folder>
     </folder>
     <folder name="New Testament" id="new-testament" nb="2">
-      <message name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus">
-        <description>It&apos;s the life of Jesus.</description>
-        <sourceId>internal</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
       <folder name="Gospels" id="gospels" nb="1" defaultSourceId="internal">
         <folder name="About" id="about-gospels" defaultSourceId="internal">
           <message name="There is 4 gospels" id="there-is-gospels">
@@ -269,7 +264,13 @@
           </message>
         </folder>
         <folder name="By evangelists" id="by-evangelists" nb="2" defaultSourceId="internal">
-          <folder name="John" id="john" nb="4" defaultSourceId="internal"/>
+          <folder name="John" id="john" nb="4" defaultSourceId="internal">
+            <message name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus">
+              <description>It&apos;s the life of Jesus.</description>
+              <sourceId>internal</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5hexhw3wWmE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
           <folder name="Matthew" id="matthew" nb="1" defaultSourceId="internal">
             <message name="Overview: Matthew Ch. 1-13" id="overview-matthew-ch-1-13" nb="1">
               <tests>
@@ -295,6 +296,33 @@
               </references>
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3Dv4-n6OYGI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Overview: Matthew Ch. 14-28" id="overview-matthew-ch-14-28" nb="2">
+              <tests>
+                <test input="Give me a summary of the ending of the Gospel according to Matthew!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GGCF3OPWN14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 15&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 17&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 20&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 21&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 23&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 24&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 25&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 26&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 27&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-matthew-ch-14-28&quot; textlength=&quot;12&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Give me a summary of the ending of the Gospel according to Matthew!"/>
+              </triggers>
+              <references>
+                <bible book="Mt" chapter="14"/>
+                <bible book="Mt" chapter="15"/>
+                <bible book="Mt" chapter="16"/>
+                <bible book="Mt" chapter="17"/>
+                <bible book="Mt" chapter="18"/>
+                <bible book="Mt" chapter="19"/>
+                <bible book="Mt" chapter="20"/>
+                <bible book="Mt" chapter="21"/>
+                <bible book="Mt" chapter="22"/>
+                <bible book="Mt" chapter="23"/>
+                <bible book="Mt" chapter="24"/>
+                <bible book="Mt" chapter="25"/>
+                <bible book="Mt" chapter="26"/>
+                <bible book="Mt" chapter="27"/>
+                <bible book="Mt" chapter="28"/>
+              </references>
+              <sourceId>bibleproject</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GGCF3OPWN14&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
         </folder>
@@ -3677,6 +3705,35 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>No one can believe alone and by himself, just as no one can live alone and by himself. We receive the faith from the Church and live it out in fellowship with the people with whom we share our faith.</text>
+            </message>
+          </folder>
+          <folder name="The Christian Profession of Faith" id="the-christian-profession-of-faith" nb="25" defaultSourceId="internal">
+            <message name="What are creeds?" id="what-are-creeds" nb="26">
+              <tests>
+                <test input="What are creeds?" output="Creeds are brief formulas of faith that make it possible for all believers to make a common profession." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;185-188&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;192-197&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-are-creeds&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What are creeds?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="185" verseEnd="188"/>
+                <ccc verseBegin="192" verseEnd="197"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Creeds are brief formulas of faith that make it possible for all believers to make a common profession.</text>
+            </message>
+            <message name="Why does the faith require definitions and formulas?" id="why-does-the-faith-require-definitions-and-formulas" nb="25">
+              <tests>
+                <test input="Why does the faith require definitions and formulas?" output="Faith is not about empty words but about reality. In the Church, condensed formulas of faith developed over the course of time; with their help we can contemplate, express, learn, hand on, celebrate, and live out this reality." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;170-174&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-does-the-faith-require-definitions-and-formulas&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why does the faith require definitions and formulas?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="170" verseEnd="174"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Faith is not about empty words but about reality. In the Church, condensed formulas of faith developed over the course of time; with their help we can contemplate, express, learn, hand on, celebrate, and live out this reality.</text>
             </message>
           </folder>
           <message name="Why are we on earth?" id="why-are-we-on-earth" nb="1">
