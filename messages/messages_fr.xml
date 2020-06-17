@@ -3811,7 +3811,7 @@
               <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
             </triggers>
             <sourceId>interne</sourceId>
-            <text>Voulez-vous voir une vidéo pour trouver sa vocation ?</text>
+            <text>Voulez-vous voir une vidéo pour trouver votre vocation ?</text>
           </message>
           <message name="Êtes-vous chrétien ?" id="etes-vous-chretien">
             <sourceId>interne</sourceId>
@@ -6948,11 +6948,12 @@
       </message>
       <message name="Comment trouver sa voie ? (la vocation)" id="comment-trouver-sa-voie-la-vocation">
         <tests>
-          <test input="Comment trouver sa voie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iF02zCN-oNY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,28-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-trouver-sa-voie-la-vocation&quot; textlength=&quot;36&quot; /&gt;"/>
+          <test input="Comment trouver sa voie ?" output="Je ne sais pas comment trouver sa voie." isOk="false"/>
+          <test input="Je veux voir une vidéo pour trouver ma vocation." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iF02zCN-oNY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19,28-29&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-trouver-sa-voie-la-vocation&quot; textlength=&quot;36&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Comment trouver sa voie ?"/>
-          <trigger value="Je veux voir une vidéo pour trouver sa vocation."/>
+          <trigger value="Je veux voir une vidéo pour trouver ma vocation."/>
         </triggers>
         <references>
           <bible book="Mt" chapter="19" verseBegin="28" verseEnd="29"/>
@@ -7248,13 +7249,13 @@
       </message>
       <message name="Les textes de la Bible sont fiables." id="les-textes-de-la-bible-sont-fiables">
         <tests>
-          <test input="Est-ce que la Bible est fiable ?" output="Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les lettres, lorsqu&apos;il manquait une lettre on détruisait tout." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="Est-ce que la Bible est fiable ?" output="Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisait tout." outputReferences="Source : &lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Est-ce que la Bible est fiable ?"/>
         </triggers>
         <sourceId>batir-sur-le-roc</sourceId>
-        <text>Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les lettres, lorsqu&apos;il manquait une lettre on détruisait tout.</text>
+        <text>Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisait tout.</text>
       </message>
       <message name="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." id="les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc">
         <tests>
