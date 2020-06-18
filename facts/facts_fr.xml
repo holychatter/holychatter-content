@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <factsRoot>
-  <fact id="aimer-dieu-toujours-plus"/>
-  <fact id="aimer-son-prochain"/>
+  <fact id="aimer-dieu-toujours-plus">
+    <preconditionFacts>
+      <preconditionSet>approfondir-sa-relation-a-dieu-toujours-plus, être-chrétien</preconditionSet>
+    </preconditionFacts>
+  </fact>
+  <fact id="aimer-son-prochain-toujours-plus"/>
   <fact id="aller-au-ciel">
     <preconditionFacts>
-      <preconditionSet>aimer-dieu-toujours-plus, aimer-son-prochain, être-chrétien</preconditionSet>
+      <preconditionSet>aimer-dieu-toujours-plus, aimer-son-prochain-toujours-plus</preconditionSet>
     </preconditionFacts>
     <continuationTexts>
       <continuation facts="debut-de-la-conversation" text="Je veux dialoguer avec vous"/>
       <continuation text="Continuez la discussion"/>
     </continuationTexts>
   </fact>
+  <fact id="approfondir-sa-relation-a-dieu-toujours-plus"/>
   <fact id="debut-de-la-conversation"/>
   <fact id="dire-bonjour">
     <continuationTexts>
       <continuation text="Qui êtes-vous ?"/>
     </continuationTexts>
   </fact>
+  <fact id="fiabilité-des-sources-chrétiennes"/>
+  <fact id="jésus-a-existé"/>
   <fact id="louange-définir"/>
   <fact id="louange-ecouter"/>
   <fact id="louange-louer-avec-marie"/>
@@ -46,7 +53,12 @@
   <fact id="simple-comme-bonjour-et-si-on-comprenait"/>
   <fact id="simple-comme-bonjour-passer-a-l-action"/>
   <fact id="simple-comme-bonjour-proposer-le-livret"/>
-  <fact id="véracité-du-message-chrétien"/>
+  <fact id="sources-chrétiennes-sur-jésus"/>
+  <fact id="véracité-du-message-chrétien">
+    <preconditionFacts>
+      <preconditionSet>jésus-a-existé</preconditionSet>
+    </preconditionFacts>
+  </fact>
   <fact id="être-chrétien">
     <triggers>
       <trigger>Je suis chrétien.</trigger>

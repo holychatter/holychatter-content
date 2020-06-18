@@ -3200,13 +3200,31 @@
           <sourceId>parcours-alpha</sourceId>
           <text fileType="html">&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
+          <recommendations>
+            <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text>Connaissez-vous le Parcours Alpha ?</text>
+          <planningInfos>
+            <optionalPreconditions>
+              <fact value="jésus-a-existé"/>
+              <fact value="ne-pas-être-chrétien"/>
+            </optionalPreconditions>
+            <potentialEffects>
+              <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+            </potentialEffects>
+          </planningInfos>
+        </message>
         <message name="Le Parcours Alpha, c&apos;est quoi?" id="le-parcours-alpha-c-est-quoi">
           <tests>
             <test input="Le Parcours Alpha, c&apos;est quoi?" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
             <test input="Le Parcours Alpha" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="Je ne connais pas le Parcours Alpha." isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Le Parcours Alpha, c&apos;est quoi?"/>
+            <trigger value="Je ne connais pas le Parcours Alpha."/>
           </triggers>
           <description>C&apos;est le Parcours Alpha.</description>
           <sourceId>parcours-alpha</sourceId>
@@ -3344,6 +3362,18 @@
             <sourceId>interne</sourceId>
             <text>Bonjour</text>
           </message>
+          <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
+            <sourceId>interne</sourceId>
+            <text>Croyez-vous que Jésus a existé ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="ne-pas-être-chrétien"/>
+              </optionalPreconditions>
+              <effects>
+                <fact value="jésus-a-existé"/>
+              </effects>
+            </planningInfos>
+          </message>
           <message name="Création du site" id="creation-du-site">
             <triggers>
               <trigger value="-Qui t&apos;a créé ?"/>
@@ -3360,6 +3390,19 @@
               <text>Je ne suis pas transsexuel.</text>
             </message>
           </folder>
+          <message name="Je ne crois pas que Jésus a existé." id="je-ne-crois-pas-que-jesus-a-existe">
+            <tests>
+              <test input="Je ne crois pas que Jésus a existé." output="Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus. Et comme ça après vous pourrez être fixé ?"/>
+            </tests>
+            <triggers>
+              <trigger value="Je ne crois pas que Jésus a existé."/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Oui, que sait-on sur Jésus ?" outMessageId="ce-qu-on-sait-sur-jesus"/>
+            </recommendations>
+            <sourceId>interne</sourceId>
+            <text>Pourtant il y a beaucoup d&apos;éléments de crédibilités. Je pense que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus. Et comme ça après vous pourrez être fixé.</text>
+          </message>
           <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-14-juillet-217">
             <sourceId>le-personnage-holy-chatter</sourceId>
             <text>Je suis né le 14 juillet 2017.</text>
@@ -3792,14 +3835,12 @@
             </message>
           </folder>
           <message name="Voulez-vous voir le message chrétien ?" id="voulez-vous-voir-le-message-chretien">
-            <triggers>
-              <trigger value="-Je ne suis pas chrétien."/>
-            </triggers>
             <sourceId>interne</sourceId>
             <text>Voulez-vous voir le message chrétien ?</text>
             <planningInfos>
               <optionalPreconditions>
                 <fact value="ne-pas-être-chrétien"/>
+                <fact value="pas-hyper-important"/>
               </optionalPreconditions>
               <potentialEffects>
                 <fact value="être-chrétien"/>
@@ -4594,6 +4635,148 @@
           <sourceId>bible</sourceId>
           <text fileType="text_and_html">&lt;span&gt;Dieu est devenu un homme pour partager tout ce qui concerne notre condition humaine à l&apos;exception du péché.&lt;/span&gt;</text>
         </message>
+        <folder name="Existance" id="existance" defaultSourceId="interne">
+          <message name="Ce qu&apos;on sait sur Jésus" id="ce-qu-on-sait-sur-jesus" nb="1">
+            <tests>
+              <test input="Que sait-on sur Jésus ?" output="On sait plus de choses sur Jésus que sur la plupart de ses contemporains." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;ce-qu-on-sait-sur-jesus&quot; textlength=&quot;26&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Que sait-on sur Jésus ?"/>
+            </triggers>
+            <nextMessageId>les-sources-non-chretiennes</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <text>On sait plus de choses sur Jésus que sur la plupart de ses contemporains.</text>
+          </message>
+          <message name="Ce que Flavius Josèphe écrit sur Jésus" id="ce-que-flavius-josephe-ecrit-sur-jesus" nb="4">
+            <tests>
+              <test input="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?" output="Flavius Josèphe écrit:&#10;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;ce-que-flavius-josephe-ecrit-sur-jesus&quot; textlength=&quot;26&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?"/>
+            </triggers>
+            <references>
+              <site book="https://fr.wikipedia.org/wiki/Testimonium_flavianum"/>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>wikipedia</sourceId>
+            <text>Flavius Josèphe écrit:&#10;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »&#10;Et ensuite il va se faire l&apos;écho de la crucifixion et de la résurrection de Jésus.</text>
+          </message>
+          <folder name="Critique textuelle" id="critique-textuelle" defaultSourceId="interne">
+            <message name="Comparaison Guerre des Gaulles vs Jésus" id="comparaison-guerre-des-gaulles-vs-jesus" nb="2">
+              <recommendations>
+                <recommendation text="Quel est le deuxième principe ?" outMessageId="deuxieme-principe-de-la-critique-textuelle"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <text>Pour le nouveau testament nous disposons d&apos;une copie complète qui date de 350, soit un écart d&apos;environ 300 ans après les faits originaux ce qui est très peu dans le monde des manuscrits anciens.&#10;Par exemple pour la guerre des Gaulles il y a 950 ans entre l&apos;action de César et la plus ancienne des copies et on a une dizaine de copies.</text>
+            </message>
+            <message name="Deuxième principe de la critique textuelle" id="deuxieme-principe-de-la-critique-textuelle" nb="3">
+              <recommendations>
+                <recommendation text="Qu&apos;en est-il pour le nouveau testament ?" outMessageId="nombre-d-exemplaires"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <text>Le deuxième principe de la critique textuelle est que plus il y a de copies disponibles plus on est certain de l&apos;authenticité de l&apos;original.</text>
+            </message>
+            <message name="Evangiles n&apos;ont pas été modifiés" id="evangiles-n-ont-pas-ete-modifies">
+              <triggers>
+                <trigger value="Quelles preuves a-t-on que les évangiles n&apos;ont pas été modifiés entre le moment où ils ont été écrit et maintenant ?"/>
+                <trigger value="Est-ce qu&apos;il y a eu des modifications dans le nouveau testament qui au fils du temps aurait pu altérer ce qui a été écrit ?"/>
+              </triggers>
+              <nextMessageId>premier-principe-de-la-critique-textuelle</nextMessageId>
+              <references>
+                <site book="https://fr.wikipedia.org/wiki/Critique_textuelle"/>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>wikipedia</sourceId>
+              <text>Il y a une démarche qui se penche sur la question de la fiabilité de la transcription des textes au fils du temps qui s&apos;appelle la &lt;b&gt;critique textuelle&lt;/b&gt;. C&apos;est une question qui se pose sur tous les manuscrits anciens comme sur les textes d&apos;Homère ou de Platon.</text>
+              <planningInfos>
+                <effects>
+                  <fact value="fiabilité-des-sources-chrétiennes"/>
+                </effects>
+              </planningInfos>
+            </message>
+            <message name="Nombre d&apos;exemplaires" id="nombre-d-exemplaires" nb="4">
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <text>Pour le nouveau testament nous ne sommes pas en présence de milliers de manuscrits. 5 000 en grec, 10 000 en latin et 9 000 dans d&apos;autres langues ce qui est tout à fait unique et incroyable.</text>
+            </message>
+            <message name="Premier principe de la critique textuelle" id="premier-principe-de-la-critique-textuelle" nb="1">
+              <recommendations>
+                <recommendation text="Qu&apos;en est-il pour le nouveau testament ?" outMessageId="comparaison-guerre-des-gaulles-vs-jesus"/>
+                <recommendation text="Quel est le deuxième principe ?" outMessageId="deuxieme-principe-de-la-critique-textuelle"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <text>Elle repose sur 2 principes.&#10;Le premier étant que plus le temps entre l&apos;original et la première copie est court plus la source est fiable.</text>
+            </message>
+          </folder>
+          <message name="Les sources chrétiennes" id="les-sources-chretiennes" nb="5">
+            <recommendations>
+              <recommendation text="Quelles preuves a-t-on que ces textes n&apos;ont pas été modifiés ?" outMessageId="evangiles-n-ont-pas-ete-modifies"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>bible</sourceId>
+            <text>Il y a aussi des sources chrétiennes qui parlent de Jésus. En particulier tous les écrits du nouveau testament qui ont été écrit quelques années après la mort de Jésus.</text>
+            <planningInfos>
+              <effects>
+                <fact value="sources-chrétiennes-sur-jésus"/>
+              </effects>
+              <goalsToAdd>
+                <goalsToAdd value="fiabilité-des-sources-chrétiennes"/>
+              </goalsToAdd>
+            </planningInfos>
+          </message>
+          <message name="Les sources non chrétiennes" id="les-sources-non-chretiennes" nb="2">
+            <recommendations>
+              <recommendation text="Qui parle de Jésus ?" outMessageId="les-sources-qui-parlent-de-jesus"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <text>Il y a divers sources dont la plupart sont des sources non chrétiennes.</text>
+            <planningInfos>
+              <goalsToAdd>
+                <goalsToAdd value="fiabilité-des-sources-chrétiennes"/>
+              </goalsToAdd>
+            </planningInfos>
+          </message>
+          <message name="Les sources qui parlent de Jésus" id="les-sources-qui-parlent-de-jesus" nb="3">
+            <tests>
+              <test input="Qui parle de Jésus ?" output="Il y a par exemple des écrits des historiens romains Tacite et Suétone qui citent Jésus. Il y a aussi l&apos;historien juif Flavius Josèphe." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;les-sources-qui-parlent-de-jesus&quot; textlength=&quot;26&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qui parle de Jésus ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?" outMessageId="ce-que-flavius-josephe-ecrit-sur-jesus"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <text>Il y a par exemple des écrits des historiens romains Tacite et Suétone qui citent Jésus. Il y a aussi l&apos;historien juif Flavius Josèphe.</text>
+            <planningInfos>
+              <goalsToAdd>
+                <goalsToAdd value="sources-chrétiennes-sur-jésus"/>
+              </goalsToAdd>
+            </planningInfos>
+          </message>
+        </folder>
         <message name="Jesus raconté aux enfants" id="jesus-raconte-aux-enfants">
           <triggers>
             <trigger value="Montre-moi la vie de Jésus en bande dessinée !"/>
@@ -9567,8 +9750,11 @@
           <sourceId>interne</sourceId>
           <text>Connaissez-vous l&apos;application Entourage ?</text>
           <planningInfos>
+            <optionalPreconditions>
+              <fact value="être-chrétien"/>
+            </optionalPreconditions>
             <potentialEffects>
-              <fact value="aimer-son-prochain"/>
+              <fact value="aimer-son-prochain-toujours-plus"/>
             </potentialEffects>
           </planningInfos>
         </message>
