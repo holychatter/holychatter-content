@@ -2241,6 +2241,31 @@
             <sourceId>theodom</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Tlzet3e6fAY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <folder name="Divergences" id="divergences" defaultSourceId="interne">
+            <message name="En effet il y a des divergences" id="en-effet-il-y-a-des-divergences" nb="1">
+              <tests>
+                <test input="Y a-t-il des divergences dans les évangiles ?" output="En effet, il y a des petites divergences dans les évangiles c&apos;est à dire les récits qui racontent la vie de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Y a-t-il des divergences dans les évangiles ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>En effet, il y a des petites divergences dans les évangiles c&apos;est à dire les récits qui racontent la vie de Jésus.</text>
+            </message>
+            <message name="Pourquoi il y a des divergences dans les évangiles ?" id="pourquoi-il-y-a-des-divergences-dans-les-evangiles" nb="2">
+              <triggers>
+                <trigger value="Pourquoi il y a des divergences dans les évangiles ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>C&apos;est normal qu&apos;il y ait des différences parce que c&apos;est des récits qui ont été écrits par des témoins oculaires qui ont racontés ce qu&apos;ils ont vu et chaque témoin raconte un peu différemment.</text>
+            </message>
+          </folder>
           <message name="Il y a 4 évangiles" id="il-y-a-evangiles">
             <tests>
               <test input="Combien y a-t-il d&apos;évangiles ?" output="Il y a 4 évangiles."/>
@@ -2518,6 +2543,7 @@
         <source value="Chatbot par défault"/>
         <source value="Interne"/>
         <source value="Le personnage Holy Chatter"/>
+        <source value="Parcours Alpha - La Traversée"/>
       </sourcesNotToDisplay>
       <goals>
         <goal value="dire-bonjour"/>
@@ -3401,7 +3427,7 @@
               <recommendation text="Oui, que sait-on sur Jésus ?" outMessageId="ce-qu-on-sait-sur-jesus"/>
             </recommendations>
             <sourceId>interne</sourceId>
-            <text>Pourtant il y a beaucoup d&apos;éléments de crédibilités. Je pense que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus. Et comme ça après vous pourrez être fixé.</text>
+            <text>Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé.</text>
           </message>
           <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-14-juillet-217">
             <sourceId>le-personnage-holy-chatter</sourceId>
@@ -4647,7 +4673,7 @@
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
-            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>On sait plus de choses sur Jésus que sur la plupart de ses contemporains.</text>
           </message>
           <message name="Ce que Flavius Josèphe écrit sur Jésus" id="ce-que-flavius-josephe-ecrit-sur-jesus" nb="4">
@@ -4657,6 +4683,9 @@
             <triggers>
               <trigger value="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="Que disent les sources non chrétiennes sur Jésus ?" outMessageId="jesus-a-t-il-vraiment-existe-reponse-de-la-science"/>
+            </recommendations>
             <references>
               <site book="https://fr.wikipedia.org/wiki/Testimonium_flavianum"/>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
@@ -4672,7 +4701,7 @@
               <references>
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
-              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Pour le nouveau testament nous disposons d&apos;une copie complète qui date de 350, soit un écart d&apos;environ 300 ans après les faits originaux ce qui est très peu dans le monde des manuscrits anciens.&#10;Par exemple pour la guerre des Gaulles il y a 950 ans entre l&apos;action de César et la plus ancienne des copies et on a une dizaine de copies.</text>
             </message>
             <message name="Deuxième principe de la critique textuelle" id="deuxieme-principe-de-la-critique-textuelle" nb="3">
@@ -4682,7 +4711,7 @@
               <references>
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
-              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Le deuxième principe de la critique textuelle est que plus il y a de copies disponibles plus on est certain de l&apos;authenticité de l&apos;original.</text>
             </message>
             <message name="Evangiles n&apos;ont pas été modifiés" id="evangiles-n-ont-pas-ete-modifies">
@@ -4707,7 +4736,7 @@
               <references>
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
-              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Pour le nouveau testament nous ne sommes pas en présence de milliers de manuscrits. 5 000 en grec, 10 000 en latin et 9 000 dans d&apos;autres langues ce qui est tout à fait unique et incroyable.</text>
             </message>
             <message name="Premier principe de la critique textuelle" id="premier-principe-de-la-critique-textuelle" nb="1">
@@ -4718,10 +4747,25 @@
               <references>
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
-              <sourceId>diocese-de-frejus-toulon</sourceId>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Elle repose sur 2 principes.&#10;Le premier étant que plus le temps entre l&apos;original et la première copie est court plus la source est fiable.</text>
             </message>
           </folder>
+          <message name="Exsistance historique de Jésus" id="exsistance-historique-de-jesus" nb="6">
+            <recommendations>
+              <recommendation text="Et les divergences dans les évangiles alors ?" outMessageId="en-effet-il-y-a-des-divergences"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Aujourd&apos;hui on peut dire qu&apos;aucun historien sérieux ne remet en cause l&apos;existance historique de Jésus.</text>
+            <planningInfos>
+              <effects>
+                <fact value="existance-historique-de-jésus"/>
+              </effects>
+            </planningInfos>
+          </message>
           <message name="Les sources chrétiennes" id="les-sources-chretiennes" nb="5">
             <recommendations>
               <recommendation text="Quelles preuves a-t-on que ces textes n&apos;ont pas été modifiés ?" outMessageId="evangiles-n-ont-pas-ete-modifies"/>
@@ -4747,11 +4791,12 @@
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
-            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Il y a divers sources dont la plupart sont des sources non chrétiennes.</text>
             <planningInfos>
               <goalsToAdd>
                 <goalsToAdd value="fiabilité-des-sources-chrétiennes"/>
+                <goalsToAdd value="existance-historique-de-jésus"/>
               </goalsToAdd>
             </planningInfos>
           </message>
@@ -4768,7 +4813,7 @@
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
-            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Il y a par exemple des écrits des historiens romains Tacite et Suétone qui citent Jésus. Il y a aussi l&apos;historien juif Flavius Josèphe.</text>
             <planningInfos>
               <goalsToAdd>
@@ -7466,9 +7511,11 @@
       <message name="Jésus a-t-il vraiment existé ? Réponse de la science" id="jesus-a-t-il-vraiment-existe-reponse-de-la-science">
         <tests>
           <test input="Jésus a-t-il vraiment existé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6vasbjzv34M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;C&apos;est une autre histoire&quot; resourceid=&quot;jesus-a-t-il-vraiment-existe-reponse-de-la-science&quot; textlength=&quot;24&quot; /&gt;"/>
+          <test input="Que disent les sources non chrétiennes sur Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6vasbjzv34M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;C&apos;est une autre histoire&quot; resourceid=&quot;jesus-a-t-il-vraiment-existe-reponse-de-la-science&quot; textlength=&quot;24&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Jésus a-t-il vraiment existé ?"/>
+          <trigger value="Que disent les sources non chrétiennes sur Jésus ?"/>
         </triggers>
         <sourceId>c-est-une-autre-histoire</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6vasbjzv34M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
