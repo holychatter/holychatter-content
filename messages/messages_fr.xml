@@ -2249,21 +2249,58 @@
               <triggers>
                 <trigger value="Y a-t-il des divergences dans les évangiles ?"/>
               </triggers>
+              <recommendations>
+                <recommendation text="Et pourquoi ?" outMessageId="pourquoi-il-y-a-des-divergences-dans-les-evangiles"/>
+              </recommendations>
               <references>
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>En effet, il y a des petites divergences dans les évangiles c&apos;est à dire les récits qui racontent la vie de Jésus.</text>
+              <planningInfos>
+                <goalsToAdd>
+                  <goalsToAdd value="divergence-évangiles-crédibilité"/>
+                </goalsToAdd>
+              </planningInfos>
+            </message>
+            <message name="Les différences sont un élément de crédibilité" id="les-differences-sont-un-element-de-credibilite" nb="4">
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Ce qui est remarquable c&apos;est que ces petites différences sont encore là aujourd&apos;hui. Les gens se sont bien rendu compte qu&apos;il y avait des petites divergences mais elles sont encore présentes aujourd&apos;hui. C&apos;est un élément de crédibilité énorme. C&apos;est à dire que les textes n&apos;ont pas été corrigés au fils du temps.</text>
+              <planningInfos>
+                <effects>
+                  <fact value="divergence-évangiles-crédibilité"/>
+                </effects>
+              </planningInfos>
             </message>
             <message name="Pourquoi il y a des divergences dans les évangiles ?" id="pourquoi-il-y-a-des-divergences-dans-les-evangiles" nb="2">
               <triggers>
                 <trigger value="Pourquoi il y a des divergences dans les évangiles ?"/>
               </triggers>
+              <recommendations>
+                <recommendation text="Pouvez-vous me donner un exemple ?" outMessageId="une-difference-dans-les-evangiles"/>
+              </recommendations>
               <references>
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>C&apos;est normal qu&apos;il y ait des différences parce que c&apos;est des récits qui ont été écrits par des témoins oculaires qui ont racontés ce qu&apos;ils ont vu et chaque témoin raconte un peu différemment.</text>
+            </message>
+            <message name="Une différence dans les évangiles" id="une-difference-dans-les-evangiles" nb="3">
+              <tests>
+                <test input="Montre-moi une différence dans les évangiles !" output="Par exemple Jésus guérit un aveugle en entrant dans la ville de Jéricho dans un récit et dans un autre un autre récit c&apos;est en sortant de la ville de Jéricho." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18,35&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 20,29&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;une-difference-dans-les-evangiles&quot; textlength=&quot;5&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Montre-moi une différence dans les évangiles !"/>
+              </triggers>
+              <references>
+                <bible book="Lk" chapter="18" verseBegin="35"/>
+                <bible book="Mt" chapter="20" verseBegin="29"/>
+              </references>
+              <sourceId>bible</sourceId>
+              <text>Par exemple Jésus guérit un aveugle en entrant dans la ville de Jéricho dans un récit et dans un autre un autre récit c&apos;est en sortant de la ville de Jéricho.</text>
             </message>
           </folder>
           <message name="Il y a 4 évangiles" id="il-y-a-evangiles">
@@ -3425,6 +3462,7 @@
             </triggers>
             <recommendations>
               <recommendation text="Oui, que sait-on sur Jésus ?" outMessageId="ce-qu-on-sait-sur-jesus"/>
+              <recommendation text="Non merci, mais qui est-il ?" outMessageId="portrait-de-jesus"/>
             </recommendations>
             <sourceId>interne</sourceId>
             <text>Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé.</text>
@@ -4691,7 +4729,7 @@
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
             <sourceId>wikipedia</sourceId>
-            <text>Flavius Josèphe écrit:&#10;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »&#10;Et ensuite il va se faire l&apos;écho de la crucifixion et de la résurrection de Jésus.</text>
+            <text fileType="text_and_html">Flavius Josèphe écrit:&#10;&lt;i&gt;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »&lt;/i&gt;&#10;Et ensuite il va se faire l&apos;écho de la crucifixion et de la résurrection de Jésus.</text>
           </message>
           <folder name="Critique textuelle" id="critique-textuelle" defaultSourceId="interne">
             <message name="Comparaison Guerre des Gaulles vs Jésus" id="comparaison-guerre-des-gaulles-vs-jesus" nb="2">
@@ -4725,7 +4763,7 @@
                 <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               </references>
               <sourceId>wikipedia</sourceId>
-              <text>Il y a une démarche qui se penche sur la question de la fiabilité de la transcription des textes au fils du temps qui s&apos;appelle la &lt;b&gt;critique textuelle&lt;/b&gt;. C&apos;est une question qui se pose sur tous les manuscrits anciens comme sur les textes d&apos;Homère ou de Platon.</text>
+              <text>Il y a une démarche qui se penche sur la question de la fiabilité de la transcription des textes au fils du temps qui s&apos;appelle la critique textuelle. C&apos;est une question qui se pose sur tous les manuscrits anciens comme sur les textes d&apos;Homère ou de Platon.</text>
               <planningInfos>
                 <effects>
                   <fact value="fiabilité-des-sources-chrétiennes"/>
@@ -4989,6 +5027,106 @@
           <sourceId>rencontrer-jesus</sourceId>
           <text>Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.</text>
         </message>
+        <folder name="Qui est-il ?" id="qui-est-il" defaultSourceId="interne">
+          <message name="Ce que Jésus dit" id="ce-que-jesus-dit" nb="6">
+            <references>
+              <bible book="Mt" chapter="10" verseBegin="40"/>
+              <bible book="Jn" chapter="14" verseBegin="21"/>
+              <bible book="Jn" chapter="14" verseBegin="9"/>
+            </references>
+            <sourceId>bible</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Jésus dit aussi &lt;i&gt;« Quiconque m&apos;accueille, accueille celui qui m&apos;a envoyé. »&lt;/i&gt; et &lt;i&gt;« Celui qui me reçoit, ne reçoit pas seulement moi-même mais aussi celui qui m&apos;a envoyé. »&lt;/i&gt;. De même &lt;i&gt;« Celui qui m&apos;a vu a vu le Père. »&lt;/i&gt;&lt;/span&gt;</text>
+          </message>
+          <message name="Ce que Jésus dit de lui-même" id="ce-que-jesus-dit-de-lui-meme" nb="2">
+            <tests>
+              <test input="Qui Jésus pensait-il être ?" output="Je ne sais pas si il pensait leur être Jésus mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="Qu&apos;est-ce que Jésus dit de lui-même ?" output="Jésus était convaincu d&apos;être à la fois homme et Dieu. Jésus incrane le message qu&apos;il transmet. Son enseignement porte sur sa propre personne. Il est celui qui donne sens à notre vie qui comble ce vide que l&apos;on peut ressentir et que l&apos;on cherche à remplir sous différentes formes." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus incarne ?" output="Jésus incarne le message qu&apos;il transmet." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qui Jésus pensait-il être ?"/>
+              <trigger value="Qu&apos;est-ce que Jésus dit de lui-même ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Que dit Jésus à ceux qui ont faim d&apos;amour et qui cherchent un sens à leur vie ?" outMessageId="ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Jésus était convaincu d&apos;être à la fois homme et Dieu. Jésus incarne le message qu&apos;il transmet. Son enseignement porte sur sa propre personne. Il est celui qui donne sens à notre vie qui comble ce vide que l&apos;on peut ressentir et que l&apos;on cherche à remplir sous différentes formes.</text>
+          </message>
+          <message name="Ce que Jésus dit à ceux qui ont faim d&apos;amour et cherchent un sens à leur vie" id="ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie" nb="3">
+            <tests>
+              <test input="Que dit Jésus à ceux qui ont faim d&apos;amour ?" output="Jésus dit  \hc_resource_html=#fr_FR#&lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,35&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-dit-jesus-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Que dit Jésus à ceux qui cherchent un sens à leur vie ?" output="Jésus dit  \hc_resource_html=#fr_FR#&lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,35&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-dit-jesus-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie&quot; textlength=&quot;5&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Que dit Jésus à ceux qui ont faim d&apos;amour ?"/>
+              <trigger value="Que dit Jésus à ceux qui cherchent un sens à leur vie ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Qu&apos;est-ce que Jésus dit à ceux qui soif de liberté ?" outMessageId="ce-que-jesus-dit-a-ceux-qui-soif-de-liberte"/>
+            </recommendations>
+            <references>
+              <bible book="Jn" chapter="6" verseBegin="35"/>
+            </references>
+            <sourceId>bible</sourceId>
+            <text fileType="text_and_html">Jésus dit &lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;</text>
+          </message>
+          <message name="Ce que Jésus dit à ceux qui soif de liberté" id="ce-que-jesus-dit-a-ceux-qui-soif-de-liberte" nb="4">
+            <tests>
+              <test input="Qu&apos;est-ce que Jésus dit à ceux qui soif de liberté ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Si le fils (moi) vous libère alors vous serez vraiment libre. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,36&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-soif-de-liberte&quot; textlength=&quot;5&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que Jésus dit à ceux qui soif de liberté ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Qu&apos;est-ce que Jésus dit à ceux qui sont angoissés, aux inquiets, à ceux qui sont fatigués ?" outMessageId="ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues"/>
+            </recommendations>
+            <references>
+              <bible book="Jn" chapter="8" verseBegin="36"/>
+            </references>
+            <sourceId>bible</sourceId>
+            <text fileType="text_and_html">Jésus dit: &lt;i&gt;« Si le fils (moi) vous libère alors vous serez vraiment libre. »&lt;/i&gt;</text>
+          </message>
+          <message name="Ce que Jésus dit à ceux qui sont angoissés, aux inquiets, à ceux qui sont fatigués" id="ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues" nb="5">
+            <tests>
+              <test input="Qu&apos;est-ce que Jésus dit à ceux qui sont angoissés ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus dit aux inquiets ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus dit à ceux qui sont fatigués ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que Jésus dit à ceux qui sont angoissés ?"/>
+              <trigger value="Qu&apos;est-ce que Jésus dit aux inquiets ?"/>
+              <trigger value="Qu&apos;est-ce que Jésus dit à ceux qui sont fatigués ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Qu&apos;est-ce que Jésus dit d&apos;autre ?" outMessageId="ce-que-jesus-dit"/>
+            </recommendations>
+            <references>
+              <bible book="Mt" chapter="11" verseBegin="28"/>
+            </references>
+            <sourceId>bible</sourceId>
+            <text fileType="text_and_html">Jésus dit: &lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;</text>
+          </message>
+          <message name="Portrait de Jésus" id="portrait-de-jesus" nb="1">
+            <tests>
+              <test input="Que disent les évangiles sur Jésus ?" output="Les évangiles nous offrent un portrait vivant et humain concret de Jésus. Il a vécu toutes les grandes expériences de la vie : la naissance, la croissance, l&apos;éducation, les tentations, la travail, le deuil, la souffrance, le rejet et la mort. Il a été fatigué, il pouvait rire, pleurer, avoir faim, avoir mal. Il a éprouvé les mêmes émotions que nous : l&apos;amour, la joie, la tristesse... Il était donc pleinement humain, mais était-il d&apos;avantage ?" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Que disent les évangiles sur Jésus ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Qu&apos;est-ce que Jésus dit de lui-même ?" outMessageId="ce-que-jesus-dit-de-lui-meme"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Les évangiles nous offrent un portrait vivant et humain concret de Jésus. Il a vécu toutes les grandes expériences de la vie : la naissance, la croissance, l&apos;éducation, les tentations, la travail, le deuil, la souffrance, le rejet et la mort. Il a été fatigué, il pouvait rire, pleurer, avoir faim, avoir mal. Il a éprouvé les mêmes émotions que nous : l&apos;amour, la joie, la tristesse... Il était donc pleinement humain, mais était-il d&apos;avantage ?</text>
+          </message>
+        </folder>
         <message name="Qui était Jésus ?" id="qui-etait-jesus">
           <tests>
             <test input="Qui était Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/--XXP9TMk3s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 5,20&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 25,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11,27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 1,15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-etait-jesus&quot; textlength=&quot;21&quot; /&gt;"/>
