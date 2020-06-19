@@ -4716,7 +4716,7 @@
           </message>
           <message name="Ce que Flavius Josèphe écrit sur Jésus" id="ce-que-flavius-josephe-ecrit-sur-jesus" nb="4">
             <tests>
-              <test input="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?" output="Flavius Josèphe écrit:&#10; \hc_resource_html=#fr_FR#&lt;i&gt;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »&lt;/i&gt;\&#9; &#10;Et ensuite il va se faire l&apos;écho de la crucifixion et de la résurrection de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Testimonium_flavianum&quot; textlength=&quot;51&quot; /&gt;; &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;ce-que-flavius-josephe-ecrit-sur-jesus&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?" output="Flavius Josèphe écrit:&#10;&lt;i&gt;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »&lt;/i&gt;&#10;Et ensuite il va se faire l&apos;écho de la crucifixion et de la résurrection de Jésus." outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Testimonium_flavianum&quot; textlength=&quot;51&quot; /&gt;; &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;ce-que-flavius-josephe-ecrit-sur-jesus&quot; textlength=&quot;10&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Qu&apos;est-ce que Flavius Josèphe écrit sur Jésus ?"/>
@@ -4941,18 +4941,34 @@
           <text>Jésus est Dieu.</text>
         </message>
         <folder name="Les raisons de le croire" id="les-raisons-de-le-croire" nb="3" defaultSourceId="interne">
-          <message name="Ce que C. S. Lewis dit de Jésus" id="ce-que-c-s-lewis-dit-de-jesus">
+          <message name="Les enseignements de Jésus" id="les-enseignements-de-jesus" nb="2">
             <tests>
-              <test input="Qu&apos;est-ce que C. S. Lewis dit de Jésus ?" output="L&apos;histoire est rempli de gens qui se prennent pour Napoléon ou pour la reine d&apos;Angleterre.&#10;C. S. Lewis l&apos;auteur des Chroniques de Narnia résume ainsi le choix que nous devons faire:&#10; \hc_resource_html=#fr_FR#&lt;i&gt;Un homme qui n&apos;était qu&apos;un homme et qui a dit le genre de choses que Jésus a dites ne serait pas un grand professeur de morale. Il serait soit un fou,soit il serait le diable de l&apos;enfer. Vous devez faire votre choix. Soit cet homme était et est le Fils de Dieu, soit un fou ou quelque chose de pire. Vous pouvez le considérer comme un imbécile, vous pouvez lui cracher dessus et le tuer comme un démon ou vous pouvez tomber à ses pieds et l&apos;appeler Seigneur et Dieu, mais ne venons pas avec un non-sens condescendant selon lequel il serait un grand enseignant humain. Cette possibilité n&apos;est pas ouverte.&lt;/i&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Ath%C3%A9isme_chr%C3%A9tien&quot; textlength=&quot;57&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;ce-que-c-s-lewis-dit-de-jesus&quot; textlength=&quot;10&quot; /&gt;"/>
+              <test input="Quels sont les enseignements de Jésus ?" output="Ils sont reconnus comme parmis les plus beaux de notre culture et de l&apos;histoire de l&apos;humanité. Il y a des phrases de Jésus qui sont connues de tous: &lt;i&gt;« Aime ton prochain comme toi-même. »&lt;/i&gt;, &lt;i&gt;« N&apos;ayez pas peur. »&lt;/i&gt;, &lt;i&gt;« Aimez vos ennemis. »&lt;/i&gt;. Ces enseignements ont posés les bases de notre civilisation." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 22,39&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 6,50&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,44&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
             </tests>
             <triggers>
-              <trigger value="Qu&apos;est-ce que C. S. Lewis dit de Jésus ?"/>
+              <trigger value="Quels sont les enseignements de Jésus ?"/>
             </triggers>
             <references>
-              <site book="https://fr.wikipedia.org/wiki/Ath%C3%A9isme_chr%C3%A9tien"/>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              <bible book="Mt" chapter="22" verseBegin="39"/>
+              <bible book="Mk" chapter="6" verseBegin="50"/>
+              <bible book="Mt" chapter="5" verseBegin="44"/>
             </references>
-            <sourceId>wikipedia</sourceId>
-            <text fileType="text_and_html">L&apos;histoire est rempli de gens qui se prennent pour Napoléon ou pour la reine d&apos;Angleterre.&#10;C. S. Lewis l&apos;auteur des Chroniques de Narnia résume ainsi le choix que nous devons faire:&#10;&lt;i&gt;Un homme qui n&apos;était qu&apos;un homme et qui a dit le genre de choses que Jésus a dites ne serait pas un grand professeur de morale. Il serait soit un fou,soit il serait le diable de l&apos;enfer. Vous devez faire votre choix. Soit cet homme était et est le Fils de Dieu, soit un fou ou quelque chose de pire. Vous pouvez le considérer comme un imbécile, vous pouvez lui cracher dessus et le tuer comme un démon ou vous pouvez tomber à ses pieds et l&apos;appeler Seigneur et Dieu, mais ne venons pas avec un non-sens condescendant selon lequel il serait un grand enseignant humain. Cette possibilité n&apos;est pas ouverte.&lt;/i&gt;</text>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Ils sont reconnus comme parmis les plus beaux de notre culture et de l&apos;histoire de l&apos;humanité. Il y a des phrases de Jésus qui sont connues de tous: &lt;i&gt;« Aime ton prochain comme toi-même. »&lt;/i&gt;, &lt;i&gt;« N&apos;ayez pas peur. »&lt;/i&gt;, &lt;i&gt;« Aimez vos ennemis. »&lt;/i&gt;. Ces enseignements ont posés les bases de notre civilisation.</text>
+          </message>
+          <message name="Les raisons de croire Jésus" id="les-raisons-de-croire-jesus" nb="1">
+            <tests>
+              <test input="Quelles sont les raisons de croire Jésus ?" output="L&apos;histoire est rempli de gens qui se prennent pour Napoléon ou pour la reine d&apos;Angleterre.&#10;Alors on peut se demander pourquoi croire Jésus.&#10;Je voulais vous partager avec vous 5 éléments pour vous aider à vous faire votre conviction personnelle." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Quelles sont les raisons de croire Jésus ?"/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>L&apos;histoire est rempli de gens qui se prennent pour Napoléon ou pour la reine d&apos;Angleterre.&#10;Alors on peut se demander pourquoi croire Jésus.&#10;Je voulais vous partager avec vous 5 éléments pour vous aider à vous faire votre conviction personnelle.</text>
           </message>
         </folder>
         <message name="Pourquoi Dieu s’est-il fait homme ?" id="pourquoi-dieu-s-est-il-fait-homme">
@@ -5078,8 +5094,8 @@
           </message>
           <message name="Ce que Jésus dit à ceux qui ont faim d&apos;amour et cherchent un sens à leur vie" id="ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie" nb="3">
             <tests>
-              <test input="Que dit Jésus à ceux qui ont faim d&apos;amour ?" output="Jésus dit  \hc_resource_html=#fr_FR#&lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,35&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie&quot; textlength=&quot;5&quot; /&gt;"/>
-              <test input="Que dit Jésus à ceux qui cherchent un sens à leur vie ?" output="Jésus dit  \hc_resource_html=#fr_FR#&lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,35&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Que dit Jésus à ceux qui ont faim d&apos;amour ?" output="Jésus dit &lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,35&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Que dit Jésus à ceux qui cherchent un sens à leur vie ?" output="Jésus dit &lt;i&gt;« Je suis le pain de vie. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6,35&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie&quot; textlength=&quot;5&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Que dit Jésus à ceux qui ont faim d&apos;amour ?"/>
@@ -5096,7 +5112,7 @@
           </message>
           <message name="Ce que Jésus dit à ceux qui soif de liberté" id="ce-que-jesus-dit-a-ceux-qui-soif-de-liberte" nb="4">
             <tests>
-              <test input="Qu&apos;est-ce que Jésus dit à ceux qui soif de liberté ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Si le fils (moi) vous libère alors vous serez vraiment libre. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,36&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-soif-de-liberte&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus dit à ceux qui soif de liberté ?" output="Jésus dit: &lt;i&gt;« Si le fils (moi) vous libère alors vous serez vraiment libre. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,36&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-soif-de-liberte&quot; textlength=&quot;5&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Qu&apos;est-ce que Jésus dit à ceux qui soif de liberté ?"/>
@@ -5112,9 +5128,9 @@
           </message>
           <message name="Ce que Jésus dit à ceux qui sont angoissés, aux inquiets, à ceux qui sont fatigués" id="ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues" nb="5">
             <tests>
-              <test input="Qu&apos;est-ce que Jésus dit à ceux qui sont angoissés ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce que Jésus dit aux inquiets ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce que Jésus dit à ceux qui sont fatigués ?" output="Jésus dit:  \hc_resource_html=#fr_FR#&lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus dit à ceux qui sont angoissés ?" output="Jésus dit: &lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus dit aux inquiets ?" output="Jésus dit: &lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que Jésus dit à ceux qui sont fatigués ?" output="Jésus dit: &lt;i&gt;« Venez à moi, vous tous qui peinez et ployez sous le poids du fardeau, et moi, je vous donnerai le repos. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11,28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;ce-que-jesus-dit-a-ceux-qui-sont-angoisses-aux-inquiets-a-ceux-qui-sont-fatigues&quot; textlength=&quot;5&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Qu&apos;est-ce que Jésus dit à ceux qui sont angoissés ?"/>
@@ -5148,7 +5164,7 @@
           </message>
           <message name="Jésus est Dieu en personne" id="jesus-est-dieu-en-personne" nb="7">
             <tests>
-              <test input="Jésus est-il l&apos;égal de Dieu ?" output="Jésus nous dit me recevoir c&apos;est recevoir Dieu. M&apos;acceuillir c&apos;est acceuillir Dieu, me voir c&apos;est voir Dieu. Et on voit bien que Jésus se considérait comme l&apos;égal de Dieu. Mais même comme Dieu en personne." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;jesus-est-dieu-en-personne&quot; textlength=&quot;26&quot; /&gt;"/>
+              <test input="Jésus est-il l&apos;égal de Dieu ?" output="Jésus nous dit me recevoir c&apos;est recevoir Dieu. M&apos;acceuillir c&apos;est acceuillir Dieu, me voir c&apos;est voir Dieu. Et on voit bien que Jésus se considérait comme l&apos;égal de Dieu. Mais même comme Dieu en personne." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Jésus est-il l&apos;égal de Dieu ?"/>
@@ -5157,7 +5173,7 @@
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
-            <sourceId>diocese-de-frejus-toulon</sourceId>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Jésus nous dit me recevoir c&apos;est recevoir Dieu. M&apos;acceuillir c&apos;est acceuillir Dieu, me voir c&apos;est voir Dieu. Et on voit bien que Jésus se considérait comme l&apos;égal de Dieu. Mais même comme Dieu en personne.</text>
             <planningInfos>
               <effects>
@@ -5172,11 +5188,33 @@
             <triggers>
               <trigger value="Jésus est-il capable de pardonner les péchés ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="Qu&apos;est-ce que les opposants de Jésus ont compris sur Jésus ?" outMessageId="ce-que-les-opposants-de-jesus-ont-compris-sur-jesus"/>
+            </recommendations>
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Il se dit capable de pardonner les péchés or Dieu seul peut le faire. Et les maîtres de la loi qui ont bien compris ça lui font remarquer et lui disent qui peut pardonner les péchés sinon Dieu seul ?</text>
+          </message>
+          <message name="Jésus est-il un homme sage ?" id="jesus-est-il-un-homme-sage" nb="11">
+            <tests>
+              <test input="Qu&apos;est-ce que C. S. Lewis dit de Jésus ?" output="C. S. Lewis l&apos;auteur des Chroniques de Narnia résume ainsi le choix que nous devons faire:&#10;&lt;i&gt;Un homme qui n&apos;était qu&apos;un homme et qui a dit le genre de choses que Jésus a dites ne serait pas un grand professeur de morale. Il serait soit un fou,soit il serait le diable de l&apos;enfer. Vous devez faire votre choix. Soit cet homme était et est le Fils de Dieu, soit un fou ou quelque chose de pire. Vous pouvez le considérer comme un imbécile, vous pouvez lui cracher dessus et le tuer comme un démon ou vous pouvez tomber à ses pieds et l&apos;appeler Seigneur et Dieu, mais ne venons pas avec un non-sens condescendant selon lequel il serait un grand enseignant humain. Cette possibilité n&apos;est pas ouverte.&lt;/i&gt;" outputReferences="Url : &lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Ath%C3%A9isme_chr%C3%A9tien&quot; textlength=&quot;57&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;jesus-est-il-un-homme-sage&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Jésus est-il un homme sage ?"/>
+              <trigger value="Qu&apos;est-ce que C. S. Lewis dit de Jésus ?"/>
+            </triggers>
+            <references>
+              <site book="https://fr.wikipedia.org/wiki/Ath%C3%A9isme_chr%C3%A9tien"/>
+            </references>
+            <sourceId>wikipedia</sourceId>
+            <text fileType="text_and_html">C. S. Lewis l&apos;auteur des Chroniques de Narnia résume ainsi le choix que nous devons faire:&#10;&lt;i&gt;Un homme qui n&apos;était qu&apos;un homme et qui a dit le genre de choses que Jésus a dites ne serait pas un grand professeur de morale. Il serait soit un fou,soit il serait le diable de l&apos;enfer. Vous devez faire votre choix. Soit cet homme était et est le Fils de Dieu, soit un fou ou quelque chose de pire. Vous pouvez le considérer comme un imbécile, vous pouvez lui cracher dessus et le tuer comme un démon ou vous pouvez tomber à ses pieds et l&apos;appeler Seigneur et Dieu, mais ne venons pas avec un non-sens condescendant selon lequel il serait un grand enseignant humain. Cette possibilité n&apos;est pas ouverte.&lt;/i&gt;</text>
+            <planningInfos>
+              <effects>
+                <fact value="jésus-est-soit-fou-soit-le-fils-de-dieu"/>
+              </effects>
+            </planningInfos>
           </message>
           <message name="Portrait de Jésus" id="portrait-de-jesus" nb="1">
             <tests>
@@ -5193,10 +5231,15 @@
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Les évangiles nous offrent un portrait vivant et humain concret de Jésus. Il a vécu toutes les grandes expériences de la vie : la naissance, la croissance, l&apos;éducation, les tentations, la travail, le deuil, la souffrance, le rejet et la mort. Il a été fatigué, il pouvait rire, pleurer, avoir faim, avoir mal. Il a éprouvé les mêmes émotions que nous : l&apos;amour, la joie, la tristesse... Il était donc pleinement humain, mais était-il d&apos;avantage ?</text>
+            <planningInfos>
+              <goalsToAdd>
+                <goalsToAdd value="jésus-est-soit-fou-soit-le-fils-de-dieu"/>
+              </goalsToAdd>
+            </planningInfos>
           </message>
           <message name="Réaction des opposants de Jésus qand il dit être Un avec le Père" id="reaction-des-opposants-de-jesus-qand-il-dit-etre-un-avec-le-pere" nb="10">
             <tests>
-              <test input="Quelle est la réaction des opposants de Jésus quand Jésus dit être Un avec le Père ?" output="Dans l&apos;Evangile de Saint Jean, Jésus dit :  \hc_resource_html=#fr_FR#&lt;i&gt;« Le Père et moi nous sommes Un. »&lt;/i&gt;\&#9; &#10;Puis il est écrit:&#10;. \hc_resource_html=#fr_FR#&lt;i&gt;De nouveau, des Juifs prirent des pierres pour lapider Jésus.&#10;Celui-ci reprit la parole : « J’ai multiplié sous vos yeux les œuvres bonnes qui viennent du Père. Pour laquelle de ces œuvres voulez-vous me lapider ? »&#10;Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons te lapider, mais c’est pour un blasphème : tu n’es qu’un homme, et tu te fais Dieu. »&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,30-33&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;reaction-des-opposants-de-jesus-qand-il-dit-etre-un-avec-le-pere&quot; textlength=&quot;5&quot; /&gt;"/>
+              <test input="Quelle est la réaction des opposants de Jésus quand Jésus dit être Un avec le Père ?" output="Dans l&apos;Evangile de Saint Jean, Jésus dit : &lt;i&gt;« Le Père et moi nous sommes Un. »&lt;/i&gt;&#10;Puis il est écrit:&#10;&lt;i&gt;De nouveau, des Juifs prirent des pierres pour lapider Jésus.&#10;Celui-ci reprit la parole : « J’ai multiplié sous vos yeux les œuvres bonnes qui viennent du Père. Pour laquelle de ces œuvres voulez-vous me lapider ? »&#10;Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons te lapider, mais c’est pour un blasphème : tu n’es qu’un homme, et tu te fais Dieu. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10,30-33&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Bible&quot; resourceid=&quot;reaction-des-opposants-de-jesus-qand-il-dit-etre-un-avec-le-pere&quot; textlength=&quot;5&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Quelle est la réaction des opposants de Jésus quand Jésus dit être Un avec le Père ?"/>
@@ -5335,7 +5378,7 @@
       </message>
       <message name="Le Moyen-Age et ses clichés" id="le-moyen-age-et-ses-cliches" nb="3">
         <tests>
-          <test input="Que l&apos;Eglise fait de son pouvoir au Moyen-Age ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gOy6elq8IWE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-moyen-age-et-ses-cliches&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Que l&apos;Eglise fait de son pouvoir au Moyen-Age ?" output="Quel est le fait Église du pouvoir de Parole de Moyen-Age ?" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Que l&apos;Eglise fait de son pouvoir au Moyen-Age ?"/>
@@ -5810,7 +5853,7 @@
           </message>
           <message name="Vivre le carême" id="vivre-le-careme">
             <tests>
-              <test input="Comment vivre son carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Comment vivre son carême ?" output="Je ne sais pas comment vivre son carême." isOk="false"/>
               <test input="Pourquoi jeûner ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
               <test input="Quelles démarches peut-on suivre pendant le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 12,31&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4,1-11&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 4,1-13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;vivre-le-careme&quot; textlength=&quot;17&quot; /&gt;"/>
             </tests>
@@ -6537,7 +6580,7 @@
         </message>
         <message name="Comment préparer sa première communion à l’âge adulte ?" id="comment-preparer-sa-premiere-communion-a-l-age-adulte">
           <tests>
-            <test input="Comment préparer sa première communion à l’âge adulte ?" output="Si un adulte désire faire sa première communion, il peut s’adresser à la paroisse de son domicile. Celle-ci lui indique la manière de se préparer au sacrement de l’eucharistie. On trouve dans chaque ville un groupe de préparation qui est une partie de ce qu’on appelle &quot;le catéchuménat&quot;. Le catéchuménat est un service qui prépare les adultes au baptême, à la confirmation et à la participation eucharistique avec un accompagnateur. Il est destiné aussi bien aux personnes récemment baptisées, qu’à celles qui, baptisées enfants et même catéchisées, n’ont pas achevé leur initiation chrétienne." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-preparer-sa-premiere-communion-a-l-age-adulte&quot; textlength=&quot;10&quot; /&gt;"/>
+            <test input="Comment préparer sa première communion à l’âge adulte ?" output="Je ne sais pas comment préparer sa première communion au âge adulte." isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Comment préparer sa première communion à l’âge adulte ?"/>
@@ -6762,7 +6805,7 @@
         </message>
         <message name="Comment choisir son texte de mariage ?" id="comment-choisir-son-texte-de-mariage">
           <tests>
-            <test input="Comment choisir ses lectures de mariage ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQZ5mEAiifA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Tb 8,5-10&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ct 2,10-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,13-16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 2,10-11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 5,21-25&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Gn 1,27&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 13,4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-choisir-son-texte-de-mariage&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Comment choisir ses lectures de mariage ?" output="Je ne sais pas comment choisir ses lectures de mariage." isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Comment choisir ses lectures de mariage ?"/>
@@ -8531,7 +8574,7 @@
             </message>
             <message name="Que veut dire : Dieu est amour ?" id="que-veut-dire-dieu-est-amour" nb="33">
               <tests>
-                <test input="Que veut dire : Dieu est amour ?" output="Si Dieu est amour, il n&apos;y a alors aucune créature qui ne soit portée et enveloppée d&apos;une bienveillance infinie. Dieu ne déclare pas seulement qu&apos;il est amour mais il le&#10;prouve :  \hc_resource_html=#fr_FR#&lt;i&gt;Il n&apos;y a pas de plus grand amour que de donner sa vie pour ses amis&lt;/i&gt;\&#9;  (Jn 15, 13)." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 4,8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Is 43,4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-veut-dire-dieu-est-amour&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Que veut dire : Dieu est amour ?" output="Si Dieu est amour, il n&apos;y a alors aucune créature qui ne soit portée et enveloppée d&apos;une bienveillance infinie. Dieu ne déclare pas seulement qu&apos;il est amour mais il le&#10;prouve : &lt;i&gt;Il n&apos;y a pas de plus grand amour que de donner sa vie pour ses amis&lt;/i&gt; (Jn 15, 13)." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Jn 4,8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4,16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Is 43,4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49,15-16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-veut-dire-dieu-est-amour&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Que veut dire : Dieu est amour ?"/>
@@ -8743,7 +8786,7 @@
             </message>
             <message name="Pourquoi transmettons-nous la foi ?" id="pourquoi-transmettons-nous-la-foi" nb="11">
               <tests>
-                <test input="Pourquoi transmettons-nous la foi ?" output="Nous transmettons la foi parce que Jésus nous le demande : \hc_resource_html=#fr_FR#&lt;i&gt;Allez donc, de toutes les nations fates des disciples.&lt;/i&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 28,19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,23&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 2,4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-transmettons-nous-la-foi&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Pourquoi transmettons-nous la foi ?" output="Nous transmettons la foi parce que Jésus nous le demande : &lt;i&gt;Allez donc, de toutes les nations fates des disciples.&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 28,19&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11,23&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Tm 2,4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-transmettons-nous-la-foi&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Pourquoi transmettons-nous la foi ?"/>
@@ -8754,7 +8797,7 @@
                 <bible book="1 Tim" chapter="2" verseBegin="4"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text fileType="text_and_html">Nous transmettons la foi parce que Jésus nous le demande :&lt;i&gt;Allez donc, de toutes les nations fates des disciples.&lt;/i&gt;</text>
+              <text>Nous transmettons la foi parce que Jésus nous le demande : &lt;i&gt;Allez donc, de toutes les nations fates des disciples.&lt;/i&gt;</text>
             </message>
             <message name="Quand Dieu nous envoie son Fils, que révèle-t-il de lui-même ?" id="quand-dieu-nous-envoie-son-fils-que-revele-t-il-de-lui-meme" nb="9">
               <tests>
