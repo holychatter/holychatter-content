@@ -3273,7 +3273,7 @@
           <text>Connaissez-vous le Parcours Alpha ?</text>
           <planningInfos>
             <optionalPreconditions>
-              <fact value="jésus-a-existé"/>
+              <fact value="basse-priorité"/>
               <fact value="ne-pas-être-chrétien"/>
             </optionalPreconditions>
             <potentialEffects>
@@ -3455,20 +3455,6 @@
               <text>Je ne suis pas transsexuel.</text>
             </message>
           </folder>
-          <message name="Je ne crois pas que Jésus a existé." id="je-ne-crois-pas-que-jesus-a-existe">
-            <tests>
-              <test input="Je ne crois pas que Jésus a existé." output="Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé."/>
-            </tests>
-            <triggers>
-              <trigger value="Je ne crois pas que Jésus a existé."/>
-            </triggers>
-            <recommendations>
-              <recommendation text="Oui, que sait-on sur Jésus ?" outMessageId="ce-qu-on-sait-sur-jesus"/>
-              <recommendation text="Non merci, qui est Jésus ?" outMessageId="portrait-de-jesus"/>
-            </recommendations>
-            <sourceId>interne</sourceId>
-            <text>Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé.</text>
-          </message>
           <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-14-juillet-217">
             <sourceId>le-personnage-holy-chatter</sourceId>
             <text>Je suis né le 14 juillet 2017.</text>
@@ -3905,8 +3891,9 @@
             <text>Voulez-vous voir le message chrétien ?</text>
             <planningInfos>
               <optionalPreconditions>
+                <fact value="basse-priorité"/>
+                <fact value="basse-priorité-2"/>
                 <fact value="ne-pas-être-chrétien"/>
-                <fact value="pas-hyper-important"/>
               </optionalPreconditions>
               <potentialEffects>
                 <fact value="être-chrétien"/>
@@ -4861,6 +4848,35 @@
               </goalsToAdd>
             </planningInfos>
           </message>
+          <folder name="Réactions" id="reactions" defaultSourceId="interne">
+            <message name="Je crois que Jésus a existé." id="je-crois-que-jesus-a-existe" nb="2">
+              <triggers>
+                <trigger value="Je crois que Jésus a existé."/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Vous avez raison car aujourd&apos;hui aucun historien sérieux ne remet en cause l&apos;existance historique de Jésus.</text>
+            </message>
+            <message name="Je ne crois pas que Jésus a existé." id="je-ne-crois-pas-que-jesus-a-existe" nb="1">
+              <tests>
+                <test input="Je ne crois pas que Jésus a existé." output="Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé."/>
+              </tests>
+              <triggers>
+                <trigger value="Je ne crois pas que Jésus a existé."/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Oui, que sait-on sur Jésus ?" outMessageId="ce-qu-on-sait-sur-jesus"/>
+                <recommendation text="Non merci, qui est Jésus ?" outMessageId="portrait-de-jesus"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé.</text>
+            </message>
+          </folder>
         </folder>
         <message name="Jesus raconté aux enfants" id="jesus-raconte-aux-enfants">
           <triggers>
@@ -5014,6 +5030,7 @@
             </tests>
             <triggers>
               <trigger value="La résurrection mythe ou réalité ?"/>
+              <trigger value="Je veux examiner ce qu&apos;on dit sur la résurrection de Jésus."/>
             </triggers>
             <recommendations>
               <recommendation text="Jésus est-il bien mort sur la croix ?" outMessageId="jesus-est-il-bien-mort-sur-la-croix"/>
@@ -5025,6 +5042,14 @@
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Examinons plusieurs éléments.</text>
+            <planningInfos>
+              <preconditions>
+                <fact value="la-résurrection-de-jésus"/>
+              </preconditions>
+              <effects>
+                <fact value="la-résurrection-de-jésus"/>
+              </effects>
+            </planningInfos>
           </message>
           <message name="Les apparitions de Jésus à ses disciples" id="les-apparitions-de-jesus-a-ses-disciples" nb="6">
             <tests>
@@ -5054,6 +5079,19 @@
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Des millions d&apos;hommes et de femmes ont fait l&apos;expérience de Jésus Christ. Des gens de tous les âges de tous les cultures, de tous les continents, de tous les milieux sociaux, de toutes les générations sont unis dans une expérience commune de rencontre avec Jésus vivant.</text>
+          </message>
+          <message name="Voulez-vous examiner ce qu&apos;on dit sur la résurrection de Jésus ?" id="voulez-vous-examiner-ce-qu-on-dit-sur-la-resurrection-de-jesus">
+            <sourceId>interne</sourceId>
+            <text>Voulez-vous examiner ce qu&apos;on dit sur la résurrection de Jésus ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="ne-pas-être-chrétien"/>
+                <fact value="raisons-de-croire-jésus"/>
+              </optionalPreconditions>
+              <effects>
+                <fact value="la-résurrection-de-jésus"/>
+              </effects>
+            </planningInfos>
           </message>
         </folder>
         <message name="Le Fils est Dieu" id="le-fils-est-dieu">
@@ -5128,6 +5166,7 @@
             </tests>
             <triggers>
               <trigger value="Quelles sont les raisons de croire Jésus ?"/>
+              <trigger value="-Je veux des raisons de croire Jésus."/>
             </triggers>
             <recommendations>
               <recommendation text="1/5 Les enseignements de Jésus" outMessageId="les-enseignements-de-jesus"/>
@@ -5137,6 +5176,14 @@
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>L&apos;histoire est rempli de gens qui se prennent pour Napoléon ou pour la reine d&apos;Angleterre.&#10;Alors on peut se demander pourquoi croire Jésus.&#10;Je voulais vous partager avec vous 5 éléments pour vous aider à vous faire votre conviction personnelle.</text>
+            <planningInfos>
+              <preconditions>
+                <fact value="raisons-de-croire-jésus"/>
+              </preconditions>
+              <effects>
+                <fact value="raisons-de-croire-jésus"/>
+              </effects>
+            </planningInfos>
           </message>
           <message name="Les œuvres et la vie de Jésus" id="les-uvres-et-la-vie-de-jesus" nb="3">
             <tests>
@@ -5185,6 +5232,19 @@
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens.</text>
           </message>
+          <message name="Voulez-vous des raisons de croire Jésus ?" id="voulez-vous-des-raisons-de-croire-jesus">
+            <sourceId>interne</sourceId>
+            <text>Voulez-vous des raisons de croire Jésus ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="ne-pas-être-chrétien"/>
+                <fact value="portrait-de-jésus"/>
+              </optionalPreconditions>
+              <effects>
+                <fact value="raisons-de-croire-jésus"/>
+              </effects>
+            </planningInfos>
+          </message>
         </folder>
         <message name="Pourquoi Dieu s’est-il fait homme ?" id="pourquoi-dieu-s-est-il-fait-homme">
           <tests>
@@ -5219,6 +5279,50 @@
           <sourceId>bible</sourceId>
           <text fileType="text_and_html">Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! &lt;span&gt;Aurait-il ressuscité un menteur ?&lt;/span&gt;&#10;</text>
         </message>
+        <folder name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="5" defaultSourceId="interne">
+          <message name="Je ne sais pas quelle est la différence" id="je-ne-sais-pas-quelle-est-la-difference" nb="2">
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>En fait tous les 3 portent une croix autour du coup.&#10;En fait beaucoup de gens portent une croix, que ce soit en or, en bois ou en strass.&#10;On n&apos;y fait plus attention.</text>
+          </message>
+          <message name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort-pourquoi-jesus-est-il-mort" nb="1">
+            <triggers>
+              <trigger value="Pourquoi Jésus est-il mort ?"/>
+              <trigger value="Je veux examiner les raisons de la mort de Jésus."/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Je ne sais pas" outMessageId="je-ne-sais-pas-quelle-est-la-difference"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Je commence par une devinette. Quel point commun trouvez-vous entre Rihanna, le Pape et Madonna ?</text>
+            <planningInfos>
+              <preconditions>
+                <fact value="raisons-de-la-mort-de-jésus"/>
+              </preconditions>
+              <effects>
+                <fact value="raisons-de-la-mort-de-jésus"/>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Voulez-vous examiner les raisons de la mort de Jésus ?" id="voulez-vous-examiner-les-raisons-de-la-mort-de-jesus">
+            <sourceId>interne</sourceId>
+            <text>Voulez-vous examiner les raisons de la mort de Jésus ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="la-résurrection-de-jésus"/>
+                <fact value="ne-pas-être-chrétien"/>
+              </optionalPreconditions>
+              <effects>
+                <fact value="raisons-de-la-mort-de-jésus"/>
+              </effects>
+            </planningInfos>
+          </message>
+        </folder>
         <message name="Pourquoi Jésus est-il mort sur la croix ?" id="pourquoi-jesus-est-il-mort-sur-la-croix">
           <triggers>
             <trigger value="Pourquoi Jésus est-il mort sur la croix ?"/>
@@ -5437,6 +5541,7 @@
             </tests>
             <triggers>
               <trigger value="Que disent les évangiles sur Jésus ?"/>
+              <trigger value="-Je veux qu&apos;on s&apos;intéresse à la personnalité de Jésus."/>
             </triggers>
             <recommendations>
               <recommendation text="Qu&apos;est-ce que Jésus dit de lui-même ?" outMessageId="ce-que-jesus-dit-de-lui-meme"/>
@@ -5447,6 +5552,12 @@
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Les évangiles nous offrent un portrait vivant et humain concret de Jésus. Il a vécu toutes les grandes expériences de la vie : la naissance, la croissance, l&apos;éducation, les tentations, la travail, le deuil, la souffrance, le rejet et la mort. Il a été fatigué, il pouvait rire, pleurer, avoir faim, avoir mal. Il a éprouvé les mêmes émotions que nous : l&apos;amour, la joie, la tristesse... Il était donc pleinement humain, mais était-il d&apos;avantage ?</text>
             <planningInfos>
+              <preconditions>
+                <fact value="portrait-de-jésus"/>
+              </preconditions>
+              <effects>
+                <fact value="portrait-de-jésus"/>
+              </effects>
               <goalsToAdd>
                 <goalsToAdd value="jésus-est-soit-fou-soit-le-fils-de-dieu"/>
               </goalsToAdd>
@@ -5464,6 +5575,19 @@
             </references>
             <sourceId>bible</sourceId>
             <text fileType="text_and_html">Dans l&apos;Evangile de Saint Jean, Jésus dit : &lt;i&gt;« Le Père et moi nous sommes Un. »&lt;/i&gt;&#10;Puis il est écrit:&#10;&lt;i&gt;De nouveau, des Juifs prirent des pierres pour lapider Jésus.&#10;Celui-ci reprit la parole : « J’ai multiplié sous vos yeux les œuvres bonnes qui viennent du Père. Pour laquelle de ces œuvres voulez-vous me lapider ? »&#10;Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons te lapider, mais c’est pour un blasphème : tu n’es qu’un homme, et tu te fais Dieu. »&lt;/i&gt;</text>
+          </message>
+          <message name="Voulez-vous qu&apos;on s&apos;intéresse à la personnalité de Jésus ?" id="voulez-vous-qu-on-s-interesse-a-la-personnalite-de-jesus">
+            <sourceId>interne</sourceId>
+            <text>Voulez-vous qu&apos;on s&apos;intéresse à la personnalité de Jésus ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="jésus-a-existé"/>
+                <fact value="ne-pas-être-chrétien"/>
+              </optionalPreconditions>
+              <effects>
+                <fact value="portrait-de-jésus"/>
+              </effects>
+            </planningInfos>
           </message>
         </folder>
         <message name="Qui était Jésus ?" id="qui-etait-jesus">

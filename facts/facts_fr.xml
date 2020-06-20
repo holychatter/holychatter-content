@@ -16,6 +16,8 @@
     </continuationTexts>
   </fact>
   <fact id="approfondir-sa-relation-a-dieu-toujours-plus"/>
+  <fact id="basse-priorité"/>
+  <fact id="basse-priorité-2"/>
   <fact id="debut-de-la-conversation"/>
   <fact id="dire-bonjour">
     <continuationTexts>
@@ -32,18 +34,27 @@
       <continuation text="Et donc ?"/>
     </continuationTexts>
   </fact>
-  <fact id="existance-historique-de-jésus"/>
+  <fact id="existance-historique-de-jésus">
+    <continuationTexts>
+      <continuation text="Et donc ?"/>
+    </continuationTexts>
+  </fact>
   <fact id="fiabilité-des-sources-chrétiennes">
     <continuationTexts>
       <continuation text="Les sources sont-elles fiables ?"/>
     </continuationTexts>
   </fact>
-  <fact id="jésus-a-existé"/>
+  <fact id="jésus-a-existé">
+    <triggers>
+      <trigger>Je crois que Jésus a existé.</trigger>
+    </triggers>
+  </fact>
   <fact id="jésus-est-soit-fou-soit-le-fils-de-dieu">
     <continuationTexts>
       <continuation text="Jésus est-il un homme sage ?"/>
     </continuationTexts>
   </fact>
+  <fact id="la-résurrection-de-jésus"/>
   <fact id="louange-définir"/>
   <fact id="louange-ecouter"/>
   <fact id="louange-louer-avec-marie"/>
@@ -54,6 +65,7 @@
       <trigger>Je ne suis pas chrétien.</trigger>
     </triggers>
   </fact>
+  <fact id="portrait-de-jésus"/>
   <fact id="quiz">
     <continuationTexts>
       <continuation facts="replanifier-pour-quiz" text="Repose-moi ta question"/>
@@ -68,6 +80,8 @@
       <preconditionSet>${quiz-nombre-de-questions}=${quiz-max-nombre-de-questions}</preconditionSet>
     </preconditionFacts>
   </fact>
+  <fact id="raisons-de-croire-jésus"/>
+  <fact id="raisons-de-la-mort-de-jésus"/>
   <fact id="simple-comme-bonjour-et-si-on-agissait"/>
   <fact id="simple-comme-bonjour-et-si-on-changeait-de-regard"/>
   <fact id="simple-comme-bonjour-et-si-on-comprenait"/>
@@ -80,7 +94,7 @@
   </fact>
   <fact id="véracité-du-message-chrétien">
     <preconditionFacts>
-      <preconditionSet>jésus-a-existé</preconditionSet>
+      <preconditionSet>jésus-a-existé, la-résurrection-de-jésus, portrait-de-jésus, raisons-de-croire-jésus, raisons-de-la-mort-de-jésus</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="être-chrétien">
@@ -88,7 +102,7 @@
       <trigger>Je suis chrétien.</trigger>
     </triggers>
     <preconditionFacts>
-      <preconditionSet>véracité-du-message-chrétien</preconditionSet>
+      <preconditionSet>approfondir-sa-relation-a-dieu-toujours-plus, véracité-du-message-chrétien</preconditionSet>
     </preconditionFacts>
   </fact>
 </factsRoot>
