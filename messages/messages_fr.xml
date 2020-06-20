@@ -2078,9 +2078,11 @@
             </message>
             <message name="La résurrection du Christ, simple légende ou fait historique ?" id="la-resurrection-du-christ-simple-legende-ou-fait-historique">
               <tests>
-                <test input="la résurrection de Jésus" output="La Résurrection de Jésus est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;la-resurrection-du-christ-simple-legende-ou-fait-historique&quot; textlength=&quot;15&quot; /&gt;"/>
+                <test input="La résurrection du Christ, simple légende ou fait historique ?" output="La simple de légende ou de fait historique Résurrection de Christ est le vraiment fondement de la foi chrétienne.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 24,1-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 28,1-15&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 16,1-18&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,1-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15,16-26&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2,22-33&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Comprendre Dieu&quot; resourceid=&quot;la-resurrection-du-christ-simple-legende-ou-fait-historique&quot; textlength=&quot;15&quot; /&gt;"/>
               </tests>
-              <description>C&apos;est la résurrection de Jésus.</description>
+              <triggers>
+                <trigger value="La résurrection du Christ, simple légende ou fait historique ?"/>
+              </triggers>
               <references>
                 <bible book="Lk" chapter="24" verseBegin="1" verseEnd="12"/>
                 <bible book="Mt" chapter="28" verseBegin="1" verseEnd="15"/>
@@ -4921,6 +4923,139 @@
           <sourceId>retour-du-christ</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <folder name="La résurrection mythe ou réalité ?" id="la-resurrection-mythe-ou-realite" nb="4" defaultSourceId="interne">
+          <message name="Comment expliquer ce changement radical, si ce n&apos;est par la résurrection ?" id="comment-expliquer-ce-changement-radical-si-ce-n-est-par-la-resurrection" nb="7">
+            <nextMessageId>comment-expliquer-s-ils-n-etaient-pas-eux-meme-convaincu-existentiellement-que-jesus-etait-reellement-vivant</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Comment expliquer ce changement radical, si ce n&apos;est par la résurrection ?</text>
+          </message>
+          <message name="Comment expliquer s&apos;ils n&apos;étaient pas eux-même convaincu existentiellement que Jésus était réellement vivant ?" id="comment-expliquer-s-ils-n-etaient-pas-eux-meme-convaincu-existentiellement-que-jesus-etait-reellement-vivant" nb="8">
+            <nextMessageId>la-propagation-de-la-bonne-nouvelle</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Comment expliquer s&apos;ils n&apos;étaient pas eux-même convaincu existentiellement que Jésus était réellement vivant ?</text>
+          </message>
+          <message name="Est-ce que les disciples auraient volés le corps pour répandre la rumeur de la résurrection ?" id="est-ce-que-les-disciples-auraient-voles-le-corps-pour-repandre-la-rumeur-de-la-resurrection" nb="4">
+            <tests>
+              <test input="Est-ce que les disciples auraient volés le corps pour répandre la rumeur de la résurrection ?" output="En fait la tombe était gardées par des soldats romains. Et surtout les disciples étaient traumatisés, découragés et se tenaient même cachés par peur d&apos;être arrêtés par les romains.&#10;" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Est-ce que les disciples auraient volés le corps pour répandre la rumeur de la résurrection ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Du coup, c&apos;est incompréhensible qu&apos;ils sont sortis pour annoncer la résurrection de Jésus ?" outMessageId="l-annonce-de-la-resurrection-par-les-disciples"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>En fait la tombe était gardées par des soldats romains. Et surtout les disciples étaient traumatisés, découragés et se tenaient même cachés par peur d&apos;être arrêtés par les romains.&#10;</text>
+          </message>
+          <message name="Jésus est-il bien mort sur la croix ?" id="jesus-est-il-bien-mort-sur-la-croix" nb="2">
+            <tests>
+              <test input="Jésus est-il bien mort sur la croix ?" output="En fait d&apos;après les récits des évangiles il n&apos;y a aucun doute là dessus parce que les gardes romains s&apos;assuraient de la mort des condamnés. Et dans l&apos;évangile de Saint Jean, on nous dit : &lt;i&gt;Quand ils arrivèrent à Jésus voyant qu&apos;il était déjà mort il ne lui brisèrent pas les jambes mais un des soldats avec sa lance lui perça le côté et aussitôt il en sorti du sang et de l&apos;eau.&lt;/i&gt;&#10;C&apos;est une séparation du sang et du liquide péricardique que nous décrit Jean et nous savons que sur le plan médical c&apos;est une indication certaine de la mort." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Jésus est-il bien mort sur la croix ?"/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>En fait d&apos;après les récits des évangiles il n&apos;y a aucun doute là dessus parce que les gardes romains s&apos;assuraient de la mort des condamnés. Et dans l&apos;évangile de Saint Jean, on nous dit : &lt;i&gt;Quand ils arrivèrent à Jésus voyant qu&apos;il était déjà mort il ne lui brisèrent pas les jambes mais un des soldats avec sa lance lui perça le côté et aussitôt il en sorti du sang et de l&apos;eau.&lt;/i&gt;&#10;C&apos;est une séparation du sang et du liquide péricardique que nous décrit Jean et nous savons que sur le plan médical c&apos;est une indication certaine de la mort.</text>
+          </message>
+          <message name="L&apos;annonce de la résurrection par les disciples" id="l-annonce-de-la-resurrection-par-les-disciples" nb="5">
+            <recommendations>
+              <recommendation text="Comment Jésus s&apos;est manifesté après sa résurrection ?" outMessageId="les-apparitions-de-jesus-a-ses-disciples"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text fileType="text_and_html">En effet, très vite après ils vont se mettre à sortir, à prêcher et à annoncer partout la bonne nouvelle c&apos;est à dire que Jésus est ressuscité. Et ceux sont eux qui par leur témoignage et leurs écrits ont répondus l&apos;Evangile auprès de milliers de personnes.&lt;span&gt;Ils ont endurés la torture, la prison et la mort pour avoir proclamé que Jésus est vivant justement parce qu&apos;ils en avaient été les témoins.&lt;/span&gt;</text>
+          </message>
+          <message name="La mise au tombeau de Jésus" id="la-mise-au-tombeau-de-jesus" nb="3">
+            <tests>
+              <test input="Décris-moi la mise au tombeau de Jésus !" output="Il fut mis dans une tombe scellé par une énorme et lourde pierre ronde." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Décris-moi la mise au tombeau de Jésus !"/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Il fut mis dans une tombe scellé par une énorme et lourde pierre ronde.</text>
+          </message>
+          <message name="La propagation de la bonne nouvelle" id="la-propagation-de-la-bonne-nouvelle" nb="9">
+            <tests>
+              <test input="Comment la bonne nouvelle s&apos;est propagée ?" output="Ce qui est incroyable, c&apos;est qu&apos;une poignée d&apos;hommes illettrés pauvres, pas très formés ont répondus cette nouvelle en 300 ans l&apos;Empire romain au point qu&apos;en 312 l&apos;empereur de l&apos;Empire romain est devenu chrétien.&#10;Et depuis 2 000 ans rien ni personne, aucun régime ni aucune persécution n&apos;ont pu arrêter la propagation de cette bonne nouvelle." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment la bonne nouvelle s&apos;est propagée ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Qui rencontre Jésus maintenant ?" outMessageId="qui-rencontre-jesus-maintenant"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Ce qui est incroyable, c&apos;est qu&apos;une poignée d&apos;hommes illettrés pauvres, pas très formés ont répondus cette nouvelle en 300 ans l&apos;Empire romain au point qu&apos;en 312 l&apos;empereur de l&apos;Empire romain est devenu chrétien.&#10;Et depuis 2 000 ans rien ni personne, aucun régime ni aucune persécution n&apos;ont pu arrêter la propagation de cette bonne nouvelle.</text>
+          </message>
+          <message name="La résurrection mythe ou réalité ?" id="la-resurrection-mythe-ou-realite" nb="1">
+            <tests>
+              <test input="La résurrection mythe ou réalité ?" output="Examinons plusieurs éléments." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="La résurrection mythe ou réalité ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Jésus est-il bien mort sur la croix ?" outMessageId="jesus-est-il-bien-mort-sur-la-croix"/>
+              <recommendation text="Est-ce que les disciples auraient volés le corps pour répandre la rumeur de la résurrection ?" outMessageId="est-ce-que-les-disciples-auraient-voles-le-corps-pour-repandre-la-rumeur-de-la-resurrection"/>
+              <recommendation text="Comment Jésus s&apos;est manifesté après sa résurrection ?" outMessageId="les-apparitions-de-jesus-a-ses-disciples"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Examinons plusieurs éléments.</text>
+          </message>
+          <message name="Les apparitions de Jésus à ses disciples" id="les-apparitions-de-jesus-a-ses-disciples" nb="6">
+            <tests>
+              <test input="Comment Jésus s&apos;est manifesté après sa résurrection ?" output="L&apos;Evangile nous dit qu&apos;un grand nombre de gens ont vu Jésus après sa résurrection, plus de 500 personnes l&apos;ont vu en plus de 11 occasions. Les disciples eux-mêmes étaient sceptiques comme Thomas par exemple qui disait : &lt;i&gt;« Je ne croirais pas si je ne vois pas moi-même, si je ne touche pas. »&lt;/i&gt;. Et voilà donc un groupe d&apos;hommes et de femmes qui avaient suivis Jésus espérés en lui, espérés qui chasserait les romains qu&apos;il établirait le royaume en Israël (un nouveau royaume) et à sa mort ils ont été profondément déçus. Ils ont abandonnés l&apos;idée de suivre le Christ et quelques semaines plus tard les disciples proclament d&apos;une manière unanime Jésus est ressuscité d&apos;entre les morts. En fait ils ont risqués leur vie pour cela et beaucoup d&apos;entre eux sont d&apos;ailleurs mort pour avoir affirmé et défendu que Jésus était ressuscité." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 15,6&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20,25&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment Jésus s&apos;est manifesté après sa résurrection ?"/>
+            </triggers>
+            <nextMessageId>comment-expliquer-ce-changement-radical-si-ce-n-est-par-la-resurrection</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              <bible book="1 Cor" chapter="15" verseBegin="6"/>
+              <bible book="Jn" chapter="20" verseBegin="25"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>L&apos;Evangile nous dit qu&apos;un grand nombre de gens ont vu Jésus après sa résurrection, plus de 500 personnes l&apos;ont vu en plus de 11 occasions. Les disciples eux-mêmes étaient sceptiques comme Thomas par exemple qui disait : &lt;i&gt;« Je ne croirais pas si je ne vois pas moi-même, si je ne touche pas. »&lt;/i&gt;. Et voilà donc un groupe d&apos;hommes et de femmes qui avaient suivis Jésus espérés en lui, espérés qui chasserait les romains qu&apos;il établirait le royaume en Israël (un nouveau royaume) et à sa mort ils ont été profondément déçus. Ils ont abandonnés l&apos;idée de suivre le Christ et quelques semaines plus tard les disciples proclament d&apos;une manière unanime Jésus est ressuscité d&apos;entre les morts. En fait ils ont risqués leur vie pour cela et beaucoup d&apos;entre eux sont d&apos;ailleurs mort pour avoir affirmé et défendu que Jésus était ressuscité.</text>
+          </message>
+          <message name="Qui rencontre Jésus maintenant ?" id="qui-rencontre-jesus-maintenant" nb="10">
+            <tests>
+              <test input="Qui rencontre Jésus maintenant ?" output="Je ne sais pas qui rencontre Jésus maintenant mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            </tests>
+            <triggers>
+              <trigger value="Qui rencontre Jésus maintenant ?"/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Des millions d&apos;hommes et de femmes ont fait l&apos;expérience de Jésus Christ. Des gens de tous les âges de tous les cultures, de tous les continents, de tous les milieux sociaux, de toutes les générations sont unis dans une expérience commune de rencontre avec Jésus vivant.</text>
+          </message>
+        </folder>
         <message name="Le Fils est Dieu" id="le-fils-est-dieu">
           <tests>
             <test input="Est-ce que le Fils est Dieu ?" output="Jésus est Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 9,5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2,9&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,61-62&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10,30&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16,16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -4941,6 +5076,33 @@
           <text>Jésus est Dieu.</text>
         </message>
         <folder name="Les raisons de le croire" id="les-raisons-de-le-croire" nb="3" defaultSourceId="interne">
+          <message name="L&apos;accomplissement des prophéties de l&apos;Ancien Testament" id="l-accomplissement-des-propheties-de-l-ancien-testament" nb="6">
+            <recommendations>
+              <recommendation text="5/5 Sa victoire sur la mort" outMessageId="sa-victoire-sur-la-mort"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Avec Jésus se sont accomplies plus de 300 prophéties de l&apos;Ancien Testament qui ont été rédigés sur une période de plusieurs siècles et certaines plus de 8 siècles avant la mort de Jésus. Au moins 25 de ces prophéties se sont accomplies en une seule journée, celle de sa mort.</text>
+          </message>
+          <message name="La personnalité de Jésus" id="la-personnalite-de-jesus" nb="5">
+            <tests>
+              <test input="Quelle est la personnalité de Jésus ?" output="La personnalité de Jésus était incroyable, il a marqué des millions de gens. Il était simple. Il était humble, franc désintéressé, bienveillant, toujours à l&apos;écoute, joyeux, bon, attentif à toutes les personnes.&#10;Beaucoup reconnaisent en lui l&apos;humilité, la sagesse, la compassion.&#10;On peut dire aussi que souvent le fond de la personne se révèle souvent dans la souffrance et Jésus cloué sur la croix, au sommet de sa souffrance, dit au sujet de ceux qui l&apos;ont crucifiés : « Père pardonne leur, ils ne savent pas ce qu&apos;ils font. »" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 23,34&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Quelle est la personnalité de Jésus ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="4/5 L&apos;accomplissement des prophéties de l&apos;Ancien Testament" outMessageId="l-accomplissement-des-propheties-de-l-ancien-testament"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              <bible book="Lk" chapter="23" verseBegin="34"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>La personnalité de Jésus était incroyable, il a marqué des millions de gens. Il était simple. Il était humble, franc désintéressé, bienveillant, toujours à l&apos;écoute, joyeux, bon, attentif à toutes les personnes.&#10;Beaucoup reconnaisent en lui l&apos;humilité, la sagesse, la compassion.&#10;On peut dire aussi que souvent le fond de la personne se révèle souvent dans la souffrance et Jésus cloué sur la croix, au sommet de sa souffrance, dit au sujet de ceux qui l&apos;ont crucifiés : « Père pardonne leur, ils ne savent pas ce qu&apos;ils font. »</text>
+          </message>
           <message name="Les enseignements de Jésus" id="les-enseignements-de-jesus" nb="2">
             <tests>
               <test input="Quels sont les enseignements de Jésus ?" output="Ils sont reconnus comme parmis les plus beaux de notre culture et de l&apos;histoire de l&apos;humanité. Il y a des phrases de Jésus qui sont connues de tous: &lt;i&gt;« Aime ton prochain comme toi-même. »&lt;/i&gt;, &lt;i&gt;« N&apos;ayez pas peur. »&lt;/i&gt;, &lt;i&gt;« Aimez vos ennemis. »&lt;/i&gt;. Ces enseignements ont posés les bases de notre civilisation." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 22,39&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 6,50&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5,44&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
@@ -4948,6 +5110,9 @@
             <triggers>
               <trigger value="Quels sont les enseignements de Jésus ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="2/5 Les oeuvres et la vie de Jésus" outMessageId="les-uvres-et-la-vie-de-jesus"/>
+            </recommendations>
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
               <bible book="Mt" chapter="22" verseBegin="39"/>
@@ -4964,11 +5129,61 @@
             <triggers>
               <trigger value="Quelles sont les raisons de croire Jésus ?"/>
             </triggers>
+            <recommendations>
+              <recommendation text="1/5 Les enseignements de Jésus" outMessageId="les-enseignements-de-jesus"/>
+            </recommendations>
             <references>
               <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>L&apos;histoire est rempli de gens qui se prennent pour Napoléon ou pour la reine d&apos;Angleterre.&#10;Alors on peut se demander pourquoi croire Jésus.&#10;Je voulais vous partager avec vous 5 éléments pour vous aider à vous faire votre conviction personnelle.</text>
+          </message>
+          <message name="Les œuvres et la vie de Jésus" id="les-uvres-et-la-vie-de-jesus" nb="3">
+            <tests>
+              <test input="Quelles sont les oeuvres de Jésus ?" output="En fait ça devait être dingue d&apos;être avec Jésus. Imaginez-vous, vous allez à une fête, à un mariage et le vin manque, alors Jésus dit aux serviteurs remplissez d&apos;eau ces jarres et l&apos;eau est transformé en un vin délicieux. Vous allez à un pic-nique avec Jésus , il y a 5 000 personnes rien à manger et puis que fait-il ? Il multiplie et nourrit la foule avec 5 pains et 2 poissons." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 2,7-10&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14,13-21&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+              <test input="Quelle est la vie de Jésus ?" output="En fait ça devait être dingue d&apos;être avec Jésus. Imaginez-vous, vous allez à une fête, à un mariage et le vin manque, alors Jésus dit aux serviteurs remplissez d&apos;eau ces jarres et l&apos;eau est transformé en un vin délicieux. Vous allez à un pic-nique avec Jésus , il y a 5 000 personnes rien à manger et puis que fait-il ? Il multiplie et nourrit la foule avec 5 pains et 2 poissons." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 2,7-10&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14,13-21&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Quelles sont les œuvres de Jésus ?"/>
+              <trigger value="Quelle est la vie de Jésus ?"/>
+            </triggers>
+            <nextMessageId>mais-aussi-l-amour-et-la-compassion-de-jesus</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              <bible book="Jn" chapter="2" verseBegin="7" verseEnd="10"/>
+              <bible book="Jn" chapter="14" verseBegin="13" verseEnd="21"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>En fait ça devait être dingue d&apos;être avec Jésus. Imaginez-vous, vous allez à une fête, à un mariage et le vin manque, alors Jésus dit aux serviteurs remplissez d&apos;eau ces jarres et l&apos;eau est transformé en un vin délicieux. Vous allez à un pic-nique avec Jésus , il y a 5 000 personnes rien à manger et puis que fait-il ? Il multiplie et nourrit la foule avec 5 pains et 2 poissons.</text>
+          </message>
+          <message name="Mais aussi l&apos;amour et la compassion de Jésus" id="mais-aussi-l-amour-et-la-compassion-de-jesus" nb="4">
+            <recommendations>
+              <recommendation text="3/5 La personnalité de Jésus" outMessageId="la-personnalite-de-jesus"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+              <bible book="Jn" chapter="15" verseBegin="13"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Mais il ne s&apos;agit pas seulement de ses miracles mais aussi de son amour de sa compassion pour les personnes rejetés par la société, les personnes les plus faibles, les marginaux...&#10;Montrant son amour jusqu&apos;à en mourir, comme il l&apos;a dit et fait. Il nous a dit : « Il n&apos;y a pas de plus grand amour que de donner sa vie pour ses amis. »</text>
+          </message>
+          <message name="Sa victoire sur la mort" id="sa-victoire-sur-la-mort" nb="7">
+            <tests>
+              <test input="Jésus est-il ressuscité ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que la résurrection de Jésus ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Jésus est-il ressuscité ?"/>
+              <trigger value="Qu&apos;est-ce que la résurrection de Jésus ?"/>
+            </triggers>
+            <recommendations>
+              <recommendation text="La résurrection mythe ou réalité ?" outMessageId="la-resurrection-mythe-ou-realite"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=m27xeMQQHh4"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens.</text>
           </message>
         </folder>
         <message name="Pourquoi Dieu s’est-il fait homme ?" id="pourquoi-dieu-s-est-il-fait-homme">
