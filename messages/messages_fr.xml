@@ -2688,7 +2688,7 @@
           </message>
           <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="5">
             <tests>
-              <test input="Et si ça se passe mal ?" output="Je ne sais pas si ça se passe mal mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
+              <test input="Et si ça se passe mal ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Et si un sans-abri m&apos;insulte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Et si je me fais arnaquer ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Et si on rejette mon aide ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sa8v_dNr1Nw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -2904,8 +2904,8 @@
               <test input=" Je veux m&apos;informer sur le monde de la rue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Les SDF sont alcoolos ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Les SDF sont alcooliques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
-              <test input="C&apos;est un choix de vivre à la rue ?" output="Je ne sais pas si c&apos;est un choix de vivre à la rue mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
-              <test input="Est-ce que ça rapporte beaucoup de faire la manche ?" output="Je ne sais pas si ça rapporte beaucoup faire la manche mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
+              <test input="C&apos;est un choix de vivre à la rue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              <test input="Est-ce que ça rapporte beaucoup de faire la manche ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Si on comprenait la situation des sans-abri ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Si on comprenait la situation des clochards ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aVobOfVgELg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
             </tests>
@@ -4868,7 +4868,7 @@
             </message>
             <message name="Je ne crois pas que Jésus a existé." id="je-ne-crois-pas-que-jesus-a-existe" nb="1">
               <tests>
-                <test input="Je ne crois pas que Jésus a existé." output="Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé."/>
+                <test input="Je ne crois pas que Jésus a existé." output="Pourtant il y a beaucoup d&apos;éléments de crédibilités. Peut-être que ça vaut le coup de prendre quelques minutes pour explorer la question de l&apos;existance de Jésus ? Et comme ça après vous pourrez être fixé." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;43&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Je ne crois pas que Jésus a existé."/>
@@ -5288,6 +5288,9 @@
         </message>
         <folder name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="5" defaultSourceId="interne">
           <message name="Je ne sais pas quelle est la différence" id="je-ne-sais-pas-quelle-est-la-difference" nb="2">
+            <triggers>
+              <trigger value="Ils portent une croix."/>
+            </triggers>
             <references>
               <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
             </references>
@@ -7061,7 +7064,7 @@
         </message>
         <message name="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" id="pourquoi-l-eglise-demande-t-elle-a-ceux-qui-ont-epouse-un-divorce-de-ne-pas-communier">
           <tests>
-            <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Je ne sais pas pourquoi l&apos;Église me demande Elle qui a épousé un divorcé de communier à ils mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?" output="Beaucoup de personnes, qui ont épousé un divorcé, ne comprennent pas pourquoi elles ne peuvent pas communier. N’étant pas divorcé elle-même, elles ont l’impression qu’on leur fait porter la &quot;faute&quot; de leur conjoint, qu’elles sont &quot;punies&quot; sans qu’il y ait faute de leur part.&#10;&#10;On ne peut pas communier parce que l’on vit avec quelqu’un qui est déjà marié devant Dieu, même s’il est divorcé civilement.&#10;&#10;Pour ce genre de problème douloureux, il est nécessaire d’avoir un dialogue personnel avec un prêtre." outputReferences="Url : &lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-l-eglise-demande-t-elle-a-ceux-qui-ont-epouse-un-divorce-de-ne-pas-communier&quot; textlength=&quot;10&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Pourquoi l’Église demande-t-elle à ceux qui ont épousé un divorcé de ne pas communier ?"/>
@@ -7855,7 +7858,7 @@
             <test input="Est-ce que l’athéisme conduit à un meilleur monde ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 13,1&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
             <test input="Les religions n&apos;apportent que des problèmes." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 13,1&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
             <test input="Le monde est violent à cause des religions." output="Pourquoi le monde est violent à cause des religions ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ps 13,1&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="C&apos;est la religion qui est responsable de tous les maux dans le monde." output="Pourquoi est-ce la religion qui est responsable de tous les maux dans le monde ?" isOk="false"/>
+            <test input="C&apos;est la religion qui est responsable de tous les maux dans le monde." output="Pourquoi est-ce la religion qui est responsable de tous les maux dans le monde ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ps 13,1&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Est-ce que l’athéisme conduit à un meilleur monde ?"/>
@@ -9451,7 +9454,7 @@
           </message>
           <message name="Est-ce que chacun peut croire ce qu&apos;il veut ?" id="est-ce-que-chacun-peut-croire-ce-qu-il-veut" nb="7">
             <tests>
-              <test input="Est-ce que chacun peut croire ce qu&apos;il veut ?" output="Je ne sais pas si ça peut croire ce qu&apos;il veut mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              <test input="Est-ce que chacun peut croire ce qu&apos;il veut ?" output="Oui, mais ça ne mène pas loin.&#10;Les chrétiens n&apos;inventent pas la foi, ils font confiance à Jésus Christ.&#10;C&apos;est lui qui a apporté la vérité sur Dieu.&#10;On la trouve dans la Bible et dans la tradition vivante de l&apos;Église." outputReferences="Source : &lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;est-ce-que-chacun-peut-croire-ce-qu-il-veut&quot; textlength=&quot;23&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Est-ce que chacun peut croire ce qu&apos;il veut ?"/>
@@ -10512,7 +10515,16 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Célébrité" id="celebrite" nb="2">
+    <folder name="Ancien musulman" id="ancien-musulman" nb="2" defaultSourceId="interne">
+      <message name="Témoignage du P. Mustapha Amari, musulman devenu prêtre" id="temoignage-du-p-mustapha-amari-musulman-devenu-pretre">
+        <triggers>
+          <trigger value="Montre-moi le témoignage d&apos;un ancien musulman !"/>
+        </triggers>
+        <sourceId>diocese-de-belley-ars</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GVc_rrn0YOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Célébrité" id="celebrite" nb="3" defaultSourceId="interne">
       <message name="Arielle Dombasle : « La première fois que j’ai vu le Christ en croix, je me suis mise à pleurer »" id="arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer">
         <tests>
           <test input="Montre-moi le témoignage de Arielle Dombasle !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vwRiNvnqipE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -10538,7 +10550,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="lac" nb="3">
+    <folder name="Laïc" id="lac" nb="4" defaultSourceId="interne">
       <folder name="Conversions de l&apos;islam" id="conversions-de-l-islam">
         <message name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
           <tests>
@@ -10624,7 +10636,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DqTkGIygqvQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="5">
+    <folder name="Prêtre" id="pretre" nb="6" defaultSourceId="interne">
       <message name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25,40&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -10691,7 +10703,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="4">
+    <folder name="Séminariste" id="seminariste" nb="5" defaultSourceId="interne">
       <message name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8,12&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
