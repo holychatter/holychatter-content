@@ -5288,11 +5288,30 @@
         </message>
         <folder name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="5" defaultSourceId="interne">
           <message name="Beaucoup de gens portent une croix" id="beaucoup-de-gens-portent-une-croix" nb="5">
+            <recommendations>
+              <recommendation text="C&apos;est très étrange de porter une croix." outMessageId="c-est-tres-etrange-de-porter-une-croix"/>
+              <recommendation text="Pourquoi la croix est le symbole du christianisme ?" outMessageId="pourquoi-la-croix-est-le-symbole-du-christianisme"/>
+            </recommendations>
             <references>
               <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <text>Beaucoup de gens portent une croix, que ce soit en or, en bois ou en strass.&#10;On n&apos;y fait plus attention.</text>
+            <planningInfos>
+              <goalsToAdd>
+                <goalsToAdd value="ce-que-jésus-a-dit-quand-il-a-été-crucifié"/>
+              </goalsToAdd>
+            </planningInfos>
+          </message>
+          <message name="C&apos;est très étrange de porter une croix" id="c-est-tres-etrange-de-porter-une-croix" nb="6">
+            <triggers>
+              <trigger value="C&apos;est très étrange de porter une croix."/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Oui, c&apos;est très étrange de porter une croix. C&apos;est comme si on portait une guillotine ou une chaise électrique autour du cou.&#10;Parce que la croix en fait est un suplice épouvantable, utilisé puis abandonné par les romains.&#10;C&apos;est pourtant devenu la signe de reconnaissance des chrétiens.&#10;Le &quot;logo&quot; on pourrait dire du christianisme.</text>
           </message>
           <message name="Devinette : Rihanna, le Pape et Madonna" id="devinette-rihanna-le-pape-et-madonna" nb="1">
             <triggers>
@@ -5339,7 +5358,7 @@
           </message>
           <message name="Je ne sais pas quelle est la différence" id="je-ne-sais-pas-quelle-est-la-difference" nb="4">
             <tests>
-              <test input="Ils portent une croix." output="En fait tous les 3 portent une croix autour du coup.&#10;En fait beaucoup de gens portent une croix, que ce soit en or, en bois ou en strass.&#10;On n&apos;y fait plus attention." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              <test input="Ils portent une croix." output="Oui." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Ils portent une croix."/>
@@ -5356,6 +5375,404 @@
               </effects>
             </planningInfos>
           </message>
+          <message name="Le logo du christianisme" id="le-logo-du-christianisme" nb="7">
+            <recommendations>
+              <recommendation text="Pourquoi ?" outMessageId="pourquoi-la-croix-est-le-symbole-du-christianisme"/>
+            </recommendations>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>C&apos;est pourtant devenu la signe de reconnaissance des chrétiens.&#10;Le &quot;logo&quot; on pourrait dire du christianisme.</text>
+          </message>
+          <folder name="Paroles de Jésus sur la croix" id="paroles-de-jesus-sur-la-croix" defaultSourceId="interne">
+            <message name="&quot;Femme, voici ton fils.&quot; et &quot;Voici ta mère.&quot;" id="femme-voici-ton-fils-et-voici-ta-mere" nb="50">
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que ça veut dire ?" outMessageId="femme-voici-ton-fils-et-voici-ta-mere-explication"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Jn" chapter="19" verseBegin="26" verseEnd="27"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Jésus voit Marie et Jean au pied de la croix et dit  : &#10;« Femme, voici ton fils. » et à Jean il dit « Voici ta mère. »</text>
+            </message>
+            <message name="&quot;Femme, voici ton fils.&quot; et &quot;Voici ta mère.&quot; (Explication)" id="femme-voici-ton-fils-et-voici-ta-mere-explication" nb="51">
+              <recommendations>
+                <recommendation text="Est-ce normal ?" outMessageId="le-debut-de-l-eglise-est-ce-normal"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Jn" chapter="11" verseBegin="52"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Cela veut dire que par sa mort Jésus va fonder une communauté.&#10;Il fonde l&apos;Eglise.</text>
+            </message>
+            <message name="&quot;J’ai soif.&quot;" id="j-ai-soif" nb="60">
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que ça veut dire ?" outMessageId="j-ai-soif-explication"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Jn" chapter="19" verseBegin="28"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Une parole de Jésus sur la croix c&apos;est : &lt;i&gt;« J’ai soif. »&lt;/i&gt;</text>
+            </message>
+            <message name="&quot;J’ai soif.&quot; (Explication)" id="j-ai-soif-explication" nb="61">
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Il a soif d&apos;eau par la mise à mort qu&apos;il subit mais aussi de notre amour.&#10;Il a soif que nous ayons soif de lui.&#10;Sa mort est un cri de Dieu à l&apos;humanité : &quot;Venez à moi, n&apos;ayez pas peur de vous approcher de moi.&quot;&#10;Donnez-moi à boire, donnez-moi votre amour, donnez-moi votre confiance.&#10;C&apos;est la preuve qu&apos;il n&apos;est pas menaçant, qu&apos;il n&apos;est pas lointain et indifférent.&#10;Il nous aime.</text>
+            </message>
+            <message name="&quot;Mon Dieu, mon Dieu pourquoi m&apos;as-tu abandonné ?&quot; vient d&apos;un psaume" id="mon-dieu-mon-dieu-pourquoi-m-as-tu-abandonne-vient-d-un-psaume" nb="12">
+              <tests>
+                <test input="A quoi le cri de Jésus sur la croix &quot;Mon Dieu, mon Dieu pourquoi m&apos;as-tu abandonné ?&quot; fait référence ?" output="Ce cri est également le titre d&apos;un psaume (le psaume 21) qui parle d&apos;un homme qui souffre.&#10;En voilà un extrait :&#10;&lt;i&gt;« Oui, des chiens me cernent, une bande de vauriens m&apos;entoure. Ils me percent les mains et les pieds ;&#10;je peux compter tous mes os. Ces gens me voient, ils me regardent.&#10;Ils partagent entre eux mes habits et tirent au sort mon vêtement. »&lt;/i&gt;&#10;Ce psaume dès les premiers temps du Christianisme a été comme une prophétie de la mort de Jésus sur la croix." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 21,17-19&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="A quoi le cri de Jésus sur la croix &quot;Mon Dieu, mon Dieu pourquoi m&apos;as-tu abandonné ?&quot; fait référence ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Comment se psaume se termine ?" outMessageId="fin-du-spaume-21"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Ps" chapter="21" verseBegin="17" verseEnd="19"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Ce cri est également le titre d&apos;un psaume (le psaume 21) qui parle d&apos;un homme qui souffre.&#10;En voilà un extrait :&#10;&lt;i&gt;« Oui, des chiens me cernent, une bande de vauriens m&apos;entoure. Ils me percent les mains et les pieds ;&#10;je peux compter tous mes os. Ces gens me voient, ils me regardent.&#10;Ils partagent entre eux mes habits et tirent au sort mon vêtement. »&lt;/i&gt;&#10;Ce psaume dès les premiers temps du Christianisme a été comme une prophétie de la mort de Jésus sur la croix.</text>
+            </message>
+            <message name="&quot;Tout est accompli.&quot;" id="tout-est-accompli" nb="70">
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que ça veut dire ?" outMessageId="tout-est-accompli-explication"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Jn" chapter="19" verseBegin="30"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Une parole de Jésus sur la croix c&apos;est  : &lt;i&gt;« Tout est accompli. »&lt;/i&gt;</text>
+            </message>
+            <message name="&quot;Tout est accompli.&quot; (Explication)" id="tout-est-accompli-explication" nb="71">
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que Jésus dit à Angèle de Foligno ?" outMessageId="ce-que-jesus-dit-a-angele-de-foligno"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Ca veut dire que la mort de Jésus a été un acte parfait et unique qui a tout accompli des prophéties de l&apos;ancien testament. Sa mort et la manière dont ça s&apos;est fait étaient annoncées. Sa résurrection aussi était annoncée.</text>
+            </message>
+            <message name="Aller vers Dieu comme le bon larron" id="aller-vers-dieu-comme-le-bon-larron" nb="32">
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Et si nous nous tournons vers lui comme ce larron, la porte est grande ouverte pour la vie avec Dieu.</text>
+            </message>
+            <message name="Aujourd&apos;hui, avec moi, tu seras dans le Paradis." id="aujourd-hui-avec-moi-tu-seras-dans-le-paradis" nb="30">
+              <tests>
+                <test input="Qu&apos;est-ce que Jésus dit à celui qui est condamné avec lui ?" output="Jésus dit à celui qui est condamné avec lui (qu&apos;on appelle le bon larron) :&#10;&lt;i&gt;« Aujourd&apos;hui, avec moi, tu seras dans le Paradis. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 23,43&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que Jésus dit à celui qui est condamné avec lui ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que ça veut dire ?" outMessageId="aujourd-hui-avec-moi-tu-seras-dans-le-paradis-explication"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Lk" chapter="23" verseBegin="43"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Jésus dit à celui qui est condamné avec lui (qu&apos;on appelle le bon larron) :&#10;&lt;i&gt;« Aujourd&apos;hui, avec moi, tu seras dans le Paradis. »&lt;/i&gt;</text>
+            </message>
+            <message name="Aujourd&apos;hui, avec moi, tu seras dans le Paradis. (Explication)" id="aujourd-hui-avec-moi-tu-seras-dans-le-paradis-explication" nb="31">
+              <nextMessageId>aller-vers-dieu-comme-le-bon-larron</nextMessageId>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Ca veut dire que par sa mort Jésus ouvre le chemin de la vie éternelle et du paradis.&#10;Dieu avait créé l&apos;homme pour vivre au paradis au jardin d&apos;Eden.&#10;En préférant la désobéissance l&apos;humanité avait quitté cette intimité avec Dieu.&#10;En mourant sur la croix Dieu ouvre à nouveau la route du ciel.</text>
+            </message>
+            <message name="Ce que Jésus dit de nos péchés" id="ce-que-jesus-dit-de-nos-peches" nb="25">
+              <tests>
+                <test input="Qu&apos;est-ce que Jésus dit de nos péchés ?" output="En chacun il y a des choses qui nous font honte. C&apos;est ce qu&apos;on appelle la pollution du péché.&#10;En disant cette parole &quot;Père pardonne leur ils ne savent pas ce qu&apos;ils font&quot;, Jésus nous dit qu&apos;il est mort sur la croix pour nous pardonner de tout ce que nous avons fait.&#10;De tout ce que nous regrettons et portons de lourds.&#10;De tout ce que nous n&apos;arrivons pas à nous pardonner parfois à nous-même." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que Jésus dit de nos péchés ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>En chacun il y a des choses qui nous font honte. C&apos;est ce qu&apos;on appelle la pollution du péché.&#10;En disant cette parole &quot;Père pardonne leur ils ne savent pas ce qu&apos;ils font&quot;, Jésus nous dit qu&apos;il est mort sur la croix pour nous pardonner de tout ce que nous avons fait.&#10;De tout ce que nous regrettons et portons de lourds.&#10;De tout ce que nous n&apos;arrivons pas à nous pardonner parfois à nous-même.</text>
+            </message>
+            <message name="Ce que Jésus dit à Angèle de Foligno" id="ce-que-jesus-dit-a-angele-de-foligno" nb="72">
+              <tests>
+                <test input="Qu&apos;est-ce que Jésus dit à Angèle de Foligno ?" output="Jésus dit à Angèle de Foligno dans une vision : &lt;i&gt;« Tu sais Angèle ce n&apos;est pas pour rire que je t&apos;ai aimé. »&lt;/i&gt;" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que Jésus dit à Angèle de Foligno ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Jésus dit à Angèle de Foligno dans une vision : &lt;i&gt;« Tu sais Angèle ce n&apos;est pas pour rire que je t&apos;ai aimé. »&lt;/i&gt;</text>
+            </message>
+            <message name="Ce que Jésus nous invite à faire" id="ce-que-jesus-nous-invite-a-faire" nb="15">
+              <tests>
+                <test input="Qu&apos;est-ce que Jésus nous invite à faire ?" output="Jésus nous invite par sa mort sur la croix à ne pas nous enfermer au désarroi. Et à croire que Dieu est toujours à nos côtés.&#10;" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que Jésus nous invite à faire ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Jésus nous invite par sa mort sur la croix à ne pas nous enfermer au désarroi. Et à croire que Dieu est toujours à nos côtés.&#10;</text>
+            </message>
+            <message name="Comment a commencé l&apos;Eglise ?" id="comment-a-commence-l-eglise" nb="53">
+              <tests>
+                <test input="Comment a commencé l&apos;Eglise ?" output="Se rassemblement commence au pied de la croix par 2 disciples fidèles : la mère de Jésus et St Jean (qui nous représente tous)." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment a commencé l&apos;Eglise ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Se rassemblement commence au pied de la croix par 2 disciples fidèles : la mère de Jésus et St Jean (qui nous représente tous).</text>
+            </message>
+            <message name="Comment se rendre compte des ses fautes ?" id="comment-se-rendre-compte-des-ses-fautes" nb="24">
+              <tests>
+                <test input="Comment se rendre compte des ses fautes ?" output="Je ne sais pas comment me rendre compte de ses fautes." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment se rendre compte des ses fautes ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que Jésus dit de nos péchés ?" outMessageId="ce-que-jesus-dit-de-nos-peches"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Imaginez qu&apos;en arrivant au ciel, on vous propose une projection privée d&apos;un long métrage sur les principaux épisodes de votre vie.&#10;Est-ce que ça sera un film tout public ?</text>
+            </message>
+            <message name="En quoi la mort de Jésus sur la croix me concerne ?" id="en-quoi-la-mort-de-jesus-sur-la-croix-me-concerne" nb="22">
+              <tests>
+                <test input="En quoi la mort de Jésus sur la croix me concerne ?" output="\hc_resource_html=#fr_FR#&lt;span&gt;Si Jésus n&apos;est pas seulement un homme, mais si il est Dieu,&lt;/span&gt;\&#9; ce qui se passe sur la croix ne concerne pas seulement les contemporains de sa condamnation mais concerne tous les hommes de tous les temps.&#10;St Paul écrit : &lt;i&gt;« Le Christ est mort pour nos péchés. »&lt;/i&gt;&#10;A nous tous, pas seulement pour les péchés de ceux qui l&apos;ont mis à mort." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 15,3&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="En quoi la mort de Jésus sur la croix me concerne ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="1 Cor" chapter="15" verseBegin="3"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text fileType="text_and_html">&lt;span&gt;Si Jésus n&apos;est pas seulement un homme, mais si il est Dieu,&lt;/span&gt;ce qui se passe sur la croix ne concerne pas seulement les contemporains de sa condamnation mais concerne tous les hommes de tous les temps.&#10;St Paul écrit : &lt;i&gt;« Le Christ est mort pour nos péchés. »&lt;/i&gt;&#10;A nous tous, pas seulement pour les péchés de ceux qui l&apos;ont mis à mort.</text>
+            </message>
+            <message name="Est-ce une réaction normale ?" id="est-ce-une-reaction-normale" nb="21">
+              <recommendations>
+                <recommendation text="En quoi ça me concerne ?" outMessageId="en-quoi-la-mort-de-jesus-sur-la-croix-me-concerne"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Il est mort par haine et la réaction normale devant un tel déferlement de haine contre lui aurait dû conduire Jésus à la malédiction. Au lieu de cela Jésus va appeler la bénédiction sur ces bourreaux. Et le pardon sur ceux qui lui font du mal.</text>
+            </message>
+            <message name="Fin du spaume 21" id="fin-du-spaume-21" nb="13">
+              <recommendations>
+                <recommendation text="Où est Dieu dans l&apos;atrocité de la vie ?" outMessageId="o-est-dieu-dans-l-atrocite-de-la-vie"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Ps" chapter="21" verseBegin="25" verseEnd="26"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Mais ce psaume se termine par des cris de joie.&#10;En voilà un extrait encore :&#10;&lt;i&gt;« Oui, des chiens me cernent, une bande de vauriens m&apos;entoure. Ils me percent les mains et les pieds ;&#10;je peux compter tous mes os. Ces gens me voient, ils me regardent.&#10;Ils partagent entre eux mes habits et tirent au sort mon vêtement. »&lt;/i&gt;&#10;Du désespoir à l&apos;espérance voilà ce que jésus nous invite à faire par sa mort sur la croix.</text>
+            </message>
+            <message name="Le début de l&apos;Eglise est-ce normal ?" id="le-debut-de-l-eglise-est-ce-normal" nb="52">
+              <tests>
+                <test input="Le début de l&apos;Eglise est-ce normal ?" output="Non, la mort de Jésus aurait dû mettre fin au groupe des disciples de Jésus.&#10;Il les a tous dispersés par sa mort en fait.&#10;L&apos;histoire de Jésus étant terminé, l&apos;histoire de l&apos;Eglise n&apos;aurait jamais dû commencer.&#10;Et c&apos;est le contraire qui se passe.&#10;Après sa résurrection, la mort et la haine étant définitivement vaincu par l&apos;amour de Jésus sur la croix les disciples se sont rassemblés et se rassemblement à prit le nom de Eccelisa. (Eglise en français)" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Le début de l&apos;Eglise est-ce normal ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Comment a commencé l&apos;Eglise ?" outMessageId="comment-a-commence-l-eglise"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Non, la mort de Jésus aurait dû mettre fin au groupe des disciples de Jésus.&#10;Il les a tous dispersés par sa mort en fait.&#10;L&apos;histoire de Jésus étant terminé, l&apos;histoire de l&apos;Eglise n&apos;aurait jamais dû commencer.&#10;Et c&apos;est le contraire qui se passe.&#10;Après sa résurrection, la mort et la haine étant définitivement vaincu par l&apos;amour de Jésus sur la croix les disciples se sont rassemblés et se rassemblement à prit le nom de Eccelisa. (Eglise en français)</text>
+            </message>
+            <message name="Mon Dieu, mon Dieu pourquoi m&apos;a-tu abandonné ?" id="mon-dieu-mon-dieu-pourquoi-m-a-tu-abandonne" nb="10">
+              <recommendations>
+                <recommendation text="Que se passe t-il dans la tête de Jésus à ce moment là ?" outMessageId="que-se-passe-t-il-dans-la-tete-de-jesus-au-moment-de-mourir"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Mk" chapter="15" verseBegin="34"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>&lt;i&gt;« Mon Dieu, mon Dieu pourquoi m&apos;as-tu abandonné ? »&lt;/i&gt;&#10;C&apos;est une parole pas très vendeuse vous ne trouvez pas ?</text>
+            </message>
+            <message name="Où est Dieu dans l&apos;atrocité de la vie ?" id="o-est-dieu-dans-l-atrocite-de-la-vie" nb="14">
+              <tests>
+                <test input="Où est Dieu dans l&apos;atrocité de la vie ?" output="Le récit que je vous cite maintenant se trouve dans le premier ouvrage publié par Elie Wiesel qui s&apos;appelle &quot;La nuit&quot; paru en 1958.&#10;Elie Wiesel est prisonnier au camp de Buchenwald dépendant d&apos;Auschwitz en Pologne. Il assiste régulièrement avec ses co-détenus à des exécutions.&#10;Les SS forcent les détenus à défiler devant les condamnés qui viennent d&apos;être pendus et à les regarder.&#10;Un jour parmis ces condamnés se trouve un enfant de 12 ans. Il était trop léger pour mourir sur le coup et son agonie est longue.&#10;Elie Wiesel écrit :&#10;&lt;i&gt;« Nous devions le regarder bien en face. Il était encore vivant lorsque je passais devant lui. Derrière moi j&apos;entendais un détenu demander : &quot;Mais où est donc Dieu ?&quot; et je sentais en moi une voix lui répondre : &quot;Où est-il ? Le voici il est là pendu à cette potence&quot;. »&lt;/i&gt;" outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Où est Dieu dans l&apos;atrocité de la vie ?"/>
+              </triggers>
+              <nextMessageId>ce-que-jesus-nous-invite-a-faire</nextMessageId>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Le récit que je vous cite maintenant se trouve dans le premier ouvrage publié par Elie Wiesel qui s&apos;appelle &quot;La nuit&quot; paru en 1958.&#10;Elie Wiesel est prisonnier au camp de Buchenwald dépendant d&apos;Auschwitz en Pologne. Il assiste régulièrement avec ses co-détenus à des exécutions.&#10;Les SS forcent les détenus à défiler devant les condamnés qui viennent d&apos;être pendus et à les regarder.&#10;Un jour parmis ces condamnés se trouve un enfant de 12 ans. Il était trop léger pour mourir sur le coup et son agonie est longue.&#10;Elie Wiesel écrit :&#10;&lt;i&gt;« Nous devions le regarder bien en face. Il était encore vivant lorsque je passais devant lui. Derrière moi j&apos;entendais un détenu demander : &quot;Mais où est donc Dieu ?&quot; et je sentais en moi une voix lui répondre : &quot;Où est-il ? Le voici il est là pendu à cette potence&quot;. »&lt;/i&gt;</text>
+            </message>
+            <message name="Père, entre tes mains je remets mon esprit." id="pere-entre-tes-mains-je-remets-mon-esprit" nb="40">
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Lk" chapter="23" verseBegin="46"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Au moment d&apos;expirer Jésus dit : &lt;i&gt;« Père, entre tes mains je remets mon esprit. »&lt;/i&gt;</text>
+            </message>
+            <message name="Père, entre tes mains je remets mon esprit. (Explication)" id="pere-entre-tes-mains-je-remets-mon-esprit-explication" nb="41">
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Cette parole nous parle de la trinité.&#10;Jésus est le fils éternelle du Père uni au Père par et dans l&apos;Esprit.&#10;En mourant Jésus lâche l&apos;esprit Saint. Cet Esprit Saint qui vient du Père pour que le Père par lui le répande sur toute la terre. (C&apos;est ce qu&apos;on fête à la Pentecôte)&#10;Jésus, au moment de mourir, nous donne capable de devenir fils et fille du Père, d&apos;entrer en intimité dans la famille divine.</text>
+            </message>
+            <message name="Père, pardonne-leur : ils ne savent pas ce qu’ils font." id="pere-pardonne-leur-ils-ne-savent-pas-ce-qu-ils-font" nb="20">
+              <recommendations>
+                <recommendation text="Est-ce une réaction normale ?" outMessageId="est-ce-une-reaction-normale"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+                <bible book="Lk" chapter="23" verseBegin="34"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Une parole de Jésus sur la croix c&apos;est : &lt;i&gt;« Père, pardonne-leur : ils ne savent pas ce qu’ils font. »&lt;/i&gt;</text>
+            </message>
+            <message name="Que se passe t-il dans la tête de Jésus au moment de mourir ?" id="que-se-passe-t-il-dans-la-tete-de-jesus-au-moment-de-mourir" nb="11">
+              <tests>
+                <test input="Que se passe t-il dans la tête de Jésus au moment de mourir ?" output="Pour les témoins de la scène ce jour là c&apos;est un cri d&apos;un désespéré, d&apos;un agonisant, d&apos;un condamné à mort.&#10;Pourtant Jésus n&apos;est pas désespéré.&#10;Mais il accepte de se mettre à notre place et d&apos;accueillir et de vivre nos cris et notre attitude parfois un peu désespéré.&#10;Il habite nos maux. Il prend notre douleur." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Que se passe t-il dans la tête de Jésus au moment de mourir ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="A quoi ça fait référence ?" outMessageId="mon-dieu-mon-dieu-pourquoi-m-as-tu-abandonne-vient-d-un-psaume"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Pour les témoins de la scène ce jour là c&apos;est un cri d&apos;un désespéré, d&apos;un agonisant, d&apos;un condamné à mort.&#10;Pourtant Jésus n&apos;est pas désespéré.&#10;Mais il accepte de se mettre à notre place et d&apos;accueillir et de vivre nos cris et notre attitude parfois un peu désespéré.&#10;Il habite nos maux. Il prend notre douleur.</text>
+            </message>
+            <message name="Qui est pécheur ?" id="qui-est-pecheur" nb="23">
+              <tests>
+                <test input="Qui est pécheur ?" output="C&apos;est peut-être compliqué à croire, mais nous sommes tous pécheurs.&#10;On n&apos;a peut-être pas fait de péchés très grave mais on est parfois dominé par la colère, par la jalousie, par l&apos;égoïsme, par la médisance, le mensonge... Parfois on est même esclave de certaines choses." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qui est pécheur ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Comment se rendre compte des ses fautes ?" outMessageId="comment-se-rendre-compte-des-ses-fautes"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>C&apos;est peut-être compliqué à croire, mais nous sommes tous pécheurs.&#10;On n&apos;a peut-être pas fait de péchés très grave mais on est parfois dominé par la colère, par la jalousie, par l&apos;égoïsme, par la médisance, le mensonge... Parfois on est même esclave de certaines choses.</text>
+            </message>
+          </folder>
+          <message name="Pourquoi la croix est le symbole du christianisme ?" id="pourquoi-la-croix-est-le-symbole-du-christianisme" nb="8">
+            <tests>
+              <test input="Pourquoi la croix est le symbole du christianisme ?" output="Parce que si la plupart des hommes on retient d&apos;eux leur vie, de Jésus on retient surtout sa mort. Une mort vécue comme un acte de libération, un acte d&apos;amour infini. On lit dans l&apos;évangile de Saint Jean :&#10;&lt;i&gt;« Car Dieu a tellement aimé le monde qu&apos;il a donné son Fils unique, afin que quiconque croit en lui ne se perde pas, mais obtienne la vie éternelle. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              <test input="Pourquoi la croix est le signe du christianisme ?" output="Parce que si la plupart des hommes on retient d&apos;eux leur vie, de Jésus on retient surtout sa mort. Une mort vécue comme un acte de libération, un acte d&apos;amour infini. On lit dans l&apos;évangile de Saint Jean :&#10;&lt;i&gt;« Car Dieu a tellement aimé le monde qu&apos;il a donné son Fils unique, afin que quiconque croit en lui ne se perde pas, mais obtienne la vie éternelle. »&lt;/i&gt;" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3,16&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Pourquoi la croix est le symbole du christianisme ?"/>
+              <trigger value="Pourquoi la croix est le signe du christianisme ?"/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              <bible book="Jn" chapter="3" verseBegin="16"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Parce que si la plupart des hommes on retient d&apos;eux leur vie, de Jésus on retient surtout sa mort. Une mort vécue comme un acte de libération, un acte d&apos;amour infini. On lit dans l&apos;évangile de Saint Jean :&#10;&lt;i&gt;« Car Dieu a tellement aimé le monde qu&apos;il a donné son Fils unique, afin que quiconque croit en lui ne se perde pas, mais obtienne la vie éternelle. »&lt;/i&gt;</text>
+          </message>
+          <message name="Qu&apos;est-ce que Jésus a dit quand il a été crucifié ?" id="qu-est-ce-que-jesus-a-dit-quand-il-a-ete-crucifie" nb="9">
+            <triggers>
+              <trigger value="Qu&apos;est-ce que Jésus a dit quand il a été crucifié ?"/>
+              <trigger value="Qu&apos;est-ce qu&apos;il s&apos;est passé quand Jésus a été crucifié ?"/>
+            </triggers>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Quand on lit comment Jésus est mort, dans les évangiles de Matthieu, Marc, Luc et Jean, on puet notter 7 paroles de Jésus sur la croix.&#10;Pour moi c&apos;est la clé de lecture de la mort de Jésus.</text>
+            <planningInfos>
+              <effects>
+                <fact value="ce-que-jésus-a-dit-quand-il-a-été-crucifié"/>
+              </effects>
+            </planningInfos>
+          </message>
+          <folder name="Résumé de la mort de Jésus" id="resume-de-la-mort-de-jesus" defaultSourceId="interne">
+            <message name="Ce que nous apporte la mort de Jésus" id="ce-que-nous-apporte-la-mort-de-jesus" nb="3">
+              <tests>
+                <test input="Qu&apos;est-ce que nous apporte la mort de Jésus ?" output="Et bien par cet acte incroyable de souffrance habité par la confiance, Jésus prend sur lui tout le mal du monde et par l&apos;amour du Père et la puissance du Saint Esprit, il détruit tout cela dans la résurrection.&#10;Dieu remplace la haine par l&apos;amour.&#10;Dieu remplace le péché par la grâce.&#10;Par la croix, par son pardon et par sa miséricorde, Jésus a le pouvoir de nous transformer de l&apos;intérieur." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+                <test input="Qu&apos;est-ce que Dieu remplace ?" output="Dieu remplace l&apos;haine et le péché." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que nous apporte la mort de Jésus ?"/>
+              </triggers>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Et bien par cet acte incroyable de souffrance habité par la confiance, Jésus prend sur lui tout le mal du monde et par l&apos;amour du Père et la puissance du Saint Esprit, il détruit tout cela dans la résurrection.&#10;Dieu remplace la haine par l&apos;amour.&#10;Dieu remplace le péché par la grâce.&#10;Par la croix, par son pardon et par sa miséricorde, Jésus a le pouvoir de nous transformer de l&apos;intérieur.</text>
+            </message>
+            <message name="La mort de Jésus est-elle vraiment si atroce ?" id="la-mort-de-jesus-est-elle-vraiment-si-atroce" nb="1">
+              <tests>
+                <test input="La mort de Jésus est-elle vraiment si atroce ?" output="Remettons-nous la scène en tête. Jésus est attaché à un poteau, il est d&apos;abord flagellé avec des lanières de cuivre&#10;bardées de fragments d&apos;os et de métal. Une couronne d&apos;épine est enfoncée sur sa tête.&#10;Tandis que les soldats romains le frappe au visage en se moquant de lui.&#10;Puis Jésus doit porter la poutre transversale de la croix sur ses épaules ensanglantés.&#10;Il va jusqu&apos;à s&apos;effondrer sur le chemin de la croix.&#10;Arrivé à l&apos;endroit de la crucifiction il est mis nu allongé sur la croix. Des clous de 18 centimètres sont plantées dans&#10;ses poignets. Ses genoux sont remontés sur le côté pour clouer les chevilles entre le tibia et le tendon d&apos;achille.&#10;La croix est relevée à la verticale.&#10;Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable.&#10;Une souffrance atroce est causé par le déchirement des muscles et par l&apos;asphyxie.&#10;&#10;Et bien par cet acte incroyable de souffrance habité par la confiance Jésus prend sur lui tout le mal du monde  et par l&apos;amour du Père&#10;et la puissance du Saint Esprit, il détruit tout cela dans la résurrection.&#10;Il remplace la haine par l&apos;amour.&#10;Il remplace le péché par la grâce.&#10;Par la croix Jésus a le pouvoir de nous transformer de l&apos;intérieur. Par son pardon par sa miséricorde." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="La mort de Jésus est-elle vraiment si atroce ?"/>
+              </triggers>
+              <recommendations>
+                <recommendation text="Et ensuite ?" outMessageId="suite-de-la-description-de-la-mort-de-jesus"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Remettons-nous la scène en tête. Jésus est attaché à un poteau, il est d&apos;abord flagellé avec des lanières de cuivre bardées de fragments d&apos;os et de métal. Une couronne d&apos;épine est enfoncée sur sa tête tandis que les soldats romains le frappent au visage en se moquant de lui.&#10;Puis Jésus doit porter la poutre transversale de la croix sur ses épaules ensanglantés.&#10;Il va jusqu&apos;à s&apos;effondrer sur le chemin de la croix.</text>
+            </message>
+            <message name="Suite de la description de la mort de Jésus" id="suite-de-la-description-de-la-mort-de-jesus" nb="2">
+              <recommendations>
+                <recommendation text="Et qu&apos;est-ce que ça nous apporte ?" outMessageId="ce-que-nous-apporte-la-mort-de-jesus"/>
+              </recommendations>
+              <references>
+                <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+              </references>
+              <sourceId>parcours-alpha-la-traversee</sourceId>
+              <text>Arrivé à l&apos;endroit de la crucifixion, il est mis nu allongé sur la croix. Des clous de 18 centimètres sont plantées dans ses poignets. Ses genoux sont remontés sur le côté pour clouer les chevilles entre le tibia et le tendon d&apos;achille.&#10;La croix est relevée à la verticale.&#10;Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable. Une souffrance atroce est causé par le déchirement des muscles et par l&apos;asphyxie.</text>
+            </message>
+          </folder>
           <message name="Voir les photos de Madanna, du Pape François et de Rihanna" id="voir-les-photos-de-madanna-du-pape-francois-et-de-rihanna" nb="2">
             <references>
               <site book="https://www.puretrend.com/article/madonna-vs-lady-gaga-qui-porte-le-mieux-le-crucifix_a56318/1"/>
@@ -10008,6 +10425,18 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="En vacances" id="en-vacances" defaultSourceId="interne">
+      <message name="Comment prier pendant les vacances ? Les conseils d&apos;un moine-touriste !" id="comment-prier-pendant-les-vacances-les-conseils-d-un-moine-touriste">
+        <tests>
+          <test input="Comment prier pendant les vacances ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CM048JRsYik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;comment-prier-pendant-les-vacances-les-conseils-d-un-moine-touriste&quot; textlength=&quot;30&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment prier pendant les vacances ?"/>
+        </triggers>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CM048JRsYik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Ensemble" id="ensemble">
