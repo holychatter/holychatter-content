@@ -2734,7 +2734,7 @@
             <tests>
               <test input="Mendicité des SDF : une activité pour survivre" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Pourquoi la mendisité s&apos;impose à certains ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
-              <test input="Est-ce facile de mendier ?" output="Je ne sais pas si c&apos;est facile de mendier mais \hc_resource_html=#fr_FR#&lt;a href=&quot;https://www.simplecommebonjour.org/?formulaire=questions&quot;&gt;vous pouvez nous envoyer votre question ici !&lt;/a&gt;\" isOk="false"/>
+              <test input="Est-ce facile de mendier ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="S&apos;enrichir avec la mendicité, c&apos;est possible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input=" Qu&apos;est-ce que la mendicité rapporte en moyenne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
               <test input="Peut-on créer du lien avec une personne en mendicité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9PRz5T_Qbb8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -5287,23 +5287,19 @@
           <text fileType="text_and_html">Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! &lt;span&gt;Aurait-il ressuscité un menteur ?&lt;/span&gt;&#10;</text>
         </message>
         <folder name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="5" defaultSourceId="interne">
-          <message name="Je ne sais pas quelle est la différence" id="je-ne-sais-pas-quelle-est-la-difference" nb="2">
-            <triggers>
-              <trigger value="Ils portent une croix."/>
-            </triggers>
+          <message name="Beaucoup de gens portent une croix" id="beaucoup-de-gens-portent-une-croix" nb="5">
             <references>
               <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
             </references>
             <sourceId>parcours-alpha-la-traversee</sourceId>
-            <text>En fait tous les 3 portent une croix autour du coup.&#10;En fait beaucoup de gens portent une croix, que ce soit en or, en bois ou en strass.&#10;On n&apos;y fait plus attention.</text>
+            <text>Beaucoup de gens portent une croix, que ce soit en or, en bois ou en strass.&#10;On n&apos;y fait plus attention.</text>
           </message>
-          <message name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort-pourquoi-jesus-est-il-mort" nb="1">
+          <message name="Devinette : Rihanna, le Pape et Madonna" id="devinette-rihanna-le-pape-et-madonna" nb="1">
             <triggers>
-              <trigger value="Pourquoi Jésus est-il mort ?"/>
               <trigger value="Je veux examiner les raisons de la mort de Jésus."/>
             </triggers>
             <recommendations>
-              <recommendation text="Je ne sais pas" outMessageId="je-ne-sais-pas-quelle-est-la-difference"/>
+              <recommendation text="Je veux un indice." outMessageId="voir-les-photos-de-madanna-du-pape-francois-et-de-rihanna"/>
             </recommendations>
             <references>
               <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
@@ -5317,7 +5313,57 @@
               <effects>
                 <fact value="raisons-de-la-mort-de-jésus"/>
               </effects>
+              <goalsToAdd>
+                <goalsToAdd value="devinette-rihanna-pape-madonna"/>
+              </goalsToAdd>
             </planningInfos>
+          </message>
+          <message name="Devinette : Rihanna, le Pape et Madonna (Bonne réponse)" id="devinette-rihanna-le-pape-et-madonna-bonne-reponse" nb="3">
+            <triggers>
+              <trigger value="-Ils portent une croix."/>
+            </triggers>
+            <nextMessageId>beaucoup-de-gens-portent-une-croix</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>Oui.</text>
+            <planningInfos>
+              <preconditions>
+                <fact value="devinette-rihanna-pape-madonna"/>
+              </preconditions>
+              <effects>
+                <fact value="devinette-rihanna-pape-madonna"/>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Je ne sais pas quelle est la différence" id="je-ne-sais-pas-quelle-est-la-difference" nb="4">
+            <tests>
+              <test input="Ils portent une croix." output="En fait tous les 3 portent une croix autour du coup.&#10;En fait beaucoup de gens portent une croix, que ce soit en or, en bois ou en strass.&#10;On n&apos;y fait plus attention." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Ils portent une croix."/>
+            </triggers>
+            <nextMessageId>beaucoup-de-gens-portent-une-croix</nextMessageId>
+            <references>
+              <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
+            </references>
+            <sourceId>parcours-alpha-la-traversee</sourceId>
+            <text>En fait tous les 3 portent une croix autour du cou.</text>
+            <planningInfos>
+              <effects>
+                <fact value="devinette-rihanna-pape-madonna"/>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Voir les photos de Madanna, du Pape François et de Rihanna" id="voir-les-photos-de-madanna-du-pape-francois-et-de-rihanna" nb="2">
+            <references>
+              <site book="https://www.puretrend.com/article/madonna-vs-lady-gaga-qui-porte-le-mieux-le-crucifix_a56318/1"/>
+              <site book="https://fr.wikipedia.org/wiki/Fran%C3%A7ois_(pape)"/>
+              <site book="https://www.la-croix.com/Culture/Rihanna-presente-collection-pour-Puma-inspiree-lingerie-2016-09-28-1300792477"/>
+            </references>
+            <sourceId>google-images</sourceId>
+            <text fileType="text_and_html">&lt;table style=&quot;width:100%&quot;&gt;&#10;  &lt;tr&gt;&#10;    &lt;td style=&quot;padding: 5px;&quot;&gt;&lt;img src=&quot;/upload/Madanna.jpg&quot; width=&quot;170&quot; /&gt;&lt;/td&gt;&#10;    &lt;td style=&quot;padding: 5px;&quot;&gt;&lt;img src=&quot;/upload/Pape.jpg&quot; width=&quot;170&quot;/&gt;&lt;/td&gt;&#10;    &lt;td style=&quot;padding: 5px;&quot;&gt;&lt;img src=&quot;/upload/Rihanna.jpg&quot; width=&quot;170&quot;/&gt;&lt;/td&gt;&#10;  &lt;/tr&gt;&#10;&lt;/table&gt;</text>
           </message>
           <message name="Voulez-vous examiner les raisons de la mort de Jésus ?" id="voulez-vous-examiner-les-raisons-de-la-mort-de-jesus">
             <sourceId>interne</sourceId>
@@ -7231,7 +7277,7 @@
         </message>
         <message name="La validité et la nullité du mariage, qu’est ce que c’est ?" id="la-validite-et-la-nullite-du-mariage-qu-est-ce-que-c-est">
           <tests>
-            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="(&#9;Qu&apos;est-ce que la validité ?&#9;AND&#9;Quelle est la nullité du mariage ?&#9;)|otherAnswer-&gt;|Je ne sais pas ce que c&apos;est mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="|otherAnswer-&gt;|Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="La validité et la nullité du mariage, qu’est ce que c’est ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hl2Nq0YlQxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2,24&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-validite-et-la-nullite-du-mariage-qu-est-ce-que-c-est&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="La validité et la nullité du mariage, qu’est ce que c’est ?"/>
@@ -8590,7 +8636,7 @@
       </message>
       <message name="Science et bible que nous apprennent-elles sur Dieu ?" id="science-et-bible-que-nous-apprennent-elles-sur-dieu">
         <tests>
-          <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="Je ne sais pas si elles nous apprennent Science et bible sur Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="Source : &lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Science et bible que nous apprennent-elles sur Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zn7xSowFWCY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;science-et-bible-que-nous-apprennent-elles-sur-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Science et bible que nous apprennent-elles sur Dieu ?"/>
