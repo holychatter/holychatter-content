@@ -5360,9 +5360,6 @@
             <tests>
               <test input="Ils portent une croix." output="Oui." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
             </tests>
-            <triggers>
-              <trigger value="Ils portent une croix."/>
-            </triggers>
             <nextMessageId>beaucoup-de-gens-portent-une-croix</nextMessageId>
             <references>
               <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
@@ -5396,6 +5393,19 @@
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Jésus voit Marie et Jean au pied de la croix et dit  : &#10;« Femme, voici ton fils. » et à Jean il dit « Voici ta mère. »</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="&quot;Femme, voici ton fils.&quot; et &quot;Voici ta mère.&quot; (Explication)" id="femme-voici-ton-fils-et-voici-ta-mere-explication" nb="51">
               <recommendations>
@@ -5418,6 +5428,19 @@
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Une parole de Jésus sur la croix c&apos;est : &lt;i&gt;« J’ai soif. »&lt;/i&gt;</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="&quot;J’ai soif.&quot; (Explication)" id="j-ai-soif-explication" nb="61">
               <references>
@@ -5453,6 +5476,19 @@
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Une parole de Jésus sur la croix c&apos;est  : &lt;i&gt;« Tout est accompli. »&lt;/i&gt;</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="&quot;Tout est accompli.&quot; (Explication)" id="tout-est-accompli-explication" nb="71">
               <recommendations>
@@ -5487,6 +5523,19 @@
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Jésus dit à celui qui est condamné avec lui (qu&apos;on appelle le bon larron) :&#10;&lt;i&gt;« Aujourd&apos;hui, avec moi, tu seras dans le Paradis. »&lt;/i&gt;</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="Aujourd&apos;hui, avec moi, tu seras dans le Paradis. (Explication)" id="aujourd-hui-avec-moi-tu-seras-dans-le-paradis-explication" nb="31">
               <nextMessageId>aller-vers-dieu-comme-le-bon-larron</nextMessageId>
@@ -5625,6 +5674,19 @@
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>&lt;i&gt;« Mon Dieu, mon Dieu pourquoi m&apos;as-tu abandonné ? »&lt;/i&gt;&#10;C&apos;est une parole pas très vendeuse vous ne trouvez pas ?</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="Où est Dieu dans l&apos;atrocité de la vie ?" id="o-est-dieu-dans-l-atrocite-de-la-vie" nb="14">
               <tests>
@@ -5641,12 +5703,28 @@
               <text>Le récit que je vous cite maintenant se trouve dans le premier ouvrage publié par Elie Wiesel qui s&apos;appelle &quot;La nuit&quot; paru en 1958.&#10;Elie Wiesel est prisonnier au camp de Buchenwald dépendant d&apos;Auschwitz en Pologne. Il assiste régulièrement avec ses co-détenus à des exécutions.&#10;Les SS forcent les détenus à défiler devant les condamnés qui viennent d&apos;être pendus et à les regarder.&#10;Un jour parmis ces condamnés se trouve un enfant de 12 ans. Il était trop léger pour mourir sur le coup et son agonie est longue.&#10;Elie Wiesel écrit :&#10;&lt;i&gt;« Nous devions le regarder bien en face. Il était encore vivant lorsque je passais devant lui. Derrière moi j&apos;entendais un détenu demander : &quot;Mais où est donc Dieu ?&quot; et je sentais en moi une voix lui répondre : &quot;Où est-il ? Le voici il est là pendu à cette potence&quot;. »&lt;/i&gt;</text>
             </message>
             <message name="Père, entre tes mains je remets mon esprit." id="pere-entre-tes-mains-je-remets-mon-esprit" nb="40">
+              <recommendations>
+                <recommendation text="Qu&apos;est-ce que ça veut dire ?" outMessageId="pere-entre-tes-mains-je-remets-mon-esprit-explication"/>
+              </recommendations>
               <references>
                 <site book="https://www.youtube.com/watch?v=H5SE6YwN-SE"/>
                 <bible book="Lk" chapter="23" verseBegin="46"/>
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Au moment d&apos;expirer Jésus dit : &lt;i&gt;« Père, entre tes mains je remets mon esprit. »&lt;/i&gt;</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="Père, entre tes mains je remets mon esprit. (Explication)" id="pere-entre-tes-mains-je-remets-mon-esprit-explication" nb="41">
               <references>
@@ -5665,6 +5743,19 @@
               </references>
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>Une parole de Jésus sur la croix c&apos;est : &lt;i&gt;« Père, pardonne-leur : ils ne savent pas ce qu’ils font. »&lt;/i&gt;</text>
+              <planningInfos>
+                <effects>
+                  <exps>
+                    <elts>
+                      <elt type="operator" value="++"/>
+                      <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    </elts>
+                  </exps>
+                </effects>
+                <potentialEffects>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </potentialEffects>
+              </planningInfos>
             </message>
             <message name="Que se passe t-il dans la tête de Jésus au moment de mourir ?" id="que-se-passe-t-il-dans-la-tete-de-jesus-au-moment-de-mourir" nb="11">
               <tests>
@@ -5698,6 +5789,21 @@
               <sourceId>parcours-alpha-la-traversee</sourceId>
               <text>C&apos;est peut-être compliqué à croire, mais nous sommes tous pécheurs.&#10;On n&apos;a peut-être pas fait de péchés très grave mais on est parfois dominé par la colère, par la jalousie, par l&apos;égoïsme, par la médisance, le mensonge... Parfois on est même esclave de certaines choses.</text>
             </message>
+            <message name="Voilà on a fait le tour des paroles de Jésus en croix." id="voila-on-a-fait-le-tour-des-paroles-de-jesus-en-croix">
+              <recommendations>
+                <recommendation text="La mort de Jésus est-elle vraiment si atroce ?" outMessageId="la-mort-de-jesus-est-elle-vraiment-si-atroce"/>
+              </recommendations>
+              <sourceId>interne</sourceId>
+              <text>Voilà on a fait le tour des paroles de Jésus en croix.</text>
+              <planningInfos>
+                <preconditions>
+                  <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
+                </preconditions>
+                <effects>
+                  <fact value="jésus-en-croix-bilan-paroles"/>
+                </effects>
+              </planningInfos>
+            </message>
           </folder>
           <message name="Pourquoi la croix est le symbole du christianisme ?" id="pourquoi-la-croix-est-le-symbole-du-christianisme" nb="8">
             <tests>
@@ -5728,7 +5834,22 @@
             <planningInfos>
               <effects>
                 <fact value="ce-que-jésus-a-dit-quand-il-a-été-crucifié"/>
+                <exps>
+                  <elts>
+                    <elt type="fact" value="jésus-en-croix-max-nombre-de-paroles"/>
+                    <elt type="operator" value="="/>
+                    <elt type="value" value="7"/>
+                  </elts>
+                  <elts>
+                    <elt type="fact" value="jésus-en-croix-nombre-de-paroles"/>
+                    <elt type="operator" value="="/>
+                    <elt type="value" value="0"/>
+                  </elts>
+                </exps>
               </effects>
+              <goalsToAdd>
+                <goalsToAdd value="jésus-en-croix-bilan-paroles"/>
+              </goalsToAdd>
             </planningInfos>
           </message>
           <folder name="Résumé de la mort de Jésus" id="resume-de-la-mort-de-jesus" defaultSourceId="interne">
@@ -5748,7 +5869,7 @@
             </message>
             <message name="La mort de Jésus est-elle vraiment si atroce ?" id="la-mort-de-jesus-est-elle-vraiment-si-atroce" nb="1">
               <tests>
-                <test input="La mort de Jésus est-elle vraiment si atroce ?" output="Remettons-nous la scène en tête. Jésus est attaché à un poteau, il est d&apos;abord flagellé avec des lanières de cuivre&#10;bardées de fragments d&apos;os et de métal. Une couronne d&apos;épine est enfoncée sur sa tête.&#10;Tandis que les soldats romains le frappe au visage en se moquant de lui.&#10;Puis Jésus doit porter la poutre transversale de la croix sur ses épaules ensanglantés.&#10;Il va jusqu&apos;à s&apos;effondrer sur le chemin de la croix.&#10;Arrivé à l&apos;endroit de la crucifiction il est mis nu allongé sur la croix. Des clous de 18 centimètres sont plantées dans&#10;ses poignets. Ses genoux sont remontés sur le côté pour clouer les chevilles entre le tibia et le tendon d&apos;achille.&#10;La croix est relevée à la verticale.&#10;Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable.&#10;Une souffrance atroce est causé par le déchirement des muscles et par l&apos;asphyxie.&#10;&#10;Et bien par cet acte incroyable de souffrance habité par la confiance Jésus prend sur lui tout le mal du monde  et par l&apos;amour du Père&#10;et la puissance du Saint Esprit, il détruit tout cela dans la résurrection.&#10;Il remplace la haine par l&apos;amour.&#10;Il remplace le péché par la grâce.&#10;Par la croix Jésus a le pouvoir de nous transformer de l&apos;intérieur. Par son pardon par sa miséricorde." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
+                <test input="La mort de Jésus est-elle vraiment si atroce ?" output="Remettons-nous la scène en tête. Jésus est attaché à un poteau, il est d&apos;abord flagellé avec des lanières de cuivre bardées de fragments d&apos;os et de métal. Une couronne d&apos;épine est enfoncée sur sa tête tandis que les soldats romains le frappent au visage en se moquant de lui.&#10;Puis Jésus doit porter la poutre transversale de la croix sur ses épaules ensanglantés.&#10;Il va jusqu&apos;à s&apos;effondrer sur le chemin de la croix." outputReferences="Url : &lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;43&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="La mort de Jésus est-elle vraiment si atroce ?"/>

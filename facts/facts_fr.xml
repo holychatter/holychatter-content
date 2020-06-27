@@ -59,6 +59,19 @@
       <trigger>Je crois que Jésus a existé.</trigger>
     </triggers>
   </fact>
+  <fact id="jésus-en-croix-bilan-paroles">
+    <continuationTexts>
+      <continuation facts="${jésus-en-croix-nombre-de-paroles}=0" text="Montrez-moi une parole de Jésus en croix."/>
+      <continuation facts="${jésus-en-croix-max-nombre-de-paroles}=${jésus-en-croix-nombre-de-paroles}" text="Et donc ?"/>
+      <continuation facts="${jésus-en-croix-max-nombre-de-paroles}=${jésus-en-croix-nombre-de-paroles}+1" text="Montrez-moi une dernière parole de Jésus en croix."/>
+      <continuation text="Montrez-moi une autre parole de Jésus en croix. (`${jésus-en-croix-nombre-de-paroles}+1`/${jésus-en-croix-max-nombre-de-paroles})"/>
+    </continuationTexts>
+  </fact>
+  <fact id="jésus-en-croix-fini-de-dire-toutes-les-paroles">
+    <preconditionFacts>
+      <preconditionSet>${jésus-en-croix-nombre-de-paroles}=${jésus-en-croix-max-nombre-de-paroles}</preconditionSet>
+    </preconditionFacts>
+  </fact>
   <fact id="jésus-est-soit-fou-soit-le-fils-de-dieu">
     <continuationTexts>
       <continuation text="Jésus est-il un homme sage ?"/>
