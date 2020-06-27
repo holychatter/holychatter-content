@@ -3376,11 +3376,16 @@
         </message>
         <folder name="Holy Chatter" id="holy-chatter">
           <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation">
-            <triggers>
-              <trigger value="-Je suis chrétien."/>
-            </triggers>
             <sourceId>interne</sourceId>
             <text>Avez-vous trouvé votre vocation ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="demander-le-jour-de-naissance"/>
+              </optionalPreconditions>
+              <potentialEffects>
+                <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+              </potentialEffects>
+            </planningInfos>
           </message>
           <folder name="Blagues" id="blagues">
             <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
@@ -3500,13 +3505,16 @@
               <text>J&apos;aimerais te faire aimer Jésus.</text>
             </message>
           </folder>
-          <message name="Quand êtes-vous né ?" id="quand-etes-vous-ne">
+          <message name="Quel jour êtes-vous né ?" id="quel-jour-etes-vous-ne">
             <sourceId>interne</sourceId>
-            <text>Quand êtes-vous né ?</text>
+            <text>Quel jour êtes-vous né ?</text>
             <planningInfos>
               <optionalPreconditions>
                 <fact value="être-chrétien"/>
               </optionalPreconditions>
+              <effects>
+                <fact value="demander-le-jour-de-naissance"/>
+              </effects>
               <potentialEffects>
                 <fact value="aimer-dieu-toujours-plus"/>
               </potentialEffects>
@@ -3861,15 +3869,6 @@
               <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
             </message>
           </folder>
-          <message name="Suggestion pour savoir qui a écrit la Bible" id="suggestion-pour-savoir-qui-a-ecrit-la-bible">
-            <sourceId>interne</sourceId>
-            <text>Voulez-vous savoir qui a écrit la Bible ?</text>
-            <planningInfos>
-              <potentialEffects>
-                <fact value="aimer-dieu-toujours-plus"/>
-              </potentialEffects>
-            </planningInfos>
-          </message>
           <folder name="Utilisateur" id="utilisateur">
             <message name="Je ne te déteste pas." id="je-ne-te-deteste-pas">
               <sourceId>le-personnage-holy-chatter</sourceId>
@@ -7378,7 +7377,7 @@
             <site book="https://cybercure.fr/je-celebre-les-sacrements/mariage/article/conditions-du-mariage-catholique"/>
           </references>
           <sourceId>cybercure</sourceId>
-          <text>En principe, il faut être baptisé pour se marier religieusement. Cependant une personne non chrétienne peut se marier si elle épouse quelqu’un qui est baptisé. Cependant il faut que la paroisse demande à l’évêché une dispense qu’on désigne du nom un peu surprenant de &quot;dispense de disparité de culte&quot;. Elle est pratiquement toujours accordée. La personne non chrétienne doit être en accord avec les éléments essentiels du mariage chrétien (liberté, fidélité, indissolubilité et ouverture à la fécondité) et s’engager à respecter la foi de son conjoint.&#10;&#10;Si aucun des deux partenaires n’est chrétien, il n’est pas possible de se marier, car il faut être baptisé pour recevoir un sacrement.</text>
+          <text fileType="text_and_html">&lt;span&gt;En principe, il faut être baptisé pour se marier religieusement. Cependant une personne non chrétienne peut se marier si elle épouse quelqu’un qui est baptisé. Cependant il faut que la paroisse demande à l’évêché une dispense qu’on désigne du nom un peu surprenant de &quot;dispense de disparité de culte&quot;. Elle est pratiquement toujours accordée. La personne non chrétienne doit être en accord avec les éléments essentiels du mariage chrétien (liberté, fidélité, indissolubilité et ouverture à la fécondité) et s’engager à respecter la foi de son conjoint.&#10;&#10;Si aucun des deux partenaires n’est chrétien, il n’est pas possible de se marier, car il faut être baptisé pour recevoir un sacrement.&lt;/span&gt;</text>
         </message>
         <message name="Le baptême" id="le-bapteme">
           <tests>
@@ -10995,7 +10994,7 @@
           <text>Connaissez-vous l&apos;application Entourage ?</text>
           <planningInfos>
             <optionalPreconditions>
-              <fact value="être-chrétien"/>
+              <fact value="demander-le-jour-de-naissance"/>
             </optionalPreconditions>
             <potentialEffects>
               <fact value="aimer-son-prochain-toujours-plus"/>
