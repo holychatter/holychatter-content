@@ -2590,7 +2590,7 @@
       </goals>
       <changeSubjectInfos>
         <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeux où vous devrez répondre à 5 questions à choix multiples." message="Pose-moi des questions"/>
-        <subjectInfos title="Je veux en savoir plus sur la louange." description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." message="Je veux en savoir plus sur la louange."/>
+        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." message="Qu&apos;est-ce que la louange ?"/>
       </changeSubjectInfos>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
@@ -10711,18 +10711,13 @@
       <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges" defaultSourceId="interne">
         <message name="Ce que Dieu désire" id="ce-que-dieu-desire">
           <tests>
-            <test input="Qu&apos;est-ce que Dieu désire ?" output="Dieu désir créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ces merveilles dans nos vies." outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;ce-que-dieu-desire&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce que Dieu désire ?" output="Dieu désire créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ses merveilles dans nos vies." outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;ce-que-dieu-desire&quot; textlength=&quot;12&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Qu&apos;est-ce que Dieu désire ?"/>
           </triggers>
           <sourceId>marie-biokou</sourceId>
-          <text>Dieu désir créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ces merveilles dans nos vies.</text>
-          <planningInfos>
-            <effects>
-              <fact value="louange-qu-est-ce-que-dieu-desire"/>
-            </effects>
-          </planningInfos>
+          <text>Dieu désire créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ses merveilles dans nos vies.</text>
         </message>
         <message name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges">
           <triggers>
@@ -10734,40 +10729,44 @@
           </references>
           <sourceId>marie-biokou</sourceId>
           <text>La réponse est non. Mais</text>
+          <planningInfos>
+            <effects>
+              <fact value="louange-qu-est-ce-que-dieu-desire"/>
+            </effects>
+          </planningInfos>
         </message>
       </folder>
+      <message name="Examples de chants de louange" id="examples-de-chants-de-louange">
+        <triggers>
+          <trigger value="A quoi ça ressemble des chants de louange ?"/>
+          <trigger value="Montrez-moi des chants de louange !"/>
+        </triggers>
+        <sourceId>marie-biokou</sourceId>
+        <text fileType="text_and_html">Vous pouvez trouver des chants de louange&lt;a href=&quot;https://www.youtube.com/playlist?list=PLi9d4quOzkjPsW2e4pLAYXSgxx-RSZQNL&quot;&gt;ici&lt;/a&gt;.</text>
+        <planningInfos>
+          <effects>
+            <fact value="louange-ecouter"/>
+          </effects>
+        </planningInfos>
+      </message>
       <message name="La louange c&apos;est quoi ?" id="la-louange-c-est-quoi">
         <tests>
-          <test input="Qu&apos;est-ce que la louange ?" output="Le terme louange vient de l&apos;hébreu alléluia, qui veut dire &quot;louer Dieu&quot;. Il s&apos;agit donc de faire des éloges à Dieu en révélant ces mérites et ces actions dans nos vies. " outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;12&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que la louange ?" output="Le terme &lt;i&gt;&quot;louange&quot;&lt;/i&gt; vient de l&apos;hébreu &lt;i&gt;&quot;alléluia&quot;&lt;/i&gt;, qui veut dire &lt;i&gt;&quot;louer Dieu&quot;&lt;/i&gt;.  \hc_resource_html=#fr_FR#&lt;img height=&quot;20&quot; src=&quot;/resources/emojis/cotilons.png&quot; width=&quot;20&quot; /&gt;\&#9; &#10;Il s&apos;agit donc de faire des éloges à Dieu en révélant ses mérites et ses actions dans nos vies." outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;12&quot; /&gt;"/>
+          <test input="La louange c&apos;est quoi ?" output="Le terme &lt;i&gt;&quot;louange&quot;&lt;/i&gt; vient de l&apos;hébreu &lt;i&gt;&quot;alléluia&quot;&lt;/i&gt;, qui veut dire &lt;i&gt;&quot;louer Dieu&quot;&lt;/i&gt;.  \hc_resource_html=#fr_FR#&lt;img height=&quot;20&quot; src=&quot;/resources/emojis/cotilons.png&quot; width=&quot;20&quot; /&gt;\&#9; &#10;Il s&apos;agit donc de faire des éloges à Dieu en révélant ses mérites et ses actions dans nos vies." outputReferences="Source : &lt;hc_source name=&quot;Marie Biokou&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="La louange c&apos;est quoi ?"/>
         </triggers>
-        <sourceId>marie-biokou</sourceId>
-        <text>Le terme louange vient de l&apos;hébreu alléluia, qui veut dire &quot;louer Dieu&quot;. Il s&apos;agit donc de faire des éloges à Dieu en révélant ces mérites et ces actions dans nos vies. </text>
-        <planningInfos>
-          <effects>
-            <fact value="louange-définir"/>
-          </effects>
-        </planningInfos>
-      </message>
-      <message name="La louange c&apos;est un sujet intéressant, de quoi voulez-vous qu&apos;on parle ?" id="la-louange-c-est-un-sujet-interessant-de-quoi-voulez-vous-qu-on-parle">
-        <triggers>
-          <trigger value="Parlez-moi de la louange !"/>
-          <trigger value="Je veux en savoir plus sur la louange."/>
-        </triggers>
         <recommendations>
-          <recommendation text="La louange c&apos;est quoi ?" outMessageId="la-louange-c-est-quoi"/>
           <recommendation text="Pourquoi louer Dieu ?" outMessageId="pourquoi-louer-dieu-16"/>
           <recommendation text="Dieu a-t-il besoin de nos louanges ?" outMessageId="dieu-a-t-il-besoin-de-nos-louanges"/>
-          <recommendation text="A quoi ça ressemble des chants de louange ?" outMessageId="voila-des-examples-de-chants-de-louange"/>
-          <recommendation text="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" outMessageId="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie"/>
+          <recommendation text="A quoi ça ressemble des chants de louange ?" outMessageId="examples-de-chants-de-louange"/>
+          <recommendation text="Pourquoi les catholiques demandent l&apos;intercession de sainte Marie ?" outMessageId="pourquoi-les-catholiques-demandent-l-intercession-de-sainte-marie"/>
         </recommendations>
-        <sourceId>interne</sourceId>
-        <text fileType="text_and_html">J&apos;aime beaucoup la louange.&lt;img src=&quot;/resources/emojis/eyes_heart.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;De quoi voulez-vous qu&apos;on parle ?</text>
+        <sourceId>marie-biokou</sourceId>
+        <text fileType="text_and_html">Le terme &lt;i&gt;&quot;louange&quot;&lt;/i&gt; vient de l&apos;hébreu &lt;i&gt;&quot;alléluia&quot;&lt;/i&gt;, qui veut dire &lt;i&gt;&quot;louer Dieu&quot;&lt;/i&gt;. &lt;img src=&quot;/resources/emojis/cotilons.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Il s&apos;agit donc de faire des éloges à Dieu en révélant ses mérites et ses actions dans nos vies.</text>
         <planningInfos>
           <goalsToAdd>
-            <goalsToAdd value="louange-définir"/>
             <goalsToAdd value="louange-pourquoi-louer-dieu"/>
             <goalsToAdd value="louange-qu-est-ce-que-dieu-desire"/>
             <goalsToAdd value="louange-ecouter"/>
@@ -10803,7 +10802,7 @@
             <bible book="Dan" chapter="6"/>
           </references>
           <sourceId>bible</sourceId>
-          <text fileType="text_and_html">&lt;span&gt;Pour être un témoignage vivant de l&apos;amour de notre Dieu&lt;/span&gt;</text>
+          <text fileType="text_and_html">&lt;span&gt;Pour être un témoignage vivant de l&apos;amour de notre Dieu.&lt;/span&gt;</text>
         </message>
         <message name="Pourquoi louer Dieu ? (3/6)" id="pourquoi-louer-dieu-36" nb="3">
           <recommendations>
@@ -10825,7 +10824,7 @@
             <bible book="Ps" chapter="116"/>
           </references>
           <sourceId>bible</sourceId>
-          <text>Pour célébrer les qualités de Dieu</text>
+          <text>Pour célébrer les qualités de Dieu.</text>
         </message>
         <message name="Pourquoi louer Dieu ? (5/6)" id="pourquoi-louer-dieu-56" nb="5">
           <recommendations>
@@ -10836,29 +10835,16 @@
             <bible book="Ps" chapter="117"/>
           </references>
           <sourceId>bible</sourceId>
-          <text>Pour connaitre Dieu et  nous rapprocher de Dieu</text>
+          <text>Pour connaître Dieu et nous rapprocher de Dieu.</text>
         </message>
         <message name="Pourquoi louer Dieu ? (6/6)" id="pourquoi-louer-dieu-66" nb="6">
           <references>
             <bible book="Is" chapter="43" verseBegin="21"/>
           </references>
           <sourceId>bible</sourceId>
-          <text>Parce que nous sommes son peuple et il dit dans Esaie : « Ce peuple que je me suis façonné redira ma louange. »</text>
+          <text>Parce que nous sommes son peuple et il dit dans Esaïe :&#10;&lt;i&gt;« Ce peuple que je me suis façonné redira ma louange. »&lt;/i&gt;</text>
         </message>
       </folder>
-      <message name="Voilà des examples de chants de louange" id="voila-des-examples-de-chants-de-louange">
-        <triggers>
-          <trigger value="A quoi ça ressemble des chants de louange ?"/>
-          <trigger value="Montrez-moi des chants de louange !"/>
-        </triggers>
-        <sourceId>marie-biokou</sourceId>
-        <text fileType="text_and_html">Vous pouvez trouver des chants de louange&lt;a href=&quot;https://www.youtube.com/playlist?list=PLi9d4quOzkjPsW2e4pLAYXSgxx-RSZQNL&quot;&gt;ici&lt;/a&gt;.</text>
-        <planningInfos>
-          <effects>
-            <fact value="louange-ecouter"/>
-          </effects>
-        </planningInfos>
-      </message>
     </folder>
     <folder name="Marie" id="marie-prieres">
       <message name="Je vous salue Marie" id="je-vous-salue-marie">
@@ -10890,9 +10876,9 @@
           <sourceId>paroisse-universitaire-notre-dame-de-l-esperance</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rc6LoVK2YII&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <message name="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie">
+        <message name="Pourquoi les catholiques demandent l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandent-l-intercession-de-sainte-marie">
           <triggers>
-            <trigger value="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?"/>
+            <trigger value="Pourquoi les catholiques demandent l&apos;intercession de sainte Marie ?"/>
           </triggers>
           <sourceId>paroisse-universitaire-notre-dame-de-l-esperance</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bD1Mi-8hg5Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
