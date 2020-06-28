@@ -2098,6 +2098,32 @@
           </folder>
         </folder>
         <folder name="Par évangélistes" id="par-evangelistes" nb="2" defaultSourceId="interne">
+          <folder name="Jean" id="jean" nb="4" defaultSourceId="interne">
+            <message name="Jean 1–12 - Synthèse" id="jean-112-synthese" nb="1">
+              <tests>
+                <test input="Fais-moi un résumé du début de l&apos;Évangile selon Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QReuhS_R8Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 6&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 7&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 9&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 12&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;jean-112-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Fais-moi un résumé du début de l&apos;Évangile selon Jean !"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="1"/>
+                <bible book="Jn" chapter="2"/>
+                <bible book="Jn" chapter="3"/>
+                <bible book="Jn" chapter="4"/>
+                <bible book="Jn" chapter="5"/>
+                <bible book="Jn" chapter="6"/>
+                <bible book="Jn" chapter="7"/>
+                <bible book="Jn" chapter="8"/>
+                <bible book="Jn" chapter="9"/>
+                <bible book="Jn" chapter="10"/>
+                <bible book="Jn" chapter="11"/>
+                <bible book="Jn" chapter="12"/>
+              </references>
+              <sourceId>bibleproject</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QReuhS_R8Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
           <folder name="Luc" id="luc" nb="3" defaultSourceId="interne">
             <message name="Luc 10–24 - Synthèse" id="luc-124-synthese" nb="2">
               <tests>
@@ -9503,6 +9529,20 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Nous croyons en un seul Dieu parce que, selon le témoignage de l&apos;Écriture sainte, il n‘y a qu&apos;un seul Dieu et parce que, d&apos;après les lois de la logique, il ne peut y en avoir qu&apos;un.</text>
+            </message>
+            <message name="Que doit-on faire quand on a reconnu Dieu ?" id="que-doit-on-faire-quand-on-a-reconnu-dieu" nb="34">
+              <tests>
+                <test input="Que doit-on faire quand on a reconnu Dieu ?" output="Lorsque vous avez reconnu Dieu, il convient de Lui donner la première place dans votre vie. Une vie nouvelle commence alors. On devrait reconnaître les chrétiens au&#10;fait qu&apos;ils aiment même leurs ennemis." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;222-227&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;229&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-doit-on-faire-quand-on-a-reconnu-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Que doit-on faire quand on a reconnu Dieu ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="222" verseEnd="227"/>
+                <ccc verseBegin="229"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Lorsque vous avez reconnu Dieu, il convient de Lui donner la première place dans votre vie. Une vie nouvelle commence alors. On devrait reconnaître les chrétiens au&#10;fait qu&apos;ils aiment même leurs ennemis.</text>
             </message>
             <message name="Que veut dire : Dieu est amour ?" id="que-veut-dire-dieu-est-amour" nb="33">
               <tests>
