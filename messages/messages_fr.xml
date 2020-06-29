@@ -6357,6 +6357,34 @@
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m_HSBHcl-C4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <folder name="Présentation chronologique" id="presentation-chronologique" defaultSourceId="interne">
+        <message name="Histoire Chrétienne dans le monde" id="histoire-chretienne-dans-le-monde" nb="2">
+          <tests>
+            <test input="Montre-moi l&apos;histoire chrétienne dans le monde !" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; textlength=&quot;54&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Notre Histoire avec Marie&quot; resourceid=&quot;histoire-chretienne-dans-le-monde&quot; textlength=&quot;25&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montre-moi l&apos;histoire chrétienne dans le monde !"/>
+          </triggers>
+          <references>
+            <site book="https://www.notrehistoireavecmarie.com/fr/frise-monde/"/>
+          </references>
+          <sourceId>notre-histoire-avec-marie</sourceId>
+          <text fileType="html">&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Histoire Chrétienne en France" id="histoire-chretienne-en-france" nb="1">
+          <tests>
+            <test input="Montre-moi l&apos;histoire chrétienne en France !" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com//fr/frise-chronologique/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;\" outputReferences="Url : &lt;hc_site site=&quot;https://www.notrehistoireavecmarie.com/fr/frise-chronologique/&quot; textlength=&quot;62&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;Notre Histoire avec Marie&quot; resourceid=&quot;histoire-chretienne-en-france&quot; textlength=&quot;25&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montre-moi l&apos;histoire chrétienne en France !"/>
+          </triggers>
+          <references>
+            <site book="https://www.notrehistoireavecmarie.com/fr/frise-chronologique/"/>
+          </references>
+          <sourceId>notre-histoire-avec-marie</sourceId>
+          <text fileType="html">&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com//fr/frise-chronologique/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <message name="Réforme et Contre-Réforme" id="reforme-et-contre-reforme" nb="4">
         <tests>
           <test input="Qu&apos;est-ce que la Réforme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PTpTiZfAZ2o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;reforme-et-contre-reforme&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10748,6 +10776,29 @@
       </message>
     </folder>
     <folder name="Louange" id="louange" defaultSourceId="interne">
+      <folder name="Comment louer Dieu ?" id="comment-louer-dieu" defaultSourceId="interne">
+        <message name="Comment louer Dieu ?" id="comment-louer-dieu">
+          <tests>
+            <test input="Comment louer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 19,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-louer-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Pourquoi louer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 19,6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-louer-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment louer Dieu ?"/>
+            <trigger value="Pourquoi louer Dieu ?"/>
+            <trigger value="Mais c&apos;est quoi la louange en fait ?"/>
+            <trigger value="Pourquoi louer le Seigneur, spécialement quand ça ne va pas ?"/>
+          </triggers>
+          <references>
+            <bible book="Rev" chapter="19" verseBegin="6"/>
+            <bible book="Dan" chapter="3" verseBegin="16" verseEnd="18"/>
+            <bible book="Acts" chapter="16" verseBegin="25" verseEnd="26"/>
+            <site book="https://croire.la-croix.com/Definitions/Figures-spirituelles/Mere-Teresa/Les-dix-plus-belles-prieres-de-Mere-Teresa"/>
+            <site book="https://www.albin-michel.fr/ouvrages/le-livre-des-louanges-9782226178237"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges" defaultSourceId="interne">
         <message name="Ce que Dieu désire" id="ce-que-dieu-desire">
           <tests>
@@ -10756,7 +10807,10 @@
           <triggers>
             <trigger value="Qu&apos;est-ce que Dieu désire ?"/>
           </triggers>
-          <sourceId>marie-biokou</sourceId>
+          <references>
+            <site book="https://www.lejourduseigneur.com/homelies/"/>
+          </references>
+          <sourceId>le-jour-du-seigneur</sourceId>
           <text>Dieu désire créer une relation plus intime avec chacun de nous et la louange nous permet de nous rapprocher de lui en regardant ses merveilles dans nos vies.</text>
         </message>
         <message name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges">
@@ -10767,7 +10821,7 @@
           <references>
             <bible book="Lk" chapter="19" verseBegin="40"/>
           </references>
-          <sourceId>marie-biokou</sourceId>
+          <sourceId>bible</sourceId>
           <text>La réponse est non. Mais</text>
           <planningInfos>
             <effects>
@@ -10798,12 +10852,15 @@
           <trigger value="La louange c&apos;est quoi ?"/>
         </triggers>
         <recommendations>
-          <recommendation text="Pourquoi louer Dieu ?" outMessageId="pourquoi-louer-dieu-16"/>
+          <recommendation text="Pourquoi louer Dieu ?" outMessageId="pourquoi-louer-dieu"/>
           <recommendation text="Dieu a-t-il besoin de nos louanges ?" outMessageId="dieu-a-t-il-besoin-de-nos-louanges"/>
           <recommendation text="A quoi ça ressemble des chants de louange ?" outMessageId="examples-de-chants-de-louange"/>
         </recommendations>
-        <sourceId>marie-biokou</sourceId>
-        <text fileType="text_and_html">Le terme &lt;i&gt;&quot;louange&quot;&lt;/i&gt; vient de l&apos;hébreu &lt;i&gt;&quot;alléluia&quot;&lt;/i&gt;, qui veut dire &lt;i&gt;&quot;louer Dieu&quot;&lt;/i&gt;. &lt;img src=&quot;/resources/emojis/cotilons.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Il s&apos;agit donc de faire des éloges à Dieu en révélant ses mérites et ses actions dans nos vies.</text>
+        <references>
+          <site book="https://hozana.org/priere/louange"/>
+        </references>
+        <sourceId>hozana</sourceId>
+        <text>Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne.</text>
         <planningInfos>
           <goalsToAdd>
             <goalsToAdd value="louange-pourquoi-louer-dieu"/>
@@ -10813,10 +10870,21 @@
         </planningInfos>
       </message>
       <folder name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu" defaultSourceId="interne">
-        <message name="Pourquoi louer Dieu ? (1/6)" id="pourquoi-louer-dieu-16" nb="1">
+        <message name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu">
           <triggers>
             <trigger value="Pourquoi louer Dieu ?"/>
           </triggers>
+          <recommendations>
+            <recommendation text="Comment louer Dieu ?" outMessageId="comment-louer-dieu"/>
+          </recommendations>
+          <references>
+            <bible book="Rom" chapter="11" verseBegin="36"/>
+            <site book="https://hozana.org/priere/louange"/>
+          </references>
+          <sourceId>hozana</sourceId>
+          <text>Pour nous chrétiens, la prière de louange est essentielle car c’est par elle que nous reconnaissons la grandeur et l’infinie bonté de Dieu, &lt;i&gt;“Car tout est de lui, et par lui, et pour lui. À lui la gloire pour l’éternité ! Amen.”&lt;/i&gt;. La bible regorge ainsi de &lt;b&gt;paroles de louange&lt;/b&gt;, en particulier dans les &lt;b&gt;psaumes&lt;/b&gt;.</text>
+        </message>
+        <message name="Pourquoi louer Dieu ? (1/6)" id="pourquoi-louer-dieu-16" nb="1">
           <recommendations>
             <recommendation text="Donnez-moi une autre raison de louer Dieu." outMessageId="pourquoi-louer-dieu-26"/>
           </recommendations>
