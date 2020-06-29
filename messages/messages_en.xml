@@ -294,6 +294,27 @@
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G-2e9mMf7E8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
+            <message name="Overview: John Ch. 13-21" id="overview-john-ch-13-21" nb="2">
+              <tests>
+                <test input="Give me a summary of the ending of the Gospel according to John!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RUfh_wOsauk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 16&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 17&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 18&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 21&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-john-ch-13-21&quot; textlength=&quot;12&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Give me a summary of the ending of the Gospel according to John!"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="13"/>
+                <bible book="Jn" chapter="14"/>
+                <bible book="Jn" chapter="15"/>
+                <bible book="Jn" chapter="16"/>
+                <bible book="Jn" chapter="17"/>
+                <bible book="Jn" chapter="18"/>
+                <bible book="Jn" chapter="19"/>
+                <bible book="Jn" chapter="20"/>
+                <bible book="Jn" chapter="21"/>
+              </references>
+              <sourceId>bibleproject</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RUfh_wOsauk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
           </folder>
           <folder name="Luke" id="luke" nb="3" defaultSourceId="internal">
             <message name="Overview: Luke Ch. 1-9" id="overview-luke-ch-1-9" nb="1">
@@ -3496,6 +3517,22 @@
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
           <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" defaultSourceId="internal">
+            <message name="Do we believe in one God or in three Gods?" id="do-we-believe-in-one-god-or-in-three-gods" nb="35">
+              <tests>
+                <test input="Do we believe in one God or in three Gods?" output="I don&apos;t know if we believe in 1 God.|otherAnswer-&gt;|What are 3 Gods?" outputReferences="|otherAnswer-&gt;|" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Do we believe in one God or in three Gods?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="232" verseEnd="236"/>
+                <ccc verseBegin="249" verseEnd="256"/>
+                <ccc verseBegin="261"/>
+                <ccc verseBegin="265" verseEnd="266"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect&#10;communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
+            </message>
             <message name="What does it mean to say that God is love?" id="what-does-it-mean-to-say-that-god-is-love" nb="33">
               <tests>
                 <test input="What does it mean to say that God is love?" output="If God is love, then there is nothing created that is not carried and surrounded by his infinite benevolence. God not only declares that he is love, he also proves it: “Greater love has no man than this, that a man lay down his life for his friends” (Jn 15:13)." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Jn 4:8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4:16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 43:4-5&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Is 49:15-16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-it-mean-to-say-that-god-is-love&quot; textlength=&quot;6&quot; /&gt;"/>
