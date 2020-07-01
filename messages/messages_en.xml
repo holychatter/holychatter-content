@@ -513,6 +513,67 @@
           </folder>
         </folder>
       </folder>
+      <folder name="Historical book" id="historical-book" nb="2" defaultSourceId="internal">
+        <message name="Overview: Acts Ch. 1-12" id="overview-acts-ch-1-12" nb="1">
+          <tests>
+            <test input="Give me a summary of the beginning of the book of acts!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CGbNw855ksw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 1&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 2&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 3&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 4&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 5&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 6&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 7&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 8&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 9&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 10&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 11&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Acts 12&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-acts-ch-1-12&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Give me a summary of the beginning of the book of  acts of the apostles!" output="I can&apos;t give you a summary of the beginning of the acts of the apostles book." isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the beginning of the book of acts!"/>
+            <trigger value="Give me a summary of the beginning of the book of "/>
+            <trigger value="acts of the apostles!"/>
+          </triggers>
+          <references>
+            <bible book="Acts" chapter="1"/>
+            <bible book="Acts" chapter="2"/>
+            <bible book="Acts" chapter="3"/>
+            <bible book="Acts" chapter="4"/>
+            <bible book="Acts" chapter="5"/>
+            <bible book="Acts" chapter="6"/>
+            <bible book="Acts" chapter="7"/>
+            <bible book="Acts" chapter="8"/>
+            <bible book="Acts" chapter="9"/>
+            <bible book="Acts" chapter="10"/>
+            <bible book="Acts" chapter="11"/>
+            <bible book="Acts" chapter="12"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CGbNw855ksw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Overview: Acts Ch. 13-28" id="overview-acts-ch-13-28" nb="2">
+          <tests>
+            <test input="Give me a summary of the ending of the book of  acts!" output="I can&apos;t give you a summary of the ending of the acts book." isOk="false"/>
+            <test input="Give me a summary of the ending of the book of  acts of the apostles!" output="I can&apos;t give you a summary of the ending of the acts of the apostles book." isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the ending of the book of "/>
+            <trigger value="acts!"/>
+            <trigger value="Give me a summary of the ending of the book of "/>
+            <trigger value="acts of the apostles!"/>
+          </triggers>
+          <references>
+            <bible book="Acts" chapter="13"/>
+            <bible book="Acts" chapter="14"/>
+            <bible book="Acts" chapter="15"/>
+            <bible book="Acts" chapter="16"/>
+            <bible book="Acts" chapter="17"/>
+            <bible book="Acts" chapter="18"/>
+            <bible book="Acts" chapter="19"/>
+            <bible book="Acts" chapter="20"/>
+            <bible book="Acts" chapter="21"/>
+            <bible book="Acts" chapter="22"/>
+            <bible book="Acts" chapter="23"/>
+            <bible book="Acts" chapter="24"/>
+            <bible book="Acts" chapter="25"/>
+            <bible book="Acts" chapter="26"/>
+            <bible book="Acts" chapter="27"/>
+            <bible book="Acts" chapter="28"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z-17KxpjL0Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Old Testament" id="old-testament" nb="1">
       <folder name=" Sapiential books" id="sapiential-books" nb="3">
@@ -3517,6 +3578,19 @@
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
           <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" defaultSourceId="internal">
+            <message name="Can we deduce logically that God is triune?" id="can-we-deduce-logically-that-god-is-triune" nb="36">
+              <tests>
+                <test input="Can we deduce logically that God is triune?" output="No. The fact that there are three persons (Trinity) in one God is a mystery. We know only through Jesus Christ that God is Trinitarian." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-we-deduce-logically-that-god-is-triune&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Can we deduce logically that God is triune?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="237"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>No. The fact that there are three persons (Trinity) in one God is a mystery. We know only through Jesus Christ that God is Trinitarian.</text>
+            </message>
             <message name="Do we believe in one God or in three Gods?" id="do-we-believe-in-one-god-or-in-three-gods" nb="35">
               <tests>
                 <test input="Do we believe in one God or in three Gods?" output="I don&apos;t know if we believe in 1 God.|otherAnswer-&gt;|What are 3 Gods?" outputReferences="|otherAnswer-&gt;|" isOk="false"/>
