@@ -628,6 +628,24 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3lfPK2vfC54&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Ephesians" id="overview-ephesians" nb="5">
+          <tests>
+            <test input="Give me a summary of the letter to the Ephesians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y71r-T98E2Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eph 1&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 4&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 5&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 6&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-ephesians&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the letter to the Ephesians!"/>
+          </triggers>
+          <references>
+            <bible book="Eph" chapter="1"/>
+            <bible book="Eph" chapter="2"/>
+            <bible book="Eph" chapter="3"/>
+            <bible book="Eph" chapter="4"/>
+            <bible book="Eph" chapter="5"/>
+            <bible book="Eph" chapter="6"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y71r-T98E2Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Overview: Galatians" id="overview-galatians" nb="4">
           <tests>
             <test input="Give me a summary of the letter to the Galatians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vmx4UjRFp0M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gal 1&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 2&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 3&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 4&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 5&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Gal 6&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-galatians&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3698,6 +3716,10 @@
           </message>
           <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" defaultSourceId="internal">
             <message name="Can God do anything? Is he almighty?" id="can-god-do-anything-is-he-almighty" nb="40">
+              <tests>
+                <test input="Can God do anything?" output="“For God nothing is impossible” (see Lk 1:37). He is almighty." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 55:8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 134:5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14:36&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-god-do-anything-is-he-almighty&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Is God almighty?" output="“For God nothing is impossible” (see Lk 1:37). He is almighty." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 55:8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 134:5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14:36&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-god-do-anything-is-he-almighty&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
               <triggers>
                 <trigger value="Can God do anything?"/>
                 <trigger value="Is God almighty?"/>
@@ -3705,6 +3727,8 @@
               <references>
                 <ccc verseBegin="268" verseEnd="278"/>
                 <bible book="Is" chapter="55" verseBegin="8"/>
+                <bible book="Ps" chapter="135" verseBegin="5" verseEnd="6"/>
+                <bible book="Mk" chapter="14" verseBegin="36"/>
               </references>
               <sourceId>youcat</sourceId>
               <text>“For God nothing is impossible” (see Lk 1:37). He is almighty.</text>
@@ -3737,6 +3761,17 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect&#10;communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
+            </message>
+            <message name="Does science make the Creator superfluous?" id="does-science-make-the-creator-superfluous" nb="41">
+              <triggers>
+                <trigger value="Does science make the Creator superfluous?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="282" verseEnd="289"/>
+                <bible book="Wis" chapter="11" verseBegin="24"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>No. The sentence “God created the world” is not an outmoded scientific statement. We are dealing here with a theo-logical statement, therefore a statement about the divine meaning (theos = God, logos = meaning) and origin of things.</text>
             </message>
             <message name="Is Jesus God? Does he belong to the Trinity?" id="is-jesus-god-does-he-belong-to-the-trinity" nb="39">
               <tests>

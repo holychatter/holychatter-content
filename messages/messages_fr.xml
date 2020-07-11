@@ -1710,6 +1710,24 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TYxbJrDgZRg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
+        <message name="Éphésiens - Synthèse" id="ephesiens-synthese" nb="5">
+          <tests>
+            <test input="Fais-moi un résumé de la lettre de Paul aux éphésiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7pUE5wvhbBI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ep 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 5&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 6&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ephesiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé de la lettre de Paul aux éphésiens !"/>
+          </triggers>
+          <references>
+            <bible book="Eph" chapter="1"/>
+            <bible book="Eph" chapter="2"/>
+            <bible book="Eph" chapter="3"/>
+            <bible book="Eph" chapter="4"/>
+            <bible book="Eph" chapter="5"/>
+            <bible book="Eph" chapter="6"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7pUE5wvhbBI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1">
         <folder name="Par thèmes" id="par-themes" nb="1" defaultSourceId="interne">
@@ -9757,8 +9775,8 @@
             </message>
             <message name="Dieu peut-il tout ? Est-il le Tout-Puissant ?" id="dieu-peut-il-tout-est-il-le-tout-puissant" nb="40">
               <tests>
-                <test input="Dieu peut-il tout ?" output="Rien n&apos;est impossible à Dieu (Lc 1, 37). Il est Tout-Puissant." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 55,8&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;"/>
-                <test input="Dieu est-il le Tout-Puissant ?" output="Rien n&apos;est impossible à Dieu (Lc 1, 37). Il est Tout-Puissant." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 55,8&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Dieu peut-il tout ?" output="Rien n&apos;est impossible à Dieu (Lc 1, 37). Il est Tout-Puissant." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 55,8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 134,5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,36&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Dieu est-il le Tout-Puissant ?" output="Rien n&apos;est impossible à Dieu (Lc 1, 37). Il est Tout-Puissant." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 55,8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 134,5-6&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14,36&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Dieu peut-il tout ?"/>
@@ -9767,6 +9785,8 @@
               <references>
                 <ccc verseBegin="268" verseEnd="278"/>
                 <bible book="Is" chapter="55" verseBegin="8"/>
+                <bible book="Ps" chapter="134" verseBegin="5" verseEnd="6"/>
+                <bible book="Mk" chapter="14" verseBegin="36"/>
               </references>
               <sourceId>youcat</sourceId>
               <text>Rien n&apos;est impossible à Dieu (Lc 1, 37). Il est Tout-Puissant.</text>
@@ -9785,6 +9805,20 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Jésus de Nazareth est le Fils, la deuxième personne de la Sainte Trinité, celui que nous invoquons quand nous prions : &lt;i&gt;Au nom du Père et du Fils et du Saint-Esprit&lt;/i&gt; (Mt 28, 19).</text>
+            </message>
+            <message name="La recherche scientifique rend-elle superflu le recours à un Créateur ?" id="la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur" nb="41">
+              <tests>
+                <test input="La recherche scientifique rend-elle superflu le recours à un Créateur ?" output="Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Sg 11,24&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="La recherche scientifique rend-elle superflu le recours à un Créateur ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="282" verseEnd="289"/>
+                <bible book="Wis" chapter="11" verseBegin="24"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine.</text>
             </message>
             <message name="Pourquoi Dieu se donne-t-il un nom ?" id="pourquoi-dieu-se-donne-t-il-un-nom" nb="31">
               <tests>
