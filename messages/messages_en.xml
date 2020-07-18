@@ -519,6 +519,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vmx4UjRFp0M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Philippians" id="overview-philippians" nb="6">
+          <tests>
+            <test input="Give me a summary of the letter to the Philippians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oE9qqW1-BkU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Phil 1-4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-philippians&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the letter to the Philippians!"/>
+          </triggers>
+          <references>
+            <bible book="Phil" chapter="1" chapterEnd="4"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oE9qqW1-BkU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <folder name="Romans" id="romans" nb="1" defaultSourceId="internal">
           <message name="Overview: Romans Ch. 1-4" id="overview-romans-ch-1-4" nb="1">
             <tests>
@@ -2685,6 +2698,19 @@
               <sourceId>youcat</sourceId>
               <text>“For God nothing is impossible” (see Lk 1:37). He is almighty.</text>
             </message>
+            <message name="Can someone accept the theory of evolution and still believe in the Creator?" id="can-someone-accept-the-theory-of-evolution-and-still-believe-in-the-creator" nb="42">
+              <tests>
+                <test input="Can someone accept the theory of evolution and still believe in the Creator?" output="Yes. Although it is a different kind of knowledge, faith is open to the findings and hypotheses of the sciences." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-someone-accept-the-theory-of-evolution-and-still-believe-in-the-creator&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Can someone accept the theory of evolution and still believe in the Creator?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="282" verseEnd="289"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Yes. Although it is a different kind of knowledge, faith is open to the findings and hypotheses of the sciences.</text>
+            </message>
             <message name="Can we deduce logically that God is triune?" id="can-we-deduce-logically-that-god-is-triune" nb="36">
               <tests>
                 <test input="Can we deduce logically that God is triune?" output="No. The fact that there are three persons (Trinity) in one God is a mystery. We know only through Jesus Christ that God is Trinitarian." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-we-deduce-logically-that-god-is-triune&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2715,6 +2741,9 @@
               <text>We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect&#10;communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
             </message>
             <message name="Does science make the Creator superfluous?" id="does-science-make-the-creator-superfluous" nb="41">
+              <tests>
+                <test input="Does science make the Creator superfluous?" output="No. The sentence “God created the world” is not an outmoded scientific statement. We are dealing here with a theo-logical statement, therefore a statement about the divine meaning (theos = God, logos = meaning) and origin of things." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Wis 11: 24&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;does-science-make-the-creator-superfluous&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
               <triggers>
                 <trigger value="Does science make the Creator superfluous?"/>
               </triggers>

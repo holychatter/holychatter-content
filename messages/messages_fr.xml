@@ -707,6 +707,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3elnA_n3nWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Philippiens - Synthèse" id="philippiens-synthese" nb="6">
+          <tests>
+            <test input="Fais-moi un résumé de la lettre de Paul aux philippiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ei_5jKbrUJM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ph 1-4&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;philippiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé de la lettre de Paul aux philippiens !"/>
+          </triggers>
+          <references>
+            <bible book="Phil" chapter="1" chapterEnd="4"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ei_5jKbrUJM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <folder name="Romains" id="romains" nb="1" defaultSourceId="interne">
           <message name="Romains 1–4 - Synthèse" id="romains-1-4-synthese" nb="1">
             <tests>
@@ -8757,6 +8770,19 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine.</text>
+            </message>
+            <message name="Peut-on être un partisan convaincu de l&apos;évolution et croire quand même en un Créateur ?" id="peut-on-etre-un-partisan-convaincu-de-l-evolution-et-croire-quand-meme-en-un-createur" nb="42">
+              <tests>
+                <test input="Peut-on être un partisan convaincu de l&apos;évolution et croire quand même en un Créateur ?" output="Oui. La foi est ouverte aux hypothèses de la recherche scientifique." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;peut-on-etre-un-partisan-convaincu-de-l-evolution-et-croire-quand-meme-en-un-createur&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Peut-on être un partisan convaincu de l&apos;évolution et croire quand même en un Créateur ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="282" verseEnd="289"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Oui. La foi est ouverte aux hypothèses de la recherche scientifique.</text>
             </message>
             <message name="Pourquoi Dieu se donne-t-il un nom ?" id="pourquoi-dieu-se-donne-t-il-un-nom" nb="31">
               <tests>
