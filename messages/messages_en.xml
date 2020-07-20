@@ -493,6 +493,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3lfPK2vfC54&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: Colossians" id="overview-colossians" nb="7">
+          <tests>
+            <test input="Give me a summary of the letter to the Colossians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pXTXlDxQsvc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Col 1-4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-colossians&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the letter to the Colossians!"/>
+          </triggers>
+          <references>
+            <bible book="Col" chapter="1" chapterEnd="4"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pXTXlDxQsvc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Overview: Ephesians" id="overview-ephesians" nb="5">
           <tests>
             <test input="Give me a summary of the letter to the Ephesians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y71r-T98E2Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eph 1-6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-ephesians&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -2770,6 +2783,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Jesus of Nazareth is the Son, the second divine person mentioned when we pray, &lt;i&gt;“In the name of the Father and of the Son and of the Holy Spirit”&lt;/i&gt; (Mt 28:19).</text>
+            </message>
+            <message name="Is the world a product of chance?" id="is-the-world-a-product-of-chance" nb="43">
+              <tests>
+                <test input="Is the world a product of chance?" output="No. God, not chance, is the cause of the world. Neither in its origin nor with respect to its intrinsic order and purposefulness is it the product of factors working “aimlessly”." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;295-301&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;317-318&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;320&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;is-the-world-a-product-of-chance&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Is the world a product of chance?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="295" verseEnd="301"/>
+                <ccc verseBegin="317" verseEnd="318"/>
+                <ccc verseBegin="320"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>No. God, not chance, is the cause of the world. Neither in its origin nor with respect to its intrinsic order and purposefulness is it the product of factors working “aimlessly”.</text>
             </message>
             <message name="What does it mean to say that God is love?" id="what-does-it-mean-to-say-that-god-is-love" nb="33">
               <tests>

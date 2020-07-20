@@ -694,6 +694,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e0ivaY94HjA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Colossiens - Synthèse" id="colossiens-synthese" nb="7">
+          <tests>
+            <test input="Fais-moi un résumé de la lettre de Paul aux colossiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d9lcTLTNSF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Col 1-4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;colossiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé de la lettre de Paul aux colossiens !"/>
+          </triggers>
+          <references>
+            <bible book="Col" chapter="1" chapterEnd="4"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d9lcTLTNSF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Galates - Synthèse" id="galates-synthese" nb="4">
           <tests>
             <test input="Fais-moi un résumé de la lettre de Paul aux galates !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3elnA_n3nWc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ga 1-6&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;galates-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -8770,6 +8783,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine.</text>
+            </message>
+            <message name="Le monde est-il un produit du hasard ?" id="le-monde-est-il-un-produit-du-hasard" nb="43">
+              <tests>
+                <test input="Le monde est-il un produit du hasard ?" output="Non. Dieu, et non Le hasard, est à l&apos;origine du monde. Ni dans son origine, ni dans son ordre interne, ni dans sa finalité, le monde n&apos;est le résultat de forces agissant « sans aucun sens »." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;295-301&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;317-318&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;320&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-monde-est-il-un-produit-du-hasard&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Le monde est-il un produit du hasard ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="295" verseEnd="301"/>
+                <ccc verseBegin="317" verseEnd="318"/>
+                <ccc verseBegin="320"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Non. Dieu, et non Le hasard, est à l&apos;origine du monde. Ni dans son origine, ni dans son ordre interne, ni dans sa finalité, le monde n&apos;est le résultat de forces agissant « sans aucun sens ».</text>
             </message>
             <message name="Peut-on être un partisan convaincu de l&apos;évolution et croire quand même en un Créateur ?" id="peut-on-etre-un-partisan-convaincu-de-l-evolution-et-croire-quand-meme-en-un-createur" nb="42">
               <tests>
