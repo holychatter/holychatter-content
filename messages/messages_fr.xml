@@ -681,6 +681,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q99CrlpKBrw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="1 Thessaloniciens - Synthèse" id="1-thessaloniciens-synthese" nb="8">
+          <tests>
+            <test input="Fais-moi un résumé de la première lettre de Paul aux thessaloniciens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lTz0CuviQPE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Th 1-5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-thessaloniciens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé de la première lettre de Paul aux thessaloniciens !"/>
+          </triggers>
+          <references>
+            <bible book="1 Thess" chapter="1" chapterEnd="5"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lTz0CuviQPE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="2 Corinthiens - Synthèse" id="2-corinthiens-synthese" nb="3">
           <tests>
             <test input="Fais-moi un résumé de la deuxième lettre de Paul aux corinthiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e0ivaY94HjA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2Co 1-13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;2-corinthiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -8889,6 +8902,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Dieu est lumière, il n&apos;y a pas de ténèbres en lui (1 Jn 1, 5). Sa parole est vérité (Pr 8, 7 ; 2S 7, 28) et sa Loi est vérité (Ps 118, 142). Jésus lui-même se porte garant de la vérité de Dieu quand il confesse devant Pilate : Je suis venu dans le monde pour ceci : rendre témoignage à la vérité (Jn 18, 37).</text>
+            </message>
+            <message name="Qui a créé le monde ?" id="qui-a-cree-le-monde" nb="44">
+              <tests>
+                <test input="Qui a créé le monde ?" output="Dieu seul, qui transcende l&apos;espace et le temps, a créé le monde à partir du néant et a appelé toutes choses à l&apos;existence. Tout ce qui existe dépend de Dieu et n&apos;a donc de consistance que parce que Dieu lui donne d&apos;être." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Col 1, 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;290-292&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;316&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source : &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-a-cree-le-monde&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qui a créé le monde ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="290" verseEnd="292"/>
+                <ccc verseBegin="316"/>
+                <bible book="Col" chapter="1" verseBegin="16"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Dieu seul, qui transcende l&apos;espace et le temps, a créé le monde à partir du néant et a appelé toutes choses à l&apos;existence. Tout ce qui existe dépend de Dieu et n&apos;a donc de consistance que parce que Dieu lui donne d&apos;être.</text>
             </message>
             <message name="Qui est l&apos;Esprit-Saint ?" id="qui-est-l-esprit-saint-je-crois-en-dieu-le-pere" nb="38">
               <tests>

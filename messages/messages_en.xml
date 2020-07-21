@@ -480,6 +480,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yiHf8klCCc4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: 1 Thessalonians" id="overview-1-thessalonians" nb="8">
+          <tests>
+            <test input="Give me a summary of the first letter to the Thessalonians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/No7Nq6IX23c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Thess 1-5&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-thessalonians&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the first letter to the Thessalonians!"/>
+          </triggers>
+          <references>
+            <bible book="1 Thess" chapter="1" chapterEnd="5"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/No7Nq6IX23c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Overview: 2 Corinthians" id="overview-2-corinthians" nb="3">
           <tests>
             <test input="Give me a summary of the second letter to the Corinthians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3lfPK2vfC54&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;2 Cor 1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-2-corinthians&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -2843,6 +2856,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Once you have come to know God, you must put him in the first place in your life. And with that a new life begins. You should be able to recognize Christians by the fact that they love even their enemies.</text>
+            </message>
+            <message name="Who created the world?" id="who-created-the-world" nb="44">
+              <tests>
+                <test input="Who created the world?" output="God alone, who is beyond time and space, created the world out of nothing and called all things into being. Everything that exists depends on God and continues in being only because God wills it to be." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Col 1: 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;290-292&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;316&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;Source: &lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;who-created-the-world&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Who created the world?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="290" verseEnd="292"/>
+                <ccc verseBegin="316"/>
+                <bible book="Col" chapter="1" verseBegin="16"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>God alone, who is beyond time and space, created the world out of nothing and called all things into being. Everything that exists depends on God and continues in being only because God wills it to be.</text>
             </message>
             <message name="Who is the “Holy Spirit”?" id="who-is-the-holy-spirit-i-believe-in-god-the-father" nb="38">
               <tests>
