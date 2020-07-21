@@ -10511,6 +10511,18 @@
         <sourceId>diocese-de-paris</sourceId>
         <text>Je vous salue Marie,&#10;pleine de grâce&#10;Le Seigneur est avec vous,&#10;vous êtes bénie entre toutes les femmes&#10;et Jésus, le fruit de vos entrailles, est béni.&#10;Sainte Marie,&#10;Mère de Dieu,&#10;priez pour nous,&#10;pauvres pécheurs&#10;maintenant et à l’heure de notre mort.&#10;Amen</text>
       </message>
+      <folder name="Musiques" id="musiques" defaultSourceId="interne">
+        <message name="Qui est celle-ci ?" id="qui-est-celle-ci">
+          <triggers>
+            <trigger value="Je veux écouter à chant à Marie."/>
+          </triggers>
+          <references>
+            <bible book="Song" chapter="6" verseBegin="10"/>
+          </references>
+          <sourceId>ndml</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HSlHLyMhSA0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <folder name="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie" defaultSourceId="interne">
         <message name="Explication &quot;Je vous salue Marie&quot;" id="explication-je-vous-salue-marie">
           <triggers>
