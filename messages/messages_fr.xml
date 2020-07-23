@@ -694,6 +694,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lTz0CuviQPE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="1 Timothée - Synthèse" id="1-timothee-synthese" nb="10">
+          <tests>
+            <test input="Fais-moi un résumé de la lettre de Paul à Timothée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2diOsOpbZU4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Tm 1-6&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-timothee-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Fais-moi un résumé de la lettre de Paul à Timothée !"/>
+          </triggers>
+          <references>
+            <bible book="1 Tim" chapter="1" chapterEnd="6"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2diOsOpbZU4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="2 Corinthiens - Synthèse" id="2-corinthiens-synthese" nb="3">
           <tests>
             <test input="Fais-moi un résumé de la deuxième lettre de Paul aux corinthiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e0ivaY94HjA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2Co 1-13&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;2-corinthiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -8869,6 +8882,19 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Dieu se donne un nom parce qu&apos;il veut se rendre accessible.</text>
+            </message>
+            <message name="Pourquoi le livre de la Genèse présente-t-il la création comme « une suite de six jours de travail » ?" id="pourquoi-le-livre-de-la-genese-presente-t-il-la-creation-comme-une-suite-de-six-jours-de-travail" nb="46">
+              <tests>
+                <test input="Pourquoi le livre de la Genèse présente-t-il la création comme « une suite de six jours de travail » ?" output="L&apos;image symbolique de la semaine de travail couronnée par un jour de repos (Gn 1, 1-2, 3) dit combien la création est bonne, belle et ordonnée avec sagesse." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;337-342&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-le-livre-de-la-genese-presente-t-il-la-creation-comme-une-suite-de-six-jours-de-travail&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi le livre de la Genèse présente-t-il la création comme « une suite de six jours de travail » ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="337" verseEnd="342"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>L&apos;image symbolique de la semaine de travail couronnée par un jour de repos (Gn 1, 1-2, 3) dit combien la création est bonne, belle et ordonnée avec sagesse.</text>
             </message>
             <message name="Pourquoi ne croyons-nous qu&apos;en un seul Dieu ?" id="pourquoi-ne-croyons-nous-qu-en-un-seul-dieu" nb="30">
               <tests>

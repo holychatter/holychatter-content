@@ -493,6 +493,19 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/No7Nq6IX23c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Overview: 1 Timothy" id="overview-1-timothy" nb="10">
+          <tests>
+            <test input="Give me a summary of the second letter to Timothy!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7RoqnGcEjcs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 1-6&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-timothy&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the second letter to Timothy!"/>
+          </triggers>
+          <references>
+            <bible book="1 Tim" chapter="1" chapterEnd="6"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7RoqnGcEjcs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Overview: 2 Corinthians" id="overview-2-corinthians" nb="3">
           <tests>
             <test input="Give me a summary of the second letter to the Corinthians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3lfPK2vfC54&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;2 Cor 1-13&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-2-corinthians&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -2951,6 +2964,19 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>God gives himself a name so as to make it possible to address him.</text>
+            </message>
+            <message name="Why does the Book of Genesis depict creation as “the work of six days”?" id="why-does-the-book-of-genesis-depict-creation-as-the-work-of-six-days" nb="46">
+              <tests>
+                <test input="Why does the Book of Genesis depict creation as “the work of six days”?" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Why does the Book of Genesis depict creation as “the work of six days”?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="337" verseEnd="342"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The symbol of the work week, which is crowned by a day of rest (Gen 1:1-2:3), is an expression of how good, beautiful, and wisely ordered creation is.</text>
             </message>
             <message name="Why is God “Father”?" id="why-is-god-father" nb="37">
               <tests>
