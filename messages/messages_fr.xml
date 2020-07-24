@@ -10844,6 +10844,19 @@
       </message>
     </folder>
     <folder name="Laïc" id="laic" nb="4" defaultSourceId="interne">
+      <message name="&quot;J’ai fait la rencontre plus importante de ma vie....&quot; - Témoignage Claire" id="j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire">
+        <tests>
+          <test input="Montre-moi le témoignage d&apos;une personne qui voulais se sucider." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montre-moi le témoignage d&apos;une personne qui voulais se sucider."/>
+        </triggers>
+        <references>
+          <bible book="Is" chapter="43" verseBegin="4"/>
+        </references>
+        <sourceId>cn-media</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <folder name="Conversions de l&apos;islam" id="conversions-de-l-islam">
         <message name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
           <tests>
