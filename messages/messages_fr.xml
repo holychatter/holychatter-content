@@ -1693,7 +1693,10 @@
           <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="&lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; textlength=&quot;10&quot; /&gt;"/>
           <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Franceinfo&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;la-bible-qu-est-ce-que-c-est&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
-        <sourceId>franceinfo</sourceId>
+        <references>
+          <site book="https://www.youtube.com/watch?v=eRHVCQQHPCk"/>
+        </references>
+        <sourceId>france-2</sourceId>
         <text>La Bible est le Best-Seller mondial n°1.</text>
       </message>
       <message name="La Bible me dit-elle ce que je dois faire ?" id="la-bible-me-dit-elle-ce-que-je-dois-faire">
