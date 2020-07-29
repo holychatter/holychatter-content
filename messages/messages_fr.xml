@@ -1537,20 +1537,67 @@
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bo46uU2IF9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
+            <message name="Podcast Benjamin Pouzin - #2 Marie a dit oui" id="podcast-benjamin-pouzin-2-marie-a-dit-oui" nb="3">
+              <tests>
+                <test input="Comment Marie a prit sa décision face à l&apos;ange et face à Dieu ?" output="Je ne sais pas comment la Vierge Marie a pris sa décision l&apos;ange et Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment Marie a prit sa décision face à l&apos;ange et face à Dieu ?"/>
+              </triggers>
+              <references>
+                <bible book="Lk" chapter="1" verseBegin="38"/>
+              </references>
+              <sourceId>glorious</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TOBxRH8-Q80&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
           </folder>
-          <message name="Marc - Synthèse" id="marc-synthese" nb="2">
-            <tests>
-              <test input="Fais-moi un résumé de l&apos;Évangile selon Marc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1-16&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;marc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-            </tests>
-            <triggers>
-              <trigger value="Fais-moi un résumé de l&apos;Évangile selon Marc !"/>
-            </triggers>
-            <references>
-              <bible book="Mk" chapter="1" chapterEnd="16"/>
-            </references>
-            <sourceId>bibleproject</sourceId>
-            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </message>
+          <folder name="Marc" id="marc" nb="2" defaultSourceId="interne">
+            <message name="Marc - Synthèse" id="marc-synthese">
+              <tests>
+                <test input="Fais-moi un résumé de l&apos;Évangile selon Marc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1-16&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;marc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Fais-moi un résumé de l&apos;Évangile selon Marc !"/>
+              </triggers>
+              <references>
+                <bible book="Mk" chapter="1" chapterEnd="16"/>
+              </references>
+              <sourceId>bibleproject</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Podcast Benjamin Pouzin - #1 Jésus lui dit : &quot;Suis-moi&quot;" id="podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi" nb="1">
+              <tests>
+                <test input="Quelle est la force qui pousse quelqu&apos;un à tout laisser pour partir à l&apos;aventure ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 2, 14&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Quelle est la force qui pousse quelqu&apos;un à tout laisser pour partir vers l&apos;inconnu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 2, 14&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Qu&apos;est-ce qui peut permettre à un être perdu de retrouver soudain la lumière et pleinement confiant de reprendre la route vers Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 2, 14&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quelle est la force qui pousse quelqu&apos;un à tout laisser pour partir à l&apos;aventure ?"/>
+                <trigger value="Quelle est la force qui pousse quelqu&apos;un à tout laisser pour partir vers l&apos;inconnu ?"/>
+                <trigger value="Qu&apos;est-ce qui peut permettre à un être perdu de retrouver soudain la lumière et pleinement confiant de reprendre la route vers Dieu ?"/>
+              </triggers>
+              <references>
+                <bible book="Mk" chapter="2" verseBegin="14"/>
+              </references>
+              <sourceId>glorious</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Podcast Benjamin Pouzin - #3 Jésus fût baptisé" id="podcast-benjamin-pouzin-3-jesus-ft-baptise" nb="2">
+              <tests>
+                <test input="Pourquoi Jésus fût baptisé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1, 9&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-3-jesus-ft-baptise&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Que signifie le baptême de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1, 9&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-3-jesus-ft-baptise&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi Jésus fût baptisé ?"/>
+                <trigger value="Que signifie le baptême de Jésus ?"/>
+              </triggers>
+              <references>
+                <bible book="Mk" chapter="1" verseBegin="9"/>
+              </references>
+              <sourceId>glorious</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
           <folder name="Matthieu" id="matthieu" nb="1" defaultSourceId="interne">
             <message name="Matthieu 14–28 - Synthèse" id="matthieu-14-28-synthese" nb="2">
               <tests>
