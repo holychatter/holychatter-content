@@ -738,6 +738,34 @@
           </message>
         </folder>
       </folder>
+      <folder name="Prophetic book" id="prophetic-book" nb="5" defaultSourceId="internal">
+        <message name="Overview: Revelation Ch. 1-11" id="overview-revelation-ch-1-11" nb="1">
+          <tests>
+            <test input="Give me a summary of the beginning of the Revelation!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5nvVVcYD-0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rev 1-11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-revelation-ch-1-11&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the beginning of the Revelation!"/>
+          </triggers>
+          <references>
+            <bible book="Rev" chapter="1" chapterEnd="11"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5nvVVcYD-0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Overview: Revelation Ch. 12-22" id="overview-revelation-ch-12-22" nb="2">
+          <tests>
+            <test input="Give me a summary of the end of the Revelation!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QpnIrbq2bKo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rev 12-22&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-revelation-ch-12-22&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Give me a summary of the end of the Revelation!"/>
+          </triggers>
+          <references>
+            <bible book="Rev" chapter="12" chapterEnd="22"/>
+          </references>
+          <sourceId>bibleproject</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QpnIrbq2bKo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Old Testament" id="old-testament" nb="1">
       <folder name=" Sapiential books" id="sapiential-books" nb="3">
