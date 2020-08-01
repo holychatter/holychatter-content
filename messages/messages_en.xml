@@ -137,7 +137,7 @@
             <bible book="Mk" chapter="14" verseBegin="61" verseEnd="62"/>
             <bible book="Jn" chapter="10" verseBegin="30"/>
             <bible book="Mt" chapter="16" verseBegin="16"/>
-            <site book="https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu"/>
+            <site url="https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu"/>
           </references>
           <sourceId>bible</sourceId>
           <text>The Son is God.</text>
@@ -182,7 +182,7 @@
               <bible book="Mk" chapter="16" verseBegin="15"/>
               <bible book="Mic" chapter="5" verseBegin="1"/>
               <bible book="Zech" chapter="12" verseBegin="3"/>
-              <site book="https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe"/>
+              <site url="https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe"/>
             </references>
             <sourceId>bible</sourceId>
             <text>God exists.</text>
@@ -253,8 +253,8 @@
       </folder>
     </folder>
     <folder name="New Testament" id="new-testament" nb="2">
-      <folder name="Gospels" id="gospels" nb="1" defaultSourceId="internal">
-        <folder name="About" id="about-gospels" defaultSourceId="internal">
+      <folder name="Gospels" id="gospels" nb="1">
+        <folder name="About" id="about-gospels">
           <message name="There is 4 gospels" id="there-is-4-gospels">
             <tests>
               <test input="How many gospels are there?" output="There are 4 gospels."/>
@@ -263,8 +263,8 @@
             <text>There is 4 gospels.</text>
           </message>
         </folder>
-        <folder name="By evangelists" id="by-evangelists" nb="2" defaultSourceId="internal">
-          <folder name="John" id="john" nb="4" defaultSourceId="internal">
+        <folder name="By evangelists" id="by-evangelists" nb="2">
+          <folder name="John" id="john" nb="4">
             <message name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus-2003">
               <description>It&apos;s the life of Jesus.</description>
               <sourceId>internal</sourceId>
@@ -297,7 +297,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RUfh_wOsauk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Luke" id="luke" nb="3" defaultSourceId="internal">
+          <folder name="Luke" id="luke" nb="3">
             <message name="Overview: Luke Ch. 1-9" id="overview-luke-ch-1-9" nb="1">
               <tests>
                 <test input="Give me a summary of the beginning of the Gospel according to Luke!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XIb_dCIxzr0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1-9&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-luke-ch-1-9&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -325,7 +325,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/26z_KhwNdD8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Matthew" id="matthew" nb="1" defaultSourceId="internal">
+          <folder name="Matthew" id="matthew" nb="1">
             <message name="Overview: Matthew Ch. 1-13" id="overview-matthew-ch-1-13" nb="1">
               <tests>
                 <test input="Give me a summary of the beginning of the Gospel according to Matthew!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3Dv4-n6OYGI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-matthew-ch-1-13&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -367,7 +367,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HGHqu9-DtXk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="By themes" id="by-themes" nb="1" defaultSourceId="internal">
+        <folder name="By themes" id="by-themes" nb="1">
           <folder name="Ascension" id="ascension">
             <message name="ASCENSION OF JESUS CHRIST " id="ascension-of-jesus-christ">
               <tests>
@@ -431,7 +431,7 @@
           </folder>
         </folder>
       </folder>
-      <folder name="Historical book" id="historical-book" nb="2" defaultSourceId="internal">
+      <folder name="Historical book" id="historical-book" nb="2">
         <message name="Overview: Acts Ch. 1-12" id="overview-acts-ch-1-12" nb="1">
           <tests>
             <test input="Give me a summary of the beginning of the book of acts!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CGbNw855ksw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 1-12&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-acts-ch-1-12&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -466,7 +466,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z-17KxpjL0Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Other epistles" id="other-epistles" nb="4" defaultSourceId="internal">
+      <folder name="Other epistles" id="other-epistles" nb="4">
         <message name="Overview: 1 Peter" id="overview-1-peter" nb="3">
           <tests>
             <test input="Give me a summary of the first letter of Peter!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WhP7AZQlzCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 1-5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-peter&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -548,7 +548,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6UoCmakZmys&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Pauline epistles" id="pauline-epistles" nb="3" defaultSourceId="internal">
+      <folder name="Pauline epistles" id="pauline-epistles" nb="3">
         <message name="Overview: 1 Corinthians" id="overview-1-corinthians" nb="2">
           <tests>
             <test input="Give me a summary of the first letter to the Corinthians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yiHf8klCCc4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Cor 1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-corinthians&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -705,7 +705,7 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PUEYCVXJM3k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <folder name="Romans" id="romans" nb="1" defaultSourceId="internal">
+        <folder name="Romans" id="romans" nb="1">
           <message name="Overview: Romans Ch. 1-4" id="overview-romans-ch-1-4" nb="1">
             <tests>
               <test input="Give me a summary of the beginning of the epistle to the Romans!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ej_6dVdJSIU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 1-4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-romans-ch-1-4&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -738,7 +738,7 @@
           </message>
         </folder>
       </folder>
-      <folder name="Prophetic book" id="prophetic-book" nb="5" defaultSourceId="internal">
+      <folder name="Prophetic book" id="prophetic-book" nb="5">
         <message name="Overview: Revelation Ch. 1-11" id="overview-revelation-ch-1-11" nb="1">
           <tests>
             <test input="Give me a summary of the beginning of the Revelation!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5nvVVcYD-0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rev 1-11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-revelation-ch-1-11&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1083,7 +1083,7 @@
         </message>
       </folder>
       <folder name="Prophetic books" id="prophetic-books" nb="4">
-        <folder name="Ezekiel" id="ezekiel" nb="4" defaultSourceId="internal">
+        <folder name="Ezekiel" id="ezekiel" nb="4">
           <message name="Overview: Ezekiel 1-33" id="overview-ezekiel-1-33" nb="1">
             <tests>
               <test input="Give me a summary of the beginning of the book of the prophet Ezekiel!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/R-CIPu1nko8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ezek 1-33&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-ezekiel-1-33&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1337,7 +1337,7 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Chatbots" id="chatbots">
+  <folder name="Chatbots" id="chatbots" isHidden="true">
     <chatbot name="By default" id="by-default" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true">
       <message name="Welcome" id="welcome">
         <sourceId>internal</sourceId>
@@ -1459,7 +1459,7 @@
           <trigger value="Christ is risen!"/>
         </triggers>
         <references>
-          <site book="https://en.wikipedia.org/wiki/Paschal_greeting"/>
+          <site url="https://en.wikipedia.org/wiki/Paschal_greeting"/>
         </references>
         <sourceId>internal</sourceId>
         <text>Truly, He is Risen!</text>
@@ -1557,7 +1557,7 @@
     </folder>
   </folder>
   <folder name="Teachings" id="teachings">
-    <folder name="3 Minute Catechism" id="3-minute-catechism" defaultSourceId="minute-catechism">
+    <folder name="3 Minute Catechism" id="3-minute-catechism">
       <folder name="Basics" id="basics" nb="1">
         <message name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
           <tests>
@@ -2829,7 +2829,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="TheoMatters" id="theomatters" defaultSourceId="theomatters">
+    <folder name="TheoMatters" id="theomatters">
       <message name="A sacrement" id="a-sacrement">
         <tests>
           <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
@@ -2851,8 +2851,8 @@
         </message>
       </folder>
     </folder>
-    <folder name="YOUCAT" id="youcat" defaultSourceId="youcat">
-      <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="166" defaultSourceId="internal">
+    <folder name="YOUCAT" id="youcat">
+      <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="166">
         <message name="What is liturgy?" id="what-is-liturgy" nb="167">
           <tests>
             <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2865,7 +2865,7 @@
         </message>
       </folder>
       <folder name="What We Believe" id="what-we-believe" nb="1">
-        <folder name="The Christian Profession of Faith" id="the-christian-profession-of-faith" nb="25" defaultSourceId="internal">
+        <folder name="The Christian Profession of Faith" id="the-christian-profession-of-faith" nb="25">
           <message name="How did the creeds come about?" id="how-did-the-creeds-come-about" nb="27">
             <tests>
               <test input="How did the creeds come about?" output="The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity)." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 28: 19&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;188-191&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-did-the-creeds-come-about&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2880,7 +2880,7 @@
             <sourceId>youcat</sourceId>
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
-          <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" defaultSourceId="internal">
+          <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30">
             <message name="Can God do anything? Is he almighty?" id="can-god-do-anything-is-he-almighty" nb="40">
               <tests>
                 <test input="Can God do anything?" output="“For God nothing is impossible” (see Lk 1:37). He is almighty." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 55: 8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 135: 5-6&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14: 36&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-god-do-anything-is-he-almighty&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3080,6 +3080,33 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>The Holy Spirit is the third person of the Holy Trinity and has the same divine majesty as the Father and the Son.</text>
+            </message>
+            <message name="Why did God create the world?" id="why-did-god-create-the-world" nb="48">
+              <tests>
+                <test input="Why did God create the world?" output="“The world was made for the glory of God” (First Vatican Council)." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;293-294&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;319&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-create-the-world&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why did God create the world?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="293" verseEnd="294"/>
+                <ccc verseBegin="319"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>“The world was made for the glory of God” (First Vatican Council).</text>
+            </message>
+            <message name="Why did God rest on the seventh day?" id="why-did-god-rest-on-the-seventh-day" nb="47">
+              <tests>
+                <test input="Why did God rest on the seventh day?" output="God’s rest from his work points toward the completion of creation, which is beyond all human efforts." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;349&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-rest-on-the-seventh-day&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why did God rest on the seventh day?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="349"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>God’s rest from his work points toward the completion of creation, which is beyond all human efforts.</text>
             </message>
             <message name="Why do we believe in only one God?" id="why-do-we-believe-in-only-one-god" nb="30">
               <tests>
@@ -3455,7 +3482,7 @@
               <text>God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion.</text>
             </message>
           </folder>
-          <folder name="Man Responds to God" id="man-responds-to-god" nb="20" defaultSourceId="internal">
+          <folder name="Man Responds to God" id="man-responds-to-god" nb="20">
             <message name="Faith - what is it?" id="faith-what-is-it" nb="21">
               <tests>
                 <test input="What is faith?" output="Faith is knowledge and trust. It has seven characteristics: \hc_resource_html=#en_US#&lt;ul&gt;&lt;li&gt;Faith is a &lt;i&gt;sheer gift&lt;/i&gt; of God, which we receive when we fervently ask for it.&lt;/li&gt;&lt;li&gt;Faith is the supernatural power that is absolutely &lt;i&gt;necessary&lt;/i&gt; if we are to attain salvation.&lt;/li&gt;&lt;li&gt;Faith requires the &lt;i&gt;free will and clear understanding of a person&lt;/i&gt; when he accepts the divine invitation.&lt;/li&gt;&lt;li&gt;Faith is &lt;i&gt;absolutely certain&lt;/i&gt;, because Jesus guarantees it.&lt;/li&gt;&lt;li&gt;Faith is incomplete unless it leads to active love.&lt;/li&gt;&lt;li&gt;Faith &lt;i&gt;grows&lt;/i&gt; when we listen more and more carefully to God’s Word and enter a lively exchange with him in prayer.&lt;/li&gt;&lt;li&gt;Faith gives us even now a &lt;i&gt;foretaste of the joy of heaven&lt;/i&gt;.&lt;/ul&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;153-165&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;183-184&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;faith-what-is-it&quot; textlength=&quot;6&quot; /&gt;"/>
