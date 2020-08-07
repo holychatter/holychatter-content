@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Bible" id="bible">
+  <folder name="Bible" id="bible" image="bible.jpg">
     <folder name="Ancien Testament" id="ancien-testament" nb="1">
       <folder name="Livres historiques" id="livres-historiques" nb="2">
         <message name="1 Samuel - Synthèse" id="1-samuel-synthese" nb="4">
@@ -179,7 +179,7 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <folder name="Ezéchiel" id="ezechiel" nb="4" defaultSourceId="interne">
+        <folder name="Ezéchiel" id="ezechiel" nb="4">
           <message name="Ézéchiel 1–33 - Synthèse" id="ezechiel-1-33-synthese" nb="1">
             <tests>
               <test input="Fais-moi un résumé du début du livre du prophète Ézéchiel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4Yr9DEYJ9IU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ez 1-33&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ezechiel-1-33-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -574,7 +574,7 @@
       </folder>
     </folder>
     <folder name="Nouveau Testament" id="nouveau-testament" nb="2">
-      <folder name="Autres épitres" id="autres-epitres" nb="4" defaultSourceId="interne">
+      <folder name="Autres épitres" id="autres-epitres" nb="4">
         <message name="1 Pierre - Synthèse" id="1-pierre-synthese" nb="3">
           <tests>
             <test input="Fais-moi un résumé de la première lettre de Pierre !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pd_6DiSLRAI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1P 1-5&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-pierre-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -656,7 +656,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/whrJ5C45tgU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Livre historique" id="livre-historique" nb="2" defaultSourceId="interne">
+      <folder name="Livre historique" id="livre-historique" nb="2">
         <message name="Actes 13–28 - Synthèse" id="actes-13-28-synthese" nb="2">
           <tests>
             <test input="Fais-moi un résumé de la fin du livre des actes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/M7Xgd_7bfpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 13-28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;actes-13-28-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -716,7 +716,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cAOAPSfpbR4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <folder name="ThéoDom" id="theodom" defaultSourceId="interne">
+          <folder name="ThéoDom" id="theodom">
             <message name="Catastrophes en cascades (Ap 6-11)" id="catastrophes-en-cascades-ap-6-11" nb="3">
               <tests>
                 <test input="Le Salut est-il en cours ?" output="Oui, le Salut est en cours." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 6-11&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;catastrophes-en-cascades-ap-6-11&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -777,7 +777,7 @@
           </folder>
         </folder>
       </folder>
-      <folder name="Épîtres de Paul" id="epitres-de-paul" nb="3" defaultSourceId="interne">
+      <folder name="Épîtres de Paul" id="epitres-de-paul" nb="3">
         <message name="1 Corinthiens - Synthèse" id="1-corinthiens-synthese" nb="2">
           <tests>
             <test input="Fais-moi un résumé de la première lettre de Paul aux corinthiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q99CrlpKBrw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 1-16&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-corinthiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -908,7 +908,7 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6FHGUa1Usfc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <folder name="Romains" id="romains" nb="1" defaultSourceId="interne">
+        <folder name="Romains" id="romains" nb="1">
           <message name="Romains 1–4 - Synthèse" id="romains-1-4-synthese" nb="1">
             <tests>
               <test input="Fais-moi un résumé du début de la lettre de Paul aux romains !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8EJmsrA0H4M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 1-4&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;romains-1-4-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -964,7 +964,7 @@
         </message>
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1">
-        <folder name="Par thèmes" id="par-themes" nb="1" defaultSourceId="interne">
+        <folder name="Par thèmes" id="par-themes" nb="1">
           <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2">
             <message name="Multiplication des pains" id="multiplication-des-pains">
               <triggers>
@@ -1522,8 +1522,8 @@
             </message>
           </folder>
         </folder>
-        <folder name="Par évangélistes" id="par-evangelistes" nb="2" defaultSourceId="interne">
-          <folder name="Jean" id="jean" nb="4" defaultSourceId="interne">
+        <folder name="Par évangélistes" id="par-evangelistes" nb="2">
+          <folder name="Jean" id="jean" nb="4">
             <message name="Jean 13–21 - Synthèse" id="jean-13-21-synthese" nb="2">
               <tests>
                 <test input="Fais-moi un résumé de la fin de l&apos;Évangile selon Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/isJCKKCZx5A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 13-21&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;jean-13-21-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1551,7 +1551,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QReuhS_R8Kk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Luc" id="luc" nb="3" defaultSourceId="interne">
+          <folder name="Luc" id="luc" nb="3">
             <message name="Luc 10–24 - Synthèse" id="luc-10-24-synthese" nb="2">
               <tests>
                 <test input="Fais-moi un résumé de la fin de l&apos;Évangile selon Luc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/O-Za0jggT8Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10-24&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;luc-10-24-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1592,7 +1592,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TOBxRH8-Q80&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Marc" id="marc" nb="2" defaultSourceId="interne">
+          <folder name="Marc" id="marc" nb="2">
             <message name="Marc - Synthèse" id="marc-synthese">
               <tests>
                 <test input="Fais-moi un résumé de l&apos;Évangile selon Marc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 1-16&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;marc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1639,7 +1639,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Matthieu" id="matthieu" nb="1" defaultSourceId="interne">
+          <folder name="Matthieu" id="matthieu" nb="1">
             <message name="Matthieu 14–28 - Synthèse" id="matthieu-14-28-synthese" nb="2">
               <tests>
                 <test input="Fais-moi un résumé de la fin de l&apos;Évangile selon Matthieu !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mq0vO1vNVfY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 14-28&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;matthieu-14-28-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1680,7 +1680,7 @@
             <sourceId>theodom</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Tlzet3e6fAY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <folder name="Divergences" id="divergences" defaultSourceId="interne">
+          <folder name="Divergences" id="divergences">
             <message name="En effet il y a des divergences" id="en-effet-il-y-a-des-divergences" nb="1">
               <tests>
                 <test input="Y a-t-il des divergences dans les évangiles ?" output="En effet, il y a des petites divergences dans les évangiles c&apos;est à dire les récits qui racontent la vie de Jésus." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
@@ -2042,7 +2042,7 @@
         <sourceId>reseau-entourage</sourceId>
         <text>Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue !&#10;&#10;Des vidéos, des interviews, des témoignages et un guide, voici ce que vous allez pouvoir retrouver tout au long de votre discussion.</text>
       </message>
-      <folder name="Etapes" id="etapes" nb="4" defaultSourceId="interne">
+      <folder name="Etapes" id="etapes" nb="4">
         <folder name="Et si on agissait ?" id="et-si-on-agissait" nb="3">
           <message name="Comment aider les personnes SDF de ma ville ?" id="comment-aider-les-personnes-sdf-de-ma-ville" nb="3">
             <tests>
@@ -2407,7 +2407,7 @@
         <sourceId>reseau-entourage</sourceId>
         <text>Ici, on vous donne les trois étapes clé pour franchir le pas et aller à la rencontre des personnes sans-abri de votre quartier :</text>
       </message>
-      <folder name="FAQ" id="faq" nb="6" defaultSourceId="interne">
+      <folder name="FAQ" id="faq" nb="6">
         <folder name="Hébergement" id="hebergement">
           <message name="Je suis ancien et bientôt de nouveau SDF, je suis vraiment perdu que dois je faire..." id="je-suis-ancien-et-bientt-de-nouveau-sdf-je-suis-vraiment-perdu-que-dois-je-faire">
             <tests>
@@ -2491,7 +2491,7 @@
         <sourceId>reseau-entourage</sourceId>
         <text fileType="text_and_html">&lt;a href=&quot;https://entourage.iraiser.eu/effet-entourage/~mon-don?utm_source=Bouton&amp;utm_medium=SCB&amp;utm_campaign=DON&quot;&gt;Faire un don !&lt;/a&gt;</text>
       </message>
-      <folder name="Livret" id="livret" nb="5" defaultSourceId="interne">
+      <folder name="Livret" id="livret" nb="5">
         <message name="Voir le livret" id="voir-le-livret" nb="2">
           <triggers>
             <trigger value="Je veux voir le livret qui résume tout ça."/>
@@ -2953,7 +2953,7 @@
               </potentialEffects>
             </planningInfos>
           </message>
-          <folder name="Questions" id="questions" defaultSourceId="interne">
+          <folder name="Questions" id="questions">
             <message name=" Quel livre de la Bible raconte la « Création » ?" id="quel-livre-de-la-bible-raconte-la-creation" nb="2">
               <recommendations>
                 <recommendation text="Genèse" outMessageId="quel-livre-de-la-bible-raconte-la-creation-bonne-reponse"/>
@@ -4114,7 +4114,7 @@
           <sourceId>bible</sourceId>
           <text fileType="text_and_html">&lt;span&gt;Dieu est devenu un homme pour partager tout ce qui concerne notre condition humaine à l&apos;exception du péché.&lt;/span&gt;</text>
         </message>
-        <folder name="Existance" id="existance" nb="1" defaultSourceId="interne">
+        <folder name="Existance" id="existance" nb="1">
           <message name="Ce qu&apos;on sait sur Jésus" id="ce-qu-on-sait-sur-jesus" nb="1">
             <tests>
               <test input="Que sait-on sur Jésus ?" output="On sait plus de choses sur Jésus que sur la plupart de ses contemporains." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
@@ -4144,7 +4144,7 @@
             <sourceUrl>https://fr.wikipedia.org/wiki/Testimonium_flavianum</sourceUrl>
             <text>Flavius Josèphe écrit:&#10;&lt;i&gt;« En ce temps-là paraît Jésus, un homme sage, [si toutefois il faut l&apos;appeler un homme, car] ; c&apos;était un faiseur de prodiges... »&lt;/i&gt;&#10;Et ensuite il va se faire l&apos;écho de la crucifixion et de la résurrection de Jésus.</text>
           </message>
-          <folder name="Critique textuelle" id="critique-textuelle" defaultSourceId="interne">
+          <folder name="Critique textuelle" id="critique-textuelle">
             <message name="Comparaison Guerre des Gaulles vs Jésus" id="comparaison-guerre-des-gaulles-vs-jesus" nb="2">
               <recommendations>
                 <recommendation text="Quel est le deuxième principe ?" outMessageId="deuxieme-principe-de-la-critique-textuelle"/>
@@ -4258,7 +4258,7 @@
               </goalsToAdd>
             </planningInfos>
           </message>
-          <folder name="Réactions" id="reactions" defaultSourceId="interne">
+          <folder name="Réactions" id="reactions">
             <message name="Je crois que Jésus a existé." id="je-crois-que-jesus-a-existe" nb="2">
               <tests>
                 <test input="Je crois que Jésus a existé." output="Vous avez raison car aujourd&apos;hui aucun historien sérieux ne remet en cause l&apos;existance historique de Jésus." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
@@ -4348,7 +4348,7 @@
           <sourceId>retour-du-christ</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <folder name="La résurrection mythe ou réalité ?" id="la-resurrection-mythe-ou-realite" nb="4" defaultSourceId="interne">
+        <folder name="La résurrection mythe ou réalité ?" id="la-resurrection-mythe-ou-realite" nb="4">
           <message name="Comment expliquer ce changement radical, si ce n&apos;est par la résurrection ?" id="comment-expliquer-ce-changement-radical-si-ce-n-est-par-la-resurrection" nb="7">
             <nextMessageId>comment-expliquer-s-ils-n-etaient-pas-eux-meme-convaincu-existentiellement-que-jesus-etait-reellement-vivant</nextMessageId>
             <sourceId>parcours-alpha-la-traversee</sourceId>
@@ -4504,7 +4504,7 @@
           <sourceId>croire</sourceId>
           <text>Jésus est Dieu.</text>
         </message>
-        <folder name="Les raisons de le croire" id="les-raisons-de-le-croire" nb="3" defaultSourceId="interne">
+        <folder name="Les raisons de le croire" id="les-raisons-de-le-croire" nb="3">
           <message name="L&apos;accomplissement des prophéties de l&apos;Ancien Testament" id="l-accomplissement-des-propheties-de-l-ancien-testament" nb="6">
             <recommendations>
               <recommendation text="5/5 Sa victoire sur la mort" outMessageId="sa-victoire-sur-la-mort"/>
@@ -4664,7 +4664,7 @@
           <sourceId>bible</sourceId>
           <text fileType="text_and_html">Parce qu&apos;il l&apos;a affirmé. Que pour cela il a été condamné à mort. Mais Dieu l&apos;a ressuscité ! &lt;span&gt;Aurait-il ressuscité un menteur ?&lt;/span&gt;&#10;</text>
         </message>
-        <folder name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="5" defaultSourceId="interne">
+        <folder name="Pourquoi Jésus est-il mort ?" id="pourquoi-jesus-est-il-mort" nb="5">
           <message name="Beaucoup de gens portent une croix" id="beaucoup-de-gens-portent-une-croix" nb="5">
             <recommendations>
               <recommendation text="C&apos;est très étrange de porter une croix." outMessageId="c-est-tres-etrange-de-porter-une-croix"/>
@@ -4748,7 +4748,7 @@
             <sourceUrl>https://www.youtube.com/watch?v=H5SE6YwN-SE</sourceUrl>
             <text>C&apos;est pourtant devenu la signe de reconnaissance des chrétiens.&#10;Le &quot;logo&quot; on pourrait dire du christianisme.</text>
           </message>
-          <folder name="Paroles de Jésus sur la croix" id="paroles-de-jesus-sur-la-croix" defaultSourceId="interne">
+          <folder name="Paroles de Jésus sur la croix" id="paroles-de-jesus-sur-la-croix">
             <message name="&quot;Femme, voici ton fils.&quot; et &quot;Voici ta mère.&quot;" id="femme-voici-ton-fils-et-voici-ta-mere" nb="50">
               <recommendations>
                 <recommendation text="Qu&apos;est-ce que ça veut dire ?" outMessageId="femme-voici-ton-fils-et-voici-ta-mere-explication"/>
@@ -5186,7 +5186,7 @@
               </goalsToAdd>
             </planningInfos>
           </message>
-          <folder name="Résumé de la mort de Jésus" id="resume-de-la-mort-de-jesus" defaultSourceId="interne">
+          <folder name="Résumé de la mort de Jésus" id="resume-de-la-mort-de-jesus">
             <message name="Ce que nous apporte la mort de Jésus" id="ce-que-nous-apporte-la-mort-de-jesus" nb="3">
               <tests>
                 <test input="Qu&apos;est-ce que nous apporte la mort de Jésus ?" output="Et bien par cet acte incroyable de souffrance habité par la confiance, Jésus prend sur lui tout le mal du monde et par l&apos;amour du Père et la puissance du Saint Esprit, il détruit tout cela dans la résurrection.&#10;Dieu remplace la haine par l&apos;amour.&#10;Dieu remplace le péché par la grâce.&#10;Par la croix, par son pardon et par sa miséricorde, Jésus a le pouvoir de nous transformer de l&apos;intérieur." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
@@ -5297,7 +5297,7 @@
           <sourceUrl>https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens</sourceUrl>
           <text>Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.</text>
         </message>
-        <folder name="Qui est-il ?" id="qui-est-il" nb="2" defaultSourceId="interne">
+        <folder name="Qui est-il ?" id="qui-est-il" nb="2">
           <message name="Ce que Jésus dit" id="ce-que-jesus-dit" nb="6">
             <references>
               <bible book="Mt" chapter="10" verseBegin="40"/>
@@ -5646,7 +5646,7 @@
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m_HSBHcl-C4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Présentation chronologique" id="presentation-chronologique" defaultSourceId="interne">
+      <folder name="Présentation chronologique" id="presentation-chronologique">
         <message name="Histoire Chrétienne dans le monde" id="histoire-chretienne-dans-le-monde" nb="2">
           <tests>
             <test input="Montre-moi l&apos;histoire chrétienne dans le monde !" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; textlength=&quot;54&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Notre Histoire avec Marie&quot; resourceid=&quot;histoire-chretienne-dans-le-monde&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -8812,9 +8812,9 @@
         </message>
       </folder>
     </folder>
-    <folder name="YOUCAT" id="youcat" defaultSourceId="youcat">
+    <folder name="YOUCAT" id="youcat">
       <folder name="Ce que nous croyons" id="ce-que-nous-croyons" nb="1">
-        <folder name="La profession de foi chrétienne" id="la-profession-de-foi-chretienne" nb="25" defaultSourceId="interne">
+        <folder name="La profession de foi chrétienne" id="la-profession-de-foi-chretienne" nb="25">
           <message name="Comment sont nées les professions de foi ?" id="comment-sont-nees-les-professions-de-foi" nb="27">
             <tests>
               <test input="Comment sont nées les professions de foi ?" output="Les professions de foi remontent à Jésus, qui a demandé à ses disciples de baptiser. À cette occasion, ils devaient demander une confession de foi explicite, c&apos;est-à-dire foi au Père, au Fils et en l&apos;Esprit-Saint (Trinité)." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;188-191&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-sont-nees-les-professions-de-foi&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -8829,7 +8829,7 @@
             <sourceId>youcat</sourceId>
             <text>Les professions de foi remontent à Jésus, qui a demandé à ses disciples de baptiser. À cette occasion, ils devaient demander une confession de foi explicite, c&apos;est-à-dire foi au Père, au Fils et en l&apos;Esprit-Saint (Trinité).</text>
           </message>
-          <folder name="Je crois en Dieu le Père" id="je-crois-en-dieu-le-pere" nb="30" defaultSourceId="interne">
+          <folder name="Je crois en Dieu le Père" id="je-crois-en-dieu-le-pere" nb="30">
             <message name="Comment Dieu est-il « Père » ?" id="comment-dieu-est-il-pere" nb="37">
               <tests>
                 <test input="Comment Dieu est-il « Père » ?" output="Dieu est vénéré comme Pêre, d&apos;abord parce qu&apos;il est Créateur, et qu&apos;il s&apos;occupe avec amour de ses créatures. Jésus, le Fils de Dieu, nous a enseigné également que nous pouvions considérer son Père comme notre Père et que nous pouvions nous adresser à Lui en lui disant : « Notre Père. »" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 32, 6&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ml 2, 10&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Is 66, 13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14, 9&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;238-240&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-dieu-est-il-pere&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -9377,7 +9377,7 @@
               <text>Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église. En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps.</text>
             </message>
           </folder>
-          <folder name="Les hommes répondent à Dieu" id="les-hommes-repondent-a-dieu" nb="20" defaultSourceId="interne">
+          <folder name="Les hommes répondent à Dieu" id="les-hommes-repondent-a-dieu" nb="20">
             <message name="Croire - qu&apos;est-ce que cela veut dire ?" id="croire-qu-est-ce-que-cela-veut-dire" nb="22">
               <tests>
                 <test input="Qu&apos;est-ce que cela veut dire croire ?" output="Celui qui croit cherche une relation personnelle à Dieu et il est prêt à croire tout ce que Dieu lui montre (lui révèle) de lui-même." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;150-152&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;croire-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -9539,7 +9539,7 @@
           </message>
         </folder>
       </folder>
-      <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166" defaultSourceId="interne">
+      <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166">
         <message name="Qu&apos;est-ce que la liturgie ?" id="qu-est-ce-que-la-liturgie" nb="167">
           <references>
             <ccc verseBegin="1077" verseEnd="1112"/>
@@ -10101,7 +10101,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/NPcK-TQ9ci0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Avec les psaumes" id="avec-les-psaumes" defaultSourceId="interne">
+    <folder name="Avec les psaumes" id="avec-les-psaumes">
       <message name="&quot; Ouvre mes yeux &quot; psaume 118 / CD1-01 NDML Lyrics" id="ouvre-mes-yeux-psaume-118-cd1-01-ndml-lyrics" nb="118">
         <tests>
           <test input="Je veux prier avec un psaume !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TME4cZSES8s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 118, 1-2&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 118, 4-5&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 118, 17-18&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 118, 33-34&quot; textlength=&quot;13&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;NDML&quot; resourceid=&quot;ouvre-mes-yeux-psaume-118-cd1-01-ndml-lyrics&quot; textlength=&quot;4&quot; /&gt;"/>
@@ -10328,7 +10328,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="En vacances" id="en-vacances" defaultSourceId="interne">
+    <folder name="En vacances" id="en-vacances">
       <message name="Comment prier pendant les vacances ? Les conseils d&apos;un moine-touriste !" id="comment-prier-pendant-les-vacances-les-conseils-d-un-moine-touriste">
         <tests>
           <test input="Comment prier pendant les vacances ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CM048JRsYik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;comment-prier-pendant-les-vacances-les-conseils-d-un-moine-touriste&quot; textlength=&quot;30&quot; /&gt;"/>
@@ -10488,8 +10488,8 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Louange" id="louange" defaultSourceId="interne">
-      <folder name="Comment louer Dieu ?" id="comment-louer-dieu" defaultSourceId="interne">
+    <folder name="Louange" id="louange">
+      <folder name="Comment louer Dieu ?" id="comment-louer-dieu">
         <message name="Comment louer Dieu ?" id="comment-louer-dieu">
           <tests>
             <test input="Comment louer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ap 19, 6&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Dn 3, 16-18&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 16, 25-26&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Figures-spirituelles/Mere-Teresa/Les-dix-plus-belles-prieres-de-Mere-Teresa&quot; sourceid=&quot;croire&quot; textlength=&quot;115&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://www.albin-michel.fr/ouvrages/le-livre-des-louanges-9782226178237&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-louer-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10512,7 +10512,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges" defaultSourceId="interne">
+      <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges">
         <message name="Ce que Dieu désire" id="ce-que-dieu-desire">
           <tests>
             <test input="Qu&apos;est-ce que Dieu désire ?" output="\hc_resource_html=#fr_FR#&lt;span&gt;Dieu désire créer une relation plus intime avec chacun de nous.&lt;/span&gt;\&#9; &#10;La louange nous permet de nous rapprocher de lui en regardant ses merveilles dans nos vies." outputReferences="&lt;hc_site site=&quot;https://www.lejourduseigneur.com/homelies/&quot; textlength=&quot;42&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;ce-que-dieu-desire&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -10582,7 +10582,7 @@
           </goalsToAdd>
         </planningInfos>
       </message>
-      <folder name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu" defaultSourceId="interne">
+      <folder name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu">
         <message name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu">
           <triggers>
             <trigger value="Pourquoi louer Dieu ?"/>
@@ -10680,7 +10680,7 @@
         <sourceId>diocese-de-paris</sourceId>
         <text>Je vous salue Marie,&#10;pleine de grâce&#10;Le Seigneur est avec vous,&#10;vous êtes bénie entre toutes les femmes&#10;et Jésus, le fruit de vos entrailles, est béni.&#10;Sainte Marie,&#10;Mère de Dieu,&#10;priez pour nous,&#10;pauvres pécheurs&#10;maintenant et à l’heure de notre mort.&#10;Amen</text>
       </message>
-      <folder name="Musiques" id="musiques" defaultSourceId="interne">
+      <folder name="Musiques" id="musiques">
         <message name="Qui est celle-ci ?" id="qui-est-celle-ci">
           <triggers>
             <trigger value="Je veux écouter à chant à Marie."/>
@@ -10692,7 +10692,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HSlHLyMhSA0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie" defaultSourceId="interne">
+      <folder name="Pourquoi les catholiques demandes l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandes-l-intercession-de-sainte-marie">
         <message name="Explication &quot;Je vous salue Marie&quot;" id="explication-je-vous-salue-marie">
           <triggers>
             <trigger value="Le &quot;Je vous salue Marie&quot; est-il biblique ?"/>
@@ -10863,7 +10863,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Témoignages" id="temoignages" defaultSourceId="interne">
+  <folder name="Témoignages" id="temoignages">
     <folder name="Ancien athée" id="ancien-athee" nb="1">
       <message name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
@@ -10922,7 +10922,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Ancien musulman" id="ancien-musulman" nb="2" defaultSourceId="interne">
+    <folder name="Ancien musulman" id="ancien-musulman" nb="2">
       <message name="Témoignage du P. Mustapha Amari, musulman devenu prêtre" id="temoignage-du-p-mustapha-amari-musulman-devenu-pretre">
         <triggers>
           <trigger value="Montre-moi le témoignage d&apos;un ancien musulman !"/>
@@ -10931,7 +10931,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GVc_rrn0YOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Célébrité" id="celebrite" nb="3" defaultSourceId="interne">
+    <folder name="Célébrité" id="celebrite" nb="3">
       <message name="Arielle Dombasle : « La première fois que j’ai vu le Christ en croix, je me suis mise à pleurer »" id="arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer">
         <tests>
           <test input="Montre-moi le témoignage de Arielle Dombasle !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vwRiNvnqipE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -10957,7 +10957,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="laic" nb="4" defaultSourceId="interne">
+    <folder name="Laïc" id="laic" nb="4">
       <message name="&quot;J’ai fait la rencontre plus importante de ma vie....&quot; - Témoignage Claire" id="j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire">
         <tests>
           <test input="Montre-moi le témoignage d&apos;une personne qui voulais se sucider." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11056,7 +11056,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DqTkGIygqvQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="6" defaultSourceId="interne">
+    <folder name="Prêtre" id="pretre" nb="6">
       <message name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25, 40&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -11123,7 +11123,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="5" defaultSourceId="interne">
+    <folder name="Séminariste" id="seminariste" nb="5">
       <message name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
