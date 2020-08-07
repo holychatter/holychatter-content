@@ -8954,6 +8954,19 @@
               <sourceId>youcat</sourceId>
               <text>Oui. La foi est ouverte aux hypothèses de la recherche scientifique.</text>
             </message>
+            <message name="Pourquoi Dieu s&apos;est-il reposé le septième jour ?" id="pourquoi-dieu-s-est-il-repose-le-septieme-jour" nb="47">
+              <tests>
+                <test input="Pourquoi Dieu s&apos;est-il reposé le septième jour ?" output="Après le travail, Dieu se repose. Cela attire l&apos;attention sur l&apos;achèvement de la création, qui se situe au-delà de tous les efforts humains." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;349&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-dieu-s-est-il-repose-le-septieme-jour&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi Dieu s&apos;est-il reposé le septième jour ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="349"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Après le travail, Dieu se repose. Cela attire l&apos;attention sur l&apos;achèvement de la création, qui se situe au-delà de tous les efforts humains.</text>
+            </message>
             <message name="Pourquoi Dieu se donne-t-il un nom ?" id="pourquoi-dieu-se-donne-t-il-un-nom" nb="31">
               <tests>
                 <test input="Pourquoi Dieu se donne-t-il un nom ?" output="Dieu se donne un nom parce qu&apos;il veut se rendre accessible." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10, 9&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;203-213&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-dieu-se-donne-t-il-un-nom&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -9044,6 +9057,20 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Dieu est lumière, il n&apos;y a pas de ténèbres en lui (1 Jn 1, 5). Sa parole est vérité (Pr 8, 7 ; 2S 7, 28) et sa Loi est vérité (Ps 118, 142). Jésus lui-même se porte garant de la vérité de Dieu quand il confesse devant Pilate : Je suis venu dans le monde pour ceci : rendre témoignage à la vérité (Jn 18, 37).</text>
+            </message>
+            <message name="Quel était le dessein de Dieu quand il a créé le monde ?" id="quel-etait-le-dessein-de-dieu-quand-il-a-cree-le-monde" nb="48">
+              <tests>
+                <test input="Quel était le dessein de Dieu quand il a créé le monde ?" output="« Le monde a été créé pour la gloire de Dieu » (Vatican 1)." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;293-294&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;319&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quel-etait-le-dessein-de-dieu-quand-il-a-cree-le-monde&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quel était le dessein de Dieu quand il a créé le monde ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="293" verseEnd="294"/>
+                <ccc verseBegin="319"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>« Le monde a été créé pour la gloire de Dieu » (Vatican 1).</text>
             </message>
             <message name="Qui a créé le monde ?" id="qui-a-cree-le-monde" nb="44">
               <tests>
@@ -10836,7 +10863,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Témoignages" id="temoignages">
+  <folder name="Témoignages" id="temoignages" defaultSourceId="interne">
     <folder name="Ancien athée" id="ancien-athee" nb="1">
       <message name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
