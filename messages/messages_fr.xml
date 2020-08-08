@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
   <folder name="Bible" id="bible" image="bible.jpg">
-    <folder name="Ancien Testament" id="ancien-testament" nb="1">
+    <folder name="Ancien Testament" id="ancien-testament" nb="1" image="old_testament.jpg">
       <folder name="Livres historiques" id="livres-historiques" nb="2">
         <message name="1 Samuel - Synthèse" id="1-samuel-synthese" nb="4">
           <tests>
@@ -560,7 +560,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="À propos" id="a-propos">
+      <folder name="À propos" id="a-propos" image="about.jpg">
         <message name="Comment lire un récit biblique ?" id="comment-lire-un-recit-biblique">
           <triggers>
             <trigger value="Comment lire un récit biblique ?"/>
@@ -573,7 +573,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Nouveau Testament" id="nouveau-testament" nb="2">
+    <folder name="Nouveau Testament" id="nouveau-testament" nb="2" image="new_testament.jpg">
       <folder name="Autres épitres" id="autres-epitres" nb="4">
         <message name="1 Pierre - Synthèse" id="1-pierre-synthese" nb="3">
           <tests>
@@ -1746,7 +1746,7 @@
         </folder>
       </folder>
     </folder>
-    <folder name="À propos" id="a-propos-bible">
+    <folder name="À propos" id="a-propos-bible" image="about.jpg">
       <message name="Comment la Bible est-elle structurée ?" id="comment-la-bible-est-elle-structuree">
         <tests>
           <test input="Comment la Bible est-elle structurée ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/W5qUev-Zofw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;121-130&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-la-bible-est-elle-structuree&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -1761,7 +1761,7 @@
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/W5qUev-Zofw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Comment lire la Bible" id="comment-lire-la-bible">
+      <folder name="Comment lire la Bible" id="comment-lire-la-bible" image="bible.jpg">
         <message name="Comment lire la Bible ? (partie 1)" id="comment-lire-la-bible-partie-1" nb="1">
           <tests>
             <test input="Comment lire la Bible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JkIXSY4R--0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14, 21&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-lire-la-bible-partie-1&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -1900,7 +1900,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Chatbots" id="chatbots">
+  <folder name="Chatbots" id="chatbots" image="logo_holy_chatter.png">
     <chatbot name="La Défense" id="la-defense" useDefaultContent="true" useDefaultProactivity="true" bannerImage="la_defense_logo.png" url="https://ndp92.fr" fallbackEngine="Cybercuré">
       <message name="Bonjour de La Défense" id="bonjour-de-la-defense" nb="1">
         <nextMessageId>photo-arche-la-defense</nextMessageId>
@@ -2534,9 +2534,9 @@
       </goals>
     </chatbot>
   </folder>
-  <folder name="Découverte" id="decouverte">
-    <folder name="Par thème" id="par-theme">
-      <folder name="Comment rencontrer Dieu ?" id="comment-rencontrer-dieu" nb="4">
+  <folder name="Découverte" id="decouverte" image="discover.jpg">
+    <folder name="Par thème" id="par-theme" image="theme.jpg">
+      <folder name="Comment rencontrer Dieu ?" id="comment-rencontrer-dieu" nb="4" image="meet_god.jpg">
         <message name="Comment rencontrer Dieu ? (partie 2 : la violence)" id="comment-rencontrer-dieu-partie-2-la-violence" nb="2">
           <tests>
             <test input="Quelle attitude intérieure faut-il avoir pour rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2bEGB9c6VPw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11, 12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 6, 24&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 7, 13-14&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-rencontrer-dieu-partie-2-la-violence&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -2566,7 +2566,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Message chrétien" id="message-chretien" nb="2">
+      <folder name="Message chrétien" id="message-chretien" nb="2" image="christian_message.jpg">
         <message name="Le message chrétien en 7 minutes" id="le-message-chretien-en-7-minutes">
           <tests>
             <test input="Je veux voir le message chrétien" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 1, 1&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5, 12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 1, 15&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 4, 25&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 10, 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 9, 2&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-message-chretien-en-7-minutes&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -2597,7 +2597,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SSqiaVXtkRQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Qui est Jésus ?" id="qui-est-jesus" nb="3">
+      <folder name="Qui est Jésus ?" id="qui-est-jesus" nb="3" image="jesus.jpg">
         <message name="La Traversée - Topo #1 - Qui est Jésus ?" id="la-traversee-topo-1-qui-est-jesus">
           <tests>
             <test input="Qui est Jésus ?" output="Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m27xeMQQHh4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; url=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6, 35&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 8, 36&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 11, 28&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 10, 40&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 14, 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 2, 5-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10, 30-33&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 6, 50&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5, 44&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 2, 7-10&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23, 34&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19, 33-34&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 15, 6&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20, 25&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10, 10&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;la-traversee-topo-1-qui-est-jesus&quot; textlength=&quot;26&quot; /&gt;"/>
@@ -2668,7 +2668,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Pz5saR8c8Oc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sens de la vie" id="sens-de-la-vie" nb="1">
+      <folder name="Sens de la vie" id="sens-de-la-vie" nb="1" image="road.jpg">
         <message name="Quel est le sens de la vie ?" id="quel-est-le-sens-de-la-vie">
           <tests>
             <test input="quel est le sens de la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h2kexzdFc3c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;quel-est-le-sens-de-la-vie&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -2684,8 +2684,8 @@
         </message>
       </folder>
     </folder>
-    <folder name="Par âge" id="par-age">
-      <folder name="Adultes" id="adultes" nb="4">
+    <folder name="Par âge" id="par-age" image="age.jpg">
+      <folder name="Adultes" id="adultes" nb="4" image="adult.png">
         <message name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
           <tests>
             <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -2729,7 +2729,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Collégiens et lycéens" id="collegiens-et-lyceens" nb="2">
+      <folder name="Collégiens et lycéens" id="collegiens-et-lyceens" nb="2" image="young.jpg">
         <message name="Pourquoi le Frat ?" id="pourquoi-le-frat">
           <tests>
             <test input="Qu&apos;est-ce que le Frat ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le FRATernel&quot; resourceid=&quot;pourquoi-le-frat&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -2747,7 +2747,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/73A6_aFpk1k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Enfants" id="enfants" nb="1">
+      <folder name="Enfants" id="enfants" nb="1" image="kids.jpg">
         <message name="Le caté c&apos;est quoi ?" id="le-cate-c-est-quoi">
           <tests>
             <test input="C&apos;est quoi le caté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Médiaclap édition&quot; resourceid=&quot;le-cate-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -2767,7 +2767,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kSHNCLCdrZw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="3">
+      <folder name="Jeunes professionnels" id="jeunes-professionnels" nb="3" image="jeunes-pros.jpg">
         <message name="J&apos;hésite à pousser la porte du presbytère, à qui en parler ?" id="j-hesite-a-pousser-la-porte-du-presbytere-a-qui-en-parler">
           <tests>
             <test input="J&apos;hésite à pousser la porte du presbytère." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yHBWHVakhYc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;j-hesite-a-pousser-la-porte-du-presbytere-a-qui-en-parler&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -2793,7 +2793,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Tous" id="tous">
+      <folder name="Tous" id="tous" image="age.jpg">
         <message name="Comment poser une question à un prêtre ?" id="comment-poser-une-question-a-un-pretre">
           <tests>
             <test input="Comment puis-je poser une question à un prêtre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -3382,9 +3382,9 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Eglise" id="eglise">
-    <folder name="Anges" id="anges" nb="2">
-      <folder name="Ange gardien" id="ange-gardien">
+  <folder name="Eglise" id="eglise" image="church.jpg">
+    <folder name="Anges" id="anges" nb="2" image="angel.jpg">
+      <folder name="Ange gardien" id="ange-gardien" image="ange_gardien.jpg">
         <message name="Avons-nous un ange gardien ? Réponse catholique !" id="avons-nous-un-ange-gardien-reponse-catholique">
           <tests>
             <test input="Est-ce que j&apos;ai un ange gardien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8TleyxYlSn4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La Caverne du Pèlerin&quot; resourceid=&quot;avons-nous-un-ange-gardien-reponse-catholique&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -3396,7 +3396,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8TleyxYlSn4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Satan" id="satan">
+      <folder name="Satan" id="satan" image="satan.jpg">
         <message name="Ce que Dit Marie à Medjugorje : Satan" id="ce-que-dit-marie-a-medjugorje-satan">
           <tests>
             <test input="Que dit Marie sur Satan ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;ce-que-dit-marie-a-medjugorje-satan&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -3448,7 +3448,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Dieu" id="dieu" nb="1">
+    <folder name="Dieu" id="dieu" nb="1" image="god.jpg">
       <folder name="L&apos;Esprit" id="l-esprit" nb="3">
         <message name="Comment définir l’Esprit Saint ?" id="comment-definir-l-esprit-saint">
           <tests>
@@ -3585,7 +3585,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XLtcASarxqU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="La Trinité" id="la-trinite">
+      <folder name="La Trinité" id="la-trinite" image="trinity.jpg">
         <message name="Comment peut-on représenter la Trinité ?" id="comment-peut-on-representer-la-trinite">
           <tests>
             <test input="Comment peut-on représenter la Trinité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/X85tyEv0kwg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-peut-on-representer-la-trinite&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -5523,7 +5523,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Dogmes et morale" id="dogmes-et-morale" nb="6">
+    <folder name="Dogmes et morale" id="dogmes-et-morale" nb="6" image="dogme.jpg">
       <message name="Les dogmes, pour quoi faire ?" id="les-dogmes-pour-quoi-faire">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est un dogme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SDsn7bPW-pQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-dogmes-pour-quoi-faire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5569,7 +5569,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s4EpOZyYykM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Histoire" id="histoire" nb="7">
+    <folder name="Histoire" id="histoire" nb="7" image="history.jpg">
       <message name="Histoire(s) d&apos;Eglise : le temps des commencements" id="histoires-d-eglise-le-temps-des-commencements" nb="1">
         <tests>
           <test input="Quel est le début de l&apos;Eglise ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qdwQpAP6c2g&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1, 1-4&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;histoires-d-eglise-le-temps-des-commencements&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5646,7 +5646,7 @@
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m_HSBHcl-C4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Présentation chronologique" id="presentation-chronologique">
+      <folder name="Présentation chronologique" id="presentation-chronologique" image="chronologie.jpg">
         <message name="Histoire Chrétienne dans le monde" id="histoire-chretienne-dans-le-monde" nb="2">
           <tests>
             <test input="Montre-moi l&apos;histoire chrétienne dans le monde !" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; textlength=&quot;54&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Notre Histoire avec Marie&quot; resourceid=&quot;histoire-chretienne-dans-le-monde&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -5687,10 +5687,10 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PTpTiZfAZ2o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Liturgie" id="liturgie" nb="3">
-      <folder name="Messe" id="messe" nb="1">
-        <folder name="Accueil" id="accueil" nb="1">
-          <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee">
+    <folder name="Liturgie" id="liturgie" nb="3" image="liturgie.jpg">
+      <folder name="Messe" id="messe" nb="1" image="mass.jpg">
+        <folder name="Accueil" id="accueil" nb="1" image="accueil.jpg">
+          <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee" image="assemblée.jpg">
             <message name="Au nom du Père et du Fils et du Saint-Esprit" id="au-nom-du-pere-et-du-fils-et-du-saint-esprit" nb="1">
               <tests>
                 <test input="Au nom du Père et du Fils et du Saint-Esprit" output="Amen" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;au-nom-du-pere-et-du-fils-et-du-saint-esprit&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -5729,8 +5729,8 @@
             </message>
           </folder>
         </folder>
-        <folder name="Envoi" id="envoi" nb="4">
-          <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee">
+        <folder name="Envoi" id="envoi" nb="4" image="procession.jpg">
+          <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee" image="assemblée.jpg">
             <message name="Allez, dans la paix du Christ" id="allez-dans-la-paix-du-christ">
               <tests>
                 <test input="Allez, dans la paix du Christ" output="Nous rendons grâce à Dieu" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;allez-dans-la-paix-du-christ&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -5746,7 +5746,7 @@
             </message>
           </folder>
         </folder>
-        <folder name="Liturgie de la parole" id="liturgie-de-la-parole" nb="2">
+        <folder name="Liturgie de la parole" id="liturgie-de-la-parole" nb="2" image="bible.jpg">
           <message name="AELF" id="aelf">
             <tests>
               <test input="c&apos;est quoi l&apos;AELF ?" output="L&apos;AELF est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;AELF&quot; resourceid=&quot;aelf&quot; textlength=&quot;4&quot; /&gt;"/>
@@ -5790,7 +5790,7 @@
             <sourceId>aelf</sourceId>
             <text fileType="api">&lt;hc_api name=&quot;psalm&quot; /&gt;</text>
           </message>
-          <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee-liturgie-de-la-parole">
+          <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee-liturgie-de-la-parole" image="assemblée.jpg">
             <message name="Parole du Seigneur" id="parole-du-seigneur">
               <tests>
                 <test input="Parole du Seigneur" output="Nous rendons gloire à Dieu" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;parole-du-seigneur&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -5806,7 +5806,7 @@
             </message>
           </folder>
         </folder>
-        <folder name="Liturgie eucharistique" id="liturgie-eucharistique" nb="3">
+        <folder name="Liturgie eucharistique" id="liturgie-eucharistique" nb="3" image="eucharist.jpg">
           <message name="Comment recevoir le corps du Christ ?" id="comment-recevoir-le-corps-du-christ">
             <tests>
               <test input="Comment recevoir le corps du Christ ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TNpdpOraGJ4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comment-recevoir-le-corps-du-christ&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -5859,7 +5859,7 @@
             <sourceId>retraite-dans-la-ville</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NTB8BlYb1oY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <folder name="Quête" id="quete">
+          <folder name="Quête" id="quete" image="quete.jpeg">
             <message name="Comment faire son offrande au bon moment et avec un montant réfléchi ?" id="comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi">
               <tests>
                 <test input="Comment faire son offrande au bon moment ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Appli La Quête&quot; resourceid=&quot;comment-faire-son-offrande-au-bon-moment-et-avec-un-montant-reflechi&quot; textlength=&quot;15&quot; /&gt;"/>
@@ -5873,7 +5873,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TQ1x6oQxwZo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee-liturgie-eucharistique">
+          <folder name="Réponses de l’assemblée" id="reponses-de-l-assemblee-liturgie-eucharistique" image="assemblée.jpg">
             <message name="Elevons notre coeur" id="elevons-notre-coeur" nb="2">
               <tests>
                 <test input="Elevons notre coeur" output="Nous le tournons vers le Seigneur" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/celebration-de-la-messe&quot; textlength=&quot;90&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;elevons-notre-coeur&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -5928,7 +5928,7 @@
             </message>
           </folder>
         </folder>
-        <folder name="À propos" id="a-propos-messe">
+        <folder name="À propos" id="a-propos-messe" image="about.jpg">
           <message name="Comment la messe se déroule-t-elle ?" id="comment-la-messe-se-deroule-t-elle">
             <tests>
               <test input="Comment la messe se déroule-t-elle ?" output="La messe comporte un temps d&apos;écoute de la Parole de Dieu (lectures tirées de la Bible et en particulier des Évangiles) et un temps de bénédiction et de partage du pain et du vin, devenus corps et sang du Christ, geste que Jésus donna à ses disciples au soir de sa Passion, à la veille de sa mort." outputReferences="&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Lexique/Messe/Messe-deroulement/Comme-la-messe-se-deroule-t-elle&quot; textlength=&quot;104&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;comment-la-messe-se-deroule-t-elle&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -6051,8 +6051,8 @@
           </message>
         </folder>
       </folder>
-      <folder name="Temps liturgiques" id="temps-liturgiques" nb="2">
-        <folder name="Ascension" id="ascension" nb="6">
+      <folder name="Temps liturgiques" id="temps-liturgiques" nb="2" image="temps_liturgique.jpg">
+        <folder name="Ascension" id="ascension" nb="6" image="noel.png">
           <message name="Deux bonnes raisons de fêter l&apos;Ascension" id="deux-bonnes-raisons-de-feter-l-ascension">
             <tests>
               <test input="À quoi sert l&apos;Ascension ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lkl9fnNx1L4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;deux-bonnes-raisons-de-feter-l-ascension&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -6077,7 +6077,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Avent" id="avent" nb="2">
+        <folder name="Avent" id="avent" nb="2" image="avent.jpeg">
           <message name="L&apos;Avent... et après ?" id="l-avent-et-apres">
             <tests>
               <test input="Qu&apos;est-ce que l&apos;Avent ?" output="\hc_resource_html=#fr_FR#&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;l-avent-et-apres&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -6090,7 +6090,7 @@
             <text fileType="html">&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Carême" id="careme" nb="4">
+        <folder name="Carême" id="careme" nb="4" image="avent.jpeg">
           <message name="Le Carême c&apos;est quoi ?" id="le-careme-c-est-quoi">
             <tests>
               <test input="Le Carême c&apos;est quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Moulins&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -6147,7 +6147,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Noël" id="noel" nb="3">
+        <folder name="Noël" id="noel" nb="3" image="noel.png">
           <message name="Comment vivre noel ? - Benjamin Pouzin" id="comment-vivre-noel-benjamin-pouzin">
             <tests>
               <test input="Comment vivre noel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Lyon Centre - église ste Blandine&quot; resourceid=&quot;comment-vivre-noel-benjamin-pouzin&quot; textlength=&quot;34&quot; /&gt;"/>
@@ -6159,7 +6159,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Pâques" id="paques" nb="5">
+        <folder name="Pâques" id="paques" nb="5" image="noel.png">
           <message name="&quot;Il est vraiment ressuscite&quot; Chant des Fraternités Monastiques de Jérusalem" id="il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem">
             <triggers>
               <trigger value="Christ est ressuscité !"/>
@@ -6238,7 +6238,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Temps ordinaire" id="temps-ordinaire" nb="1">
+        <folder name="Temps ordinaire" id="temps-ordinaire" nb="1" image="temps_ordinaire.jpg">
           <message name="Devoir d&apos;état ? - Abbé Grosjean" id="devoir-d-etat-abbe-grosjean">
             <tests>
               <test input="Qu&apos;est-ce que le devoir d&apos;état ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25, 21&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;devoir-d-etat-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -6254,7 +6254,7 @@
           </message>
         </folder>
       </folder>
-      <folder name="À propos" id="a-propos-liturgie">
+      <folder name="À propos" id="a-propos-liturgie" image="about.jpg">
         <message name="Le mystère de la liturgie" id="le-mystere-de-la-liturgie">
           <tests>
             <test input="C&apos;est quoi la liturgie ?" output="La liturgie est le culte officiel de l&apos;Église et le service public de l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 12, 12-30&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 18, 18-20&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-prier-ensemble&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -6272,8 +6272,8 @@
         </message>
       </folder>
     </folder>
-    <folder name="Personnes" id="personnes" nb="5">
-      <folder name="Frédéric Ozanam" id="frederic-ozanam">
+    <folder name="Personnes" id="personnes" nb="5" image="person.jpg">
+      <folder name="Frédéric Ozanam" id="frederic-ozanam" image="fréderic_ozanam.jpg">
         <message name="Frédéric Ozanam" id="frederic-ozanam">
           <triggers>
             <trigger value="Qui est Frédéric Ozanam ?"/>
@@ -6282,7 +6282,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RJH57Kb1wsk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Marie" id="marie">
+      <folder name="Marie" id="marie" image="marie.jpg">
         <message name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
           <tests>
             <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -6349,7 +6349,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Padre Pio" id="padre-pio">
+      <folder name="Padre Pio" id="padre-pio" image="padre-pio.jpg">
         <message name="PADRE PIO (1/2) Meilleur interview jamais réalisé avec le père JEAN DeROBERT" id="padre-pio-12-meilleur-interview-jamais-realise-avec-le-pere-jean-derobert">
           <triggers>
             <trigger value="Interview du père Jean De Robert sur le Padre Pio"/>
@@ -6373,13 +6373,13 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Fidèle" id="saint-fidele">
+      <folder name="Saint Fidèle" id="saint-fidele" image="saint_fidele.jpg">
         <message name="Saint Fidèle de Sigmaringen, martyr des calvinistes - Sermon" id="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon">
           <sourceId>la-sapiniere</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney">
+      <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney" image="cure-d-ars.jpg">
         <message name="Dates et lieux" id="dates-et-lieux">
           <tests>
             <test input="Quand Jean-Marie Vianney fut appelé à l&apos;armée ?" output="Jean-Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Jean-Marie_Vianney&quot; textlength=&quot;48&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -6391,7 +6391,7 @@
           <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean-Marie Vianney fit sa première communion à Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.&#10;Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
         </message>
       </folder>
-      <folder name="Saint Joseph" id="saint-joseph">
+      <folder name="Saint Joseph" id="saint-joseph" image="joseph.jpg">
         <message name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
           <tests>
             <test input="Qui est Saint Joseph ?" output="Le père adoptif de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -6413,7 +6413,7 @@
           <text>Saint Joseph est le père adoptif de Jésus.&#10;</text>
         </message>
       </folder>
-      <folder name="Saint Luc" id="saint-luc">
+      <folder name="Saint Luc" id="saint-luc" image="saint_luc.jpg">
         <message name="Qui était Saint Luc ?" id="qui-etait-saint-luc">
           <tests>
             <test input="Qui était Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -6435,7 +6435,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe">
+      <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe" image="maxilillian_kolbe.jpg">
         <message name="La vie de Saint Maximilien Kolbe" id="la-vie-de-saint-maximilien-kolbe">
           <tests>
             <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
@@ -6454,7 +6454,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Pierre" id="saint-pierre">
+      <folder name="Saint Pierre" id="saint-pierre" image="saint_pierre.jpg">
         <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la Miséricorde&quot; 2° partie" id="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-2-partie" nb="2">
           <triggers>
             <trigger value="Que fait Saint Pierre au moment de la Passion du Christ ?"/>
@@ -6527,7 +6527,7 @@
           <text>Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).</text>
         </message>
       </folder>
-      <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous">
+      <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous" image="bernadette_soubirous.jpg">
         <message name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
           <tests>
             <test input="Qui est Bernadette Soubirous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Point&quot; resourceid=&quot;11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -6539,7 +6539,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sainte Faustine" id="sainte-faustine">
+      <folder name="Sainte Faustine" id="sainte-faustine" image="sainte_faustine.jpg">
         <message name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="soeur-faustine-jesus-j-ai-confiance-en-toi">
           <tests>
             <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -6549,7 +6549,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine">
+      <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine" image="sainte_marie_mdeleine.jpg">
         <message name="Sainte Marie Madeleine à la Sainte-Baume" id="sainte-marie-madeleine-a-la-sainte-baume">
           <tests>
             <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 16, 1-10&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -6565,7 +6565,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa">
+      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa" image="mère_teresa.jpg">
         <message name="Mère Teresa a été déclarée sainte le 4 septembre 2016" id="mere-teresa-a-ete-declaree-sainte-le-4-septembre-2016">
           <tests>
             <test input="Quand Mère Teresa a été déclarée sainte ?" output="Sainte a déclaré Mère Teresa le 4 septembre 2016." outputReferences="&lt;hc_site site=&quot;https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre&quot; textlength=&quot;70&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;mere-teresa-a-ete-declaree-sainte-le-4-septembre-2016&quot; textlength=&quot;7&quot; /&gt;" isOk="false"/>
@@ -6577,7 +6577,7 @@
           <text>Mère Teresa a été déclarée sainte le 4 septembre 2016.</text>
         </message>
       </folder>
-      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux">
+      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux" image="therese_de_lisieux.jpg">
         <message name="Grégoire chante et lit sainte Thérèse de Lisieux" id="gregoire-chante-et-lit-sainte-therese-de-lisieux">
           <triggers>
             <trigger value="Ecouter Grégoire interpréter des poèmes de Sainte Thérèse de Lisieux !"/>
@@ -6622,7 +6622,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BkSRNDM4Z7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sœur Emmanuelle" id="sur-emmanuelle">
+      <folder name="Sœur Emmanuelle" id="sur-emmanuelle" image="Sœur_Emmanuelle.jpg">
         <message name=" 1:48 / 6:02 Sœur Emmanuelle : Le questionnaire de Bernard Pivot dans Bouillon de Culture" id="148-602-sur-emmanuelle-le-questionnaire-de-bernard-pivot-dans-bouillon-de-culture">
           <triggers>
             <trigger value="Montre-moi un interview avec Sœur Emmanuelle !"/>
@@ -6631,7 +6631,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4VXUoSNIjVM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="À propos" id="a-propos-personnes">
+      <folder name="À propos" id="a-propos-personnes" image="about.jpg">
         <message name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
           <tests>
             <test input="Est-ce que nous sommes appelés à la Sainteté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lv 20, 7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50, 3&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 50, 9-12&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 5, 48&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Jc 4, 8&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;1P 1, 15-16&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 3, 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 1, 2&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4, 24&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-nous-sommes-appeles-a-la-saintete&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -6684,8 +6684,8 @@
         </message>
       </folder>
     </folder>
-    <folder name="Sacrements" id="sacrements" nb="4">
-      <folder name="Baptême" id="bapteme" nb="1">
+    <folder name="Sacrements" id="sacrements" nb="4" image="sacraments.png">
+      <folder name="Baptême" id="bapteme" nb="1" image="bapteme.jpg">
         <message name="C’est quoi, le baptême ?" id="c-est-quoi-le-bapteme">
           <tests>
             <test input="Qu&apos;est-ce que c&apos;est le baptême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_91QrjaTkN8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 3, 5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2, 38-41&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 8, 12&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 18, 8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 6, 3-4&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2, 12&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Tt 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1213-1284&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2167&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-le-bapteme&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -6768,7 +6768,7 @@
           <text fileType="text_and_html">Voici les différents rites du sacrement du baptême :&#10; &#10;&lt;span&gt;L’appel du nom : Le prêtre demande aux parents le prénom choisi pour l’enfant.&#10;Le signe de la croix sur le front du baptisé : marque du signe du Christ.&#10;L’entrée dans l’Église : le sacrement du baptême est l’entrée dans la communauté chrétienne, l’Église.&#10;L’eau : la cérémonie du baptême purifie et donne la vie. L’eau versée exprime l’action de l’Esprit Saint.&#10;Le vêtement blanc : le changement de vêtement symbolise pour l’adulte le changement de vie. La robe blanche ou le vêtement blanc du bébé est le signe de la grâce du sacrement qui resplendit.&#10;L’onction d’huile sainte : le baptisé est pénétré de l’Esprit de Dieu.&#10;Le cierge allumé : le sacrement apporte la lumière du Christ et de l’Évangile. C’est le cierge pascal.&lt;/span&gt;</text>
         </message>
       </folder>
-      <folder name="Confirmation" id="confirmation" nb="3">
+      <folder name="Confirmation" id="confirmation" nb="3" image="confirmation.jpg">
         <message name="C’est quoi, la confirmation ?" id="c-est-quoi-la-confirmation">
           <tests>
             <test input="Qu&apos;est-ce que c&apos;est la confirmation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/LDaGQNuE98A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 20, 22&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 4, 30&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 19, 2&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 5, 5&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-la-confirmation&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -6801,7 +6801,7 @@
           <text>La préparation de la confirmation se vit dans le cadre de l’aumônerie de l’enseignement public, de l’enseignement catholique ou même d’un mouvement catholique. Une des conditions de la confirmation, c’est de participer à une préparation, qui comprend notamment un temps de retraite. Pour recevoir la confirmation, il faut être baptisé et présenter un certificat de baptême. Il n’est pas nécessaire d’avoir fait la profession de foi. Il y a aussi d’autres conditions de la confirmation.</text>
         </message>
       </folder>
-      <folder name="Eucharistie" id="eucharistie" nb="2">
+      <folder name="Eucharistie" id="eucharistie" nb="2" image="eucharist.jpg">
         <message name="C&apos;est quoi, l&apos;Eucharistie ?" id="c-est-quoi-l-eucharistie">
           <tests>
             <test input="Qu&apos;est-ce que c&apos;est l&apos;Eucharistie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZHRWjBkm3Uc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 6, 47-66&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 10, 16&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 11, 27&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-eucharistie&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7052,7 +7052,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OU7_tk0Ob0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Mariage" id="mariage" nb="6">
+      <folder name="Mariage" id="mariage" nb="6" image="wedding.jpg">
         <message name="A quoi servent les fiancailles" id="a-quoi-servent-les-fiancailles">
           <triggers>
             <trigger value="les fiançailles"/>
@@ -7270,7 +7270,7 @@
           <text fileType="text_and_html">Le mariage est possible, mais il faut que la paroisse demande à l’évêché une &quot;dispense de disparité de culte&quot;. Elle est pratiquement toujours accordée si la personne non chrétienne est en accord avec les éléments essentiels du mariage chrétien (liberté, fidélité, indissolubilité et ouverture à la fécondité). On demande à la personne catholique de faire tout ce qui dépend d’elle pour assurer le baptême et l’éducation de ses enfants dans la communauté catholique.&#10;&lt;span&gt;Dans cette situation le mariage n’est pas sacramentel, car il faut être baptisé pour qu’il y ait sacrement. Le mariage n’est pas sacramentel même pour la personne baptisée, en effet l’union des époux chrétiens est l’expression de l’union du Christ et de l’Église&lt;/span&gt; (Eph 5, 23-32).&#10;Quoique non sacramentel, le mariage est cependant indissoluble.&#10;&#10;Célébration - La cérémonie est actuellement la même que pour un mariage sacramentel (jadis la cérémonie avait lieu à la sacristie), c’est la réalité spirituelle qui est différente. Un mariage non sacramentel créé un lien entre les époux, mais ne donne pas la grâce du sacrement qui est une force spirituelle pour la vie conjugale et familiale. Si la personne non baptisée reçoit plus tard le baptême, le mariage devient sacramentel, sans aucune formalité. Quand l’un des deux époux n’est pas chrétien, il convient de célébrer le mariage sans eucharistie.</text>
         </message>
       </folder>
-      <folder name="Onction des malades" id="onction-des-malades" nb="5">
+      <folder name="Onction des malades" id="onction-des-malades" nb="5" image="Anointing-of-the-sick.jpg">
         <message name="C’est quoi, l&apos;onction des malades ?" id="c-est-quoi-l-onction-des-malades">
           <tests>
             <test input="C’est quoi, l&apos;onction des malades ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YBzuLR0ygYs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jc 5, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1499-1525&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-onction-des-malades&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7287,7 +7287,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YBzuLR0ygYs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Ordre" id="ordre" nb="7">
+      <folder name="Ordre" id="ordre" nb="7" image="ordination.jpg">
         <message name="Femmes prêtres : c&apos;est pour quand ? - Abbé Amar" id="femmes-pretres-c-est-pour-quand-abbe-amar">
           <tests>
             <test input="Quand il y aura-t-il enfin des femmes prêtres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9X-lq2KfLvM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;femmes-pretres-c-est-pour-quand-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -7356,7 +7356,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/9EOFaR27CpM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Réconciliation" id="reconciliation" nb="4">
+      <folder name="Réconciliation" id="reconciliation" nb="4" image="confessio,.jpg">
         <message name="C’est quoi, la confession ?" id="c-est-quoi-la-confession">
           <tests>
             <test input="C’est quoi, la confession ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bZtFzzG9lYc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 19, 18&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20, 22-23&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1422-1498&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-la-confession&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7425,7 +7425,7 @@
           <text>La miséricorde, c’est le chemin qui unit Dieu et l’homme, pour qu’il ouvre son cœur à l’espérance d’être aimé pour toujours malgré les limites de notre péché.</text>
         </message>
       </folder>
-      <folder name="À propos" id="a-propos-sacrements">
+      <folder name="À propos" id="a-propos-sacrements" image="about.jpg">
         <message name="Comment la grâce rédemptrice vient à nous ?" id="comment-la-grace-redemptrice-vient-a-nous">
           <tests>
             <test input="Comment la grâce rédemptrice vient à nous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/cdBcFrdw_CY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 13, 14&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ga 3, 27&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;618&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;738-741&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-la-grace-redemptrice-vient-a-nous&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7456,7 +7456,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="À propos" id="a-propos-eglise">
+    <folder name="À propos" id="a-propos-eglise" image="about.jpg">
       <message name="A quoi sert l&apos;Eglise ?" id="a-quoi-sert-l-eglise">
         <tests>
           <test input="A quoi sert l’Eglise ?" output="L&apos;Eglise reçoit de Dieu cette triple mission : annoncer l&apos;Evangile ; célébrer les sacrements qui communiquent la vie spirituelle ; servir tout homme. Dans un monde qui change à toute vitesse, elle est comme une mère qui transmet l’essentiel : l’amour, la foi, l’espérance, la prière et la fraternité. Elle est une famille universelle qui rassemble des gens très différents, enfants, jeunes et adultes. C’est aussi pour cela que de nombreux parents, pas toujours pratiquants, envoient leurs enfants au catéchisme." outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;"/>
@@ -7629,8 +7629,8 @@
       </message>
     </folder>
   </folder>
-  <folder name="Enseignements" id="enseignements">
-    <folder name="Coaching spi" id="coaching-spi">
+  <folder name="Enseignements" id="enseignements" image="teachings.jpeg">
+    <folder name="Coaching spi" id="coaching-spi" image="coatching.jpg">
       <message name="A quelle heure vous couchez-vous ? - Abbé Amar" id="a-quelle-heure-vous-couchez-vous-abbe-amar">
         <triggers>
           <trigger value="Quand faut-il se coucher ?"/>
@@ -7793,8 +7793,8 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cRDzFkoedzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Croyances" id="croyances">
-      <folder name="Athéisme" id="atheisme">
+    <folder name="Croyances" id="croyances" image="croyance.jpg">
+      <folder name="Athéisme" id="atheisme" image="Atheisme-.jpg">
         <message name="Est-ce que l’athéisme conduit à un meilleur monde ?" id="est-ce-que-l-atheisme-conduit-a-un-meilleur-monde">
           <tests>
             <test input="Est-ce que l’athéisme conduit à un meilleur monde ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7835,7 +7835,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/4Dm2n8T08-U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Christianisme" id="christianisme">
+      <folder name="Christianisme" id="christianisme" image="christianisme.jpg">
         <message name="La différence entre Jésus et les autres fondateurs de religions" id="la-difference-entre-jesus-et-les-autres-fondateurs-de-religions">
           <tests>
             <test input="Quel est la différence entre Jésus et les autres fondateurs de religions ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ssbppwJlARU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ph 2, 10-11&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;la-difference-entre-jesus-et-les-autres-fondateurs-de-religions&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7849,7 +7849,7 @@
           <sourceId>le-cate-en-minutes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ssbppwJlARU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <folder name="Révélation" id="revelation">
+        <folder name="Révélation" id="revelation" image="relevation.jpg">
           <message name="Comment Dieu s’est-il révélé ?" id="comment-dieu-s-est-il-revele">
             <tests>
               <test input="Comment Dieu s’est-il révélé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PMh58N-riFU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 7, 2-53&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;He 1, 1-2&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;50-73&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-dieu-s-est-il-revele&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7906,7 +7906,7 @@
         </folder>
       </folder>
     </folder>
-    <folder name="Ecritures Saintes" id="ecritures-saintes">
+    <folder name="Ecritures Saintes" id="ecritures-saintes" image="bible.jpg">
       <message name="Dei Verbum" id="dei-verbum">
         <triggers>
           <trigger value="Qu&apos;est-ce que c&apos;est Dei Verbum ?"/>
@@ -8050,7 +8050,7 @@
         <text>Toute l&apos;Ecriture est inspirée par Dieu.</text>
       </message>
     </folder>
-    <folder name="Histoire et foi" id="histoire-et-foi">
+    <folder name="Histoire et foi" id="histoire-et-foi" image="histoire et foi.jpg">
       <message name="Jésus a-t-il vraiment existé ? Réponse de la science" id="jesus-a-t-il-vraiment-existe-reponse-de-la-science">
         <tests>
           <test input="Jésus a-t-il vraiment existé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6vasbjzv34M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;C&apos;est une autre histoire&quot; resourceid=&quot;jesus-a-t-il-vraiment-existe-reponse-de-la-science&quot; textlength=&quot;24&quot; /&gt;"/>
@@ -8081,7 +8081,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WALgqnEdKm8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="L&apos;homme" id="l-homme">
+    <folder name="L&apos;homme" id="l-homme" image="body.jpg">
       <message name="L&apos;âme, à quoi ça sert ?" id="l-ame-a-quoi-ca-sert">
         <tests>
           <test input="L&apos;âme, à quoi ça sert ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xQgkXBjaTgo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Gn 2, 7&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-ame-a-quoi-ca-sert&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -8156,7 +8156,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/zxcEttkwDoA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Le bien" id="le-bien">
+    <folder name="Le bien" id="le-bien" image="bien.jpg">
       <message name="Comment recevoir et augmenter la grâce ?" id="comment-recevoir-et-augmenter-la-grace">
         <tests>
           <test input="Comment recevoir et augmenter la grâce ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/C3aQsygDpP4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 13, 14&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ga 3, 27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2Co 8, 7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2P 1, 2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;2P 3, 18&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1076&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_ccc ref=&quot;1113-1134&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;2003&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-recevoir-et-augmenter-la-grace&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -8239,7 +8239,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xUvJZaI7H6I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Le mal" id="le-mal">
+    <folder name="Le mal" id="le-mal" image="mal.jpg">
       <message name="Ce sont quoi, les péchés?" id="ce-sont-quoi-les-peches">
         <tests>
           <test input="Ce sont quoi, les péchés?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/t76fcovqUKY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Pr 24, 16&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 1, 8-9&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 5, 16-17&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1849-1876&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;ce-sont-quoi-les-peches&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -8367,7 +8367,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/argMtnAJo3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prédications" id="predications">
+    <folder name="Prédications" id="predications" image="predications.jpg">
       <message name="Catéchèse JMJ avec Mgr David Macaire" id="catechese-jmj-avec-mgr-david-macaire">
         <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
         <sourceId>kto</sourceId>
@@ -8399,7 +8399,7 @@
         <sourceId>cospiel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_O8DL3H9CWI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="À propos" id="a-propos-predications">
+      <folder name="À propos" id="a-propos-predications" image="about.jpg">
         <message name="La théologie pour quoi faire ?" id="la-theologie-pour-quoi-faire">
           <tests>
             <test input="Quelle est la place de la raison dans la vie d’un croyant ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_KNnKKtjH7M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-theologie-pour-quoi-faire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -8415,7 +8415,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Science et foi" id="science-et-foi">
+    <folder name="Science et foi" id="science-et-foi" image="science_et_foi.jpg">
       <message name="Est-ce que mon chat va ressusciter ?" id="est-ce-que-mon-chat-va-ressusciter">
         <triggers>
           <trigger value="Est-ce que les animaux vont ressusciter ?"/>
@@ -8592,7 +8592,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SrWAiRDPL6w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Sexualité" id="sexualite">
+    <folder name="Sexualité" id="sexualite" image="sexualité.jpg">
       <message name="Comment embrasser ? (la place du corps dans l&apos;Eglise)" id="comment-embrasser-la-place-du-corps-dans-l-eglise">
         <tests>
           <test input="Comment embrasser ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-embrasser-la-place-du-corps-dans-l-eglise&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -8648,8 +8648,8 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ISjylsNJFqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Vie après la mort" id="vie-apres-la-mort">
-      <folder name="Enfer" id="enfer" nb="3">
+    <folder name="Vie après la mort" id="vie-apres-la-mort" image="vie_après_la_mort.jpg">
+      <folder name="Enfer" id="enfer" nb="3" image="enfer.jpg">
         <message name="L&apos;enfer existe-t-il ? - Abbé Amar" id="l-enfer-existe-t-il-abbe-amar">
           <tests>
             <test input="L&apos;enfer existe-t-il ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b9C562_jFVo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3, 20&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;l-enfer-existe-t-il-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -8694,7 +8694,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/JbdOht6YjTo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Paradis" id="paradis" nb="1">
+      <folder name="Paradis" id="paradis" nb="1" image="paradis.jpeg">
         <message name="COMMENT ENTRER AU PARADIS ?" id="comment-entrer-au-paradis">
           <triggers>
             <trigger value="Comment entrer au Paradis ?"/>
@@ -8723,7 +8723,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/50dnLrjWwvI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Purgatoire" id="purgatoire" nb="2">
+      <folder name="Purgatoire" id="purgatoire" nb="2" image="purgtoire.jpg">
         <message name="Pourquoi prier pour les défunts ? - Abbé Grosjean" id="pourquoi-prier-pour-les-defunts-abbe-grosjean">
           <tests>
             <test input="Pourquoi prier pour les défunts ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cs2rniC8ww0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;2M 12, 39-46&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;pourquoi-prier-pour-les-defunts-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -8755,7 +8755,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/OJ3fjecB4D4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="À propos" id="a-propos-vie-apres-la-mort">
+      <folder name="À propos" id="a-propos-vie-apres-la-mort" image="about.jpg">
         <message name="Comment devenir immortel... en 8 minutes (passer de la mort à la vie éternelle)" id="comment-devenir-immortel-en-8-minutes-passer-de-la-mort-a-la-vie-eternelle">
           <tests>
             <test input="Comment devenir immortel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0gZxJcHg_DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 30, 15-20&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 11, 21-27&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-devenir-immortel-en-8-minutes-passer-de-la-mort-a-la-vie-eternelle&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -8812,7 +8812,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="YOUCAT" id="youcat">
+    <folder name="YOUCAT" id="youcat" image="youcat.jpg">
       <folder name="Ce que nous croyons" id="ce-que-nous-croyons" nb="1">
         <folder name="La profession de foi chrétienne" id="la-profession-de-foi-chretienne" nb="25">
           <message name="Comment sont nées les professions de foi ?" id="comment-sont-nees-les-professions-de-foi" nb="27">
@@ -9705,8 +9705,8 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Miracles" id="miracles">
-    <folder name="Charimes" id="charimes" nb="1">
+  <folder name="Miracles" id="miracles" image="miracle.png">
+    <folder name="Charimes" id="charimes" nb="1" image="charisme_saint _esprit.jpg">
       <message name="Le charisme de Foi" id="le-charisme-de-foi">
         <tests>
           <test input="C&apos;est quoi le charisme de Foi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xlj-0iEW0BI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12, 9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 11, 24&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-foi&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -9806,9 +9806,9 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qgcj0qnhqZQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Guérisons" id="guerisons" nb="2">
-      <folder name="Corps" id="corps" nb="1">
-        <folder name="Alcoolisme" id="alcoolisme">
+    <folder name="Guérisons" id="guerisons" nb="2" image="healings.jpg">
+      <folder name="Corps" id="corps" nb="1" image="body.jpg">
+        <folder name="Alcoolisme" id="alcoolisme" image="alcoolisme.jpg">
           <message name="Comment l&apos;alcoolisme mondain a détruit ma vie" id="comment-l-alcoolisme-mondain-a-detruit-ma-vie">
             <tests>
               <test input="Je veux voir une guérison inexpliquée." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XABA6ep0Tt4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 6, 18-20&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 13, 5&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Canal+&quot; resourceid=&quot;comment-l-alcoolisme-mondain-a-detruit-ma-vie&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -9836,7 +9836,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DeP0Kl_0gck&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Paralysie partielle" id="paralysie-partielle">
+        <folder name="Paralysie partielle" id="paralysie-partielle" image="paralésie.jpg">
           <message name="&quot;Ma guérison à Lourdes&quot; : Serge François témoigne" id="ma-guerison-a-lourdes-serge-francois-temoigne">
             <tests>
               <test input="Qu&apos;est-ce que c&apos;est une guérison remarquable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eI90Nr07hNg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Sanctuaire Notre-Dame de Lourdes&quot; resourceid=&quot;ma-guerison-a-lourdes-serge-francois-temoigne&quot; textlength=&quot;35&quot; /&gt;"/>
@@ -9869,7 +9869,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TjX6Px6Y4_k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="À propos" id="a-propos-corps">
+        <folder name="À propos" id="a-propos-corps" image="about.jpg">
           <message name="Docteur Theillier : « À Lourdes, je recevais une personne guérie par semaine »" id="docteur-theillier-a-lourdes-je-recevais-une-personne-guerie-par-semaine">
             <tests>
               <test input="Combien y a-t-il de guérisons à Lourdes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bwKQLN9nlHE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;docteur-theillier-a-lourdes-je-recevais-une-personne-guerie-par-semaine&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -9882,7 +9882,7 @@
           </message>
         </folder>
       </folder>
-      <folder name="À propos" id="a-propos-guerisons">
+      <folder name="À propos" id="a-propos-guerisons" image="about.jpg">
         <message name="Jésus guérit" id="jesus-guerit">
           <tests>
             <test input="Jésus guérit-il?" output="Oui, Jésus guérit.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f7DmnzSSMW8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 18, 35&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 20, 29&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;une-difference-dans-les-evangiles&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_site site=&quot;https://jesus.catholique.fr/questions/jesus-guerit-il-encore-aujourdhui/jesus-guerit/&quot; textlength=&quot;85&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;jesus-guerit&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -9920,8 +9920,8 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/61bKWFQY-gc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Âme" id="me" nb="2">
-        <folder name="Confession" id="confession">
+      <folder name="Âme" id="me" nb="2" image="ame.jpg">
+        <folder name="Confession" id="confession" image="confessio,.jpg">
           <message name="Alberto Maalouf Saint Laurent sur Sèvre 2011" id="alberto-maalouf-saint-laurent-sur-sevre-2011">
             <references>
               <bible book="Mt" chapter="10" verseBegin="19" verseEnd="20"/>
@@ -9961,7 +9961,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_nxope-LRyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Drogue" id="drogue">
+        <folder name="Drogue" id="drogue" image="drogue.jpg">
           <message name="Brigitte Bédard, de l’addiction à la drogue et au sexe à la foi en Jésus" id="brigitte-bedard-de-l-addiction-a-la-drogue-et-au-sexe-a-la-foi-en-jesus">
             <triggers>
               <trigger value="Montre-moi le témoignage d&apos;une ancienne addicte !"/>
@@ -9973,7 +9973,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vp1bUFVFbek&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Occultisme" id="occultisme">
+        <folder name="Occultisme" id="occultisme" image="occultisme.jpg">
           <message name="Occultisme : des ténèbres à la joie en 20 min avec soeur Emmanuel de Medjugorje" id="occultisme-des-tenebres-a-la-joie-en-20-min-avec-soeur-emmanuel-de-medjugorje">
             <tests>
               <test input="C&apos;est quoi l&apos;occultisme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dt 18, 9-12&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;occultisme-des-tenebres-a-la-joie-en-20-min-avec-soeur-emmanuel-de-medjugorje&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -9995,7 +9995,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7SGZAJdM6pw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Pardon" id="pardon">
+        <folder name="Pardon" id="pardon" image="pardon.jpg">
           <message name="Un homme qui n&apos;arrivait pas à pardonner..." id="un-homme-qui-n-arrivait-pas-a-pardonner">
             <tests>
               <test input="Un homme qui n&apos;arrivait pas à pardonner..." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pfQd2RI5w8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;un-homme-qui-n-arrivait-pas-a-pardonner&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10009,7 +10009,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pfQd2RI5w8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Vocation" id="vocation">
+        <folder name="Vocation" id="vocation" image="vocationa.jpg">
           <message name="Ma vocation (je vous en dis un peu plus sur moi...)" id="ma-vocation-je-vous-en-dis-un-peu-plus-sur-moi">
             <tests>
               <test input="Montre-moi le témoignage d&apos;une vocation !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jqo8rYeo0oQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 19, 16-20&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;ma-vocation-je-vous-en-dis-un-peu-plus-sur-moi&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -10026,7 +10026,7 @@
         </folder>
       </folder>
     </folder>
-    <folder name="À propos" id="a-propos-miracles">
+    <folder name="À propos" id="a-propos-miracles" image="about.jpg">
       <message name="Peut-on croire aux miracles ?" id="peut-on-croire-aux-miracles">
         <tests>
           <test input="Peut-on croire aux miracles ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBtRcz61xuM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-croire-aux-miracles&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10056,7 +10056,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Prières" id="prieres">
+  <folder name="Prières" id="prieres" image="prier.jpg">
     <folder name="Attitude" id="attitude">
       <message name="Je ne ressens rien quand je prie, est-ce normal ?" id="je-ne-ressens-rien-quand-je-prie-est-ce-normal">
         <tests>
@@ -10488,7 +10488,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Louange" id="louange">
+    <folder name="Louange" id="louange" image="louange.jpeg">
       <folder name="Comment louer Dieu ?" id="comment-louer-dieu">
         <message name="Comment louer Dieu ?" id="comment-louer-dieu">
           <tests>
@@ -10778,8 +10778,8 @@
       </message>
     </folder>
   </folder>
-  <folder name="Solidarité" id="solidarite-3">
-    <folder name="Pauvreté" id="pauvrete" nb="1">
+  <folder name="Solidarité" id="solidarite-3" image="solidarite.jpg">
+    <folder name="Pauvreté" id="pauvrete" nb="1" image="poverty.jpg">
       <message name="Pauvreté en France : voici 4 profils parmi ceux que nous rencontrons le plus dans nos accueils" id="pauvrete-en-france-voici-4-profils-parmi-ceux-que-nous-rencontrons-le-plus-dans-nos-accueils">
         <tests>
           <test input="Qui sont les gens accueilli par le Secours Catholique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jsjorpzpl4o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Secours Catholique Caritas France&quot; resourceid=&quot;pauvrete-en-france-voici-4-profils-parmi-ceux-que-nous-rencontrons-le-plus-dans-nos-accueils&quot; textlength=&quot;33&quot; /&gt;"/>
@@ -10790,7 +10790,7 @@
         <sourceId>secours-catholique-caritas-france</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jsjorpzpl4o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Sans-abri" id="sans-abri-pauvrete">
+      <folder name="Sans-abri" id="sans-abri-pauvrete" image="sans_abri.jpg">
         <message name="C&apos;est une application pour aller à la rencontre des sans-abri." id="c-est-une-application-pour-aller-a-la-rencontre-des-sans-abri">
           <triggers>
             <trigger value="Je ne connais pas l&apos;application Entourage."/>
@@ -10826,7 +10826,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Persécutions" id="persecutions" nb="2">
+    <folder name="Persécutions" id="persecutions" nb="2" image="persecution.jpg">
       <message name="Chrétiens persécutés : que faire ? - Abbé Grosjean" id="chretiens-persecutes-que-faire-abbe-grosjean">
         <tests>
           <test input="Comment soutenir les chrétiens persécutés ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ql0QeNRvxnA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;chretiens-persecutes-que-faire-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -10850,7 +10850,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2YCq2K7SeuI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="À propos" id="a-propos-solidarite">
+    <folder name="À propos" id="a-propos-solidarite" image="about.jpg">
       <message name="Bénévole ou bonne poire ? - Abbé Amar" id="benevole-ou-bonne-poire-abbe-amar">
         <tests>
           <test input="Un bénévole est-il une bonne poire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G8evIh-bIIU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;benevole-ou-bonne-poire-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -10863,7 +10863,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Témoignages" id="temoignages">
+  <folder name="Témoignages" id="temoignages" image="testimonies.jpg">
     <folder name="Ancien athée" id="ancien-athee" nb="1">
       <message name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
@@ -11138,7 +11138,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="À propos" id="a-propos-temoignages">
+    <folder name="À propos" id="a-propos-temoignages" image="about.jpg">
       <message name="Pourquoi parler de Jésus ?" id="pourquoi-parler-de-jesus">
         <tests>
           <test input="Pourquoi parler de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7DcClPMqnlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3, 17-21&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 9, 14-19&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;pourquoi-parler-de-jesus&quot; textlength=&quot;36&quot; /&gt;"/>
