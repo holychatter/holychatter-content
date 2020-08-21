@@ -964,7 +964,7 @@
         </message>
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1" image="evangiles.jpg">
-        <folder name="Par thèmes" id="par-themes" nb="1" image="theme.jpg">
+        <folder name="Par thèmes" id="par-themes" nb="1" image="themes.jpg">
           <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2" image="pains.jpg">
             <message name="Multiplication des pains" id="multiplication-des-pains">
               <triggers>
@@ -2535,7 +2535,7 @@
     </chatbot>
   </folder>
   <folder name="Découverte" id="decouverte" nb="2" image="discover.jpg">
-    <folder name="Par thème" id="par-theme" image="theme.jpg">
+    <folder name="Par thème" id="par-theme" image="themes.jpg">
       <folder name="Comment rencontrer Dieu ?" id="comment-rencontrer-dieu" nb="4" image="meet_god.jpg">
         <message name="Comment rencontrer Dieu ? (partie 2 : la violence)" id="comment-rencontrer-dieu-partie-2-la-violence" nb="2">
           <tests>
@@ -2684,7 +2684,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Par âge" id="par-age" image="age.jpg">
+    <folder name="Par âge" id="par-age" image="by_age.jpg">
       <folder name="Adultes" id="adultes" nb="4" image="adult.png">
         <message name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
           <tests>
@@ -2793,7 +2793,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TC3BUkjS2SE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Tous" id="tous" image="age.jpg">
+      <folder name="Tous" id="tous" image="by_age.jpg">
         <message name="Comment poser une question à un prêtre ?" id="comment-poser-une-question-a-un-pretre">
           <tests>
             <test input="Comment puis-je poser une question à un prêtre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot; textlength=&quot;72&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -5646,7 +5646,7 @@
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m_HSBHcl-C4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Présentation chronologique" id="presentation-chronologique" image="arrow.png">
+      <folder name="Présentation chronologique" id="presentation-chronologique" image="chronology.png">
         <message name="Histoire Chrétienne dans le monde" id="histoire-chretienne-dans-le-monde" nb="2">
           <tests>
             <test input="Montre-moi l&apos;histoire chrétienne dans le monde !" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.notrehistoireavecmarie.com/fr/frise-monde/&quot; textlength=&quot;54&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Notre Histoire avec Marie&quot; resourceid=&quot;histoire-chretienne-dans-le-monde&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -7356,7 +7356,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/9EOFaR27CpM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Réconciliation" id="reconciliation" nb="4" image="confessio,.jpg">
+      <folder name="Réconciliation" id="reconciliation" nb="4" image="confession.jpg">
         <message name="C’est quoi, la confession ?" id="c-est-quoi-la-confession">
           <tests>
             <test input="C’est quoi, la confession ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/bZtFzzG9lYc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ac 19, 18&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20, 22-23&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;1422-1498&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-la-confession&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7794,7 +7794,7 @@
       </message>
     </folder>
     <folder name="Croyances" id="croyances" image="croyance.jpg">
-      <folder name="Athéisme" id="atheisme" image="Atheisme-.jpg">
+      <folder name="Athéisme" id="atheisme" image="atheism.jpg">
         <message name="Est-ce que l’athéisme conduit à un meilleur monde ?" id="est-ce-que-l-atheisme-conduit-a-un-meilleur-monde">
           <tests>
             <test input="Est-ce que l’athéisme conduit à un meilleur monde ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -8592,7 +8592,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SrWAiRDPL6w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Sexualité" id="sexualite" image="sexualité.jpg">
+    <folder name="Sexualité" id="sexualite" image="sexuality.jpg">
       <message name="Comment embrasser ? (la place du corps dans l&apos;Eglise)" id="comment-embrasser-la-place-du-corps-dans-l-eglise">
         <tests>
           <test input="Comment embrasser ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rmtjjUg8yh8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;comment-embrasser-la-place-du-corps-dans-l-eglise&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -9706,7 +9706,7 @@
     </folder>
   </folder>
   <folder name="Miracles" id="miracles" nb="3" image="miracle.png">
-    <folder name="Charimes" id="charimes" nb="1" image="charisme_saint _esprit.jpg">
+    <folder name="Charimes" id="charimes" nb="1" image="charismes.jpg">
       <message name="Le charisme de Foi" id="le-charisme-de-foi">
         <tests>
           <test input="C&apos;est quoi le charisme de Foi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xlj-0iEW0BI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 12, 9&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 11, 24&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-foi&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -9808,7 +9808,7 @@
     </folder>
     <folder name="Guérisons" id="guerisons" nb="2" image="healings.jpg">
       <folder name="Corps" id="corps" nb="1" image="body.jpg">
-        <folder name="Alcoolisme" id="alcoolisme" image="alcoolisme.jpg">
+        <folder name="Alcoolisme" id="alcoolisme" nb="1" image="alcoolisme.jpg">
           <message name="Comment l&apos;alcoolisme mondain a détruit ma vie" id="comment-l-alcoolisme-mondain-a-detruit-ma-vie">
             <tests>
               <test input="Je veux voir une guérison inexpliquée." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XABA6ep0Tt4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;1Co 6, 18-20&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 13, 5&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Canal+&quot; resourceid=&quot;comment-l-alcoolisme-mondain-a-detruit-ma-vie&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -9836,7 +9836,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DeP0Kl_0gck&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Paralysie partielle" id="paralysie-partielle" image="paralésie.jpg">
+        <folder name="Paralysie partielle" id="paralysie-partielle" nb="2" image="paralésie.jpg">
           <message name="&quot;Ma guérison à Lourdes&quot; : Serge François témoigne" id="ma-guerison-a-lourdes-serge-francois-temoigne">
             <tests>
               <test input="Qu&apos;est-ce que c&apos;est une guérison remarquable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eI90Nr07hNg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Sanctuaire Notre-Dame de Lourdes&quot; resourceid=&quot;ma-guerison-a-lourdes-serge-francois-temoigne&quot; textlength=&quot;35&quot; /&gt;"/>
@@ -9921,7 +9921,7 @@
         </message>
       </folder>
       <folder name="Âme" id="me" nb="2" image="ame.jpg">
-        <folder name="Confession" id="confession" image="confessio,.jpg">
+        <folder name="Confession" id="confession" image="confession.jpg">
           <message name="Alberto Maalouf Saint Laurent sur Sèvre 2011" id="alberto-maalouf-saint-laurent-sur-sevre-2011">
             <references>
               <bible book="Mt" chapter="10" verseBegin="19" verseEnd="20"/>
@@ -10864,7 +10864,7 @@
     </folder>
   </folder>
   <folder name="Témoignages" id="temoignages" nb="1" image="testimonies.jpg">
-    <folder name="Ancien athée" id="ancien-athee" nb="1" image="Atheisme-.jpg">
+    <folder name="Ancien athée" id="ancien-athee" nb="1" image="atheism.jpg">
       <message name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
           <test input="Y a-t-il une vie après la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines&quot; textlength=&quot;26&quot; /&gt;"/>
@@ -10957,7 +10957,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="laic" nb="4" image="Atheisme-.jpg">
+    <folder name="Laïc" id="laic" nb="4" image="atheism.jpg">
       <message name="&quot;J’ai fait la rencontre plus importante de ma vie....&quot; - Témoignage Claire" id="j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire">
         <tests>
           <test input="Montre-moi le témoignage d&apos;une personne qui voulais se sucider." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire&quot; textlength=&quot;8&quot; /&gt;"/>
