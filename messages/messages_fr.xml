@@ -996,7 +996,7 @@
             <folder name="La brebis égarée" id="la-brebis-egaree" image="La-parabole-de-la-brebis-égarée.jpg">
               <message name="Jésus raconte la parabole de la brebis égarée 【HD】" id="jesus-raconte-la-parabole-de-la-brebis-egaree-hd">
                 <tests>
-                  <test input="Montre-moi la parabole de la brebis égarée." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 2-7&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole de la brebis égarée." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 2-7&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Montre-moi la parabole de la brebis égarée."/>
@@ -1005,12 +1005,12 @@
                 <references>
                   <bible book="Lk" chapter="15" verseBegin="2" verseEnd="7"/>
                 </references>
-                <sourceId>nedar</sourceId>
+                <sourceId>bible</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
               <message name="Lire la parabole de la brebis égarée" id="lire-la-parabole-de-la-brebis-egaree">
                 <tests>
-                  <test input="Lire la parabole de la brebis égarée." output="Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 2-7&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-brebis-egaree&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 2-7&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Lire la parabole de la brebis égarée." output="Tu peux lire la parabole du semeur grâce aux versets de la Bible ci-dessous.&#10;|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HpmB4VYkPz0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 2-7&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-de-la-brebis-egaree&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 2-7&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-raconte-la-parabole-de-la-brebis-egaree-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Lire la parabole de la brebis égarée."/>
@@ -1178,7 +1178,7 @@
             <folder name="Le bon Samaritain" id="le-bon-samaritain" image="paraboles.jpg">
               <message name="La parabole du bon Samaritain 【HD】" id="la-parabole-du-bon-samaritain-hd">
                 <tests>
-                  <test input="Montre-moi la parabole du bon Samaritain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du bon Samaritain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Montre-moi la parabole du bon Samaritain."/>
@@ -1187,12 +1187,12 @@
                 <references>
                   <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
                 </references>
-                <sourceId>nedar</sourceId>
+                <sourceId>bible</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
               <message name="Lire la parabole du bon Samaritain" id="lire-la-parabole-du-bon-samaritain">
                 <tests>
-                  <test input="Lire la parabole du bon Samaritain." output="Tu peux lire la parabole du bon Samaritain grâce aux versets de la Bible&#10;ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Lire la parabole du bon Samaritain." output="Tu peux lire la parabole du bon Samaritain grâce aux versets de la Bible&#10;ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTtWV04Cwe8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-bon-samaritain-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Lire la parabole du bon Samaritain."/>
@@ -1207,8 +1207,8 @@
             <folder name="Le bon grain et l&apos;ivraie" id="le-bon-grain-et-l-ivraie" image="le_bon_grain_l_ivraie.jpg">
               <message name="Jésus raconte la parabole du blé et de l’ivraie 【HD】" id="jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd">
                 <tests>
-                  <test input="Montre-moi la parabole du blé et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                  <test input="Montre-moi la parabole du bon grain et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du blé et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;5&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du bon grain et de l’ivraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Montre-moi la parabole du blé et de l’ivraie."/>
@@ -1219,12 +1219,12 @@
                   <bible book="Mt" chapter="13" verseBegin="24" verseEnd="30"/>
                   <bible book="Mt" chapter="13" verseBegin="36" verseEnd="43"/>
                 </references>
-                <sourceId>nedar</sourceId>
+                <sourceId>bible</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
               <message name="Lire la parabole du bon grain et de l&apos;ivraie" id="lire-la-parabole-du-bon-grain-et-de-l-ivraie">
                 <tests>
-                  <test input="Lire la parabole du bon grain et de l&apos;ivraie." output="Tu peux Lire la parabole du bon grain et de l&apos;ivraie grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-grain-et-de-l-ivraie&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Lire la parabole du bon grain et de l&apos;ivraie." output="Tu peux Lire la parabole du bon grain et de l&apos;ivraie grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7xPrn6ygGaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-grain-et-de-l-ivraie&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Mt 13, 24-30&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 13, 36-43&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-raconte-la-parabole-du-ble-et-de-l-ivraie-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Lire la parabole du bon grain et de l&apos;ivraie."/>
@@ -1240,12 +1240,12 @@
             <folder name="Le bon pasteur" id="le-bon-pasteur" image="bon_pasteur.jpg">
               <message name="Je suis le bon berger 【HD】" id="je-suis-le-bon-berger-hd">
                 <tests>
-                  <test input="Montre-moi la parabole du bon berger." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                  <test input="Montre-moi la parabole du bon pasteur." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                  <test input="Qui est mon maître ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                  <test input="Qui est ton maître ?" output="Mon maître est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                  <test input="Qui est ton berger ?" output="Mon berger est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
-                  <test input="Qui est ton pasteur ?" output="Mon pasteur est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du bon berger." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du bon pasteur." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
+                  <test input="Qui est mon maître ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
+                  <test input="Qui est ton maître ?" output="Mon maître est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
+                  <test input="Qui est ton berger ?" output="Mon berger est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
+                  <test input="Qui est ton pasteur ?" output="Mon pasteur est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Montre-moi la parabole du bon berger."/>
@@ -1257,12 +1257,12 @@
                 <references>
                   <bible book="Jn" chapter="10" verseBegin="1" verseEnd="18"/>
                 </references>
-                <sourceId>nedar</sourceId>
+                <sourceId>bible</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
               <message name="Lire la parabole du bon pasteur" id="lire-la-parabole-du-bon-pasteur">
                 <tests>
-                  <test input="Lire la parabole du bon pasteur." output="Tu peux lire la parabole du bon pasteur grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-pasteur&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Lire la parabole du bon pasteur." output="Tu peux lire la parabole du bon pasteur grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w5TciU-ugVE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-pasteur&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Lire la parabole du bon pasteur."/>
@@ -1277,7 +1277,7 @@
             <folder name="Le fils prodigue" id="le-fils-prodigue" image="fils_prodigue.jpeg">
               <message name="La parabole du fils prodigue 【HD】" id="la-parabole-du-fils-prodigue-hd">
                 <tests>
-                  <test input="Montre-moi la parabole du fils prodigue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Montre-moi la parabole du fils prodigue." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Montre-moi la parabole du fils prodigue."/>
@@ -1286,12 +1286,12 @@
                 <references>
                   <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
                 </references>
-                <sourceId>nedar</sourceId>
+                <sourceId>bible</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
               <message name="Lire la parabole du fils prodigue" id="lire-la-parabole-du-fils-prodigue">
                 <tests>
-                  <test input="Lire la parabole du fils prodigue." output="Tu peux lire la parabole du fils prodigue grâce aux versets de la Bible&#10;ci-dessous|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-fils-prodigue&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;nedar17&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;7&quot; /&gt;"/>
+                  <test input="Lire la parabole du fils prodigue." output="Tu peux lire la parabole du fils prodigue grâce aux versets de la Bible&#10;ci-dessous|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/55hdnHICPIQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-fils-prodigue&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-fils-prodigue-hd&quot; textlength=&quot;5&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Lire la parabole du fils prodigue."/>
@@ -3016,6 +3016,16 @@
         </message>
       </folder>
       <folder name="La Trinité" id="la-trinite" image="trinity.jpg">
+        <message name="Chrétiens et musulmans : le même Dieu ? - abbé Guy Pagès" id="chretiens-et-musulmans-le-meme-dieu-abbe-guy-pages">
+          <tests>
+            <test input="Les chrétiens et les musulmans ont le même Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/orNEkAO7Ux4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;chretiens-et-musulmans-le-meme-dieu-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Les chrétiens et les musulmans ont le même Dieu ?"/>
+          </triggers>
+          <sourceId>forum-jesus-le-messie</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/orNEkAO7Ux4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Comment peut-on représenter la Trinité ?" id="comment-peut-on-representer-la-trinite">
           <tests>
             <test input="Comment peut-on représenter la Trinité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/X85tyEv0kwg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-peut-on-representer-la-trinite&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -3146,6 +3156,16 @@
           </references>
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c9Cst3hxt9A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Les chrétiens ont-ils trois dieux ? - abbé Guy Pagès" id="les-chretiens-ont-ils-trois-dieux-abbe-guy-pages">
+          <tests>
+            <test input="Les chrétiens ont-ils trois dieux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ti9UYcYpkSg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;les-chretiens-ont-ils-trois-dieux-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Les chrétiens ont-ils trois dieux ?"/>
+          </triggers>
+          <sourceId>forum-jesus-le-messie</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ti9UYcYpkSg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Quelle est la signification de Dieu qui est Trinité ?" id="quelle-est-la-signification-de-dieu-qui-est-trinite">
           <tests>
@@ -3739,6 +3759,19 @@
           <sourceId>batir-sur-le-roc</sourceId>
           <text fileType="text_and_html">&lt;span&gt;Jésus est vrai Dieu et vrai homme.&lt;/span&gt;</text>
         </message>
+        <message name="Jésus est-il Dieu ? - abbé Guy Pagès" id="jesus-est-il-dieu-abbe-guy-pages">
+          <tests>
+            <test input="Jésus est-il Dieu ?" output="Oui, Jésus est Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o009EgegdEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 9, 5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2, 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14, 61-62&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10, 30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16, 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ga 4, 4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;jesus-est-il-dieu-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Jésus est-il Dieu ?"/>
+          </triggers>
+          <references>
+            <bible book="Gal" chapter="4" verseBegin="4"/>
+          </references>
+          <sourceId>forum-jesus-le-messie</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o009EgegdEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Jésus et la croix" id="jesus-et-la-croix">
           <references>
             <bible book="1 Pet" chapter="2" verseBegin="24"/>
@@ -3769,6 +3802,19 @@
           </references>
           <sourceId>bible</sourceId>
           <text>Jésus nous aime gratuitement.&#10;L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
+        </message>
+        <message name="Jésus qui prie le Père peut-il être Dieu ? - abbé Guy Pagès" id="jesus-qui-prie-le-pere-peut-il-etre-dieu-abbe-guy-pages">
+          <tests>
+            <test input="Jésus qui prie le Père peut-il être Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LsQH7qVq3IY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 6, 12&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;jesus-qui-prie-le-pere-peut-il-etre-dieu-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Jésus qui prie le Père peut-il être Dieu ?"/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="6" verseBegin="12"/>
+          </references>
+          <sourceId>forum-jesus-le-messie</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LsQH7qVq3IY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="La Vie de Jésus (1979)" id="la-vie-de-jesus-1979">
           <triggers>
@@ -3918,7 +3964,7 @@
         <message name="Le Fils est Dieu" id="le-fils-est-dieu">
           <tests>
             <test input="Est-ce que le Fils est Dieu ?" output="Jésus est Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 9, 5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2, 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14, 61-62&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10, 30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16, 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
-            <test input="Jésus est-t-il Dieu ?" output="Oui, Jésus est Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 9, 5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2, 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14, 61-62&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10, 30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16, 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="Jésus est-t-il Dieu ?" output="Oui, Jésus est Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o009EgegdEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 9, 5&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2, 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mc 14, 61-62&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10, 30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16, 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Ga 4, 4&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;jesus-est-il-dieu-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Est-ce que le Fils est Dieu ?"/>
@@ -4698,6 +4744,19 @@
           </triggers>
           <sourceId>le-cate-en-minutes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iDuyWpk6pDs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Qu&apos;apporte l&apos;islam après Jésus ? - abbé Guy Pagès" id="qu-apporte-l-islam-apres-jesus-abbe-guy-pages">
+          <tests>
+            <test input="Qu&apos;apporte l&apos;islam après Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bReGHhLR_40&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 15, 26-28&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;qu-apporte-l-islam-apres-jesus-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;apporte l&apos;islam après Jésus ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="15" verseBegin="26" verseEnd="28"/>
+          </references>
+          <sourceId>forum-jesus-le-messie</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bReGHhLR_40&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Qui est Jésus ?" id="qui-est-jesus">
           <tests>
@@ -6048,7 +6107,7 @@
           <triggers>
             <trigger value="Voir la vie de Sainte Thérèse de Lisieux !"/>
           </triggers>
-          <sourceId>silouane</sourceId>
+          <sourceId>la-petite-therese</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZOMUOH1yOUY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Qui est Thérèse de Lisieux?" id="qui-est-therese-de-lisieux">
@@ -6070,7 +6129,7 @@
           <triggers>
             <trigger value="Je veux écouter une poésie de Sainte Thérèse de Liseux mis en musique !"/>
           </triggers>
-          <sourceId>rossana-pia-arcoleo</sourceId>
+          <sourceId>la-petite-therese</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BkSRNDM4Z7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
@@ -7357,6 +7416,18 @@
           </message>
         </folder>
       </folder>
+      <folder name="Islam" id="islam" image="islam.jpg">
+        <message name="Né musulman : Dieu m&apos;autorise-t-il à devenir chrétien ? - abbé Guy Pagès" id="ne-musulman-dieu-m-autorise-t-il-a-devenir-chretien-abbe-guy-pages">
+          <tests>
+            <test input="Dieu m&apos;autorise-t-il à devenir chrétien si je suis né musulman ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jahLJFZ6YRw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;ne-musulman-dieu-m-autorise-t-il-a-devenir-chretien-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Dieu m&apos;autorise-t-il à devenir chrétien si je suis né musulman ?"/>
+          </triggers>
+          <sourceId>forum-jesus-le-messie</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jahLJFZ6YRw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Ecritures Saintes" id="ecritures-saintes" image="bible.jpg">
       <message name="Dei Verbum" id="dei-verbum">
@@ -7820,12 +7891,12 @@
       </message>
     </folder>
     <folder name="Prédications" id="predications" image="predications.jpg">
-      <message name="Catéchèse JMJ avec Mgr David Macaire" id="catechese-jmj-avec-mgr-david-macaire">
+      <message name="Catéchèse JMJ avec Mgr David Macaire" id="catechese-jmj-avec-mgr-david-macaire" nb="1">
         <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ncL9hQhfKCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="Quelle est la paix que Jésus nous donne?" id="quelle-est-la-paix-que-jesus-nous-donne">
+      <message name="Quelle est la paix que Jésus nous donne?" id="quelle-est-la-paix-que-jesus-nous-donne" nb="1">
         <tests>
           <test input="Quelle est la paix que Jésus nous donne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wYfkGY1vNF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14, 27&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;quelle-est-la-paix-que-jesus-nous-donne&quot; textlength=&quot;19&quot; /&gt;"/>
         </tests>
@@ -7838,7 +7909,7 @@
         <sourceId>cedric-de-la-serre</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wYfkGY1vNF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="Si tu es au bout de ta vie regarde cette vidéo..." id="si-tu-es-au-bout-de-ta-vie-regarde-cette-video">
+      <message name="Si tu es au bout de ta vie regarde cette vidéo..." id="si-tu-es-au-bout-de-ta-vie-regarde-cette-video" nb="1">
         <tests>
           <test input="Je suis au bout de ma vie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_O8DL3H9CWI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ez 37, 1-9&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cospiel&quot; resourceid=&quot;si-tu-es-au-bout-de-ta-vie-regarde-cette-video&quot; textlength=&quot;7&quot; /&gt;"/>
         </tests>
@@ -10993,7 +11064,7 @@
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Conversions de l&apos;islam au christianisme" id="conversions-de-l-islam-au-christianisme" image="islam.jpg">
+      <folder name="Conversions de l&apos;islam au christianisme" id="conversions-de-l-islam-au-christianisme" image="islam-christianisme.jpg">
         <message name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
           <tests>
             <test input="Montre-moi un musulman converti à la religion chrétienne !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus&quot; textlength=&quot;19&quot; /&gt;"/>
