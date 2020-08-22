@@ -3746,6 +3746,13 @@
           <sourceId>bible</sourceId>
           <text>Jésus va jusqu&apos;à mourir sur la croix pour nous délivrer du péché et de la mort.</text>
         </message>
+        <message name="Jésus et les prophéties" id="jesus-et-les-propheties">
+          <references>
+            <site url="https://www.bible-ouverte.ch/faq/faq-theme/qr-dieu-jesus-le-saint-esprit/2083-reponse-91.html"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>Jésus accomplit toutes les prophéties de l&apos;Ancien Testament.</text>
+        </message>
         <message name="Jésus nous aime" id="jesus-nous-aime">
           <tests>
             <test input="Est-ce que Jésus m&apos;aime  ?" output="Oui, Jésus vous aime." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8, 37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2, 4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15, 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3, 16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8, 17&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
@@ -3762,13 +3769,6 @@
           </references>
           <sourceId>bible</sourceId>
           <text>Jésus nous aime gratuitement.&#10;L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
-        </message>
-        <message name="Jéus et les prophéties" id="jeus-et-les-propheties">
-          <references>
-            <site url="https://www.bible-ouverte.ch/faq/faq-theme/qr-dieu-jesus-le-saint-esprit/2083-reponse-91.html"/>
-          </references>
-          <sourceId>bible-ouverte</sourceId>
-          <text>Jésus accomplit toutes les prophéties de l&apos;Ancien Testament.</text>
         </message>
         <message name="La Vie de Jésus (1979)" id="la-vie-de-jesus-1979">
           <triggers>
@@ -5703,7 +5703,7 @@
       </folder>
     </folder>
     <folder name="Personnes" id="personnes" nb="5" image="person.jpg">
-      <folder name="Frédéric Ozanam" id="frederic-ozanam" image="fréderic_ozanam.jpg">
+      <folder name="Frédéric Ozanam" id="frederic-ozanam" nb="1" image="fréderic_ozanam.jpg">
         <message name="Frédéric Ozanam" id="frederic-ozanam">
           <triggers>
             <trigger value="Qui est Frédéric Ozanam ?"/>
@@ -5712,7 +5712,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RJH57Kb1wsk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Marie" id="marie" image="marie.jpg">
+      <folder name="Marie" id="marie" nb="1" image="marie.jpg">
         <message name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
           <tests>
             <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -5779,7 +5779,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Padre Pio" id="padre-pio" image="padre-pio.jpg">
+      <folder name="Padre Pio" id="padre-pio" nb="1" image="padre-pio.jpg">
         <message name="PADRE PIO (1/2) Meilleur interview jamais réalisé avec le père JEAN DeROBERT" id="padre-pio-12-meilleur-interview-jamais-realise-avec-le-pere-jean-derobert">
           <triggers>
             <trigger value="Interview du père Jean De Robert sur le Padre Pio"/>
@@ -5803,13 +5803,35 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Fidèle" id="saint-fidele" image="saint_fidele.jpg">
+      <folder name="Saint Fidèle" id="saint-fidele" nb="1" image="saint_fidele.jpg">
         <message name="Saint Fidèle de Sigmaringen, martyr des calvinistes - Sermon" id="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon">
           <sourceId>la-sapiniere</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney" image="cure-d-ars.jpg">
+      <folder name="Saint François d&apos;Assise" id="saint-francois-d-assise" nb="1" image="saint_francois_d_assise.jpg">
+        <message name="Saint François d&apos;Assise" id="saint-francois-d-assise">
+          <tests>
+            <test input="Qui est Saint François d&apos;Assise ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-francois-d-assise&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qui est Saint François d&apos;Assise ?"/>
+          </triggers>
+          <sourceId>croire</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Saint François d&apos;Assise - Frère Eric Bidot" id="saint-francois-d-assise-frere-eric-bidot">
+          <tests>
+            <test input="Quelle relation Saint François d&apos;Assise avait avec la nature ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;En quête d&apos;esprit&quot; resourceid=&quot;saint-francois-d-assise-frere-eric-bidot&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quelle relation Saint François d&apos;Assise avait avec la nature ?"/>
+          </triggers>
+          <sourceId>en-quete-d-esprit</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney" nb="1" image="cure-d-ars.jpg">
         <message name="Dates et lieux" id="dates-et-lieux">
           <tests>
             <test input="Quand Jean-Marie Vianney fut appelé à l&apos;armée ?" output="Jean-Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Jean-Marie_Vianney&quot; textlength=&quot;48&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -5821,7 +5843,7 @@
           <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.&#10;Jean-Marie Vianney fit sa première communion à Écully en 1799.&#10;Il travaillait la terre avec son père.&#10;En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.&#10;Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
         </message>
       </folder>
-      <folder name="Saint Joseph" id="saint-joseph" image="joseph.jpg">
+      <folder name="Saint Joseph" id="saint-joseph" nb="1" image="joseph.jpg">
         <message name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
           <tests>
             <test input="Qui est Saint Joseph ?" output="Le père adoptif de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -5843,7 +5865,7 @@
           <text>Saint Joseph est le père adoptif de Jésus.&#10;</text>
         </message>
       </folder>
-      <folder name="Saint Luc" id="saint-luc" image="saint_luc.jpg">
+      <folder name="Saint Luc" id="saint-luc" nb="1" image="saint_luc.jpg">
         <message name="Qui était Saint Luc ?" id="qui-etait-saint-luc">
           <tests>
             <test input="Qui était Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -5865,7 +5887,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe" image="maxilillian_kolbe.jpg">
+      <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe" nb="1" image="maxilillian_kolbe.jpg">
         <message name="La vie de Saint Maximilien Kolbe" id="la-vie-de-saint-maximilien-kolbe">
           <tests>
             <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
@@ -5884,7 +5906,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Saint Pierre" id="saint-pierre" image="saint_pierre.jpg">
+      <folder name="Saint Pierre" id="saint-pierre" nb="1" image="saint_pierre.jpg">
         <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la Miséricorde&quot; 2° partie" id="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-2-partie" nb="2">
           <triggers>
             <trigger value="Que fait Saint Pierre au moment de la Passion du Christ ?"/>
@@ -5957,7 +5979,7 @@
           <text>Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).</text>
         </message>
       </folder>
-      <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous" image="bernadette_soubirous.jpg">
+      <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous" nb="1" image="bernadette_soubirous.jpg">
         <message name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
           <tests>
             <test input="Qui est Bernadette Soubirous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Point&quot; resourceid=&quot;11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5969,7 +5991,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sainte Faustine" id="sainte-faustine" image="sainte_faustine.jpg">
+      <folder name="Sainte Faustine" id="sainte-faustine" nb="1" image="sainte_faustine.jpg">
         <message name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="soeur-faustine-jesus-j-ai-confiance-en-toi">
           <tests>
             <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -5979,7 +6001,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine" image="sainte_marie_mdeleine.jpg">
+      <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine" nb="1" image="sainte_marie_mdeleine.jpg">
         <message name="Sainte Marie Madeleine à la Sainte-Baume" id="sainte-marie-madeleine-a-la-sainte-baume">
           <tests>
             <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mc 16, 1-10&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5995,7 +6017,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa" image="mère_teresa.jpg">
+      <folder name="Sainte Mère Teresa" id="sainte-mere-teresa" nb="1" image="mère_teresa.jpg">
         <message name="Mère Teresa a été déclarée sainte le 4 septembre 2016" id="mere-teresa-a-ete-declaree-sainte-le-4-septembre-2016">
           <tests>
             <test input="Quand Mère Teresa a été déclarée sainte ?" output="Sainte a déclaré Mère Teresa le 4 septembre 2016." outputReferences="&lt;hc_site site=&quot;https://fr.aleteia.org/2016/03/16/mere-teresa-canonisee-le-4-septembre&quot; textlength=&quot;70&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;mere-teresa-a-ete-declaree-sainte-le-4-septembre-2016&quot; textlength=&quot;7&quot; /&gt;" isOk="false"/>
@@ -6007,7 +6029,7 @@
           <text>Mère Teresa a été déclarée sainte le 4 septembre 2016.</text>
         </message>
       </folder>
-      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux" image="therese_de_lisieux.jpg">
+      <folder name="Sainte Thérèse de Lisieux" id="sainte-therese-de-lisieux" nb="1" image="therese_de_lisieux.jpg">
         <message name="Grégoire chante et lit sainte Thérèse de Lisieux" id="gregoire-chante-et-lit-sainte-therese-de-lisieux">
           <triggers>
             <trigger value="Ecouter Grégoire interpréter des poèmes de Sainte Thérèse de Lisieux !"/>
@@ -6052,7 +6074,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BkSRNDM4Z7E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Sœur Emmanuelle" id="sur-emmanuelle" image="Sœur_Emmanuelle.jpg">
+      <folder name="Sœur Emmanuelle" id="sur-emmanuelle" nb="1" image="Sœur_Emmanuelle.jpg">
         <message name=" 1:48 / 6:02 Sœur Emmanuelle : Le questionnaire de Bernard Pivot dans Bouillon de Culture" id="148-602-sur-emmanuelle-le-questionnaire-de-bernard-pivot-dans-bouillon-de-culture">
           <triggers>
             <trigger value="Montre-moi un interview avec Sœur Emmanuelle !"/>
