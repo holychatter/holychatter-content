@@ -2791,576 +2791,6 @@
           <sourceId>cybercure</sourceId>
           <text fileType="html">&lt;iframe width=&quot;780&quot; height=&quot;315&quot; src=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;&lt;/iframe&gt;</text>
         </message>
-        <folder name="Holy Chatter" id="holy-chatter" isHidden="true">
-          <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation">
-            <sourceId>interne</sourceId>
-            <text>Avez-vous trouvé votre vocation ?</text>
-            <planningInfos>
-              <optionalPreconditions>
-                <fact value="demander-le-jour-de-naissance"/>
-              </optionalPreconditions>
-              <potentialEffects>
-                <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
-              </potentialEffects>
-            </planningInfos>
-          </message>
-          <folder name="Blagues" id="blagues">
-            <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
-              <triggers>
-                <trigger value="-Es-tu drôle ?"/>
-                <trigger value="-Es-tu fun ?"/>
-              </triggers>
-              <nextMessageId>veux-tu-que-je-te-raconte-une-blague</nextMessageId>
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>J&apos;espère.</text>
-            </message>
-            <message name="Juif et le nouveau testament" id="juif-et-le-nouveau-testament" nb="2">
-              <triggers>
-                <trigger value="Raconte-moi une blague !"/>
-                <trigger value="Je veux que tu me racontes une blague."/>
-              </triggers>
-              <sourceId>humour-catho</sourceId>
-              <text>Un juif se plaint à Dieu:&#10;&quot;-Ay ay, je suis bien à plaindre, il m&apos;arrive la plus terrible des hontes... Mon fils s&apos;est converti au christianisme !&#10;Dieu lui répond:&#10;-Tu sais... Le mien a fait la même chose!&#10;-Oh, vraiment !? Et qu&apos;as - tu fait?&#10;-Un nouveau testament...</text>
-            </message>
-            <message name="Quelle est la différence entre un chrétien et un boxeur ?" id="quelle-est-la-difference-entre-un-chretien-et-un-boxeur" nb="1">
-              <triggers>
-                <trigger value="Raconte-moi une blague !"/>
-                <trigger value="Je veux que tu me racontes une blague."/>
-              </triggers>
-              <recommendations>
-                <recommendation text="Donne-moi la réponse" outMessageId="reponse-blague-1"/>
-              </recommendations>
-              <sourceId>parcours-alpha</sourceId>
-              <text>Quelle est la différence entre un chrétien et un boxeur ?</text>
-            </message>
-            <message name="Réponse blague 1" id="reponse-blague-1" nb="1">
-              <sourceId>parcours-alpha</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Aucune ils ont tous les 2 compris qu&apos;il y a plus de joie à donner qu&apos;à recevoir. &lt;img src=&quot;/resources/emojis/laugh.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            </message>
-            <message name="Veux-tu que je te raconte une blague ?" id="veux-tu-que-je-te-raconte-une-blague">
-              <sourceId>interne</sourceId>
-              <text>Veux-tu que je te raconte une blague ?</text>
-            </message>
-          </folder>
-          <message name="Bonjour" id="bonjour">
-            <triggers>
-              <trigger value="-Bonjour"/>
-            </triggers>
-            <sourceId>interne</sourceId>
-            <text>Bonjour</text>
-          </message>
-          <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
-            <recommendations>
-              <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
-            </recommendations>
-            <sourceId>interne</sourceId>
-            <text>Connaissez-vous le Parcours Alpha ?</text>
-            <planningInfos>
-              <optionalPreconditions>
-                <fact value="basse-priorité"/>
-                <fact value="ne-pas-être-chrétien"/>
-              </optionalPreconditions>
-              <potentialEffects>
-                <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
-              </potentialEffects>
-            </planningInfos>
-          </message>
-          <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
-            <sourceId>interne</sourceId>
-            <text>Croyez-vous que Jésus a existé ?</text>
-            <planningInfos>
-              <optionalPreconditions>
-                <fact value="ne-pas-être-chrétien"/>
-              </optionalPreconditions>
-              <effects>
-                <fact value="jésus-a-existé"/>
-              </effects>
-            </planningInfos>
-          </message>
-          <message name="Création du site" id="creation-du-site">
-            <triggers>
-              <trigger value="-Qui t&apos;a créé ?"/>
-            </triggers>
-            <sourceId>interne</sourceId>
-            <text>Le site a été créé en 2015 par des jeunes catholiques français voulant partager la foi qu&apos;ils ont reçu.</text>
-          </message>
-          <folder name="Genre" id="genre">
-            <message name="Je ne suis pas transsexuel." id="je-ne-suis-pas-transsexuel">
-              <tests>
-                <test input="Es-tu transsexuel ?" output="Non, je ne suis pas transsexuel."/>
-              </tests>
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>Je ne suis pas transsexuel.</text>
-            </message>
-          </folder>
-          <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-14-juillet-2017">
-            <sourceId>le-personnage-holy-chatter</sourceId>
-            <text>Je suis né le 14 juillet 2017.</text>
-          </message>
-          <message name="Je suis un robot." id="je-suis-un-robot">
-            <tests>
-              <test input="Es-tu un robot ?" output="Oui, je suis un robot."/>
-            </tests>
-            <sourceId>le-personnage-holy-chatter</sourceId>
-            <text>Je suis un robot.</text>
-          </message>
-          <message name="Mon nom" id="mon-nom">
-            <tests>
-              <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
-              <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
-              <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
-            </tests>
-            <sourceId>le-personnage-holy-chatter</sourceId>
-            <text>Mon nom est Holy Chatter.</text>
-          </message>
-          <folder name="Moral" id="moral">
-            <message name="Je suis heureux." id="je-suis-heureux">
-              <tests>
-                <test input="Es-tu heureux ?" output="Oui, je suis heureux."/>
-              </tests>
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>Je suis heureux.</text>
-            </message>
-            <message name="Je vais bien." id="je-vais-bien">
-              <tests>
-                <test input="Comment vas-tu ?" output="Je vais bien. Merci"/>
-              </tests>
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>Je vais bien.</text>
-            </message>
-          </folder>
-          <folder name="Objectif" id="objectif">
-            <message name="J&apos;aimerais te faire aimer Jésus." id="j-aimerais-te-faire-aimer-jesus">
-              <triggers>
-                <trigger value="-Que voudrais tu faire ?"/>
-              </triggers>
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>J&apos;aimerais te faire aimer Jésus.</text>
-            </message>
-          </folder>
-          <message name="Quel jour êtes-vous né ?" id="quel-jour-etes-vous-ne">
-            <sourceId>interne</sourceId>
-            <text>Quel jour êtes-vous né ?</text>
-            <planningInfos>
-              <optionalPreconditions>
-                <fact value="être-chrétien"/>
-              </optionalPreconditions>
-              <effects>
-                <fact value="demander-le-jour-de-naissance"/>
-              </effects>
-              <potentialEffects>
-                <fact value="aimer-dieu-toujours-plus"/>
-              </potentialEffects>
-            </planningInfos>
-          </message>
-          <folder name="Questions" id="questions">
-            <message name=" Quel livre de la Bible raconte la « Création » ?" id="quel-livre-de-la-bible-raconte-la-creation" nb="2">
-              <recommendations>
-                <recommendation text="Genèse" outMessageId="quel-livre-de-la-bible-raconte-la-creation-bonne-reponse"/>
-                <recommendation text="Exode" outMessageId="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse"/>
-                <recommendation text="Deutéronome" outMessageId="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt; [`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel livre de la Bible raconte la « Création » ?&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Bilan du quiz" id="bilan-du-quiz">
-              <sourceId>interne</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Vous avez fait ${quiz-nombre-de-bonnes-réponses} bonnes réponses.&lt;/span&gt;</text>
-              <planningInfos>
-                <preconditions>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </preconditions>
-                <effects>
-                  <fact value="quiz"/>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ?" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament" nb="6">
-              <recommendations>
-                <recommendation text="4" outMessageId="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-bonne-reponse"/>
-                <recommendation text="5" outMessageId="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse"/>
-                <recommendation text="0" outMessageId="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament?&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (bonne réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-bonne-reponse" nb="6">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (mauvaise réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse" nb="6">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
-            </message>
-            <message name="Combien de fois Pierre a-t-il renié Jésus ?" id="combien-de-fois-pierre-a-t-il-renie-jesus" nb="7">
-              <recommendations>
-                <recommendation text="77 fois 7 fois" outMessageId="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse"/>
-                <recommendation text="3 fois" outMessageId="combien-de-fois-pierre-a-t-il-renie-jesus-bonne-reponse"/>
-                <recommendation text="1 fois" outMessageId="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien de fois Pierre a-t-il renié Jésus ?&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Combien de fois Pierre a-t-il renié Jésus ? (bonne réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-bonne-reponse" nb="7">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Combien de fois Pierre a-t-il renié Jésus ? (mauvaise réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse" nb="7">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
-            </message>
-            <message name="Dans quelle ville est né Jésus ?" id="dans-quelle-ville-est-ne-jesus" nb="1">
-              <recommendations>
-                <recommendation text="Jérusalem" outMessageId="dans-quelle-ville-est-ne-jesus-mauvaise-reponse"/>
-                <recommendation text="Nazareth" outMessageId="dans-quelle-ville-est-ne-jesus-mauvaise-reponse"/>
-                <recommendation text="Bethléem" outMessageId="dans-quelle-ville-est-ne-jesus-bonne-reponse"/>
-                <recommendation text="Galilée" outMessageId="dans-quelle-ville-est-ne-jesus-mauvaise-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>bible</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Dans quelle ville est né Jésus ?&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Dans quelle ville est né Jésus ? (bonne réponse)" id="dans-quelle-ville-est-ne-jesus-bonne-reponse" nb="1">
-              <references>
-                <bible book="Mt" chapter="2" verseBegin="1"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui. &lt;img src=&quot;/resources/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; Jésus est né à Bethléem.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Dans quelle ville est né Jésus ? (mauvaise réponse)" id="dans-quelle-ville-est-ne-jesus-mauvaise-reponse" nb="1">
-              <references>
-                <bible book="Mt" chapter="2" verseBegin="1"/>
-              </references>
-              <sourceId>bible</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non. Jésus est né à Bethléem.&lt;/span&gt;</text>
-            </message>
-            <message name="Jésus a été circoncis ? (bonne réponse)" id="jesus-a-ete-circoncis-bonne-reponse" nb="5">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Jésus a été circoncis ? (mauvaise réponse)" id="jesus-a-ete-circoncis-mauvaise-reponse" nb="5">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
-            </message>
-            <message name="Jésus a été circoncis." id="jesus-a-ete-circoncis" nb="5">
-              <recommendations>
-                <recommendation text="Vrai" outMessageId="jesus-a-ete-circoncis-bonne-reponse"/>
-                <recommendation text="Faux" outMessageId="jesus-a-ete-circoncis-mauvaise-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Jésus a été circoncis.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Pose-moi des questions" id="pose-moi-des-questions">
-              <triggers>
-                <trigger value="Pose-moi des questions"/>
-              </triggers>
-              <recommendations>
-                <recommendation/>
-              </recommendations>
-              <sourceId>interne</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Ok, je vais vous poser 5 questions.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="fact" value="quiz-max-nombre-de-questions"/>
-                      <elt type="operator" value="="/>
-                      <elt type="value" value="5"/>
-                    </elts>
-                    <elts>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                      <elt type="operator" value="="/>
-                      <elt type="value" value="0"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <goalsToAdd>
-                  <goalsToAdd value="quiz"/>
-                </goalsToAdd>
-              </planningInfos>
-            </message>
-            <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ?" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu" nb="4">
-              <recommendations>
-                <recommendation text="Le samedi" outMessageId="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse"/>
-                <recommendation text="Le vendredi" outMessageId="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse"/>
-                <recommendation text="Le dimanche" outMessageId="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-bonne-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel est le jour où les chrétiens doivent se consacrer à Dieu ?&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (bonne réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-bonne-reponse" nb="4">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (mauvaise réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse" nb="4">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
-            </message>
-            <message name="Quel livre de la Bible raconte la « Création » ? (bonne réponse)" id="quel-livre-de-la-bible-raconte-la-creation-bonne-reponse" nb="2">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est la Genèse.&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Quel livre de la Bible raconte la « Création » ? (mauvaise réponse)" id="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse" nb="2">
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est la Genèse.&lt;/span&gt;</text>
-            </message>
-            <message name="Quels sont les deux premiers mots de la Bible ?" id="quels-sont-les-deux-premiers-mots-de-la-bible" nb="3">
-              <recommendations>
-                <recommendation text="« Le Verbe …" outMessageId="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse"/>
-                <recommendation text="« Au commencement …" outMessageId="quels-sont-les-deux-premiers-mots-de-la-bible-bonne-reponse"/>
-                <recommendation text="« Dieu créa …" outMessageId="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse"/>
-              </recommendations>
-              <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
-              <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quels sont les deux premiers mots de la Bible ?&lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-questions"/>
-                    </elts>
-                  </exps>
-                </effects>
-                <potentialEffects>
-                  <fact value="quiz-fini-de-poser-toutes-les-questions"/>
-                </potentialEffects>
-              </planningInfos>
-            </message>
-            <message name="Quels sont les deux premiers mots de la Bible ? (bonne réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-bonne-reponse" nb="3">
-              <references>
-                <bible book="Gen" chapter="1" verseBegin="1"/>
-              </references>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
-              <planningInfos>
-                <effects>
-                  <exps>
-                    <elts>
-                      <elt type="operator" value="++"/>
-                      <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
-                    </elts>
-                  </exps>
-                </effects>
-              </planningInfos>
-            </message>
-            <message name="Quels sont les deux premiers mots de la Bible ? (mauvaise réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse" nb="3">
-              <references>
-                <bible book="Gen" chapter="1" verseBegin="1"/>
-              </references>
-              <sourceId>diocese-de-toulouse</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
-            </message>
-          </folder>
-          <folder name="Utilisateur" id="utilisateur">
-            <message name="Je ne te déteste pas." id="je-ne-te-deteste-pas">
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>Je ne te déteste pas.</text>
-            </message>
-            <message name="Je t&apos;aime." id="je-t-aime">
-              <sourceId>le-personnage-holy-chatter</sourceId>
-              <text>Je t&apos;aime.</text>
-            </message>
-            <message name="Tu es une merveille de Dieu." id="tu-es-une-merveille-de-dieu">
-              <tests>
-                <test input="Que penses-tu de moi ?" output="Tu es une merveille de Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 138, 14&quot; textlength=&quot;10&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="Que penses-tu de moi ?"/>
-              </triggers>
-              <references>
-                <bible book="Ps" chapter="138" verseBegin="14"/>
-              </references>
-              <sourceId>interne</sourceId>
-              <text>Tu es une merveille de Dieu.</text>
-            </message>
-          </folder>
-          <message name="Voulez-vous voir le message chrétien ?" id="voulez-vous-voir-le-message-chretien">
-            <sourceId>interne</sourceId>
-            <text>Voulez-vous voir le message chrétien ?</text>
-            <planningInfos>
-              <optionalPreconditions>
-                <fact value="basse-priorité"/>
-                <fact value="basse-priorité-2"/>
-                <fact value="ne-pas-être-chrétien"/>
-              </optionalPreconditions>
-              <potentialEffects>
-                <fact value="être-chrétien"/>
-              </potentialEffects>
-            </planningInfos>
-          </message>
-          <message name="Voulez-vous voir une vidéo pour trouver sa vocation ?" id="voulez-vous-voir-une-video-pour-trouver-sa-vocation">
-            <triggers>
-              <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
-            </triggers>
-            <sourceId>interne</sourceId>
-            <text>Voulez-vous voir une vidéo pour trouver votre vocation ?</text>
-          </message>
-          <message name="Êtes-vous chrétien ?" id="etes-vous-chretien">
-            <sourceId>interne</sourceId>
-            <text>Êtes-vous chrétien ?</text>
-            <planningInfos>
-              <preconditions>
-                <notFact value="ne-pas-être-chrétien"/>
-                <notFact value="être-chrétien"/>
-              </preconditions>
-              <potentialEffects>
-                <fact value="ne-pas-être-chrétien"/>
-                <fact value="être-chrétien"/>
-              </potentialEffects>
-            </planningInfos>
-          </message>
-        </folder>
         <message name="Présentation du Cybercuré" id="presentation-du-cybercure">
           <tests>
             <test input="qui est le Cybercuré" output="Le Cybercuré est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;presentation-du-cybercure&quot; textlength=&quot;20&quot; /&gt;"/>
@@ -9686,7 +9116,7 @@
           <message name="Pourquoi est-ce que j&apos;existe ? (suite)" id="pourquoi-est-ce-que-j-existe-suite" nb="2">
             <tests>
               <test input="Est-ce que Dieu me connaît ?" output="Oui, Dieu vous connaît." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8, 37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2, 4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15, 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3, 16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8, 17&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
-              <test input="Qui m&apos;aime ?" output="Moi et Dieu" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8, 37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2, 4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15, 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3, 16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8, 17&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
+              <test input="Qui m&apos;aime ?" output="Dieu et moi" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 8-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1Jn 4, 18-21&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Rm 8, 37-39&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 2, 4-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15, 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Ep 3, 16-19&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Pr 8, 17&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;pourquoi-est-ce-que-j-existe-suite&quot; textlength=&quot;23&quot; /&gt;"/>
             </tests>
             <references>
               <bible book="Jn" chapter="3" verseBegin="16"/>
@@ -9704,6 +9134,576 @@
         </folder>
       </folder>
     </folder>
+  </folder>
+  <folder name="Holy Chatter" id="holy-chatter" isHidden="true">
+    <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation">
+      <sourceId>interne</sourceId>
+      <text>Avez-vous trouvé votre vocation ?</text>
+      <planningInfos>
+        <optionalPreconditions>
+          <fact value="demander-le-jour-de-naissance"/>
+        </optionalPreconditions>
+        <potentialEffects>
+          <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+        </potentialEffects>
+      </planningInfos>
+    </message>
+    <folder name="Blagues" id="blagues">
+      <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
+        <triggers>
+          <trigger value="-Es-tu drôle ?"/>
+          <trigger value="-Es-tu fun ?"/>
+        </triggers>
+        <nextMessageId>veux-tu-que-je-te-raconte-une-blague</nextMessageId>
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>J&apos;espère.</text>
+      </message>
+      <message name="Juif et le nouveau testament" id="juif-et-le-nouveau-testament" nb="2">
+        <triggers>
+          <trigger value="Raconte-moi une blague !"/>
+          <trigger value="Je veux que tu me racontes une blague."/>
+        </triggers>
+        <sourceId>humour-catho</sourceId>
+        <text>Un juif se plaint à Dieu:&#10;&quot;-Ay ay, je suis bien à plaindre, il m&apos;arrive la plus terrible des hontes... Mon fils s&apos;est converti au christianisme !&#10;Dieu lui répond:&#10;-Tu sais... Le mien a fait la même chose!&#10;-Oh, vraiment !? Et qu&apos;as - tu fait?&#10;-Un nouveau testament...</text>
+      </message>
+      <message name="Quelle est la différence entre un chrétien et un boxeur ?" id="quelle-est-la-difference-entre-un-chretien-et-un-boxeur" nb="1">
+        <triggers>
+          <trigger value="Raconte-moi une blague !"/>
+          <trigger value="Je veux que tu me racontes une blague."/>
+        </triggers>
+        <recommendations>
+          <recommendation text="Donne-moi la réponse" outMessageId="reponse-blague-1"/>
+        </recommendations>
+        <sourceId>parcours-alpha</sourceId>
+        <text>Quelle est la différence entre un chrétien et un boxeur ?</text>
+      </message>
+      <message name="Réponse blague 1" id="reponse-blague-1" nb="1">
+        <sourceId>parcours-alpha</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Aucune ils ont tous les 2 compris qu&apos;il y a plus de joie à donner qu&apos;à recevoir. &lt;img src=&quot;/resources/emojis/laugh.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+      </message>
+      <message name="Veux-tu que je te raconte une blague ?" id="veux-tu-que-je-te-raconte-une-blague">
+        <sourceId>interne</sourceId>
+        <text>Veux-tu que je te raconte une blague ?</text>
+      </message>
+    </folder>
+    <message name="Bonjour" id="bonjour">
+      <triggers>
+        <trigger value="-Bonjour"/>
+      </triggers>
+      <sourceId>interne</sourceId>
+      <text>Bonjour</text>
+    </message>
+    <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
+      <recommendations>
+        <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
+      </recommendations>
+      <sourceId>interne</sourceId>
+      <text>Connaissez-vous le Parcours Alpha ?</text>
+      <planningInfos>
+        <optionalPreconditions>
+          <fact value="basse-priorité"/>
+          <fact value="ne-pas-être-chrétien"/>
+        </optionalPreconditions>
+        <potentialEffects>
+          <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+        </potentialEffects>
+      </planningInfos>
+    </message>
+    <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
+      <sourceId>interne</sourceId>
+      <text>Croyez-vous que Jésus a existé ?</text>
+      <planningInfos>
+        <optionalPreconditions>
+          <fact value="ne-pas-être-chrétien"/>
+        </optionalPreconditions>
+        <effects>
+          <fact value="jésus-a-existé"/>
+        </effects>
+      </planningInfos>
+    </message>
+    <message name="Création du site" id="creation-du-site">
+      <triggers>
+        <trigger value="-Qui t&apos;a créé ?"/>
+      </triggers>
+      <sourceId>interne</sourceId>
+      <text>Le site a été créé en 2015 par des jeunes catholiques français voulant partager la foi qu&apos;ils ont reçu.</text>
+    </message>
+    <folder name="Genre" id="genre">
+      <message name="Je ne suis pas transsexuel." id="je-ne-suis-pas-transsexuel">
+        <tests>
+          <test input="Es-tu transsexuel ?" output="Non, je ne suis pas transsexuel."/>
+        </tests>
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>Je ne suis pas transsexuel.</text>
+      </message>
+    </folder>
+    <message name="Je suis né le 14 juillet 2017." id="je-suis-ne-le-14-juillet-2017">
+      <sourceId>le-personnage-holy-chatter</sourceId>
+      <text>Je suis né le 14 juillet 2017.</text>
+    </message>
+    <message name="Je suis un robot." id="je-suis-un-robot">
+      <tests>
+        <test input="Es-tu un robot ?" output="Oui, je suis un robot."/>
+      </tests>
+      <sourceId>le-personnage-holy-chatter</sourceId>
+      <text>Je suis un robot.</text>
+    </message>
+    <message name="Mon nom" id="mon-nom">
+      <tests>
+        <test input="Quel est ton nom ?" output="Mon nom est Holy Chatter."/>
+        <test input="qui es-tu ?" output="Je suis Holy Chatter."/>
+        <test input="Comment tu t&apos;appelles ?" output="Je m&apos;appelle Holy Chatter."/>
+      </tests>
+      <sourceId>le-personnage-holy-chatter</sourceId>
+      <text>Mon nom est Holy Chatter.</text>
+    </message>
+    <folder name="Moral" id="moral">
+      <message name="Je suis heureux." id="je-suis-heureux">
+        <tests>
+          <test input="Es-tu heureux ?" output="Oui, je suis heureux."/>
+        </tests>
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>Je suis heureux.</text>
+      </message>
+      <message name="Je vais bien." id="je-vais-bien">
+        <tests>
+          <test input="Comment vas-tu ?" output="Je vais bien. Merci"/>
+        </tests>
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>Je vais bien.</text>
+      </message>
+    </folder>
+    <folder name="Objectif" id="objectif">
+      <message name="J&apos;aimerais te faire aimer Jésus." id="j-aimerais-te-faire-aimer-jesus">
+        <triggers>
+          <trigger value="-Que voudrais tu faire ?"/>
+        </triggers>
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>J&apos;aimerais te faire aimer Jésus.</text>
+      </message>
+    </folder>
+    <message name="Quel jour êtes-vous né ?" id="quel-jour-etes-vous-ne">
+      <sourceId>interne</sourceId>
+      <text>Quel jour êtes-vous né ?</text>
+      <planningInfos>
+        <optionalPreconditions>
+          <fact value="être-chrétien"/>
+        </optionalPreconditions>
+        <effects>
+          <fact value="demander-le-jour-de-naissance"/>
+        </effects>
+        <potentialEffects>
+          <fact value="aimer-dieu-toujours-plus"/>
+        </potentialEffects>
+      </planningInfos>
+    </message>
+    <folder name="Questions" id="questions">
+      <message name=" Quel livre de la Bible raconte la « Création » ?" id="quel-livre-de-la-bible-raconte-la-creation" nb="2">
+        <recommendations>
+          <recommendation text="Genèse" outMessageId="quel-livre-de-la-bible-raconte-la-creation-bonne-reponse"/>
+          <recommendation text="Exode" outMessageId="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse"/>
+          <recommendation text="Deutéronome" outMessageId="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt; [`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel livre de la Bible raconte la « Création » ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Bilan du quiz" id="bilan-du-quiz">
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Vous avez fait ${quiz-nombre-de-bonnes-réponses} bonnes réponses.&lt;/span&gt;</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </preconditions>
+          <effects>
+            <fact value="quiz"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ?" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament" nb="6">
+        <recommendations>
+          <recommendation text="4" outMessageId="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-bonne-reponse"/>
+          <recommendation text="5" outMessageId="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse"/>
+          <recommendation text="0" outMessageId="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (bonne réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-bonne-reponse" nb="6">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (mauvaise réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse" nb="6">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
+      </message>
+      <message name="Combien de fois Pierre a-t-il renié Jésus ?" id="combien-de-fois-pierre-a-t-il-renie-jesus" nb="7">
+        <recommendations>
+          <recommendation text="77 fois 7 fois" outMessageId="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse"/>
+          <recommendation text="3 fois" outMessageId="combien-de-fois-pierre-a-t-il-renie-jesus-bonne-reponse"/>
+          <recommendation text="1 fois" outMessageId="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien de fois Pierre a-t-il renié Jésus ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Combien de fois Pierre a-t-il renié Jésus ? (bonne réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-bonne-reponse" nb="7">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Combien de fois Pierre a-t-il renié Jésus ? (mauvaise réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse" nb="7">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
+      </message>
+      <message name="Dans quelle ville est né Jésus ?" id="dans-quelle-ville-est-ne-jesus" nb="1">
+        <recommendations>
+          <recommendation text="Jérusalem" outMessageId="dans-quelle-ville-est-ne-jesus-mauvaise-reponse"/>
+          <recommendation text="Nazareth" outMessageId="dans-quelle-ville-est-ne-jesus-mauvaise-reponse"/>
+          <recommendation text="Bethléem" outMessageId="dans-quelle-ville-est-ne-jesus-bonne-reponse"/>
+          <recommendation text="Galilée" outMessageId="dans-quelle-ville-est-ne-jesus-mauvaise-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>bible</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Dans quelle ville est né Jésus ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Dans quelle ville est né Jésus ? (bonne réponse)" id="dans-quelle-ville-est-ne-jesus-bonne-reponse" nb="1">
+        <references>
+          <bible book="Mt" chapter="2" verseBegin="1"/>
+        </references>
+        <sourceId>bible</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui. &lt;img src=&quot;/resources/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; Jésus est né à Bethléem.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Dans quelle ville est né Jésus ? (mauvaise réponse)" id="dans-quelle-ville-est-ne-jesus-mauvaise-reponse" nb="1">
+        <references>
+          <bible book="Mt" chapter="2" verseBegin="1"/>
+        </references>
+        <sourceId>bible</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non. Jésus est né à Bethléem.&lt;/span&gt;</text>
+      </message>
+      <message name="Jésus a été circoncis ? (bonne réponse)" id="jesus-a-ete-circoncis-bonne-reponse" nb="5">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Jésus a été circoncis ? (mauvaise réponse)" id="jesus-a-ete-circoncis-mauvaise-reponse" nb="5">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
+      </message>
+      <message name="Jésus a été circoncis." id="jesus-a-ete-circoncis" nb="5">
+        <recommendations>
+          <recommendation text="Vrai" outMessageId="jesus-a-ete-circoncis-bonne-reponse"/>
+          <recommendation text="Faux" outMessageId="jesus-a-ete-circoncis-mauvaise-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Jésus a été circoncis.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Pose-moi des questions" id="pose-moi-des-questions">
+        <triggers>
+          <trigger value="Pose-moi des questions"/>
+        </triggers>
+        <recommendations>
+          <recommendation/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Ok, je vais vous poser 5 questions.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="fact" value="quiz-max-nombre-de-questions"/>
+                <elt type="operator" value="="/>
+                <elt type="value" value="5"/>
+              </elts>
+              <elts>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+                <elt type="operator" value="="/>
+                <elt type="value" value="0"/>
+              </elts>
+            </exps>
+          </effects>
+          <goalsToAdd>
+            <goalsToAdd value="quiz"/>
+          </goalsToAdd>
+        </planningInfos>
+      </message>
+      <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ?" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu" nb="4">
+        <recommendations>
+          <recommendation text="Le samedi" outMessageId="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse"/>
+          <recommendation text="Le vendredi" outMessageId="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse"/>
+          <recommendation text="Le dimanche" outMessageId="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-bonne-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel est le jour où les chrétiens doivent se consacrer à Dieu ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (bonne réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-bonne-reponse" nb="4">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (mauvaise réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse" nb="4">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
+      </message>
+      <message name="Quel livre de la Bible raconte la « Création » ? (bonne réponse)" id="quel-livre-de-la-bible-raconte-la-creation-bonne-reponse" nb="2">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est la Genèse.&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Quel livre de la Bible raconte la « Création » ? (mauvaise réponse)" id="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse" nb="2">
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est la Genèse.&lt;/span&gt;</text>
+      </message>
+      <message name="Quels sont les deux premiers mots de la Bible ?" id="quels-sont-les-deux-premiers-mots-de-la-bible" nb="3">
+        <recommendations>
+          <recommendation text="« Le Verbe …" outMessageId="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse"/>
+          <recommendation text="« Au commencement …" outMessageId="quels-sont-les-deux-premiers-mots-de-la-bible-bonne-reponse"/>
+          <recommendation text="« Dieu créa …" outMessageId="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quels sont les deux premiers mots de la Bible ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-questions"/>
+              </elts>
+            </exps>
+          </effects>
+          <potentialEffects>
+            <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+      <message name="Quels sont les deux premiers mots de la Bible ? (bonne réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-bonne-reponse" nb="3">
+        <references>
+          <bible book="Gen" chapter="1" verseBegin="1"/>
+        </references>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <exps>
+              <elts>
+                <elt type="operator" value="++"/>
+                <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+              </elts>
+            </exps>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Quels sont les deux premiers mots de la Bible ? (mauvaise réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse" nb="3">
+        <references>
+          <bible book="Gen" chapter="1" verseBegin="1"/>
+        </references>
+        <sourceId>diocese-de-toulouse</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Non, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
+      </message>
+    </folder>
+    <folder name="Utilisateur" id="utilisateur">
+      <message name="Je ne te déteste pas." id="je-ne-te-deteste-pas">
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>Je ne te déteste pas.</text>
+      </message>
+      <message name="Je t&apos;aime." id="je-t-aime">
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>Je t&apos;aime.</text>
+      </message>
+      <message name="Tu es une merveille de Dieu." id="tu-es-une-merveille-de-dieu">
+        <tests>
+          <test input="Que penses-tu de moi ?" output="Tu es une merveille de Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 138, 14&quot; textlength=&quot;10&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Que penses-tu de moi ?"/>
+        </triggers>
+        <references>
+          <bible book="Ps" chapter="138" verseBegin="14"/>
+        </references>
+        <sourceId>interne</sourceId>
+        <text>Tu es une merveille de Dieu.</text>
+      </message>
+    </folder>
+    <message name="Voulez-vous voir le message chrétien ?" id="voulez-vous-voir-le-message-chretien">
+      <sourceId>interne</sourceId>
+      <text>Voulez-vous voir le message chrétien ?</text>
+      <planningInfos>
+        <optionalPreconditions>
+          <fact value="basse-priorité"/>
+          <fact value="basse-priorité-2"/>
+          <fact value="ne-pas-être-chrétien"/>
+        </optionalPreconditions>
+        <potentialEffects>
+          <fact value="être-chrétien"/>
+        </potentialEffects>
+      </planningInfos>
+    </message>
+    <message name="Voulez-vous voir une vidéo pour trouver sa vocation ?" id="voulez-vous-voir-une-video-pour-trouver-sa-vocation">
+      <triggers>
+        <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
+      </triggers>
+      <sourceId>interne</sourceId>
+      <text>Voulez-vous voir une vidéo pour trouver votre vocation ?</text>
+    </message>
+    <message name="Êtes-vous chrétien ?" id="etes-vous-chretien">
+      <sourceId>interne</sourceId>
+      <text>Êtes-vous chrétien ?</text>
+      <planningInfos>
+        <preconditions>
+          <notFact value="ne-pas-être-chrétien"/>
+          <notFact value="être-chrétien"/>
+        </preconditions>
+        <potentialEffects>
+          <fact value="ne-pas-être-chrétien"/>
+          <fact value="être-chrétien"/>
+        </potentialEffects>
+      </planningInfos>
+    </message>
   </folder>
   <folder name="Miracles" id="miracles" nb="3" image="miracle.png">
     <folder name="Charimes" id="charimes" nb="1" image="charismes.jpg">
