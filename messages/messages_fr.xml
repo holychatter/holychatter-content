@@ -2698,22 +2698,6 @@
           <sourceId>parcours-alpha</sourceId>
           <text fileType="html">&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</text>
         </message>
-        <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
-          <recommendations>
-            <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
-          </recommendations>
-          <sourceId>interne</sourceId>
-          <text>Connaissez-vous le Parcours Alpha ?</text>
-          <planningInfos>
-            <optionalPreconditions>
-              <fact value="basse-priorité"/>
-              <fact value="ne-pas-être-chrétien"/>
-            </optionalPreconditions>
-            <potentialEffects>
-              <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
-            </potentialEffects>
-          </planningInfos>
-        </message>
         <message name="Le Parcours Alpha, c&apos;est quoi?" id="le-parcours-alpha-c-est-quoi">
           <tests>
             <test input="Le Parcours Alpha, c&apos;est quoi?" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -2864,6 +2848,22 @@
             </triggers>
             <sourceId>interne</sourceId>
             <text>Bonjour</text>
+          </message>
+          <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
+            <recommendations>
+              <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
+            </recommendations>
+            <sourceId>interne</sourceId>
+            <text>Connaissez-vous le Parcours Alpha ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="basse-priorité"/>
+                <fact value="ne-pas-être-chrétien"/>
+              </optionalPreconditions>
+              <potentialEffects>
+                <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+              </potentialEffects>
+            </planningInfos>
           </message>
           <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
             <sourceId>interne</sourceId>
