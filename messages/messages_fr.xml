@@ -10104,7 +10104,17 @@
           </message>
         </folder>
         <folder name="Pardon" id="pardon" image="pardon.jpg">
-          <message name="Un homme qui n&apos;arrivait pas à pardonner..." id="un-homme-qui-n-arrivait-pas-a-pardonner">
+          <message name="Témoignage de Jean Marie Twambazemungu : le pardon" id="temoignage-de-jean-marie-twambazemungu-le-pardon" nb="2">
+            <tests>
+              <test input="Montrez-moi un témoignage sur le pardon" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RCsZm4ku6o4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;temoignage-de-jean-marie-twambazemungu-le-pardon&quot; textlength=&quot;25&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi un témoignage sur le pardon"/>
+            </triggers>
+            <sourceId>communaute-de-l-emmanuel</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RCsZm4ku6o4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Un homme qui n&apos;arrivait pas à pardonner..." id="un-homme-qui-n-arrivait-pas-a-pardonner" nb="1">
             <tests>
               <test input="Un homme qui n&apos;arrivait pas à pardonner..." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pfQd2RI5w8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;un-homme-qui-n-arrivait-pas-a-pardonner&quot; textlength=&quot;8&quot; /&gt;"/>
               <test input="Montre-moi une histoire vraie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pfQd2RI5w8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;un-homme-qui-n-arrivait-pas-a-pardonner&quot; textlength=&quot;8&quot; /&gt;"/>
