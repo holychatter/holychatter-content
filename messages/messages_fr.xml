@@ -7897,6 +7897,18 @@
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ncL9hQhfKCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Prédication sur le Sacré-Cœur suivie d&apos;une montée au ciel" id="predication-sur-le-sacre-cur-suivie-d-une-montee-au-ciel" nb="1">
+        <tests>
+          <test input="Montrez-moi une prédication sur le Sacré-Cœur !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bhV8r2qdDX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi une prédication sur le Sacré-Cœur !"/>
+          <trigger value="Montrez-moi une belle mort dans les bras du Seigneur !"/>
+          <trigger value="Montrez-moi une prédication du Père Gaston Hurtubise !"/>
+        </triggers>
+        <sourceId>gaston-hurtubise</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bhV8r2qdDX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Quelle est la paix que Jésus nous donne?" id="quelle-est-la-paix-que-jesus-nous-donne" nb="1">
         <tests>
           <test input="Quelle est la paix que Jésus nous donne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wYfkGY1vNF4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 14, 27&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;quelle-est-la-paix-que-jesus-nous-donne&quot; textlength=&quot;19&quot; /&gt;"/>
