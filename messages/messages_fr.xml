@@ -7899,7 +7899,7 @@
       </message>
       <message name="Prédication sur le Sacré-Cœur suivie d&apos;une montée au ciel" id="predication-sur-le-sacre-cur-suivie-d-une-montee-au-ciel" nb="1">
         <tests>
-          <test input="Montrez-moi une prédication sur le Sacré-Cœur !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bhV8r2qdDX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+          <test input="Montrez-moi une prédication sur le Sacré-Cœur !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bhV8r2qdDX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Gaston Hurtubise&quot; resourceid=&quot;predication-sur-le-sacre-cur-suivie-d-une-montee-au-ciel&quot; textlength=&quot;16&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Montrez-moi une prédication sur le Sacré-Cœur !"/>
@@ -8445,6 +8445,20 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text>Oui, mais d&apos;une manière mystérieuse : Dieu dirige toutes choses vers leur accomplissement mais par des chemins connus de lui seul. À aucun moment, il ne&#10;laisse échapper de ses mains ce qu&apos;il a créé.</text>
+              </message>
+              <message name="Quelle est la place de l&apos;homme dans la divine Providence ?" id="quelle-est-la-place-de-l-homme-dans-la-divine-providence" nb="50">
+                <tests>
+                  <test input="Quelle est la place de l&apos;homme dans la divine Providence ?" output="La divine Providence n&apos;achève pas la création indépendamment de nous. Elle nous invite à collaborer à l&apos;achèvement de la création." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 10, 30&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;307-308&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-place-de-l-homme-dans-la-divine-providence&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Quelle est la place de l&apos;homme dans la divine Providence ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="307" verseEnd="308"/>
+                  <bible book="Mt" chapter="10" verseBegin="30"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>La divine Providence n&apos;achève pas la création indépendamment de nous. Elle nous invite à collaborer à l&apos;achèvement de la création.</text>
               </message>
             </folder>
             <message name="La recherche scientifique rend-elle superflu le recours à un Créateur ?" id="la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur" nb="41">
