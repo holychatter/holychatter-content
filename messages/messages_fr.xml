@@ -7906,6 +7906,17 @@
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ncL9hQhfKCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Ecouter Marie, pour obéir à Jésus" id="ecouter-marie-pour-obeir-a-jesus" nb="1">
+        <triggers>
+          <trigger value="Pourquoi écouter Marie ?"/>
+          <trigger value="Comment Marie nous apprend à prier ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="2" verseBegin="3" verseEnd="4"/>
+        </references>
+        <sourceId>cn-media</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tZlEB-nmlsU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Prédication sur le Sacré-Cœur suivie d&apos;une montée au ciel" id="predication-sur-le-sacre-cur-suivie-d-une-montee-au-ciel" nb="1">
         <tests>
           <test input="Montrez-moi une prédication sur le Sacré-Cœur !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bhV8r2qdDX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Gaston Hurtubise&quot; resourceid=&quot;predication-sur-le-sacre-cur-suivie-d-une-montee-au-ciel&quot; textlength=&quot;16&quot; /&gt;"/>
@@ -11138,7 +11149,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="laic" nb="4" image="atheism.jpg">
+    <folder name="Laïc" id="laic" nb="4" image="laic.jpg">
       <message name="&quot;J’ai fait la rencontre plus importante de ma vie....&quot; - Témoignage Claire" id="j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire">
         <tests>
           <test input="Montre-moi le témoignage d&apos;une personne qui voulais se sucider." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11255,6 +11266,18 @@
         </references>
         <sourceId>jeunes-cathos</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="&quot;Je me sers de la danse pour évangéliser&quot; - Témoignage du P. Franck Legros" id="je-me-sers-de-la-danse-pour-evangeliser-temoignage-du-p-franck-legros">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un ancien danseur !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QJJu4SIfNKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;je-me-sers-de-la-danse-pour-evangeliser-temoignage-du-p-franck-legros&quot; textlength=&quot;25&quot; /&gt;"/>
+          <test input="Montrez-moi un témoignage pour m&apos;aider à être moi-même !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QJJu4SIfNKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;je-me-sers-de-la-danse-pour-evangeliser-temoignage-du-p-franck-legros&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un ancien danseur !"/>
+          <trigger value="Montrez-moi un témoignage pour m&apos;aider à être moi-même !"/>
+        </triggers>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QJJu4SIfNKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <folder name="Expérience mystique" id="experience-mystique" image="experience_mystique">
         <message name="&quot;Pour être guéri, il faut ouvrir notre cœur&quot; - Enseignement du père Thierry Avalle" id="pour-etre-gueri-il-faut-ouvrir-notre-cur-enseignement-du-pere-thierry-avalle">
