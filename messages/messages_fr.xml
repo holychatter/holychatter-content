@@ -2029,7 +2029,11 @@
           </factsToHideTheSubject>
         </subjectInfos>
         <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz.jpg" message="Pose-moi des questions"/>
-        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?"/>
+        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
       </changeSubjectInfos>
     </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
