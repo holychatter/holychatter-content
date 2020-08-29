@@ -2819,6 +2819,20 @@
           <sourceId>communaute-de-l-emmanuel</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gyyjoMjsXYY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Rencontre avec Jean-Baptiste Maillard, fondateur de Lights in the Dark" id="rencontre-avec-jean-baptiste-maillard-fondateur-de-lights-in-the-dark">
+          <tests>
+            <test input="Qu&apos;est-ce que Lights in the Dark ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PMh_9HuISkE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La Croix&quot; resourceid=&quot;rencontre-avec-jean-baptiste-maillard-fondateur-de-lights-in-the-dark&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Comment est née Lights in the Dark ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PMh_9HuISkE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La Croix&quot; resourceid=&quot;rencontre-avec-jean-baptiste-maillard-fondateur-de-lights-in-the-dark&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Comment évangéliser sur internet ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PMh_9HuISkE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La Croix&quot; resourceid=&quot;rencontre-avec-jean-baptiste-maillard-fondateur-de-lights-in-the-dark&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que Lights in the Dark ?"/>
+            <trigger value="Comment est née Lights in the Dark ?"/>
+            <trigger value="Comment évangéliser sur internet ?"/>
+          </triggers>
+          <sourceId>la-croix</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PMh_9HuISkE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
     </folder>
   </folder>
@@ -5826,6 +5840,16 @@
           <sourceId>bible</sourceId>
           <text>Marie est la mère de Jésus</text>
         </message>
+        <message name="Pourquoi Marie ?" id="pourquoi-marie">
+          <tests>
+            <test input="Pourquoi Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s1TPTTYYgdU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;pourquoi-marie&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Pourquoi Marie ?"/>
+          </triggers>
+          <sourceId>cn-media</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s1TPTTYYgdU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Qui est Marie ?" id="qui-est-marie">
           <tests>
             <test input="qui est Marie" output="Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Versets de la Bible : &lt;hc_bible ref=&quot;Lc 1, 26-28&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19, 25&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qui-est-marie&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -7916,6 +7940,19 @@
         </references>
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tZlEB-nmlsU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Mollusque ou vertébré ? Prépare-toi !" id="mollusque-ou-vertebre-prepare-toi" nb="1">
+        <tests>
+          <test input="Suis-je un mollusque ou un vertébré dans la foi ?" output="Je ne sais pas si vous êtes un mollusque ou un vertébré de la foi mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+        </tests>
+        <triggers>
+          <trigger value="Suis-je un mollusque ou un vertébré dans la foi ?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="12" verseBegin="49" verseEnd="51"/>
+        </references>
+        <sourceId>cn-media</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FxUGbkGfc_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Prédication sur le Sacré-Cœur suivie d&apos;une montée au ciel" id="predication-sur-le-sacre-cur-suivie-d-une-montee-au-ciel" nb="1">
         <tests>
@@ -10128,6 +10165,16 @@
             <sourceId>ndml</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_nxope-LRyg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Une confession en vérité m&apos;a libérée de mon fardeau - Témoignage de Laurianne" id="une-confession-en-verite-m-a-liberee-de-mon-fardeau-temoignage-de-laurianne">
+            <tests>
+              <test input="Montrez-moi une libération intérieure suite à une confession !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NZ66A0WmrkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;une-confession-en-verite-m-a-liberee-de-mon-fardeau-temoignage-de-laurianne&quot; textlength=&quot;25&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi une libération intérieure suite à une confession !"/>
+            </triggers>
+            <sourceId>communaute-de-l-emmanuel</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NZ66A0WmrkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
         <folder name="Drogue" id="drogue" image="drogue.jpg">
           <message name="Brigitte Bédard, de l’addiction à la drogue et au sexe à la foi en Jésus" id="brigitte-bedard-de-l-addiction-a-la-drogue-et-au-sexe-a-la-foi-en-jesus">
@@ -11114,16 +11161,51 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Ancien musulman" id="ancien-musulman" nb="2" image="ancien_musulman.jpg">
-      <message name="Témoignage du P. Mustapha Amari, musulman devenu prêtre" id="temoignage-du-p-mustapha-amari-musulman-devenu-pretre">
+    <folder name="Ancien franc-maçon" id="ancien-franc-macon" nb="3" image="francs_macons.jpg">
+      <message name="Le témoignage extraordinaire d’un franc-maçon converti à Lourdes" id="le-temoignage-extraordinaire-d-un-franc-macon-converti-a-lourdes">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un ancien franc-maçon !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CCSd0Ewy4gQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;le-temoignage-extraordinaire-d-un-franc-macon-converti-a-lourdes&quot; textlength=&quot;19&quot; /&gt;"/>
+        </tests>
         <triggers>
-          <trigger value="Montre-moi le témoignage d&apos;un ancien musulman !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;un ancien franc-maçon !"/>
+        </triggers>
+        <sourceId>famille-chretienne</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CCSd0Ewy4gQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Ancien musulman" id="ancien-musulman" nb="2" image="ancien_musulman.jpg">
+      <message name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
+        <tests>
+          <test input="Montre-moi un musulman converti à la religion chrétienne !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus&quot; textlength=&quot;19&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montre-moi un musulman converti à la religion chrétienne !"/>
+        </triggers>
+        <sourceId>famille-chretienne</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Témoignage du P. Mustapha Amari, musulman devenu prêtre" id="temoignage-du-p-mustapha-amari-musulman-devenu-pretre">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un ancien musulman !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GVc_rrn0YOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Belley-Ars&quot; resourceid=&quot;temoignage-du-p-mustapha-amari-musulman-devenu-pretre&quot; textlength=&quot;22&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un ancien musulman !"/>
         </triggers>
         <sourceId>diocese-de-belley-ars</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GVc_rrn0YOY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Éric, converti de l’islam : « Mon baptême restera jusqu’à ma mort le plus beau moment de ma vie »" id="eric-converti-de-l-islam-mon-bapteme-restera-jusqu-a-ma-mort-le-plus-beau-moment-de-ma-vie">
+        <tests>
+          <test input="Montre-moi un ancien musulman qui est maintenant baptisé !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;eric-converti-de-l-islam-mon-bapteme-restera-jusqu-a-ma-mort-le-plus-beau-moment-de-ma-vie&quot; textlength=&quot;19&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montre-moi un ancien musulman qui est maintenant baptisé !"/>
+        </triggers>
+        <sourceId>famille-chretienne</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
-    <folder name="Célébrité" id="celebrite" nb="3" image="celebrities.jpg">
+    <folder name="Célébrité" id="celebrite" nb="4" image="celebrities.jpg">
       <message name="Arielle Dombasle : « La première fois que j’ai vu le Christ en croix, je me suis mise à pleurer »" id="arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer">
         <tests>
           <test input="Montre-moi le témoignage de Arielle Dombasle !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vwRiNvnqipE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -11149,7 +11231,27 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="laic" nb="4" image="laic.jpg">
+    <folder name="Enfant pauvre" id="enfant-pauvre" nb="8" image="enfants-des-rues.jpg">
+      <message name="Les vrais miracles - Enseignement du père Matthieu Dauchez" id="les-vrais-miracles-enseignement-du-pere-matthieu-dauchez">
+        <tests>
+          <test input="Montrez-moi un témoignages des enfants des rues !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;les-vrais-miracles-enseignement-du-pere-matthieu-dauchez&quot; textlength=&quot;25&quot; /&gt;"/>
+          <test input="Montrez-moi un témoignages des enfants pauvres !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;les-vrais-miracles-enseignement-du-pere-matthieu-dauchez&quot; textlength=&quot;25&quot; /&gt;"/>
+          <test input="Montrez-moi un témoignage du père Matthieu Dauchez !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;les-vrais-miracles-enseignement-du-pere-matthieu-dauchez&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi un témoignages des enfants des rues !"/>
+          <trigger value="Montrez-moi un témoignages des enfants pauvres !"/>
+          <trigger value="Montrez-moi un témoignage du père Matthieu Dauchez !"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="5" verseBegin="3" verseEnd="12"/>
+          <bible book="1 Cor" chapter="13" verseBegin="1" verseEnd="13"/>
+        </references>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Laïc" id="laic" nb="5" image="laic.jpg">
       <message name="&quot;J’ai fait la rencontre plus importante de ma vie....&quot; - Témoignage Claire" id="j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire">
         <tests>
           <test input="Montre-moi le témoignage d&apos;une personne qui voulais se sucider." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Is 43, 4&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11163,28 +11265,19 @@
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Conversions de l&apos;islam au christianisme" id="conversions-de-l-islam-au-christianisme" image="islam-christianisme.jpg">
-        <message name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
-          <tests>
-            <test input="Montre-moi un musulman converti à la religion chrétienne !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus&quot; textlength=&quot;19&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Montre-moi un musulman converti à la religion chrétienne !"/>
-          </triggers>
-          <sourceId>famille-chretienne</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-        <message name="Éric, converti de l’islam : « Mon baptême restera jusqu’à ma mort le plus beau moment de ma vie »" id="eric-converti-de-l-islam-mon-bapteme-restera-jusqu-a-ma-mort-le-plus-beau-moment-de-ma-vie">
-          <tests>
-            <test input="Montre-moi un ancien musulman qui est maintenant baptisé !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;eric-converti-de-l-islam-mon-bapteme-restera-jusqu-a-ma-mort-le-plus-beau-moment-de-ma-vie&quot; textlength=&quot;19&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Montre-moi un ancien musulman qui est maintenant baptisé !"/>
-          </triggers>
-          <sourceId>famille-chretienne</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
+      <message name="Cette confession a changé ma vie - Témoignage de Lucile - 17 août" id="cette-confession-a-change-ma-vie-temoignage-de-lucile-17-aot">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une confession !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wtFh-eqd87Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 11, 28&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;cette-confession-a-change-ma-vie-temoignage-de-lucile-17-aot&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une confession !"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="11" verseBegin="28"/>
+        </references>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wtFh-eqd87Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="De dealeur à Jésus - Samuel" id="de-dealeur-a-jesus-samuel">
         <tests>
           <test input="Montre-moi un ancien dealeur converti à la religion chrétienne !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xZrHI39LQlc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Dn 9, 9&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot; Retour aux Sources&quot; resourceid=&quot;de-dealeur-a-jesus-samuel&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -11212,16 +11305,21 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <message name="Ma grande carrière ne me rendait pas heureux - Témoignage de Jean-Marc Potdevin" id="ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin">
-        <triggers>
-          <trigger value="Quel est le témoignage de Jean-Marc Potdevin ?"/>
-        </triggers>
-        <references>
-          <bible book="Phil" chapter="4" verseBegin="4" verseEnd="6"/>
-        </references>
-        <sourceId>communaute-de-l-emmanuel</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
+      <folder name="Expérience mystique" id="experience-mystique-laic" image="experience_mystique.jpg">
+        <message name="Ma grande carrière ne me rendait pas heureux - Témoignage de Jean-Marc Potdevin" id="ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin">
+          <tests>
+            <test input="Quel est le témoignage de Jean-Marc Potdevin ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ph 4, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin&quot; textlength=&quot;25&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quel est le témoignage de Jean-Marc Potdevin ?"/>
+          </triggers>
+          <references>
+            <bible book="Phil" chapter="4" verseBegin="4" verseEnd="6"/>
+          </references>
+          <sourceId>communaute-de-l-emmanuel</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <message name="Pourquoi être chrétien ? - Charlotte d&apos;Ornellas" id="pourquoi-etre-chretien-charlotte-d-ornellas">
         <tests>
           <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;23&quot; /&gt;"/>
@@ -11248,7 +11346,19 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DqTkGIygqvQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="6" image="pretres.jpg">
+    <folder name="Postulante" id="postulante" nb="9" image="postulante.jpg">
+      <message name="Témoignage de Charlotte Servera" id="temoignage-de-charlotte-servera">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une postulante !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-charlotte-servera&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une postulante !"/>
+        </triggers>
+        <sourceId>diocese-de-cahors</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Prêtre" id="pretre" nb="7" image="pretres.jpg">
       <message name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 25, 40&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -11279,7 +11389,7 @@
         <sourceId>communaute-de-l-emmanuel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QJJu4SIfNKA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Expérience mystique" id="experience-mystique" image="experience_mystique">
+      <folder name="Expérience mystique" id="experience-mystique" image="experience_mystique.jpg">
         <message name="&quot;Pour être guéri, il faut ouvrir notre cœur&quot; - Enseignement du père Thierry Avalle" id="pour-etre-gueri-il-faut-ouvrir-notre-cur-enseignement-du-pere-thierry-avalle">
           <tests>
             <test input="Montre-moi une expérience mystique." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tod4TdTipXg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ph 2, 5-11&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19, 28&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Lc 1, 52-53&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;pour-etre-gueri-il-faut-ouvrir-notre-cur-enseignement-du-pere-thierry-avalle&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -11327,7 +11437,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="5" image="séminaristes.jpg">
+    <folder name="Séminariste" id="seminariste" nb="6" image="séminaristes.jpg">
       <message name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -11340,6 +11450,25 @@
         </references>
         <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Sœur" id="sur" nb="10" image="nonnes.jpg">
+      <message name="Témoignage de Soeur Blandine" id="temoignage-de-soeur-blandine">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une soeur !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xd4RBcizwUI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 1, 38-39&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-soeur-blandine&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une religieuse !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xd4RBcizwUI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 1, 38-39&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-soeur-blandine&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une vie simple !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xd4RBcizwUI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 1, 38-39&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-soeur-blandine&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une soeur !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une religieuse !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une vie simple !"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="1" verseBegin="38" verseEnd="39"/>
+        </references>
+        <sourceId>diocese-de-cahors</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xd4RBcizwUI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="À propos" id="a-propos-temoignages" image="about.png">
