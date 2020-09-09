@@ -8030,6 +8030,19 @@
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Wydm7gWtQxI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Lève-toi, prends ta civière et marche - Benjamin Pouzin" id="leve-toi-prends-ta-civiere-et-marche-benjamin-pouzin">
+        <tests>
+          <test input="Quelle est l&apos;attitude Jésus face à nos problèmes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EJOyLn3rNXs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jn 5, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Lyon Centre - église ste Blandine&quot; resourceid=&quot;leve-toi-prends-ta-civiere-et-marche-benjamin-pouzin&quot; textlength=&quot;34&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle est l&apos;attitude Jésus face à nos problèmes ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="5" verseBegin="1" verseEnd="10"/>
+        </references>
+        <sourceId>lyon-centre-eglise-ste-blandine</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EJOyLn3rNXs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Mollusque ou vertébré ? Prépare-toi !" id="mollusque-ou-vertebre-prepare-toi" nb="1">
         <tests>
           <test input="Suis-je un mollusque ou un vertébré dans la foi ?" output="Je ne sais pas si vous êtes un mollusque ou un vertébré de la foi mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
@@ -8149,6 +8162,24 @@
         </triggers>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rgrT0M-WMRw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Messe des parlementaires : Homélie de Mgr Aupetit" id="messe-des-parlementaires-homelie-de-mgr-aupetit">
+        <tests>
+          <test input="Est-ce que ce que nous faisons est ordonné au bien commun ?" isOk="false"/>
+          <test input="Quel est le risque de toutes les découvertes scientifiques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TJk9R9HzaX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Rm 1, 18&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 23, 25&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ph 2, 5-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 84, 11&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;messe-des-parlementaires-homelie-de-mgr-aupetit&quot; textlength=&quot;3&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Est-ce que ce que nous faisons est ordonné au bien commun ?"/>
+          <trigger value="Quel est le risque de toutes les découvertes scientifiques ?"/>
+        </triggers>
+        <references>
+          <bible book="Rom" chapter="1" verseBegin="18"/>
+          <bible book="Mt" chapter="23" verseBegin="25"/>
+          <bible book="Phil" chapter="2" verseBegin="5" verseEnd="7"/>
+          <bible book="Ps" chapter="84" verseBegin="11"/>
+        </references>
+        <sourceId>kto</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TJk9R9HzaX8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Que penser du transhumanisme ?" id="que-penser-du-transhumanisme">
         <triggers>
@@ -10349,6 +10380,22 @@
       </folder>
     </folder>
     <folder name="À propos" id="a-propos-miracles" image="about.png">
+      <message name="Charismes et guérisons, Sans langue de buis" id="charismes-et-guerisons-sans-langue-de-buis">
+        <references>
+          <bible book="Jn" chapter="9" verseBegin="3"/>
+          <bible book="Mk" chapter="5" verseBegin="28"/>
+          <bible book="Lk" chapter="18" verseBegin="41"/>
+          <bible book="Mk" chapter="2" verseBegin="5" verseEnd="11"/>
+          <bible book="Mt" chapter="8" verseBegin="14" verseEnd="17"/>
+          <bible book="Jn" chapter="5" verseBegin="2" verseEnd="8"/>
+          <bible book="Lk" chapter="4" verseBegin="40"/>
+          <bible book="Mt" chapter="10" verseBegin="8"/>
+          <bible book="Mt" chapter="26" verseBegin="42"/>
+          <bible book="Lk" chapter="22" verseBegin="44"/>
+        </references>
+        <sourceId>kto</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Comment ne pas passer à coté de la grâce ?" id="comment-ne-pas-passer-a-cote-de-la-grace">
         <tests>
           <test input="Comment ne pas passer à coté de la grâce ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQo_t3qh3_U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;comment-ne-pas-passer-a-cote-de-la-grace&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11390,6 +11437,15 @@
         </references>
         <sourceId>communaute-de-l-emmanuel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Evêque" id="eveque" nb="12" image="évêques.jpg">
+      <message name="Parabole sur la vie de Mgr Aupetit" id="parabole-sur-la-vie-de-mgr-aupetit">
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un évêque !"/>
+        </triggers>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iv-XoBQmpQk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Frère" id="frere" nb="11" image="moines.jpg">
