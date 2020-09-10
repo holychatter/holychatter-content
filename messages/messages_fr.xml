@@ -9607,9 +9607,12 @@
         <text>J&apos;aimerais te faire aimer Jésus.</text>
       </message>
     </folder>
-    <message name="Quel jour êtes-vous né ?" id="quel-jour-etes-vous-ne">
+    <message name="Prêt à donner votre date de naissance ?" id="pret-a-donner-votre-date-de-naissance">
+      <recommendations>
+        <recommendation text="Oui :)" outMessageId="quel-jour-etes-vous-ne"/>
+      </recommendations>
       <sourceId>interne</sourceId>
-      <text>Quel jour êtes-vous né ?</text>
+      <text>Je vais essayer de trouver des similiratitudes entre vous et une personne connue.&#10;Pour cela j&apos;aurai besoin de vous demander votre date naissance, si vous le voulez bien. (n&apos;ayez pas peur elle ne sera utilisée que dans le cadre de cette conversation)&#10;Alors prêt pour découvrir une personne connue avec une date de naissance proche de la votre ?</text>
       <planningInfos>
         <optionalPreconditions>
           <fact value="être-chrétien"/>
@@ -9621,6 +9624,10 @@
           <fact value="aimer-dieu-toujours-plus"/>
         </potentialEffects>
       </planningInfos>
+    </message>
+    <message name="Quel jour êtes-vous né ?" id="quel-jour-etes-vous-ne">
+      <sourceId>interne</sourceId>
+      <text>Quel jour êtes-vous né ?</text>
     </message>
     <folder name="Questions" id="questions">
       <message name=" Quel livre de la Bible raconte la « Création » ?" id="quel-livre-de-la-bible-raconte-la-creation" nb="2">
