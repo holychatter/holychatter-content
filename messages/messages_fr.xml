@@ -2022,6 +2022,7 @@
         <goal value="aller-au-ciel"/>
       </goals>
       <changeSubjectInfos>
+        <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart.jpg" message="Qu&apos;est-ce que l&apos;amour ?"/>
         <subjectInfos title="Je ne suis pas chrétien." image="atheism.jpg" message="Je ne suis pas chrétien.">
           <factsToHideTheSubject>
             <fact id="ne-pas-être-chrétien"/>
@@ -8019,6 +8020,17 @@
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tZlEB-nmlsU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Hymne à l&apos;amour de Saint Paul" id="hymne-a-l-amour-de-saint-paul">
+        <triggers>
+          <trigger value="Qu&apos;est-ce que l&apos;amour ?"/>
+        </triggers>
+        <references>
+          <bible book="1 Cor" chapter="12" verseBegin="31"/>
+          <bible book="1 Cor" chapter="13" verseBegin="1" verseEnd="13"/>
+        </references>
+        <sourceId>bible</sourceId>
+        <text>Frères,&#10;    recherchez avec ardeur les dons les plus grands.&#10;Et maintenant, je vais vous indiquer le chemin par excellence.&#10;&#10;    J’aurais beau parler toutes les langues&#10;des hommes et des anges,&#10;si je n’ai pas la charité, s’il me manque l’amour,&#10;je ne suis qu’un cuivre qui résonne,&#10;une cymbale retentissante.&#10;    J’aurais beau être prophète,&#10;avoir toute la science des mystères&#10;et toute la connaissance de Dieu,&#10;j’aurais beau avoir toute la foi&#10;jusqu’à transporter les montagnes,&#10;s’il me manque l’amour,&#10;je ne suis rien.&#10;    J’aurais beau distribuer toute ma fortune aux affamés,&#10;j’aurais beau me faire brûler vif,&#10;s’il me manque l’amour,&#10;cela ne me sert à rien.&#10;&#10;    L’amour prend patience ;&#10;l’amour rend service ;&#10;l’amour ne jalouse pas ;&#10;il ne se vante pas, ne se gonfle pas d’orgueil ;&#10;    il ne fait rien d’inconvenant ;&#10;il ne cherche pas son intérêt ;&#10;il ne s’emporte pas ;&#10;il n’entretient pas de rancune ;&#10;    il ne se réjouit pas de ce qui est injuste,&#10;mais il trouve sa joie dans ce qui est vrai ;&#10;    il supporte tout, il fait confiance en tout,&#10;il espère tout, il endure tout.&#10;    L’amour ne passera jamais.&#10;&#10;Les prophéties seront dépassées,&#10;le don des langues cessera,&#10;la connaissance actuelle sera dépassée.&#10;    En effet, notre connaissance est partielle,&#10;nos prophéties sont partielles.&#10;    Quand viendra l’achèvement,&#10;ce qui est partiel sera dépassé.&#10;    Quand j’étais petit enfant,&#10;je parlais comme un enfant,&#10;je pensais comme un enfant,&#10;je raisonnais comme un enfant.&#10;Maintenant que je suis un homme,&#10;j’ai dépassé ce qui était propre à l’enfant.&#10;&#10;    Nous voyons actuellement de manière confuse,&#10;comme dans un miroir ;&#10;ce jour-là, nous verrons face à face.&#10;Actuellement, ma connaissance est partielle ;&#10;ce jour-là, je connaîtrai parfaitement,&#10;comme j’ai été connu.&#10;    Ce qui demeure aujourd’hui,&#10;c’est la foi, l’espérance et la charité ;&#10;mais la plus grande des trois,&#10;c’est la charité.</text>
+      </message>
       <message name="L&apos;excellente parabole de Mgr Michel Aupetit" id="l-excellente-parabole-de-mgr-michel-aupetit">
         <triggers>
           <trigger value="Ecouter la parabole des deux serviteurs !"/>
@@ -8810,7 +8822,7 @@
                 <bible book="Is" chapter="49" verseBegin="15" verseEnd="16"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text fileType="text_and_html">Si Dieu est amour, il n&apos;y a alors aucune créature qui ne soit portée et enveloppée d&apos;une bienveillance infinie. Dieu ne déclare pas seulement qu&apos;il est amour mais il le&#10;prouve : &lt;i&gt;Il n&apos;y a pas de plus grand amour que de donner sa vie pour ses amis&lt;/i&gt; (Jn 15, 13).</text>
+              <text>Si Dieu est amour, il n&apos;y a alors aucune créature qui ne soit portée et enveloppée d&apos;une bienveillance infinie. Dieu ne déclare pas seulement qu&apos;il est amour mais il le prouve : &lt;i&gt;Il n&apos;y a pas de plus grand amour que de donner sa vie pour ses amis&lt;/i&gt; (Jn 15, 13).</text>
             </message>
             <message name="Que veut dire : Dieu est la vérité ?" id="que-veut-dire-dieu-est-la-verite" nb="32">
               <tests>
