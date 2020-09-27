@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Bible" id="bible">
-    <folder name="About" id="about">
+  <folder name="Bible" id="bible" nb="3" image="bible.jpg">
+    <folder name="About" id="about" image="about.png">
       <message name="Bible.is" id="bibleis">
         <description>It&apos;s a Christian application.</description>
         <sourceId>internal</sourceId>
@@ -32,229 +32,9 @@
         <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
       </message>
     </folder>
-    <folder name="God" id="god">
-      <folder name="Jesus" id="jesus">
-        <message name="God became man" id="god-became-man">
-          <tests>
-            <test input="Did God become man?" output="Yes, God became man." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 9: 6-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4: 2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 2: 7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4: 6&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9: 5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 2: 13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 4: 15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-became-man&quot; textlength=&quot;5&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Is" chapter="9" verseBegin="6" verseEnd="7"/>
-            <bible book="Mt" chapter="4" verseBegin="2"/>
-            <bible book="Lk" chapter="2" verseBegin="7"/>
-            <bible book="Mt" chapter="4" verseBegin="6"/>
-            <bible book="Jn" chapter="20" verseBegin="28"/>
-            <bible book="Rom" chapter="9" verseBegin="5"/>
-            <bible book="Titus" chapter="2" verseBegin="13"/>
-            <bible book="Heb" chapter="4" verseBegin="15"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>God became man to share everything of our human condition except sin.</text>
-        </message>
-        <message name="God has decided to come down to earth to take upon himself our curse out of love for us." id="god-has-decided-to-come-down-to-earth-to-take-upon-himself-our-curse-out-of-love-for-us">
-          <references>
-            <bible book="Jn" chapter="3" verseBegin="16" verseEnd="17"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>God has decided to come down to earth to take upon himself our curse out of love for us.</text>
-        </message>
-        <message name="Jesus and prophecies" id="jesus-and-prophecies">
-          <sourceId>internal</sourceId>
-          <text>Jesus fulfills all the prophecies of the Old Testament.</text>
-        </message>
-        <message name="Jesus and the cross" id="jesus-and-the-cross">
-          <sourceId>internal</sourceId>
-          <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
-        </message>
-        <message name="Jesus is the son of God" id="jesus-is-the-son-of-god">
-          <tests>
-            <test input="Who is Jesus?" output="I don&apos;t know who Jesus is."/>
-            <test input="Jesus is the son of God?" output="I don&apos;t know if Jesus is God&apos;s son."/>
-          </tests>
-          <triggers>
-            <trigger value="Who is Jesus?"/>
-          </triggers>
-          <references>
-            <ccc verseBegin="432"/>
-          </references>
-          <sourceId>internal</sourceId>
-          <text>Jesus is the son of God.</text>
-        </message>
-        <message name="Jesus is..." id="jesus-is">
-          <sourceId>internal</sourceId>
-          <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
-        </message>
-        <message name="Jesus loves us" id="jesus-loves-us">
-          <tests>
-            <test input="Who likes me?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4: 8-10&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4: 18-21&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8: 37-39&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2: 4-7&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15: 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3: 16-19&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8: 17&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;why-do-i-exist-continuation&quot; textlength=&quot;15&quot; /&gt;"/>
-            <test input="Does Jesus like Paul?" output="I don&apos;t know if Jesus likes Paul."/>
-            <test input="Does Jesus like me?" output="I don&apos;t know if Jesus likes you."/>
-          </tests>
-          <references>
-            <bible book="Jn" chapter="3" verseBegin="16"/>
-            <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
-            <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
-            <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
-            <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
-            <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
-            <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
-            <bible book="Prov" chapter="8" verseBegin="17"/>
-          </references>
-          <sourceId>internal</sourceId>
-          <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
-        </message>
-        <message name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth-1977">
-          <triggers>
-            <trigger value="Show me the life of Jesus"/>
-          </triggers>
-          <description>It&apos;s the life of Jesus.</description>
-          <sourceId>internal</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-        <message name="The Jesus Movie (1979)" id="the-jesus-movie-1979">
-          <triggers>
-            <trigger value="Show me the life of Jesus"/>
-          </triggers>
-          <description>It&apos;s the life of Jesus.</description>
-          <sourceId>internal</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-        <message name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ-2013">
-          <triggers>
-            <trigger value="Show me the life of Jesus"/>
-          </triggers>
-          <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
-          <sourceId>internal</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-        <message name="The Son is God" id="the-son-is-god">
-          <tests>
-            <test input="The Son is God?" output="Yes, the Son is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 9: 5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2: 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14: 61-62&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10: 30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16: 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-son-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Rom" chapter="9" verseBegin="5"/>
-            <bible book="Col" chapter="2" verseBegin="9"/>
-            <bible book="Mk" chapter="14" verseBegin="61" verseEnd="62"/>
-            <bible book="Jn" chapter="10" verseBegin="30"/>
-            <bible book="Mt" chapter="16" verseBegin="16"/>
-            <site url="https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>The Son is God.</text>
-        </message>
-        <message name="Why is Jesus God?" id="why-is-jesus-god">
-          <tests>
-            <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26: 63-66&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2: 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Why is Jesus God?"/>
-          </triggers>
-          <references>
-            <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
-            <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
-            <ccc verseBegin="432"/>
-          </references>
-          <sourceId>internal</sourceId>
-          <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
-        </message>
-      </folder>
-      <folder name="The Father" id="the-father">
-        <folder name="God exists" id="god-exists">
-          <message name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part-1">
-            <description>That is why God exists.</description>
-            <sourceId>restored-cog</sourceId>
-            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </message>
-          <message name="God exists" id="god-exists">
-            <tests>
-              <test input="Does God exist?" output="Yes, God exists." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 22: 1-19&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7: 14&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52: 13-53&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 16: 15&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mic 5: 1&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 12: 3&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-exists&quot; textlength=&quot;5&quot; /&gt;"/>
-            </tests>
-            <references>
-              <bible book="Gen" chapter="22" verseBegin="1" verseEnd="19"/>
-              <bible book="Ex" chapter="12"/>
-              <bible book="Ex" chapter="13"/>
-              <bible book="Ex" chapter="14"/>
-              <bible book="Ps" chapter="22"/>
-              <bible book="Mt" chapter="1"/>
-              <bible book="Is" chapter="7" verseBegin="14"/>
-              <bible book="Is" chapter="52" verseBegin="13" verseEnd="53"/>
-              <bible book="Is" chapter="61"/>
-              <bible book="Mk" chapter="16" verseBegin="15"/>
-              <bible book="Mic" chapter="5" verseBegin="1"/>
-              <bible book="Zech" chapter="12" verseBegin="3"/>
-              <site url="https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe"/>
-            </references>
-            <sourceId>bible</sourceId>
-            <text>God exists.</text>
-          </message>
-        </folder>
-        <message name="God is good." id="god-is-good">
-          <tests>
-            <test input="God is good ?" output="Yes, God is good."/>
-          </tests>
-          <sourceId>internal</sourceId>
-          <text>God is good.</text>
-        </message>
-        <message name="God is not unfair." id="god-is-not-unfair">
-          <references>
-            <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
-          </references>
-          <sourceId>internal</sourceId>
-          <text>God is not unfair.</text>
-        </message>
-        <message name="God is not unfaithful" id="god-is-not-unfaithful">
-          <sourceId>internal</sourceId>
-          <text>God is not unfaithful.</text>
-        </message>
-        <message name="God surpasses reason" id="god-surpasses-reason">
-          <tests>
-            <test input="God surpasses reason" output="Yes, I know God surpasses the reason." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 6: 16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-surpasses-reason&quot; textlength=&quot;5&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="1 Tim" chapter="6" verseBegin="16"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>God surpasses reason.</text>
-        </message>
-        <message name="The Father is God" id="the-father-is-god">
-          <tests>
-            <test input="The Father is God?" output="Yes, the Father is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6: 27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1: 7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1: 2&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-father-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Jn" chapter="6" verseBegin="27"/>
-            <bible book="Rom" chapter="1" verseBegin="7"/>
-            <bible book="1 Pet" chapter="1" verseBegin="2"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>The Father is God.</text>
-        </message>
-        <message name="There is but one God" id="there-is-but-one-god">
-          <references>
-            <bible book="Deut" chapter="4" verseBegin="35"/>
-            <bible book="Is" chapter="46" verseBegin="9"/>
-            <bible book="1 Cor" chapter="8" verseBegin="4"/>
-          </references>
-          <sourceId>internal</sourceId>
-          <text>There is but one God.</text>
-        </message>
-      </folder>
-      <folder name="The Holy Spirit" id="the-holy-spirit">
-        <message name="The Spirit is God" id="the-spirit-is-god">
-          <tests>
-            <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 5: 3-4&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3: 16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-spirit-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
-          </tests>
-          <references>
-            <bible book="Acts" chapter="5" verseBegin="3" verseEnd="4"/>
-            <bible book="1 Cor" chapter="3" verseBegin="16"/>
-          </references>
-          <sourceId>bible</sourceId>
-          <text>The Spirit is God.</text>
-        </message>
-      </folder>
-    </folder>
-    <folder name="New Testament" id="new-testament" nb="2">
-      <folder name="Gospels" id="gospels" nb="1">
-        <folder name="About" id="about-gospels">
+    <folder name="New Testament" id="new-testament" nb="2" image="new_testament.jpg">
+      <folder name="Gospels" id="gospels" nb="1" image="evangiles.jpg">
+        <folder name="About" id="about-gospels" image="about.png">
           <message name="There is 4 gospels" id="there-is-4-gospels">
             <tests>
               <test input="How many gospels are there?" output="There are 4 gospels."/>
@@ -263,8 +43,8 @@
             <text>There is 4 gospels.</text>
           </message>
         </folder>
-        <folder name="By evangelists" id="by-evangelists" nb="2">
-          <folder name="John" id="john" nb="4">
+        <folder name="By evangelists" id="by-evangelists" nb="2" image="evangelistes.png">
+          <folder name="John" id="john" nb="4" image="jean.jpg">
             <message name="Gospel of John - THE LIFE OF JESUS (2003)" id="gospel-of-john-the-life-of-jesus-2003">
               <description>It&apos;s the life of Jesus.</description>
               <sourceId>internal</sourceId>
@@ -297,7 +77,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RUfh_wOsauk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Luke" id="luke" nb="3">
+          <folder name="Luke" id="luke" nb="3" image="luc.jpg">
             <message name="Overview: Luke Ch. 1-9" id="overview-luke-ch-1-9" nb="1">
               <tests>
                 <test input="Give me a summary of the beginning of the Gospel according to Luke!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XIb_dCIxzr0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 1-9&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-luke-ch-1-9&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -325,7 +105,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/26z_KhwNdD8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Matthew" id="matthew" nb="1">
+          <folder name="Matthew" id="matthew" nb="1" image="Saint_Mathieu.jpg">
             <message name="Overview: Matthew Ch. 1-13" id="overview-matthew-ch-1-13" nb="1">
               <tests>
                 <test input="Give me a summary of the beginning of the Gospel according to Matthew!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3Dv4-n6OYGI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-matthew-ch-1-13&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -367,8 +147,8 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HGHqu9-DtXk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="By themes" id="by-themes" nb="1">
-          <folder name="Ascension" id="ascension">
+        <folder name="By themes" id="by-themes" nb="1" image="themes.jpg">
+          <folder name="Ascension" id="ascension" image="ascension.jpg">
             <message name="ASCENSION OF JESUS CHRIST " id="ascension-of-jesus-christ">
               <tests>
                 <test input="Show me the Ascension of Jesus" output="I can&apos;t show you Jesus&apos; Ascension."/>
@@ -391,7 +171,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4qBbr1D-OlU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Mary" id="mary">
+          <folder name="Mary" id="mary" image="marie.jpg">
             <message name="Mary of Nazareth" id="mary-of-nazareth">
               <tests>
                 <test input="Show me the life of Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -403,7 +183,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DQIDjlbjuKM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Resurrection" id="resurrection">
+          <folder name="Resurrection" id="resurrection" image="resurrection.jpg">
             <message name="Jesus is resurrected" id="jesus-is-resurrected">
               <tests>
                 <test input="Is Jesus resurrected?" output="I don&apos;t know if Jesus is resurrected."/>
@@ -431,7 +211,7 @@
           </folder>
         </folder>
       </folder>
-      <folder name="Historical book" id="historical-book" nb="2">
+      <folder name="Historical book" id="historical-book" nb="2" image="apotres.jpg">
         <message name="Overview: Acts Ch. 1-12" id="overview-acts-ch-1-12" nb="1">
           <tests>
             <test input="Give me a summary of the beginning of the book of acts!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CGbNw855ksw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 1-12&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-acts-ch-1-12&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -466,7 +246,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z-17KxpjL0Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Other epistles" id="other-epistles" nb="4">
+      <folder name="Other epistles" id="other-epistles" nb="4" image="epitres.jpg">
         <message name="Overview: 1 Peter" id="overview-1-peter" nb="3">
           <tests>
             <test input="Give me a summary of the first letter of Peter!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WhP7AZQlzCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Pet 1-5&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-peter&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -548,7 +328,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6UoCmakZmys&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Pauline epistles" id="pauline-epistles" nb="3">
+      <folder name="Pauline epistles" id="pauline-epistles" nb="3" image="epitre_paul.jpg">
         <message name="Overview: 1 Corinthians" id="overview-1-corinthians" nb="2">
           <tests>
             <test input="Give me a summary of the first letter to the Corinthians!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yiHf8klCCc4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Cor 1-16&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-corinthians&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -738,7 +518,7 @@
           </message>
         </folder>
       </folder>
-      <folder name="Prophetic book" id="prophetic-book" nb="5">
+      <folder name="Prophetic book" id="prophetic-book" nb="5" image="apocalypse.jpg">
         <message name="Overview: Revelation Ch. 1-11" id="overview-revelation-ch-1-11" nb="1">
           <tests>
             <test input="Give me a summary of the beginning of the Revelation!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5nvVVcYD-0w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rev 1-11&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-revelation-ch-1-11&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -767,8 +547,8 @@
         </message>
       </folder>
     </folder>
-    <folder name="Old Testament" id="old-testament" nb="1">
-      <folder name=" Sapiential books" id="sapiential-books" nb="3">
+    <folder name="Old Testament" id="old-testament" nb="1" image="old_testament.jpg">
+      <folder name=" Sapiential books" id="sapiential-books" nb="3" image="livres_sapientiaux.jpg">
         <message name="Overview: Ecclesiastes" id="overview-ecclesiastes" nb="4">
           <tests>
             <test input="Give me a summary of the book of Ecclesiastes!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lrsQ1tc-2wk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Eccl 1-12&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-ecclesiastes&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -835,7 +615,7 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4KC7xE4fgOw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Historical books" id="historical-books" nb="2">
+      <folder name="Historical books" id="historical-books" nb="2" image="livres historiques.png">
         <message name="Overview: 1 Samuel" id="overview-1-samuel" nb="4">
           <tests>
             <test input="Give me a summary of the first book of Samuel!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QJOju5Dw0V0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Sam 1-31&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-samuel&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -959,8 +739,8 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0h1eoBeR4Jk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Pentateuch" id="pentateuch" nb="1">
-        <folder name="Exodus" id="exodus" nb="2">
+      <folder name="Pentateuch" id="pentateuch" nb="1" image="pentateuque.jpeg">
+        <folder name="Exodus" id="exodus" nb="2" image="exode.jpg">
           <message name="Overview: Exodus Ch. 1 -18" id="overview-exodus-ch-1-18" nb="1">
             <tests>
               <test input="Give me a summary of the beginning of Exodus!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jH_aojNJM3E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ex 1-18&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-exodus-ch-1-18&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -988,7 +768,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oNpTha80yyE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Genesis" id="genesis" nb="1">
+        <folder name="Genesis" id="genesis" nb="1" image="genese.jpg">
           <folder name="Abraham" id="abraham">
             <message name="Abraham, Sarah, Isaac, Jacob ( Full Movie )" id="abraham-sarah-isaac-jacob-full-movie">
               <tests>
@@ -1082,8 +862,8 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tp5MIrMZFqo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Prophetic books" id="prophetic-books" nb="4">
-        <folder name="Ezekiel" id="ezekiel" nb="4">
+      <folder name="Prophetic books" id="prophetic-books" nb="4" image="prophètes.jpeg">
+        <folder name="Ezekiel" id="ezekiel" nb="4" image="ezekiel.jpg">
           <message name="Overview: Ezekiel 1-33" id="overview-ezekiel-1-33" nb="1">
             <tests>
               <test input="Give me a summary of the beginning of the book of the prophet Ezekiel!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/R-CIPu1nko8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Ezek 1-33&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-ezekiel-1-33&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1111,7 +891,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SDeCWW_Bnyw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Isaiah" id="isaiah" nb="1">
+        <folder name="Isaiah" id="isaiah" nb="1" image="isaïe.jpg">
           <message name="Overview: Isaiah 1-39" id="overview-isaiah-1-39" nb="1">
             <tests>
               <test input="Give me a summary of the beginning of the book of the prophet Isaiah!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d0A6Uchb1F8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 1-39&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-isaiah-1-39&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1357,8 +1137,237 @@
       </goals>
     </chatbot>
   </folder>
-  <folder name="Church" id="church">
-    <folder name="Mass" id="mass">
+  <folder name="Church" id="church" nb="6" image="church.jpg">
+    <folder name="Chat" id="chat" isHidden="true">
+      <message name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
+        <triggers>
+          <trigger value="I don&apos;t know the Catholic Church."/>
+        </triggers>
+        <sourceId>internal</sourceId>
+        <text>Do you want to see a video that describe the Church ?</text>
+      </message>
+    </folder>
+    <folder name="God" id="god" image="god.jpg">
+      <folder name="Jesus" id="jesus" image="jesus.jpg">
+        <message name="God became man" id="god-became-man">
+          <tests>
+            <test input="Did God become man?" output="Yes, God became man." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 9: 6-7&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4: 2&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Lk 2: 7&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 4: 6&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 9: 5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Titus 2: 13&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Heb 4: 15&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-became-man&quot; textlength=&quot;5&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Is" chapter="9" verseBegin="6" verseEnd="7"/>
+            <bible book="Mt" chapter="4" verseBegin="2"/>
+            <bible book="Lk" chapter="2" verseBegin="7"/>
+            <bible book="Mt" chapter="4" verseBegin="6"/>
+            <bible book="Jn" chapter="20" verseBegin="28"/>
+            <bible book="Rom" chapter="9" verseBegin="5"/>
+            <bible book="Titus" chapter="2" verseBegin="13"/>
+            <bible book="Heb" chapter="4" verseBegin="15"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>God became man to share everything of our human condition except sin.</text>
+        </message>
+        <message name="God has decided to come down to earth to take upon himself our curse out of love for us." id="god-has-decided-to-come-down-to-earth-to-take-upon-himself-our-curse-out-of-love-for-us">
+          <references>
+            <bible book="Jn" chapter="3" verseBegin="16" verseEnd="17"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>God has decided to come down to earth to take upon himself our curse out of love for us.</text>
+        </message>
+        <message name="Jesus and prophecies" id="jesus-and-prophecies">
+          <sourceId>internal</sourceId>
+          <text>Jesus fulfills all the prophecies of the Old Testament.</text>
+        </message>
+        <message name="Jesus and the cross" id="jesus-and-the-cross">
+          <sourceId>internal</sourceId>
+          <text>Jesus goes so far as to die on the cross to deliver us from sin and death.</text>
+        </message>
+        <message name="Jesus is the son of God" id="jesus-is-the-son-of-god">
+          <tests>
+            <test input="Who is Jesus?" output="I don&apos;t know who Jesus is."/>
+            <test input="Jesus is the son of God?" output="I don&apos;t know if Jesus is God&apos;s son."/>
+          </tests>
+          <triggers>
+            <trigger value="Who is Jesus?"/>
+          </triggers>
+          <references>
+            <ccc verseBegin="432"/>
+          </references>
+          <sourceId>internal</sourceId>
+          <text>Jesus is the son of God.</text>
+        </message>
+        <message name="Jesus is..." id="jesus-is">
+          <sourceId>internal</sourceId>
+          <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
+        </message>
+        <message name="Jesus loves us" id="jesus-loves-us">
+          <tests>
+            <test input="Who likes me?" output="Jesus and God" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4: 8-10&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4: 18-21&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 8: 37-39&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 2: 4-7&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 15: 9-10&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Eph 3: 16-19&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Prov 8: 17&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;why-do-i-exist-continuation&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="Does Jesus like Paul?" output="I don&apos;t know if Jesus likes Paul."/>
+            <test input="Does Jesus like me?" output="I don&apos;t know if Jesus likes you."/>
+          </tests>
+          <references>
+            <bible book="Jn" chapter="3" verseBegin="16"/>
+            <bible book="1 Jn" chapter="4" verseBegin="8" verseEnd="10"/>
+            <bible book="1 Jn" chapter="4" verseBegin="18" verseEnd="21"/>
+            <bible book="Rom" chapter="8" verseBegin="37" verseEnd="39"/>
+            <bible book="Eph" chapter="2" verseBegin="4" verseEnd="7"/>
+            <bible book="Jn" chapter="15" verseBegin="9" verseEnd="10"/>
+            <bible book="Eph" chapter="3" verseBegin="16" verseEnd="19"/>
+            <bible book="Prov" chapter="8" verseBegin="17"/>
+          </references>
+          <sourceId>internal</sourceId>
+          <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
+        </message>
+        <message name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth-1977">
+          <triggers>
+            <trigger value="Show me the life of Jesus"/>
+          </triggers>
+          <description>It&apos;s the life of Jesus.</description>
+          <sourceId>internal</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/50IiF1rTTGQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="The Jesus Movie (1979)" id="the-jesus-movie-1979">
+          <triggers>
+            <trigger value="Show me the life of Jesus"/>
+          </triggers>
+          <description>It&apos;s the life of Jesus.</description>
+          <sourceId>internal</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dcj_lQWcuAk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="The Life Of Jesus Christ (2013)" id="the-life-of-jesus-christ-2013">
+          <triggers>
+            <trigger value="Show me the life of Jesus"/>
+          </triggers>
+          <description>It&apos;s the life of Jesus.&#10;It&apos;s Jesus.</description>
+          <sourceId>internal</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o-ZcbjLBtls&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="The Son is God" id="the-son-is-god">
+          <tests>
+            <test input="The Son is God?" output="Yes, the Son is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Rom 9: 5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Col 2: 9&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14: 61-62&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 10: 30&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 16: 16&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-son-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Rom" chapter="9" verseBegin="5"/>
+            <bible book="Col" chapter="2" verseBegin="9"/>
+            <bible book="Mk" chapter="14" verseBegin="61" verseEnd="62"/>
+            <bible book="Jn" chapter="10" verseBegin="30"/>
+            <bible book="Mt" chapter="16" verseBegin="16"/>
+            <site url="https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>The Son is God.</text>
+        </message>
+        <message name="Why is Jesus God?" id="why-is-jesus-god">
+          <tests>
+            <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 26: 63-66&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 2: 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Why is Jesus God?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="26" verseBegin="63" verseEnd="66"/>
+            <bible book="Mt" chapter="2" verseBegin="32" verseEnd="36"/>
+            <ccc verseBegin="432"/>
+          </references>
+          <sourceId>internal</sourceId>
+          <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
+        </message>
+      </folder>
+      <folder name="The Father" id="the-father">
+        <folder name="God exists" id="god-exists">
+          <message name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part-1">
+            <description>That is why God exists.</description>
+            <sourceId>restored-cog</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="God exists" id="god-exists">
+            <tests>
+              <test input="Does God exist?" output="Yes, God exists." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 22: 1-19&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_bible ref=&quot;Is 7: 14&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Is 52: 13-53&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 16: 15&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Mic 5: 1&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Zech 12: 3&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-exists&quot; textlength=&quot;5&quot; /&gt;"/>
+            </tests>
+            <references>
+              <bible book="Gen" chapter="22" verseBegin="1" verseEnd="19"/>
+              <bible book="Ex" chapter="12"/>
+              <bible book="Ex" chapter="13"/>
+              <bible book="Ex" chapter="14"/>
+              <bible book="Ps" chapter="22"/>
+              <bible book="Mt" chapter="1"/>
+              <bible book="Is" chapter="7" verseBegin="14"/>
+              <bible book="Is" chapter="52" verseBegin="13" verseEnd="53"/>
+              <bible book="Is" chapter="61"/>
+              <bible book="Mk" chapter="16" verseBegin="15"/>
+              <bible book="Mic" chapter="5" verseBegin="1"/>
+              <bible book="Zech" chapter="12" verseBegin="3"/>
+              <site url="https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe"/>
+            </references>
+            <sourceId>bible</sourceId>
+            <text>God exists.</text>
+          </message>
+        </folder>
+        <message name="God is good." id="god-is-good">
+          <tests>
+            <test input="God is good ?" output="Yes, God is good."/>
+          </tests>
+          <sourceId>internal</sourceId>
+          <text>God is good.</text>
+        </message>
+        <message name="God is not unfair." id="god-is-not-unfair">
+          <references>
+            <bible book="Rom" chapter="9" verseBegin="9" verseEnd="18"/>
+          </references>
+          <sourceId>internal</sourceId>
+          <text>God is not unfair.</text>
+        </message>
+        <message name="God is not unfaithful" id="god-is-not-unfaithful">
+          <sourceId>internal</sourceId>
+          <text>God is not unfaithful.</text>
+        </message>
+        <message name="God surpasses reason" id="god-surpasses-reason">
+          <tests>
+            <test input="God surpasses reason" output="Yes, I know God surpasses the reason." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Tim 6: 16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-surpasses-reason&quot; textlength=&quot;5&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="1 Tim" chapter="6" verseBegin="16"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>God surpasses reason.</text>
+        </message>
+        <message name="The Father is God" id="the-father-is-god">
+          <tests>
+            <test input="The Father is God?" output="Yes, the Father is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 6: 27&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Rom 1: 7&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;1 Pet 1: 2&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-father-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Jn" chapter="6" verseBegin="27"/>
+            <bible book="Rom" chapter="1" verseBegin="7"/>
+            <bible book="1 Pet" chapter="1" verseBegin="2"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>The Father is God.</text>
+        </message>
+        <message name="There is but one God" id="there-is-but-one-god">
+          <references>
+            <bible book="Deut" chapter="4" verseBegin="35"/>
+            <bible book="Is" chapter="46" verseBegin="9"/>
+            <bible book="1 Cor" chapter="8" verseBegin="4"/>
+          </references>
+          <sourceId>internal</sourceId>
+          <text>There is but one God.</text>
+        </message>
+      </folder>
+      <folder name="The Holy Spirit" id="the-holy-spirit">
+        <message name="The Spirit is God" id="the-spirit-is-god">
+          <tests>
+            <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 5: 3-4&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;1 Cor 3: 16&quot; textlength=&quot;11&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-spirit-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
+          </tests>
+          <references>
+            <bible book="Acts" chapter="5" verseBegin="3" verseEnd="4"/>
+            <bible book="1 Cor" chapter="3" verseBegin="16"/>
+          </references>
+          <sourceId>bible</sourceId>
+          <text>The Spirit is God.</text>
+        </message>
+      </folder>
+    </folder>
+    <folder name="Mass" id="mass" image="mass.jpg">
       <folder name="Readings" id="readings">
         <message name="First Reading" id="first-reading">
           <sourceId>daily-gospel</sourceId>
@@ -1395,7 +1404,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Saints" id="saints">
+    <folder name="Saints" id="saints" image="person.jpg">
       <folder name="Mother Teresa" id="mother-teresa">
         <message name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television-1974">
           <tests>
@@ -1437,23 +1446,7 @@
         </message>
       </folder>
     </folder>
-    <message name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
-      <triggers>
-        <trigger value="I don&apos;t know the Catholic Church."/>
-      </triggers>
-      <sourceId>internal</sourceId>
-      <text>Do you want to see a video that describe the Church ?</text>
-    </message>
-    <folder name="Teaching" id="teaching">
-      <message name="Credo" id="credo">
-        <tests>
-          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;."/>
-        </tests>
-        <sourceId>internal</sourceId>
-        <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
-      </message>
-    </folder>
-    <folder name="Usual answers" id="usual-answers">
+    <folder name="Usual answers" id="usual-answers" isHidden="true">
       <message name="Christ is risen!" id="christ-is-risen">
         <triggers>
           <trigger value="Christ is risen!"/>
@@ -1494,9 +1487,9 @@
       </message>
     </folder>
   </folder>
-  <folder name="Discovery" id="discovery">
-    <folder name="By age" id="by-age">
-      <folder name="Everybody" id="everybody">
+  <folder name="Discovery" id="discovery" nb="2" isHidden="true" image="discover.jpg">
+    <folder name="By age" id="by-age" image="by_age.jpg">
+      <folder name="Everybody" id="everybody" image="by_age.jpg">
         <folder name="Holy Chatter" id="holy-chatter">
           <message name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
             <sourceId>internal</sourceId>
@@ -1533,8 +1526,8 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Prayers" id="prayers">
-    <folder name="Jesus" id="jesus-prayers">
+  <folder name="Prayers" id="prayers" nb="4" image="prier.jpg">
+    <folder name="Jesus" id="jesus-prayers" image="jesus.jpg">
       <message name="Eucharistic Adoration: St. Stephen Catholic Church" id="eucharistic-adoration-st-stephen-catholic-church">
         <tests>
           <test input="I want to see Jesus."/>
@@ -1546,7 +1539,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Rosary" id="rosary">
+    <folder name="Rosary" id="rosary" image="chapelet.jpg">
       <message name="Holy Rosary - Joyful Mysteries - Monday &amp; Saturday" id="holy-rosary-joyful-mysteries-monday-saturday">
         <triggers>
           <trigger value="How to pray the rosary?"/>
@@ -1555,8 +1548,17 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cvKWpiVLuRk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
+    <folder name="What we believe in" id="what-we-believe-in" image="croyons.jpeg">
+      <message name="Credo" id="credo">
+        <tests>
+          <test input="What is the credo?" output="The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;."/>
+        </tests>
+        <sourceId>internal</sourceId>
+        <text>The credo is &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;</text>
+      </message>
+    </folder>
   </folder>
-  <folder name="Teachings" id="teachings">
+  <folder name="Teachings" id="teachings" nb="5" image="teachings.jpeg">
     <folder name="3 Minute Catechism" id="3-minute-catechism">
       <folder name="Basics" id="basics" nb="1">
         <message name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
@@ -2851,7 +2853,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="YOUCAT" id="youcat">
+    <folder name="YOUCAT" id="youcat" image="youcat.jpg">
       <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="166">
         <message name="What is liturgy?" id="what-is-liturgy" nb="167">
           <tests>
@@ -3825,7 +3827,7 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Testimonies" id="testimonies">
+  <folder name="Testimonies" id="testimonies" nb="1" image="prises_de_parole.jpeg">
     <message name=" My Testimony about Jesus Christ - (Why I Left Islam)" id="my-testimony-about-jesus-christ-why-i-left-islam">
       <triggers>
         <trigger value="Show me a Christian testimony"/>
