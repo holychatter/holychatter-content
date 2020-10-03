@@ -8633,6 +8633,23 @@
               <sourceId>youcat</sourceId>
               <text>Jésus de Nazareth est le Fils, la deuxième personne de la Sainte Trinité, celui que nous invoquons quand nous prions : &lt;i&gt;Au nom du Père et du Fils et du Saint-Esprit&lt;/i&gt; (Mt 28, 19).</text>
             </message>
+            <folder name="La créature humaine" id="la-creature-humaine" nb="56" image="body.jpg">
+              <message name="L&apos;homme a-t-il une place spéciale dans la création ?" id="l-homme-a-t-il-une-place-speciale-dans-la-creation" nb="56">
+                <tests>
+                  <test input="L&apos;homme a-t-il une place spéciale dans la création ?" output="Je ne sais pas si l&apos;homme a une place spéciale dans la création mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+                </tests>
+                <triggers>
+                  <trigger value="L&apos;homme a-t-il une place spéciale dans la création ?"/>
+                </triggers>
+                <references>
+                  <bible book="Gen" chapter="1" verseBegin="27"/>
+                  <ccc verseBegin="343" verseEnd="344"/>
+                  <ccc verseBegin="353"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Oui. L&apos;homme est Le sommet de La création, parce que Dieu l&apos;a créé à son image.</text>
+              </message>
+            </folder>
             <folder name="La divine providence" id="la-divine-providence" nb="49" image="divine_providence.jpg">
               <message name="Dieu dirige-t-il le monde et ma vie ?" id="dieu-dirige-t-il-le-monde-et-ma-vie" nb="49">
                 <tests>
@@ -8647,6 +8664,52 @@
                 <sourceId>youcat</sourceId>
                 <text>Oui, mais d&apos;une manière mystérieuse : Dieu dirige toutes choses vers leur accomplissement mais par des chemins connus de lui seul. À aucun moment, il ne laisse échapper de ses mains ce qu&apos;il a créé.</text>
               </message>
+              <message name="Quelle est la place de l&apos;homme dans la divine Providence ?" id="quelle-est-la-place-de-l-homme-dans-la-divine-providence" nb="50">
+                <tests>
+                  <test input="Quelle est la place de l&apos;homme dans la divine Providence ?" output="La divine Providence n&apos;achève pas la création indépendamment de nous. Elle nous invite à collaborer à l&apos;achèvement de la création." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 10, 30&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;307-308&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-place-de-l-homme-dans-la-divine-providence&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Quelle est la place de l&apos;homme dans la divine Providence ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="307" verseEnd="308"/>
+                  <bible book="Mt" chapter="10" verseBegin="30"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>La divine Providence n&apos;achève pas la création indépendamment de nous. Elle nous invite à collaborer à l&apos;achèvement de la création.</text>
+              </message>
+              <message name="Si Dieu sait tout et peut tout, pourquoi n&apos;empêche-t-il pas le mal ?" id="si-dieu-sait-tout-et-peut-tout-pourquoi-n-empeche-t-il-pas-le-mal" nb="51">
+                <tests>
+                  <test input="Si Dieu sait tout et peut tout, pourquoi n&apos;empêche-t-il pas le mal ?" isOk="false"/>
+                </tests>
+                <triggers>
+                  <trigger value="Si Dieu sait tout et peut tout, pourquoi n&apos;empêche-t-il pas le mal ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="309" verseEnd="314"/>
+                  <ccc verseBegin="324"/>
+                  <bible book="Rom" chapter="8" verseBegin="18"/>
+                  <bible book="Mt" chapter="27" verseBegin="46"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>« Dieu ne tolère le mal que pour en faire sortir quelque chose de mieux » (saint Thomas d&apos;Aquin).</text>
+              </message>
+            </folder>
+            <message name="La recherche scientifique rend-elle superflu le recours à un Créateur ?" id="la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur" nb="41">
+              <tests>
+                <test input="La recherche scientifique rend-elle superflu le recours à un Créateur ?" output="Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Sg 11, 24&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="La recherche scientifique rend-elle superflu le recours à un Créateur ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="282" verseEnd="289"/>
+                <bible book="Wis" chapter="11" verseBegin="24"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine.</text>
+            </message>
+            <folder name="Le ciel et les créatures célestes" id="le-ciel-et-les-creatures-celestes" nb="52" image="ange_gardien.jpg">
               <message name="Est-il possible d&apos;entrer en relation avec les anges ?" id="est-il-possible-d-entrer-en-relation-avec-les-anges" nb="55">
                 <tests>
                   <test input="Est-il possible d&apos;entrer en relation avec les anges ?" output="Je ne sais pas si il est possible d&apos;entrer en relation avec les anges mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
@@ -8701,48 +8764,7 @@
                 <sourceId>youcat</sourceId>
                 <text>Les anges sont des créatures purement spirituelles de Dieu qui possèdent intelligence et volonté. Ce ne sont pas des êtres corporels, ils sont immortels et ne sont pas visibles habituellement. Vivant toujours en présence de Dieu, ils communiquent aux hommes la volonté de Dieu et la protection de Dieu.</text>
               </message>
-              <message name="Quelle est la place de l&apos;homme dans la divine Providence ?" id="quelle-est-la-place-de-l-homme-dans-la-divine-providence" nb="50">
-                <tests>
-                  <test input="Quelle est la place de l&apos;homme dans la divine Providence ?" output="La divine Providence n&apos;achève pas la création indépendamment de nous. Elle nous invite à collaborer à l&apos;achèvement de la création." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Mt 10, 30&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;307-308&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-place-de-l-homme-dans-la-divine-providence&quot; textlength=&quot;6&quot; /&gt;"/>
-                </tests>
-                <triggers>
-                  <trigger value="Quelle est la place de l&apos;homme dans la divine Providence ?"/>
-                </triggers>
-                <references>
-                  <ccc verseBegin="307" verseEnd="308"/>
-                  <bible book="Mt" chapter="10" verseBegin="30"/>
-                </references>
-                <sourceId>youcat</sourceId>
-                <text>La divine Providence n&apos;achève pas la création indépendamment de nous. Elle nous invite à collaborer à l&apos;achèvement de la création.</text>
-              </message>
-              <message name="Si Dieu sait tout et peut tout, pourquoi n&apos;empêche-t-il pas le mal ?" id="si-dieu-sait-tout-et-peut-tout-pourquoi-n-empeche-t-il-pas-le-mal" nb="51">
-                <triggers>
-                  <trigger value="Si Dieu sait tout et peut tout, pourquoi n&apos;empêche-t-il pas le mal ?"/>
-                </triggers>
-                <references>
-                  <ccc verseBegin="309" verseEnd="314"/>
-                  <ccc verseBegin="324"/>
-                  <bible book="Rom" chapter="8" verseBegin="18"/>
-                  <bible book="Mt" chapter="27" verseBegin="46"/>
-                </references>
-                <sourceId>youcat</sourceId>
-                <text>« Dieu ne tolère le mal que pour en faire sortir quelque chose de mieux » (saint Thomas d&apos;Aquin).</text>
-              </message>
             </folder>
-            <message name="La recherche scientifique rend-elle superflu le recours à un Créateur ?" id="la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur" nb="41">
-              <tests>
-                <test input="La recherche scientifique rend-elle superflu le recours à un Créateur ?" output="Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Sg 11, 24&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;282-289&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;la-recherche-scientifique-rend-elle-superflu-le-recours-a-un-createur&quot; textlength=&quot;6&quot; /&gt;"/>
-              </tests>
-              <triggers>
-                <trigger value="La recherche scientifique rend-elle superflu le recours à un Créateur ?"/>
-              </triggers>
-              <references>
-                <ccc verseBegin="282" verseEnd="289"/>
-                <bible book="Wis" chapter="11" verseBegin="24"/>
-              </references>
-              <sourceId>youcat</sourceId>
-              <text>Non. La phrase « Dieu a créé Le monde » n&apos;est pas une affirmation d&apos;ordre scientifique qui serait périmée. Il s&apos;agit d’une affirmation théo-logique, ce qui veut dire une affirmation sur la place des choses dans l&apos;ordre divin (theos, « Dieu », logos, « sens ») et sur leur origine divine.</text>
-            </message>
             <message name="Le monde est-il un produit du hasard ?" id="le-monde-est-il-un-produit-du-hasard" nb="43">
               <tests>
                 <test input="Le monde est-il un produit du hasard ?" output="Non. Dieu, et non Le hasard, est à l&apos;origine du monde. Ni dans son origine, ni dans son ordre interne, ni dans sa finalité, le monde n&apos;est le résultat de forces agissant « sans aucun sens »." outputReferences="Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;295-301&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;317-318&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;320&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-monde-est-il-un-produit-du-hasard&quot; textlength=&quot;6&quot; /&gt;"/>
