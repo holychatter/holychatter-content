@@ -380,6 +380,22 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vyQme1-Libg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <folder name="À propos" id="a-propos-livres-prophetiques" image="about.png">
+          <message name="Comment lire un prophète ? Les fiançailles au désert" id="comment-lire-un-prophete-les-fiancailles-au-desert">
+            <tests>
+              <test input="Comment lire un prophète ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GStY2QyGSsM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Jr 2, 1-13&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Jr 31, 33&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-lire-un-prophete-les-fiancailles-au-desert&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment lire un prophète ?"/>
+            </triggers>
+            <references>
+              <bible book="Jer" chapter="2" verseBegin="1" verseEnd="13"/>
+              <bible book="Jer" chapter="31" verseBegin="33"/>
+            </references>
+            <sourceId>theodom</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GStY2QyGSsM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
       </folder>
       <folder name="Livres sapientiaux" id="livres-sapientiaux" nb="3" image="livres_sapientiaux.jpg">
         <message name="Cantique des cantiques - Synthèse" id="cantique-des-cantiques-synthese" nb="5">
@@ -434,19 +450,38 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aY3R8FpE92Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <message name="Psaumes - Synthèse" id="psaumes-synthese" nb="2">
-          <tests>
-            <test input="Fais-moi un résumé du livre des Psaumes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 1-150&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;psaumes-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre des Psaumes !"/>
-          </triggers>
-          <references>
-            <bible book="Ps" chapter="1" chapterEnd="150"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
+        <folder name="Psaumes" id="psaumes" nb="2" image="psalms.jpg">
+          <message name="Psaumes - Synthèse" id="psaumes-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du livre des Psaumes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 1-150&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;psaumes-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre des Psaumes !"/>
+            </triggers>
+            <references>
+              <bible book="Ps" chapter="1" chapterEnd="150"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <folder name="À propos" id="a-propos-psaumes" image="about.png">
+            <message name="Comment lire un psaume ? Je reposerai dans la confiance" id="comment-lire-un-psaume-je-reposerai-dans-la-confiance">
+              <tests>
+                <test input="Comment lire un psaume ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XPUVyGHeqNU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ps 15&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_bible ref=&quot;Dt 18, 2&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2, 31&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-lire-un-psaume-je-reposerai-dans-la-confiance&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment lire un psaume ?"/>
+              </triggers>
+              <references>
+                <bible book="Ps" chapter="15"/>
+                <bible book="Deut" chapter="18" verseBegin="2"/>
+                <bible book="Acts" chapter="2" verseBegin="31"/>
+              </references>
+              <sourceId>theodom</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XPUVyGHeqNU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
+        </folder>
       </folder>
       <folder name="Pentateuque" id="pentateuque" nb="1" image="pentateuque.jpeg">
         <message name="Deutéronome - Synthèse" id="deuteronome-synthese" nb="5">
@@ -949,6 +984,23 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2aNe6TsB64w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <folder name="À propos" id="a-propos-epitres-de-paul" image="about.png">
+          <message name="Comment lire Saint Paul ? L’hymne aux Philippiens et son contexte" id="comment-lire-saint-paul-l-hymne-aux-philippiens-et-son-contexte">
+            <tests>
+              <test input="Comment lire Saint Paul ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Lli1i9-iEA8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ph 2, 1-13&quot; textlength=&quot;10&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2, 33&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ac 2, 38&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-lire-saint-paul-l-hymne-aux-philippiens-et-son-contexte&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Comment lire Saint Paul ?"/>
+            </triggers>
+            <references>
+              <bible book="Phil" chapter="2" verseBegin="1" verseEnd="13"/>
+              <bible book="Acts" chapter="2" verseBegin="33"/>
+              <bible book="Acts" chapter="2" verseBegin="38"/>
+            </references>
+            <sourceId>theodom</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Lli1i9-iEA8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
         <message name="Éphésiens - Synthèse" id="ephesiens-synthese" nb="5">
           <tests>
             <test input="Fais-moi un résumé de la lettre de Paul aux éphésiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7pUE5wvhbBI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Ep 1-6&quot; textlength=&quot;6&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ephesiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3950,6 +4002,23 @@
             <sourceUrl>https://www.youtube.com/watch?v=m27xeMQQHh4</sourceUrl>
             <text>Ce qui est incroyable, c&apos;est qu&apos;une poignée d&apos;hommes illettrés pauvres, pas très formés ont répondus cette nouvelle en 300 ans l&apos;Empire romain au point qu&apos;en 312 l&apos;empereur de l&apos;Empire romain est devenu chrétien.&#10;Et depuis 2 000 ans rien ni personne, aucun régime ni aucune persécution n&apos;ont pu arrêter la propagation de cette bonne nouvelle.</text>
           </message>
+          <message name="La résurrection de Jésus" id="la-resurrection-de-jesus">
+            <references>
+              <bible book="Mk" chapter="16" verseBegin="4" verseEnd="6"/>
+              <bible book="Dan" chapter="10" verseBegin="5"/>
+              <bible book="Mt" chapter="28" verseBegin="1" verseEnd="2"/>
+              <bible book="Mt" chapter="28" verseBegin="15"/>
+              <bible book="Lk" chapter="24" verseBegin="4" verseEnd="5"/>
+              <bible book="Deut" chapter="19" verseBegin="15"/>
+              <bible book="Tob" chapter="13" verseBegin="1"/>
+              <bible book="Lk" chapter="24" verseBegin="6" verseEnd="7"/>
+              <bible book="Lk" chapter="24" verseBegin="11"/>
+              <bible book="Jn" chapter="20" verseBegin="1" verseEnd="8"/>
+              <bible book="Jn" chapter="14" verseBegin="21"/>
+            </references>
+            <sourceId>theodom</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Om23NPW459s&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="La résurrection mythe ou réalité ?" id="la-resurrection-mythe-ou-realite" nb="1">
             <tests>
               <test input="La résurrection mythe ou réalité ?" output="Examinons plusieurs éléments." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
@@ -4844,9 +4913,9 @@
         <folder name="Qui est-il ?" id="qui-est-il" nb="2">
           <message name="Ce que Jésus dit" id="ce-que-jesus-dit" nb="6">
             <references>
-              <bible book="Mt" chapter="10" verseBegin="40"/>
-              <bible book="Jn" chapter="14" verseBegin="21"/>
-              <bible book="Jn" chapter="14" verseBegin="9"/>
+              <bible book="Mt" chapter="10" verseBegin="40" linkFromCorpus="no"/>
+              <bible book="Jn" chapter="14" verseBegin="21" linkFromCorpus="no"/>
+              <bible book="Jn" chapter="14" verseBegin="9" linkFromCorpus="no"/>
             </references>
             <sourceId>bible</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Jésus dit aussi &lt;i&gt;« Quiconque m&apos;accueille, accueille celui qui m&apos;a envoyé. »&lt;/i&gt; et &lt;i&gt;« Celui qui me reçoit, ne reçoit pas seulement moi-même mais aussi celui qui m&apos;a envoyé. »&lt;/i&gt;. De même &lt;i&gt;« Celui qui m&apos;a vu a vu le Père. »&lt;/i&gt;&lt;/span&gt;</text>
@@ -8647,6 +8716,20 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text>L&apos;homme doit honorer le Créateur dans ses créatures et il doit se comporter avec elles avec soin et de manière responsable. Les hommes, les animaux et les plantes ont le même Créateur qui les a appelés à l&apos;existence par amour. L&apos;amour des animaux est donc un sentiment profondément humain.</text>
+              </message>
+              <message name="En quoi consiste l&apos;égalité entre les hommes ?" id="en-quoi-consiste-l-egalite-entre-les-hommes" nb="61">
+                <tests>
+                  <test input="En quoi consiste l&apos;égalité entre les hommes ?" output="Tous les hommes sont égaux parce qu&apos;ils ont une même origine dans l&apos;amour créateur de Dieu. Tous les hommes ont un sauveur en la personne de Jésus. Tous les hommes sont destinés à trouver leur bonheur et leur béatitude éternels en Dieu." outputReferences="Versets de la Bible : &lt;hc_bible ref=&quot;Pr 31, 8&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catéchisme de l&apos;Église catholique n° &lt;hc_ccc ref=&quot;360-361&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;en-quoi-consiste-l-egalite-entre-les-hommes&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="En quoi consiste l&apos;égalité entre les hommes ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="360" verseEnd="361"/>
+                  <bible book="Prov" chapter="31" verseBegin="8"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Tous les hommes sont égaux parce qu&apos;ils ont une même origine dans l&apos;amour créateur de Dieu. Tous les hommes ont un sauveur en la personne de Jésus. Tous les hommes sont destinés à trouver leur bonheur et leur béatitude éternels en Dieu.</text>
               </message>
               <message name="L&apos;homme a-t-il une place spéciale dans la création ?" id="l-homme-a-t-il-une-place-speciale-dans-la-creation" nb="56">
                 <tests>
