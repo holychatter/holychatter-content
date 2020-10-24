@@ -2849,7 +2849,53 @@
       </folder>
     </folder>
     <folder name="YOUCAT" id="youcat" image="youcat.jpg">
-      <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="166">
+      <folder name="How We Are to Have Life in Christ" id="how-we-are-to-have-life-in-christ" nb="279" image="jesus.jpg">
+        <message name="How can we distinguish serious sins (mortal sins) from less serious (venial) sins?" id="how-can-we-distinguish-serious-sins-mortal-sins-from-less-serious-venial-sins" nb="316">
+          <tests>
+            <test input="How can we distinguish serious sins (mortal sins) from less serious (venial) sins?" output="Serious sin destroys the divine power of love in a person’s heart, without which there can be no eternal beatitude. Hence it is also called mortal sin. Serious sin breaks with God, whereas venial sin only strains the relationship with him." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1852-1861&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1874&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-can-we-distinguish-serious-sins-mortal-sins-from-less-serious-venial-sins&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="What is the differences between mortal sins and venial sins?" output="Serious sin destroys the divine power of love in a person’s heart, without which there can be no eternal beatitude. Hence it is also called mortal sin. Serious sin breaks with God, whereas venial sin only strains the relationship with him." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1852-1861&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1874&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-can-we-distinguish-serious-sins-mortal-sins-from-less-serious-venial-sins&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="How can we distinguish serious sins (mortal sins) from less serious (venial) sins?"/>
+            <trigger value="What is the differences between mortal sins and venial sins?"/>
+          </triggers>
+          <references>
+            <ccc verseBegin="1852" verseEnd="1861"/>
+            <ccc verseBegin="1874"/>
+          </references>
+          <sourceId>youcat</sourceId>
+          <text>Serious sin destroys the divine power of love in a person’s heart, without which there can be no eternal beatitude. Hence it is also called mortal sin. Serious sin breaks with God, whereas venial sin only strains the relationship with him.</text>
+        </message>
+        <message name="What is a mortal sin?" id="what-is-a-mortal-sin" nb="316">
+          <tests>
+            <test input="What is a mortal sin?" output="A mortal sin destroys the divine power of love in a person’s heart, without which there can be no eternal beatitude. Hence it is called mortal sin. It breaks with God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1854-1861&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_ccc ref=&quot;1874&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-a-mortal-sin&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="What is a mortal sin?"/>
+          </triggers>
+          <references>
+            <ccc verseBegin="1854" verseEnd="1861"/>
+            <ccc verseBegin="1874"/>
+          </references>
+          <sourceId>youcat</sourceId>
+          <text>A mortal sin destroys the divine power of love in a person’s heart, without which there can be no eternal beatitude. Hence it is called mortal sin. It breaks with God.</text>
+        </message>
+        <message name="What is a venial sin?" id="what-is-a-venial-sin" nb="316">
+          <tests>
+            <test input="What is a venial sin?" output="A venial sin strains the relationship with God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1854&quot; textlength=&quot;4&quot; /&gt;; &lt;hc_ccc ref=&quot;1856&quot; textlength=&quot;4&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-a-venial-sin&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="What is a venial sin?"/>
+          </triggers>
+          <references>
+            <ccc verseBegin="1854"/>
+            <ccc verseBegin="1856"/>
+          </references>
+          <sourceId>youcat</sourceId>
+          <text>A venial sin strains the relationship with God.</text>
+        </message>
+      </folder>
+      <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="166" image="eucharist.jpg">
         <message name="What is liturgy?" id="what-is-liturgy" nb="167">
           <tests>
             <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2861,8 +2907,8 @@
           <text>Liturgy is the official divine worship of the Church.</text>
         </message>
       </folder>
-      <folder name="What We Believe" id="what-we-believe" nb="1">
-        <folder name="The Christian Profession of Faith" id="the-christian-profession-of-faith" nb="25">
+      <folder name="What We Believe" id="what-we-believe" nb="1" image="croyons.jpeg">
+        <folder name="The Christian Profession of Faith" id="the-christian-profession-of-faith" nb="25" image="resurrection.jpg">
           <message name="How did the creeds come about?" id="how-did-the-creeds-come-about" nb="27">
             <tests>
               <test input="How did the creeds come about?" output="The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity)." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 28: 19&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;188-191&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-did-the-creeds-come-about&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -2877,7 +2923,7 @@
             <sourceId>youcat</sourceId>
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
-          <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30">
+          <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" image="believe_in_god.jpg">
             <message name="Can God do anything? Is he almighty?" id="can-god-do-anything-is-he-almighty" nb="40">
               <tests>
                 <test input="Can God do anything?" output="“For God nothing is impossible” (see Lk 1:37). He is almighty." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Is 55: 8&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 135: 5-6&quot; textlength=&quot;11&quot; /&gt;; &lt;hc_bible ref=&quot;Mk 14: 36&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-god-do-anything-is-he-almighty&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3013,6 +3059,65 @@
               <sourceId>youcat</sourceId>
               <text>No. The sentence “God created the world” is not an outmoded scientific statement. We are dealing here with a theo-logical statement, therefore a statement about the divine meaning (theos = God, logos = meaning) and origin of things.</text>
             </message>
+            <folder name="Fallen Man" id="fallen-man" nb="67" image="homme_dechu.png">
+              <message name="Are we compelled to sin by original sin?" id="are-we-compelled-to-sin-by-original-sin" nb="69">
+                <tests>
+                  <test input="Are we compelled to sin by original sin?" output="No. Man, though, is deeply wounded by original sin and is inclined to sin. Nevertheless, with God’s help he is capable of doing good." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;405&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;are-we-compelled-to-sin-by-original-sin&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Are we compelled to sin by original sin?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="405"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>No. Man, though, is deeply wounded by original sin and is inclined to sin. Nevertheless, with God’s help he is capable of doing good.</text>
+              </message>
+              <message name="How does God draw us out of the whirlpool of evil?" id="how-does-god-draw-us-out-of-the-whirlpool-of-evil" nb="70">
+                <tests>
+                  <test input="How does God draw us out of the whirlpool of evil?" output="God does not just look on as man gradually destroys himself and the world around him through the chain reaction of sin. He sends us Jesus Christ, the Savior and Redeemer, who snatches us from the power of sin." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;410-412&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;420-421&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-does-god-draw-us-out-of-the-whirlpool-of-evil&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="How does God draw us out of the whirlpool of evil?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="410" verseEnd="412"/>
+                  <ccc verseBegin="420" verseEnd="421"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>God does not just look on as man gradually destroys himself and the world around him through the chain reaction of sin. He sends us Jesus Christ, the Savior and Redeemer, who snatches us from the power of sin.</text>
+              </message>
+              <message name="What is Original sin?" id="what-is-original-sin-fallen-man" nb="68">
+                <tests>
+                  <test input="What is Original sin?" output="Sin in the strict sense implies guilt for which one is personally responsible. Therefore the term “Original Sin” refers, not to a personal sin, but rather to the disastrous, fallen state of mankind into which the individual is born, even before he himself sins by a free decision." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 3: 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;388-389&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;402-404&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-original-sin-fallen-man&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What does the Fall of Adam and Eve have to do with us?" output="Sin in the strict sense implies guilt for which one is personally responsible. Therefore the term “Original Sin” refers, not to a personal sin, but rather to the disastrous, fallen state of mankind into which the individual is born, even before he himself sins by a free decision." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 3: 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;388-389&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;402-404&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-original-sin-fallen-man&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What is Original sin?"/>
+                  <trigger value="What does the Fall of Adam and Eve have to do with us?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="388" verseEnd="389"/>
+                  <ccc verseBegin="402" verseEnd="404"/>
+                  <bible book="Gen" chapter="3" verseBegin="4" verseEnd="5"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Sin in the strict sense implies guilt for which one is personally responsible. Therefore the term “Original Sin” refers, not to a personal sin, but rather to the disastrous, fallen state of mankind into which the individual is born, even before he himself sins by a free decision.</text>
+              </message>
+              <message name="What is sin?" id="what-is-sin" nb="67">
+                <tests>
+                  <test input="What is sin?" output="At the core of sin is a rejection of God and the refusal to accept his love. This is manifested in a disregard for his commandments." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-sin&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What is sin?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="385" verseEnd="390"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>At the core of sin is a rejection of God and the refusal to accept his love. This is manifested in a disregard for his commandments.</text>
+              </message>
+            </folder>
             <folder name="Heaven and Heavenly Creatures" id="heaven-and-heavenly-creatures" nb="52" image="ange_gardien.jpg">
               <message name="Can we interact with angels?" id="can-we-interact-with-angels" nb="55">
                 <tests>
@@ -3118,6 +3223,20 @@
                 <sourceId>youcat</sourceId>
                 <text>Yes. Man is the summit of creation, because God created him in his image.</text>
               </message>
+              <message name="From where does man get his soul?" id="from-where-does-man-get-his-soul" nb="63">
+                <tests>
+                  <test input="From where does man get his soul?" output="The human soul is created directly by God and is not “produced” by the parents." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;366-368&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;382&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;from-where-does-man-get-his-soul&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="From where does man get his soul?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="366" verseEnd="368"/>
+                  <ccc verseBegin="382"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>The human soul is created directly by God and is not “produced” by the parents.</text>
+              </message>
               <message name="How should man treat animals and other fellow creatures?" id="how-should-man-treat-animals-and-other-fellow-creatures" nb="57">
                 <tests>
                   <test input="How should man treat animals and other fellow creatures?" output="Man should honor the Creator in other creatures and treat them carefully and responsibly. Man,animals, and plants have the same Creator who called them into being out of love. Therefore a love of animals is profoundly human." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;344&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;354&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-should-man-treat-animals-and-other-fellow-creatures&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3146,6 +3265,34 @@
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">&lt;span&gt;All men are equal inasmuch as they have the same origin in the one creative love of God. All men have their Savior in Jesus Christ. All men are destined to find their happiness and their eternal blessedness in God.&lt;/span&gt;</text>
               </message>
+              <message name="Was it part of God’s plan for men to suffer and die?" id="was-it-part-of-god-s-plan-for-men-to-suffer-and-die" nb="66">
+                <tests>
+                  <test input="Was it part of God’s plan for men to suffer and die?" output="God does not want men to suffer and die. God’s original idea for man was paradise: life forever and peace between God and man and their environment, between man and woman." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;374-379&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;384&quot; textlength=&quot;3&quot; /&gt;; &lt;hc_ccc ref=&quot;400&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;was-it-part-of-god-s-plan-for-men-to-suffer-and-die&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Was it part of God’s plan for men to suffer and die?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="374" verseEnd="379"/>
+                  <ccc verseBegin="384"/>
+                  <ccc verseBegin="400"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>God does not want men to suffer and die. God’s original idea for man was paradise: life forever and peace between God and man and their environment, between man and woman.</text>
+              </message>
+              <message name="What about people who feel they are homosexual?" id="what-about-people-who-feel-they-are-homosexual" nb="65">
+                <tests>
+                  <test input="What about people who feel they are homosexual?" output="The Church believes that, in the order of creation, man and woman are designed to need each other’s complementary traits and to enter into a mutual relationship so as to give life to children. That is why homosexual practices cannot be approved by the Church. Christians owe all persons respect and love, however, regardless of their sexual orientation, because all people are respected and loved by God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;2358-2359&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-about-people-who-feel-they-are-homosexual&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What about people who feel they are homosexual?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="2358" verseEnd="2359"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>The Church believes that, in the order of creation, man and woman are designed to need each other’s complementary traits and to enter into a mutual relationship so as to give life to children. That is why homosexual practices cannot be approved by the Church. Christians owe all persons respect and love, however, regardless of their sexual orientation, because all people are respected and loved by God.</text>
+              </message>
               <message name="What does it mean to say that man was created “in God’s image”?" id="what-does-it-mean-to-say-that-man-was-created-in-god-s-image" nb="58">
                 <tests>
                   <test input="What does it mean to say that man was created “in God’s image”?" output="Unlike inanimate objects, plants, and animals, man is a person endowed with a spirit. This characteristic unites him with God more than with his visible fellow creatures." outputReferences="Bible verses: &lt;hc_bible ref=&quot;1 Jn 4: 7&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;355-357&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;380&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-it-mean-to-say-that-man-was-created-in-god-s-image&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3161,7 +3308,7 @@
                 <sourceId>youcat</sourceId>
                 <text>Unlike inanimate objects, plants, and animals, man is a person endowed with a spirit. This characteristic unites him with God more than with his visible fellow creatures.</text>
               </message>
-              <message name="What is the soul?" id="what-is-the-soul-man-the-creature" nb="63">
+              <message name="What is the soul?" id="what-is-the-soul-man-the-creature" nb="62">
                 <tests>
                   <test input="What is the soul?" output="&lt;span&gt;The soul is what makes every individual person a man: his spiritual life-principle and inmost being. The soul causes the material body to be a living human body. Through his soul, man is a creature who can say “I” and stand before God as an irreplaceable individual.&lt;/span&gt;" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;362-365&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;382&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-soul-man-the-creature&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
@@ -3174,6 +3321,22 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">&lt;span&gt;The soul is what makes every individual person a man: his spiritual life-principle and inmost being. The soul causes the material body to be a living human body. Through his soul, man is a creature who can say “I” and stand before God as an irreplaceable individual.&lt;/span&gt;</text>
+              </message>
+              <message name="Why did God create man male and female?" id="why-did-god-create-man-male-and-female" nb="64">
+                <tests>
+                  <test input="Why did God create man male and female?" output="God, who is love and the archetype of community, created man male and female so that together they might be an image of his nature." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 1: 27&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Gen 2: 18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;369-373&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;383&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-create-man-male-and-female&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Why did God create man male and female?"/>
+                </triggers>
+                <references>
+                  <bible book="Gen" chapter="1" verseBegin="27"/>
+                  <bible book="Gen" chapter="2" verseBegin="18"/>
+                  <ccc verseBegin="369" verseEnd="373"/>
+                  <ccc verseBegin="383"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>God, who is love and the archetype of community, created man male and female so that together they might be an image of his nature.</text>
               </message>
               <message name="Why did God make man?" id="why-did-god-make-man" nb="59">
                 <tests>
@@ -3426,8 +3589,8 @@
             <text>Faith is not about empty words but about reality. In the Church, condensed formulas of faith developed over the course of time; with their help we can contemplate, express, learn, hand on, celebrate, and live out this reality.</text>
           </message>
         </folder>
-        <folder name="Why We Are Able to Believe" id="why-we-are-able-to-believe" nb="1">
-          <folder name="God Approaches Us Men" id="god-approaches-us-men" nb="7">
+        <folder name="Why We Are Able to Believe" id="why-we-are-able-to-believe" nb="1" image="raisons_croire.jpg">
+          <folder name="God Approaches Us Men" id="god-approaches-us-men" nb="7" image="meet_god.jpg">
             <message name="Can the Church err in questions of faith?" id="can-the-church-err-in-questions-of-faith" nb="13">
               <tests>
                 <test input="Can the Church err in questions of faith?" output="The faithful as a whole cannot err in faith, because Jesus promised his disciples that he would send them the Spirit of truth and keep them in the truth." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 14: 17&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;80-82&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;85-87&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;92&quot; textlength=&quot;2&quot; /&gt;; &lt;hc_ccc ref=&quot;100&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-the-church-err-in-questions-of-faith&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3625,7 +3788,7 @@
               <text>In Jesus Christ, God himself came to earth. He is God&apos;s last Word. By listening to him, all men of all times can know who God is and what is necessary for their salvation.</text>
             </message>
           </folder>
-          <folder name="Man Is Receptive to God" id="man-is-receptive-to-god" nb="3">
+          <folder name="Man Is Receptive to God" id="man-is-receptive-to-god" nb="3" image="ouverts_à_dieu.jpg">
             <message name="Can we grasp God at all in concepts?" id="can-we-grasp-god-at-all-in-concepts" nb="6">
               <tests>
                 <test input="Can we grasp God at all in concepts?" output="Although we men are limited and the infinite greatness of God never fits into finite human concepts, we can nevertheless speak rightly about God." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;39-43&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;48&quot; textlength=&quot;2&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-we-grasp-god-at-all-in-concepts&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3684,7 +3847,7 @@
               <text>God has placed in our hearts a longing to seek and find him. St. Augustine says, &quot;You have made us for yourself, and our heart is restless until it rests in you.&quot; We call this longing for God religion.</text>
             </message>
           </folder>
-          <folder name="Man Responds to God" id="man-responds-to-god" nb="20">
+          <folder name="Man Responds to God" id="man-responds-to-god" nb="20" image="homme_dieu.jpg">
             <message name="Faith - what is it?" id="faith-what-is-it" nb="21">
               <tests>
                 <test input="What is faith?" output="Faith is knowledge and trust. It has seven characteristics: \hc_resource_html=#en_US#&lt;ul&gt;&lt;li&gt;Faith is a &lt;i&gt;sheer gift&lt;/i&gt; of God, which we receive when we fervently ask for it.&lt;/li&gt;&lt;li&gt;Faith is the supernatural power that is absolutely &lt;i&gt;necessary&lt;/i&gt; if we are to attain salvation.&lt;/li&gt;&lt;li&gt;Faith requires the &lt;i&gt;free will and clear understanding of a person&lt;/i&gt; when he accepts the divine invitation.&lt;/li&gt;&lt;li&gt;Faith is &lt;i&gt;absolutely certain&lt;/i&gt;, because Jesus guarantees it.&lt;/li&gt;&lt;li&gt;Faith is incomplete unless it leads to active love.&lt;/li&gt;&lt;li&gt;Faith &lt;i&gt;grows&lt;/i&gt; when we listen more and more carefully to God’s Word and enter a lively exchange with him in prayer.&lt;/li&gt;&lt;li&gt;Faith gives us even now a &lt;i&gt;foretaste of the joy of heaven&lt;/i&gt;.&lt;/ul&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;153-165&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;183-184&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;faith-what-is-it&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3788,8 +3951,8 @@
           </message>
         </folder>
       </folder>
-      <folder name="YOUCAT for kids" id="youcat-for-kids">
-        <folder name="Introduction" id="introduction">
+      <folder name="YOUCAT for kids" id="youcat-for-kids" image="youcat_for_kids.jpeg">
+        <folder name="Introduction" id="introduction" image="prologue.jpg">
           <message name="Believing in God, how does that work?" id="believing-in-god-how-does-that-work" nb="6">
             <tests>
               <test input="Believing in God, how does that work?" isOk="false"/>
