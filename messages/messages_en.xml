@@ -32,7 +32,7 @@
         <folder name="About" id="about-gospels" image="about.png">
           <message name="There is 4 gospels" id="there-is-4-gospels">
             <tests>
-              <test input="How many gospels are there?" output="There are 4 gospels."/>
+              <test input="How many gospels are there?" output="I don&apos;t know how many gospels there are." isOk="false"/>
             </tests>
             <sourceId>internal</sourceId>
             <text>There is 4 gospels.</text>
@@ -1370,10 +1370,10 @@
         </message>
         <message name="Holy Gospel" id="holy-gospel">
           <tests>
-            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
-            <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
-            <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
-            <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Lk 2:1-14&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Mt 2:13-18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="What is the Gospel of the day ?"/>
@@ -1609,7 +1609,7 @@
         </message>
         <message name="What is man?" id="what-is-man" nb="1">
           <tests>
-            <test input="What is man?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SpJt3ZrpkEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Acts 17: 27-28&quot; textlength=&quot;14&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 49: 20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 1: 5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2 Chr 1: 7-12&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4: 18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;26-30&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-45&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-man&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="What is man?" output="Man is the creation summit.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SpJt3ZrpkEo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Gen 1: 27&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 8: 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;343-344&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;353&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;does-man-have-a-special-place-in-creation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|Bible verses: &lt;hc_bible ref=&quot;Acts 17: 27-28&quot; textlength=&quot;14&quot; /&gt;; &lt;hc_bible ref=&quot;Ps 49: 20&quot; textlength=&quot;9&quot; /&gt;; &lt;hc_bible ref=&quot;Jas 1: 5&quot; textlength=&quot;8&quot; /&gt;; &lt;hc_bible ref=&quot;2 Chr 1: 7-12&quot; textlength=&quot;13&quot; /&gt;; &lt;hc_bible ref=&quot;1 Jn 4: 18&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;26-30&quot; textlength=&quot;5&quot; /&gt;; &lt;hc_ccc ref=&quot;44-45&quot; textlength=&quot;5&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-man&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="What is man?"/>
@@ -2985,7 +2985,7 @@
             </message>
             <message name="Do we believe in one God or in three Gods?" id="do-we-believe-in-one-god-or-in-three-gods" nb="35">
               <tests>
-                <test input="Do we believe in one God or in three Gods?" output="I don&apos;t know if we believe in 1 God.|otherAnswer-&gt;|What are 3 Gods?" outputReferences="|otherAnswer-&gt;|" isOk="false"/>
+                <test input="Do we believe in one God or in three Gods?" output="I don&apos;t know if we believe in 1 God." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Do we believe in one God or in three Gods?"/>
@@ -2997,7 +2997,7 @@
                 <ccc verseBegin="265" verseEnd="266"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect&#10;communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
+              <text fileType="text_in_html">We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect&#10;communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
             </message>
             <message name="Does science make the Creator superfluous?" id="does-science-make-the-creator-superfluous" nb="41">
               <tests>
@@ -3030,7 +3030,7 @@
               </message>
               <message name="What are angels?" id="what-are-angels" nb="54">
                 <tests>
-                  <test input="What are angels?" output="Angels are pure spiritual creatures of God who have understanding and will. They have no bodies, cannot die, and are usually not visible. They live constantly in God’s presence and convey God’s will and God’s protection to men." outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;328-333&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;350-351&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-are-angels&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What are angels?" output="Angels are pure spiritual creatures of God who have understanding and will. They have no bodies, cannot die, and are usually not visible. &lt;span&gt;They live constantly in God’s presence and convey God’s will and God’s protection to men.&lt;/span&gt;" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;328-333&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;350-351&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-are-angels&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What are angels?"/>
@@ -3040,7 +3040,7 @@
                   <ccc verseBegin="350" verseEnd="351"/>
                 </references>
                 <sourceId>youcat</sourceId>
-                <text>Angels are pure spiritual creatures of God who have understanding and will. They have no bodies, cannot die, and are usually not visible. They live constantly in God’s presence and convey God’s will and God’s protection to men.</text>
+                <text fileType="text_in_html">Angels are pure spiritual creatures of God who have understanding and will. They have no bodies, cannot die, and are usually not visible.&lt;span&gt;They live constantly in God’s presence and convey God’s will and God’s protection to men.&lt;/span&gt;</text>
               </message>
               <message name="What is heaven?" id="what-is-heaven" nb="52">
                 <tests>
@@ -3084,7 +3084,7 @@
                 <bible book="Acts" chapter="4" verseBegin="12"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Jesus of Nazareth is the Son, the second divine person mentioned when we pray, &lt;i&gt;“In the name of the Father and of the Son and of the Holy Spirit”&lt;/i&gt; (Mt 28:19).</text>
+              <text fileType="text_in_html">Jesus of Nazareth is the Son, the second divine person mentioned when we pray, &lt;i&gt;“In the name of the Father and of the Son and of the Holy Spirit”&lt;/i&gt; (Mt 28:19).</text>
             </message>
             <message name="Is the world a product of chance?" id="is-the-world-a-product-of-chance" nb="43">
               <tests>
@@ -3134,7 +3134,7 @@
               </message>
               <message name="In what does the equality of all men consist?" id="in-what-does-the-equality-of-all-men-consist" nb="61">
                 <tests>
-                  <test input="In what does the equality of all men consist?" output="All men are equal inasmuch as they have the same origin in the one creative love of God. All men have their Savior in Jesus Christ. All men are destined to find their happiness and their eternal blessedness in God." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Prov 31: 8&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;360-361&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;in-what-does-the-equality-of-all-men-consist&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="In what does the equality of all men consist?" output="&lt;span&gt;All men are equal inasmuch as they have the same origin in the one creative love of God. All men have their Savior in Jesus Christ. All men are destined to find their happiness and their eternal blessedness in God.&lt;/span&gt;" outputReferences="Bible verses: &lt;hc_bible ref=&quot;Prov 31: 8&quot; textlength=&quot;10&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;360-361&quot; textlength=&quot;7&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;in-what-does-the-equality-of-all-men-consist&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="In what does the equality of all men consist?"/>
@@ -3144,7 +3144,7 @@
                   <bible book="Prov" chapter="31" verseBegin="8"/>
                 </references>
                 <sourceId>youcat</sourceId>
-                <text>All men are equal inasmuch as they have the same origin in the one creative love of God. All men have their Savior in Jesus Christ. All men are destined to find their happiness and their eternal blessedness in God.</text>
+                <text fileType="text_in_html">&lt;span&gt;All men are equal inasmuch as they have the same origin in the one creative love of God. All men have their Savior in Jesus Christ. All men are destined to find their happiness and their eternal blessedness in God.&lt;/span&gt;</text>
               </message>
               <message name="What does it mean to say that man was created “in God’s image”?" id="what-does-it-mean-to-say-that-man-was-created-in-god-s-image" nb="58">
                 <tests>
@@ -3172,11 +3172,11 @@
                   <ccc verseBegin="358"/>
                 </references>
                 <sourceId>youcat</sourceId>
-                <text>God made everything for man. Man, however, who is “&lt;i&gt;the only creature on earth that God has willed for its own sake&lt;/i&gt;” (GS 24, 3), was created in order to be blessed. This happens when he knows, loves, and serves God and lives in gratitude toward his Creator.</text>
+                <text fileType="text_in_html">God made everything for man. Man, however, who is “&lt;i&gt;the only creature on earth that God has willed for its own sake&lt;/i&gt;” (GS 24, 3), was created in order to be blessed. This happens when he knows, loves, and serves God and lives in gratitude toward his Creator.</text>
               </message>
               <message name="Why is Jesus the greatest example in the world?" id="why-is-jesus-the-greatest-example-in-the-world" nb="60">
                 <tests>
-                  <test input="Why is Jesus the greatest example in the world?" output="Jesus Christ is unique because he shows us not only God’s true nature but also the true ideal of man." outputReferences="Bible verses: &lt;hc_bible ref=&quot;Col 1: 15-16&quot; textlength=&quot;12&quot; /&gt;; &lt;hc_bible ref=&quot;Jn 19: 5&quot; textlength=&quot;8&quot; /&gt;&lt;br /&gt;Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;358-359&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;381&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-jesus-the-greatest-example-in-the-world&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="Why is Jesus the greatest example in the world?" output="I don&apos;t know why Jesus is the great example in the world." isOk="false"/>
                 </tests>
                 <triggers>
                   <trigger value="Why is Jesus the greatest example in the world?"/>
@@ -3509,7 +3509,7 @@
             </message>
             <message name="What is the right way to read the Bible?" id="what-is-the-right-way-to-read-the-bible" nb="16">
               <tests>
-                <test input="What is the right way to read the Bible?" output="\hc_resource_html=#en_US#&lt;span&gt;The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.&lt;/span&gt;\" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;109-119&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;137&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-right-way-to-read-the-bible&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="What is the right way to read the Bible?" output="&lt;span&gt;The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.&lt;/span&gt;" outputReferences="Catechism of the Catholic Church n° &lt;hc_ccc ref=&quot;109-119&quot; textlength=&quot;7&quot; /&gt;; &lt;hc_ccc ref=&quot;137&quot; textlength=&quot;3&quot; /&gt;&lt;br /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-right-way-to-read-the-bible&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="What is the right way to read the Bible?"/>
@@ -3519,7 +3519,7 @@
                 <ccc verseBegin="137"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text fileType="text_and_html">&lt;span&gt;The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.&lt;/span&gt;</text>
+              <text fileType="text_in_html">&lt;span&gt;The right way to read Sacred Scripture is to read it prayerfully, in other words, with the help of the Holy Spirit, under whose influence it came into being. It is God’s Word and contains God’s essential communication to us.&lt;/span&gt;</text>
             </message>
             <message name="What role does Sacred Scripture play in the Church?" id="what-role-does-sacred-scripture-play-in-the-church" nb="19">
               <tests>
@@ -3883,7 +3883,7 @@
           <message name="How is knowledge about God passed on? (continuation)" id="how-is-knowledge-about-god-passed-on-continuation" nb="8">
             <nextMessageId>how-is-knowledge-about-god-passed-on-continuation-2</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
-            <text fileType="text_and_html">&lt;span&gt;The Church is the community where experiences with the living God are correctly understood and passed on from generation to generation.&#10;Every Christian who lives by his faith has a story to tell.&#10;Christian parents and grandparents try to pass on their faith to their children and grandchildren.&lt;/span&gt;</text>
+            <text fileType="text_in_html">&lt;span&gt;The Church is the community where experiences with the living God are correctly understood and passed on from generation to generation.&#10;Every Christian who lives by his faith has a story to tell.&#10;Christian parents and grandparents try to pass on their faith to their children and grandchildren.&lt;/span&gt;</text>
           </message>
           <message name="Where does the world and everything that is come from ?" id="where-does-the-world-and-everything-that-is-come-from" nb="1">
             <triggers>
@@ -3893,7 +3893,7 @@
               <bible book="Gen" chapter="1" verseBegin="1"/>
             </references>
             <sourceId>youcat-for-kids</sourceId>
-            <text fileType="text_and_html">&lt;span&gt;Everything that is comes from God.&lt;/span&gt;</text>
+            <text fileType="text_in_html">&lt;span&gt;Everything that is comes from God.&lt;/span&gt;</text>
           </message>
           <message name="Why do I exist?" id="why-do-i-exist" nb="2">
             <tests>
