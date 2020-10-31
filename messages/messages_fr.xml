@@ -528,7 +528,10 @@
         <folder name="Genèse" id="genese" nb="1" image="genese.jpg">
           <folder name="Abraham" id="abraham" image="abraham.jpg">
             <message name="Abraham, Père des croyants" id="abraham-pere-des-croyants">
-              <description>C&apos;est la vie d&apos;Abraham.&#10;C&apos;est Abraham.</description>
+              <descriptions>
+                <description value="C&apos;est la vie d&apos;Abraham."/>
+                <description value="C&apos;est Abraham."/>
+              </descriptions>
               <sourceId>kto</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vKJZx7DH3yc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
@@ -756,7 +759,9 @@
               <tests>
                 <test input="Le Salut est-il en cours ?" output="Oui, le Salut est en cours." outputReferences="&lt;hc_bible ref=&quot;Ap 6-11&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;catastrophes-en-cascades-ap-6-11&quot; textlength=&quot;8&quot; /&gt;"/>
               </tests>
-              <description>Le Salut est en cours.</description>
+              <descriptions>
+                <description value="Le Salut est en cours."/>
+              </descriptions>
               <references>
                 <bible book="Rev" chapter="6" chapterEnd="11"/>
               </references>
@@ -767,7 +772,9 @@
               <tests>
                 <test input="La Bible a été écrite pour satisfaire notre curiosité." output="Non, la Bible n&apos;a pas été écrite pour satisfaire notre curiosité." outputReferences="&lt;hc_bible ref=&quot;Ap 4-5&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;divine-menagerie-ap-4-5&quot; textlength=&quot;8&quot; /&gt;"/>
               </tests>
-              <description>La Bible n&apos;a pas été écrite pour satisfaire notre curiosité.</description>
+              <descriptions>
+                <description value="La Bible n&apos;a pas été écrite pour satisfaire notre curiosité."/>
+              </descriptions>
               <references>
                 <bible book="Rev" chapter="4" chapterEnd="5"/>
               </references>
@@ -778,7 +785,9 @@
               <tests>
                 <test input="C&apos;est quoi la fin de la Bible ?" output="La fin de la Bible est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i4LEgRKuY3w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ap 17-22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;happy-end-ap-17-22&quot; textlength=&quot;8&quot; /&gt;"/>
               </tests>
-              <description>C&apos;est la fin de la Bible.</description>
+              <descriptions>
+                <description value="C&apos;est la fin de la Bible."/>
+              </descriptions>
               <references>
                 <bible book="Rev" chapter="17" chapterEnd="22"/>
               </references>
@@ -789,7 +798,9 @@
               <tests>
                 <test input="Les symboles de l&apos;Apocalypse sont univoques." output="Non, les symboles de l&apos;Apocalypse ne sont pas univoques." outputReferences="&lt;hc_bible ref=&quot;Ap 12-16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;monstres-cie-ap-12-16&quot; textlength=&quot;8&quot; /&gt;"/>
               </tests>
-              <description>Les symboles de l&apos;Apocalypse ne sont pas univoques.</description>
+              <descriptions>
+                <description value="Les symboles de l&apos;Apocalypse ne sont pas univoques."/>
+              </descriptions>
               <references>
                 <bible book="Rev" chapter="12" chapterEnd="16"/>
               </references>
@@ -1305,7 +1316,11 @@
                   <trigger value="Qui est mon maître ?"/>
                   <trigger value="_Lire la parabole du bon pasteur."/>
                 </triggers>
-                <description>C&apos;est mon maître.&#10;C&apos;est mon berger.&#10;C&apos;est mon pasteur.</description>
+                <descriptions>
+                  <description value="C&apos;est mon maître."/>
+                  <description value="C&apos;est mon berger."/>
+                  <description value="C&apos;est mon pasteur."/>
+                </descriptions>
                 <references>
                   <bible book="Jn" chapter="10" verseBegin="1" verseEnd="18"/>
                 </references>
@@ -1865,7 +1880,12 @@
           <trigger value="Qui a écrit la Bible ?"/>
           <trigger value="Je veux savoir qui a écrit la Bible."/>
         </triggers>
-        <description>Dieu a inspiré la Bible.&#10;La Bible vient de Dieu.&#10;La Bible est parole de Dieu.&#10;La Bible est une parole humaine.</description>
+        <descriptions>
+          <description value="Dieu a inspiré la Bible."/>
+          <description value="La Bible vient de Dieu."/>
+          <description value="La Bible est parole de Dieu."/>
+          <description value="La Bible est une parole humaine."/>
+        </descriptions>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzvVw0-BOKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
@@ -2642,7 +2662,10 @@
           <triggers>
             <trigger value="Je veux voir le message chrétien"/>
           </triggers>
-          <description>C&apos;est le message chrétien.&#10;C&apos;est le kérygme.</description>
+          <descriptions>
+            <description value="C&apos;est le message chrétien."/>
+            <description value="C&apos;est le kérygme."/>
+          </descriptions>
           <recommendations>
             <recommendation text="Je veux voir une guérison inexpliquée."/>
             <recommendation text="L&apos;Église a des problèmes."/>
@@ -2758,7 +2781,9 @@
           <triggers>
             <trigger value="Quel est le Parcours Alpha le plus proche de chez moi ?"/>
           </triggers>
-          <description>C&apos;est la carte des Parcours Alpha.</description>
+          <descriptions>
+            <description value="C&apos;est la carte des Parcours Alpha."/>
+          </descriptions>
           <sourceId>parcours-alpha</sourceId>
           <text fileType="html">&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</text>
         </message>
@@ -2772,7 +2797,9 @@
             <trigger value="Le Parcours Alpha, c&apos;est quoi?"/>
             <trigger value="Je ne connais pas le Parcours Alpha."/>
           </triggers>
-          <description>C&apos;est le Parcours Alpha.</description>
+          <descriptions>
+            <description value="C&apos;est le Parcours Alpha."/>
+          </descriptions>
           <sourceId>parcours-alpha</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -2859,7 +2886,9 @@
           <tests>
             <test input="qui est le Cybercuré" output="Le Cybercuré est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;presentation-du-cybercure&quot; textlength=&quot;20&quot; /&gt;"/>
           </tests>
-          <description>C&apos;est le Cybercuré</description>
+          <descriptions>
+            <description value="C&apos;est le Cybercuré"/>
+          </descriptions>
           <sourceId>diocese-nanterre</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -2951,7 +2980,17 @@
           <triggers>
             <trigger value="Le diable existe-t-il ?"/>
           </triggers>
-          <description>C&apos;est le diable.&#10;C&apos;est Satan.&#10;C&apos;est Lucifer.&#10;C&apos;est les démons.&#10;C&apos;est le démon.&#10;Le démon existe.&#10;Le diable existe.&#10;Satan existe.&#10;Lucifer existe.</description>
+          <descriptions>
+            <description value="C&apos;est le diable."/>
+            <description value="C&apos;est Satan."/>
+            <description value="C&apos;est Lucifer."/>
+            <description value="C&apos;est les démons."/>
+            <description value="C&apos;est le démon."/>
+            <description value="Le démon existe."/>
+            <description value="Le diable existe."/>
+            <description value="Satan existe."/>
+            <description value="Lucifer existe."/>
+          </descriptions>
           <references>
             <bible book="Ps" chapter="23" verseBegin="4"/>
             <bible book="Gen" chapter="1" verseBegin="4"/>
@@ -3018,7 +3057,9 @@
             <test input="Qu&apos;est-ce que c&apos;est l&apos;imposition des mains ?" output="L&apos;imposition des mains est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDn8zn8xvVI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 13-15&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 6, 2-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 13-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 14-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40-44&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 13, 10-17&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ac 8, 13-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 6, 2-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 13, 1-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 28, 7-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-esprit-saint-dans-la-liturgie&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="l&apos;imposition des mains" output="L&apos;imposition des mains est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDn8zn8xvVI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 13-15&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 6, 2-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 13-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 14-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40-44&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 13, 10-17&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ac 8, 13-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 6, 2-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 13, 1-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 28, 7-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-esprit-saint-dans-la-liturgie&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
-          <description>C&apos;est l&apos;imposition des mains</description>
+          <descriptions>
+            <description value="C&apos;est l&apos;imposition des mains"/>
+          </descriptions>
           <references>
             <bible book="Mt" chapter="19" verseBegin="13" verseEnd="15"/>
             <bible book="Mk" chapter="6" verseBegin="2" verseEnd="6"/>
@@ -3488,7 +3529,9 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/M37t8T-7UyQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Démonstration de l&apos;existence de Dieu et raisons de croire chrétiennes " id="demonstration-de-l-existence-de-dieu-et-raisons-de-croire-chretiennes">
-          <description>C&apos;est pour cela que Dieu existe.</description>
+          <descriptions>
+            <description value="C&apos;est pour cela que Dieu existe."/>
+          </descriptions>
           <sourceId>marie-de-nazareth</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YmAMijn00w0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -3570,7 +3613,9 @@
             <test input="Dieu est amour ?" output="Oui, Dieu est amour." outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Jésus est amour ?" output="Oui, Jésus est amour." outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
-          <description>Dieu est amour.</description>
+          <descriptions>
+            <description value="Dieu est amour."/>
+          </descriptions>
           <references>
             <bible book="1 Jn" chapter="4" verseBegin="7" verseEnd="12"/>
             <bible book="Is" chapter="49" verseBegin="15" verseEnd="16"/>
@@ -3927,7 +3972,9 @@
           <triggers>
             <trigger value="Montrez-moi la vie de Jésus"/>
           </triggers>
-          <description>C&apos;est Jésus.</description>
+          <descriptions>
+            <description value="C&apos;est Jésus."/>
+          </descriptions>
           <sourceId>retour-du-christ</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4-4_EioaJuU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -4239,7 +4286,9 @@
           <triggers>
             <trigger value=" Pourquoi Dieu s’est fait homme ?"/>
           </triggers>
-          <description>C&apos;est pour ça que Dieu s&apos;est-il fait homme.</description>
+          <descriptions>
+            <description value="C&apos;est pour ça que Dieu s&apos;est-il fait homme."/>
+          </descriptions>
           <references>
             <bible book="Jn" chapter="3" verseBegin="16"/>
             <bible book="Gal" chapter="4" verseBegin="4" verseEnd="5"/>
@@ -5122,7 +5171,11 @@
           <triggers>
             <trigger value="Qui était Jésus ?"/>
           </triggers>
-          <description>C&apos;est le vrai législateur.&#10;C&apos;est le juge de tous.&#10;C&apos;est le Seigneur de tous.&#10;</description>
+          <descriptions>
+            <description value="C&apos;est le vrai législateur."/>
+            <description value="C&apos;est le juge de tous."/>
+            <description value="C&apos;est le Seigneur de tous."/>
+          </descriptions>
           <references>
             <bible book="Mt" chapter="5" verseBegin="20"/>
             <bible book="Mt" chapter="25" verseBegin="31"/>
@@ -5366,7 +5419,9 @@
             <tests>
               <test input="c&apos;est quoi l&apos;AELF ?" output="L&apos;AELF est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;AELF&quot; resourceid=&quot;aelf&quot; textlength=&quot;4&quot; /&gt;"/>
             </tests>
-            <description>C&apos;est l&apos;AELF</description>
+            <descriptions>
+              <description value="C&apos;est l&apos;AELF"/>
+            </descriptions>
             <sourceId>aelf</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
@@ -5390,7 +5445,9 @@
             <tests>
               <test input="C&apos;est quoi &quot;L&apos;Évangile au Quotidien&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;l-evangile-au-quotidien&quot; textlength=&quot;24&quot; /&gt;"/>
             </tests>
-            <description>C&apos;est &quot;L&apos;Évangile au Quotidien&quot;.</description>
+            <descriptions>
+              <description value="C&apos;est &quot;L&apos;Évangile au Quotidien&quot;."/>
+            </descriptions>
             <sourceId>l-evangile-au-quotidien</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
@@ -5683,7 +5740,9 @@
             <tests>
               <test input="Montre-moi l&apos;ascension de Jésus" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 24, 50-53&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ac 1, 1-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-l-ascension&quot; textlength=&quot;7&quot; /&gt;"/>
             </tests>
-            <description>C&apos;est l&apos;ascension de Jésus.</description>
+            <descriptions>
+              <description value="C&apos;est l&apos;ascension de Jésus."/>
+            </descriptions>
             <references>
               <bible book="Lk" chapter="24" verseBegin="50" verseEnd="53"/>
               <bible book="Acts" chapter="1" verseBegin="1" verseEnd="11"/>
@@ -5921,7 +5980,10 @@
             <trigger value="Quelle est la place de Marie dans l&apos;Eglise ?"/>
             <trigger value="Marie est-t-elle une déesse ?"/>
           </triggers>
-          <description>C&apos;est Marie.&#10;Marie n&apos;est pas une déesse.</description>
+          <descriptions>
+            <description value="C&apos;est Marie."/>
+            <description value="Marie n&apos;est pas une déesse."/>
+          </descriptions>
           <references>
             <bible book="Lk" chapter="1" verseBegin="26" verseEnd="56"/>
             <bible book="Jn" chapter="19" verseBegin="25"/>
@@ -6070,7 +6132,9 @@
           <triggers>
             <trigger value="Qui était Saint Luc ?"/>
           </triggers>
-          <description>C&apos;est Saint Luc.</description>
+          <descriptions>
+            <description value="C&apos;est Saint Luc."/>
+          </descriptions>
           <references>
             <bible book="Lk" chapter="1" verseBegin="35"/>
             <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
@@ -6093,7 +6157,9 @@
             <trigger value="Qui est Saint Maximilien Kolbe ?"/>
             <trigger value="Montrez-moi la vie de Saint Maximilien Kolbe"/>
           </triggers>
-          <description>Saint Maximilien Kolbe a travaillé au Japon.</description>
+          <descriptions>
+            <description value="Saint Maximilien Kolbe a travaillé au Japon."/>
+          </descriptions>
           <references>
             <bible book="Jn" chapter="15" verseBegin="13"/>
           </references>
@@ -6191,7 +6257,10 @@
           <tests>
             <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
-          <description>C&apos;est la vie de Sainte Faustine.&#10;C&apos;est Sainte Faustine.</description>
+          <descriptions>
+            <description value="C&apos;est la vie de Sainte Faustine."/>
+            <description value="C&apos;est Sainte Faustine."/>
+          </descriptions>
           <sourceId>fabienne-guerrero</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -6204,7 +6273,10 @@
           <triggers>
             <trigger value="Où sont les reliques de Sainte Marie Madeleine ?"/>
           </triggers>
-          <description>Les reliques de Sainte Marie Madeleine sont à la Sainte-Baume.&#10;Les reliques de Sainte Marie Madeleine sont en Provence.&#10;</description>
+          <descriptions>
+            <description value="Les reliques de Sainte Marie Madeleine sont à la Sainte-Baume."/>
+            <description value="Les reliques de Sainte Marie Madeleine sont en Provence."/>
+          </descriptions>
           <references>
             <bible book="Mk" chapter="16" verseBegin="1" verseEnd="10"/>
           </references>
@@ -6401,7 +6473,9 @@
             <trigger value="Quel est le sens du baptême ? "/>
             <trigger value="Pourquoi baptiser mon enfant ?"/>
           </triggers>
-          <description>C&apos;est le sens du sacrement baptême.</description>
+          <descriptions>
+            <description value="C&apos;est le sens du sacrement baptême."/>
+          </descriptions>
           <references>
             <site url="https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme"/>
           </references>
@@ -7056,7 +7130,9 @@
             <trigger value="_GoConfess"/>
             <trigger value="_GeoConfess"/>
           </triggers>
-          <description>C&apos;est une application chrétienne.</description>
+          <descriptions>
+            <description value="C&apos;est une application chrétienne."/>
+          </descriptions>
           <sourceId>kto</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ARM9g7uh55E&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -7396,7 +7472,9 @@
         <triggers>
           <trigger value="Comment reconnaître les signes de Dieu ?"/>
         </triggers>
-        <description>C&apos;est la Parabole des Etoiles.</description>
+        <descriptions>
+          <description value="C&apos;est la Parabole des Etoiles."/>
+        </descriptions>
         <references>
           <bible book="Mt" chapter="2"/>
         </references>
@@ -7584,7 +7662,9 @@
             <triggers>
               <trigger value="Pourquoi Dieu se révèle-t-il ?"/>
             </triggers>
-            <description>C&apos;est pourquoi Dieu se révèle.</description>
+            <descriptions>
+              <description value="C&apos;est pourquoi Dieu se révèle."/>
+            </descriptions>
             <references>
               <bible book="Jn" chapter="1" verseBegin="18"/>
               <bible book="Heb" chapter="1" verseBegin="1" verseEnd="3"/>
@@ -7926,7 +8006,9 @@
         <triggers>
           <trigger value="Qu’est-ce que sont les Dix Commandements ?"/>
         </triggers>
-        <description>C&apos;est les 10 commandements</description>
+        <descriptions>
+          <description value="C&apos;est les 10 commandements"/>
+        </descriptions>
         <references>
           <bible book="Ex" chapter="20" verseBegin="2" verseEnd="17"/>
           <ccc verseBegin="2052" verseEnd="2557"/>
@@ -8125,7 +8207,10 @@
     </folder>
     <folder name="Prédications" id="predications" image="predications.jpg">
       <message name="Catéchèse JMJ avec Mgr David Macaire" id="catechese-jmj-avec-mgr-david-macaire" nb="1">
-        <description>C&apos;est pourquoi il y a une  année de la miséricorde.&#10;Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;&#10;</description>
+        <descriptions>
+          <description value="C&apos;est pourquoi il y a une  année de la miséricorde."/>
+          <description value="Monseigneur Macaire dit &quot;c&apos;est le moment de la miséricorde&quot;"/>
+        </descriptions>
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ncL9hQhfKCg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
@@ -8278,7 +8363,9 @@
         <triggers>
           <trigger value="Etre catho est-ce écolo ?"/>
         </triggers>
-        <description>La création est bonne.</description>
+        <descriptions>
+          <description value="La création est bonne."/>
+        </descriptions>
         <references>
           <bible book="Gen" chapter="1" verseBegin="31"/>
         </references>
@@ -8342,7 +8429,9 @@
         <triggers>
           <trigger value="Qu’est-ce que cela veut dire « croire en Dieu » ?"/>
         </triggers>
-        <description>Cela veut dire croire en Dieu.</description>
+        <descriptions>
+          <description value="Cela veut dire croire en Dieu."/>
+        </descriptions>
         <references>
           <bible book="Rom" chapter="10" verseBegin="17"/>
           <bible book="Prov" chapter="3" verseBegin="5" verseEnd="6"/>
@@ -8397,7 +8486,9 @@
           <trigger value="Doit-on rejeter tout ce que dit la Bible sur la création du monde comme étant irrationnel ?"/>
           <trigger value="Comment peut-on articuler la connaissance scientifique avec le savoir religieux ?"/>
         </triggers>
-        <description>La Bible n&apos;est pas un traité de physique.</description>
+        <descriptions>
+          <description value="La Bible n&apos;est pas un traité de physique."/>
+        </descriptions>
         <references>
           <bible book="Gen" chapter="1"/>
           <bible book="Gen" chapter="2"/>
@@ -10536,7 +10627,17 @@
           <trigger value="Nous pouvons demander une guérison."/>
           <trigger value="Nous devons demander une guérison."/>
         </triggers>
-        <description>Jésus est le même aujourd&apos;hui, hier et demain.&#10;Jésus est amour.&#10;Jésus veut faire du bien.&#10;Jésus veut le bien.&#10;Le Salut ne s&apos;arrête pas seulement à une partie de notre être.&#10;Jésus veut nous sauver dans tout notre être et dans tout notre vie.&#10;Jésus veut nous guérir dans tout notre être et dans tout notre vie.&#10;Ce n&apos;est pas à nous de dire quelle est la meilleure guérison.&#10;Jésus sait mieux que nous la partie de notre être qui a besoin d&apos;être guérie.</description>
+        <descriptions>
+          <description value="Jésus est le même aujourd&apos;hui, hier et demain."/>
+          <description value="Jésus est amour."/>
+          <description value="Jésus veut faire du bien."/>
+          <description value="Jésus veut le bien."/>
+          <description value="Le Salut ne s&apos;arrête pas seulement à une partie de notre être."/>
+          <description value="Jésus veut nous sauver dans tout notre être et dans tout notre vie."/>
+          <description value="Jésus veut nous guérir dans tout notre être et dans tout notre vie."/>
+          <description value="Ce n&apos;est pas à nous de dire quelle est la meilleure guérison."/>
+          <description value="Jésus sait mieux que nous la partie de notre être qui a besoin d&apos;être guérie."/>
+        </descriptions>
         <references>
           <bible book="1 Cor" chapter="12"/>
           <bible book="1 Cor" chapter="14"/>
@@ -10556,7 +10657,9 @@
           <trigger value="C&apos;est quoi le charisme des paroles de connaissance ?"/>
           <trigger value="C&apos;est quoi le don des paroles de connaissance ?"/>
         </triggers>
-        <description>On ne possède pas un charisme.</description>
+        <descriptions>
+          <description value="On ne possède pas un charisme."/>
+        </descriptions>
         <references>
           <bible book="1 Cor" chapter="12" verseBegin="8"/>
           <bible book="Jn" chapter="4" verseBegin="29"/>
@@ -10825,7 +10928,9 @@
             <triggers>
               <trigger value="Un homme qui n&apos;arrivait pas à pardonner..."/>
             </triggers>
-            <description>C&apos;est une histoire vraie.</description>
+            <descriptions>
+              <description value="C&apos;est une histoire vraie."/>
+            </descriptions>
             <sourceId>cn-media</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pfQd2RI5w8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
@@ -11223,7 +11328,9 @@
         <triggers>
           <trigger value="Montrez-moi un site pour prier avec d&apos;autres chrétiens !"/>
         </triggers>
-        <description>C&apos;est une application chrétienne pour prier.</description>
+        <descriptions>
+          <description value="C&apos;est une application chrétienne pour prier."/>
+        </descriptions>
         <sourceId>hozana</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8r8cHi9vVnE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
@@ -11249,7 +11356,9 @@
           <triggers>
             <trigger value="Pourquoi prier ensemble ?"/>
           </triggers>
-          <description>La liturgie est le service public de l&apos;Eglise.</description>
+          <descriptions>
+            <description value="La liturgie est le service public de l&apos;Eglise."/>
+          </descriptions>
           <references>
             <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
             <bible book="Lk" chapter="11" verseBegin="2" verseEnd="4"/>
@@ -11717,7 +11826,9 @@
           <triggers>
             <trigger value="Comment créer du lien avec les sans-abri ?"/>
           </triggers>
-          <description>C&apos;est une application chrétienne pour se rapprocher des sans-abri.</description>
+          <descriptions>
+            <description value="C&apos;est une application chrétienne pour se rapprocher des sans-abri."/>
+          </descriptions>
           <sourceId>reseau-entourage</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/P30tp5JwxgI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -11788,7 +11899,9 @@
           <trigger value="Nos défunts sont-ils vivants ?"/>
           <trigger value="Je suis athée."/>
         </triggers>
-        <description>C&apos;est Marie-Andrée Rinck</description>
+        <descriptions>
+          <description value="C&apos;est Marie-Andrée Rinck"/>
+        </descriptions>
         <sourceId>rassemblement-a-son-image</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
@@ -12233,7 +12346,9 @@
         <triggers>
           <trigger value="Pourquoi parler de Jésus ?"/>
         </triggers>
-        <description>C&apos;est l&apos;évangélisation</description>
+        <descriptions>
+          <description value="C&apos;est l&apos;évangélisation"/>
+        </descriptions>
         <references>
           <bible book="Jn" chapter="3" verseBegin="17" verseEnd="21"/>
           <bible book="1 Cor" chapter="9" verseBegin="14" verseEnd="19"/>
