@@ -3591,6 +3591,21 @@
             </message>
           </folder>
           <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
+            <message name="What does the name “Jesus” mean?" id="what-does-the-name-jesus-mean" nb="72">
+              <tests>
+                <test input="What does the name “Jesus” mean?" output="Jesus means in Hebrew “God saves.”" outputReferences="&lt;hc_bible ref=&quot;Acts 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;430-435&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;452&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-name-jesus-mean&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What does the name “Jesus” mean?"/>
+              </triggers>
+              <references>
+                <bible book="Acts" chapter="4" verseBegin="12"/>
+                <ccc verseBegin="430" verseEnd="435"/>
+                <ccc verseBegin="452"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jesus means in Hebrew “God saves.”</text>
+            </message>
             <message name="Why are the reports about Jesus called “the Gospel”, “the Good News”?" id="why-are-the-reports-about-jesus-called-the-gospel-the-good-news" nb="71">
               <tests>
                 <test input="Why are the reports about Jesus called “the Gospel”, “the Good News”?" output="I don&apos;t know why the reports called Good News” “the Gospel” “the are about Jesus." isOk="false"/>
@@ -3604,6 +3619,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Without the Gospels we would not know that God sends his Son to us men out of his infinite love, so that despite our sins we might find our way back to eternal fellowship with God.</text>
+            </message>
+            <message name="Why is Jesus called “Christ”?" id="why-is-jesus-called-christ" nb="73">
+              <tests>
+                <test input="Why is Jesus called “Christ”?" output="I don&apos;t know why “Christ” calls Jesus." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Why is Jesus called “Christ”?"/>
+              </triggers>
+              <references>
+                <bible book="Acts" chapter="4" verseBegin="12"/>
+                <ccc verseBegin="436" verseEnd="440"/>
+                <ccc verseBegin="453"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The brief formula “Jesus is the Christ” expresses the core of the Christian faith: Jesus, the simple carpenter’s son from Nazareth, is the long-awaited Messiah and Savior.</text>
             </message>
           </folder>
           <message name="What are creeds?" id="what-are-creeds" nb="26">
