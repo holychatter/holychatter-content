@@ -8765,7 +8765,7 @@
             <sourceId>youcat</sourceId>
             <text>Les professions de foi remontent à Jésus, qui a demandé à ses disciples de baptiser. À cette occasion, ils devaient demander une confession de foi explicite, c&apos;est-à-dire foi au Père, au Fils et en l&apos;Esprit-Saint (Trinité).</text>
           </message>
-          <folder name="Je crois en Dieu le Père" id="je-crois-en-dieu-le-pere" nb="30" image="believe_in_god.jpg">
+          <folder name="Je crois en Dieu le Père" id="je-crois-en-dieu-le-pere" nb="30" image="god_father.jpg">
             <message name="Comment Dieu est-il « Père » ?" id="comment-dieu-est-il-pere" nb="37">
               <tests>
                 <test input="Comment Dieu est-il « Père » ?" output="Dieu est vénéré comme Pêre, d&apos;abord parce qu&apos;il est Créateur, et qu&apos;il s&apos;occupe avec amour de ses créatures. Jésus, le Fils de Dieu, nous a enseigné également que nous pouvions considérer son Père comme notre Père et que nous pouvions nous adresser à Lui en lui disant : « Notre Père. »" outputReferences="&lt;hc_bible ref=&quot;Dt 32, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ml 2, 10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 66, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;238-240&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-dieu-est-il-pere&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -9378,6 +9378,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Non. La Trinité divine est un mystère. Nous ne pouvons connaître la Trinité que par Jésus-Christ.</text>
+            </message>
+          </folder>
+          <folder name="Je crois en Jésus-Christ, le Fils unique de Dieu" id="je-crois-en-jesus-christ-le-fils-unique-de-dieu" nb="71" image="jesus.jpg">
+            <message name="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?" id="pourquoi-les-ecrits-sur-jesus-s-appellent-ils-evangile-c-est-a-dire-bonne-nouvelle" nb="71">
+              <tests>
+                <test input="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?" output="Qu&apos;est-ce que c&apos;est les écrits ?|otherAnswer-&gt;|Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m27xeMQQHh4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|&lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; url=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8, 36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-7&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 30-33&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 6, 50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 44&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 34&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19, 33-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;la-traversee-topo-1-qui-est-jesus&quot; textlength=&quot;26&quot; /&gt;" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="1" verseBegin="14"/>
+                <ccc verseBegin="422" verseEnd="429"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Sans les évangiles, nous ne saurions pas que Dieu dans son amour infini nous envoie son Fils pour que, malgré nos péchés, nous retournions dans la communion éternelle avec lui.</text>
             </message>
           </folder>
           <message name="Pourquoi la foi a-t-elle besoin de définitions et de formules ?" id="pourquoi-la-foi-a-t-elle-besoin-de-definitions-et-de-formules" nb="25">
@@ -10730,6 +10746,16 @@
           </message>
         </folder>
         <folder name="Paralysie partielle" id="paralysie-partielle" nb="2" image="paralésie.jpg">
+          <message name="&quot;Il a guéri son prêtre !&quot; Père Alain-Marie Ratti Open Medj" id="il-a-gueri-son-pretre-pere-alain-marie-ratti-open-medj">
+            <triggers>
+              <trigger value="Montrez-moi la guérison d&apos;un prêtre !"/>
+            </triggers>
+            <references>
+              <bible book="Jn" chapter="20" verseBegin="20"/>
+            </references>
+            <sourceId>ndml</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ceeXwj6a4W0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="&quot;Ma guérison à Lourdes&quot; : Serge François témoigne" id="ma-guerison-a-lourdes-serge-francois-temoigne">
             <tests>
               <test input="Qu&apos;est-ce que c&apos;est une guérison remarquable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eI90Nr07hNg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Sanctuaire Notre-Dame de Lourdes&quot; resourceid=&quot;ma-guerison-a-lourdes-serge-francois-temoigne&quot; textlength=&quot;35&quot; /&gt;"/>

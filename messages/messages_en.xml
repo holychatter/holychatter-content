@@ -2976,7 +2976,7 @@
             <sourceId>youcat</sourceId>
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
-          <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" image="believe_in_god.jpg">
+          <folder name="I Believe in God the Father" id="i-believe-in-god-the-father" nb="30" image="god_father.jpg">
             <message name="Can God do anything? Is he almighty?" id="can-god-do-anything-is-he-almighty" nb="40">
               <tests>
                 <test input="Can God do anything?" output="“For God nothing is impossible” (see Lk 1:37). He is almighty." outputReferences="&lt;hc_bible ref=&quot;Is 55: 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 135: 5-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mk 14: 36&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-god-do-anything-is-he-almighty&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3021,7 +3021,7 @@
               <sourceId>youcat</sourceId>
               <text>No. The fact that there are three persons (Trinity) in one God is a mystery. We know only through Jesus Christ that God is Trinitarian.</text>
             </message>
-            <folder name="Divine Providence" id="divine-providence" nb="49" image="divine_providence.jpg">
+            <folder name="Divine Providence" id="divine-providence" nb="49" image="god_father.jpg">
               <message name="Does God guide the world and my life?" id="does-god-guide-the-world-and-my-life" nb="49">
                 <tests>
                   <test input="Does God guide the world and my life?" output="Yes, but in a mysterious way; God guides everything along paths that only he knows, leading it to its perfection. At no point in time does something that he has created fall out of his hands." outputReferences="&lt;hc_ccc ref=&quot;302-305&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;does-god-guide-the-world-and-my-life&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3588,6 +3588,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>We revere God as Father first of all because he is the Creator and cares lovingly for his creatures. Jesus, the Son of God, has taught us, furthermore, to regard his Father as our Father and to address him as “our Father”.</text>
+            </message>
+          </folder>
+          <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
+            <message name="Why are the reports about Jesus called “the Gospel”, “the Good News”?" id="why-are-the-reports-about-jesus-called-the-gospel-the-good-news" nb="71">
+              <tests>
+                <test input="Why are the reports about Jesus called “the Gospel”, “the Good News”?" output="I don&apos;t know why the reports called Good News” “the Gospel” “the are about Jesus." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Why are the reports about Jesus called “the Gospel”, “the Good News”?"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="1" verseBegin="14"/>
+                <ccc verseBegin="422" verseEnd="429"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Without the Gospels we would not know that God sends his Son to us men out of his infinite love, so that despite our sins we might find our way back to eternal fellowship with God.</text>
             </message>
           </folder>
           <message name="What are creeds?" id="what-are-creeds" nb="26">
