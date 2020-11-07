@@ -3591,6 +3591,21 @@
             </message>
           </folder>
           <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
+            <message name="What does it mean to say that Jesus is “the only-begotten Son of God”?" id="what-does-it-mean-to-say-that-jesus-is-the-only-begotten-son-of-god" nb="74">
+              <tests>
+                <test input="What does it mean to say that Jesus is “the only-begotten Son of God”?" output="I don&apos;t know what means to say Jesus is “the begat only God”&apos;s Son." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="What does it mean to say that Jesus is “the only-begotten Son of God”?"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="3" verseBegin="16"/>
+                <ccc verseBegin="441" verseEnd="445"/>
+                <ccc verseBegin="454"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>When Jesus calls himself “God’s only-begotten Son” (or “only Son”, Jn 3:16) and Peter and others bear witness to this, the expression means that of all men only Jesus is more than a man.</text>
+            </message>
             <message name="What does the name “Jesus” mean?" id="what-does-the-name-jesus-mean" nb="72">
               <tests>
                 <test input="What does the name “Jesus” mean?" output="Jesus means in Hebrew “God saves.”" outputReferences="&lt;hc_bible ref=&quot;Acts 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;430-435&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;452&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-name-jesus-mean&quot; textlength=&quot;6&quot; /&gt;"/>
