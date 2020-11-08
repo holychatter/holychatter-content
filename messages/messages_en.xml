@@ -3635,6 +3635,21 @@
               <sourceId>youcat</sourceId>
               <text>Without the Gospels we would not know that God sends his Son to us men out of his infinite love, so that despite our sins we might find our way back to eternal fellowship with God.</text>
             </message>
+            <message name="Why do Christians address Jesus as “Lord”?" id="why-do-christians-address-jesus-as-lord" nb="75">
+              <tests>
+                <test input="Why do Christians address Jesus as “Lord”?" output="I don&apos;t know why christians address Jesus as “Lord”." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Why do Christians address Jesus as “Lord”?"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="13" verseBegin="13"/>
+                <ccc verseBegin="446" verseEnd="451"/>
+                <ccc verseBegin="455"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>“You call me Teacher and Lord; and you are right, for so I am” (Jn 13:13).</text>
+            </message>
             <message name="Why is Jesus called “Christ”?" id="why-is-jesus-called-christ" nb="73">
               <tests>
                 <test input="Why is Jesus called “Christ”?" output="I don&apos;t know why “Christ” calls Jesus." isOk="false"/>
