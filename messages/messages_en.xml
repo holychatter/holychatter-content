@@ -3635,6 +3635,20 @@
               <sourceId>youcat</sourceId>
               <text>Without the Gospels we would not know that God sends his Son to us men out of his infinite love, so that despite our sins we might find our way back to eternal fellowship with God.</text>
             </message>
+            <message name="Why did God become man in Jesus?" id="why-did-god-become-man-in-jesus" nb="76">
+              <tests>
+                <test input="Why did God become man in Jesus?" output="“For us men and for our salvation he came down from heaven” (Nicene → CREED)." outputReferences="&lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;456-460&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-become-man-in-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why did God become man in Jesus?"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="3" verseBegin="16"/>
+                <ccc verseBegin="456" verseEnd="460"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>“For us men and for our salvation he came down from heaven” (Nicene → CREED).</text>
+            </message>
             <message name="Why do Christians address Jesus as “Lord”?" id="why-do-christians-address-jesus-as-lord" nb="75">
               <tests>
                 <test input="Why do Christians address Jesus as “Lord”?" output="I don&apos;t know why christians address Jesus as “Lord”." isOk="false"/>
@@ -3646,6 +3660,7 @@
                 <bible book="Jn" chapter="13" verseBegin="13"/>
                 <ccc verseBegin="446" verseEnd="451"/>
                 <ccc verseBegin="455"/>
+                <bible book="Jn" chapter="20" verseBegin="28"/>
               </references>
               <sourceId>youcat</sourceId>
               <text>“You call me Teacher and Lord; and you are right, for so I am” (Jn 13:13).</text>
