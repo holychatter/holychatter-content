@@ -1503,7 +1503,7 @@
     <folder name="Carlo Acutis" id="carlo-acutis" image="carlo_acutis.jpg">
       <message name="Carlo Acutis Web Missionary" id="carlo-acutis-web-missionary">
         <tests>
-          <test input="Who is Carlo Acutis?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RVHxeNPNkBM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 10: 2-3&quot; textlength=&quot;10&quot; /&gt;"/>
+          <test input="Who is Carlo Acutis?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RVHxeNPNkBM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 10: 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;CheminNeuf NetforGod&quot; resourceid=&quot;carlo-acutis-web-missionary&quot; textlength=&quot;20&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Who is Carlo Acutis?"/>
@@ -3606,6 +3606,20 @@
             </message>
           </folder>
           <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
+            <message name="What does it mean to say that Jesus Christ is at the same time true God and true man?" id="what-does-it-mean-to-say-that-jesus-christ-is-at-the-same-time-true-god-and-true-man" nb="77">
+              <tests>
+                <test input="What does it mean to say that Jesus Christ is at the same time true God and true man?" output="I don&apos;t know what means to say true Jesus Christ is God at same time." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="What does it mean to say that Jesus Christ is at the same time true God and true man?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="464" verseEnd="467"/>
+                <ccc verseBegin="469"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text fileType="text_in_html">&lt;span&gt;In Jesus, God really became one of us and thus our brother; nevertheless, he did not cease to be God at the same time and thus our Lord.&lt;/span&gt;The Council of Chalcedon in the year 451 taught that the divinity and the humanity in the one person Jesus Christ are united together “without division or confusion”.</text>
+            </message>
             <message name="What does it mean to say that Jesus is “the only-begotten Son of God”?" id="what-does-it-mean-to-say-that-jesus-is-the-only-begotten-son-of-god" nb="74">
               <tests>
                 <test input="What does it mean to say that Jesus is “the only-begotten Son of God”?" output="I don&apos;t know what means to say Jesus is “the begat only God”&apos;s Son." isOk="false"/>
