@@ -5223,7 +5223,7 @@
     </folder>
   </folder>
   <folder name="Eglise" id="eglise" nb="7" image="church.jpg">
-    <folder name="Dogmes et morale" id="dogmes-et-morale" nb="3" image="dogme.jpg">
+    <folder name="Dogmes et morale" id="dogmes-et-morale" nb="4" image="dogme.jpg">
       <message name="Les dogmes, pour quoi faire ?" id="les-dogmes-pour-quoi-faire">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est un dogme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SDsn7bPW-pQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-dogmes-pour-quoi-faire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5269,7 +5269,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s4EpOZyYykM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Histoire" id="histoire" nb="4" image="history.jpg">
+    <folder name="Histoire" id="histoire" nb="5" image="history.jpg">
       <message name="Histoire(s) d&apos;Eglise : le temps des commencements" id="histoires-d-eglise-le-temps-des-commencements" nb="1">
         <tests>
           <test input="Quel est le début de l&apos;Eglise ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qdwQpAP6c2g&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 1-4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;histoires-d-eglise-le-temps-des-commencements&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5977,6 +5977,41 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
+    </folder>
+    <folder name="Sacramentaux" id="sacramentaux" nb="3" image="sacramenteaux.jpeg">
+      <message name="Célébrer des funérailles à l&apos;église." id="celebrer-des-funerailles-a-l-eglise">
+        <tests>
+          <test input="Comment célébrer des obsèques à l&apos;église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b-opGnR8ZM8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;celebrer-des-funerailles-a-l-eglise&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Comment célébrer des funérailles à l&apos;église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b-opGnR8ZM8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;celebrer-des-funerailles-a-l-eglise&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment célébrer des obsèques à l&apos;église ?"/>
+        </triggers>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b-opGnR8ZM8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Quelle parole lors des funérailles ?" id="quelle-parole-lors-des-funerailles">
+        <tests>
+          <test input="Quelle parole lors des funérailles ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mhV9cGrCSU4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 42-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 1-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lm 3, 25&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-parole-lors-des-funerailles&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle parole lors des funérailles ?"/>
+          <trigger value="Quel écho y a-t-il entre les paroles échangées et la Parole de Dieu lors des funérailles ?"/>
+          <trigger value="Les mots de la vie, les mots de la Bible quel écho lors des funérailles ?"/>
+          <trigger value="Et quand la parole est trop dure lors des funérailles ?"/>
+          <trigger value="Et quand la parole est trop invraisemblable lors des funérailles ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="13" verseBegin="1"/>
+          <bible book="Mt" chapter="14" verseBegin="20"/>
+          <bible book="Lk" chapter="24" verseBegin="42" verseEnd="43"/>
+          <bible book="Mt" chapter="5" verseBegin="1" verseEnd="12"/>
+          <bible book="Mt" chapter="16" verseBegin="8"/>
+          <bible book="Lam" chapter="3" verseBegin="25"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mhV9cGrCSU4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
     <folder name="Sacrements" id="sacrements" nb="2" image="sacraments.png">
       <folder name="Baptême" id="bapteme" nb="1" image="bapteme.jpg">
@@ -9130,6 +9165,20 @@
               <sourceId>youcat</sourceId>
               <text>La brève formule « Jésus est le Christ » exprime le cœur de la foi chrétienne : Jésus, le simple fils du charpentier de Nazareth, est le Messie attendu et le Sauveur.</text>
             </message>
+            <message name="Pourquoi Jésus n&apos;est-il compréhensible que comme « mystère » ?" id="pourquoi-jesus-n-est-il-comprehensible-que-comme-mystere" nb="78">
+              <tests>
+                <test input="Pourquoi Jésus n&apos;est-il compréhensible que comme « mystère » ?" output="Puisque Jésus est Dieu, on ne peut pas le comprendre si l&apos;on ne tient pas compte de la réalité invisible de sa divinité." outputReferences="&lt;hc_ccc ref=&quot;525-530&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;536&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-n-est-il-comprehensible-que-comme-mystere&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi Jésus n&apos;est-il compréhensible que comme « mystère » ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="525" verseEnd="530"/>
+                <ccc verseBegin="536"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Puisque Jésus est Dieu, on ne peut pas le comprendre si l&apos;on ne tient pas compte de la réalité invisible de sa divinité.</text>
+            </message>
             <message name="Pourquoi les chrétiens appellent-ils Jésus « Seigneur » ?" id="pourquoi-les-chretiens-appellent-ils-jesus-seigneur" nb="75">
               <tests>
                 <test input="Pourquoi les chrétiens appellent-ils Jésus « Seigneur » ?" output="&lt;i&gt;Vous m&apos;appelez Maître et Seigneur, et vous dites bien, car je le suis&lt;/i&gt; (Jn 13, 13)." outputReferences="&lt;hc_bible ref=&quot;Jn 13, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;446-451&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;455&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-les-chretiens-appellent-ils-jesus-seigneur&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -10438,7 +10487,6 @@
           <test input="Quelle est la meilleur guérison ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/p8G5UntzU30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Nous pouvons demander une guérison." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/p8G5UntzU30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Nous devons demander une guérison." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/p8G5UntzU30&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Jésus est le même aujourd&apos;hui, hier et demain ?" output="Oui, Jésus est le même aujourd&apos;hui, hier et demain." outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Jésus veut faire du bien ?" output="Oui, Jésus veut faire le bien." outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Jésus veut le bien ?" output="Oui, Jésus veut le bien." outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Le Salut ne s&apos;arrête pas seulement à une partie de notre être ?" output="Oui, le Salut n&apos;arrête pas seulement à une partie de notre être." outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10453,7 +10501,6 @@
           <trigger value="Nous devons demander une guérison."/>
         </triggers>
         <descriptions>
-          <description value="Jésus est le même aujourd&apos;hui, hier et demain."/>
           <description value="Jésus est amour."/>
           <description value="Jésus veut faire du bien."/>
           <description value="Jésus veut le bien."/>
@@ -11646,6 +11693,52 @@
       </message>
     </folder>
     <folder name="Dieu le Père" id="dieu-le-pere" nb="1" image="père.jpg">
+      <message name="Notre Père (1/3) On commence par la fin ?" id="notre-pere-13-on-commence-par-la-fin">
+        <tests>
+          <test input="Que signifie &quot;Notre Père qui est aux cieux&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-13-on-commence-par-la-fin&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Que signifie &quot;Notre Père qui est aux cieux&quot; ?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="11" verseBegin="1"/>
+          <bible book="Mt" chapter="6" verseBegin="9"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Notre Père (2/3) Ciel et Terre" id="notre-pere-23-ciel-et-terre">
+        <tests>
+          <test input="Qu&apos;est-ce que le tétragramme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-23-ciel-et-terre&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="C&apos;est Dieu ou c&apos;est l&apos;homme qui agit ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-23-ciel-et-terre&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;est-ce que le tétragramme ?"/>
+          <trigger value="C&apos;est Dieu ou c&apos;est l&apos;homme qui agit ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="9" verseEnd="10"/>
+          <bible book="Ex" chapter="3" verseBegin="14"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Notre Père (3/3) Les deux pieds sur terre." id="notre-pere-33-les-deux-pieds-sur-terre">
+        <tests>
+          <test input="Comment comprendre les demandes du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rBk3RqFKugQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 11-13&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 28-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 6, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-33-les-deux-pieds-sur-terre&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment comprendre les demandes du Notre Père ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="11" verseEnd="13"/>
+          <bible book="Mt" chapter="6" verseBegin="34"/>
+          <bible book="Lk" chapter="15" verseBegin="28" verseEnd="32"/>
+          <bible book="Lk" chapter="6" verseBegin="38"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rBk3RqFKugQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Notre-Père" id="notre-pere">
         <tests>
           <test input="Montrez-moi la prière du Notre-Père !" output="Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
