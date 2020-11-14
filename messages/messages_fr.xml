@@ -9136,6 +9136,20 @@
             </message>
           </folder>
           <folder name="Je crois en Jésus-Christ, le Fils unique de Dieu" id="je-crois-en-jesus-christ-le-fils-unique-de-dieu" nb="71" image="jesus.jpg">
+            <message name="Jésus avait-il comme nous une âme, un esprit et un Corps ?" id="jesus-avait-il-comme-nous-une-ame-un-esprit-et-un-corps" nb="79">
+              <tests>
+                <test input="Jésus avait-il comme nous une âme, un esprit et un Corps ?" output="Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2)." outputReferences="&lt;hc_bible ref=&quot;Lc 2, 52&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;470-476&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-avait-il-comme-nous-une-ame-un-esprit-et-un-corps&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Jésus avait-il comme nous une âme, un esprit et un Corps ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="470" verseEnd="476"/>
+                <bible book="Lk" chapter="2" verseBegin="52"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2).</text>
+            </message>
             <message name="Pourquoi Dieu s&apos;est-il incarné en Jésus-Christ ?" id="pourquoi-dieu-s-est-il-incarne-en-jesus-christ" nb="76">
               <tests>
                 <test input="Pourquoi Dieu s&apos;est-il incarné en Jésus-Christ ?" output="« Pour nous les hommes et pour notre salut il est descendu du ciel » ( CREDO de Nicée-Constantinople)." outputReferences="&lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;456-460&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-dieu-s-est-il-incarne-en-jesus-christ&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -11590,6 +11604,30 @@
         <sourceId>ndml</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bFYzFbdDUo4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <folder name="À propos" id="a-propos-avec-les-psaumes" image="about.png">
+        <message name="Comment prier avec les psaumes ?" id="comment-prier-avec-les-psaumes">
+          <triggers>
+            <trigger value="Comment prier avec les psaumes ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="11" verseBegin="25"/>
+            <bible book="Ps" chapter="34" verseBegin="28"/>
+            <bible book="Ps" chapter="65" verseBegin="17"/>
+            <bible book="Ps" chapter="32" verseBegin="5"/>
+            <bible book="Ps" chapter="4" verseBegin="2"/>
+            <bible book="Ps" chapter="12" verseBegin="2"/>
+            <bible book="Ps" chapter="6" verseBegin="4" verseEnd="5"/>
+            <bible book="Ps" chapter="21" verseBegin="2"/>
+            <bible book="Mk" chapter="15" verseBegin="34"/>
+            <bible book="Mt" chapter="27" verseBegin="46"/>
+            <bible book="Ps" chapter="83"/>
+            <bible book="Ps" chapter="114" verseBegin="1" verseEnd="2"/>
+            <bible book="Ps" chapter="116" verseBegin="1"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VDzfXU8bpvM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Ce en quoi nous croyons" id="ce-en-quoi-nous-croyons" nb="1" image="croyons.jpeg">
       <message name="Je crois en la résurrection de la chair" id="je-crois-en-la-resurrection-de-la-chair">

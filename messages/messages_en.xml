@@ -3606,6 +3606,20 @@
             </message>
           </folder>
           <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
+            <message name="Did Jesus have a soul, a mind, and a body just as we do?" id="did-jesus-have-a-soul-a-mind-and-a-body-just-as-we-do" nb="79">
+              <tests>
+                <test input="Did Jesus have a soul, a mind, and a body just as we do?" output="I don&apos;t know if Jesus had a soul, a mind and a just body." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Did Jesus have a soul, a mind, and a body just as we do?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="470" verseEnd="476"/>
+                <bible book="Lk" chapter="2" verseBegin="52"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Yes. Jesus “worked with human hands, he thought with a human mind. He acted with a human will, and with a human heart he loved” (Second Vatican Council, GS 22, 2).</text>
+            </message>
             <message name="What does it mean to say that Jesus Christ is at the same time true God and true man?" id="what-does-it-mean-to-say-that-jesus-christ-is-at-the-same-time-true-god-and-true-man" nb="77">
               <tests>
                 <test input="What does it mean to say that Jesus Christ is at the same time true God and true man?" output="I don&apos;t know what means to say true Jesus Christ is God at same time." isOk="false"/>
