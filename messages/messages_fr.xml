@@ -2258,7 +2258,7 @@
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
       <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter">
         <sourceId>chatbot-par-default</sourceId>
-        <text fileType="text_and_html">&lt;span&gt;Bonjour, je suis &lt;img src=&quot;/upload/holy_chatter_logo.png&quot; style=&quot;margin-top:-7px;&quot; height=&quot;30&quot; /&gt;, un chatbot au service de la religion chrétienne.&#10;Je vous souhaite la bienvenue ! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Alors prêt à chatter ?&lt;/span&gt;</text>
+        <text fileType="text_and_html">Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
           <effects>
             <fact value="dire-bonjour"/>
@@ -5926,30 +5926,32 @@
             <sourceId>fraternites-monastiques-de-jerusalem</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="Christ est ressuscité !" id="christ-est-ressuscite">
-            <tests>
-              <test input="Christ est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
-              <test input="Jésus est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
-            </tests>
-            <triggers>
-              <trigger value="Christ est ressuscité !"/>
-            </triggers>
-            <references>
-              <site url="https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-"/>
-            </references>
-            <sourceId>etoile-notre-dame</sourceId>
-            <text>Il est vraiment ressuscité !</text>
-          </message>
-          <message name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
-            <tests>
-              <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
-            </tests>
-            <references>
-              <site url="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
-            </references>
-            <sourceId>eglise-catholique-en-france</sourceId>
-            <text>La fête la plus importante des chrétiens est Pâques.</text>
-          </message>
+          <folder name="Chatbot" id="chatbot-paques" isHidden="true">
+            <message name="Christ est ressuscité !" id="christ-est-ressuscite">
+              <tests>
+                <test input="Christ est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
+                <test input="Jésus est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Christ est ressuscité !"/>
+              </triggers>
+              <references>
+                <site url="https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-"/>
+              </references>
+              <sourceId>etoile-notre-dame</sourceId>
+              <text>Il est vraiment ressuscité !</text>
+            </message>
+            <message name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
+              <tests>
+                <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête l&apos;importante plus chrétienne mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              </tests>
+              <references>
+                <site url="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
+              </references>
+              <sourceId>eglise-catholique-en-france</sourceId>
+              <text>La fête la plus importante des chrétiens est Pâques.</text>
+            </message>
+          </folder>
           <message name="Les trois Pâques" id="les-trois-paques">
             <triggers>
               <trigger value="Quels sont les trois Pâques ?"/>
