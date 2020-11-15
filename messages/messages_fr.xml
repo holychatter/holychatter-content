@@ -1266,6 +1266,36 @@
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JAdjbWQD1AE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               </message>
             </folder>
+            <folder name="La parabole des talents" id="la-parabole-des-talents" nb="1" image="parabole_des_talents.jpg">
+              <folder name="Chatbot" id="chatbot-la-parabole-des-talents" isHidden="true">
+                <message name="Lire la parabole des talents" id="lire-la-parabole-des-talents">
+                  <tests>
+                    <test input="Lire la parabole des talents." output="Vous pouvez lire la parabole des talents grâce aux versets de la Bible ci-dessous." outputReferences="&lt;hc_bible ref=&quot;Mt 25, 14-30&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-des-talents&quot; textlength=&quot;5&quot; /&gt;"/>
+                  </tests>
+                  <triggers>
+                    <trigger value="Lire la parabole des talents."/>
+                  </triggers>
+                  <references>
+                    <bible book="Mt" chapter="25" verseBegin="14" verseEnd="30"/>
+                  </references>
+                  <sourceId>bible</sourceId>
+                  <text>Vous pouvez lire la parabole des talents grâce aux versets de la Bible ci-dessous.</text>
+                </message>
+              </folder>
+              <message name="Quel talent Dieu a t&apos;il déposé en vous ? - Benjamin Pouzin" id="quel-talent-dieu-a-t-il-depose-en-vous-benjamin-pouzin">
+                <tests>
+                  <test input="Quel talent Dieu a t&apos;il déposé en vous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZDxmBZ2s4JE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25, 14-30&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;quel-talent-dieu-a-t-il-depose-en-vous-benjamin-pouzin&quot; textlength=&quot;8&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Quel talent Dieu a t&apos;il déposé en vous ?"/>
+                </triggers>
+                <references>
+                  <bible book="Mt" chapter="25" verseBegin="14" verseEnd="30"/>
+                </references>
+                <sourceId>glorious</sourceId>
+                <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZDxmBZ2s4JE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              </message>
+            </folder>
             <folder name="La parabole du filet" id="la-parabole-du-filet" nb="1" image="parabole_filet.jpeg">
               <folder name="Chatbot" id="chatbot-la-parabole-du-filet" isHidden="true">
                 <message name="La parabole du filet rempli de poissons" id="la-parabole-du-filet-rempli-de-poissons">
@@ -7233,19 +7263,6 @@
           </references>
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iF02zCN-oNY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-        <message name="Quel talent Dieu a t&apos;il déposé en vous ? - Benjamin Pouzin" id="quel-talent-dieu-a-t-il-depose-en-vous-benjamin-pouzin">
-          <tests>
-            <test input="Quel talent Dieu a t&apos;il déposé en vous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZDxmBZ2s4JE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25, 14-30&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;quel-talent-dieu-a-t-il-depose-en-vous-benjamin-pouzin&quot; textlength=&quot;8&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Quel talent Dieu a t&apos;il déposé en vous ?"/>
-          </triggers>
-          <references>
-            <bible book="Mt" chapter="25" verseBegin="14" verseEnd="30"/>
-          </references>
-          <sourceId>glorious</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZDxmBZ2s4JE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Vocation et liberté ?" id="vocation-et-liberte">
           <tests>
