@@ -10085,6 +10085,11 @@
         </potentialEffects>
       </planningInfos>
     </message>
+    <message name="Cool avant jour de naissance" id="cool-avant-jour-de-naissance">
+      <nextMessageId>quel-jour-etes-vous-ne</nextMessageId>
+      <sourceId>interne</sourceId>
+      <text fileType="text_and_html">Cool&#10;&lt;img src=&quot;/resources/gifs/joy.gif&quot; style=&quot;max-height: 150px; max-width: 400px;&quot; /&gt;</text>
+    </message>
     <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
       <sourceId>interne</sourceId>
       <text>Croyez-vous que Jésus a existé ?</text>
@@ -10158,12 +10163,17 @@
         <text>J&apos;aimerais te faire aimer Jésus.</text>
       </message>
     </folder>
-    <message name="Prêt à donner votre date de naissance ?" id="pret-a-donner-votre-date-de-naissance">
+    <message name="Prêt pour l&apos;aventure ?" id="pret-pour-l-aventure">
       <recommendations>
-        <recommendation text="Oui &amp;nbsp;&lt;img src=&quot;/resources/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;" outMessageId="quel-jour-etes-vous-ne"/>
+        <recommendation text="Oui &amp;nbsp;&lt;img src=&quot;/resources/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;" outMessageId="cool-avant-jour-de-naissance"/>
       </recommendations>
       <sourceId>interne</sourceId>
-      <text>Je vais essayer de trouver des similitudes entre vous et une personne connue.&#10;Pour cela j&apos;aurai besoin de vous demander votre date naissance tout en préservant votre anonymat, si vous le voulez bien.&#10;Alors prêt pour l&apos;aventure ?</text>
+      <text>Alors prêt pour l&apos;aventure ?</text>
+    </message>
+    <message name="Prêt à donner votre date de naissance ?" id="pret-a-donner-votre-date-de-naissance">
+      <nextMessageId>pret-pour-l-aventure</nextMessageId>
+      <sourceId>interne</sourceId>
+      <text>Je vais essayer de trouver des similitudes entre vous et une personne connue.&#10;Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et en préservant votre anonymat), si vous le voulez bien.</text>
       <planningInfos>
         <optionalPreconditions>
           <fact value="être-chrétien"/>
