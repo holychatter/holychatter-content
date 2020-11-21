@@ -5540,22 +5540,35 @@
             <sourceId>aelf</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
-          <message name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
-            <sourceId>l-evangile-au-quotidien</sourceId>
-            <text fileType="api">&lt;hc_api name=&quot;holy_gospel_comment&quot; /&gt;</text>
-          </message>
-          <message name="Deuxième lecture" id="deuxieme-lecture">
-            <sourceId>aelf</sourceId>
-            <text fileType="api">&lt;hc_api name=&quot;second_reading&quot; /&gt;</text>
-          </message>
-          <message name="Evangile" id="evangile">
-            <triggers>
-              <trigger value="Quel est l&apos;Évangile du jour ?"/>
-              <trigger value="Quel est l&apos;Évangile de ce dimanche ?"/>
-            </triggers>
-            <sourceId>aelf</sourceId>
-            <text fileType="api">&lt;hc_api name=&quot;holy_gospel&quot; /&gt;</text>
-          </message>
+          <folder name="Chatbot" id="chatbot-liturgie-de-la-parole" isHidden="true">
+            <message name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
+              <sourceId>l-evangile-au-quotidien</sourceId>
+              <text fileType="api">&lt;hc_api name=&quot;holy_gospel_comment&quot; /&gt;</text>
+            </message>
+            <message name="Deuxième lecture" id="deuxieme-lecture">
+              <sourceId>aelf</sourceId>
+              <text fileType="api">&lt;hc_api name=&quot;second_reading&quot; /&gt;</text>
+            </message>
+            <message name="Evangile" id="evangile">
+              <triggers>
+                <trigger value="Quel est l&apos;Évangile du jour ?"/>
+                <trigger value="Quel est l&apos;Évangile de ce dimanche ?"/>
+              </triggers>
+              <sourceId>aelf</sourceId>
+              <text fileType="api">&lt;hc_api name=&quot;holy_gospel&quot; /&gt;</text>
+            </message>
+            <message name="Première lecture" id="premiere-lecture">
+              <triggers>
+                <trigger value="Quel est la première lecture du jour ?"/>
+              </triggers>
+              <sourceId>aelf</sourceId>
+              <text fileType="api">&lt;hc_api name=&quot;first_reading&quot; /&gt;</text>
+            </message>
+            <message name="Psaume" id="psaume">
+              <sourceId>aelf</sourceId>
+              <text fileType="api">&lt;hc_api name=&quot;psalm&quot; /&gt;</text>
+            </message>
+          </folder>
           <message name="L&apos;Évangile au Quotidien" id="l-evangile-au-quotidien">
             <tests>
               <test input="C&apos;est quoi &quot;L&apos;Évangile au Quotidien&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;l-evangile-au-quotidien&quot; textlength=&quot;24&quot; /&gt;"/>
@@ -5565,17 +5578,6 @@
             </descriptions>
             <sourceId>l-evangile-au-quotidien</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H1A2tg6ccKg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </message>
-          <message name="Première lecture" id="premiere-lecture">
-            <triggers>
-              <trigger value="Quel est la première lecture du jour ?"/>
-            </triggers>
-            <sourceId>aelf</sourceId>
-            <text fileType="api">&lt;hc_api name=&quot;first_reading&quot; /&gt;</text>
-          </message>
-          <message name="Psaume" id="psaume">
-            <sourceId>aelf</sourceId>
-            <text fileType="api">&lt;hc_api name=&quot;psalm&quot; /&gt;</text>
           </message>
           <folder name="Réponse de l’assemblée" id="reponse-de-l-assemblee-liturgie-de-la-parole" isHidden="true">
             <message name="Parole du Seigneur" id="parole-du-seigneur">
@@ -5839,7 +5841,7 @@
         </folder>
       </folder>
       <folder name="Temps liturgiques" id="temps-liturgiques" nb="2" image="temps_liturgique.jpg">
-        <folder name="Ascension" id="ascension" nb="6" image="noel.png">
+        <folder name="Ascension" id="ascension" nb="6" image="ascension.jpg">
           <message name="Deux bonnes raisons de fêter l&apos;Ascension" id="deux-bonnes-raisons-de-feter-l-ascension">
             <tests>
               <test input="À quoi sert l&apos;Ascension ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lkl9fnNx1L4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;deux-bonnes-raisons-de-feter-l-ascension&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -5866,7 +5868,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u0cURJmJqy0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Avent" id="avent" nb="2" image="avent.jpeg">
+        <folder name="Avent" id="avent" nb="2" image="avent.jpg">
           <message name="L&apos;Avent... et après ?" id="l-avent-et-apres">
             <tests>
               <test input="Qu&apos;est-ce que l&apos;Avent ?" output="\hc_resource_html=#fr_FR#&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;l-avent-et-apres&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -5879,7 +5881,7 @@
             <text fileType="html">&lt;iframe frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;270&quot; src=&quot;https://www.dailymotion.com/embed/video/x18aim8&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Carême" id="careme" nb="4" image="avent.jpeg">
+        <folder name="Carême" id="careme" nb="4" image="careme.jpg">
           <message name="Le Carême c&apos;est quoi ?" id="le-careme-c-est-quoi">
             <tests>
               <test input="Le Carême c&apos;est quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a2ctJdlK7-o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Moulins&quot; resourceid=&quot;le-careme-c-est-quoi&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -5936,7 +5938,23 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Noël" id="noel" nb="3" image="noel.png">
+        <folder name="Christ-Roi" id="christ-roi" nb="7" image="christ-roi.jpg">
+          <message name="Qu&apos;est-ce que la fête du Christ-Roi?" id="qu-est-ce-que-la-fete-du-christ-roi">
+            <tests>
+              <test input="Qu&apos;est-ce que la fête du Christ-Roi?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G2IVWGReE-s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;qu-est-ce-que-la-fete-du-christ-roi&quot; textlength=&quot;19&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que la fête du Christ-Roi ?"/>
+            </triggers>
+            <references>
+              <bible book="Gen" chapter="49" verseBegin="10"/>
+              <bible book="Jer" chapter="23" verseBegin="5"/>
+            </references>
+            <sourceId>cedric-de-la-serre</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G2IVWGReE-s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
+        <folder name="Noël" id="noel" nb="3" image="noel.jpg">
           <message name="Comment vivre noel ? - Benjamin Pouzin" id="comment-vivre-noel-benjamin-pouzin">
             <tests>
               <test input="Comment vivre noel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Eglise Lyon Centre&quot; resourceid=&quot;comment-vivre-noel-benjamin-pouzin&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -5948,7 +5966,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T43PQoIzinw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Pâques" id="paques" nb="5" image="noel.png">
+        <folder name="Pâques" id="paques" nb="5" image="paques.jpg">
           <message name="&quot;Il est vraiment ressuscite&quot; Chant des Fraternités Monastiques de Jérusalem" id="il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem">
             <triggers>
               <trigger value="Christ est ressuscité !"/>
@@ -6029,7 +6047,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Temps ordinaire" id="temps-ordinaire" nb="1" image="temps_ordinaire.jpg">
+        <folder name="Temps ordinaire" id="temps-ordinaire" nb="1" image="temps_ordiaire.jpeg">
           <message name="Devoir d&apos;état ? - Abbé Grosjean" id="devoir-d-etat-abbe-grosjean">
             <tests>
               <test input="Qu&apos;est-ce que le devoir d&apos;état ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zN88jGrGtJI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;devoir-d-etat-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
@@ -8470,6 +8488,23 @@
         </message>
       </folder>
       <folder name="Purgatoire" id="purgatoire" nb="2" image="purgtoire.jpg">
+        <message name="C&apos;est quoi le purgatoire ? #MaisDisMoi" id="c-est-quoi-le-purgatoire-maisdismoi">
+          <tests>
+            <test input="Le purgatoire est-il insuportable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DuJ5dXo1cTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;c-est-quoi-le-purgatoire-maisdismoi&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Le purgatoire est-il insuportable ?"/>
+          </triggers>
+          <references>
+            <bible book="2 Macc" chapter="12" verseBegin="45"/>
+            <bible book="Job" chapter="1" verseBegin="5"/>
+            <bible book="Mt" chapter="12" verseBegin="32"/>
+            <bible book="1 Cor" chapter="3" verseBegin="15"/>
+            <bible book="1 Pet" chapter="1" verseBegin="7"/>
+          </references>
+          <sourceId>le-catho-de-service</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DuJ5dXo1cTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Pourquoi prier pour les défunts ? - Abbé Grosjean" id="pourquoi-prier-pour-les-defunts-abbe-grosjean">
           <tests>
             <test input="Pourquoi prier pour les défunts ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cs2rniC8ww0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2M 12, 39-46&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;pourquoi-prier-pour-les-defunts-abbe-grosjean&quot; textlength=&quot;9&quot; /&gt;"/>
