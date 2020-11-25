@@ -1763,6 +1763,12 @@
               </message>
             </folder>
             <message name="La résurrection de Jésus" id="la-resurrection-de-jesus">
+              <tests>
+                <test input="Qu&apos;est-ce que la résurrection de Jésus ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Om23NPW459s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mc 16, 4-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dn 10, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dt 19, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Tb 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 6-7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 1-8&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-resurrection-de-jesus&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que la résurrection de Jésus ?"/>
+              </triggers>
               <references>
                 <bible book="Mk" chapter="16" verseBegin="4" verseEnd="6"/>
                 <bible book="Dan" chapter="10" verseBegin="5"/>
@@ -1797,6 +1803,18 @@
               </references>
               <sourceId>comprendre-dieu</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S1i5VeBF4U8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="La résurrection en 3 min" id="la-resurrection-en-3-min">
+              <tests>
+                <test input="Quelle est la différence entre la résurrection et la réincarnation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LBkhjbh3ir0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-resurrection-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Qu&apos;est-ce que la résurrection change dans notre rapport au corps ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LBkhjbh3ir0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-resurrection-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quelle est la différence entre la résurrection et la réincarnation ? "/>
+                <trigger value="Qu&apos;est-ce que la résurrection change dans notre rapport au corps ?"/>
+              </triggers>
+              <sourceId>padre-dk</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LBkhjbh3ir0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
         </folder>
@@ -2123,6 +2141,18 @@
         </references>
         <sourceId>aleteia</sourceId>
         <text>La Bible donne le moyen d&apos;accéder au bonheur en suivant Jésus.</text>
+      </message>
+      <message name="La Bible en 3 minutes" id="la-bible-en-3-minutes">
+        <tests>
+          <test input="Que contient la Bible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2WxfSiRvaBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-bible-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quelle différence entre l&apos;Ancien et le Nouveau Testament ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2WxfSiRvaBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-bible-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Que contient la Bible ? "/>
+          <trigger value="Quelle différence entre l&apos;Ancien et le Nouveau Testament ? "/>
+        </triggers>
+        <sourceId>padre-dk</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2WxfSiRvaBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="La Bible est le Best-Seller mondial n°1." id="la-bible-est-le-best-seller-mondial-n1">
         <tests>
@@ -4094,7 +4124,7 @@
         <message name="Sa victoire sur la mort" id="sa-victoire-sur-la-mort" nb="7">
           <tests>
             <test input="Jésus est-il ressuscité ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
-            <test input="Qu&apos;est-ce que la résurrection de Jésus ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens." outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce que la résurrection de Jésus ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Om23NPW459s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mc 16, 4-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dn 10, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dt 19, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Tb 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 6-7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 1-8&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-resurrection-de-jesus&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Jésus est-il ressuscité ?"/>
@@ -5941,7 +5971,7 @@
         <folder name="Christ-Roi" id="christ-roi" nb="7" image="christ-roi.jpg">
           <message name="Qu&apos;est-ce que la fête du Christ-Roi?" id="qu-est-ce-que-la-fete-du-christ-roi">
             <tests>
-              <test input="Qu&apos;est-ce que la fête du Christ-Roi?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G2IVWGReE-s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;qu-est-ce-que-la-fete-du-christ-roi&quot; textlength=&quot;19&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que la fête du Christ-Roi?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G2IVWGReE-s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 49, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jr 23, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;qu-est-ce-que-la-fete-du-christ-roi&quot; textlength=&quot;19&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Qu&apos;est-ce que la fête du Christ-Roi ?"/>
@@ -8490,7 +8520,7 @@
       <folder name="Purgatoire" id="purgatoire" nb="2" image="purgtoire.jpg">
         <message name="C&apos;est quoi le purgatoire ? #MaisDisMoi" id="c-est-quoi-le-purgatoire-maisdismoi">
           <tests>
-            <test input="Le purgatoire est-il insuportable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DuJ5dXo1cTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;c-est-quoi-le-purgatoire-maisdismoi&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="Le purgatoire est-il insuportable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DuJ5dXo1cTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2M 12, 45&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 1, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 32&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1P 1, 7&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;c-est-quoi-le-purgatoire-maisdismoi&quot; textlength=&quot;19&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Le purgatoire est-il insuportable ?"/>
@@ -9283,6 +9313,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2).</text>
+            </message>
+            <message name="N&apos;est-il pas choquant de donner à Marie le titre de « mère de Dieu » ?" id="n-est-il-pas-choquant-de-donner-a-marie-le-titre-de-mere-de-dieu" nb="82">
+              <tests>
+                <test input="N&apos;est-il pas choquant de donner à Marie le titre de « mère de Dieu » ?" output="Je ne sais pas si il n&apos;est pas choquant de donner le titre de « mère de Dieu » à la Vierge Marie mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="N&apos;est-il pas choquant de donner à Marie le titre de « mère de Dieu » ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="495"/>
+                <ccc verseBegin="509"/>
+                <bible book="Mt" chapter="1" verseBegin="23"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Non. Donner à Marie Le titre de mère de Dieu, c&apos;est confesser que son fils est Dieu.</text>
             </message>
             <message name="Pourquoi Dieu s&apos;est-il incarné en Jésus-Christ ?" id="pourquoi-dieu-s-est-il-incarne-en-jesus-christ" nb="76">
               <tests>
@@ -12671,6 +12716,20 @@
         <sourceId>famille-chretienne</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Saïd Oujibou, de mohammed à Christ" id="said-oujibou-de-mohammed-a-christ">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une œuvre de charité concrète !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xGHq4EUumUQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 2, 7&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 43-44&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;DIEU SAUVE&quot; resourceid=&quot;said-oujibou-de-mohammed-a-christ&quot; textlength=&quot;10&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une œuvre de charité concrète !"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="2" verseBegin="7"/>
+          <bible book="Mt" chapter="5" verseBegin="43" verseEnd="44"/>
+        </references>
+        <sourceId>dieu-sauve</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xGHq4EUumUQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Témoignage du P. Mustapha Amari, musulman devenu prêtre" id="temoignage-du-p-mustapha-amari-musulman-devenu-pretre">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un ancien musulman !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GVc_rrn0YOY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Belley-Ars&quot; resourceid=&quot;temoignage-du-p-mustapha-amari-musulman-devenu-pretre&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -12716,6 +12775,16 @@
         </triggers>
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="La foi de Lilian Thuram (Etats Généraux du Christianisme)" id="la-foi-de-lilian-thuram-etats-generaux-du-christianisme">
+        <tests>
+          <test input="Quel est l&apos;avis de Lilian Thuram sur les religions ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;la-foi-de-lilian-thuram-etats-generaux-du-christianisme&quot; textlength=&quot;19&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quel est l&apos;avis de Lilian Thuram sur les religions ?"/>
+        </triggers>
+        <sourceId>le-jour-du-seigneur</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Le jour où Elie Semoun a rencontré le père Laurent" id="le-jour-o-elie-semoun-a-rencontre-le-pere-laurent">
         <tests>
@@ -12977,6 +13046,16 @@
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MkD-qAW6qak?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Le Père Cédric de La Serre" id="le-pere-cedric-de-la-serre">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une personne ayant passée un week-end dans une abbaye !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/W5Rm4VOos0k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;le-pere-cedric-de-la-serre&quot; textlength=&quot;19&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une personne ayant passée un week-end dans une abbaye !"/>
+        </triggers>
+        <sourceId>cedric-de-la-serre</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/W5Rm4VOos0k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Lourdes 2018 : Témoignage du père Ronan de Gouvello" id="lourdes-2018-temoignage-du-pere-ronan-de-gouvello">
         <tests>
           <test input="Quel est le témoignage du père Ronan de Gouvello ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/J6LJjLVbQ4w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;lourdes-2018-temoignage-du-pere-ronan-de-gouvello&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -13020,6 +13099,16 @@
         </tests>
         <sourceId>le-fraternel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-m84OMOZGGo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Tu penses au suicide, que faire?, &quot;Dieu m&apos;a libéré du désespoir&quot;" id="tu-penses-au-suicide-que-faire-dieu-m-a-libere-du-desespoir">
+        <tests>
+          <test input="Tu penses au suicide, que faire?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JGiw6fs6wOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;DIEU SAUVE&quot; resourceid=&quot;tu-penses-au-suicide-que-faire-dieu-m-a-libere-du-desespoir&quot; textlength=&quot;10&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Tu penses au suicide, que faire ?"/>
+        </triggers>
+        <sourceId>dieu-sauve</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JGiw6fs6wOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Témoignage de Soeur Blandine" id="temoignage-de-soeur-blandine">
         <tests>
