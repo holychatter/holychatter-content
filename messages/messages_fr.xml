@@ -625,6 +625,24 @@
         </folder>
         <folder name="Genèse" id="genese" nb="1" image="genese.jpg">
           <folder name="Abraham" id="abraham" image="abraham.jpg">
+            <message name="Abraham en 3 minutes" id="abraham-en-3-minutes">
+              <tests>
+                <test input="Que signifie Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+                <test input="Quel est le drame d&apos;Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+                <test input="Qu&apos;est-ce que le sacrifice d&apos;Isaac ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+              </tests>
+              <triggers>
+                <trigger value="Que signifie Abraham ?"/>
+                <trigger value="Quel est le drame d&apos;Abraham ?"/>
+                <trigger value="Qu&apos;est-ce que le sacrifice d&apos;Isaac ?"/>
+              </triggers>
+              <references>
+                <bible book="Gen" chapter="11" verseBegin="10" chapterEnd="25" verseEnd="18"/>
+                <bible book="Gen" chapter="22" verseBegin="12" verseEnd="13"/>
+              </references>
+              <sourceId>padre-dk</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
             <message name="Abraham, Père des croyants" id="abraham-pere-des-croyants">
               <descriptions>
                 <description value="C&apos;est la vie d&apos;Abraham."/>
@@ -668,6 +686,20 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3m24IHVZ0XM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <folder name="Jacob" id="jacob" image="jacob.jpg">
+            <message name="Jacob en 3 minutes" id="jacob-en-3-minutes">
+              <triggers>
+                <trigger value="Qui est Jacob ?"/>
+                <trigger value="Quelle fut la vie de Jacob ?"/>
+                <trigger value="Pourquoi Jacob s&apos;est-il battu contre l&apos;ange ?"/>
+              </triggers>
+              <references>
+                <bible book="Gen" chapter="25" chapterEnd="35"/>
+              </references>
+              <sourceId>padre-dk</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/78LBbw4yYVI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
           <message name="Topo biblique #1 : Genèse" id="topo-biblique-1-genese">
             <references>
               <bible book="Num" chapter="6" verseBegin="22" verseEnd="27"/>
@@ -6109,6 +6141,19 @@
           <sourceId>webtele-ecdq</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Soyons saints" id="soyons-saints">
+          <tests>
+            <test input="Est-ce un combat d&apos;être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/x5BnwJG9JZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2Tm 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;soyons-saints&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Est-ce un combat d&apos;être chrétien ?"/>
+          </triggers>
+          <references>
+            <bible book="2 Tim" chapter="4" verseBegin="7"/>
+          </references>
+          <sourceId>le-catho-de-service</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/x5BnwJG9JZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
       </folder>
     </folder>
     <folder name="Sacramentaux" id="sacramentaux" nb="3" image="sacramenteaux.jpeg">
@@ -9461,6 +9506,20 @@
               <sourceId>youcat</sourceId>
               <text>En hébreu, Jésus signifie « Dieu sauve ».</text>
             </message>
+            <message name="Que signifie « l’Immaculée Conception de Marie » ?" id="que-signifie-l-immaculee-conception-de-marie" nb="83">
+              <tests>
+                <test input="Que signifie « l’Immaculée Conception de Marie » ?" output="L&apos;Église croit que la bienheureuse Vierge Marie a été, au premier instant de sa conception, par une grâce et une faveur singulières du Dieu Tout-Puissant et en vue des mérites de Jésus-Christ Sauveur du genre humain, préservée intacte de toute souillure du péché originel (Dogme de 1854)." outputReferences="&lt;hc_ccc ref=&quot;487-492&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;508&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-signifie-l-immaculee-conception-de-marie&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Que signifie « l’Immaculée Conception de Marie » ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="487" verseEnd="492"/>
+                <ccc verseBegin="508"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>L&apos;Église croit que la bienheureuse Vierge Marie a été, au premier instant de sa conception, par une grâce et une faveur singulières du Dieu Tout-Puissant et en vue des mérites de Jésus-Christ Sauveur du genre humain, préservée intacte de toute souillure du péché originel (Dogme de 1854).</text>
+            </message>
           </folder>
           <message name="Pourquoi la foi a-t-elle besoin de définitions et de formules ?" id="pourquoi-la-foi-a-t-elle-besoin-de-definitions-et-de-formules" nb="25">
             <tests>
@@ -11533,6 +11592,19 @@
       </message>
     </folder>
     <folder name="À propos" id="a-propos-personnes" image="about.png">
+      <folder name="Chatbot" id="chatbot-a-propos-2" isHidden="true">
+        <message name="Le Saint du jour" id="le-saint-du-jour">
+          <tests>
+            <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;le-saint-du-jour&quot; textlength=&quot;24&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qui est le Saint du jour ?"/>
+            <trigger value="Quel Saint fêtons-nous aujourd&apos;hui ?"/>
+          </triggers>
+          <sourceId>l-evangile-au-quotidien</sourceId>
+          <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
+        </message>
+      </folder>
       <message name="Est-ce que nous sommes appelés à la Sainteté ?" id="est-ce-que-nous-sommes-appeles-a-la-saintete">
         <tests>
           <test input="Est-ce que nous sommes appelés à la Sainteté ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lv 20, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 50, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 50, 9-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 4, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1P 1, 15-16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 3, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 1, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ep 4, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-nous-sommes-appeles-a-la-saintete&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -11555,17 +11627,6 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Le Saint du jour" id="le-saint-du-jour">
-        <tests>
-          <test input="Qui est le Saint d&apos;aujourd&apos;hui ?" output="Le Saint d&apos;aujourd&apos;hui est \hc_resource_html=#fr_FR#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFaux Saint du jour pour les tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;L&apos;Évangile au Quotidien&quot; resourceid=&quot;le-saint-du-jour&quot; textlength=&quot;24&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est le Saint du jour ?"/>
-          <trigger value="Quel Saint fêtons-nous aujourd&apos;hui ?"/>
-        </triggers>
-        <sourceId>l-evangile-au-quotidien</sourceId>
-        <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
       </message>
       <message name="Pourquoi les catholiques invoquent les saints ?" id="pourquoi-les-catholiques-invoquent-les-saints">
         <tests>
@@ -12443,6 +12504,31 @@
       </message>
     </folder>
     <folder name="À propos" id="a-propos-prieres" image="about.png">
+      <message name="Méditer sur soi, c&apos;est prier ?" id="mediter-sur-soi-c-est-prier">
+        <tests>
+          <test input="Méditer sur soi, c&apos;est prier ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Méditer sur sa vie, c&apos;est de la prière ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quels sont les manières de prier ?" output="Les manières de prier sont la miséricorde.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Misericordiae Vultus&quot; resourceid=&quot;qu-est-ce-que-la-misericorde&quot; textlength=&quot;20&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+          <test input="C&apos;est quoi la prière chrétienne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quelle est la vraie spécificité de la prière chrétienne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Comment méditer sur soi avec le Christ ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Nos temps de prières ne se réduisent-ils pas parfois à des temps d’introspection ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;mediter-sur-soi-c-est-prier&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Méditer sur soi, c&apos;est prier ?"/>
+          <trigger value="Méditer sur sa vie, c&apos;est de la prière ?"/>
+          <trigger value="Quels sont les manières de prier ?"/>
+          <trigger value="C&apos;est quoi la prière chrétienne ?"/>
+          <trigger value="Quelle est la vraie spécificité de la prière chrétienne ?"/>
+          <trigger value="Comment méditer sur soi avec le Christ ?"/>
+          <trigger value="Nos temps de prières ne se réduisent-ils pas parfois à des temps d’introspection ?"/>
+        </triggers>
+        <references>
+          <bible book="Rom" chapter="10" verseBegin="9"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPXRCh9_UyQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Que faire quand on s&apos;ennuie? (la prière)" id="que-faire-quand-on-s-ennuie-la-priere">
         <triggers>
           <trigger value="Que faire quand on s&apos;ennuie ?"/>
