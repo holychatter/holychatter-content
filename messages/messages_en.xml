@@ -1161,10 +1161,10 @@
         </message>
         <message name="Holy Gospel" id="holy-gospel">
           <tests>
-            <test input="What is the Gospel of today ?" output="The Holy Gospel of 10 minutes ago is &lt;p&gt;&lt;/p&gt;Gospel of today in English" outputReferences="&lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="What is the Gospel of today ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English" outputReferences="&lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
             <test input="What is the Gospel of yesterday?" output="The Holy Gospel of yesterday is &lt;p&gt;&lt;/p&gt;Gospel of yesterday in English" outputReferences="&lt;hc_bible ref=&quot;Lk 2:1-14&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
             <test input="What is the Holy Gospel of tomorrow?" output="The Holy Gospel of tomorrow is &lt;p&gt;&lt;/p&gt;Gospel of tomorrow in English" outputReferences="&lt;hc_bible ref=&quot;Mt 2:13-18&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
-            <test input="What is the Gospel of the day ?" output="The Holy Gospel of 10 minutes ago is &lt;p&gt;&lt;/p&gt;Gospel of today in English" outputReferences="&lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="What is the Gospel of the day ?" output="The Holy Gospel of today is &lt;p&gt;&lt;/p&gt;Gospel of today in English" outputReferences="&lt;hc_bible ref=&quot;Jn 1:1-18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;holy-gospel&quot; textlength=&quot;12&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="What is the Gospel of the day ?"/>
@@ -1530,7 +1530,7 @@
     </folder>
     <message name="Saint" id="saint">
       <tests>
-        <test input="Who is the Saint of today?" output="The Saint of 10 minutes ago is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
+        <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
       </tests>
       <triggers>
         <trigger value="Who is the Saint of today ?"/>
@@ -2821,8 +2821,8 @@
         </message>
         <message name="Who is Mary?" id="who-is-mary" nb="60">
           <tests>
-            <test input="Who is Mary?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 1: 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19: 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
-            <test input="Mary" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 1: 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19: 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Who is Mary?" output="Mary is our mother that the Lord gave to us Mary as a mother.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 19: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;963-966&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;973&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-mary-our-mother-also&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lk 1: 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19: 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Mary" output="Mary is our mother that the Lord gave to us Mary as a mother.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 19: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;963-966&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;973&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-mary-our-mother-also&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lk 1: 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19: 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Who is the Virgin Mary?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/odxBJRHSR3w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 1: 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19: 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;487-511&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;963-975&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-mary&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
@@ -3809,6 +3809,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>God willed that Jesus Christ should have a true human mother but only God himself as his Father, because he wanted to make a new beginning that could be credited to him alone and not to earthly forces.</text>
+            </message>
+            <message name="Why is Mary our mother also?" id="why-is-mary-our-mother-also" nb="85">
+              <tests>
+                <test input="Why is Mary our mother also?" output="Mary is our mother because Christ the Lord gave her to us as a mother." outputReferences="&lt;hc_bible ref=&quot;Jn 19: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;963-966&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;973&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-mary-our-mother-also&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why is Mary our mother also?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="963" verseEnd="966"/>
+                <ccc verseBegin="973"/>
+                <bible book="Jn" chapter="19" verseBegin="27"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Mary is our mother because Christ the Lord gave her to us as a mother.</text>
             </message>
           </folder>
           <message name="What are creeds?" id="what-are-creeds" nb="26">
