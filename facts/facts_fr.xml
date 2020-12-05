@@ -39,7 +39,11 @@
       <continuation text="Et donc ?"/>
     </continuationTexts>
   </fact>
-  <fact id="donner-un-conseil" commentaries="Ce fait sera automatiquement rajouté après chaque objectif."/>
+  <fact id="donner-un-conseil" commentaries="Ce fait sera automatiquement rajouté après chaque objectif.">
+    <continuationTexts>
+      <continuation facts="debut-de-la-conversation" text="Oui, allons-y !"/>
+    </continuationTexts>
+  </fact>
   <fact id="et-donc-que-dit-jésus">
     <continuationTexts>
       <continuation text="Et donc ?"/>
@@ -126,6 +130,7 @@
       <continuation text="Qui d&apos;autre parle de Jésus ?"/>
     </continuationTexts>
   </fact>
+  <fact id="suggestions-a-gauche"/>
   <fact id="véracité-du-message-chrétien">
     <preconditionFacts>
       <preconditionSet>jésus-a-existé, la-résurrection-de-jésus, portrait-de-jésus, raisons-de-croire-jésus, raisons-de-la-mort-de-jésus</preconditionSet>
