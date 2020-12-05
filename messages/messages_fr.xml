@@ -9431,6 +9431,21 @@
               <sourceId>youcat</sourceId>
               <text>Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2).</text>
             </message>
+            <message name="Marie n&apos;était-elle qu&apos;un instrument entre les mains de Dieu ?" id="marie-n-etait-elle-qu-un-instrument-entre-les-mains-de-dieu" nb="84">
+              <tests>
+                <test input="Marie n&apos;était-elle qu&apos;un instrument entre les mains de Dieu ?" output="Marie a été plus qu&apos;un instrument purement passif entre les mains de Dieu. Sa participation active a permis que s&apos;accomplisse l&apos;incarnation de Dieu." outputReferences="&lt;hc_ccc ref=&quot;493-494&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;508-511&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;marie-n-etait-elle-qu-un-instrument-entre-les-mains-de-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Marie n&apos;était-elle qu&apos;un instrument entre les mains de Dieu ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="493" verseEnd="494"/>
+                <ccc verseBegin="508" verseEnd="511"/>
+                <bible book="Lk" chapter="1" verseBegin="38"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Marie a été plus qu&apos;un instrument purement passif entre les mains de Dieu. Sa participation active a permis que s&apos;accomplisse l&apos;incarnation de Dieu.</text>
+            </message>
             <message name="N&apos;est-il pas choquant de donner à Marie le titre de « mère de Dieu » ?" id="n-est-il-pas-choquant-de-donner-a-marie-le-titre-de-mere-de-dieu" nb="82">
               <tests>
                 <test input="N&apos;est-il pas choquant de donner à Marie le titre de « mère de Dieu » ?" output="Je ne sais pas si il n&apos;est pas choquant de donner le titre de « mère de Dieu » à la Vierge Marie mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
@@ -11720,6 +11735,23 @@
   </folder>
   <folder name="Prières" id="prieres" nb="8" image="prier.jpg">
     <folder name="Attitude" id="attitude" nb="1" image="attitude.jpg">
+      <message name="Comment prier avec son corps ?" id="comment-prier-avec-son-corps">
+        <triggers>
+          <trigger value="Comment prier avec son corps ?"/>
+          <trigger value="Quand je prie est-ce que je suis obligé de rester immobile comme une statue ?"/>
+          <trigger value="Est-ce que le corps a un rôle dans prière ?"/>
+          <trigger value="Quelle est la manière de prier la plus ancienne ?"/>
+          <trigger value="Qu&apos;est-ce que ça signifie de prier debout ?"/>
+        </triggers>
+        <references>
+          <bible book="2 Sam" chapter="6" verseBegin="12" verseEnd="23"/>
+          <bible book="Is" chapter="63" verseBegin="19"/>
+          <bible book="Sir" chapter="35" verseBegin="21"/>
+          <bible book="Ps" chapter="118" verseBegin="105"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TMwBZuSEi-A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Je ne ressens rien quand je prie, est-ce normal ?" id="je-ne-ressens-rien-quand-je-prie-est-ce-normal">
         <tests>
           <test input="Je ne ressens rien quand je prie." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mCAW_O73yZA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;je-ne-ressens-rien-quand-je-prie-est-ce-normal&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -12368,7 +12400,7 @@
               <trigger value="Pourquoi louer Dieu ?"/>
             </triggers>
             <recommendations>
-              <recommendation text="Comment louer Dieu ?" outMessageId="comment-louer-dieu"/>
+              <recommendation text="Comment louer Dieu ?" outMessageId="pourquoi-louer-dieu-comment-louer-dieu"/>
             </recommendations>
             <references>
               <bible book="Rom" chapter="11" verseBegin="36"/>
@@ -12446,7 +12478,7 @@
         </folder>
       </folder>
       <folder name="Comment louer Dieu ?" id="comment-louer-dieu" image="comment_louer.jpg">
-        <message name="Comment louer Dieu ?" id="comment-louer-dieu">
+        <message name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu-comment-louer-dieu">
           <tests>
             <test input="Comment louer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ap 19, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Dn 3, 16-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 16, 25-26&quot; textlength=&quot;12&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Figures-spirituelles/Mere-Teresa/Les-dix-plus-belles-prieres-de-Mere-Teresa&quot; sourceid=&quot;croire&quot; textlength=&quot;115&quot; /&gt;&lt;hc_site site=&quot;https://www.albin-michel.fr/ouvrages/le-livre-des-louanges-9782226178237&quot; textlength=&quot;72&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-louer-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Pourquoi louer Dieu ?" output="Pour nous chrétiens, la prière de louange est essentielle car c’est par elle que nous reconnaissons la grandeur et l’infinie bonté de Dieu, &lt;i&gt;“Car tout est de lui, et par lui, et pour lui. À lui la gloire pour l’éternité ! Amen.”&lt;/i&gt;. La bible regorge ainsi de &lt;b&gt;paroles de louange&lt;/b&gt;, en particulier dans les &lt;b&gt;psaumes&lt;/b&gt;.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Rm 11, 36&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;https://hozana.org/priere/louange&quot; textlength=&quot;33&quot; /&gt;&lt;hc_source name=&quot;Hozana&quot; resourceid=&quot;pourquoi-louer-dieu&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ap 19, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Dn 3, 16-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 16, 25-26&quot; textlength=&quot;12&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Figures-spirituelles/Mere-Teresa/Les-dix-plus-belles-prieres-de-Mere-Teresa&quot; sourceid=&quot;croire&quot; textlength=&quot;115&quot; /&gt;&lt;hc_site site=&quot;https://www.albin-michel.fr/ouvrages/le-livre-des-louanges-9782226178237&quot; textlength=&quot;72&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-louer-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
