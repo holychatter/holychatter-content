@@ -2376,7 +2376,7 @@
             <fact id="être-chrétien"/>
           </factsToHideTheSubject>
         </subjectInfos>
-        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Pose-moi des questions"/>
+        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Posez-moi des questions"/>
         <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart_hands.png" message="Qu&apos;est-ce que l&apos;amour ?"/>
         <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
           <factsToShowTheSubject>
@@ -10490,6 +10490,57 @@
           </potentialEffects>
         </planningInfos>
       </message>
+      <folder name="Avent 2020 NDML" id="avent-2020-ndml">
+        <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ?" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier" nb="1">
+          <recommendations>
+            <recommendation text="Élisabeth" outMessageId="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-mauvaise-reponse"/>
+            <recommendation text="Les bergers" outMessageId="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-bonne-reponse"/>
+            <recommendation text="Hérode" outMessageId="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-mauvaise-reponse"/>
+            <recommendation text="Les mages" outMessageId="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-mauvaise-reponse"/>
+          </recommendations>
+          <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+          <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+          <sourceId>ndml</sourceId>
+          <sourceUrl>https://www.youtube.com/watch?v=U5IW6i3Ns6E</sourceUrl>
+          <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ?&lt;/span&gt;</text>
+          <planningInfos>
+            <optionalPreconditions>
+              <fact value="temps-liturgique-avent"/>
+            </optionalPreconditions>
+            <effects>
+              <exps>
+                <elts>
+                  <elt type="operator" value="++"/>
+                  <elt type="fact" value="quiz-nombre-de-questions"/>
+                </elts>
+              </exps>
+            </effects>
+            <potentialEffects>
+              <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+            </potentialEffects>
+          </planningInfos>
+        </message>
+        <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ? (bonne réponse)" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-bonne-reponse" nb="1">
+          <sourceId>ndml</sourceId>
+          <sourceUrl>https://www.youtube.com/watch?v=hBWItWkV7Uw</sourceUrl>
+          <text fileType="text_and_html">&lt;span&gt;Oui. &lt;img src=&quot;/resources/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; Ce sont les bergers.&lt;/span&gt;</text>
+          <planningInfos>
+            <effects>
+              <exps>
+                <elts>
+                  <elt type="operator" value="++"/>
+                  <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                </elts>
+              </exps>
+            </effects>
+          </planningInfos>
+        </message>
+        <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ? (mauvaise réponse)" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-mauvaise-reponse" nb="1">
+          <sourceId>ndml</sourceId>
+          <sourceUrl>https://www.youtube.com/watch?v=hBWItWkV7Uw</sourceUrl>
+          <text fileType="text_in_html">&lt;span&gt;Non, ce sont les bergers.&lt;/span&gt;</text>
+        </message>
+      </folder>
       <message name="Bilan du quiz" id="bilan-du-quiz">
         <sourceId>interne</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Vous avez fait ${quiz-nombre-de-bonnes-réponses} bonnes réponses.&lt;/span&gt;</text>
@@ -10598,6 +10649,9 @@
         <sourceId>bible</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Dans quelle ville est né Jésus ?&lt;/span&gt;</text>
         <planningInfos>
+          <optionalPreconditions>
+            <fact value="temps-liturgique-avent"/>
+          </optionalPreconditions>
           <effects>
             <exps>
               <elts>
@@ -10676,9 +10730,12 @@
           </potentialEffects>
         </planningInfos>
       </message>
-      <message name="Pose-moi des questions" id="pose-moi-des-questions">
+      <message name="Posez-moi des questions" id="posez-moi-des-questions">
+        <tests>
+          <test input="Posez-moi des questions" output="&lt;span&gt;Ok, je vais vous poser 5 questions.&lt;/span&gt;"/>
+        </tests>
         <triggers>
-          <trigger value="Pose-moi des questions"/>
+          <trigger value="Posez-moi des questions"/>
         </triggers>
         <recommendations>
           <recommendation/>
