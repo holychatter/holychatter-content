@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <factsRoot>
+  <fact id="a-deja-des-faits-dans-les-cookies" commentaries="C&apos;est automatiquement ajouter si on voit que c&apos;est pas la première fois qu&apos;il ouvre le chat"/>
   <fact id="aimer-dieu-toujours-plus">
     <preconditionFacts>
       <preconditionSet>approfondir-sa-relation-a-dieu-toujours-plus, être-chrétien</preconditionSet>
@@ -10,9 +11,6 @@
     <preconditionFacts>
       <preconditionSet>aimer-dieu-toujours-plus, aimer-son-prochain-toujours-plus</preconditionSet>
     </preconditionFacts>
-    <continuationTexts>
-      <continuation facts="debut-de-la-conversation" text="Oui, allons-y !"/>
-    </continuationTexts>
   </fact>
   <fact id="approfondir-sa-relation-a-dieu-toujours-plus"/>
   <fact id="basse-priorité"/>
@@ -22,14 +20,13 @@
       <continuation text="Qu&apos;est-ce que Jésus a dit quand il a été crucifié ?"/>
     </continuationTexts>
   </fact>
-  <fact id="debut-de-la-conversation"/>
   <fact id="demander-le-jour-de-naissance"/>
   <fact id="devinette-rihanna-pape-madonna">
     <continuationTexts>
       <continuation text="Je ne sais pas."/>
     </continuationTexts>
   </fact>
-  <fact id="dire-bonjour">
+  <fact id="dire-bonjour" commentaries="Ce fait sera toujours local à la session concurrente, il ne sera jamais sauvegardé dans les cookies.">
     <continuationTexts>
       <continuation text="Présentation"/>
     </continuationTexts>
@@ -39,11 +36,7 @@
       <continuation text="Et donc ?"/>
     </continuationTexts>
   </fact>
-  <fact id="donner-un-conseil" commentaries="Ce fait sera automatiquement rajouté après chaque objectif.">
-    <continuationTexts>
-      <continuation facts="debut-de-la-conversation" text="Oui, allons-y !"/>
-    </continuationTexts>
-  </fact>
+  <fact id="donner-un-conseil" commentaries="Ce fait sera automatiquement rajouté après chaque objectif."/>
   <fact id="et-donc-que-dit-jésus">
     <continuationTexts>
       <continuation text="Et donc ?"/>

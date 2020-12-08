@@ -2348,13 +2348,47 @@
       </goals>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
-      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter">
+      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter" nb="1">
+        <recommendations>
+          <recommendation text="Oui, allons-y !" outMessageId="laisser-la-plannification"/>
+          <recommendation/>
+        </recommendations>
         <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
           <effects>
             <fact value="dire-bonjour"/>
           </effects>
+        </planningInfos>
+      </message>
+      <message name="Non réinitialiser les cookies" id="non-reinitialiser-les-cookies" nb="4">
+        <sourceId>chatbot-par-default</sourceId>
+        <text>%replace-by-plannification%</text>
+        <planningInfos>
+          <resetCookies>true</resetCookies>
+        </planningInfos>
+      </message>
+      <message name="Oui charger les cookies." id="oui-charger-les-cookies" nb="3">
+        <sourceId>chatbot-par-default</sourceId>
+        <text>%replace-by-plannification%</text>
+        <planningInfos>
+          <loadCookies>true</loadCookies>
+        </planningInfos>
+      </message>
+      <message name="Re bonjour" id="re-bonjour" nb="2">
+        <recommendations>
+          <recommendation text="Oui" outMessageId="oui-charger-les-cookies"/>
+          <recommendation text="Non" outMessageId="non-reinitialiser-les-cookies"/>
+        </recommendations>
+        <sourceId>chatbot-par-default</sourceId>
+        <text>Re-bonjour je suis Théophile.&#10;Voulez-vous continuer notre conversation ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="a-deja-des-faits-dans-les-cookies"/>
+          </preconditions>
+          <potentialEffects>
+            <fact value="dire-bonjour"/>
+          </potentialEffects>
         </planningInfos>
       </message>
       <sourcesNotToDisplay>
@@ -10454,6 +10488,12 @@
         </tests>
         <sourceId>le-personnage-holy-chatter</sourceId>
         <text>Je vais bien.</text>
+      </message>
+    </folder>
+    <folder name="Moteur" id="moteur">
+      <message name="Laisser la plannification" id="laisser-la-plannification">
+        <sourceId>interne</sourceId>
+        <text>%replace-by-plannification%</text>
       </message>
     </folder>
     <folder name="Objectif" id="objectif">
