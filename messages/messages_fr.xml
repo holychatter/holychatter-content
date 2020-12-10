@@ -2380,15 +2380,17 @@
           <recommendation text="Oui" outMessageId="oui-charger-les-cookies"/>
           <recommendation text="Non" outMessageId="non-reinitialiser-les-cookies"/>
         </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
         <sourceId>chatbot-par-default</sourceId>
-        <text>Re-bonjour je suis Théophile.&#10;Voulez-vous continuer notre conversation ?</text>
+        <text>Bonjour je suis Théophile.&#10;Voulez-vous continuer notre conversation ?</text>
         <planningInfos>
           <preconditions>
             <fact value="a-deja-des-faits-dans-les-cookies"/>
           </preconditions>
-          <potentialEffects>
+          <effects>
             <fact value="dire-bonjour"/>
-          </potentialEffects>
+          </effects>
         </planningInfos>
       </message>
       <sourcesNotToDisplay>
@@ -10617,6 +10619,7 @@
           </preconditions>
           <effects>
             <fact value="quiz"/>
+            <notFact value="quiz-fini-de-poser-toutes-les-questions"/>
           </effects>
         </planningInfos>
       </message>
@@ -10811,6 +10814,9 @@
         <text fileType="text_in_html">&lt;span&gt;Ok, je vais vous poser 5 questions.&lt;/span&gt;</text>
         <planningInfos>
           <effects>
+            <notFact value="quiz"/>
+            <notFact value="quiz-fini-de-poser-toutes-les-questions"/>
+            <notFact value="replanifier-pour-quiz"/>
             <exps>
               <elts>
                 <elt type="fact" value="quiz-max-nombre-de-questions"/>
