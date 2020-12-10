@@ -2348,7 +2348,24 @@
       </goals>
     </chatbot>
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
-      <message name="Bienvenue sur Holy Chatter" id="bienvenue-sur-holy-chatter" nb="1">
+      <message name="Bienvenue sur Holy Chatter - après-midi" id="bienvenue-sur-holy-chatter-apres-midi" nb="1">
+        <recommendations>
+          <recommendation text="Oui, allons-y !" outMessageId="laisser-la-plannification"/>
+          <recommendation/>
+        </recommendations>
+        <sourceId>chatbot-par-default</sourceId>
+        <text fileType="text_and_html">Bon après-midi je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="moment-de-la-journee-apres-midi"/>
+            <notFact value="a-deja-des-faits-dans-les-cookies"/>
+          </preconditions>
+          <effects>
+            <fact value="dire-bonjour"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Bienvenue sur Holy Chatter - matin" id="bienvenue-sur-holy-chatter-matin" nb="1">
         <recommendations>
           <recommendation text="Oui, allons-y !" outMessageId="laisser-la-plannification"/>
           <recommendation/>
@@ -2356,6 +2373,26 @@
         <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
+          <preconditions>
+            <notFact value="a-deja-des-faits-dans-les-cookies"/>
+          </preconditions>
+          <effects>
+            <fact value="dire-bonjour"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Bienvenue sur Holy Chatter - soirée" id="bienvenue-sur-holy-chatter-soiree" nb="1">
+        <recommendations>
+          <recommendation text="Oui, allons-y !" outMessageId="laisser-la-plannification"/>
+          <recommendation/>
+        </recommendations>
+        <sourceId>chatbot-par-default</sourceId>
+        <text fileType="text_and_html">Bonsoir je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="moment-de-la-journee-soiree"/>
+            <notFact value="a-deja-des-faits-dans-les-cookies"/>
+          </preconditions>
           <effects>
             <fact value="dire-bonjour"/>
           </effects>
@@ -2375,6 +2412,25 @@
           <loadCookies>true</loadCookies>
         </planningInfos>
       </message>
+      <message name="Re bon après-midi" id="re-bon-apres-midi" nb="2">
+        <recommendations>
+          <recommendation text="Oui" outMessageId="oui-charger-les-cookies"/>
+          <recommendation text="Non" outMessageId="non-reinitialiser-les-cookies"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>chatbot-par-default</sourceId>
+        <text>Bonjour je suis Théophile.&#10;Voulez-vous continuer notre conversation ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="a-deja-des-faits-dans-les-cookies"/>
+            <fact value="moment-de-la-journee-apres-midi"/>
+          </preconditions>
+          <effects>
+            <fact value="dire-bonjour"/>
+          </effects>
+        </planningInfos>
+      </message>
       <message name="Re bonjour" id="re-bonjour" nb="2">
         <recommendations>
           <recommendation text="Oui" outMessageId="oui-charger-les-cookies"/>
@@ -2387,6 +2443,25 @@
         <planningInfos>
           <preconditions>
             <fact value="a-deja-des-faits-dans-les-cookies"/>
+          </preconditions>
+          <effects>
+            <fact value="dire-bonjour"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Re bonsoir" id="re-bonsoir" nb="2">
+        <recommendations>
+          <recommendation text="Oui" outMessageId="oui-charger-les-cookies"/>
+          <recommendation text="Non" outMessageId="non-reinitialiser-les-cookies"/>
+        </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <sourceId>chatbot-par-default</sourceId>
+        <text>Bonsoir je suis Théophile.&#10;Voulez-vous continuer notre conversation ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="a-deja-des-faits-dans-les-cookies"/>
+            <fact value="moment-de-la-journee-soiree"/>
           </preconditions>
           <effects>
             <fact value="dire-bonjour"/>
