@@ -700,6 +700,26 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/78LBbw4yYVI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
+          <folder name="Joseph" id="joseph" image="joseph_genesis.jpg">
+            <message name="Joseph en 3 minutes" id="joseph-en-3-minutes">
+              <tests>
+                <test input="Qui est Joseph de la Genèse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vIXGHIdTx6k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 50, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Gn 37-50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;joseph-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Pourquoi les frères de Joseph de la Genèse l&apos;ont-ils vendu comme esclave ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vIXGHIdTx6k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 50, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Gn 37-50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;joseph-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Joseph de la Genèse va-t-il pardonner à ses frères ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vIXGHIdTx6k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 50, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Gn 37-50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;joseph-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qui est Joseph de la Genèse ?"/>
+                <trigger value="Pourquoi les frères de Joseph de la Genèse l&apos;ont-ils vendu comme esclave ?"/>
+                <trigger value="Joseph de la Genèse va-t-il pardonner à ses frères ?"/>
+              </triggers>
+              <references>
+                <bible book="Gen" chapter="50" verseBegin="20"/>
+                <bible book="Gen" chapter="37" chapterEnd="50"/>
+              </references>
+              <sourceId>padre-dk</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vIXGHIdTx6k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
           <message name="Topo biblique #1 : Genèse" id="topo-biblique-1-genese">
             <references>
               <bible book="Num" chapter="6" verseBegin="22" verseEnd="27"/>
@@ -9627,6 +9647,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>La brève formule « Jésus est le Christ » exprime le cœur de la foi chrétienne : Jésus, le simple fils du charpentier de Nazareth, est le Messie attendu et le Sauveur.</text>
+            </message>
+            <message name="Pourquoi Jésus n&apos;a-t-il pas eu de vie publique pendant trente ans ?" id="pourquoi-jesus-n-a-t-il-pas-eu-de-vie-publique-pendant-trente-ans" nb="86">
+              <tests>
+                <test input="Pourquoi Jésus n&apos;a-t-il pas eu de vie publique pendant trente ans ?" output="Jésus a voulu partager avec nous une vie normale et sanctifier ainsi notre vie quotidienne." outputReferences="&lt;hc_bible ref=&quot;Lc 2, 52&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;531-534&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;564&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-n-a-t-il-pas-eu-de-vie-publique-pendant-trente-ans&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi Jésus n&apos;a-t-il pas eu de vie publique pendant trente ans ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="531" verseEnd="534"/>
+                <ccc verseBegin="564"/>
+                <bible book="Lk" chapter="2" verseBegin="52"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jésus a voulu partager avec nous une vie normale et sanctifier ainsi notre vie quotidienne.</text>
             </message>
             <message name="Pourquoi Jésus n&apos;est-il compréhensible que comme « mystère » ?" id="pourquoi-jesus-n-est-il-comprehensible-que-comme-mystere" nb="78">
               <tests>
