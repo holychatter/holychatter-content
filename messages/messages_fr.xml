@@ -2393,7 +2393,7 @@
           <recommendation/>
         </recommendations>
         <sourceId>chatbot-par-default</sourceId>
-        <text fileType="text_and_html">Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
+        <text fileType="text_and_html">Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/hugging.png&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
           <preconditions>
             <notFact value="a-deja-des-faits-dans-les-cookies"/>
@@ -2409,7 +2409,7 @@
           <recommendation/>
         </recommendations>
         <sourceId>chatbot-par-default</sourceId>
-        <text fileType="text_and_html">Bonsoir je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
+        <text fileType="text_and_html">Bonsoir je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/hugging.png&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
           <preconditions>
             <fact value="moment-de-la-journee-soiree"/>
@@ -10602,40 +10602,6 @@
         </potentialEffects>
       </planningInfos>
     </message>
-    <folder name="Conseil" id="conseil">
-      <message name="Conseil - boutton en bas a droite" id="conseil-boutton-en-bas-a-droite">
-        <sourceId>interne</sourceId>
-        <text fileType="text_and_html">&lt;img src=&quot;/resources/emojis/tips.png&quot; height=&quot;50&quot; align=&quot;left&quot; style=&quot;padding-right:15px;&quot; /&gt;Petit conseil : Vous pouvez cliquer à tout moment sur le bouton &lt;img src=&quot;/logo_holy_chatter.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; en bas à gauche pour approfondir le sujet en cours ou changer de sujet.</text>
-        <planningInfos>
-          <preconditions>
-            <notFact value="message-conseil-boutton-en-bas-a-droite-vu"/>
-            <notFact value="suggestions-a-gauche"/>
-          </preconditions>
-          <effects>
-            <fact value="message-conseil-boutton-en-bas-a-droite-vu"/>
-          </effects>
-          <potentialEffects>
-            <fact value="donner-un-conseil"/>
-          </potentialEffects>
-        </planningInfos>
-      </message>
-      <message name="Conseil - suggestions à gauche" id="conseil-suggestions-a-gauche">
-        <sourceId>interne</sourceId>
-        <text fileType="text_and_html">&lt;img src=&quot;/resources/emojis/tips.png&quot; height=&quot;50&quot; align=&quot;left&quot; style=&quot;padding-right:15px;&quot; /&gt;Petit conseil : Vous pouvez cliquer à tout moment sur les suggestions à gauche pour approfondir le sujet en cours ou changer de sujet.</text>
-        <planningInfos>
-          <preconditions>
-            <fact value="suggestions-a-gauche"/>
-            <notFact value="message-conseil-suggestions-a-gauche-vu"/>
-          </preconditions>
-          <effects>
-            <fact value="message-conseil-suggestions-a-gauche-vu"/>
-          </effects>
-          <potentialEffects>
-            <fact value="donner-un-conseil"/>
-          </potentialEffects>
-        </planningInfos>
-      </message>
-    </folder>
     <message name="Cool avant jour de naissance" id="cool-avant-jour-de-naissance">
       <nextMessageId>quel-jour-etes-vous-ne</nextMessageId>
       <sourceId>interne</sourceId>
