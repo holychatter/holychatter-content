@@ -2499,6 +2499,55 @@
         </subjectInfos>
       </changeSubjectInfos>
     </chatbot>
+    <chatbot name="Paroisse de Puteaux" id="paroisse-de-puteaux" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="paroisse-de-puteaux.png" url="http://paroissedeputeaux.catholique.fr/" fallbackEngine="Cybercuré">
+      <message name="Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-de-puteaux">
+        <recommendations>
+          <recommendation text="Avoir des infos sur la paroisse de Puteaux" outMessageId="horaires-des-messes-de-la-paroisse-de-puteaux"/>
+          <recommendation text="Discuter sur la foi chrétienne" outMessageId="laisser-la-plannification"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text fileType="text_in_html">Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !&#10;&lt;span&gt;Que voulez-vous faire ?&lt;/span&gt;</text>
+        <planningInfos>
+          <preconditions>
+            <notFact value="a-deja-des-faits-dans-les-cookies"/>
+          </preconditions>
+          <effects>
+            <fact value="dire-bonjour-puteaux"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <message name="Horaires des messes de la paroisse de Puteaux" id="horaires-des-messes-de-la-paroisse-de-puteaux">
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&lt;/a&gt;</text>
+      </message>
+      <sourcesNotToDisplay>
+        <source value="Chatbot par défault"/>
+        <source value="Google images"/>
+        <source value="Interne"/>
+        <source value="Le personnage Holy Chatter"/>
+        <source value="Parcours Alpha - La Traversée"/>
+      </sourcesNotToDisplay>
+      <goals>
+        <goal value="dire-bonjour-puteaux"/>
+        <goal value="aller-au-ciel"/>
+      </goals>
+      <changeSubjectInfos>
+        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
+        <subjectInfos title="Je ne suis pas chrétien." image="not_christian_people.jpg" message="Je ne suis pas chrétien.">
+          <factsToHideTheSubject>
+            <fact id="ne-pas-être-chrétien"/>
+            <fact id="être-chrétien"/>
+          </factsToHideTheSubject>
+        </subjectInfos>
+        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Posez-moi des questions"/>
+        <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart_hands.png" message="Qu&apos;est-ce que l&apos;amour ?"/>
+        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
+      </changeSubjectInfos>
+    </chatbot>
     <chatbot name="Simple comme bonjour !" id="simple-comme-bonjour" showOptionMenu="false" bannerImage="simple_comme_bonjour.png" url="https://www.simplecommebonjour.org" fallbackEngine="Envoyer une question à &quot;simple comme bonjour&quot;" userBackgroundBubbleColor="#e44d20">
       <message name="Bonjour d&apos;Entourage" id="bonjour-d-entourage" nb="1">
         <nextMessageId>contenu</nextMessageId>
