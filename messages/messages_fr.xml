@@ -2484,6 +2484,11 @@
       </goals>
       <changeSubjectInfos>
         <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
+        <subjectInfos title="Comment rencontrer des chrétiens ?" image="happy-people.webp" message="Comment rencontrer des chrétiens ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="ne-pas-être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
         <subjectInfos title="Je ne suis pas chrétien." image="not_christian_people.jpg" message="Je ne suis pas chrétien.">
           <factsToHideTheSubject>
             <fact id="ne-pas-être-chrétien"/>
@@ -5388,9 +5393,11 @@
           <tests>
             <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
             <test input="Quel est le Parcours Alpha le plus proche de chez moi ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="Comment rencontrer des chrétiens ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Quel est le Parcours Alpha le plus proche de chez moi ?"/>
+            <trigger value="Comment rencontrer des chrétiens ?"/>
           </triggers>
           <descriptions>
             <description value="C&apos;est la carte des Parcours Alpha."/>
