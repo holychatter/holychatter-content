@@ -2483,12 +2483,12 @@
         <goal value="aller-au-ciel"/>
       </goals>
       <changeSubjectInfos>
-        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
-        <subjectInfos title="Comment rencontrer des chrétiens ?" image="happy-people.webp" message="Comment rencontrer des chrétiens ?" isHidden="true">
+        <subjectInfos title="Explorer le sens de la vie par des rencontres" image="explorer_le_sens_de_la_vie.jpeg" message="Comment explorer le sens de la vie ?" isHidden="true">
           <factsToShowTheSubject>
             <fact id="ne-pas-être-chrétien"/>
           </factsToShowTheSubject>
         </subjectInfos>
+        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
         <subjectInfos title="Je ne suis pas chrétien." image="not_christian_people.jpg" message="Je ne suis pas chrétien.">
           <factsToHideTheSubject>
             <fact id="ne-pas-être-chrétien"/>
@@ -5389,19 +5389,37 @@
     </folder>
     <folder name="Par âge" id="par-age" image="by_age.jpg">
       <folder name="Adultes" id="adultes" nb="4" image="adult.png">
+        <message name="Bande annonce Série Alpha" id="bande-annonce-serie-alpha">
+          <tests>
+            <test input="Pourquoi faire un parcours Alpha ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HLWpAOSBbn4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;bande-annonce-serie-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Pourquoi faire un parcours Alpha ?"/>
+          </triggers>
+          <recommendations>
+            <recommendation text="Comment se déroule concrètement un Parcours Alpha ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
+            <recommendation text="Comment trouver un parcours alpha près de chez moi ?" outMessageId="carte-des-parcours-alpha"/>
+          </recommendations>
+          <sourceId>parcours-alpha</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HLWpAOSBbn4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Carte des parcours Alpha" id="carte-des-parcours-alpha">
           <tests>
             <test input="La carte des Parcours Alpha" output="La carte de Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
             <test input="Quel est le Parcours Alpha le plus proche de chez moi ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
-            <test input="Comment rencontrer des chrétiens ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="Comment trouver un parcours alpha près de chez moi ?" output="\hc_resource_html=#fr_FR#&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;carte-des-parcours-alpha&quot; textlength=&quot;14&quot; /&gt;"/>
           </tests>
           <triggers>
+            <trigger value="Comment trouver un parcours alpha près de chez moi ?"/>
             <trigger value="Quel est le Parcours Alpha le plus proche de chez moi ?"/>
-            <trigger value="Comment rencontrer des chrétiens ?"/>
           </triggers>
           <descriptions>
             <description value="C&apos;est la carte des Parcours Alpha."/>
           </descriptions>
+          <recommendations>
+            <recommendation text="Pourquoi faire un parcours Alpha ?" outMessageId="bande-annonce-serie-alpha"/>
+            <recommendation text="Comment se déroule concrètement un Parcours Alpha ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
+          </recommendations>
           <sourceId>parcours-alpha</sourceId>
           <text fileType="html">&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=1Voy1B1GqwAkXbDEYRAUPhBnbGiE&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</text>
         </message>
@@ -5410,8 +5428,10 @@
             <test input="Le Parcours Alpha, c&apos;est quoi?" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
             <test input="Le Parcours Alpha" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
             <test input="Je ne connais pas le Parcours Alpha." isOk="false"/>
+            <test input="Comment se déroule concrètement un Parcours Alpha ?" output="Je ne sais pas comment un Parcours Alpha se déroule concrètement mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
+            <trigger value="Comment se déroule concrètement un Parcours Alpha ?"/>
             <trigger value="Le Parcours Alpha, c&apos;est quoi?"/>
             <trigger value="Je ne connais pas le Parcours Alpha."/>
           </triggers>
@@ -5420,6 +5440,40 @@
           </descriptions>
           <sourceId>parcours-alpha</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Chatbot" id="chatbot-par-age" isHidden="true">
+        <message name="Comment rencontrer des chrétiens ?" id="comment-rencontrer-des-chretiens">
+          <tests>
+            <test input="Comment rencontrer des chrétiens ?" output="Vous pouvez par exemple faire un parcours Alpha."/>
+            <test input="Comment explorer le sens de la vie ?" output="Vous pouvez par exemple faire un parcours Alpha."/>
+          </tests>
+          <triggers>
+            <trigger value="Comment rencontrer des chrétiens ?"/>
+            <trigger value="Comment explorer le sens de la vie ?"/>
+          </triggers>
+          <recommendations>
+            <recommendation text="Qu&apos;est-ce que c&apos;est ?" outMessageId="bande-annonce-serie-alpha"/>
+            <recommendation text="Comment trouver un parcours alpha près de chez moi ?" outMessageId="carte-des-parcours-alpha"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text>Vous pouvez par exemple faire un parcours Alpha.</text>
+        </message>
+        <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
+          <recommendations>
+            <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text>Connaissez-vous le Parcours Alpha ?</text>
+          <planningInfos>
+            <optionalPreconditions>
+              <fact value="basse-priorité"/>
+              <fact value="ne-pas-être-chrétien"/>
+            </optionalPreconditions>
+            <potentialEffects>
+              <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+            </potentialEffects>
+          </planningInfos>
         </message>
       </folder>
       <folder name="Collégiens et lycéens" id="collegiens-et-lyceens" nb="2" image="young.jpg">
@@ -10592,22 +10646,6 @@
       </triggers>
       <sourceId>interne</sourceId>
       <text>Bonjour</text>
-    </message>
-    <message name="Connaissez-vous le Parcours Alpha ?" id="connaissez-vous-le-parcours-alpha">
-      <recommendations>
-        <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-alpha-c-est-quoi"/>
-      </recommendations>
-      <sourceId>interne</sourceId>
-      <text>Connaissez-vous le Parcours Alpha ?</text>
-      <planningInfos>
-        <optionalPreconditions>
-          <fact value="basse-priorité"/>
-          <fact value="ne-pas-être-chrétien"/>
-        </optionalPreconditions>
-        <potentialEffects>
-          <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
-        </potentialEffects>
-      </planningInfos>
     </message>
     <message name="Cool avant jour de naissance" id="cool-avant-jour-de-naissance">
       <nextMessageId>quel-jour-etes-vous-ne</nextMessageId>
