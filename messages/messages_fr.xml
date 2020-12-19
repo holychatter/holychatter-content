@@ -2488,6 +2488,150 @@
             <fact id="ne-pas-être-chrétien"/>
           </factsToShowTheSubject>
         </subjectInfos>
+        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Posez-moi des questions"/>
+        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
+        <subjectInfos title="Je ne suis pas chrétien." image="not_christian_people.jpg" message="Je ne suis pas chrétien.">
+          <factsToHideTheSubject>
+            <fact id="ne-pas-être-chrétien"/>
+            <fact id="être-chrétien"/>
+          </factsToHideTheSubject>
+        </subjectInfos>
+        <subjectInfos title="Que faire pour les personnes exclues ?" image="simple-comme-bonjour.png" message="Que faire pour les personnes exclues ?"/>
+        <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart_hands.png" message="Qu&apos;est-ce que l&apos;amour ?"/>
+        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
+      </changeSubjectInfos>
+    </chatbot>
+    <chatbot name="Paroisse de Puteaux" id="paroisse-de-puteaux" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="paroisse-de-puteaux.png" url="http://paroissedeputeaux.catholique.fr/" fallbackEngine="Cybercuré">
+      <message name="Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-de-puteaux" nb="1">
+        <recommendations>
+          <recommendation text="Avoir des infos sur la paroisse de Puteaux" outMessageId="paroisse-puteaux-menu"/>
+          <recommendation text="Discuter sur la foi chrétienne" outMessageId="replanifier-vers-la-foi-chretienne"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">&lt;img src=&apos;/upload/paroisse-de-puteaux.png&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.&#10;Bienvenue sur le chatbot de la paroisse de Puteaux ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&#10;&lt;span&gt;Que voulez-vous faire ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <fact value="dire-bonjour-puteaux"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <folder name="Décourvrir la paroisse" id="decourvrir-la-paroisse" nb="3">
+        <message name="Découvrir la paroisse introduction" id="decouvrir-la-paroisse-introduction" nb="1">
+          <triggers>
+            <trigger value="Je souhaite découvrir la paroisse de Puteaux."/>
+          </triggers>
+          <nextMessageId>paroisse-de-puteaux-presentation-de-tous-les-groupes-et-activites</nextMessageId>
+          <sourceId>interne</sourceId>
+          <text>Vous souhaitez en savoir plus sur les activités proposées par la paroisse ? &#10;Vous souhaitez nous rejoindre ?</text>
+        </message>
+        <message name="Facebook Puteaux" id="facebook-puteaux" nb="6">
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">S&apos;abonner à notre page Facebook : &lt;a href=&quot;https://www.facebook.com/ParoissePuteaux&quot;&gt;&lt;img src=&quot;/resources/emojis/facebook.png&quot; height=&quot;20&quot; /&gt;&lt;/a&gt;</text>
+        </message>
+        <message name="Newsletter Puteaux" id="newsletter-puteaux" nb="7">
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">Pour recevoir par email une fois par mois notre magazine paroissial et les principales actualités : &lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/les-activites-de-la-paroisse/activites-et-groupes&quot;&gt;Cliquez içi&lt;/a&gt;</text>
+        </message>
+        <message name="Paroisse de Puteaux : présentation de tous les groupes et activités" id="paroisse-de-puteaux-presentation-de-tous-les-groupes-et-activites" nb="2">
+          <triggers>
+            <trigger value="Quels groupes et activités y a-t-il à Puteaux ?"/>
+            <trigger value="Je suis nouveau à Puteaux."/>
+          </triggers>
+          <nextMessageId>suivez-notre-actualite-sur-les-reseaux-sociaux</nextMessageId>
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">Découvrez notre paroisse en vidéo en 8 minutes... et contactez-nous !&#10;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9FHS0ZfRvPo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Suivez notre actualité sur les réseaux sociaux !" id="suivez-notre-actualite-sur-les-reseaux-sociaux" nb="3">
+          <recommendations>
+            <recommendation text="&lt;img src=&quot;/resources/emojis/whatsapp.png&quot; height=&quot;20&quot; /&gt; Sur Whatsapp" outMessageId="whatsapp-puteaux"/>
+            <recommendation text="&lt;img src=&quot;/resources/emojis/youtube.png&quot; height=&quot;20&quot; /&gt; Sur Youtube" outMessageId="youtube-puteaux"/>
+            <recommendation text="&lt;img src=&quot;/resources/emojis/facebook.png&quot; height=&quot;20&quot; /&gt; Sur Facebook" outMessageId="facebook-puteaux"/>
+            <recommendation text="Par la newsletter" outMessageId="newsletter-puteaux"/>
+            <recommendation outMessageId="laisser-la-plannification"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text>Suivez notre actualité sur les réseaux sociaux !</text>
+        </message>
+        <message name="Whatsapp Puteaux" id="whatsapp-puteaux" nb="4">
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">S&apos;abonner à nos alertes Whatsapp, pour être informés directement des principaux événements : &lt;a href=&quot;https://chat.whatsapp.com/JvWSm0EZJ0MJnbINraJkp4&quot;&gt;&lt;img src=&quot;/resources/emojis/whatsapp.png&quot; height=&quot;20&quot; /&gt;&lt;/a&gt;</text>
+        </message>
+        <message name="Youtube Puteaux" id="youtube-puteaux" nb="5">
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">S&apos;abonner à notre chaîne YouTube, pour retrouvez nos lives et toutes nos vidéos : &lt;a href=&quot;https://www.youtube.com/channel/UCSSO4wIFSMtFMBNptewIuFw/&quot;&gt;&lt;img src=&quot;/resources/emojis/youtube.png&quot; height=&quot;20&quot; /&gt;&lt;/a&gt;</text>
+        </message>
+      </folder>
+      <message name="Horaires des messes de la paroisse de Puteaux" id="horaires-des-messes-de-la-paroisse-de-puteaux" nb="6">
+        <triggers>
+          <trigger value="Quels sont les horaires des messes ?"/>
+        </triggers>
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">Vous pourrez trouver les horaires des messes de Puteaux içi :&#10;&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&lt;/a&gt;</text>
+      </message>
+      <folder name="Jeunesse &amp; catéchisme" id="jeunesse-catechisme" nb="5">
+        <message name="Jeunesse &amp; catéchèse à Puteaux" id="jeunesse-catechese-a-puteaux">
+          <triggers>
+            <trigger value="Je veux des infos sur la jeunesse à Puteaux."/>
+            <trigger value="Je veux des infos sur la catéchèse à Puteaux."/>
+          </triggers>
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">Voicçi des informations relatives à la jeunesse et à la catéchèse&#10;&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&lt;/a&gt;</text>
+        </message>
+      </folder>
+      <message name="Paroisse Puteaux menu" id="paroisse-puteaux-menu" nb="2">
+        <recommendations>
+          <recommendation text="Je souhaite découvrir la paroisse." outMessageId="decouvrir-la-paroisse-introduction"/>
+          <recommendation text="Je veux m&apos;inscrire pour la préparation au mariage / baptême." outMessageId="sacrements-puteaux"/>
+          <recommendation text="Je veux des infos sur la jeunesse et la catéchèse." outMessageId="jeunesse-catechese-a-puteaux"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text>Ok je suis à votre service.</text>
+      </message>
+      <message name="Replanifier vers la foi chretienne" id="replanifier-vers-la-foi-chretienne" nb="100">
+        <sourceId>interne</sourceId>
+        <text>%replace-by-plannification%</text>
+        <planningInfos>
+          <effects>
+            <fact value="chatbot-puteaux-foi-chretienne"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <folder name="Sacrements" id="sacrements-paroisse-de-puteaux" nb="4">
+        <message name="Sacrements Puteaux" id="sacrements-puteaux">
+          <triggers>
+            <trigger value="Je veux m&apos;inscrire pour la préparation au mariage."/>
+            <trigger value="Je veux m&apos;inscrire pour la préparation au baptême."/>
+          </triggers>
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">Pour s&apos;inscrire aux sacrements : &lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/les-grandes-etapes-de-la-vie/s-inscrire-en-ligne-aux-sacrements-du-mariage-ou-du-bapteme&quot;&gt;Cliquez ici&lt;/a&gt;</text>
+        </message>
+      </folder>
+      <sourcesNotToDisplay>
+        <source value="Chatbot par défault"/>
+        <source value="Google images"/>
+        <source value="Interne"/>
+        <source value="Le personnage Holy Chatter"/>
+        <source value="Parcours Alpha - La Traversée"/>
+      </sourcesNotToDisplay>
+      <goals>
+        <goal value="dire-bonjour-puteaux"/>
+        <goal value="aller-au-ciel"/>
+      </goals>
+      <changeSubjectInfos>
+        <subjectInfos title="Voir les horaires des messes à Puteaux" image="ste_mathilde_puteaux.jpeg" message="Quels sont les horaires des messes ?">
+          <factsToHideTheSubject>
+            <fact id="chatbot-puteaux-foi-chretienne"/>
+          </factsToHideTheSubject>
+        </subjectInfos>
+        <subjectInfos title="Explorer le sens de la vie par des rencontres" image="explorer_le_sens_de_la_vie.jpeg" message="Comment explorer le sens de la vie ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="ne-pas-être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
         <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
         <subjectInfos title="Je ne suis pas chrétien." image="not_christian_people.jpg" message="Je ne suis pas chrétien.">
           <factsToHideTheSubject>
@@ -2503,53 +2647,9 @@
             <fact id="être-chrétien"/>
           </factsToShowTheSubject>
         </subjectInfos>
-      </changeSubjectInfos>
-    </chatbot>
-    <chatbot name="Paroisse de Puteaux" id="paroisse-de-puteaux" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="paroisse-de-puteaux.png" url="http://paroissedeputeaux.catholique.fr/" fallbackEngine="Cybercuré">
-      <message name="Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-de-puteaux">
-        <recommendations>
-          <recommendation text="Avoir des infos sur la paroisse de Puteaux" outMessageId="horaires-des-messes-de-la-paroisse-de-puteaux"/>
-          <recommendation text="Discuter sur la foi chrétienne" outMessageId="laisser-la-plannification"/>
-        </recommendations>
-        <sourceId>interne</sourceId>
-        <text fileType="text_in_html">Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !&#10;&lt;span&gt;Que voulez-vous faire ?&lt;/span&gt;</text>
-        <planningInfos>
-          <preconditions>
-            <notFact value="a-deja-des-faits-dans-les-cookies"/>
-          </preconditions>
-          <effects>
-            <fact value="dire-bonjour-puteaux"/>
-          </effects>
-        </planningInfos>
-      </message>
-      <message name="Horaires des messes de la paroisse de Puteaux" id="horaires-des-messes-de-la-paroisse-de-puteaux">
-        <sourceId>interne</sourceId>
-        <text fileType="text_and_html">&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&lt;/a&gt;</text>
-      </message>
-      <sourcesNotToDisplay>
-        <source value="Chatbot par défault"/>
-        <source value="Google images"/>
-        <source value="Interne"/>
-        <source value="Le personnage Holy Chatter"/>
-        <source value="Parcours Alpha - La Traversée"/>
-      </sourcesNotToDisplay>
-      <goals>
-        <goal value="dire-bonjour-puteaux"/>
-        <goal value="aller-au-ciel"/>
-      </goals>
-      <changeSubjectInfos>
-        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
-        <subjectInfos title="Je ne suis pas chrétien." image="not_christian_people.jpg" message="Je ne suis pas chrétien.">
-          <factsToHideTheSubject>
-            <fact id="ne-pas-être-chrétien"/>
-            <fact id="être-chrétien"/>
-          </factsToHideTheSubject>
-        </subjectInfos>
-        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Posez-moi des questions"/>
-        <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart_hands.png" message="Qu&apos;est-ce que l&apos;amour ?"/>
-        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
+        <subjectInfos title="Voir les horaires des messes" image="ste_mathilde_puteaux.jpeg" message="Voir les horaires des messes" isHidden="true">
           <factsToShowTheSubject>
-            <fact id="être-chrétien"/>
+            <fact id="chatbot-puteaux-foi-chretienne"/>
           </factsToShowTheSubject>
         </subjectInfos>
       </changeSubjectInfos>
