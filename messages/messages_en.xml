@@ -3620,6 +3620,23 @@
               <sourceId>youcat</sourceId>
               <text>Yes. Jesus “worked with human hands, he thought with a human mind. He acted with a human will, and with a human heart he loved” (Second Vatican Council, GS 22, 2).</text>
             </message>
+            <message name="Did Jesus work miracles, or are they just pious tales?" id="did-jesus-work-miracles-or-are-they-just-pious-tales" nb="90">
+              <tests>
+                <test input="Did Jesus work miracles, or are they just pious tales?" output="I don&apos;t know if Jesus worked miracles." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Did Jesus work miracles, or are they just pious tales?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="547" verseEnd="550"/>
+                <bible book="Lk" chapter="4" verseBegin="18" verseEnd="19"/>
+                <bible book="Mt" chapter="12" verseBegin="28"/>
+                <bible book="Mk" chapter="10" verseBegin="46" verseEnd="52"/>
+                <bible book="Mt" chapter="8" verseBegin="14" verseEnd="15"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jesus really worked miracles, and so did the Apostles . The New Testament authors refer to real incidents.</text>
+            </message>
             <message name="Did Mary have other children besides Jesus?" id="did-mary-have-other-children-besides-jesus" nb="81">
               <tests>
                 <test input="Did Mary have other children besides Jesus?" output="I don&apos;t know if Mary had other children besides Jesus." isOk="false"/>
@@ -3651,7 +3668,7 @@
             </message>
             <message name="To whom does Jesus promise “the kingdom of God”?" id="to-whom-does-jesus-promise-the-kingdom-of-god" nb="89">
               <tests>
-                <test input="To whom does Jesus promise “the kingdom of God”?" output="God wills “all men to be saved and to come to the knowledge of the truth” (1 Tim 2:4). The “kingdom of God” begins in those who allow themselves to be transformed by God’s love. In Jesus’ experience these are above all the poor and the lowly." outputReferences="&lt;hc_bible ref=&quot;1 Tim 2: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mk 2: 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;541-546&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;567&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;to-whom-does-jesus-promise-the-kingdom-of-god&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="To whom does Jesus promise “the kingdom of God”?" output="I don&apos;t know if Jesus promises God”&apos;s kingdom to that." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="To whom does Jesus promise “the kingdom of God”?"/>
@@ -3782,7 +3799,7 @@
             </message>
             <message name="Why did Jesus allow John to baptize him, although he was without sin?" id="why-did-jesus-allow-john-to-baptize-him-although-he-was-without-sin" nb="87">
               <tests>
-                <test input="Why did Jesus allow John to baptize him, although he was without sin?" output="To baptize means to immerse. In his baptism, Jesus descended into the sinful history of all mankind. By doing so he established a sign. In order to redeem us from our sins, he would one day be submerged in death but, through his Father’s power, reawakened to life." outputReferences="&lt;hc_bible ref=&quot;Lk 3: 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lk 3: 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-jesus-allow-john-to-baptize-him-although-he-was-without-sin&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Why did Jesus allow John to baptize him, although he was without sin?" output="I don&apos;t know why Jesus allowed John to baptize him that Jesus was without sins." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Why did Jesus allow John to baptize him, although he was without sin?"/>
@@ -3874,8 +3891,8 @@
             </message>
             <message name="Why was Jesus led into temptation?" id="why-was-jesus-led-into-temptation" nb="88">
               <tests>
-                <test input="Why was Jesus led into temptation?" output="Jesus was truly human, and as part of that he was truly susceptible to temptation. In Jesus Christ we do not have the sort of redeemer “who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sinning” (Heb 4:15)." outputReferences="&lt;hc_ccc ref=&quot;538-540&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;566&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-jesus-led-into-temptation&quot; textlength=&quot;6&quot; /&gt;"/>
-                <test input="Could Jesus really be tempted at all?" output="Jesus was truly human, and as part of that he was truly susceptible to temptation. In Jesus Christ we do not have the sort of redeemer “who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sinning” (Heb 4:15)." outputReferences="&lt;hc_ccc ref=&quot;538-540&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;566&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-jesus-led-into-temptation&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Why was Jesus led into temptation?" output="I don&apos;t know why Jesus was led into the temptation." isOk="false"/>
+                <test input="Could Jesus really be tempted at all?" output="I don&apos;t know if Jesus can really be tempted at all." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Why was Jesus led into temptation?"/>
@@ -4067,7 +4084,7 @@
             </message>
             <message name="What significance does the New Testament have for Christians?" id="what-significance-does-the-new-testament-have-for-christians" nb="18">
               <tests>
-                <test input="What significance does the New Testament have for Christians?" output="I don&apos;t know what the significance does the New Testament has for christians." isOk="false"/>
+                <test input="What significance does the New Testament have for Christians?" output="In the New Testament God’s Revelation is completed. The four Gospels according to Matthew, Mark, Luke, and John are the centerpiece of Sacred Scripture and the most precious treasure of the Church. In them the Son of God shows himself as he is and encounters us. In the Acts of the Apostles we learn about the beginnings of the Church and the working of the Holy Spirit. In the letters written by the apostles, all facets of human life are set in the light of Christ. In the Book of Revelation we foresee the end of the ages." outputReferences="&lt;hc_ccc ref=&quot;124-127&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;128-130&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-significance-does-the-new-testament-have-for-christians&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="What significance does the New Testament have for Christians?"/>
