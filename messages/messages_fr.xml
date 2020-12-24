@@ -8482,7 +8482,7 @@
       <folder name="Paradis" id="paradis" nb="1" image="paradis.jpeg">
         <message name="C&apos;est quoi le paradis ? #MaisDisMoi " id="c-est-quoi-le-paradis-maisdismoi">
           <tests>
-            <test input="C&apos;est quoi le paradis ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d4EWUyc1yBE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 28, 19-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;c-est-quoi-le-paradis-maisdismoi&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="C&apos;est quoi le paradis ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d4EWUyc1yBE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 28, 19-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ps 15, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;c-est-quoi-le-paradis-maisdismoi&quot; textlength=&quot;19&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="C&apos;est quoi le paradis ?"/>
@@ -9306,6 +9306,9 @@
               <text>Non. Selon la chair, Jésus est le fils unique de Marie.</text>
             </message>
             <message name="Jésus a-t-il réellement fait des miracles ou bien ne s&apos;agit-il que de pieuses légendes ?" id="jesus-a-t-il-reellement-fait-des-miracles-ou-bien-ne-s-agit-il-que-de-pieuses-legendes" nb="90">
+              <tests>
+                <test input="Jésus a-t-il réellement fait des miracles ou bien ne s&apos;agit-il que de pieuses légendes ?" output="Jésus a vraiment fait des miracles, Les Apôtres également. Les auteurs du Nouveau Testament racontent des événements réels." outputReferences="&lt;hc_bible ref=&quot;Lc 4, 18-19&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 46-52&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-a-t-il-reellement-fait-des-miracles-ou-bien-ne-s-agit-il-que-de-pieuses-legendes&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
               <triggers>
                 <trigger value="Jésus a-t-il réellement fait des miracles ou bien ne s&apos;agit-il que de pieuses légendes ?"/>
               </triggers>
@@ -9376,6 +9379,24 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>« Pour nous les hommes et pour notre salut il est descendu du ciel » ( CREDO de Nicée-Constantinople).</text>
+            </message>
+            <message name="Pourquoi Jésus a-t-il fait des miracles ?" id="pourquoi-jesus-a-t-il-fait-des-miracles" nb="91">
+              <tests>
+                <test input="Pourquoi Jésus a-t-il fait des miracles ?" output="Les miracles que Jésus a accomplis furent des signes de l&apos;avènement du Royaume de Dieu. Ils furent l&apos;expression de son amour pour les hommes et ils ont confirmé sa mission." outputReferences="&lt;hc_bible ref=&quot;Mc 7, 37&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 5-15&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 19, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-a-t-il-fait-des-miracles&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi Jésus a-t-il fait des miracles ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="547" verseEnd="550"/>
+                <bible book="Mk" chapter="7" verseBegin="37"/>
+                <bible book="Jn" chapter="6" verseBegin="5" verseEnd="15"/>
+                <bible book="Lk" chapter="19" verseBegin="8"/>
+                <bible book="Mt" chapter="11" verseBegin="5"/>
+                <bible book="Jn" chapter="12" verseBegin="31"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Les miracles que Jésus a accomplis furent des signes de l&apos;avènement du Royaume de Dieu. Ils furent l&apos;expression de son amour pour les hommes et ils ont confirmé sa mission.</text>
             </message>
             <message name="Pourquoi Jésus a-t-il été soumis à la tentation ?" id="pourquoi-jesus-a-t-il-ete-soumis-a-la-tentation" nb="88">
               <tests>
