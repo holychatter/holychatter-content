@@ -8480,6 +8480,20 @@
         </message>
       </folder>
       <folder name="Paradis" id="paradis" nb="1" image="paradis.jpeg">
+        <message name="C&apos;est quoi le paradis ? #MaisDisMoi " id="c-est-quoi-le-paradis-maisdismoi">
+          <tests>
+            <test input="C&apos;est quoi le paradis ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d4EWUyc1yBE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 28, 19-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;c-est-quoi-le-paradis-maisdismoi&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="C&apos;est quoi le paradis ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="28" verseBegin="19" verseEnd="20"/>
+            <bible book="Ps" chapter="15" verseBegin="11"/>
+          </references>
+          <sourceId>le-catho-de-service</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d4EWUyc1yBE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="COMMENT ENTRER AU PARADIS ?" id="comment-entrer-au-paradis">
           <triggers>
             <trigger value="Comment entrer au Paradis ?"/>
@@ -8491,7 +8505,7 @@
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o4nB8QZ9mPg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <message name="Qu’est-ce qu’on va faire au Ciel ?" id="qu-est-ce-qu-on-va-faire-au-ciel" nb="62">
+        <message name="Qu’est-ce qu’on va faire au Ciel ?" id="qu-est-ce-qu-on-va-faire-au-ciel">
           <tests>
             <test input="Qu’est-ce qu’on va faire au Ciel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/50dnLrjWwvI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Jn 3, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ap 21, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-va-faire-au-ciel&quot; textlength=&quot;21&quot; /&gt;"/>
           </tests>
