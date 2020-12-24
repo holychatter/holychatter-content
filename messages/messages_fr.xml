@@ -1,104 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Anges" id="anges" nb="10" image="angel.jpg">
-    <folder name="Ange gardien" id="ange-gardien" image="ange_gardien.jpg">
-      <message name="Avons-nous un ange gardien ? Réponse catholique !" id="avons-nous-un-ange-gardien-reponse-catholique">
-        <tests>
-          <test input="Est-ce que j&apos;ai un ange gardien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8TleyxYlSn4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La Caverne du Pèlerin&quot; resourceid=&quot;avons-nous-un-ange-gardien-reponse-catholique&quot; textlength=&quot;22&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Est-ce que j&apos;ai un ange gardien ?"/>
-        </triggers>
-        <sourceId>la-caverne-du-pelerin</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8TleyxYlSn4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-    </folder>
-    <folder name="Archanges" id="archanges" image="archanges.jpg">
-      <message name="Homélie de Mgr Aupetit pour la messe des anges" id="homelie-de-mgr-aupetit-pour-la-messe-des-anges">
-        <tests>
-          <test input="Qui est l&apos;archange Michel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
-          <test input="Qui est l&apos;archange Gabriel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
-          <test input="Qui est l&apos;archange Raphaël ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
-          <test input="Est-ce que nos vies donnent envie de nous imiter ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est l&apos;archange Michel ?"/>
-          <trigger value="Qui est l&apos;archange Gabriel ?"/>
-          <trigger value="Qui est l&apos;archange Raphaël ?"/>
-          <trigger value="Est-ce que nos vies donnent envie de nous imiter ?"/>
-        </triggers>
-        <references>
-          <bible book="Jn" chapter="20" verseBegin="21"/>
-          <bible book="2 Cor" chapter="4" verseBegin="7"/>
-          <bible book="Mt" chapter="23" verseBegin="3"/>
-        </references>
-        <sourceId>congres-mission</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-    </folder>
-    <folder name="Satan" id="satan" image="satan.jpg">
-      <message name="Ce que Dit Marie à Medjugorje : Satan" id="ce-que-dit-marie-a-medjugorje-satan">
-        <tests>
-          <test input="Que dit Marie sur Satan ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;ce-que-dit-marie-a-medjugorje-satan&quot; textlength=&quot;41&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Que dit Marie sur Satan ?"/>
-        </triggers>
-        <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Le diable existe-t-il ?" id="le-diable-existe-t-il">
-        <tests>
-          <test input="Le diable existe-t-il ?" output="Oui, le diable existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="le diable" output="Le diable est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Satan" output="Satan est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Qui est Satan" output="Satan est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Qui est le démon" output="Le démon est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Qui sont les démons ?" output="Les démons sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Lucifer existe-t-il ?" output="Oui, Lucifer existe." outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Le diable existe-t-il ?"/>
-        </triggers>
-        <descriptions>
-          <description value="C&apos;est le diable."/>
-          <description value="C&apos;est Satan."/>
-          <description value="C&apos;est Lucifer."/>
-          <description value="C&apos;est les démons."/>
-          <description value="C&apos;est le démon."/>
-          <description value="Le démon existe."/>
-          <description value="Le diable existe."/>
-          <description value="Satan existe."/>
-          <description value="Lucifer existe."/>
-        </descriptions>
-        <references>
-          <bible book="Ps" chapter="23" verseBegin="4"/>
-          <bible book="Gen" chapter="1" verseBegin="4"/>
-          <bible book="1 Chr" chapter="21" verseBegin="1"/>
-          <bible book="Zech" chapter="3" verseBegin="1"/>
-          <bible book="Mt" chapter="12" verseBegin="22" verseEnd="29"/>
-          <bible book="Lk" chapter="10" verseBegin="18"/>
-          <bible book="Mk" chapter="7" verseBegin="25" verseEnd="30"/>
-          <bible book="Jude" chapter="1" verseBegin="6"/>
-          <ccc verseBegin="391" verseEnd="395"/>
-          <ccc verseBegin="414"/>
-        </references>
-        <sourceId>le-cate-en-minutes</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Satan, un &quot;ami&quot; qui vous veut du mal - Abbé de Chaillé" id="satan-un-ami-qui-vous-veut-du-mal-abbe-de-chaille">
-        <tests>
-          <test input="Quel est le pouvoir du diable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KjQr6yuRfBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;satan-un-ami-qui-vous-veut-du-mal-abbe-de-chaille&quot; textlength=&quot;9&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quel est le pouvoir du diable ?"/>
-        </triggers>
-        <sourceId>padreblog</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KjQr6yuRfBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-    </folder>
-  </folder>
-  <folder name="Bible" id="bible" nb="5" image="bible.jpg">
+  <folder name="Bible" id="bible" nb="6" image="bible.jpg">
     <folder name="Ancien Testament" id="ancien-testament" nb="1" image="old_testament.jpg">
       <folder name="Livres historiques" id="livres-historiques" nb="2" image="livres historiques.png">
         <message name="1 Samuel - Synthèse" id="1-samuel-synthese" nb="4">
@@ -2377,7 +2279,7 @@
       <message name="Photo arche La défense" id="photo-arche-la-defense" nb="2">
         <nextMessageId>es-tu-nouveau-a-la-defense</nextMessageId>
         <sourceId>la-defense-chatbot</sourceId>
-        <text fileType="html">&lt;img width=&quot;630&quot; height=&quot;405&quot; src=&quot;/upload/La-Defense.jpg&quot; /&gt;</text>
+        <text fileType="html">&lt;img src=&quot;/upload/La-Defense.jpg&quot; /&gt;</text>
       </message>
       <sourcesNotToDisplay>
         <source value="La Défense - chatbot"/>
@@ -5191,7 +5093,7 @@
       </folder>
     </folder>
   </folder>
-  <folder name="Eglise" id="eglise" nb="7" image="church.jpg">
+  <folder name="Eglise" id="eglise" nb="8" image="church.jpg">
     <folder name="Dogmes et morale" id="dogmes-et-morale" nb="4" image="dogme.jpg">
       <message name="Les dogmes, pour quoi faire ?" id="les-dogmes-pour-quoi-faire">
         <tests>
@@ -7060,7 +6962,105 @@
       </message>
     </folder>
   </folder>
-  <folder name="Enseignements" id="enseignements" nb="6" image="teachings.jpeg">
+  <folder name="Enseignements" id="enseignements" nb="7" image="teachings.jpeg">
+    <folder name="Anges" id="anges" image="angel.jpg">
+      <folder name="Ange gardien" id="ange-gardien" image="ange_gardien.jpg">
+        <message name="Avons-nous un ange gardien ? Réponse catholique !" id="avons-nous-un-ange-gardien-reponse-catholique">
+          <tests>
+            <test input="Est-ce que j&apos;ai un ange gardien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8TleyxYlSn4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La Caverne du Pèlerin&quot; resourceid=&quot;avons-nous-un-ange-gardien-reponse-catholique&quot; textlength=&quot;22&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Est-ce que j&apos;ai un ange gardien ?"/>
+          </triggers>
+          <sourceId>la-caverne-du-pelerin</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8TleyxYlSn4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Archanges" id="archanges" image="archanges.jpg">
+        <message name="Homélie de Mgr Aupetit pour la messe des anges" id="homelie-de-mgr-aupetit-pour-la-messe-des-anges">
+          <tests>
+            <test input="Qui est l&apos;archange Michel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
+            <test input="Qui est l&apos;archange Gabriel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
+            <test input="Qui est l&apos;archange Raphaël ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
+            <test input="Est-ce que nos vies donnent envie de nous imiter ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Congrès Mission&quot; resourceid=&quot;homelie-de-mgr-aupetit-pour-la-messe-des-anges&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qui est l&apos;archange Michel ?"/>
+            <trigger value="Qui est l&apos;archange Gabriel ?"/>
+            <trigger value="Qui est l&apos;archange Raphaël ?"/>
+            <trigger value="Est-ce que nos vies donnent envie de nous imiter ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="20" verseBegin="21"/>
+            <bible book="2 Cor" chapter="4" verseBegin="7"/>
+            <bible book="Mt" chapter="23" verseBegin="3"/>
+          </references>
+          <sourceId>congres-mission</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qZ-RF2Wv1es?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Satan" id="satan" image="satan.jpg">
+        <message name="Ce que Dit Marie à Medjugorje : Satan" id="ce-que-dit-marie-a-medjugorje-satan">
+          <tests>
+            <test input="Que dit Marie sur Satan ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;ce-que-dit-marie-a-medjugorje-satan&quot; textlength=&quot;41&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Que dit Marie sur Satan ?"/>
+          </triggers>
+          <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B0If1F1X9sQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Le diable existe-t-il ?" id="le-diable-existe-t-il">
+          <tests>
+            <test input="Le diable existe-t-il ?" output="Oui, le diable existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="le diable" output="Le diable est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Satan" output="Satan est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Qui est Satan" output="Satan est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Qui est le démon" output="Le démon est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Qui sont les démons ?" output="Les démons sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Lucifer existe-t-il ?" output="Oui, Lucifer existe." outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Le diable existe-t-il ?"/>
+          </triggers>
+          <descriptions>
+            <description value="C&apos;est le diable."/>
+            <description value="C&apos;est Satan."/>
+            <description value="C&apos;est Lucifer."/>
+            <description value="C&apos;est les démons."/>
+            <description value="C&apos;est le démon."/>
+            <description value="Le démon existe."/>
+            <description value="Le diable existe."/>
+            <description value="Satan existe."/>
+            <description value="Lucifer existe."/>
+          </descriptions>
+          <references>
+            <bible book="Ps" chapter="23" verseBegin="4"/>
+            <bible book="Gen" chapter="1" verseBegin="4"/>
+            <bible book="1 Chr" chapter="21" verseBegin="1"/>
+            <bible book="Zech" chapter="3" verseBegin="1"/>
+            <bible book="Mt" chapter="12" verseBegin="22" verseEnd="29"/>
+            <bible book="Lk" chapter="10" verseBegin="18"/>
+            <bible book="Mk" chapter="7" verseBegin="25" verseEnd="30"/>
+            <bible book="Jude" chapter="1" verseBegin="6"/>
+            <ccc verseBegin="391" verseEnd="395"/>
+            <ccc verseBegin="414"/>
+          </references>
+          <sourceId>le-cate-en-minutes</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Satan, un &quot;ami&quot; qui vous veut du mal - Abbé de Chaillé" id="satan-un-ami-qui-vous-veut-du-mal-abbe-de-chaille">
+          <tests>
+            <test input="Quel est le pouvoir du diable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KjQr6yuRfBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;satan-un-ami-qui-vous-veut-du-mal-abbe-de-chaille&quot; textlength=&quot;9&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quel est le pouvoir du diable ?"/>
+          </triggers>
+          <sourceId>padreblog</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KjQr6yuRfBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+    </folder>
     <folder name="Coaching spi" id="coaching-spi" image="coatching.jpg">
       <message name="A quelle heure vous couchez-vous ? - Abbé Amar" id="a-quelle-heure-vous-couchez-vous-abbe-amar">
         <triggers>
@@ -10230,44 +10230,6 @@
         </potentialEffects>
       </planningInfos>
     </message>
-    <folder name="Blagues" id="blagues">
-      <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
-        <triggers>
-          <trigger value="-Es-tu drôle ?"/>
-          <trigger value="-Es-tu fun ?"/>
-        </triggers>
-        <nextMessageId>veux-tu-que-je-te-raconte-une-blague</nextMessageId>
-        <sourceId>le-personnage-holy-chatter</sourceId>
-        <text>J&apos;espère.</text>
-      </message>
-      <message name="Juif et le nouveau testament" id="juif-et-le-nouveau-testament" nb="2">
-        <triggers>
-          <trigger value="Raconte-moi une blague !"/>
-          <trigger value="Je veux que tu me racontes une blague."/>
-        </triggers>
-        <sourceId>humour-catho</sourceId>
-        <text>Un juif se plaint à Dieu:&#10;&quot;-Ay ay, je suis bien à plaindre, il m&apos;arrive la plus terrible des hontes... Mon fils s&apos;est converti au christianisme !&#10;Dieu lui répond:&#10;-Tu sais... Le mien a fait la même chose!&#10;-Oh, vraiment !? Et qu&apos;as - tu fait?&#10;-Un nouveau testament...</text>
-      </message>
-      <message name="Quelle est la différence entre un chrétien et un boxeur ?" id="quelle-est-la-difference-entre-un-chretien-et-un-boxeur" nb="1">
-        <triggers>
-          <trigger value="Raconte-moi une blague !"/>
-          <trigger value="Je veux que tu me racontes une blague."/>
-        </triggers>
-        <recommendations>
-          <recommendation text="Donne-moi la réponse" outMessageId="reponse-blague-1"/>
-        </recommendations>
-        <sourceId>parcours-alpha</sourceId>
-        <text>Quelle est la différence entre un chrétien et un boxeur ?</text>
-      </message>
-      <message name="Réponse blague 1" id="reponse-blague-1" nb="1">
-        <sourceId>parcours-alpha</sourceId>
-        <text fileType="text_and_html">&lt;span&gt;Aucune ils ont tous les 2 compris qu&apos;il y a plus de joie à donner qu&apos;à recevoir. &lt;img src=&quot;/resources/emojis/laugh.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-      </message>
-      <message name="Veux-tu que je te raconte une blague ?" id="veux-tu-que-je-te-raconte-une-blague">
-        <sourceId>interne</sourceId>
-        <text>Veux-tu que je te raconte une blague ?</text>
-      </message>
-    </folder>
     <message name="Bonjour" id="bonjour">
       <triggers>
         <trigger value="-Bonjour"/>
@@ -10855,6 +10817,57 @@
       </planningInfos>
     </message>
   </folder>
+  <folder name="Humour" id="humour" nb="5" image="laugh.png">
+    <folder name="Chatbot" id="chatbot-humour" isHidden="true">
+      <message name="J&apos;espère être drôle" id="j-espere-etre-drle">
+        <triggers>
+          <trigger value="-Es-tu drôle ?"/>
+          <trigger value="-Es-tu fun ?"/>
+        </triggers>
+        <nextMessageId>veux-tu-que-je-te-raconte-une-blague</nextMessageId>
+        <sourceId>le-personnage-holy-chatter</sourceId>
+        <text>J&apos;espère.</text>
+      </message>
+      <message name="Quelle est la différence entre un chrétien et un boxeur ?" id="quelle-est-la-difference-entre-un-chretien-et-un-boxeur" nb="1">
+        <triggers>
+          <trigger value="Raconte-moi une blague !"/>
+          <trigger value="Je veux que tu me racontes une blague."/>
+        </triggers>
+        <recommendations>
+          <recommendation text="Donne-moi la réponse" outMessageId="reponse-blague-1"/>
+        </recommendations>
+        <sourceId>parcours-alpha</sourceId>
+        <text>Quelle est la différence entre un chrétien et un boxeur ?</text>
+      </message>
+      <message name="Réponse blague 1" id="reponse-blague-1" nb="1">
+        <sourceId>parcours-alpha</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;Aucune ils ont tous les 2 compris qu&apos;il y a plus de joie à donner qu&apos;à recevoir. &lt;img src=&quot;/resources/emojis/laugh.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+      </message>
+      <message name="Veux-tu que je te raconte une blague ?" id="veux-tu-que-je-te-raconte-une-blague">
+        <sourceId>interne</sourceId>
+        <text>Veux-tu que je te raconte une blague ?</text>
+      </message>
+    </folder>
+    <message name="Juif et le nouveau testament" id="juif-et-le-nouveau-testament">
+      <tests>
+        <test input="Racontez-moi une histoire drôle de conversion !" output="Un juif se plaint à Dieu:&#10;&quot;-Ay ay, je suis bien à plaindre, il m&apos;arrive la plus terrible des hontes... Mon fils s&apos;est converti au christianisme !&#10;Dieu lui répond:&#10;-Tu sais... Le mien a fait la même chose!&#10;-Oh, vraiment !? Et qu&apos;as - tu fait?&#10;-Un nouveau testament..." outputReferences="&lt;hc_source name=&quot;Humour catho&quot; resourceid=&quot;juif-et-le-nouveau-testament&quot; textlength=&quot;12&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Racontez-moi une blague !"/>
+        <trigger value="Je veux que tu me racontes une blague."/>
+        <trigger value="Racontez-moi une histoire drôle de conversion !"/>
+      </triggers>
+      <sourceId>humour-catho</sourceId>
+      <text>Un juif se plaint à Dieu:&#10;&quot;-Ay ay, je suis bien à plaindre, il m&apos;arrive la plus terrible des hontes... Mon fils s&apos;est converti au christianisme !&#10;Dieu lui répond:&#10;-Tu sais... Le mien a fait la même chose!&#10;-Oh, vraiment !? Et qu&apos;as - tu fait?&#10;-Un nouveau testament...</text>
+    </message>
+    <message name="Saint Michel priez pour nous" id="saint-michel-priez-pour-nous">
+      <triggers>
+        <trigger value="Racontez-moi une blague sur Saint Michel !"/>
+      </triggers>
+      <sourceId>humour-catho</sourceId>
+      <text fileType="html">&lt;img src=&quot;/upload/saint-michel-priez-pour-nous.jpeg&quot; /&gt;</text>
+    </message>
+  </folder>
   <folder name="Miracles" id="miracles" nb="3" image="miracle.png">
     <folder name="Charimes" id="charimes" nb="1" image="charismes.jpg">
       <message name="Le charisme de Foi" id="le-charisme-de-foi">
@@ -11285,7 +11298,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Personnes inspirantes" id="personnes-inspirantes" nb="9" image="person.jpg">
+  <folder name="Personnes inspirantes" id="personnes-inspirantes" nb="10" image="person.jpg">
     <folder name="Carlo Acutis" id="carlo-acutis" nb="1" image="carlo_acutis.jpg">
       <message name="Carlo Acutis Missionnaire 2.0" id="carlo-acutis-missionnaire-2-0">
         <triggers>
@@ -11778,7 +11791,7 @@
       </message>
     </folder>
   </folder>
-  <folder name="Prières" id="prieres" nb="8" image="prier.jpg">
+  <folder name="Prières" id="prieres" nb="9" image="prier.jpg">
     <folder name="Attitude" id="attitude" nb="1" image="attitude.jpg">
       <message name="Comment prier avec son corps ?" id="comment-prier-avec-son-corps">
         <triggers>
