@@ -7619,7 +7619,7 @@
       </message>
       <message name="Qu&apos;est-ce que la crainte de Dieu ?" id="qu-est-ce-que-la-crainte-de-dieu">
         <tests>
-          <test input="Qu&apos;est-ce que la crainte de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vl-t4QugFLo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 11, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;qu-est-ce-que-la-crainte-de-dieu&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que la crainte de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vl-t4QugFLo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;qu-est-ce-que-la-crainte-de-dieu&quot; textlength=&quot;3&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Qu&apos;est-ce que la crainte de Dieu ?"/>
@@ -9468,6 +9468,20 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>La brève formule « Jésus est le Christ » exprime le cœur de la foi chrétienne : Jésus, le simple fils du charpentier de Nazareth, est le Messie attendu et le Sauveur.</text>
+            </message>
+            <message name="Pourquoi Jésus fut-il transfiguré sur la montagne ?" id="pourquoi-jesus-fut-il-transfigure-sur-la-montagne" nb="93">
+              <tests>
+                <test input="Pourquoi Jésus fut-il transfiguré sur la montagne ?" output="Dès la vie terrestre de Jésus, le Père a voulu révéler la majesté divine de son Fils. La transfiguration de Jésus aidera plus tard ses disciples à comprendre sa mort et sa résurrection." outputReferences="&lt;hc_ccc ref=&quot;554-556&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;568&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-fut-il-transfigure-sur-la-montagne&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi Jésus fut-il transfiguré sur la montagne ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="554" verseEnd="556"/>
+                <ccc verseBegin="568"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Dès la vie terrestre de Jésus, le Père a voulu révéler la majesté divine de son Fils. La transfiguration de Jésus aidera plus tard ses disciples à comprendre sa mort et sa résurrection.</text>
             </message>
             <message name="Pourquoi Jésus n&apos;a-t-il pas eu de vie publique pendant trente ans ?" id="pourquoi-jesus-n-a-t-il-pas-eu-de-vie-publique-pendant-trente-ans" nb="86">
               <tests>
@@ -11395,6 +11409,16 @@
           <text>Marie est la mère de Jésus</text>
         </message>
       </folder>
+      <message name="L&apos;Immaculée Conception, Marie sauvée avant le Christ ?" id="l-immaculee-conception-marie-sauvee-avant-le-christ">
+        <tests>
+          <test input="L&apos;Immaculée Conception, Marie sauvée avant le Christ ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C6YIg5nH0aE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-immaculee-conception-marie-sauvee-avant-le-christ&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="L&apos;Immaculée Conception, Marie sauvée avant le Christ ?"/>
+        </triggers>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C6YIg5nH0aE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="La place de Marie dans la foi chrétienne" id="la-place-de-marie-dans-la-foi-chretienne">
         <tests>
           <test input="Qui est la première des disciples ?" output="La première des disciples est la mère de Jésus." outputReferences="&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -11408,6 +11432,25 @@
         </references>
         <sourceId>croire</sourceId>
         <text>Marie tient une place privilégiée dans la foi chrétienne. Marie est la mère de Jésus. La mère de Jésus est la première des disciples, celle qui a toujours fait la volonté de Dieu, écoutant sa parole et la mettant en pratique. Mère de Dieu, Marie est aussi mère des hommes.</text>
+      </message>
+      <message name="La virginité de Marie, mythe ou réalité ?" id="la-virginite-de-marie-mythe-ou-realite">
+        <tests>
+          <test input="La virginité de Marie, mythe ou réalité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OSHOhudTnww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-virginite-de-marie-mythe-ou-realite&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quels sont les 4 dogmes sur Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OSHOhudTnww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-virginite-de-marie-mythe-ou-realite&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quel est le sens de la virginité perpétuelle de Maire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OSHOhudTnww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-virginite-de-marie-mythe-ou-realite&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="La virginité de Marie, mythe ou réalité ?"/>
+          <trigger value="Quels sont les 4 dogmes sur Marie ?"/>
+          <trigger value="Quel est le sens de la virginité perpétuelle de Maire ?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="1" verseBegin="34" verseEnd="35"/>
+          <bible book="Mt" chapter="1" verseBegin="20"/>
+          <bible book="Mk" chapter="3" verseBegin="31"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OSHOhudTnww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Marie" id="marie">
         <tests>
@@ -11472,6 +11515,19 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JCtIfx1e1s4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Marie, mère deux fois ?" id="marie-mere-deux-fois">
+        <triggers>
+          <trigger value="Marie, mère deux fois ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="1" verseBegin="1"/>
+          <bible book="Jn" chapter="1" verseBegin="14"/>
+          <bible book="Jn" chapter="8" verseBegin="58"/>
+          <bible book="Jn" chapter="19" verseBegin="26" verseEnd="27"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JHzD4TY6sTQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Pourquoi Marie ?" id="pourquoi-marie">
         <tests>
@@ -11861,6 +11917,20 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/g8wsnbEUWhc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="La sainteté en 3 min" id="la-saintete-en-3-min">
+        <tests>
+          <test input="Comment devenir saint ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mABLRISHpSg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-saintete-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Être saint, est-ce réservé à certains ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mABLRISHpSg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-saintete-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Est-ce que je suis réellement capable d&apos;être saint ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mABLRISHpSg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-saintete-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment devenir saint ?"/>
+          <trigger value="Être saint, est-ce réservé à certains ?"/>
+          <trigger value="Est-ce que je suis réellement capable d&apos;être saint ?"/>
+        </triggers>
+        <sourceId>padre-dk</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mABLRISHpSg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Pourquoi les catholiques invoquent les saints ?" id="pourquoi-les-catholiques-invoquent-les-saints">
         <tests>
@@ -12433,6 +12503,19 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cgTmWJbfcH0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Icône" id="icone" nb="1" image="icone.jpeg">
+      <message name="Comment prier avec une icône de Marie ?" id="comment-prier-avec-une-icone-de-marie">
+        <triggers>
+          <trigger value="Comment prier avec une icône ?"/>
+          <trigger value="Comment prier avec une icône de Marie ?"/>
+        </triggers>
+        <references>
+          <bible book="Is" chapter="7" verseBegin="13" verseEnd="14"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RqprP5766g4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Jésus" id="jesus" nb="1" image="jesus.jpg">
@@ -13707,6 +13790,63 @@
         <sourceId>famille-chretienne</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vwRiNvnqipE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <folder name="Footballeur" id="footballeur" image="footballers_praying.jpeg">
+        <message name="Griezmann et ses tatouages religieux" id="griezmann-et-ses-tatouages-religieux">
+          <tests>
+            <test input="Montrez-moi les tatouages de Griezmann !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/077LhM9N64g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;griezmann-et-ses-tatouages-religieux&quot; textlength=&quot;10&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi les tatouages de Griezmann !"/>
+          </triggers>
+          <sourceId>esseynelle</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/077LhM9N64g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="La foi de Lilian Thuram (Etats Généraux du Christianisme)" id="la-foi-de-lilian-thuram-etats-generaux-du-christianisme">
+          <tests>
+            <test input="Quel est l&apos;avis de Lilian Thuram sur les religions ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;la-foi-de-lilian-thuram-etats-generaux-du-christianisme&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quel est l&apos;avis de Lilian Thuram sur les religions ?"/>
+          </triggers>
+          <sourceId>le-jour-du-seigneur</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <folder name="Olivier Giroud" id="olivier-giroud" image="giroud-fra.jpeg">
+          <message name="Giroud passe un moment avec Jésus et parle de sa foi" id="giroud-passe-un-moment-avec-jesus-et-parle-de-sa-foi">
+            <tests>
+              <test input="Montrez-moi une journée avec Olivier Giroud !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CFKHSJeHaQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;giroud-passe-un-moment-avec-jesus-et-parle-de-sa-foi&quot; textlength=&quot;10&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi une journée avec Olivier Giroud !"/>
+            </triggers>
+            <sourceId>esseynelle</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CFKHSJeHaQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Olivier Giroud : « Les choix que j&apos;ai faits dans ma vie ont été bénis par le Seigneur »" id="olivier-giroud-les-choix-que-j-ai-faits-dans-ma-vie-ont-ete-benis-par-le-seigneur">
+            <tests>
+              <test input="Montrez-moi le témoignage d&apos;Olivier Giroud !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lj5mxzAA1eU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 22, 1-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;olivier-giroud-les-choix-que-j-ai-faits-dans-ma-vie-ont-ete-benis-par-le-seigneur&quot; textlength=&quot;7&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi le témoignage d&apos;Olivier Giroud !"/>
+            </triggers>
+            <references>
+              <bible book="Ps" chapter="22" verseBegin="1" verseEnd="3"/>
+            </references>
+            <sourceId>aleteia</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lj5mxzAA1eU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
+        <message name="Yohan Cabaye le catholique" id="yohan-cabaye-le-catholique">
+          <tests>
+            <test input="Montrez-moi le témoignage du footballeur Yohan Cabaye !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jE9_iqvOfjE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;yohan-cabaye-le-catholique&quot; textlength=&quot;10&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi le témoignage du footballeur Yohan Cabaye !"/>
+          </triggers>
+          <sourceId>esseynelle</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jE9_iqvOfjE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <message name="Gad Elmaleh raconte sa première fois à Lourdes" id="gad-elmaleh-raconte-sa-premiere-fois-a-lourdes">
         <triggers>
           <trigger value="Qu&apos;est-ce que pense Gad Elmaleh de Lourdes ?"/>
@@ -13721,16 +13861,6 @@
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mmQMn5INCZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="La foi de Lilian Thuram (Etats Généraux du Christianisme)" id="la-foi-de-lilian-thuram-etats-generaux-du-christianisme">
-        <tests>
-          <test input="Quel est l&apos;avis de Lilian Thuram sur les religions ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;la-foi-de-lilian-thuram-etats-generaux-du-christianisme&quot; textlength=&quot;19&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quel est l&apos;avis de Lilian Thuram sur les religions ?"/>
-        </triggers>
-        <sourceId>le-jour-du-seigneur</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
       <message name="Le jour où Elie Semoun a rencontré le père Laurent" id="le-jour-o-elie-semoun-a-rencontre-le-pere-laurent">
         <tests>
           <test input="Que pense Elie Semoun de la retraite spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jwx7MDYhp4w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Thé ou café&quot; resourceid=&quot;le-jour-o-elie-semoun-a-rencontre-le-pere-laurent&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -13743,31 +13873,6 @@
         <sourceId>the-ou-cafe</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jwx7MDYhp4w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Olivier Giroud" id="olivier-giroud" image="giroud-fra.jpeg">
-        <message name="Giroud passe un moment avec Jésus et parle de sa foi" id="giroud-passe-un-moment-avec-jesus-et-parle-de-sa-foi">
-          <tests>
-            <test input="Montrez-moi une journée avec Olivier Giroud !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CFKHSJeHaQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
-          </tests>
-          <triggers>
-            <trigger value="Montrez-moi une journée avec Olivier Giroud !"/>
-          </triggers>
-          <sourceId>esseynelle</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CFKHSJeHaQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-        <message name="Olivier Giroud : « Les choix que j&apos;ai faits dans ma vie ont été bénis par le Seigneur »" id="olivier-giroud-les-choix-que-j-ai-faits-dans-ma-vie-ont-ete-benis-par-le-seigneur">
-          <tests>
-            <test input="Montrez-moi le témoignage d&apos;Olivier Giroud !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lj5mxzAA1eU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 22, 1-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;olivier-giroud-les-choix-que-j-ai-faits-dans-ma-vie-ont-ete-benis-par-le-seigneur&quot; textlength=&quot;7&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Montrez-moi le témoignage d&apos;Olivier Giroud !"/>
-          </triggers>
-          <references>
-            <bible book="Ps" chapter="22" verseBegin="1" verseEnd="3"/>
-          </references>
-          <sourceId>aleteia</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lj5mxzAA1eU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
     </folder>
     <folder name="Discussion" id="discussion" isHidden="true">
       <message name="Le témoignage d&apos;une personne qui a donné sa vie à Dieu" id="le-temoignage-d-une-personne-qui-a-donne-sa-vie-a-dieu" nb="2">
