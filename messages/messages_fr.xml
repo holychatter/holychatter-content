@@ -2404,11 +2404,11 @@
     <chatbot name="Paroisse de Puteaux" id="paroisse-de-puteaux" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="paroisse-de-puteaux.png" url="http://paroissedeputeaux.catholique.fr/" fallbackEngine="Cybercuré">
       <message name="Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-de-puteaux" nb="1">
         <recommendations>
-          <recommendation text="Avoir des infos sur la paroisse de Puteaux" outMessageId="paroisse-puteaux-menu"/>
-          <recommendation text="Discuter sur la foi chrétienne" outMessageId="replanifier-vers-la-foi-chretienne"/>
+          <recommendation text="Avoir des informations sur la paroisse de Puteaux" outMessageId="paroisse-puteaux-menu"/>
+          <recommendation text="Discuter sur la foi chrétienne" outMessageId="laisser-la-plannification"/>
         </recommendations>
         <sourceId>interne</sourceId>
-        <text fileType="text_and_html">&lt;img src=&apos;/upload/paroisse-de-puteaux.png&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.&#10;Bienvenue sur le chatbot de la paroisse de Puteaux ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&#10;&lt;span&gt;Que voulez-vous faire ?&lt;/span&gt;</text>
+        <text fileType="text_and_html">&lt;span&gt;&lt;img src=&apos;/upload/paroisse-de-puteaux.png&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.&#10;Bienvenue sur le chatbot de la paroisse de Puteaux ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&#10;Que voulez-vous faire ?&lt;/span&gt;</text>
         <planningInfos>
           <effects>
             <fact value="dire-bonjour-puteaux"/>
@@ -2440,6 +2440,11 @@
           <nextMessageId>suivez-notre-actualite-sur-les-reseaux-sociaux</nextMessageId>
           <sourceId>interne</sourceId>
           <text fileType="text_and_html">Découvrez notre paroisse en vidéo en 8 minutes... et contactez-nous !&#10;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9FHS0ZfRvPo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <planningInfos>
+            <effects>
+              <fact value="puteaux-decouverte"/>
+            </effects>
+          </planningInfos>
         </message>
         <message name="Suivez notre actualité sur les réseaux sociaux !" id="suivez-notre-actualite-sur-les-reseaux-sociaux" nb="3">
           <recommendations>
@@ -2475,25 +2480,28 @@
             <trigger value="Je veux des infos sur la catéchèse à Puteaux."/>
           </triggers>
           <sourceId>interne</sourceId>
-          <text fileType="text_and_html">Voicçi des informations relatives à la jeunesse et à la catéchèse&#10;&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&lt;/a&gt;</text>
+          <text fileType="text_and_html">Voici des informations relatives à la jeunesse et à la catéchèse&#10;&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&lt;/a&gt;</text>
+          <planningInfos>
+            <effects>
+              <fact value="puteaux-jeunesse"/>
+            </effects>
+          </planningInfos>
         </message>
       </folder>
       <message name="Paroisse Puteaux menu" id="paroisse-puteaux-menu" nb="2">
         <recommendations>
-          <recommendation text="Je souhaite découvrir la paroisse." outMessageId="decouvrir-la-paroisse-introduction"/>
+          <recommendation text="Je souhaite découvrir la paroisse." outMessageId="paroisse-de-puteaux-presentation-de-tous-les-groupes-et-activites"/>
           <recommendation text="Je veux m&apos;inscrire pour la préparation au mariage / baptême." outMessageId="sacrements-puteaux"/>
           <recommendation text="Je veux des infos sur la jeunesse et la catéchèse." outMessageId="jeunesse-catechese-a-puteaux"/>
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Ok je suis à votre service.</text>
-      </message>
-      <message name="Replanifier vers la foi chretienne" id="replanifier-vers-la-foi-chretienne" nb="100">
-        <sourceId>interne</sourceId>
-        <text>%replace-by-plannification%</text>
         <planningInfos>
-          <effects>
-            <fact value="chatbot-puteaux-foi-chretienne"/>
-          </effects>
+          <goalsToAdd>
+            <goalsToAdd value="puteaux-decouverte"/>
+            <goalsToAdd value="puteaux-inscription-a-un-sacrement"/>
+            <goalsToAdd value="puteaux-jeunesse"/>
+          </goalsToAdd>
         </planningInfos>
       </message>
       <folder name="Sacrements" id="sacrements-paroisse-de-puteaux" nb="4">
@@ -2504,6 +2512,11 @@
           </triggers>
           <sourceId>interne</sourceId>
           <text fileType="text_and_html">Pour s&apos;inscrire aux sacrements : &lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/les-grandes-etapes-de-la-vie/s-inscrire-en-ligne-aux-sacrements-du-mariage-ou-du-bapteme&quot;&gt;Cliquez ici&lt;/a&gt;</text>
+          <planningInfos>
+            <effects>
+              <fact value="puteaux-inscription-a-un-sacrement"/>
+            </effects>
+          </planningInfos>
         </message>
       </folder>
       <sourcesNotToDisplay>
@@ -10315,7 +10328,7 @@
     <message name="Cool avant jour de naissance" id="cool-avant-jour-de-naissance">
       <nextMessageId>quel-jour-etes-vous-ne</nextMessageId>
       <sourceId>interne</sourceId>
-      <text fileType="text_and_html">Cool&#10;&lt;img src=&quot;/resources/gifs/joy.gif&quot; style=&quot;max-height: 150px; max-width: 400px;&quot; /&gt;</text>
+      <text fileType="text_and_html">Cool&#10;&lt;img src=&quot;/resources/gifs/joy.gif&quot; style=&quot;max-width: 200px;&quot; /&gt;</text>
     </message>
     <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
       <sourceId>interne</sourceId>
