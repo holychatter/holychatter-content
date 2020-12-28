@@ -2405,8 +2405,10 @@
       <message name="Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-de-puteaux" nb="1">
         <recommendations>
           <recommendation text="Avoir des informations sur la paroisse de Puteaux" outMessageId="paroisse-puteaux-menu"/>
-          <recommendation text="Discuter sur la foi chrétienne" outMessageId="laisser-la-plannification"/>
+          <recommendation text="Discuter sur la foi chrétienne" outMessageId="parler-de-la-foi"/>
         </recommendations>
+        <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
         <sourceId>interne</sourceId>
         <text fileType="text_and_html">&lt;span&gt;&lt;img src=&apos;/upload/paroisse-de-puteaux.png&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.&#10;Bienvenue sur le chatbot de la paroisse de Puteaux ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&#10;Que voulez-vous faire ?&lt;/span&gt;</text>
         <planningInfos>
@@ -2471,7 +2473,12 @@
           <trigger value="Quels sont les horaires des messes ?"/>
         </triggers>
         <sourceId>interne</sourceId>
-        <text fileType="text_and_html">Vous pourrez trouver les horaires des messes de Puteaux içi :&#10;&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&lt;/a&gt;</text>
+        <text fileType="text_and_html">Vous pourrez trouver les horaires des messes de Puteaux ici :&#10;&lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&lt;/a&gt;</text>
+        <planningInfos>
+          <effects>
+            <fact value="puteaux-horaires-des-messes"/>
+          </effects>
+        </planningInfos>
       </message>
       <folder name="Jeunesse &amp; catéchisme" id="jeunesse-catechisme" nb="5">
         <message name="Jeunesse &amp; catéchèse à Puteaux" id="jeunesse-catechese-a-puteaux">
@@ -2488,6 +2495,15 @@
           </planningInfos>
         </message>
       </folder>
+      <message name="Parler de la foi" id="parler-de-la-foi" nb="7">
+        <sourceId>interne</sourceId>
+        <text>%replace-by-plannification%</text>
+        <planningInfos>
+          <effects>
+            <fact value="chatbot-puteaux-foi-chretienne"/>
+          </effects>
+        </planningInfos>
+      </message>
       <message name="Paroisse Puteaux menu" id="paroisse-puteaux-menu" nb="2">
         <recommendations>
           <recommendation text="Je souhaite découvrir la paroisse." outMessageId="paroisse-de-puteaux-presentation-de-tous-les-groupes-et-activites"/>
@@ -2498,6 +2514,7 @@
         <text>Ok je suis à votre service.</text>
         <planningInfos>
           <goalsToAdd>
+            <goalsToAdd value="puteaux-horaires-des-messes"/>
             <goalsToAdd value="puteaux-decouverte"/>
             <goalsToAdd value="puteaux-inscription-a-un-sacrement"/>
             <goalsToAdd value="puteaux-jeunesse"/>
@@ -2534,6 +2551,7 @@
         <subjectInfos title="Voir les horaires des messes à Puteaux" image="ste_mathilde_puteaux.jpeg" message="Quels sont les horaires des messes ?">
           <factsToHideTheSubject>
             <fact id="chatbot-puteaux-foi-chretienne"/>
+            <fact id="puteaux-horaires-des-messes"/>
           </factsToHideTheSubject>
         </subjectInfos>
         <subjectInfos title="Explorer le sens de la vie par des rencontres" image="explorer_le_sens_de_la_vie.jpeg" message="Comment explorer le sens de la vie ?" isHidden="true">
@@ -2541,8 +2559,8 @@
             <fact id="ne-pas-être-chrétien"/>
           </factsToShowTheSubject>
         </subjectInfos>
-        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
         <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Posez-moi des questions"/>
+        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
         <subjectInfos title="Que faire pour les personnes exclues ?" image="simple-comme-bonjour.png" message="Que faire pour les personnes exclues ?"/>
         <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart_hands.png" message="Qu&apos;est-ce que l&apos;amour ?"/>
         <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
@@ -2551,6 +2569,9 @@
           </factsToShowTheSubject>
         </subjectInfos>
         <subjectInfos title="Voir les horaires des messes" image="ste_mathilde_puteaux.jpeg" message="Voir les horaires des messes" isHidden="true">
+          <factsToHideTheSubject>
+            <fact id="puteaux-horaires-des-messes"/>
+          </factsToHideTheSubject>
           <factsToShowTheSubject>
             <fact id="chatbot-puteaux-foi-chretienne"/>
           </factsToShowTheSubject>
@@ -13136,6 +13157,23 @@
               </potentialEffects>
             </planningInfos>
           </message>
+          <message name="Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion ?" id="vous-allez-decouvrir-le-premier-programme-pedagogique-dedie-a-la-grande-exclusion">
+            <recommendations>
+              <recommendation text="Oui &lt;img src=&quot;/resources/emojis/happy.png&quot; height=&quot;20&quot; /&gt;" outMessageId="contenu"/>
+              <recommendation text="Non, continuez la discussion" outMessageId="laisser-la-plannification"/>
+            </recommendations>
+            <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+            <sourceId>interne</sourceId>
+            <text>Voulez-vous découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="demander-le-jour-de-naissance"/>
+              </optionalPreconditions>
+              <potentialEffects>
+                <fact value="aimer-son-prochain-toujours-plus"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
         </folder>
         <message name="Entourage, une appli pour créer du lien avec les sans-abri !" id="entourage-une-appli-pour-creer-du-lien-avec-les-sans-abri">
           <tests>
@@ -13158,6 +13196,7 @@
           </tests>
           <triggers>
             <trigger value="Que faire pour les personnes exclues ?"/>
+            <trigger value="Je veux découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue."/>
           </triggers>
           <nextMessageId>etapes-cles</nextMessageId>
           <sourceId>reseau-entourage</sourceId>
