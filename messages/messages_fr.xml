@@ -4771,7 +4771,48 @@
     </folder>
   </folder>
   <folder name="Découverte" id="decouverte" nb="2" image="discover.jpg">
-    <folder name="Par thème" id="par-theme" image="themes.jpg">
+    <folder name="Par les films" id="par-les-films" nb="3" image="the_lord_of_the_rings.jpeg">
+      <message name="L&apos;évangile de Harry Potter" id="l-evangile-de-harry-potter">
+        <tests>
+          <test input="La saga Harry Potter est-elle chrétienne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/J_eIGCaOl0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;l-evangile-de-harry-potter&quot; textlength=&quot;30&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="La saga Harry Potter est-elle chrétienne ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="21"/>
+          <bible book="1 Cor" chapter="15" verseBegin="26"/>
+          <bible book="Lk" chapter="22" verseBegin="43"/>
+        </references>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/J_eIGCaOl0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="L&apos;évangile selon Star Wars" id="l-evangile-selon-star-wars">
+        <tests>
+          <test input="Quel est le message chrétien derrière Star Wars ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mTh00rdtRJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;l-evangile-selon-star-wars&quot; textlength=&quot;30&quot; /&gt;"/>
+          <test input="Jésus est-il un héro hollywoodien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mTh00rdtRJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;l-evangile-selon-star-wars&quot; textlength=&quot;30&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quel est le message chrétien derrière Star Wars ?"/>
+          <trigger value="Jésus est-il un héro hollywoodien ?"/>
+        </triggers>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mTh00rdtRJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="La résurrection selon Tolkien" id="la-resurrection-selon-tolkien">
+        <tests>
+          <test input="Quel en quoi le film de Tolkien nous parle de la résurrection ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KKZRK0wyO4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-resurrection-selon-tolkien&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quel est le message chrétien derrière &quot;Le Seigneur des anneaux&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KKZRK0wyO4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-resurrection-selon-tolkien&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quel en quoi le film de Tolkien nous parle de la résurrection ?"/>
+          <trigger value="Quel est le message chrétien derrière &quot;Le Seigneur des anneaux&quot; ?"/>
+        </triggers>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KKZRK0wyO4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Par thème" id="par-theme" nb="2" image="themes.jpg">
       <folder name="Comment rencontrer Dieu ?" id="comment-rencontrer-dieu" nb="4" image="meet_god.jpg">
         <message name="Comment rencontrer Dieu ? (partie 2 : la violence)" id="comment-rencontrer-dieu-partie-2-la-violence" nb="2">
           <tests>
@@ -4923,7 +4964,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Par âge" id="par-age" image="by_age.jpg">
+    <folder name="Par âge" id="par-age" nb="1" image="by_age.jpg">
       <folder name="Adultes" id="adultes" nb="4" image="adult.png">
         <message name="Bande annonce Série Alpha" id="bande-annonce-serie-alpha">
           <tests>
