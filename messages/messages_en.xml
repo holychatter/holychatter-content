@@ -3608,7 +3608,7 @@
           <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
             <message name="Are the Jews guilty of Jesus’ death?" id="are-the-jews-guilty-of-jesus-death" nb="97">
               <tests>
-                <test input="Are the Jews guilty of Jesus’ death?" output="No one can assign collective guilt for the death of Jesus to the Jews. Instead, the Church professes with certainty that all sinners share in the guilt for Jesus’ death." outputReferences="&lt;hc_bible ref=&quot;Lk 2: 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;597-598&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;are-the-jews-guilty-of-jesus-death&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Are the Jews guilty of Jesus’ death?" output="I don&apos;t know if the Jews are Jesus death guilty." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Are the Jews guilty of Jesus’ death?"/>
@@ -3640,7 +3640,7 @@
             </message>
             <message name="Did God will the death of his only Son?" id="did-god-will-the-death-of-his-only-son" nb="98">
               <tests>
-                <test input="Did God will the death of his only Son?" output="The violent death of Jesus did not come about through tragic external circumstances. Jesus was “delivered up according to the definite plan and foreknowledge of God” (Acts 2:23). So that we children of sin and death might have life, the Father in heaven “made him to be sin who knew no sin” (2 Cor 5:21). The magnitude of the sacrifice that God the Father asked of his Son, corresponded to the magnitude of Christ’s obedience: “And what shall I say? ‘Father, save me&#10;from this hour’? No, for this purpose I have come to this hour” (Jn 12:27). On both sides, God’s love for men proved itself to the very end on the Cross." outputReferences="&lt;hc_bible ref=&quot;Acts 2: 23&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;2 Cor 5: 21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;599-609&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;620&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;did-god-will-the-death-of-his-only-son&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Did God will the death of his only Son?" output="The violent death of Jesus did not come about through tragic external circumstances. Jesus was “delivered up according to the definite plan and foreknowledge of God” (Acts 2:23). So that we children of sin and death might have life, the Father in heaven “made him to be sin who knew no sin” (2 Cor 5:21). The magnitude of the sacrifice that God the Father asked of his Son, corresponded to the magnitude of Christ’s obedience: “And what shall I say? ‘Father, save me from this hour’? No, for this purpose I have come to this hour” (Jn 12:27). On both sides, God’s love for men proved itself to the very end on the Cross." outputReferences="&lt;hc_bible ref=&quot;Acts 2: 23&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;2 Cor 5: 21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;599-609&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;620&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;did-god-will-the-death-of-his-only-son&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Did God will the death of his only Son?"/>
@@ -3821,6 +3821,23 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>The Church believes that “the most Blessed Virgin Mary was, from the first moment of her conception, by a singular grace and privilege of almighty God and by virtue of the merits of Jesus Christ, Savior of the human race, preserved immune from all stain of original sin” (Dogma of 1854).</text>
+            </message>
+            <message name="What happened at the Last Supper?" id="what-happened-at-the-last-supper" nb="99">
+              <tests>
+                <test input="What happened at the Last Supper?" output="Jesus washed the feet of his apostles on the evening before his death; he instituted the Eucharist and founded the priesthood of the New Covenant." outputReferences="&lt;hc_bible ref=&quot;Jn 13: 12-15&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lk 22: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lk 22: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;610-611&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-happened-at-the-last-supper&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What happened at the Last Supper?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="610" verseEnd="611"/>
+                <bible book="Jn" chapter="13" verseBegin="12" verseEnd="15"/>
+                <bible book="Lk" chapter="22" verseBegin="27"/>
+                <bible book="Lk" chapter="22" verseBegin="19"/>
+                <bible book="1 Cor" chapter="11" verseBegin="24"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jesus washed the feet of his apostles on the evening before his death; he instituted the Eucharist and founded the priesthood of the New Covenant.</text>
             </message>
             <message name="Why are the reports about Jesus called “the Gospel”, “the Good News”?" id="why-are-the-reports-about-jesus-called-the-gospel-the-good-news" nb="71">
               <tests>
