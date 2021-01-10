@@ -7519,6 +7519,38 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cRDzFkoedzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <folder name="Vocation" id="vocation-coaching-spi" image="vocationa.jpg">
+        <folder name="Chatbot" id="chatbot-vocation" isHidden="true">
+          <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation" nb="1">
+            <sourceId>interne</sourceId>
+            <text>Avez-vous trouvé votre vocation ?</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="demander-le-jour-de-naissance"/>
+              </optionalPreconditions>
+              <potentialEffects>
+                <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+          <message name="C&apos;est en effet une question très importante" id="c-est-en-effet-une-question-tres-importante" nb="2">
+            <triggers>
+              <trigger value="-Je n&apos;ai pas trouvé ma vocation."/>
+            </triggers>
+            <recommendations>
+              <recommendation text="Comment trouver sa voie ?" outMessageId="comment-trouver-sa-voie-la-vocation"/>
+              <recommendation text="Montrez-moi des exemples de vocations !" outMessageId="comment-avez-vous-su-que-le-seigneur-vous-appelait"/>
+            </recommendations>
+            <sourceId>interne</sourceId>
+            <text>C&apos;est une question très importante qui doit vous questionner. On peut y réfléchir un peu ensemble si vous le voulez bien.</text>
+          </message>
+          <message name="Qu&apos;elle est ta vocation ?" id="qu-elle-est-ta-vocation" nb="3">
+            <triggers>
+              <trigger value="-Je ai trouvé ma vocation."/>
+            </triggers>
+            <sourceId>interne</sourceId>
+            <text>Je suis content de l&apos;entendre. Qu&apos;elle est-elle ?</text>
+          </message>
+        </folder>
         <message name="Comment trouver sa voie ? (la vocation)" id="comment-trouver-sa-voie-la-vocation">
           <tests>
             <test input="Comment trouver sa voie ?" output="Je ne sais pas comment trouver sa voie." isOk="false"/>
@@ -7528,6 +7560,9 @@
             <trigger value="Comment trouver sa voie ?"/>
             <trigger value="Je veux voir une vidéo pour trouver ma vocation."/>
           </triggers>
+          <recommendations>
+            <recommendation text="Montrez-moi des exemples de vocations !" outMessageId="comment-avez-vous-su-que-le-seigneur-vous-appelait"/>
+          </recommendations>
           <references>
             <bible book="Mt" chapter="19" verseBegin="28" verseEnd="29"/>
           </references>
@@ -7900,6 +7935,26 @@
       <message name="Toute l&apos;Ecriture est inspirée par Dieu." id="toute-l-ecriture-est-inspiree-par-dieu">
         <sourceId>batir-sur-le-roc</sourceId>
         <text>Toute l&apos;Ecriture est inspirée par Dieu.</text>
+      </message>
+    </folder>
+    <folder name="Formation" id="formation">
+      <folder name="Chatbot" id="chatbot-formation" isHidden="true">
+        <message name="Connaissez-vous le parcours des Pasteurs selon mon Coeur ?" id="connaissez-vous-le-parcours-des-pasteurs-selon-mon-coeur">
+          <triggers>
+            <trigger value="-Je suis prêtre."/>
+            <trigger value="-Je suis un prêtre."/>
+          </triggers>
+          <recommendations>
+            <recommendation text="Non, qu&apos;est-ce que c&apos;est ?" outMessageId="le-parcours-des-pasteurs-selon-mon-coeur"/>
+            <recommendation text="Oui merci" outMessageId="plannifier"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text>Trop bien ! Connaissez-vous le parcours des Pasteurs selon mon Coeur ?</text>
+        </message>
+      </folder>
+      <message name="Le parcours Des Pasteurs selon mon Coeur" id="le-parcours-des-pasteurs-selon-mon-coeur">
+        <sourceId>talentheo</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/84PR8tbytT4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Histoire et foi" id="histoire-et-foi" image="histoire et foi.jpg">
@@ -10691,18 +10746,6 @@
     </folder>
   </folder>
   <folder name="Holy Chatter" id="holy-chatter" isHidden="true">
-    <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation">
-      <sourceId>interne</sourceId>
-      <text>Avez-vous trouvé votre vocation ?</text>
-      <planningInfos>
-        <optionalPreconditions>
-          <fact value="demander-le-jour-de-naissance"/>
-        </optionalPreconditions>
-        <potentialEffects>
-          <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
-        </potentialEffects>
-      </planningInfos>
-    </message>
     <message name="Bonjour" id="bonjour">
       <triggers>
         <trigger value="-Bonjour"/>
@@ -11267,13 +11310,6 @@
           <fact value="être-chrétien"/>
         </potentialEffects>
       </planningInfos>
-    </message>
-    <message name="Voulez-vous voir une vidéo pour trouver sa vocation ?" id="voulez-vous-voir-une-video-pour-trouver-sa-vocation">
-      <triggers>
-        <trigger value="Je n&apos;ai pas trouvé ma vocation."/>
-      </triggers>
-      <sourceId>interne</sourceId>
-      <text>Voulez-vous voir une vidéo pour trouver votre vocation ?</text>
     </message>
     <message name="Êtes-vous chrétien ?" id="etes-vous-chretien">
       <sourceId>interne</sourceId>
@@ -14852,11 +14888,14 @@
       <folder name="Vocations" id="vocations">
         <message name="Comment avez-vous su que le Seigneur vous appelait ?" id="comment-avez-vous-su-que-le-seigneur-vous-appelait">
           <tests>
-            <test input="Comment avez-vous su que le Seigneur vous appelait ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IKkNB1dSpn8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;comment-avez-vous-su-que-le-seigneur-vous-appelait&quot; textlength=&quot;20&quot; /&gt;"/>
+            <test input="Montrez-moi des exemples de vocations !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IKkNB1dSpn8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;comment-avez-vous-su-que-le-seigneur-vous-appelait&quot; textlength=&quot;20&quot; /&gt;"/>
           </tests>
           <triggers>
-            <trigger value="Comment avez-vous su que le Seigneur vous appelait ?"/>
+            <trigger value="Montrez-moi des exemples de vocations !"/>
           </triggers>
+          <recommendations>
+            <recommendation text="Comment trouver sa voie ?" outMessageId="comment-trouver-sa-voie-la-vocation"/>
+          </recommendations>
           <references>
             <bible book="1 Cor" chapter="4" verseBegin="7"/>
           </references>
