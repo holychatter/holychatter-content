@@ -1756,6 +1756,20 @@
                 <text>Jésus est réssuscité.</text>
               </message>
             </folder>
+            <message name="Hosanna ! Qu&apos;est-ce que ça veut dire ?" id="hosanna-qu-est-ce-que-ca-veut-dire">
+              <triggers>
+                <trigger value="Qu&apos;est-ce que ça veut dire Hosanna ?"/>
+              </triggers>
+              <references>
+                <bible book="Ps" chapter="117" verseBegin="25" verseEnd="26"/>
+                <bible book="Mt" chapter="21" verseBegin="9"/>
+                <bible book="Mk" chapter="11" verseBegin="9" verseEnd="10"/>
+                <bible book="Lk" chapter="19" verseBegin="37" verseEnd="40"/>
+                <bible book="Hab" chapter="2" verseBegin="11"/>
+              </references>
+              <sourceId>theodom</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/li9vbjXPus4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
             <message name="La résurrection de Jésus" id="la-resurrection-de-jesus">
               <tests>
                 <test input="Qu&apos;est-ce que la résurrection de Jésus ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Om23NPW459s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; sourceid=&quot;parcours-alpha-la-traversee&quot; textlength=&quot;43&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mc 16, 4-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dn 10, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dt 19, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Tb 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 6-7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 1-8&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-resurrection-de-jesus&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -7953,6 +7967,12 @@
         </message>
       </folder>
       <message name="Le parcours Des Pasteurs selon mon Coeur" id="le-parcours-des-pasteurs-selon-mon-coeur">
+        <tests>
+          <test input="C&apos;est quoi le parcours Des Pasteurs selon mon Coeur ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/84PR8tbytT4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Talenthéo&quot; resourceid=&quot;le-parcours-des-pasteurs-selon-mon-coeur&quot; textlength=&quot;10&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="C&apos;est quoi le parcours Des Pasteurs selon mon Coeur ?"/>
+        </triggers>
         <sourceId>talentheo</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/84PR8tbytT4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
@@ -11272,6 +11292,22 @@
         </references>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Non, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
+      </message>
+      <message name="Voulez-vous faire un quiz pour s&apos;amuser ?" id="voulez-vous-faire-un-quiz-pour-s-amuser">
+        <recommendations>
+          <recommendation text="Oui, je veux bien" outMessageId="posez-moi-des-questions"/>
+          <recommendation text="Non merci, continuez la discussion" outMessageId="plannifier"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text>Voulez-vous faire un quiz pour s&apos;amuser ?</text>
+        <planningInfos>
+          <optionalPreconditions>
+            <fact value="être-chrétien"/>
+          </optionalPreconditions>
+          <potentialEffects>
+            <fact value="approfondir-sa-relation-a-dieu-par-le-quiz"/>
+          </potentialEffects>
+        </planningInfos>
       </message>
     </folder>
     <folder name="Utilisateur" id="utilisateur">
