@@ -691,6 +691,27 @@
         </message>
       </folder>
     </folder>
+    <folder name="Chatbot" id="chatbot-bible" isHidden="true">
+      <message name="Voulez voir le résumé de la Bible en un mot ?" id="voulez-voir-le-resume-de-la-bible-en-un-mot">
+        <recommendations>
+          <recommendation text="Oui, je suis curieux" outMessageId="la-bible-en-1-mot"/>
+          <recommendation text="Non" outMessageId="plannifier"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text>Voulez voir le résumé de la Bible en un mot ?</text>
+        <planningInfos>
+          <preconditions>
+            <notFact value="decouvrir-la-bible-en-un-mot"/>
+          </preconditions>
+          <optionalPreconditions>
+            <fact value="ne-pas-être-chrétien"/>
+          </optionalPreconditions>
+          <potentialEffects>
+            <fact value="decouvrir-la-bible"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
+    </folder>
     <folder name="Nouveau Testament" id="nouveau-testament" nb="2" image="new_testament.jpg">
       <folder name="Autres épitres" id="autres-epitres" nb="4" image="epitres.jpg">
         <message name="1 Pierre - Synthèse" id="1-pierre-synthese" nb="3">
@@ -2101,6 +2122,9 @@
           <triggers>
             <trigger value="Résumez-moi la Bible en 2 mots !"/>
           </triggers>
+          <recommendations>
+            <recommendation text="Et en 3 mots, ça donne quoi ?" outMessageId="la-bible-en-3-mots"/>
+          </recommendations>
           <sourceId>chemin-neuf-jeunes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Tfs3sb2YjlU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
@@ -2111,8 +2135,16 @@
           <triggers>
             <trigger value="Résumez-moi la Bible en 1 mot !"/>
           </triggers>
+          <recommendations>
+            <recommendation text="Et en 2 mots, ça donne quoi ?" outMessageId="la-bible-en-2-mots"/>
+          </recommendations>
           <sourceId>chemin-neuf-jeunes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8mVqvsU-lcI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <planningInfos>
+            <effects>
+              <fact value="decouvrir-la-bible-en-un-mot"/>
+            </effects>
+          </planningInfos>
         </message>
         <message name="La bible en 3 mots" id="la-bible-en-3-mots" nb="3">
           <tests>
@@ -2323,7 +2355,7 @@
     <chatbot name="Par défaut" id="par-defaut" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="holy_chatter_logo.png" fallbackEngine="Cybercuré">
       <message name="Bienvenue sur Holy Chatter - matin" id="bienvenue-sur-holy-chatter-matin" nb="1">
         <recommendations>
-          <recommendation text="Oui, allons-y !" outMessageId="laisser-la-plannification"/>
+          <recommendation text="Oui, allons-y !" outMessageId="plannifier"/>
           <recommendation/>
         </recommendations>
         <sourceId>chatbot-par-default</sourceId>
@@ -2339,7 +2371,7 @@
       </message>
       <message name="Bienvenue sur Holy Chatter - soirée" id="bienvenue-sur-holy-chatter-soiree" nb="1">
         <recommendations>
-          <recommendation text="Oui, allons-y !" outMessageId="laisser-la-plannification"/>
+          <recommendation text="Oui, allons-y !" outMessageId="plannifier"/>
           <recommendation/>
         </recommendations>
         <sourceId>chatbot-par-default</sourceId>
@@ -2486,7 +2518,7 @@
             <recommendation text="&lt;img src=&quot;/resources/emojis/youtube.png&quot; height=&quot;20&quot; /&gt; Sur Youtube" outMessageId="youtube-puteaux"/>
             <recommendation text="&lt;img src=&quot;/resources/emojis/facebook.png&quot; height=&quot;20&quot; /&gt; Sur Facebook" outMessageId="facebook-puteaux"/>
             <recommendation text="Par la newsletter" outMessageId="newsletter-puteaux"/>
-            <recommendation outMessageId="laisser-la-plannification"/>
+            <recommendation outMessageId="plannifier"/>
           </recommendations>
           <sourceId>interne</sourceId>
           <text>Suivez notre actualité sur les réseaux sociaux !</text>
@@ -3548,7 +3580,7 @@
             </triggers>
             <recommendations>
               <recommendation text="Oui, que sait-on sur Jésus ?" outMessageId="ce-qu-on-sait-sur-jesus"/>
-              <recommendation text="Non merci, qui est Jésus ?" outMessageId="portrait-de-jesus"/>
+              <recommendation text="Non merci, c&apos;est quoi la Bible ?" outMessageId="la-bible-en-1-mot"/>
             </recommendations>
             <sourceId>parcours-alpha-la-traversee</sourceId>
             <sourceUrl>https://www.youtube.com/watch?v=m27xeMQQHh4</sourceUrl>
@@ -8424,6 +8456,20 @@
         <sourceId>cospiel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_O8DL3H9CWI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Viens suis-moi" id="viens-suis-moi">
+        <references>
+          <bible book="Mk" chapter="13" verseBegin="33"/>
+          <bible book="Mk" chapter="1" verseBegin="4"/>
+          <bible book="2 Sam" chapter="7" verseBegin="1" verseEnd="5"/>
+          <bible book="2 Sam" chapter="7" verseBegin="8" verseEnd="12"/>
+          <bible book="2 Sam" chapter="7" verseBegin="14"/>
+          <bible book="2 Sam" chapter="7" verseBegin="16"/>
+          <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38"/>
+          <bible book="Lk" chapter="22" verseBegin="42"/>
+        </references>
+        <sourceId>le-jour-du-seigneur</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oSTOTmTpvDM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <folder name="À propos" id="a-propos-predications" image="about.png">
         <message name="La théologie pour quoi faire ?" id="la-theologie-pour-quoi-faire">
           <tests>
@@ -8761,6 +8807,19 @@
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o4nB8QZ9mPg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Comment être sûr d&apos;aller au paradis ?" id="comment-etre-sr-d-aller-au-paradis">
+          <tests>
+            <test input="Comment être sûr d&apos;aller au paradis ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VYjH5rfLsNU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Chaîne Catholique d&apos;Arnaud Dumouch&quot; resourceid=&quot;comment-etre-sr-d-aller-au-paradis&quot; textlength=&quot;35&quot; /&gt;"/>
+            <test input="Peut-on être certain d&apos;aller au paradis ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VYjH5rfLsNU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Chaîne Catholique d&apos;Arnaud Dumouch&quot; resourceid=&quot;comment-etre-sr-d-aller-au-paradis&quot; textlength=&quot;35&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment être sûr d&apos;aller au paradis ?"/>
+            <trigger value="Peut-on être certain d&apos;aller au paradis ?"/>
+            <trigger value="-Je ne sais pas comment on est sûr d&apos;aller au paradis."/>
+          </triggers>
+          <sourceId>chaine-catholique-d-arnaud-dumouch</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VYjH5rfLsNU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Qu’est-ce qu’on va faire au Ciel ?" id="qu-est-ce-qu-on-va-faire-au-ciel">
           <tests>
             <test input="Qu’est-ce qu’on va faire au Ciel ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/50dnLrjWwvI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Jn 3, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ap 21, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-va-faire-au-ciel&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -8777,6 +8836,17 @@
           <sourceId>le-cate-en-minutes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/50dnLrjWwvI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <folder name="chtabot" id="chtabot" isHidden="true">
+          <message name="Savez-vous comment on est sûr d&apos;aller au paradis ?" id="savez-vous-comment-on-est-sr-d-aller-au-paradis">
+            <sourceId>interne</sourceId>
+            <text>Savez-vous comment on est sûr d&apos;aller au paradis ?</text>
+            <planningInfos>
+              <potentialEffects>
+                <fact value="aller-au-ciel"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+        </folder>
       </folder>
       <folder name="Purgatoire" id="purgatoire" nb="2" image="purgtoire.jpg">
         <message name="C&apos;est quoi le purgatoire ? #MaisDisMoi" id="c-est-quoi-le-purgatoire-maisdismoi">
@@ -10710,7 +10780,7 @@
       </message>
     </folder>
     <folder name="Moteur" id="moteur">
-      <message name="Laisser la plannification" id="laisser-la-plannification">
+      <message name="Plannifier" id="plannifier">
         <sourceId>interne</sourceId>
         <text>%replace-by-plannification%</text>
       </message>
@@ -13509,7 +13579,7 @@
           <message name="Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion ?" id="vous-allez-decouvrir-le-premier-programme-pedagogique-dedie-a-la-grande-exclusion">
             <recommendations>
               <recommendation text="Oui &lt;img src=&quot;/resources/emojis/happy.png&quot; height=&quot;20&quot; /&gt;" outMessageId="contenu"/>
-              <recommendation text="Non, continuez la discussion" outMessageId="laisser-la-plannification"/>
+              <recommendation text="Non, continuez la discussion" outMessageId="plannifier"/>
             </recommendations>
             <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
             <sourceId>interne</sourceId>
@@ -14255,6 +14325,7 @@
           </tests>
           <triggers>
             <trigger value="Montrez-moi les tatouages de Griezmann !"/>
+            <trigger value="Montrez-moi le témoignage d&apos;un footballeur !"/>
           </triggers>
           <sourceId>esseynelle</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/077LhM9N64g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -14265,6 +14336,7 @@
           </tests>
           <triggers>
             <trigger value="Quel est l&apos;avis de Lilian Thuram sur les religions ?"/>
+            <trigger value="Montrez-moi le témoignage d&apos;un footballeur !"/>
           </triggers>
           <sourceId>le-jour-du-seigneur</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -14276,6 +14348,7 @@
             </tests>
             <triggers>
               <trigger value="Montrez-moi une journée avec Olivier Giroud !"/>
+              <trigger value="Montrez-moi le témoignage d&apos;un footballeur !"/>
             </triggers>
             <sourceId>esseynelle</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CFKHSJeHaQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -14300,6 +14373,7 @@
           </tests>
           <triggers>
             <trigger value="Montrez-moi le témoignage du footballeur Yohan Cabaye !"/>
+            <trigger value="Montrez-moi le témoignage d&apos;un footballeur !"/>
           </triggers>
           <sourceId>esseynelle</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jE9_iqvOfjE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -14364,6 +14438,22 @@
       </message>
     </folder>
     <folder name="Discussion" id="discussion" isHidden="true">
+      <message name="Est-ce que vous aimez jouer ou suivre le football ?" id="est-ce-que-vous-aimez-jouer-ou-suivre-le-football" nb="3">
+        <recommendations>
+          <recommendation text="Oui, montrez-moi le témoignage d&apos;un footballeur." outMessageId="giroud-passe-un-moment-avec-jesus-et-parle-de-sa-foi"/>
+          <recommendation text="Non, le football ne m&apos;intéresse pas." outMessageId="plannifier"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text>Est-ce que vous aimez jouer ou suivre le football ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="proposer-d-ecouter-des-temoignages"/>
+          </preconditions>
+          <potentialEffects>
+            <fact value="ecouter-des-temoignages"/>
+          </potentialEffects>
+        </planningInfos>
+      </message>
       <message name="Le témoignage d&apos;une personne qui a donné sa vie à Dieu" id="le-temoignage-d-une-personne-qui-a-donne-sa-vie-a-dieu" nb="2">
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;une personne qui a donné sa vie à Dieu !"/>
@@ -14397,19 +14487,43 @@
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Oui, quel genre de témoignages ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="proposer-d-ecouter-des-temoignages"/>
+          </preconditions>
+          <effects>
+            <fact value="proposer-d-ecouter-des-temoignages"/>
+          </effects>
+        </planningInfos>
       </message>
       <message name="Propostion proactive pour les témoignages" id="propostion-proactive-pour-les-temoignages" nb="1">
         <recommendations>
           <recommendation text="Voir le témoignage d&apos;une personne qui était loin de Dieu !" outMessageId="le-temoignage-d-une-personne-qui-etait-loin-de-la-chretiente"/>
           <recommendation text="Voir le témoignage d&apos;un chrétien !" outMessageId="le-temoignage-d-une-personne-qui-a-donne-sa-vie-a-dieu"/>
-          <recommendation outMessageId="laisser-la-plannification"/>
+          <recommendation outMessageId="plannifier"/>
         </recommendations>
         <sourceId>interne</sourceId>
         <text fileType="text_and_html">Vous pouvez écouter des témoignages si vous voulez. &lt;img src=&quot;/resources/emojis/wink.png&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
-            <fact value="ecouter-des-temoignages"/>
+            <fact value="proposer-d-ecouter-des-temoignages"/>
           </effects>
+        </planningInfos>
+      </message>
+      <message name="Voulez-vous voir le témoignage d&apos;un humiriste connu ?" id="voulez-vous-voir-le-temoignage-d-un-humiriste-connu" nb="4">
+        <recommendations>
+          <recommendation text="Oui" outMessageId="jean-marie-bigard-explique-pourquoi-il-est-relie-au-pere"/>
+          <recommendation outMessageId="plannifier"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text>Voulez-vous voir le témoignage d&apos;un humiriste connu ?</text>
+        <planningInfos>
+          <preconditions>
+            <fact value="proposer-d-ecouter-des-temoignages"/>
+          </preconditions>
+          <potentialEffects>
+            <fact value="ecouter-des-temoignages"/>
+          </potentialEffects>
         </planningInfos>
       </message>
     </folder>
