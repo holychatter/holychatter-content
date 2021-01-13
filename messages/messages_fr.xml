@@ -6004,6 +6004,25 @@
             <sourceId>fraternites-monastiques-de-jerusalem</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="1 messe de 3 jours ? Combien de temps dure une messe ?" id="1-messe-de-3-jours-combien-de-temps-dure-une-messe">
+            <tests>
+              <test input="C&apos;est quoi le Triduum pascal ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fGRQHJ6ysMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;1-messe-de-3-jours-combien-de-temps-dure-une-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="C&apos;est quoi le Triduum ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fGRQHJ6ysMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;1-messe-de-3-jours-combien-de-temps-dure-une-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="1 messe de 3 jours c&apos;est possible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fGRQHJ6ysMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;1-messe-de-3-jours-combien-de-temps-dure-une-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="Combien de temps dure une messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fGRQHJ6ysMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;1-messe-de-3-jours-combien-de-temps-dure-une-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C&apos;est quoi le Triduum pascal ?"/>
+              <trigger value="C&apos;est quoi le Triduum ?"/>
+              <trigger value="1 messe de 3 jours c&apos;est possible ?"/>
+              <trigger value="Combien de temps dure une messe ?"/>
+            </triggers>
+            <references>
+              <bible book="Ex" chapter="12" verseBegin="5" verseEnd="8"/>
+            </references>
+            <sourceId>theodom</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fGRQHJ6ysMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <folder name="Chatbot" id="chatbot-paques" isHidden="true">
             <message name="Christ est ressuscité !" id="christ-est-ressuscite">
               <tests>
