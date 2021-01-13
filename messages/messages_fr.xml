@@ -7734,6 +7734,16 @@
         </folder>
       </folder>
       <folder name="Islam" id="islam" image="islam.jpg">
+        <message name="Les miracles du Coran - Frère Etienne" id="les-miracles-du-coran-frere-etienne">
+          <tests>
+            <test input="Y a-t-il des miracles scientifiques dans le Coran ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/I3jqr9pujo4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;les-miracles-du-coran-frere-etienne&quot; textlength=&quot;39&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Y a-t-il des miracles scientifiques dans le Coran ?"/>
+          </triggers>
+          <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/I3jqr9pujo4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Né musulman : Dieu m&apos;autorise-t-il à devenir chrétien ? - abbé Guy Pagès" id="ne-musulman-dieu-m-autorise-t-il-a-devenir-chretien-abbe-guy-pages">
           <tests>
             <test input="Dieu m&apos;autorise-t-il à devenir chrétien si je suis né musulman ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jahLJFZ6YRw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;ne-musulman-dieu-m-autorise-t-il-a-devenir-chretien-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -7743,6 +7753,24 @@
           </triggers>
           <sourceId>forum-jesus-le-messie</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jahLJFZ6YRw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Valeur historique des miracles de Jésus et des miracles du prophète" id="valeur-historique-des-miracles-de-jesus-et-des-miracles-du-prophete">
+          <tests>
+            <test input="Quelle est la valeur historique des miracles de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1Y6gOb5KiDg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 5, 10-11&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 39-50&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;valeur-historique-des-miracles-de-jesus-et-des-miracles-du-prophete&quot; textlength=&quot;39&quot; /&gt;"/>
+            <test input="Quelle est la valeur historique du prophète Mahomet ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1Y6gOb5KiDg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 5, 10-11&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 39-50&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;valeur-historique-des-miracles-de-jesus-et-des-miracles-du-prophete&quot; textlength=&quot;39&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quelle est la valeur historique des miracles de Jésus ?"/>
+            <trigger value="Quelle est la valeur historique du prophète Mahomet ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="5" verseBegin="10" verseEnd="11"/>
+            <bible book="Jn" chapter="5" verseBegin="18"/>
+            <bible book="Jn" chapter="11" verseBegin="39" verseEnd="50"/>
+            <bible book="Jn" chapter="12" verseBegin="10"/>
+          </references>
+          <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1Y6gOb5KiDg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
     </folder>
