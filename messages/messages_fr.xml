@@ -5749,6 +5749,28 @@
             <sourceId>kto</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wzC4Jg0RZY4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Pourquoi on va a la messe ? 2 minutes à la foi" id="pourquoi-on-va-a-la-messe-2-minutes-a-la-foi">
+            <tests>
+              <test input="Pourquoi on va a la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-va-a-la-messe-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="D&apos;où vient la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-va-a-la-messe-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="D’où ça vient la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-va-a-la-messe-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Pourquoi aller à la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-va-a-la-messe-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+              <test input="Comment aller à la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-va-a-la-messe-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Pourquoi on va a la messe ?"/>
+              <trigger value="D&apos;où vient la messe ?"/>
+              <trigger value="D’où ça vient la messe ?"/>
+              <trigger value="Pourquoi aller à la messe ?"/>
+              <trigger value="Comment aller à la messe ?"/>
+            </triggers>
+            <references>
+              <bible book="Acts" chapter="20" verseBegin="7"/>
+              <bible book="Acts" chapter="2" verseBegin="42"/>
+            </references>
+            <sourceId>diocese-de-paris</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Quelles sont les parts de la Messe ?" id="quelles-sont-les-parts-de-la-messe">
             <tests>
               <test input="Quelles sont les différentes parties de la Messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/S5Tazmjssvo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;1345-1355&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1408&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;quelles-sont-les-parts-de-la-messe&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -6585,6 +6607,19 @@
           </references>
           <sourceId>cybercure</sourceId>
           <text>Des personnes divorcées remariées ou vivant en concubinage souffrent de ne pas pouvoir communier, recevoir l’hostie. Elles se sentent exclues, rejetées par l’Église et sont conduites parfois à ne plus participer à la messe. Si l’Église demande aux divorcés remariés de ne pas participer au don eucharistique, c’est parce que leur vie (en rupture d’alliance) n’est pas en pleine cohérence avec lui (sacrement de l’alliance nouvelle).&#10;&#10;Même si on ne communie pas, la messe garde sa valeur, la participation à la messe n’est pas sans fruit. Elle nous fait participer par notre baptême au sacrifice du Christ et à l’offrande du sacrifice de toute l’Église. Elle nous permet aussi de recevoir la Parole de Dieu et de nous en imprégner. Saint Louis, qui participait à la messe chaque jour, ne communiait que quelquefois par an, comme c’était la pratique de l’Église jusqu’à saint Pie X.</text>
+        </message>
+        <message name="Pourquoi y a-t-il du pain et vin à la messe ? 2 minutes à la foi" id="pourquoi-y-a-t-il-du-pain-et-vin-a-la-messe-2-minutes-a-la-foi">
+          <triggers>
+            <trigger value="Pourquoi y a-t-il du pain et vin à la messe ?"/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="22" verseBegin="19" verseEnd="20"/>
+            <bible book="Mt" chapter="26" verseBegin="26" verseEnd="28"/>
+            <bible book="Mk" chapter="14" verseBegin="22" verseEnd="25"/>
+            <bible book="Ex" chapter="12" verseBegin="11"/>
+          </references>
+          <sourceId>diocese-de-paris</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF5W88PSgl0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Que faire si on a pas fait sa &quot;première communion&quot; ?" id="que-faire-si-on-a-pas-fait-sa-premiere-communion">
           <tests>
@@ -7734,6 +7769,16 @@
         </folder>
       </folder>
       <folder name="Islam" id="islam" image="islam.jpg">
+        <message name="Le paradis dans le christianisme et l’islam" id="le-paradis-dans-le-christianisme-et-l-islam">
+          <triggers>
+            <trigger value="Qu&apos;elle est la différence entre le paradis dans le christianisme et l’islam ?"/>
+          </triggers>
+          <references>
+            <bible book="Rev" chapter="22" verseBegin="3" verseEnd="5"/>
+          </references>
+          <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oho3_lyFGX4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Les miracles du Coran - Frère Etienne" id="les-miracles-du-coran-frere-etienne">
           <tests>
             <test input="Y a-t-il des miracles scientifiques dans le Coran ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/I3jqr9pujo4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;les-miracles-du-coran-frere-etienne&quot; textlength=&quot;39&quot; /&gt;"/>
@@ -7753,6 +7798,21 @@
           </triggers>
           <sourceId>forum-jesus-le-messie</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jahLJFZ6YRw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Qu&apos;en est-il de la miséricorde dans l&apos;islam et le christianisme ?" id="qu-en-est-il-de-la-misericorde-dans-l-islam-et-le-christianisme">
+          <tests>
+            <test input="Qu&apos;en est-il de la miséricorde dans l&apos;islam et le christianisme ?" output="Je ne sais pas si il est quelque chose de la miséricorde mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;en est-il de la miséricorde dans l&apos;islam et le christianisme ?"/>
+          </triggers>
+          <references>
+            <bible book="Is" chapter="49" verseBegin="15"/>
+            <bible book="1 Jn" chapter="4" verseBegin="8" linkFromCorpus="no"/>
+            <bible book="Lk" chapter="15" verseBegin="11"/>
+          </references>
+          <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wH11tuLWBDg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Valeur historique des miracles de Jésus et des miracles du prophète" id="valeur-historique-des-miracles-de-jesus-et-des-miracles-du-prophete">
           <tests>
@@ -7998,7 +8058,7 @@
         <text>Toute l&apos;Ecriture est inspirée par Dieu.</text>
       </message>
     </folder>
-    <folder name="Formation" id="formation">
+    <folder name="Formation" id="formation" image="formation.jpeg">
       <folder name="Chatbot" id="chatbot-formation" isHidden="true">
         <message name="Connaissez-vous le parcours des Pasteurs selon mon Coeur ?" id="connaissez-vous-le-parcours-des-pasteurs-selon-mon-coeur">
           <triggers>
@@ -11489,6 +11549,16 @@
   </folder>
   <folder name="Miracles" id="miracles" nb="3" image="miracle.png">
     <folder name="Apparitions" id="apparitions" nb="1" image="fatima.jpeg">
+      <message name="Les miracles eucharistiques qui ont marqué l&apos;histoire" id="les-miracles-eucharistiques-qui-ont-marque-l-histoire">
+        <tests>
+          <test input="Quels sont les miracles eucharistiques qui ont marqué l&apos;histoire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XjKZrAOQ7y0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;les-miracles-eucharistiques-qui-ont-marque-l-histoire&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quels sont les miracles eucharistiques qui ont marqué l&apos;histoire ?"/>
+        </triggers>
+        <sourceId>aleteia</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XjKZrAOQ7y0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Où Marie est-elle apparue ?" id="o-marie-est-elle-apparue">
         <tests>
           <test input="Où Marie est-elle apparue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X7hcHX8V3ws?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;o-marie-est-elle-apparue&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -13010,6 +13080,23 @@
         <sourceId>diocese-de-paris</sourceId>
         <text>Notre Père&#10;qui es aux cieux,&#10;que ton nom soit sanctifié,&#10;que ton règne vienne,&#10;que ta volonté soit faite,&#10;sur la terre comme au ciel.&#10;Donne-nous aujourd’hui notre pain de ce jour,&#10;pardonne-nous nos offenses,&#10;comme nous pardonnons aussi&#10;à ceux qui nous ont offensés&#10;et ne nous laisse pas entrer en tentation,&#10;mais délivre-nous du mal.&#10;Amen.</text>
       </message>
+      <message name="Pourquoi on dit le Notre Père ? 2 minutes à la foi" id="pourquoi-on-dit-le-notre-pere-2-minutes-a-la-foi">
+        <tests>
+          <test input="Pourquoi on dit le Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-dit-le-notre-pere-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="D’où vient la prière du Notre Père ?" output="Je ne sais pas où la prière du notre père vient mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Pourquoi le Notre Père a une place si importante ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-dit-le-notre-pere-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Pourquoi on dit le Notre Père ?"/>
+          <trigger value="Mais d’où vient la prière du Notre Père ?"/>
+          <trigger value="Pourquoi le Notre Père a une place si importante ?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="11" verseBegin="1"/>
+        </references>
+        <sourceId>diocese-de-paris</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Qu’est-ce qu’on prie dans le Notre-Père ?" id="qu-est-ce-qu-on-prie-dans-le-notre-pere">
         <tests>
           <test input="Qu’est-ce qu’on prie dans le Notre-Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;2759-2865&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-prie-dans-le-notre-pere&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -13118,6 +13205,24 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RqprP5766g4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Jeûne" id="jene" nb="1" image="jeune.jpeg">
+      <message name="Deux minutes à la foi - Pourquoi jeûner ?" id="deux-minutes-a-la-foi-pourquoi-jener">
+        <triggers>
+          <trigger value="Pourquoi jeûner ?"/>
+          <trigger value="Pourquoi est-il demandé de jeûner ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="4" verseBegin="1" verseEnd="11"/>
+          <bible book="Lk" chapter="4" verseBegin="1" verseEnd="13"/>
+          <bible book="Mk" chapter="1" verseBegin="12" verseEnd="13"/>
+          <bible book="Mt" chapter="9" verseBegin="14" verseEnd="17"/>
+          <bible book="Mk" chapter="2" verseBegin="18" verseEnd="22"/>
+          <bible book="Lk" chapter="5" verseBegin="33" verseEnd="39"/>
+        </references>
+        <sourceId>diocese-de-paris</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UEaM-ZTHweE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Jésus" id="jesus" nb="1" image="jesus.jpg">
@@ -14392,6 +14497,18 @@
       </message>
     </folder>
     <folder name="Ancien musulman" id="ancien-musulman" nb="2" image="ancien_musulman.jpg">
+      <message name="Mark Gabriel : UN IMAM RENCONTRE JESUS !" id="mark-gabriel-un-imam-rencontre-jesus">
+        <triggers>
+          <trigger value="Montrez-moi la conversion d&apos;un Imam au christianisme."/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="15" verseBegin="15"/>
+          <bible book="Mt" chapter="5" verseBegin="44" verseEnd="45"/>
+          <bible book="Ps" chapter="90" verseBegin="1" verseEnd="2"/>
+        </references>
+        <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nVxPzdW9_SY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Mehdi Djaadi, converti de l’Islam : « En lisant la Bible, j’ai été frappé par la vie de Jésus »" id="mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus">
         <tests>
           <test input="Montrez-moi un musulman converti à la religion chrétienne !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oV1gt9otRyo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;mehdi-djaadi-converti-de-l-islam-en-lisant-la-bible-j-ai-ete-frappe-par-la-vie-de-jesus&quot; textlength=&quot;19&quot; /&gt;"/>
