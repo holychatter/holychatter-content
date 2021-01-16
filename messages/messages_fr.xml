@@ -1981,6 +1981,17 @@
               <sourceId>bible</sourceId>
               <text>Il y a 4 évangiles.</text>
             </message>
+            <message name="Qui a écrit les évangiles ?" id="qui-a-ecrit-les-evangiles">
+              <tests>
+                <test input="Qui a écrit les évangiles ?" output="Les évangiles ont été écrits par Matthieu, Marc, Luc et Jean.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vyUudUP0pEE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;qui-a-ecrit-les-evangiles&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;les-quatre-evangiles&quot; textlength=&quot;3&quot; /&gt;"/>
+                <test input="qui a écrit l&apos;évangile ?" output="Matthieu, Marc, Luc et Jean" outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;qui-a-ecrit-les-evangiles&quot; textlength=&quot;5&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qui a écrit les évangiles ?"/>
+              </triggers>
+              <sourceId>bible</sourceId>
+              <text>Les évangiles ont été écrits par Matthieu, Marc, Luc et Jean.</text>
+            </message>
           </folder>
           <message name="Comment lire un évangile ?" id="comment-lire-un-evangile">
             <triggers>
@@ -2049,6 +2060,18 @@
               <text>Par exemple Jésus guérit un aveugle en entrant dans la ville de Jéricho dans un récit et dans un autre un autre récit c&apos;est en sortant de la ville de Jéricho.</text>
             </message>
           </folder>
+          <message name="Les quatre Évangiles" id="les-quatre-evangiles">
+            <tests>
+              <test input="C&apos;est quoi les évangiles ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vyUudUP0pEE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;les-quatre-evangiles&quot; textlength=&quot;3&quot; /&gt;"/>
+              <test input="Qui a écrit les évangiles ?" output="Les évangiles ont été écrits par Matthieu, Marc, Luc et Jean.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vyUudUP0pEE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;qui-a-ecrit-les-evangiles&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;les-quatre-evangiles&quot; textlength=&quot;3&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C&apos;est quoi les évangiles ?"/>
+              <trigger value="Qui a écrit les évangiles ?"/>
+            </triggers>
+            <sourceId>kto</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vyUudUP0pEE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
       </folder>
     </folder>
@@ -2675,6 +2698,16 @@
       </goals>
     </chatbot>
   </folder>
+  <folder name="Dictionnaire" id="dictionnaire" isHidden="true">
+    <message name="Le mystère" id="le-mystere">
+      <triggers>
+        <trigger value="C&apos;est quoi un mystère ?"/>
+      </triggers>
+      <sourceId>eglise-catholique-en-france</sourceId>
+      <sourceUrl>https://eglise.catholique.fr/glossaire/mystere/</sourceUrl>
+      <text>Le mystère est une vérité inaccessible à la raison, mais que Dieu donne à connaître en se révélant.</text>
+    </message>
+  </folder>
   <folder name="Dieu" id="dieu" nb="11" image="god.jpg">
     <folder name="L&apos;Esprit" id="l-esprit" nb="3" image="esprit.jpg">
       <message name="Comment définir l’Esprit Saint ?" id="comment-definir-l-esprit-saint">
@@ -2878,17 +2911,18 @@
       </message>
       <message name="Comprendre la Sainte Trinité" id="comprendre-la-sainte-trinite">
         <tests>
-          <test input="Qu&apos;est-ce que la Sainte Trinité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comprendre-la-sainte-trinite&quot; textlength=&quot;22&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que la Trinité ?" output="La Trinité est un mystère.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;un-raisonnement-logique-peut-il-conclure-que-dieu-est-trinite&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comprendre-la-sainte-trinite&quot; textlength=&quot;22&quot; /&gt;"/>
-          <test input="La trinité" output="La Trinité est un mystère.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;un-raisonnement-logique-peut-il-conclure-que-dieu-est-trinite&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comprendre-la-sainte-trinite&quot; textlength=&quot;22&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que la Sainte Trinité ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comprendre-la-sainte-trinite&quot; textlength=&quot;22&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que la Trinité ?" output="La Trinité est un mystère.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;un-raisonnement-logique-peut-il-conclure-que-dieu-est-trinite&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comprendre-la-sainte-trinite&quot; textlength=&quot;22&quot; /&gt;"/>
+          <test input="La trinité" output="La Trinité est un mystère.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;237&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;un-raisonnement-logique-peut-il-conclure-que-dieu-est-trinite&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;comprendre-la-sainte-trinite&quot; textlength=&quot;22&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Qu&apos;est-ce que la Sainte Trinité ?"/>
           <trigger value="Qu&apos;est-ce que la Trinité ?"/>
-          <trigger value="C&apos;est la Sainte Trinité ?"/>
-          <trigger value="C&apos;est la Trinité ?"/>
           <trigger value="Comment comprendre la Sainte Trinité ?"/>
         </triggers>
+        <references>
+          <bible book="Jn" chapter="17" verseBegin="21"/>
+        </references>
         <sourceId>retraite-dans-la-ville</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ee3K-fHlv0g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
@@ -6138,9 +6172,11 @@
         <message name="Le mystère de la liturgie" id="le-mystere-de-la-liturgie">
           <tests>
             <test input="C&apos;est quoi la liturgie ?" output="La liturgie est le culte officiel de l&apos;Église et le service public de l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 12, 12-30&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 18-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-prier-ensemble&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="C&apos;est quoi un mystère ?" output="Le mystère est une vérité inaccessible à la raison, mais que Dieu donne à connaître en se révélant.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;le-mystere&quot; url=&quot;https://eglise.catholique.fr/glossaire/mystere/&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="C&apos;est quoi la liturgie ?"/>
+            <trigger value="C&apos;est quoi un mystère ?"/>
           </triggers>
           <references>
             <bible book="Eph" chapter="3" verseBegin="5"/>
@@ -10554,7 +10590,7 @@
             </message>
             <message name="Quelle est la signification du Nouveau Testament pour les chrétiens ?" id="quelle-est-la-signification-du-nouveau-testament-pour-les-chretiens" nb="18">
               <tests>
-                <test input="Quelle est la signification du Nouveau Testament pour les chrétiens ?" output="Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église. En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps." outputReferences="&lt;hc_ccc ref=&quot;124-127&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;128-130&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-signification-du-nouveau-testament-pour-les-chretiens&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Quelle est la signification du Nouveau Testament pour les chrétiens ?" output="Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. &lt;span&gt;Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église.&lt;/span&gt; En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps." outputReferences="&lt;hc_ccc ref=&quot;124-127&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;128-130&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-signification-du-nouveau-testament-pour-les-chretiens&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Quelle est la signification du Nouveau Testament pour les chrétiens ?"/>
@@ -10565,7 +10601,7 @@
                 <ccc verseBegin="140"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève. Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église. En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps.</text>
+              <text fileType="text_in_html">Dans le Nouveau Testament, la  Révélation de Dieu s&apos;achève.&lt;span&gt;Les quatre évangiles - selon Matthieu, Marc, Luc et Jean - sont la partie centrale de l&apos;Écriture sainte et le plus précieux trésor de l&apos;Église.&lt;/span&gt;En eux, le Fils de Dieu se montre tel qu&apos;il est et vient à notre rencontre. Dans les Actes des Apôtres, nous découvrons les débuts de l&apos;Église par l&apos;action de l&apos;Esprit-Saint. Dans les lettres apostoliques, la vie humaine sous toutes ses facettes est éclairée par la lumière du Christ. Dans l’Apocalypse, nous voyons à l&apos;avance la fin des temps.</text>
             </message>
           </folder>
           <folder name="Les hommes répondent à Dieu" id="les-hommes-repondent-a-dieu" nb="20" image="homme_dieu.jpg">
