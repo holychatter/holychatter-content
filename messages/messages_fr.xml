@@ -2502,11 +2502,86 @@
         </subjectInfos>
       </changeSubjectInfos>
     </chatbot>
+    <chatbot name="Paroisse Saint-Charles à Marseille" id="paroisse-saint-charles-a-marseille" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="saint_charles_marseille.jpg" url="https://paroisse-saint-charles.fr/" fallbackEngine="Cybercuré">
+      <message name="Bonjour bienvenue sur le chatbot de la paroisse Saint-Charles à Marseilles !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-saint-charles-a-marseilles" nb="1">
+        <recommendations>
+          <recommendation text="Voir les horaires des messes." outMessageId="saint-charles-a-marseilles-horaires-des-messes"/>
+          <recommendation text="Découvrir la paroisse." outMessageId="decouvrir-la-paroisse-saint-charles-a-marseilles"/>
+          <recommendation text="Discuter sur la foi chrétienne." outMessageId="plannifier-et-sortir-du-chatbot-specifique"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">&lt;span&gt;&lt;img src=&apos;/upload/saint_charles_marseille.jpg&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.&#10;Bienvenue sur le chatbot de la paroisse de Saint-Charles à Marseilles ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&#10;Que voulez-vous faire ?&lt;/span&gt;</text>
+        <planningInfos>
+          <effects>
+            <fact value="dire-bonjour-marseille-saint-charles"/>
+          </effects>
+        </planningInfos>
+      </message>
+      <folder name="Découvrir la paroisse" id="decouvrir-la-paroisse" nb="3">
+        <message name="Découvrir la paroisse - Saint-Charles à Marseilles" id="decouvrir-la-paroisse-saint-charles-a-marseilles" nb="1">
+          <triggers>
+            <trigger value="Je veux découvrir la paroisse."/>
+          </triggers>
+          <recommendations>
+            <recommendation text="C&apos;est quoi le rite traditionnel ?" outMessageId="la-forme-extraordinaire-rite-de-misericorde-samedi-de-la-passion"/>
+            <recommendation text="Je veux visiter l&apos;église virtuellement." outMessageId="visiter-virtuellement-l-eglise"/>
+            <recommendation outMessageId="plannifier"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text fileType="text_in_html">&lt;span&gt;Nous sommes une paroisse de rite traditionnel à Marseille. (au centre-ville, à coté du Vieux-Port)&#10;Que voulez-vous savoir plus précisément ?&lt;/span&gt;</text>
+        </message>
+        <message name="Visiter virtuellement l&apos;église" id="visiter-virtuellement-l-eglise" nb="2">
+          <recommendations>
+            <recommendation text="C&apos;est quoi le rite traditionnel ?" outMessageId="la-forme-extraordinaire-rite-de-misericorde-samedi-de-la-passion"/>
+          </recommendations>
+          <sourceId>interne</sourceId>
+          <text fileType="text_and_html">&lt;a href=&quot;https://www.hdmedia.fr/v/v/cbpQcp3Tc-eglise-st-charles.html&quot; target=&quot;_blank&quot;&gt;https://www.hdmedia.fr/v/v/cbpQcp3Tc-eglise-st-charles.html&lt;/a&gt;</text>
+        </message>
+      </folder>
+      <message name="Saint-Charles à Marseilles - horaires des messes" id="saint-charles-a-marseilles-horaires-des-messes" nb="2">
+        <triggers>
+          <trigger value="Quels sont les horaires des messes ?"/>
+        </triggers>
+        <recommendations>
+          <recommendation text="Découvrir la paroisse." outMessageId="decouvrir-la-paroisse-saint-charles-a-marseilles"/>
+        </recommendations>
+        <sourceId>interne</sourceId>
+        <text fileType="text_and_html">&lt;a href=&quot;http://paroisse-saint-charles.fr/horaires/&quot;&gt;http://paroisse-saint-charles.fr/horaires/&lt;/a&gt;</text>
+      </message>
+      <sourcesNotToDisplay>
+        <source value="Chatbot par défault"/>
+        <source value="Google images"/>
+        <source value="Interne"/>
+        <source value="Le personnage Holy Chatter"/>
+        <source value="Parcours Alpha - La Traversée"/>
+      </sourcesNotToDisplay>
+      <goals>
+        <goal value="dire-bonjour-marseille-saint-charles"/>
+        <goal value="decouvrir-missionnaires-de-la-misericorde-divine"/>
+        <goal value="aller-au-ciel"/>
+      </goals>
+      <changeSubjectInfos>
+        <subjectInfos title="Explorer le sens de la vie par des rencontres" image="explorer_le_sens_de_la_vie.jpeg" message="Comment explorer le sens de la vie ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="ne-pas-être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
+        <subjectInfos title="Je veux faire un quiz." description="C&apos;est un petit jeu où vous devrez répondre à 5 questions à choix multiples." image="quiz_yellow.jpg" message="Posez-moi des questions"/>
+        <subjectInfos title="Montrez-moi des témoignages !" image="prises_de_parole.jpeg" message="Montrez-moi des témoignages !"/>
+        <subjectInfos title="Que faire pour les personnes exclues ?" image="simple-comme-bonjour.png" message="Que faire pour les personnes exclues ?"/>
+        <subjectInfos title="Qu&apos;est-ce que l&apos;amour ?" image="heart_hands.png" message="Qu&apos;est-ce que l&apos;amour ?"/>
+        <subjectInfos title="Qu&apos;est-ce que la louange ?" description="C&apos;est des pistes de réflexion sur la louange et pourquoi c&apos;est important." image="louange.jpeg" message="Qu&apos;est-ce que la louange ?" isHidden="true">
+          <factsToShowTheSubject>
+            <fact id="être-chrétien"/>
+          </factsToShowTheSubject>
+        </subjectInfos>
+      </changeSubjectInfos>
+    </chatbot>
     <chatbot name="Paroisse de Puteaux" id="paroisse-de-puteaux" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true" bannerImage="paroisse-de-puteaux.png" url="http://paroissedeputeaux.catholique.fr/" fallbackEngine="Cybercuré">
       <message name="Bonjour bienvenue sur le chatbot de la paroisse de Puteaux !" id="bonjour-bienvenue-sur-le-chatbot-de-la-paroisse-de-puteaux" nb="1">
         <recommendations>
           <recommendation text="Avoir des informations sur la paroisse de Puteaux" outMessageId="paroisse-puteaux-menu"/>
-          <recommendation text="Discuter sur la foi chrétienne" outMessageId="parler-de-la-foi"/>
+          <recommendation text="Discuter sur la foi chrétienne" outMessageId="plannifier-et-sortir-du-chatbot-specifique"/>
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
@@ -2596,15 +2671,6 @@
           </planningInfos>
         </message>
       </folder>
-      <message name="Parler de la foi" id="parler-de-la-foi" nb="7">
-        <sourceId>interne</sourceId>
-        <text>%replace-by-plannification%</text>
-        <planningInfos>
-          <effects>
-            <fact value="chatbot-puteaux-foi-chretienne"/>
-          </effects>
-        </planningInfos>
-      </message>
       <message name="Paroisse Puteaux menu" id="paroisse-puteaux-menu" nb="2">
         <recommendations>
           <recommendation text="Je souhaite découvrir la paroisse." outMessageId="paroisse-de-puteaux-presentation-de-tous-les-groupes-et-activites"/>
@@ -2651,7 +2717,7 @@
       <changeSubjectInfos>
         <subjectInfos title="Voir les horaires des messes à Puteaux" image="ste_mathilde_puteaux.jpeg" message="Quels sont les horaires des messes ?">
           <factsToHideTheSubject>
-            <fact id="chatbot-puteaux-foi-chretienne"/>
+            <fact id="sortir-chatbot-specifique"/>
             <fact id="puteaux-horaires-des-messes"/>
           </factsToHideTheSubject>
         </subjectInfos>
@@ -2674,7 +2740,7 @@
             <fact id="puteaux-horaires-des-messes"/>
           </factsToHideTheSubject>
           <factsToShowTheSubject>
-            <fact id="chatbot-puteaux-foi-chretienne"/>
+            <fact id="sortir-chatbot-specifique"/>
           </factsToShowTheSubject>
         </subjectInfos>
       </changeSubjectInfos>
@@ -5283,7 +5349,51 @@
     </folder>
   </folder>
   <folder name="Eglise" id="eglise" nb="8" image="church.jpg">
-    <folder name="Dogmes et morale" id="dogmes-et-morale" nb="4" image="dogme.jpg">
+    <folder name="Communautés" id="communautes" nb="6" image="communaute.jpeg">
+      <folder name=" Missionnaires de la miséricorde divine" id="missionnaires-de-la-misericorde-divine" image="prise-soutane-missionaire-de-la-misericorde-divine.jpeg">
+        <folder name="Chatbot" id="chatbot-missionnaires-de-la-misericorde-divine" isHidden="true">
+          <message name="Découvrir missionnaires de la miséricorde divine" id="decouvrir-missionnaires-de-la-misericorde-divine">
+            <recommendations>
+              <recommendation text="Non, c&apos;est quoi ?" outMessageId="description-de-la-societe-des-missionnaires-de-la-misericorde-divine"/>
+              <recommendation text="Montrez-moi un film qui présente la communauté !" outMessageId="l-annonce-une-intuition-missionnaire-missionnaires-de-la-misericorde-divine"/>
+              <recommendation outMessageId="plannifier"/>
+            </recommendations>
+            <sourceId>interne</sourceId>
+            <text>Connaissez-vous la société des missionnaires de la miséricorde divine ?</text>
+            <planningInfos>
+              <effects>
+                <fact value="decouvrir-missionnaires-de-la-misericorde-divine"/>
+              </effects>
+            </planningInfos>
+          </message>
+        </folder>
+        <message name="Description de la Société des Missionnaires de la Miséricorde Divine" id="description-de-la-societe-des-missionnaires-de-la-misericorde-divine">
+          <tests>
+            <test input="C&apos;est quoi la Société des Missionnaires de la Miséricorde Divine ?" output="&lt;span&gt;C&apos;est une communauté fondée en 2005 par l&apos;abbé Fabrice Loiseau. Ses membres vivent et témoignent de la miséricorde divine à l&apos;école de sainte Faustine, la puisent dans l&apos;Eucharistie, célébrée dans la forme extraordinaire du rite romain, et l&apos;annoncent au monde, spécialement aux musulmans.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;description-de-la-societe-des-missionnaires-de-la-misericorde-divine&quot; textlength=&quot;39&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="C&apos;est quoi la Société des Missionnaires de la Miséricorde Divine ?"/>
+          </triggers>
+          <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+          <text fileType="text_in_html">&lt;span&gt;C&apos;est une communauté fondée en 2005 par l&apos;abbé Fabrice Loiseau. Ses membres vivent et témoignent de la miséricorde divine à l&apos;école de sainte Faustine, la puisent dans l&apos;Eucharistie, célébrée dans la forme extraordinaire du rite romain, et l&apos;annoncent au monde, spécialement aux musulmans.&lt;/span&gt;</text>
+        </message>
+        <message name="L&apos; Annonce, une intuition missionnaire -  Missionnaires de la miséricorde divine" id="l-annonce-une-intuition-missionnaire-missionnaires-de-la-misericorde-divine">
+          <tests>
+            <test input="Montrez-moi un film qui présente la communauté de la miséricorde divine !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZiAuXWa3ETo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;l-annonce-une-intuition-missionnaire-missionnaires-de-la-misericorde-divine&quot; textlength=&quot;39&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi un film qui présente la communauté de la miséricorde divine !"/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="6" verseBegin="36"/>
+            <bible book="Mt" chapter="5" verseBegin="48" linkFromCorpus="no"/>
+          </references>
+          <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZiAuXWa3ETo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+    </folder>
+    <folder name="Dogmes et morale" id="dogmes-et-morale" nb="4" image="francois-adresse-benediction-orbile-balcon-basilique-Saint-Pierre.jpeg">
       <message name="Les dogmes, pour quoi faire ?" id="les-dogmes-pour-quoi-faire">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est un dogme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SDsn7bPW-pQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-dogmes-pour-quoi-faire&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5753,6 +5863,18 @@
             </references>
             <sourceId>le-cate-en-minutes</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/RLG1yUQwLB8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="La forme extraordinaire, rite de miséricorde - Samedi de la Passion" id="la-forme-extraordinaire-rite-de-misericorde-samedi-de-la-passion">
+            <tests>
+              <test input="C&apos;est quoi une messe à la forme extraordinaire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n8RrMla-Wlg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;la-forme-extraordinaire-rite-de-misericorde-samedi-de-la-passion&quot; textlength=&quot;39&quot; /&gt;"/>
+              <test input="C&apos;est quoi une messe traditionnelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n8RrMla-Wlg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;la-forme-extraordinaire-rite-de-misericorde-samedi-de-la-passion&quot; textlength=&quot;39&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C&apos;est quoi une messe à la forme extraordinaire ?"/>
+              <trigger value="C&apos;est quoi une messe traditionnelle ?"/>
+            </triggers>
+            <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n8RrMla-Wlg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Les étapes de la messe" id="les-etapes-de-la-messe">
             <tests>
@@ -6269,7 +6391,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mhV9cGrCSU4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Sacrements" id="sacrements" nb="2" image="sacraments.png">
+    <folder name="Sacrements" id="sacrements" nb="2" image="bapteme_enfant.jpeg">
       <folder name="Baptême" id="bapteme" nb="1" image="bapteme.jpg">
         <message name="C’est quoi, le baptême ?" id="c-est-quoi-le-bapteme">
           <tests>
@@ -6353,10 +6475,15 @@
           <text fileType="text_in_html">Le sacrement du baptême a une signification spirituelle et évangélique d’une grande richesse. Il nous unit au Christ, il nous fait participer à sa mort et à sa résurrection et nous purifie du péché. Le sacrement nous donne l’Esprit Saint qui apporte l’amour dans nos cœurs. Il nous rend pleinement enfant de Dieu et nous fait ainsi entrer dans la famille de Dieu qui est Père, Fils et Esprit. &lt;span&gt;Le sacrement du baptême est une célébration ecclésiale qui nous fait entrer dans la communauté chrétienne, dans l’Église.&lt;/span&gt;</text>
         </message>
         <message name="sens des différents rites du sacrement du baptême" id="sens-des-differents-rites-du-sacrement-du-bapteme">
+          <tests>
+            <test input="Quel est le sens des différents rites du sacrement du baptême ?" output="Voici les différents rites du sacrement du baptême :&#10; &#10; &lt;span&gt;L’appel du nom : Le prêtre demande aux parents le prénom choisi pour l’enfant.&#10;Le signe de la croix sur le front du baptisé : marque du signe du Christ.&#10;L’entrée dans l’Église : le sacrement du baptême est l’entrée dans la communauté chrétienne, l’Église.&#10;L’eau : la cérémonie du baptême purifie et donne la vie. L’eau versée exprime l’action de l’Esprit Saint.&#10;Le vêtement blanc : le changement de vêtement symbolise pour l’adulte le changement de vie. La robe blanche ou le vêtement blanc du bébé est le signe de la grâce du sacrement qui resplendit.&#10;L’onction d’huile sainte : le baptisé est pénétré de l’Esprit de Dieu.&#10;Le cierge allumé : le sacrement apporte la lumière du Christ et de l’Évangile. C’est le cierge pascal.&lt;/span&gt;" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-des-differents-rites-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
+            <test input="Quelles sont les étapes du baptême ?" output="Voici les différents rites du sacrement du baptême :&#10; &#10; &lt;span&gt;L’appel du nom : Le prêtre demande aux parents le prénom choisi pour l’enfant.&#10;Le signe de la croix sur le front du baptisé : marque du signe du Christ.&#10;L’entrée dans l’Église : le sacrement du baptême est l’entrée dans la communauté chrétienne, l’Église.&#10;L’eau : la cérémonie du baptême purifie et donne la vie. L’eau versée exprime l’action de l’Esprit Saint.&#10;Le vêtement blanc : le changement de vêtement symbolise pour l’adulte le changement de vie. La robe blanche ou le vêtement blanc du bébé est le signe de la grâce du sacrement qui resplendit.&#10;L’onction d’huile sainte : le baptisé est pénétré de l’Esprit de Dieu.&#10;Le cierge allumé : le sacrement apporte la lumière du Christ et de l’Évangile. C’est le cierge pascal.&lt;/span&gt;" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-des-differents-rites-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
+            <test input="Quels sont les rites du sacrement du baptême ?" output="Voici les différents rites du sacrement du baptême :&#10; &#10; &lt;span&gt;L’appel du nom : Le prêtre demande aux parents le prénom choisi pour l’enfant.&#10;Le signe de la croix sur le front du baptisé : marque du signe du Christ.&#10;L’entrée dans l’Église : le sacrement du baptême est l’entrée dans la communauté chrétienne, l’Église.&#10;L’eau : la cérémonie du baptême purifie et donne la vie. L’eau versée exprime l’action de l’Esprit Saint.&#10;Le vêtement blanc : le changement de vêtement symbolise pour l’adulte le changement de vie. La robe blanche ou le vêtement blanc du bébé est le signe de la grâce du sacrement qui resplendit.&#10;L’onction d’huile sainte : le baptisé est pénétré de l’Esprit de Dieu.&#10;Le cierge allumé : le sacrement apporte la lumière du Christ et de l’Évangile. C’est le cierge pascal.&lt;/span&gt;" outputReferences="&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme&quot; textlength=&quot;88&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;sens-des-differents-rites-du-sacrement-du-bapteme&quot; textlength=&quot;10&quot; /&gt;"/>
+          </tests>
           <triggers>
             <trigger value="Quel est le sens des différents rites du sacrement du baptême ?"/>
             <trigger value="Quelles sont les étapes du baptême ?"/>
-            <trigger value="Donne-moi les rites du sacrement du baptême"/>
+            <trigger value="Quels sont les rites du sacrement du baptême ?"/>
           </triggers>
           <references>
             <site url="https://cybercure.fr/je-celebre-les-sacrements/bapteme/article/sens-du-sacrement-bapteme"/>
@@ -11085,6 +11212,15 @@
       <message name="Plannifier" id="plannifier">
         <sourceId>interne</sourceId>
         <text>%replace-by-plannification%</text>
+      </message>
+      <message name="Plannifier et sortir du chatbot spécifique" id="plannifier-et-sortir-du-chatbot-specifique">
+        <sourceId>interne</sourceId>
+        <text>%replace-by-plannification%</text>
+        <planningInfos>
+          <effects>
+            <fact value="sortir-chatbot-specifique"/>
+          </effects>
+        </planningInfos>
       </message>
     </folder>
     <folder name="Objectif" id="objectif">
