@@ -5349,6 +5349,16 @@
     </folder>
   </folder>
   <folder name="Eglise" id="eglise" nb="8" image="church.jpg">
+    <folder name="Art" id="art" nb="7" image="cathedrale_liverpool.jpeg">
+      <message name="Mystère des saints sépulcres alsaciens" id="mystere-des-saints-sepulcres-alsaciens">
+        <references>
+          <bible book="Jn" chapter="19" verseBegin="34" linkFromCorpus="no"/>
+          <bible book="Mk" chapter="15" verseBegin="39"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/U5El_Nf7RFM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
     <folder name="Communautés" id="communautes" nb="6" image="communaute.jpeg">
       <folder name=" Missionnaires de la miséricorde divine" id="missionnaires-de-la-misericorde-divine" image="prise-soutane-missionaire-de-la-misericorde-divine.jpeg">
         <folder name="Chatbot" id="chatbot-missionnaires-de-la-misericorde-divine" isHidden="true">
@@ -5907,6 +5917,32 @@
             <sourceId>kto</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wzC4Jg0RZY4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Pourquoi aller à la messe ?" id="pourquoi-aller-a-la-messe">
+            <tests>
+              <test input="Pourquoi aller à la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_6Uc6hZukVs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-aller-a-la-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="On mange quoi à la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_6Uc6hZukVs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-aller-a-la-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="On boit quoi à la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_6Uc6hZukVs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-aller-a-la-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="C&apos;est quoi la transsubstantiation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_6Uc6hZukVs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-aller-a-la-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+              <test input="Communier ça change quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_6Uc6hZukVs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-aller-a-la-messe&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Pourquoi aller à la messe ?"/>
+              <trigger value="On mange quoi à la messe ?"/>
+              <trigger value="On boit quoi à la messe ?"/>
+              <trigger value="C&apos;est quoi la transsubstantiation ?"/>
+              <trigger value="Communier ça change quoi ?"/>
+            </triggers>
+            <references>
+              <bible book="Ex" chapter="16" verseBegin="14" verseEnd="15"/>
+              <bible book="Ex" chapter="16" verseBegin="31"/>
+              <bible book="Jn" chapter="2" verseBegin="4"/>
+              <bible book="Jn" chapter="7" verseBegin="30"/>
+              <bible book="Jn" chapter="8" verseBegin="20"/>
+              <bible book="Jn" chapter="16" verseBegin="4"/>
+            </references>
+            <sourceId>theodom</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_6Uc6hZukVs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Pourquoi on va a la messe ? 2 minutes à la foi" id="pourquoi-on-va-a-la-messe-2-minutes-a-la-foi">
             <tests>
               <test input="Pourquoi on va a la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Drxld8fmk-E?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ac 20, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 42&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-va-a-la-messe-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
@@ -6229,6 +6265,19 @@
               <text>La fête la plus importante des chrétiens est Pâques.</text>
             </message>
           </folder>
+          <message name="Le chemin de croix, qu&apos;est-ce que c&apos;est ?" id="le-chemin-de-croix-qu-est-ce-que-c-est">
+            <tests>
+              <test input="C&apos;est quoi le chemin de croix ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CsYHO4XFWD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-chemin-de-croix-qu-est-ce-que-c-est&quot; textlength=&quot;8&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que c&apos;est le chemin de croix ?"/>
+            </triggers>
+            <references>
+              <bible book="Jn" chapter="15" verseBegin="11" linkFromCorpus="no"/>
+            </references>
+            <sourceId>theodom</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CsYHO4XFWD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Les trois Pâques" id="les-trois-paques">
             <triggers>
               <trigger value="Quels sont les trois Pâques ?"/>
@@ -10111,6 +10160,17 @@
               <sourceId>youcat</sourceId>
               <text>Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2).</text>
             </message>
+            <message name="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?" id="jesus-est-il-vraiment-mort-ou-a-t-il-pu-ressusciter-parce-que-sa-mort-n-etait-qu-apparente" nb="103">
+              <triggers>
+                <trigger value="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="627"/>
+                <bible book="Jn" chapter="19" verseBegin="33"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jésus-Christ est réellement mort sur la croix. Son corps a été enseveli. Toutes les sources en témoignent.</text>
+            </message>
             <message name="Les juifs sont-ils responsables de la mort de Jésus ?" id="les-juifs-sont-ils-responsables-de-la-mort-de-jesus" nb="97">
               <tests>
                 <test input="Les juifs sont-ils responsables de la mort de Jésus ?" output="Personne ne peut attribuer « aux juifs » une responsabilité collective dans la mort de Jésus. En revanche, ce que l&apos;Église professe avec certitude, c&apos;est la complicité de tous les pécheurs dans la mort de Jésus." outputReferences="&lt;hc_bible ref=&quot;Lc 2, 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;597-598&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;les-juifs-sont-ils-responsables-de-la-mort-de-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -11790,16 +11850,6 @@
   </folder>
   <folder name="Miracles" id="miracles" nb="3" image="miracle.png">
     <folder name="Apparitions" id="apparitions" nb="1" image="fatima.jpeg">
-      <message name="Les miracles eucharistiques qui ont marqué l&apos;histoire" id="les-miracles-eucharistiques-qui-ont-marque-l-histoire">
-        <tests>
-          <test input="Quels sont les miracles eucharistiques qui ont marqué l&apos;histoire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XjKZrAOQ7y0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;les-miracles-eucharistiques-qui-ont-marque-l-histoire&quot; textlength=&quot;7&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quels sont les miracles eucharistiques qui ont marqué l&apos;histoire ?"/>
-        </triggers>
-        <sourceId>aleteia</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XjKZrAOQ7y0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
       <message name="Où Marie est-elle apparue ?" id="o-marie-est-elle-apparue">
         <tests>
           <test input="Où Marie est-elle apparue ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X7hcHX8V3ws?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;o-marie-est-elle-apparue&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -12195,6 +12245,28 @@
           </message>
         </folder>
       </folder>
+    </folder>
+    <folder name="Miracles eucharistiques" id="miracles-eucharistiques" nb="4" image="miracles_eucharistiques.webp">
+      <message name="Les miracles eucharistiques qui ont marqué l&apos;histoire" id="les-miracles-eucharistiques-qui-ont-marque-l-histoire">
+        <tests>
+          <test input="Quels sont les miracles eucharistiques qui ont marqué l&apos;histoire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XjKZrAOQ7y0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;les-miracles-eucharistiques-qui-ont-marque-l-histoire&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quels sont les miracles eucharistiques qui ont marqué l&apos;histoire ?"/>
+        </triggers>
+        <sourceId>aleteia</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XjKZrAOQ7y0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Une hostie en lévitation à Lourdes en 1999" id="une-hostie-en-levitation-a-lourdes-en-1999">
+        <tests>
+          <test input="Montrez-moi une hostie en lévitation !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/A5CnUnaZzQg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Jean de Roquefort&quot; resourceid=&quot;une-hostie-en-levitation-a-lourdes-en-1999&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi une hostie en lévitation !"/>
+        </triggers>
+        <sourceId>jean-de-roquefort</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/A5CnUnaZzQg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
     <folder name="À propos" id="a-propos-miracles" image="about.png">
       <message name="Charismes et guérisons, Sans langue de buis" id="charismes-et-guerisons-sans-langue-de-buis">
