@@ -2395,6 +2395,7 @@
           <recommendation text="Oui, allons-y !" outMessageId="plannifier"/>
           <recommendation/>
         </recommendations>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/hugging.png&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
@@ -2411,6 +2412,7 @@
           <recommendation text="Oui, allons-y !" outMessageId="plannifier"/>
           <recommendation/>
         </recommendations>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">Bonsoir je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/hugging.png&quot; height=&quot;20&quot; /&gt;&#10;Je suis à votre disposition pour discuter de la foi chrétienne avec vous.&#10;Etes-vous prêt ?</text>
         <planningInfos>
@@ -2437,6 +2439,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">&lt;span&gt;Bonjour je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Que voulez-vous faire ?&lt;/span&gt;</text>
         <planningInfos>
@@ -2455,6 +2458,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>chatbot-par-default</sourceId>
         <text fileType="text_and_html">&lt;span&gt;Bonsoir je suis Théophile.&#10;&lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;&#10;Que voulez-vous faire ?&lt;/span&gt;</text>
         <planningInfos>
@@ -11328,6 +11332,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt; [`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel livre de la Bible raconte la « Création » ?&lt;/span&gt;</text>
         <planningInfos>
@@ -11354,6 +11359,7 @@
           </recommendations>
           <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
           <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+          <allowToRepeat>no</allowToRepeat>
           <sourceId>ndml</sourceId>
           <sourceUrl>https://www.youtube.com/watch?v=U5IW6i3Ns6E</sourceUrl>
           <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ?&lt;/span&gt;</text>
@@ -11375,6 +11381,7 @@
           </planningInfos>
         </message>
         <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ? (bonne réponse)" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-bonne-reponse" nb="1">
+          <allowToRepeat>no</allowToRepeat>
           <sourceId>ndml</sourceId>
           <sourceUrl>https://www.youtube.com/watch?v=hBWItWkV7Uw</sourceUrl>
           <text fileType="text_and_html">&lt;span&gt;Oui. &lt;img src=&quot;/resources/emojis/smile.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt; Ce sont les bergers.&lt;/span&gt;</text>
@@ -11390,6 +11397,7 @@
           </planningInfos>
         </message>
         <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ? (mauvaise réponse)" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-mauvaise-reponse" nb="1">
+          <allowToRepeat>no</allowToRepeat>
           <sourceId>ndml</sourceId>
           <sourceUrl>https://www.youtube.com/watch?v=hBWItWkV7Uw</sourceUrl>
           <text fileType="text_in_html">&lt;span&gt;Non, ce sont les bergers.&lt;/span&gt;</text>
@@ -11416,6 +11424,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament?&lt;/span&gt;</text>
         <planningInfos>
@@ -11433,6 +11442,7 @@
         </planningInfos>
       </message>
       <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (bonne réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-bonne-reponse" nb="6">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
         <planningInfos>
@@ -11447,6 +11457,7 @@
         </planningInfos>
       </message>
       <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (mauvaise réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse" nb="6">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Non, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
       </message>
@@ -11458,6 +11469,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien de fois Pierre a-t-il renié Jésus ?&lt;/span&gt;</text>
         <planningInfos>
@@ -11475,6 +11487,7 @@
         </planningInfos>
       </message>
       <message name="Combien de fois Pierre a-t-il renié Jésus ? (bonne réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-bonne-reponse" nb="7">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
         <planningInfos>
@@ -11489,6 +11502,7 @@
         </planningInfos>
       </message>
       <message name="Combien de fois Pierre a-t-il renié Jésus ? (mauvaise réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse" nb="7">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Non, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
       </message>
@@ -11501,6 +11515,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>bible</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Dans quelle ville est né Jésus ?&lt;/span&gt;</text>
         <planningInfos>
@@ -11521,6 +11536,7 @@
         </planningInfos>
       </message>
       <message name="Dans quelle ville est né Jésus ? (bonne réponse)" id="dans-quelle-ville-est-ne-jesus-bonne-reponse" nb="1">
+        <allowToRepeat>no</allowToRepeat>
         <references>
           <bible book="Mt" chapter="2" verseBegin="1"/>
         </references>
@@ -11538,6 +11554,7 @@
         </planningInfos>
       </message>
       <message name="Dans quelle ville est né Jésus ? (mauvaise réponse)" id="dans-quelle-ville-est-ne-jesus-mauvaise-reponse" nb="1">
+        <allowToRepeat>no</allowToRepeat>
         <references>
           <bible book="Mt" chapter="2" verseBegin="1"/>
         </references>
@@ -11545,6 +11562,7 @@
         <text fileType="text_in_html">&lt;span&gt;Non. Jésus est né à Bethléem.&lt;/span&gt;</text>
       </message>
       <message name="Jésus a été circoncis ? (bonne réponse)" id="jesus-a-ete-circoncis-bonne-reponse" nb="5">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
         <planningInfos>
@@ -11559,6 +11577,7 @@
         </planningInfos>
       </message>
       <message name="Jésus a été circoncis ? (mauvaise réponse)" id="jesus-a-ete-circoncis-mauvaise-reponse" nb="5">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Non. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
       </message>
@@ -11569,6 +11588,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Jésus a été circoncis.&lt;/span&gt;</text>
         <planningInfos>
@@ -11628,6 +11648,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel est le jour où les chrétiens doivent se consacrer à Dieu ?&lt;/span&gt;</text>
         <planningInfos>
@@ -11645,6 +11666,7 @@
         </planningInfos>
       </message>
       <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (bonne réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-bonne-reponse" nb="4">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
         <planningInfos>
@@ -11659,10 +11681,12 @@
         </planningInfos>
       </message>
       <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (mauvaise réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse" nb="4">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Non, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
       </message>
       <message name="Quel livre de la Bible raconte la « Création » ? (bonne réponse)" id="quel-livre-de-la-bible-raconte-la-creation-bonne-reponse" nb="2">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, c&apos;est la Genèse.&lt;/span&gt;</text>
         <planningInfos>
@@ -11677,6 +11701,7 @@
         </planningInfos>
       </message>
       <message name="Quel livre de la Bible raconte la « Création » ? (mauvaise réponse)" id="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse" nb="2">
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Non, c&apos;est la Genèse.&lt;/span&gt;</text>
       </message>
@@ -11688,6 +11713,7 @@
         </recommendations>
         <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+        <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quels sont les deux premiers mots de la Bible ?&lt;/span&gt;</text>
         <planningInfos>
@@ -11705,6 +11731,7 @@
         </planningInfos>
       </message>
       <message name="Quels sont les deux premiers mots de la Bible ? (bonne réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-bonne-reponse" nb="3">
+        <allowToRepeat>no</allowToRepeat>
         <references>
           <bible book="Gen" chapter="1" verseBegin="1"/>
         </references>
@@ -11722,6 +11749,7 @@
         </planningInfos>
       </message>
       <message name="Quels sont les deux premiers mots de la Bible ? (mauvaise réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse" nb="3">
+        <allowToRepeat>no</allowToRepeat>
         <references>
           <bible book="Gen" chapter="1" verseBegin="1"/>
         </references>
@@ -11733,6 +11761,7 @@
           <recommendation text="Oui, je veux bien" outMessageId="posez-moi-des-questions"/>
           <recommendation text="Non merci, continuez la discussion" outMessageId="plannifier"/>
         </recommendations>
+        <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
         <sourceId>interne</sourceId>
         <text>Voulez-vous faire un quiz pour s&apos;amuser ?</text>
         <planningInfos>
