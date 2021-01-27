@@ -10165,6 +10165,9 @@
               <text>Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2).</text>
             </message>
             <message name="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?" id="jesus-est-il-vraiment-mort-ou-a-t-il-pu-ressusciter-parce-que-sa-mort-n-etait-qu-apparente" nb="103">
+              <tests>
+                <test input="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?" output="Pourquoi la mort de Jésus était cela apparent ?" isOk="false"/>
+              </tests>
               <triggers>
                 <trigger value="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?"/>
               </triggers>
@@ -10235,6 +10238,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Non. Donner à Marie Le titre de mère de Dieu, c&apos;est confesser que son fils est Dieu.</text>
+            </message>
+            <message name="Peut-on être chrétien sans croire en la résurrection du Christ ?" id="peut-on-etre-chretien-sans-croire-en-la-resurrection-du-christ" nb="104">
+              <tests>
+                <test input="Peut-on être chrétien sans croire en la résurrection du Christ ?" output="Non. Si Le Christ n&apos;est pas ressuscité, notre prédication est vide, vide aussi votre foi (1 Co 15, 14)." outputReferences="&lt;hc_bible ref=&quot;1Co 15, 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;631&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;638&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;651&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;peut-on-etre-chretien-sans-croire-en-la-resurrection-du-christ&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Peut-on être chrétien sans croire en la résurrection du Christ ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="631"/>
+                <ccc verseBegin="638"/>
+                <ccc verseBegin="651"/>
+                <bible book="1 Cor" chapter="15" verseBegin="14"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Non. Si Le Christ n&apos;est pas ressuscité, notre prédication est vide, vide aussi votre foi (1 Co 15, 14).</text>
             </message>
             <message name="Pourquoi Dieu s&apos;est-il incarné en Jésus-Christ ?" id="pourquoi-dieu-s-est-il-incarne-en-jesus-christ" nb="76">
               <tests>
