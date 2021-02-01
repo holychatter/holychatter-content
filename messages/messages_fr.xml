@@ -5573,6 +5573,20 @@
           <text fileType="html">&lt;iframe src=&quot;https://www.notrehistoireavecmarie.com//fr/frise-chronologique/&quot; width=&quot;560&quot; height=&quot;315&quot;&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
+      <message name="Quelle est l&apos;histoire du Mercredi des Cendres ?" id="quelle-est-l-histoire-du-mercredi-des-cendres">
+        <tests>
+          <test input="Quelle est l&apos;histoire du Mercredi des Cendres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rt29Ctt11HI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;quelle-est-l-histoire-du-mercredi-des-cendres&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle est l&apos;histoire du Mercredi des Cendres ?"/>
+        </triggers>
+        <references>
+          <bible book="Gen" chapter="3" verseBegin="19"/>
+          <bible book="Mk" chapter="1" verseBegin="15"/>
+        </references>
+        <sourceId>aleteia</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rt29Ctt11HI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Réforme et Contre-Réforme" id="reforme-et-contre-reforme" nb="4">
         <tests>
           <test input="Qu&apos;est-ce que la Réforme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PTpTiZfAZ2o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;reforme-et-contre-reforme&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11577,6 +11591,61 @@
             </planningInfos>
           </message>
         </folder>
+        <folder name="Le Carême débute" id="le-careme-debute" nb="7">
+          <message name="Bonne réponse" id="bonne-reponse-le-careme-debute" nb="2">
+            <recommendations>
+              <recommendation text="Quelle est l&apos;histoire du Mercredi des Cendres ?" outMessageId="quelle-est-l-histoire-du-mercredi-des-cendres"/>
+            </recommendations>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Oui, le Carême débute le mercredi des cendres. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+            <planningInfos>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                  </elts>
+                </exps>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Mauvaise réponse" id="mauvaise-reponse-le-careme-debute" nb="3">
+            <recommendations>
+              <recommendation text="Quelle est l&apos;histoire du Mercredi des Cendres ?" outMessageId="quelle-est-l-histoire-du-mercredi-des-cendres"/>
+            </recommendations>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Non, le Carême débute le mercredi des cendres.&lt;/span&gt;</text>
+          </message>
+          <message name="Question" id="question-le-careme-debute" nb="1">
+            <recommendations>
+              <recommendation text="le vendredi saint" outMessageId="mauvaise-reponse-le-careme-debute"/>
+              <recommendation text="le dimanche des Rameaux" outMessageId="mauvaise-reponse-le-careme-debute"/>
+              <recommendation text="le mardi gras" outMessageId="mauvaise-reponse-le-careme-debute"/>
+              <recommendation text="le mercredi des cendres" outMessageId="bonne-reponse-le-careme-debute"/>
+            </recommendations>
+            <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+            <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+            <allowToRepeat>no</allowToRepeat>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Le Carême débute :&lt;/span&gt;</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="temps-liturgique-careme"/>
+              </optionalPreconditions>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-questions"/>
+                  </elts>
+                </exps>
+              </effects>
+              <potentialEffects>
+                <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+        </folder>
         <folder name="Le Carême rappelle les 40 jours de Jésus" id="le-careme-rappelle-les-40-jours-de-jesus" nb="3">
           <message name="Bonne réponse" id="bonne-reponse-le-careme-rappelle-les-40-jours-de-jesus" nb="2">
             <recommendations>
@@ -11632,6 +11701,55 @@
             </planningInfos>
           </message>
         </folder>
+        <folder name="Le Carême s&apos;achève à Pâques où nous fêtons" id="le-careme-s-acheve-a-paques-o-nous-fetons" nb="9">
+          <message name="Bonne réponse" id="bonne-reponse-le-careme-s-acheve-a-paques-o-nous-fetons" nb="2">
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Oui, le Carême s&apos;achève à Pâques où nous fêtons la victoire du Christ sur la mort et le péché. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;img src=&quot;/resources/emojis/cotilons.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+            <planningInfos>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                  </elts>
+                </exps>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Mauvaise réponse" id="mauvaise-reponse-le-careme-s-acheve-a-paques-o-nous-fetons" nb="3">
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Non, le Carême s&apos;achève à Pâques où nous fêtons la victoire du Christ sur la mort et le péché. &lt;img src=&quot;/resources/emojis/cotilons.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+          </message>
+          <message name="Question" id="question-le-careme-s-acheve-a-paques-o-nous-fetons" nb="1">
+            <recommendations>
+              <recommendation text="L&apos;arrivée du printemps et des pâquerettes." outMessageId="mauvaise-reponse-le-careme-s-acheve-a-paques-o-nous-fetons"/>
+              <recommendation text="Les œufs et les cloches, symbole de la joie." outMessageId="mauvaise-reponse-le-careme-s-acheve-a-paques-o-nous-fetons"/>
+              <recommendation text="La victoire du Christ sur la mort et le péché." outMessageId="bonne-reponse-le-careme-s-acheve-a-paques-o-nous-fetons"/>
+              <recommendation text="La fin de Jésus au désert." outMessageId="mauvaise-reponse-le-careme-s-acheve-a-paques-o-nous-fetons"/>
+            </recommendations>
+            <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+            <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+            <allowToRepeat>no</allowToRepeat>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Le Carême s&apos;achève à Pâques où nous fêtons :&lt;/span&gt;</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="temps-liturgique-careme"/>
+              </optionalPreconditions>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-questions"/>
+                  </elts>
+                </exps>
+              </effects>
+              <potentialEffects>
+                <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+        </folder>
         <folder name="Pendant le Carême je partage" id="pendant-le-careme-je-partage" nb="4">
           <message name="Bonne réponse" id="bonne-reponse-pendant-le-careme-je-partage" nb="2">
             <recommendations>
@@ -11663,6 +11781,140 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Pendant le Carême je partage :&lt;/span&gt;</text>
             <planningInfos>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-questions"/>
+                  </elts>
+                </exps>
+              </effects>
+              <potentialEffects>
+                <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+        </folder>
+        <folder name="Pourquoi lors de la célébration des cendres on en reçoit sur le front ?" id="pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front" nb="8">
+          <message name="Bonne réponse" id="bonne-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front" nb="2">
+            <recommendations>
+              <recommendation text="Quelle est la symbolique des cendres ?" outMessageId="quelle-est-la-symbolique-des-cendres"/>
+            </recommendations>
+            <references>
+              <bible book="Jdt" chapter="9" verseBegin="1"/>
+              <bible book="Esth" chapter="4" verseBegin="1" verseEnd="3"/>
+              <bible book="Job" chapter="2" verseBegin="8"/>
+              <bible book="Job" chapter="30" verseBegin="19"/>
+              <bible book="Wis" chapter="2" verseBegin="2" verseEnd="3"/>
+              <bible book="Ps" chapter="112" verseBegin="7"/>
+              <bible book="Mt" chapter="11" verseBegin="21"/>
+            </references>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Oui, lors de la célébration des cendres on en reçoit sur le front car c&apos;est un geste de pénitence dans la Bible. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+            <planningInfos>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                  </elts>
+                </exps>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Mauvaise réponse" id="mauvaise-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front" nb="3">
+            <recommendations>
+              <recommendation text="Quelle est la symbolique des cendres ?" outMessageId="quelle-est-la-symbolique-des-cendres"/>
+            </recommendations>
+            <references>
+              <bible book="Jdt" chapter="9" verseBegin="1"/>
+              <bible book="Esth" chapter="4" verseBegin="1" verseEnd="3"/>
+              <bible book="Job" chapter="2" verseBegin="8"/>
+              <bible book="Job" chapter="30" verseBegin="19"/>
+              <bible book="Wis" chapter="2" verseBegin="2" verseEnd="3"/>
+              <bible book="Ps" chapter="112" verseBegin="7"/>
+              <bible book="Mt" chapter="11" verseBegin="21"/>
+            </references>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Non, lors de la célébration des cendres on en reçoit sur le front car c&apos;est un geste de pénitence dans la Bible.&lt;/span&gt;</text>
+          </message>
+          <message name="Question" id="question-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front" nb="1">
+            <recommendations>
+              <recommendation text="C&apos;est une pratique bouddhiste." outMessageId="mauvaise-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front"/>
+              <recommendation text="C&apos;est un geste de pénitence dans la Bible." outMessageId="bonne-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front"/>
+              <recommendation text="C&apos;est pour appeler le feu de Dieu." outMessageId="mauvaise-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front"/>
+              <recommendation text="C&apos;est un signe d&apos;humilité." outMessageId="mauvaise-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front"/>
+            </recommendations>
+            <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+            <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+            <allowToRepeat>no</allowToRepeat>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Pourquoi lors de la célébration des cendres on en reçoit sur le front ?&lt;/span&gt;</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="temps-liturgique-careme"/>
+              </optionalPreconditions>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-questions"/>
+                  </elts>
+                </exps>
+              </effects>
+              <potentialEffects>
+                <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+        </folder>
+        <folder name="Quand vous aidez quelqu&apos;un vous devez le faire" id="quand-vous-aidez-quelqu-un-vous-devez-le-faire" nb="6">
+          <message name="Bonne réponse" id="bonne-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire" nb="2">
+            <recommendations>
+              <recommendation text="Que veut dire l&apos;Eglise quand elle parle de l&apos;aumône ?" outMessageId="les-tablettes-de-la-foi--l-aumone"/>
+            </recommendations>
+            <references>
+              <bible book="Mt" chapter="6" verseBegin="3"/>
+            </references>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Oui, quand vous aidez quelqu&apos;un vous devez le faire en sorte que votre main gauche ignore ce que fait votre main droite. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+            <planningInfos>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                  </elts>
+                </exps>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Mauvaise réponse" id="mauvaise-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire" nb="3">
+            <recommendations>
+              <recommendation text="Que veut dire l&apos;Eglise quand elle parle de l&apos;aumône ?" outMessageId="les-tablettes-de-la-foi--l-aumone"/>
+            </recommendations>
+            <references>
+              <bible book="Mt" chapter="6" verseBegin="3"/>
+            </references>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Non, quand vous aidez quelqu&apos;un vous devez le faire en sorte que votre main gauche ignore ce que fait votre main droite.&lt;/span&gt;</text>
+          </message>
+          <message name="Question" id="question-quand-vous-aidez-quelqu-un-vous-devez-le-faire" nb="1">
+            <recommendations>
+              <recommendation text="De manière à ce que tout le monde le sache" outMessageId="mauvaise-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire"/>
+              <recommendation text="En demandant la permission à vos parents" outMessageId="mauvaise-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire"/>
+              <recommendation text="En faisant en sorte que votre main gauche ignore ce que fait votre main droite" outMessageId="bonne-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire"/>
+              <recommendation text="En sonnant la trompette devant vous" outMessageId="mauvaise-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire"/>
+            </recommendations>
+            <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+            <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+            <allowToRepeat>no</allowToRepeat>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Quand vous aidez quelqu&apos;un vous devez le faire :&lt;/span&gt;</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="temps-liturgique-careme"/>
+              </optionalPreconditions>
               <effects>
                 <exps>
                   <elts>
@@ -14627,6 +14879,17 @@
         </triggers>
         <sourceId>reseau-entourage</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DiJf64CtZRc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Les tablettes de la foi – L’aumône" id="les-tablettes-de-la-foi--l-aumone">
+        <triggers>
+          <trigger value="Que veut dire l&apos;Eglise quand elle parle de l&apos;aumône ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="2" verseEnd="3"/>
+          <bible book="Mt" chapter="25" verseBegin="40"/>
+        </references>
+        <sourceId>le-jour-du-seigneur</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ylxfmhvHx_8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Pauvreté en France : voici 4 profils parmi ceux que nous rencontrons le plus dans nos accueils" id="pauvrete-en-france-voici-4-profils-parmi-ceux-que-nous-rencontrons-le-plus-dans-nos-accueils">
         <tests>
