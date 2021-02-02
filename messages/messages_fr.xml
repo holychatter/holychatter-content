@@ -5575,7 +5575,7 @@
       </folder>
       <message name="Quelle est l&apos;histoire du Mercredi des Cendres ?" id="quelle-est-l-histoire-du-mercredi-des-cendres">
         <tests>
-          <test input="Quelle est l&apos;histoire du Mercredi des Cendres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rt29Ctt11HI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;quelle-est-l-histoire-du-mercredi-des-cendres&quot; textlength=&quot;7&quot; /&gt;"/>
+          <test input="Quelle est l&apos;histoire du Mercredi des Cendres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rt29Ctt11HI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 3, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 1, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;quelle-est-l-histoire-du-mercredi-des-cendres&quot; textlength=&quot;7&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Quelle est l&apos;histoire du Mercredi des Cendres ?"/>
@@ -6261,7 +6261,7 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oiQTgRJMEXA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
-        <folder name="Christ-Roi" id="christ-roi" nb="7" image="christ-roi.jpg">
+        <folder name="Christ-Roi" id="christ-roi" nb="8" image="christ-roi.jpg">
           <message name="Qu&apos;est-ce que la fête du Christ-Roi?" id="qu-est-ce-que-la-fete-du-christ-roi">
             <tests>
               <test input="Qu&apos;est-ce que la fête du Christ-Roi?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G2IVWGReE-s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 49, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jr 23, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;qu-est-ce-que-la-fete-du-christ-roi&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -6297,6 +6297,20 @@
             </triggers>
             <sourceId>glorious</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hMzyolylxMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
+        <folder name="Pentecôte" id="pentecote" nb="7" image="pentecote.jpg">
+          <message name="La pentecôte, c&apos;est quoi ? Que dit la Bible ?" id="la-pentecote-c-est-quoi-que-dit-la-bible">
+            <triggers>
+              <trigger value="La pentecôte, c&apos;est quoi ?"/>
+              <trigger value="Que dit la Bible sur la Pentecôte ?"/>
+            </triggers>
+            <references>
+              <bible book="Lk" chapter="24" verseBegin="49"/>
+              <bible book="Acts" chapter="2" verseBegin="2" verseEnd="4"/>
+            </references>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j7TLgUQTzMg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
         <folder name="Pâques" id="paques" nb="5" image="paques.jpg">
@@ -6352,6 +6366,16 @@
               <text>La fête la plus importante des chrétiens est Pâques.</text>
             </message>
           </folder>
+          <message name="Le Triduum pascal - Pâques" id="le-triduum-pascal-paques">
+            <tests>
+              <test input="C&apos;est quoi la fête de Pâques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q44ypvT-WyY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Église catholique à Montréal&quot; resourceid=&quot;le-triduum-pascal-paques&quot; textlength=&quot;31&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C&apos;est quoi la fête de Pâques ?"/>
+            </triggers>
+            <sourceId>eglise-catholique-a-montreal</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q44ypvT-WyY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Le chemin de croix, qu&apos;est-ce que c&apos;est ?" id="le-chemin-de-croix-qu-est-ce-que-c-est">
             <tests>
               <test input="C&apos;est quoi le chemin de croix ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CsYHO4XFWD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-chemin-de-croix-qu-est-ce-que-c-est&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10166,6 +10190,9 @@
               <text>Puisque Jésus était vraiment un homme, au mont des Oliviers, il a ressenti une véritable angoisse humaine face à la mort.</text>
             </message>
             <message name="Comment les disciples sont-ils parvenus à la foi en la résurrection de Jésus ?" id="comment-les-disciples-sont-ils-parvenus-a-la-foi-en-la-resurrection-de-jesus" nb="105">
+              <tests>
+                <test input="Comment les disciples sont-ils parvenus à la foi en la résurrection de Jésus ?" output="Les disciples, qui avaient perdu toute espérance, sont parvenus à la foi en la résurrection de Jésus, parce qu&apos;après sa mort, ils l&apos;ont vu de multiples manières, ont parlé avec lui et ont fait l&apos;expérience qu&apos;il était quelqu&apos;un de vivant." outputReferences="&lt;hc_bible ref=&quot;Lc 24, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;640-644&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;656&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-les-disciples-sont-ils-parvenus-a-la-foi-en-la-resurrection-de-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
               <triggers>
                 <trigger value="Comment les disciples sont-ils parvenus à la foi en la résurrection de Jésus ?"/>
               </triggers>
@@ -10662,6 +10689,24 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>L&apos;Église croit que la bienheureuse Vierge Marie a été, au premier instant de sa conception, par une grâce et une faveur singulières du Dieu Tout-Puissant et en vue des mérites de Jésus-Christ Sauveur du genre humain, préservée intacte de toute souillure du péché originel (Dogme de 1854).</text>
+            </message>
+            <message name="Y a-t-il des preuves de la résurrection de Jésus ?" id="y-a-t-il-des-preuves-de-la-resurrection-de-jesus" nb="106">
+              <tests>
+                <test input="Y a-t-il des preuves de la résurrection de Jésus ?" output="D&apos;un point de vue scientifique, il n’y a pas de preuves de la résurrection de Jésus. Il y a en revanche de très forts témoignages individuels et collectifs de la part des contemporains des événements de Jérusalem." outputReferences="&lt;hc_bible ref=&quot;1Co 15, 3-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 5-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;639-644&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;647&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;656-657&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;y-a-t-il-des-preuves-de-la-resurrection-de-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Y a-t-il des preuves de la résurrection de Jésus ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="639" verseEnd="644"/>
+                <ccc verseBegin="647"/>
+                <ccc verseBegin="656" verseEnd="657"/>
+                <bible book="1 Cor" chapter="15" verseBegin="3" verseEnd="6"/>
+                <bible book="Lk" chapter="24" verseBegin="5" verseEnd="6"/>
+                <bible book="Jn" chapter="20" verseBegin="8"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>D&apos;un point de vue scientifique, il n’y a pas de preuves de la résurrection de Jésus. Il y a en revanche de très forts témoignages individuels et collectifs de la part des contemporains des événements de Jérusalem.</text>
             </message>
             <message name="À qui Jésus promet-il le « Royaume de Dieu » ?" id="a-qui-jesus-promet-il-le-royaume-de-dieu" nb="89">
               <tests>
@@ -11377,6 +11422,22 @@
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H0NcMFSrzTk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="La biodiversité un sujet pour la théologie ?" id="la-biodiversite-un-sujet-pour-la-theologie">
+        <tests>
+          <test input="La biodiversité un sujet pour la théologie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FUw3Nfupfk8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2M 7, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-biodiversite-un-sujet-pour-la-theologie&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="La biodiversité un sujet pour la théologie ?"/>
+        </triggers>
+        <references>
+          <bible book="2 Macc" chapter="7" verseBegin="28"/>
+          <bible book="Ps" chapter="103" verseBegin="24"/>
+          <bible book="Dan" chapter="3" verseBegin="57" verseEnd="90"/>
+          <bible book="Gen" chapter="2" verseBegin="15"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FUw3Nfupfk8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
   </folder>
   <folder name="Holy Chatter" id="holy-chatter" isHidden="true">
@@ -11703,8 +11764,11 @@
         </folder>
         <folder name="Le Carême s&apos;achève à Pâques où nous fêtons" id="le-careme-s-acheve-a-paques-o-nous-fetons" nb="9">
           <message name="Bonne réponse" id="bonne-reponse-le-careme-s-acheve-a-paques-o-nous-fetons" nb="2">
+            <recommendations>
+              <recommendation text="C&apos;est quoi la fête de Pâques ?" outMessageId="le-triduum-pascal-paques"/>
+            </recommendations>
             <sourceId>diocese-d-albi</sourceId>
-            <text fileType="text_and_html">&lt;span&gt;Oui, le Carême s&apos;achève à Pâques où nous fêtons la victoire du Christ sur la mort et le péché. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;img src=&quot;/resources/emojis/cotilons.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+            <text fileType="text_and_html">&lt;span&gt;Oui, le Carême s&apos;achève à Pâques où nous fêtons la victoire du Christ sur la mort et le péché. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt; &lt;img src=&quot;/resources/emojis/cotilons.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
             <planningInfos>
               <effects>
                 <exps>
@@ -11717,6 +11781,9 @@
             </planningInfos>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-le-careme-s-acheve-a-paques-o-nous-fetons" nb="3">
+            <recommendations>
+              <recommendation text="C&apos;est quoi la fête de Pâques ?" outMessageId="le-triduum-pascal-paques"/>
+            </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Non, le Carême s&apos;achève à Pâques où nous fêtons la victoire du Christ sur la mort et le péché. &lt;img src=&quot;/resources/emojis/cotilons.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
           </message>
@@ -11732,6 +11799,61 @@
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Le Carême s&apos;achève à Pâques où nous fêtons :&lt;/span&gt;</text>
+            <planningInfos>
+              <optionalPreconditions>
+                <fact value="temps-liturgique-careme"/>
+              </optionalPreconditions>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-questions"/>
+                  </elts>
+                </exps>
+              </effects>
+              <potentialEffects>
+                <fact value="quiz-fini-de-poser-toutes-les-questions"/>
+              </potentialEffects>
+            </planningInfos>
+          </message>
+        </folder>
+        <folder name="Les apôtres seront invités à annoncer l&apos;Evangile à toutes les nations" id="les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations" nb="10">
+          <message name="Bonne réponse" id="bonne-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations" nb="2">
+            <recommendations>
+              <recommendation text="La pentecôte, c&apos;est quoi ?" outMessageId="la-pentecote-c-est-quoi-que-dit-la-bible"/>
+            </recommendations>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_and_html">&lt;span&gt;Oui, les apôtres seront invités à annoncer l&apos;Evangile à toutes les nations parce que 50 jours après Pâques ils auront reçu l&apos;Esprit Saint. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
+            <planningInfos>
+              <effects>
+                <exps>
+                  <elts>
+                    <elt type="operator" value="++"/>
+                    <elt type="fact" value="quiz-nombre-de-bonnes-réponses"/>
+                  </elts>
+                </exps>
+              </effects>
+            </planningInfos>
+          </message>
+          <message name="Mauvaise réponse" id="mauvaise-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations" nb="3">
+            <recommendations>
+              <recommendation text="La pentecôte, c&apos;est quoi ?" outMessageId="la-pentecote-c-est-quoi-que-dit-la-bible"/>
+            </recommendations>
+            <sourceId>diocese-d-albi</sourceId>
+            <text>Non, les apôtres seront invités à annoncer l&apos;Evangile à toutes les nations parce que 50 jours après Pâques ils auront reçu l&apos;Esprit Saint.</text>
+          </message>
+          <message name="Question" id="question-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations" nb="1">
+            <recommendations>
+              <recommendation text="Parce qu&apos;ils ont suivi 3 ans de formation et sont prêts." outMessageId="mauvaise-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations"/>
+              <recommendation text="Parce qu&apos;ils ont été courageux pendant la Passion." outMessageId="mauvaise-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations"/>
+              <recommendation text="Parce qu&apos;ils ont plus rien à faire à Jérusalem." outMessageId="mauvaise-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations"/>
+              <recommendation text="Parce que 50 jours après Pâques ils auront reçu l&apos;Esprit Saint." outMessageId="bonne-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations"/>
+            </recommendations>
+            <replanIfNoRecommendationHasBeenTriggered>true</replanIfNoRecommendationHasBeenTriggered>
+            <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
+            <allowToRepeat>no</allowToRepeat>
+            <sourceId>diocese-d-albi</sourceId>
+            <text fileType="text_in_html">&lt;span&gt;Les apôtres seront invités à annoncer l&apos;Evangile à toutes les nations :&lt;/span&gt;</text>
             <planningInfos>
               <optionalPreconditions>
                 <fact value="temps-liturgique-careme"/>
