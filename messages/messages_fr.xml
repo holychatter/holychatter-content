@@ -5558,7 +5558,7 @@
         </message>
         <message name="Présentation de la communauté des missionnaires de la miséricorde divine" id="presentation-de-la-communaute-des-missionnaires-de-la-misericorde-divine">
           <tests>
-            <test input="Montrez-moi une présentation de la communauté des missionnaires de la miséricorde divine !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rTq0UJMPyrM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            <test input="Montrez-moi une présentation de la communauté des missionnaires de la miséricorde divine !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rTq0UJMPyrM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Rm 10, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Missionnaires de la miséricorde divine&quot; resourceid=&quot;presentation-de-la-communaute-des-missionnaires-de-la-misericorde-divine&quot; textlength=&quot;39&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Montrez-moi une présentation de la communauté des missionnaires de la miséricorde divine !"/>
@@ -9263,19 +9263,6 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/SrWAiRDPL6w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <message name="Est-ce que mon chat va ressusciter ?" id="est-ce-que-mon-chat-va-ressusciter">
-        <triggers>
-          <trigger value="Est-ce que les animaux vont ressusciter ?"/>
-          <trigger value="Est-ce que mon chat va ressusciter ?"/>
-        </triggers>
-        <references>
-          <bible book="Gen" chapter="1" verseBegin="29"/>
-          <bible book="Rev" chapter="21" verseBegin="1"/>
-          <bible book="Is" chapter="11" verseBegin="6" verseEnd="8"/>
-        </references>
-        <sourceId>theodom</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FuxKcnmztTI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
       <message name="Est-ce qu’on peut prouver l’existence de Dieu ?" id="est-ce-qu-on-peut-prouver-l-existence-de-dieu">
         <tests>
           <test input="Est-ce qu’on peut prouver l’existence de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/uf1DKchGcXk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;31-37&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-qu-on-peut-prouver-l-existence-de-dieu&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -10477,6 +10464,21 @@
               <sourceId>youcat</sourceId>
               <text>Personne ne peut attribuer « aux juifs » une responsabilité collective dans la mort de Jésus. En revanche, ce que l&apos;Église professe avec certitude, c&apos;est la complicité de tous les pécheurs dans la mort de Jésus.</text>
             </message>
+            <message name="Lors de sa résurrection, Jésus est-il revenu à la condition physique qui était la sienne pendant sa vie terrestre ?" id="lors-de-sa-resurrection-jesus-est-il-revenu-a-la-condition-physique-qui-etait-la-sienne-pendant-sa-vie-terrestre" nb="107">
+              <tests>
+                <test input="Lors de sa résurrection, Jésus est-il revenu à la condition physique qui était la sienne pendant sa vie terrestre ?" output="Quelle est la Résurrection lors de Parole ?" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Lors de sa résurrection, Jésus est-il revenu à la condition physique qui était la sienne pendant sa vie terrestre ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="645" verseEnd="646"/>
+                <bible book="Jn" chapter="20" verseBegin="16"/>
+                <bible book="Rom" chapter="6" verseBegin="9"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Le Seigneur ressuscité a permis que ses disciples le touchent, il a mangé avec eux et leur a montré les plaies de sa passion. Son corps pourtant ne relevait plus exclusivement du domaine terrestre, mais du domaine divin du Père.</text>
+            </message>
             <message name="Lorsqu&apos;il est entré à Jérusalem, Jésus savait-il qu&apos;il allait mourir ?" id="lorsqu-il-est-entre-a-jerusalem-jesus-savait-il-qu-il-allait-mourir" nb="94">
               <tests>
                 <test input="Lorsqu&apos;il est entré à Jérusalem, Jésus savait-il qu&apos;il allait mourir ?" output="Oui. Jésus a annoncé trois fois ses souffrances et sa mort avant de se diriger consciemment et volontairement vers le lieu de sa passion (Lc9, 51)." outputReferences="&lt;hc_bible ref=&quot;Lc 9, 51&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 32-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 14-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;557-560&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;569-570&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;lorsqu-il-est-entre-a-jerusalem-jesus-savait-il-qu-il-allait-mourir&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -11517,6 +11519,36 @@
       </folder>
     </folder>
     <folder name="Écologie" id="ecologie" image="ecologie.jpeg">
+      <folder name="Animaux" id="animaux" image="chien-et-chat.jpg">
+        <message name="Est-ce que mon chat va ressusciter ?" id="est-ce-que-mon-chat-va-ressusciter">
+          <triggers>
+            <trigger value="Est-ce que les animaux vont ressusciter ?"/>
+            <trigger value="Est-ce que mon chat va ressusciter ?"/>
+          </triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="29"/>
+            <bible book="Rev" chapter="21" verseBegin="1"/>
+            <bible book="Is" chapter="11" verseBegin="6" verseEnd="8"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FuxKcnmztTI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Le salut des animaux..." id="le-salut-des-animaux">
+          <tests>
+            <test input="Jésus est-il venu sauver les animaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ws0DKW5htZE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-salut-des-animaux&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Jésus est-il venu sauver les animaux ?"/>
+          </triggers>
+          <references>
+            <bible book="Mk" chapter="16" verseBegin="15"/>
+            <bible book="Gen" chapter="6" chapterEnd="9"/>
+            <bible book="Gen" chapter="1" verseBegin="31"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ws0DKW5htZE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <message name="Dieu a-t-il oublié sa création ?" id="dieu-a-t-il-oublie-sa-creation">
         <triggers>
           <trigger value="Dieu a-t-il oublié sa création ?"/>
@@ -11587,7 +11619,7 @@
       </message>
       <message name="La biodiversité un sujet pour la théologie ?" id="la-biodiversite-un-sujet-pour-la-theologie">
         <tests>
-          <test input="La biodiversité un sujet pour la théologie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FUw3Nfupfk8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2M 7, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-biodiversite-un-sujet-pour-la-theologie&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="La biodiversité un sujet pour la théologie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FUw3Nfupfk8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2M 7, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 103, 24&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Dn 3, 57-90&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-biodiversite-un-sujet-pour-la-theologie&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="La biodiversité un sujet pour la théologie ?"/>
@@ -13338,6 +13370,18 @@
         </references>
         <sourceId>cheminneuf-netforgod</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0kgkAWaOaq0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Charles de Foucauld" id="charles-de-foucauld" nb="1" image="charles-de-foucauld.jpg">
+      <message name="Charles de Foucauld" id="charles-de-foucauld">
+        <tests>
+          <test input="Qui est Charles de Foucauld ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;charles-de-foucauld&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Charles de Foucauld ?"/>
+        </triggers>
+        <sourceId>croire</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Frédéric Ozanam" id="frederic-ozanam" nb="1" image="fréderic_ozanam.jpg">
