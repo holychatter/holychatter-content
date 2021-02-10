@@ -5570,6 +5570,18 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rTq0UJMPyrM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
+      <folder name="Eucharistein" id="eucharistein" image="eucharistein.jpg">
+        <message name="Témoignage : Père Nicolas Buttet" id="temoignage-pere-nicolas-buttet">
+          <triggers>
+            <trigger value="Montrez-moi un témoignage du Père Nicolas Buttet !"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="25" verseBegin="40"/>
+          </references>
+          <sourceId>kto</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Emx6P2eerO8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Dogmes et morale" id="dogmes-et-morale" nb="4" image="francois-adresse-benediction-orbile-balcon-basilique-Saint-Pierre.jpeg">
       <message name="Les dogmes, pour quoi faire ?" id="les-dogmes-pour-quoi-faire">
@@ -10436,6 +10448,21 @@
               <sourceId>youcat</sourceId>
               <text>Oui. Jésus « a travaillé avec des mains d&apos;homme, il a pensé avec une intelligence d&apos;homme, il a agi avec une volonté d&apos;homme, il a aimé avec un cœur d&apos;homme » (Vatican II, GS, 22, 2).</text>
             </message>
+            <message name="Jésus est monté au ciel. Qu&apos;est-ce que cela veut dire ?" id="jesus-est-monte-au-ciel-qu-est-ce-que-cela-veut-dire" nb="109">
+              <tests>
+                <test input="Jésus est monté au ciel. Qu&apos;est-ce que cela veut dire ?" output="Avec Jésus, l’un d&apos;entre nous est parvenu auprès de Dieu, et cela pour toujours. En son Fils, Dieu est humainement proche de nous les hommes. En outre, dans l’évangile de Jean, Jésus dit : &lt;i&gt;Et moi, une fois élevé de terre, je les attirerai tous à moi&lt;/i&gt; (Jn 12, 32)." outputReferences="&lt;hc_bible ref=&quot;Jn 12, 32&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 1, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;659-667&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-est-monte-au-ciel-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Jésus est monté au ciel. Qu&apos;est-ce que cela veut dire ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="659" verseEnd="667"/>
+                <bible book="Jn" chapter="12" verseBegin="32"/>
+                <bible book="Acts" chapter="1" verseBegin="11"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text fileType="text_in_html">Avec Jésus, l’un d&apos;entre nous est parvenu auprès de Dieu, et cela pour toujours. En son Fils, Dieu est humainement proche de nous les hommes. En outre, dans l’évangile de Jean, Jésus dit : &lt;i&gt;Et moi, une fois élevé de terre, je les attirerai tous à moi&lt;/i&gt; (Jn 12, 32).</text>
+            </message>
             <message name="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?" id="jesus-est-il-vraiment-mort-ou-a-t-il-pu-ressusciter-parce-que-sa-mort-n-etait-qu-apparente" nb="103">
               <tests>
                 <test input="Jésus est-il vraiment mort ou a-t-il pu ressusciter parce que sa mort n&apos;était qu&apos;apparente ?" output="Pourquoi la mort de Jésus était cela apparent ?" isOk="false"/>
@@ -11550,7 +11577,7 @@
         </message>
         <message name="Le salut des animaux..." id="le-salut-des-animaux">
           <tests>
-            <test input="Jésus est-il venu sauver les animaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ws0DKW5htZE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-salut-des-animaux&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Jésus est-il venu sauver les animaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ws0DKW5htZE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 16, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Gn 6-9&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 31&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-salut-des-animaux&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Jésus est-il venu sauver les animaux ?"/>
@@ -16595,6 +16622,18 @@
         </triggers>
         <sourceId>dieu-sauve</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JGiw6fs6wOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Témoignage de S. Cécile, prieure des soeurs de Jérusalem à Montréal" id="temoignage-de-s-cecile-prieure-des-soeurs-de-jerusalem-a-montreal">
+        <tests>
+          <test input="Montrez-moi le témoignage de Sœur Cécile !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QzYVr4BqEuc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Église catholique à Montréal&quot; resourceid=&quot;temoignage-de-s-cecile-prieure-des-soeurs-de-jerusalem-a-montreal&quot; textlength=&quot;31&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage de la prieure des sœurs de Jérusalem à Montréal !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QzYVr4BqEuc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Église catholique à Montréal&quot; resourceid=&quot;temoignage-de-s-cecile-prieure-des-soeurs-de-jerusalem-a-montreal&quot; textlength=&quot;31&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage de Sœur Cécile !"/>
+          <trigger value="Montrez-moi le témoignage de la prieure des sœurs de Jérusalem à Montréal !"/>
+        </triggers>
+        <sourceId>eglise-catholique-a-montreal</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QzYVr4BqEuc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Témoignage de Soeur Blandine" id="temoignage-de-soeur-blandine">
         <tests>
