@@ -3756,7 +3756,7 @@
             </message>
             <message name="How did the disciples come to believe that Jesus is risen?" id="how-did-the-disciples-come-to-believe-that-jesus-is-risen" nb="105">
               <tests>
-                <test input="How did the disciples come to believe that Jesus is risen?" output="The disciples, who before had lost all hope, came to believe in Jesus’ Resurrection because they saw him in a different way after his death, spoke with him, and experienced him as being alive." outputReferences="&lt;hc_bible ref=&quot;Lk 24: 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;640-644&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;656&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-did-the-disciples-come-to-believe-that-jesus-is-risen&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="How did the disciples come to believe that Jesus is risen?" output="I don&apos;t know how the disciples came to believe Jesus is risen." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="How did the disciples come to believe that Jesus is risen?"/>
@@ -4113,6 +4113,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>“You call me Teacher and Lord; and you are right, for so I am” (Jn 13:13).</text>
+            </message>
+            <message name="Why is Jesus Christ the Lord of the whole world?" id="why-is-jesus-christ-the-lord-of-the-whole-world" nb="110">
+              <tests>
+                <test input="Why is Jesus Christ the Lord of the whole world?" output="Jesus Christ is Lord of the world and Lord of history because everything was made for his sake. All men were redeemed by him and will be judged by him." outputReferences="&lt;hc_bible ref=&quot;Col 1: 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18: 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;668-674&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;680&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-jesus-christ-the-lord-of-the-whole-world&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why is Jesus Christ the Lord of the whole world?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="668" verseEnd="674"/>
+                <ccc verseBegin="680"/>
+                <bible book="Col" chapter="1" verseBegin="16"/>
+                <bible book="Mt" chapter="18" verseBegin="20"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jesus Christ is Lord of the world and Lord of history because everything was made for his sake. All men were redeemed by him and will be judged by him.</text>
             </message>
             <message name="Why is Jesus called “Christ”?" id="why-is-jesus-called-christ" nb="73">
               <tests>

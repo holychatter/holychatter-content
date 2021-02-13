@@ -9005,6 +9005,16 @@
       </message>
     </folder>
     <folder name="Politique" id="politique" image="politique.jpg">
+      <message name="IVG : retour sur un délit d&apos;entrave - Abbé Grosjean" id="ivg-retour-sur-un-delit-d-entrave-abbe-grosjean">
+        <tests>
+          <test input="Qu&apos;en est-il de l&apos;IVG en France ?" output="Je ne sais pas si il est quelque chose de l&apos;IVG en France mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;en est-il de l&apos;IVG en France ?"/>
+        </triggers>
+        <sourceId>padreblog</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PsOlRGAHE9c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Les lois sur la fin de vie" id="les-lois-sur-la-fin-de-vie">
         <tests>
           <test input="Que disent les lois sur la fin de vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-19ZsupROOk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-lois-sur-la-fin-de-vie&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -10678,6 +10688,19 @@
               <sourceId>youcat</sourceId>
               <text>La brève formule « Jésus est le Christ » exprime le cœur de la foi chrétienne : Jésus, le simple fils du charpentier de Nazareth, est le Messie attendu et le Sauveur.</text>
             </message>
+            <message name="Pourquoi Jésus est-il le Seigneur de toute la terre ?" id="pourquoi-jesus-est-il-le-seigneur-de-toute-la-terre" nb="110">
+              <triggers>
+                <trigger value="Pourquoi Jésus est-il le Seigneur de toute la terre ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="668" verseEnd="674"/>
+                <ccc verseBegin="680"/>
+                <bible book="Col" chapter="1" verseBegin="16"/>
+                <bible book="Mt" chapter="18" verseBegin="20"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Jésus-Christ est le Seigneur de la terre et le Seigneur de l&apos;histoire car tout a été créé pour lui. Tous les hommes ont été sauvés par lui et sont conduits par lui.</text>
+            </message>
             <message name="Pourquoi Jésus fut-il transfiguré sur la montagne ?" id="pourquoi-jesus-fut-il-transfigure-sur-la-montagne" nb="93">
               <tests>
                 <test input="Pourquoi Jésus fut-il transfiguré sur la montagne ?" output="Dès la vie terrestre de Jésus, le Père a voulu révéler la majesté divine de son Fils. La transfiguration de Jésus aidera plus tard ses disciples à comprendre sa mort et sa résurrection." outputReferences="&lt;hc_ccc ref=&quot;554-556&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;568&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-fut-il-transfigure-sur-la-montagne&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -11692,6 +11715,16 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FUw3Nfupfk8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="La vie monastique : un modèle de vie durable !" id="la-vie-monastique-un-modele-de-vie-durable">
+        <tests>
+          <test input="La vie monastique est-elle un modèle de vie durable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qrPTVz2eD4I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;la-vie-monastique-un-modele-de-vie-durable&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="La vie monastique est-elle un modèle de vie durable ?"/>
+        </triggers>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qrPTVz2eD4I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Peut-on sauver les hommes sans sauver la terre ?" id="peut-on-sauver-les-hommes-sans-sauver-la-terre">
         <tests>
@@ -15162,7 +15195,7 @@
           <text>La prière est une expression de notre amitié avec Jésus ressuscité parce que nous sommes ses amis.&#10;Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.</text>
         </message>
       </folder>
-      <message name="La prière : clé du matin, verrou du soir ! - Abbé Amar - Padreblog" id="la-priere-cle-du-matin-verrou-du-soir-abbe-amar-padreblog">
+      <message name="La prière : clé du matin, verrou du soir ! - Abbé Amar" id="la-priere-cle-du-matin-verrou-du-soir-abbe-amar">
         <tests>
           <test input="Quand prier ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pexPdR07Eew?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;la-priere-cle-du-matin-verrou-du-soir-abbe-amar-padreblog&quot; textlength=&quot;9&quot; /&gt;"/>
           <test input="Quel est l&apos;enjeu de la prière ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pexPdR07Eew?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;la-priere-cle-du-matin-verrou-du-soir-abbe-amar-padreblog&quot; textlength=&quot;9&quot; /&gt;"/>
