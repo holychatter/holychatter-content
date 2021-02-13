@@ -148,7 +148,7 @@
           <folder name="Ascension" id="ascension" image="ascension.jpg">
             <message name="ASCENSION OF JESUS CHRIST " id="ascension-of-jesus-christ">
               <tests>
-                <test input="Show me the Ascension of Jesus" output="I can&apos;t show you Jesus&apos; Ascension."/>
+                <test input="Show me the Ascension of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RD0LNtc1UE4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 24: 50-53&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 1-11&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
               <descriptions>
                 <description value="It&apos;s the Ascension of Jesus."/>
@@ -187,15 +187,15 @@
           <folder name="Resurrection" id="resurrection" image="resurrection.jpg">
             <message name="Jesus is resurrected" id="jesus-is-resurrected">
               <tests>
-                <test input="Is Jesus resurrected?" output="I don&apos;t know if Jesus is resurrected."/>
-                <test input="Jesus is resurrected"/>
+                <test input="Is Jesus resurrected?" output="Yes, Jesus is resurrected."/>
+                <test input="Jesus is resurrected" output="Yes, I know Jesus is resurrected."/>
               </tests>
               <sourceId>internal</sourceId>
               <text>Jesus is resurrected.</text>
             </message>
             <message name="The Resurrection of Jesus (Introduction) " id="the-resurrection-of-jesus-introduction">
               <tests>
-                <test input="Show me Resurrection of Jesus" output="I can&apos;t show you Jesus&apos; Resurrection."/>
+                <test input="Show me Resurrection of Jesus" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-ErnJF_nwBk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 24: 1-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28: 1-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mk 16: 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 15: 14-19&quot; textlength=&quot;15&quot; /&gt;&lt;hc_bible ref=&quot;Acts 2: 22-33&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;Inspiring Philosophy&quot; resourceid=&quot;the-resurrection-of-jesus-introduction&quot; textlength=&quot;20&quot; /&gt;"/>
               </tests>
               <descriptions>
                 <description value="It&apos;s the Resurrection of Jesus"/>
@@ -1274,7 +1274,7 @@
     <folder name="Jesus" id="jesus" image="jesus.jpg">
       <message name="God became man" id="god-became-man">
         <tests>
-          <test input="Did God become man?" output="Yes, God became man." outputReferences="&lt;hc_bible ref=&quot;Is 9: 6-7&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4: 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lk 2: 7&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4: 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rom 9: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Titus 2: 13&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Heb 4: 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-became-man&quot; textlength=&quot;5&quot; /&gt;"/>
+          <test input="Did God become man?" output="I don&apos;t know if God became man." isOk="false"/>
         </tests>
         <references>
           <bible book="Is" chapter="9" verseBegin="6" verseEnd="7"/>
@@ -1306,8 +1306,8 @@
       </message>
       <message name="Jesus is the son of God" id="jesus-is-the-son-of-god">
         <tests>
-          <test input="Who is Jesus?" output="I don&apos;t know who Jesus is."/>
-          <test input="Jesus is the son of God?" output="I don&apos;t know if Jesus is God&apos;s son."/>
+          <test input="Who is Jesus?" output="Jesus is the son of God." outputReferences="&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Jesus is the son of God?" output="Yes, Jesus is God&apos;s son." outputReferences="&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Who is Jesus?"/>
@@ -1325,8 +1325,8 @@
       <message name="Jesus loves us" id="jesus-loves-us">
         <tests>
           <test input="Who likes me?" output="Jesus and God" outputReferences="&lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 8-10&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 18-21&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Rom 8: 37-39&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Eph 2: 4-7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15: 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Eph 3: 16-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Prov 8: 17&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;why-do-i-exist-continuation&quot; textlength=&quot;15&quot; /&gt;"/>
-          <test input="Does Jesus like Paul?" output="I don&apos;t know if Jesus likes Paul."/>
-          <test input="Does Jesus like me?" output="I don&apos;t know if Jesus likes you."/>
+          <test input="Does Jesus like Paul?" output="Yes, Jesus likes Paul." outputReferences="&lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 8-10&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 18-21&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Rom 8: 37-39&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Eph 2: 4-7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15: 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Eph 3: 16-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Prov 8: 17&quot; textlength=&quot;10&quot; /&gt;"/>
+          <test input="Does Jesus like me?" output="Yes, Jesus likes you." outputReferences="&lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 8-10&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 18-21&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Rom 8: 37-39&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Eph 2: 4-7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15: 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Eph 3: 16-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Prov 8: 17&quot; textlength=&quot;10&quot; /&gt;"/>
         </tests>
         <references>
           <bible book="Jn" chapter="3" verseBegin="16"/>
@@ -1402,6 +1402,123 @@
         <sourceId>internal</sourceId>
         <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
       </message>
+      <folder name="chatbot" id="chatbot" isHidden="true">
+        <message name="How many natures are there in Jesus?" id="how-many-natures-are-there-in-jesus">
+          <tests>
+            <test input="How many natures are there in Jesus?" output="There are two natures in Jesus, the Divine nature of God and he Human nature of man." outputReferences="&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;how-many-natures-are-there-in-jesus&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="How many natures are there in Jesus?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>There are two natures in Jesus, the Divine nature of God and he Human nature of man.</text>
+        </message>
+        <message name="How many persons are there in Jesus?" id="how-many-persons-are-there-in-jesus">
+          <tests>
+            <test input="How many persons are there in Jesus?" output="There is only one person in Jesus, the person of God the Son." outputReferences="&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;how-many-persons-are-there-in-jesus&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="How many persons are there in Jesus?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>There is only one person in Jesus, the person of God the Son.</text>
+        </message>
+        <message name="Is Jesus Christ truly God?" id="is-jesus-christ-truly-god">
+          <tests>
+            <test input="Is Jesus Christ God?" output="Jesus Christ is truly God, the Second Person of the Trinity, the Son, the Eternal Word, who with the Father and the Holy Spirit always was, is, and always will be." outputReferences="&lt;hc_bible ref=&quot;Jn 1: 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;is-jesus-christ-truly-god&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;"/>
+            <test input="Is Jesus Christ truly God?" output="No, God is Jesus Christ." outputReferences="&lt;hc_bible ref=&quot;Jn 1: 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;is-jesus-christ-truly-god&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Is Jesus Christ God?"/>
+            <trigger value="Is Jesus Christ truly God?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="1" verseBegin="1"/>
+          </references>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>Jesus Christ is truly God, the Second Person of the Trinity, the Son, the Eternal Word, who with the Father and the Holy Spirit always was, is, and always will be.</text>
+        </message>
+        <message name="Is Jesus Christ truly Man?" id="is-jesus-christ-truly-man">
+          <tests>
+            <test input="Is Jesus Christ truly Man?" output="I don&apos;t know if Jesus Christ is Man truly." isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Is Jesus Christ truly Man?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>Jesus Christ is truly man because he has the nature of man, having a body and soul.</text>
+        </message>
+        <message name="Was Jesus Christ always man?" id="was-jesus-christ-always-man">
+          <tests>
+            <test input="Was Jesus Christ always man?" output="I don&apos;t know if Jesus Christ was always man." isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Was Jesus Christ always man?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>Jesus Christ was not always man but he became man in the womb of the Virgin Mary.</text>
+        </message>
+        <message name="What do we call the mystery of God becoming Man?" id="what-do-we-call-the-mystery-of-god-becoming-man">
+          <tests>
+            <test input="What do we call the mystery of God becoming Man?" output="We call this mystery &apos;the Incarnation&apos; which means that God the Son, became man, a human being like us in all things except sin. &apos;the Word was made Flesh and dwelt among us&apos; (John 1:14)." outputReferences="&lt;hc_bible ref=&quot;Jn 1: 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;what-do-we-call-the-mystery-of-god-becoming-man&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="What do we call the mystery of God becoming Man?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="1" verseBegin="14"/>
+          </references>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>We call this mystery &apos;the Incarnation&apos; which means that God the Son, became man, a human being like us in all things except sin. &apos;the Word was made Flesh and dwelt among us&apos; (John 1:14).</text>
+        </message>
+        <message name="What does the name &apos;Christ&apos; mean?" id="what-does-the-name-christ-mean">
+          <triggers>
+            <trigger value="What does the name &apos;Christ&apos; mean?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>The name &apos;Christ&apos; means &apos;Anointed&apos;.</text>
+        </message>
+        <message name="What does the name &apos;Jesus&apos; mean?" id="what-does-the-name-jesus-mean-chatbot">
+          <tests>
+            <test input="What does the name &apos;Jesus&apos; mean?" output="The name &apos;Christ&apos; means &apos;Anointed&apos;." outputReferences="&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;what-does-the-name-christ-mean&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="What does the name &apos;Jesus&apos; mean?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>The name &apos;Jesus&apos; means &apos;Saviour&apos;.</text>
+        </message>
+        <message name="Who is Jesus?" id="who-is-jesus">
+          <tests>
+            <test input="Who is Jesus?" output="Jesus is the son of God." outputReferences="&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Who is Jesus?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>Jesus Christ is God the Son, who became man for us.</text>
+        </message>
+        <message name="Why did God the Son become Man?" id="why-did-god-the-son-become-man">
+          <tests>
+            <test input="Why did God the Son become Man?" output="God the Son became man to free us from sin and open to us the way to Heaven and everlasting life with God." outputReferences="&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;why-did-god-the-son-become-man&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Why did God the Son become Man?"/>
+          </triggers>
+          <sourceId>catholic-online</sourceId>
+          <sourceUrl>https://www.catholic.org/clife/jesus/webelieve.php</sourceUrl>
+          <text>God the Son became man to free us from sin and open to us the way to Heaven and everlasting life with God.</text>
+        </message>
+      </folder>
     </folder>
     <folder name="The Father" id="the-father">
       <folder name="God exists" id="god-exists">
@@ -1567,7 +1684,7 @@
     <folder name="Jesus" id="jesus-prayers" image="jesus.jpg">
       <message name="Eucharistic Adoration: St. Stephen Catholic Church" id="eucharistic-adoration-st-stephen-catholic-church">
         <tests>
-          <test input="I want to see Jesus."/>
+          <test input="I want to see Jesus." output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXwdE_zYF-I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Shalom World&quot; resourceid=&quot;eucharistic-adoration-st-stephen-catholic-church&quot; textlength=&quot;12&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="I want to see Jesus."/>
@@ -1874,7 +1991,7 @@
         </message>
         <message name="Is God a man with a long beard?" id="is-god-a-man-with-a-long-beard" nb="15">
           <tests>
-            <test input="Is God a man with a long beard?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ehMQDoz2xQI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6: 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Is 66: 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 22: 37&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 68: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;238-240&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;370&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-a-man-with-a-long-beard&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Is God a man with a long beard?" output="Yes, God is a man with a long beard.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ehMQDoz2xQI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;is-jesus-christ-truly-man&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 6: 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Is 66: 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 22: 37&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 68: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;238-240&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;370&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-god-a-man-with-a-long-beard&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Is God a man with a long beard?"/>
@@ -1975,8 +2092,8 @@
         </message>
         <message name="Who is God?" id="who-is-god" nb="12">
           <tests>
-            <test input="Who is God?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 4: 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Deut 4: 35&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Is 46: 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 8: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Tim 6: 16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Job 34: 21&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Job 36: 26&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
-            <test input="God" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 4: 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Deut 4: 35&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Is 46: 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 8: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Tim 6: 16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Job 34: 21&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Job 36: 26&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Who is God?" output="God is Jesus Christ.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 1: 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;is-jesus-christ-truly-god&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 4: 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Deut 4: 35&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Is 46: 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 8: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Tim 6: 16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Job 34: 21&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Job 36: 26&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="God" output="God is Jesus Christ.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/T_DNDxpNL50?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 1: 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;is-jesus-christ-truly-god&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 4: 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Deut 4: 35&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Is 46: 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 8: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Tim 6: 16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Job 34: 21&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Job 36: 26&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;200-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;228&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;230-231&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-is-god&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Who is God?"/>
@@ -2156,7 +2273,7 @@
       <folder name="Redemption" id="redemption" nb="5">
         <message name="How did Jesus live?" id="how-did-jesus-live" nb="30">
           <tests>
-            <test input="How did Jesus live?" output="I don&apos;t know how Jesus lived."/>
+            <test input="How did Jesus live?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-live&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="How did Jesus live?"/>
@@ -2169,7 +2286,7 @@
         </message>
         <message name="How did Jesus save us on the Cross?" id="how-did-jesus-save-us-on-the-cross" nb="32">
           <tests>
-            <test input="How did Jesus save us on the Cross?" output="I don&apos;t know how Jesus saved us on the Cross."/>
+            <test input="How did Jesus save us on the Cross?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mk 8: 31&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mk 10: 33-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 15: 3&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Pet 1: 18-19&quot; textlength=&quot;14&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 2: 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-save-us-on-the-cross&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="What is Redemption ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/byhsgPUGKuQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mk 8: 31&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mk 10: 33-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 15: 3&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Pet 1: 18-19&quot; textlength=&quot;14&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 2: 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-save-us-on-the-cross&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
@@ -2204,7 +2321,7 @@
         </message>
         <message name="How is Jesus different from the founders of other religions?" id="how-is-jesus-different-from-the-founders-of-other-religions" nb="31">
           <tests>
-            <test input="How is Jesus different from the founders of other religions?" output="I don&apos;t know how Jesus is different from the other religions founders."/>
+            <test input="How is Jesus different from the founders of other religions?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/w6CbcRL_ctY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Phil 2: 10-11&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-is-jesus-different-from-the-founders-of-other-religions&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="How is Jesus different from the founders of other religions?"/>
@@ -2217,7 +2334,7 @@
         </message>
         <message name="Who was Jesus?" id="who-was-jesus" nb="27">
           <tests>
-            <test input="Who was Jesus?" output="I don&apos;t know who Jesus was."/>
+            <test input="Who was Jesus?" output="Jesus was human.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;538-540&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;566&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-jesus-led-into-temptation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 5: 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 25: 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8: 1-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Col 1: 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;"/>
             <test input="Who is the giver of Life?" output="Life&apos;s giver is \hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/3ygp2awd4Vw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5: 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 25: 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8: 1-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Col 1: 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
@@ -2263,7 +2380,7 @@
         </message>
         <message name="Why did Jesus come into the world 2000 years ago?" id="why-did-jesus-come-into-the-world-2000-years-ago" nb="29">
           <tests>
-            <test input="Why did Jesus come into the world 2000 years ago?" output="I don&apos;t know why Jesus came into ago the world 2000 years."/>
+            <test input="Why did Jesus come into the world 2000 years ago?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/xJDamS5Cfa8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;why-did-jesus-come-into-the-world-2000-years-ago&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Why did Jesus come into the world 2000 years ago?"/>
@@ -3246,8 +3363,8 @@
             </folder>
             <message name="Is Jesus God? Does he belong to the Trinity?" id="is-jesus-god-does-he-belong-to-the-trinity" nb="39">
               <tests>
-                <test input="Is Jesus God?" output="I don&apos;t know if Jesus is God."/>
-                <test input="Does Jesus belong to the Trinity?" output="I don&apos;t know if Jesus belongs to the Trinity."/>
+                <test input="Is Jesus God?" output="Jesus of Nazareth is the Son, the second divine person mentioned when we pray, &lt;i&gt;“In the name of the Father and of the Son and of the Holy Spirit”&lt;/i&gt; (Mt 28:19)." outputReferences="&lt;hc_bible ref=&quot;Jn 13: 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;243-260&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;is-jesus-god-does-he-belong-to-the-trinity&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Does Jesus belong to the Trinity?" output="Jesus of Nazareth is the Son, the second divine person mentioned when we pray, &lt;i&gt;“In the name of the Father and of the Son and of the Holy Spirit”&lt;/i&gt; (Mt 28:19)." outputReferences="&lt;hc_bible ref=&quot;Jn 13: 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;243-260&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;is-jesus-god-does-he-belong-to-the-trinity&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Is Jesus God?"/>
@@ -3423,7 +3540,7 @@
               </message>
               <message name="Why is Jesus the greatest example in the world?" id="why-is-jesus-the-greatest-example-in-the-world" nb="60">
                 <tests>
-                  <test input="Why is Jesus the greatest example in the world?" output="I don&apos;t know why Jesus is the great example in the world." isOk="false"/>
+                  <test input="Why is Jesus the greatest example in the world?" output="Jesus Christ is unique because he shows us not only God’s true nature but also the true ideal of man." outputReferences="&lt;hc_bible ref=&quot;Col 1: 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;358-359&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;381&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-jesus-the-greatest-example-in-the-world&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Why is Jesus the greatest example in the world?"/>
@@ -3610,7 +3727,7 @@
           <folder name="I Believe in Jesus Christ, the Only Begotten Son of God" id="i-believe-in-jesus-christ-the-only-begotten-son-of-god" nb="71" image="jesus.jpg">
             <message name="Are the Jews guilty of Jesus’ death?" id="are-the-jews-guilty-of-jesus-death" nb="97">
               <tests>
-                <test input="Are the Jews guilty of Jesus’ death?" output="I don&apos;t know if the Jews are Jesus death guilty." isOk="false"/>
+                <test input="Are the Jews guilty of Jesus’ death?" output="No one can assign collective guilt for the death of Jesus to the Jews. Instead, the Church professes with certainty that all sinners share in the guilt for Jesus’ death." outputReferences="&lt;hc_bible ref=&quot;Lk 2: 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;597-598&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;are-the-jews-guilty-of-jesus-death&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Are the Jews guilty of Jesus’ death?"/>
@@ -3624,7 +3741,7 @@
             </message>
             <message name="Are there proofs for the Resurrection of Jesus?" id="are-there-proofs-for-the-resurrection-of-jesus" nb="106">
               <tests>
-                <test input="Are there proofs for the Resurrection of Jesus?" output="I don&apos;t know if proofs are far away from for Jesus&apos; Resurrection." isOk="false"/>
+                <test input="Are there proofs for the Resurrection of Jesus?" output="There are no proofs for the Resurrection of Jesus in the scientific sense. There are, however, very strong individual and collective testimonies by a large number of contemporaries of those events in Jerusalem." outputReferences="&lt;hc_bible ref=&quot;1 Cor 15: 3-6&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Lk 24: 5-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;639-644&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;647&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;656-657&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;are-there-proofs-for-the-resurrection-of-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Are there proofs for the Resurrection of Jesus?"/>
@@ -3660,7 +3777,7 @@
             </message>
             <message name="Can you be a Christian without believing in the Resurrection of Christ?" id="can-you-be-a-christian-without-believing-in-the-resurrection-of-christ" nb="104">
               <tests>
-                <test input="Can you be a Christian without believing in the Resurrection of Christ?" output="No, I can&apos;t."/>
+                <test input="Can you be a Christian without believing in the Resurrection of Christ?" output="No. “If Christ has not been raised, then our preaching is in vain and your faith is in vain” (1 Cor 15:14)." outputReferences="&lt;hc_bible ref=&quot;1 Cor 15: 14&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;631&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;638&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;651&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-you-be-a-christian-without-believing-in-the-resurrection-of-christ&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Can you be a Christian without believing in the Resurrection of Christ?"/>
@@ -3694,7 +3811,7 @@
             </message>
             <message name="Did Jesus have a soul, a mind, and a body just as we do?" id="did-jesus-have-a-soul-a-mind-and-a-body-just-as-we-do" nb="79">
               <tests>
-                <test input="Did Jesus have a soul, a mind, and a body just as we do?" output="I don&apos;t know if Jesus had a soul, a mind and a just body." isOk="false"/>
+                <test input="Did Jesus have a soul, a mind, and a body just as we do?" output="Yes. Jesus “worked with human hands, he thought with a human mind. He acted with a human will, and with a human heart he loved” (Second Vatican Council, GS 22, 2)." outputReferences="&lt;hc_bible ref=&quot;Lk 2: 52&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;470-476&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;did-jesus-have-a-soul-a-mind-and-a-body-just-as-we-do&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Did Jesus have a soul, a mind, and a body just as we do?"/>
@@ -3708,7 +3825,7 @@
             </message>
             <message name="Did Jesus know that he would die when he entered Jerusalem?" id="did-jesus-know-that-he-would-die-when-he-entered-jerusalem" nb="94">
               <tests>
-                <test input="Did Jesus know that he would die when he entered Jerusalem?" output="I don&apos;t know if Jesus knew he would die when he entered Jerusalem." isOk="false"/>
+                <test input="Did Jesus know that he would die when he entered Jerusalem?" output="Yes. Three times Jesus had predicted his suffering and death before consciously and voluntarily (Lk 9:51) going to the place of his Passion and his resurrection." outputReferences="&lt;hc_bible ref=&quot;Lk 9: 51&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mk 10: 32-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lk 22: 14-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;557-560&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;569-570&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;did-jesus-know-that-he-would-die-when-he-entered-jerusalem&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Did Jesus know that he would die when he entered Jerusalem?"/>
@@ -3725,7 +3842,7 @@
             </message>
             <message name="Did Jesus work miracles, or are they just pious tales?" id="did-jesus-work-miracles-or-are-they-just-pious-tales" nb="90">
               <tests>
-                <test input="Did Jesus work miracles, or are they just pious tales?" output="I don&apos;t know if Jesus worked miracles." isOk="false"/>
+                <test input="Did Jesus work miracles, or are they just pious tales?" output="Jesus really worked miracles, and so did the Apostles . The New Testament authors refer to real incidents." outputReferences="&lt;hc_bible ref=&quot;Lk 4: 18-19&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12: 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mk 10: 46-52&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8: 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;did-jesus-work-miracles-or-are-they-just-pious-tales&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Did Jesus work miracles, or are they just pious tales?"/>
@@ -3742,7 +3859,7 @@
             </message>
             <message name="Did Mary have other children besides Jesus?" id="did-mary-have-other-children-besides-jesus" nb="81">
               <tests>
-                <test input="Did Mary have other children besides Jesus?" output="I don&apos;t know if Mary had other children besides Jesus." isOk="false"/>
+                <test input="Did Mary have other children besides Jesus?" output="No. Jesus is the only son of Mary in the physical sense." outputReferences="&lt;hc_ccc ref=&quot;500&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;510&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;did-mary-have-other-children-besides-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Did Mary have other children besides Jesus?"/>
@@ -3756,7 +3873,7 @@
             </message>
             <message name="How did the disciples come to believe that Jesus is risen?" id="how-did-the-disciples-come-to-believe-that-jesus-is-risen" nb="105">
               <tests>
-                <test input="How did the disciples come to believe that Jesus is risen?" output="I don&apos;t know how the disciples came to believe Jesus is risen." isOk="false"/>
+                <test input="How did the disciples come to believe that Jesus is risen?" output="The disciples, who before had lost all hope, came to believe in Jesus’ Resurrection because they saw him in a different way after his death, spoke with him, and experienced him as being alive." outputReferences="&lt;hc_bible ref=&quot;Lk 24: 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;640-644&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;656&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-did-the-disciples-come-to-believe-that-jesus-is-risen&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="How did the disciples come to believe that Jesus is risen?"/>
@@ -3815,7 +3932,7 @@
             </message>
             <message name="To whom does Jesus promise “the kingdom of God”?" id="to-whom-does-jesus-promise-the-kingdom-of-god" nb="89">
               <tests>
-                <test input="To whom does Jesus promise “the kingdom of God”?" output="I don&apos;t know if Jesus promises God”&apos;s kingdom to that." isOk="false"/>
+                <test input="To whom does Jesus promise “the kingdom of God”?" output="God wills “all men to be saved and to come to the knowledge of the truth” (1 Tim 2:4). The “kingdom of God” begins in those who allow themselves to be transformed by God’s love. In Jesus’ experience these are above all the poor and the lowly." outputReferences="&lt;hc_bible ref=&quot;1 Tim 2: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mk 2: 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;541-546&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;567&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;to-whom-does-jesus-promise-the-kingdom-of-god&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="To whom does Jesus promise “the kingdom of God”?"/>
@@ -3831,7 +3948,7 @@
             </message>
             <message name="Was Jesus really dead? Maybe he was able to rise again because he only appeared to have suffered death." id="was-jesus-really-dead-maybe-he-was-able-to-rise-again-because-he-only-appeared-to-have-suffered-death" nb="103">
               <tests>
-                <test input="Was Jesus really dead? Maybe he was able to rise again because he only appeared to have suffered death." output="I don&apos;t know if Jesus was really dead." isOk="false"/>
+                <test input="Was Jesus really dead? Maybe he was able to rise again because he only appeared to have suffered death." output="Jesus really died on the Cross; his body was buried. All the sources testify to this." outputReferences="&lt;hc_bible ref=&quot;Jn 19: 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;627&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;was-jesus-really-dead-maybe-he-was-able-to-rise-again-because-he-only-appeared-to-have-suffered-death&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Was Jesus really dead? Maybe he was able to rise again because he only appeared to have suffered death."/>
@@ -3904,7 +4021,7 @@
             </message>
             <message name="What does it mean to say that Jesus is “the only-begotten Son of God”?" id="what-does-it-mean-to-say-that-jesus-is-the-only-begotten-son-of-god" nb="74">
               <tests>
-                <test input="What does it mean to say that Jesus is “the only-begotten Son of God”?" output="I don&apos;t know what means to say Jesus is “the begat only God”&apos;s Son." isOk="false"/>
+                <test input="What does it mean to say that Jesus is “the only-begotten Son of God”?" output="When Jesus calls himself “God’s only-begotten Son” (or “only Son”, Jn 3:16) and Peter and others bear witness to this, the expression means that of all men only Jesus is more than a man." outputReferences="&lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;441-445&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;454&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-it-mean-to-say-that-jesus-is-the-only-begotten-son-of-god&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="What does it mean to say that Jesus is “the only-begotten Son of God”?"/>
@@ -3965,7 +4082,7 @@
             </message>
             <message name="Why are the reports about Jesus called “the Gospel”, “the Good News”?" id="why-are-the-reports-about-jesus-called-the-gospel-the-good-news" nb="71">
               <tests>
-                <test input="Why are the reports about Jesus called “the Gospel”, “the Good News”?" output="I don&apos;t know why the reports called Good News” “the Gospel” “the are about Jesus." isOk="false"/>
+                <test input="Why are the reports about Jesus called “the Gospel”, “the Good News”?" output="Without the Gospels we would not know that God sends his Son to us men out of his infinite love, so that despite our sins we might find our way back to eternal fellowship with God." outputReferences="&lt;hc_bible ref=&quot;Jn 1: 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;422-429&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-are-the-reports-about-jesus-called-the-gospel-the-good-news&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why are the reports about Jesus called “the Gospel”, “the Good News”?"/>
@@ -3979,7 +4096,7 @@
             </message>
             <message name="Why are we too supposed to accept suffering in our lives and thus “take up our cross” and thereby follow Jesus?" id="why-are-we-too-supposed-to-accept-suffering-in-our-lives-and-thus-take-up-our-cross-and-thereby-follow-jesus" nb="102">
               <tests>
-                <test input="Why are we too supposed to accept suffering in our lives and thus “take up our cross” and thereby follow Jesus?" output="I don&apos;t know why too we are supposed to accept to suffer in our lives and thus “take to up our cross”." isOk="false"/>
+                <test input="Why are we too supposed to accept suffering in our lives and thus “take up our cross” and thereby follow Jesus?" output="Christians should not seek suffering, but when they are confronted with unavoidable suffering, it can become meaningful for them if they unite their sufferings with the sufferings of Christ: “Christ . . . suffered for you, leaving you an example, that you should follow in his steps” (1 Pet2:21)." outputReferences="&lt;hc_bible ref=&quot;1 Pet 2: 21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mk 8: 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;618&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-are-we-too-supposed-to-accept-suffering-in-our-lives-and-thus-take-up-our-cross-and-thereby-follow-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why are we too supposed to accept suffering in our lives and thus “take up our cross” and thereby follow Jesus?"/>
@@ -3994,7 +4111,7 @@
             </message>
             <message name="Why can we grasp Jesus only as a “mystery”?" id="why-can-we-grasp-jesus-only-as-a-mystery" nb="78">
               <tests>
-                <test input="Why can we grasp Jesus only as a “mystery”?" output="I don&apos;t know why we can grasp Jesus an only “mystery”." isOk="false"/>
+                <test input="Why can we grasp Jesus only as a “mystery”?" output="Jesus extends into God; therefore we cannot understand him if we exclude the invisible divine reality." outputReferences="&lt;hc_ccc ref=&quot;525-530&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;536&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-can-we-grasp-jesus-only-as-a-mystery&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why can we grasp Jesus only as a “mystery”?"/>
@@ -4008,7 +4125,7 @@
             </message>
             <message name="Why did God become man in Jesus?" id="why-did-god-become-man-in-jesus" nb="76">
               <tests>
-                <test input="Why did God become man in Jesus?" output="I don&apos;t know why God became man in Jesus." isOk="false"/>
+                <test input="Why did God become man in Jesus?" output="“For us men and for our salvation he came down from heaven” (Nicene → CREED)." outputReferences="&lt;hc_bible ref=&quot;Jn 3: 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;456-460&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-become-man-in-jesus&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why did God become man in Jesus?"/>
@@ -4022,7 +4139,7 @@
             </message>
             <message name="Why did Jesus allow John to baptize him, although he was without sin?" id="why-did-jesus-allow-john-to-baptize-him-although-he-was-without-sin" nb="87">
               <tests>
-                <test input="Why did Jesus allow John to baptize him, although he was without sin?" output="I don&apos;t know why Jesus allowed John to baptize him that Jesus was without sins." isOk="false"/>
+                <test input="Why did Jesus allow John to baptize him, although he was without sin?" output="To baptize means to immerse. In his baptism, Jesus descended into the sinful history of all mankind. By doing so he established a sign. In order to redeem us from our sins, he would one day be submerged in death but, through his Father’s power, reawakened to life." outputReferences="&lt;hc_bible ref=&quot;Lk 3: 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lk 3: 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-jesus-allow-john-to-baptize-him-although-he-was-without-sin&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why did Jesus allow John to baptize him, although he was without sin?"/>
@@ -4038,7 +4155,7 @@
             </message>
             <message name="Why did Jesus call apostles?" id="why-did-jesus-call-apostles" nb="92">
               <tests>
-                <test input="Why did Jesus call apostles?" output="I don&apos;t know why Jesus called apostles." isOk="false"/>
+                <test input="Why did Jesus call apostles?" output="Jesus had a large circle of disciples around him, both men and women. From this circle he selected twelve men whom he called → APOSTLES (Lk 6:12-16). The apostles were specially trained by him and entrusted with various commissions: “He sent them out to preach the kingdom of God and to heal” (Lk 9:2). Jesus took only these twelve apostles with him to the Last Supper, where he gave them the command, “Do this in remembrance of me” (Lk 22:19b)." outputReferences="&lt;hc_bible ref=&quot;Lk 6: 12-16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lk 9: 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lk 22: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16: 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;551-553&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;567&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-jesus-call-apostles&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why did Jesus call apostles?"/>
@@ -4057,7 +4174,7 @@
             </message>
             <message name="Why did Jesus choose the date of the Jewish feast of Passover for his death and Resurrection?" id="why-did-jesus-choose-the-date-of-the-jewish-feast-of-passover-for-his-death-and-resurrection" nb="95">
               <tests>
-                <test input="Why did Jesus choose the date of the Jewish feast of Passover for his death and Resurrection?" output="I don&apos;t know why Jesus chose the date of the Jewish Passover feast for death and for the Resurrection." isOk="false"/>
+                <test input="Why did Jesus choose the date of the Jewish feast of Passover for his death and Resurrection?" output="Jesus chose the Passover feast of his people Israel as a symbol for what was to happen through his death and Resurrection. As the people Israel were freed from slavery to Egypt, so Christ frees us from the slavery of sin and the power of death." outputReferences="&lt;hc_bible ref=&quot;1 Cor 5: 7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;571-573&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-jesus-choose-the-date-of-the-jewish-feast-of-passover-for-his-death-and-resurrection&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why did Jesus choose the date of the Jewish feast of Passover for his death and Resurrection?"/>
@@ -4071,7 +4188,7 @@
             </message>
             <message name="Why did Jesus have to redeem us on the Cross, of all places?" id="why-did-jesus-have-to-redeem-us-on-the-cross-of-all-places" nb="101">
               <tests>
-                <test input="Why did Jesus have to redeem us on the Cross, of all places?" output="I don&apos;t know why Jesus must redeem us on the Cross." isOk="false"/>
+                <test input="Why did Jesus have to redeem us on the Cross, of all places?" output="The Cross on which Jesus, although innocent, was cruelly executed is the place of utmost degradation and abandonment. Christ, our Redeemer, chose the Cross so as to bear the guilt of the world and to suffer the pain of the world. So he brought the world back home to God by his perfect love." outputReferences="&lt;hc_ccc ref=&quot;613-617&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;622-623&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-jesus-have-to-redeem-us-on-the-cross-of-all-places&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why did Jesus have to redeem us on the Cross, of all places?"/>
@@ -4085,7 +4202,7 @@
             </message>
             <message name="Why did Jesus wait thirty years to begin his public life?" id="why-did-jesus-wait-thirty-years-to-begin-his-public-life" nb="86">
               <tests>
-                <test input="Why did Jesus wait thirty years to begin his public life?" output="I don&apos;t know why Jesus waited to begin his public life 30 years." isOk="false"/>
+                <test input="Why did Jesus wait thirty years to begin his public life?" output="Jesus wanted to share a normal life with us and thus sanctify our everyday routine." outputReferences="&lt;hc_bible ref=&quot;Lk 2: 52&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;531-534&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;564&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-jesus-wait-thirty-years-to-begin-his-public-life&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why did Jesus wait thirty years to begin his public life?"/>
@@ -4100,7 +4217,7 @@
             </message>
             <message name="Why do Christians address Jesus as “Lord”?" id="why-do-christians-address-jesus-as-lord" nb="75">
               <tests>
-                <test input="Why do Christians address Jesus as “Lord”?" output="I don&apos;t know why christians address Jesus as “Lord”." isOk="false"/>
+                <test input="Why do Christians address Jesus as “Lord”?" output="“You call me Teacher and Lord; and you are right, for so I am” (Jn 13:13)." outputReferences="&lt;hc_bible ref=&quot;Jn 13: 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;446-451&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;455&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-christians-address-jesus-as-lord&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why do Christians address Jesus as “Lord”?"/>
@@ -4116,7 +4233,7 @@
             </message>
             <message name="Why is Jesus Christ the Lord of the whole world?" id="why-is-jesus-christ-the-lord-of-the-whole-world" nb="110">
               <tests>
-                <test input="Why is Jesus Christ the Lord of the whole world?" output="Jesus Christ is Lord of the world and Lord of history because everything was made for his sake. All men were redeemed by him and will be judged by him." outputReferences="&lt;hc_bible ref=&quot;Col 1: 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18: 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;668-674&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;680&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-jesus-christ-the-lord-of-the-whole-world&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Why is Jesus Christ the Lord of the whole world?" output="&lt;span&gt;Jesus Christ is Lord of the world and Lord of history because everything was made for his sake. All men were redeemed by him and will be judged by him.&lt;/span&gt;" outputReferences="&lt;hc_bible ref=&quot;Col 1: 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18: 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;668-674&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;680&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-jesus-christ-the-lord-of-the-whole-world&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why is Jesus Christ the Lord of the whole world?"/>
@@ -4128,11 +4245,11 @@
                 <bible book="Mt" chapter="18" verseBegin="20"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Jesus Christ is Lord of the world and Lord of history because everything was made for his sake. All men were redeemed by him and will be judged by him.</text>
+              <text fileType="text_in_html">&lt;span&gt;Jesus Christ is Lord of the world and Lord of history because everything was made for his sake. All men were redeemed by him and will be judged by him.&lt;/span&gt;</text>
             </message>
             <message name="Why is Jesus called “Christ”?" id="why-is-jesus-called-christ" nb="73">
               <tests>
-                <test input="Why is Jesus called “Christ”?" output="I don&apos;t know why “Christ” calls Jesus." isOk="false"/>
+                <test input="Why is Jesus called “Christ”?" output="The brief formula “Jesus is the Christ” expresses the core of the Christian faith: Jesus, the simple carpenter’s son from Nazareth, is the long-awaited Messiah and Savior." outputReferences="&lt;hc_bible ref=&quot;Acts 4: 12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;436-440&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;453&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-jesus-called-christ&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why is Jesus called “Christ”?"/>
@@ -4177,7 +4294,7 @@
             </message>
             <message name="Why was Christ transfigured on the mountain?" id="why-was-christ-transfigured-on-the-mountain" nb="93">
               <tests>
-                <test input="Why was Christ transfigured on the mountain?" output="I don&apos;t know why Christ transfigured on the mountain." isOk="false"/>
+                <test input="Why was Christ transfigured on the mountain?" output="The Father wanted to reveal the divine glory of his Son even during Jesus’ earthly life. Christ’s Transfiguration was meant to help the disciples later to understand his death and Resurrection." outputReferences="&lt;hc_ccc ref=&quot;554-556&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;568&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-christ-transfigured-on-the-mountain&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why was Christ transfigured on the mountain?"/>
@@ -4191,8 +4308,8 @@
             </message>
             <message name="Why was Jesus led into temptation?" id="why-was-jesus-led-into-temptation" nb="88">
               <tests>
-                <test input="Why was Jesus led into temptation?" output="I don&apos;t know why Jesus was led into the temptation." isOk="false"/>
-                <test input="Could Jesus really be tempted at all?" output="I don&apos;t know if Jesus can really be tempted at all." isOk="false"/>
+                <test input="Why was Jesus led into temptation?" output="Jesus was truly human, and as part of that he was truly susceptible to temptation. In Jesus Christ we do not have the sort of redeemer “who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sinning” (Heb 4:15)." outputReferences="&lt;hc_ccc ref=&quot;538-540&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;566&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-jesus-led-into-temptation&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Could Jesus really be tempted at all?" output="Jesus was truly human, and as part of that he was truly susceptible to temptation. In Jesus Christ we do not have the sort of redeemer “who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sinning” (Heb 4:15)." outputReferences="&lt;hc_ccc ref=&quot;538-540&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;566&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-jesus-led-into-temptation&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why was Jesus led into temptation?"/>
@@ -4207,7 +4324,7 @@
             </message>
             <message name="Why was a man of peace like Jesus condemned to death on a Cross?" id="why-was-a-man-of-peace-like-jesus-condemned-to-death-on-a-cross" nb="96">
               <tests>
-                <test input="Why was a man of peace like Jesus condemned to death on a Cross?" output="I don&apos;t know why Peace&apos;s man condemned on a Cross to death was like Jesus." isOk="false"/>
+                <test input="Why was a man of peace like Jesus condemned to death on a Cross?" output="&lt;span&gt;Jesus posed a decisive question to his contemporaries: Either he was acting with divine authority, or else he was an impostor, a blasphemer, and a violator of the Law and who had to be called to account.&lt;/span&gt;" outputReferences="&lt;hc_ccc ref=&quot;574-576&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-was-a-man-of-peace-like-jesus-condemned-to-death-on-a-cross&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why was a man of peace like Jesus condemned to death on a Cross?"/>
@@ -4216,7 +4333,7 @@
                 <ccc verseBegin="574" verseEnd="576"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Jesus posed a decisive question to his contemporaries: Either he was acting with divine authority, or else he was an impostor, a blasphemer, and a violator of the Law and who had to be called to account.</text>
+              <text fileType="text_in_html">&lt;span&gt;Jesus posed a decisive question to his contemporaries: Either he was acting with divine authority, or else he was an impostor, a blasphemer, and a violator of the Law and who had to be called to account.&lt;/span&gt;</text>
             </message>
           </folder>
           <message name="What are creeds?" id="what-are-creeds" nb="26">
@@ -4503,7 +4620,7 @@
             </message>
             <message name="Why do people deny that God exists, if they can know him by reason?" id="why-do-people-deny-that-god-exists-if-they-can-know-him-by-reason" nb="5">
               <tests>
-                <test input="Why do people deny that God exists, if they can know him by reason?" output="I don&apos;t know why people deny if God can know himself by the reason then he exists." isOk="false"/>
+                <test input="Why do people deny that God exists, if they can know him by reason?" output="I don&apos;t know why people deny if God can know itself by the reason then it exists." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Why do people deny that God exists, if they can know him by reason?"/>
