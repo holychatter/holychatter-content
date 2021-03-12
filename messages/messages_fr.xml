@@ -1139,6 +1139,26 @@
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1" image="evangiles.jpg">
         <folder name="Par thèmes" id="par-themes" nb="1" image="themes.jpg">
+          <folder name="Ascension" id="ascension-par-themes" nb="4" image="ascension.webp">
+            <message name="Jésus est au ciel avec son corps ?" id="jesus-est-au-ciel-avec-son-corps">
+              <tests>
+                <test input="Jésus est au ciel avec son corps ?" output="Non, Jésus est à lieu en tout avec le corps de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 2, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 4, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-sommes-nous-sur-terre&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;He 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-est-au-ciel-avec-son-corps&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+                <test input="Jésus est-il toujours un homme aujourd&apos;hui ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;He 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-est-au-ciel-avec-son-corps&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Pourquoi est-ce important que Jésus reste un homme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;He 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-est-au-ciel-avec-son-corps&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Jésus est au ciel avec son corps ?"/>
+                <trigger value="Jésus est-il toujours un homme aujourd&apos;hui ?"/>
+                <trigger value="Pourquoi est-ce important que Jésus reste un homme ?"/>
+              </triggers>
+              <references>
+                <bible book="Heb" chapter="2" verseBegin="18"/>
+                <bible book="Heb" chapter="4" verseBegin="15"/>
+              </references>
+              <sourceId>theodom</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
           <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2" image="pains.jpg">
             <message name="Multiplication des pains" id="multiplication-des-pains">
               <triggers>
@@ -3444,7 +3464,7 @@
         </message>
         <message name="Où est Dieu ?" id="o-est-dieu">
           <tests>
-            <test input="Où est Dieu ?" output="Dieu est au ciel, sur terre et en tout lieu." outputReferences="&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;"/>
+            <test input="Où est Dieu ?" output="Dieu est au ciel, sur terre et en tout lieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OWnmmNm6SBY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-martyr-actualite-du-christ&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Où est Dieu ?"/>
@@ -3927,6 +3947,20 @@
         <sourceId>bible</sourceId>
         <text>Jésus nous aime gratuitement.&#10;L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
       </message>
+      <message name="Jésus nous sauve comment ?" id="jesus-nous-sauve-comment">
+        <tests>
+          <test input="Jésus nous sauve comment ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zGYYCsO4TZs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-nous-sauve-comment&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Jésus, vrai homme, vrai Dieu, ça change quoi pour notre vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zGYYCsO4TZs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-nous-sauve-comment&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Jésus, vrai homme, vrai Dieu, ça change quoi pour notre vie éternelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zGYYCsO4TZs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-nous-sauve-comment&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Jésus nous sauve comment ?"/>
+          <trigger value="Jésus, vrai homme, vrai Dieu, ça change quoi pour notre vie ?"/>
+          <trigger value="Jésus, vrai homme, vrai Dieu, ça change quoi pour notre vie éternelle ?"/>
+        </triggers>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zGYYCsO4TZs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Jésus qui prie le Père peut-il être Dieu ? - abbé Guy Pagès" id="jesus-qui-prie-le-pere-peut-il-etre-dieu-abbe-guy-pages">
         <tests>
           <test input="Jésus qui prie le Père peut-il être Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LsQH7qVq3IY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 6, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Forum Jésus le Messie&quot; resourceid=&quot;jesus-qui-prie-le-pere-peut-il-etre-dieu-abbe-guy-pages&quot; textlength=&quot;22&quot; /&gt;"/>
@@ -4148,6 +4182,25 @@
         <sourceId>croire</sourceId>
         <text>Jésus est Dieu.</text>
       </message>
+      <message name="Le martyr, actualité du Christ?" id="le-martyr-actualite-du-christ">
+        <tests>
+          <test input="Le martyr, actualité du Christ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OWnmmNm6SBY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-martyr-actualite-du-christ&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Où est Jésus ?" output="Dieu est au ciel, sur terre et en tout lieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OWnmmNm6SBY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-martyr-actualite-du-christ&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Où peut-on rencontrer Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OWnmmNm6SBY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-martyr-actualite-du-christ&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce qu&apos;un martyr ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OWnmmNm6SBY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;le-martyr-actualite-du-christ&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Le martyr, actualité du Christ?"/>
+          <trigger value="Où est Jésus ?"/>
+          <trigger value="Où peut-on rencontrer Jésus ?"/>
+          <trigger value="Qu&apos;est-ce qu&apos;un martyr ?"/>
+        </triggers>
+        <references>
+          <bible book="Acts" chapter="1" verseBegin="8"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OWnmmNm6SBY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <folder name="Les raisons de le croire" id="les-raisons-de-le-croire" nb="3" isHidden="true">
         <message name="L&apos;accomplissement des prophéties de l&apos;Ancien Testament" id="l-accomplissement-des-propheties-de-l-ancien-testament" nb="6">
           <recommendations>
@@ -4276,6 +4329,25 @@
           </planningInfos>
         </message>
       </folder>
+      <message name="On parle du Christ, avant Jésus ?" id="on-parle-du-christ-avant-jesus">
+        <triggers>
+          <trigger value="On parle du Christ, avant Jésus ?"/>
+          <trigger value="Peut-on rencontrer Jésus, dans l’Ancien Testament ?"/>
+          <trigger value="Jésus avant Jésus ?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="24" verseBegin="27"/>
+          <bible book="Rom" chapter="5" verseBegin="14"/>
+          <bible book="Heb" chapter="4" verseBegin="1" verseEnd="11"/>
+          <bible book="Is" chapter="53" verseBegin="7"/>
+          <bible book="Is" chapter="52" verseBegin="13"/>
+          <bible book="Acts" chapter="8" verseBegin="32" verseEnd="35"/>
+          <bible book="Prov" chapter="8" verseBegin="22"/>
+          <bible book="Jn" chapter="1" verseBegin="1" verseEnd="3"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4JlQrmCqVmo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Pourquoi Dieu s’est-il fait homme ?" id="pourquoi-dieu-s-est-il-fait-homme">
         <tests>
           <test input="Pourquoi Dieu s’est fait homme ?" output="Dieu s&apos;est fait homme pour partager tout de notre condition humaine sauf le péché.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/kvBiNB_Di28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 1, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 4, 8-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-s-est-fait-homme&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ga 4, 4-5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ph 2, 5-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;456-482&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;pourquoi-dieu-s-est-il-fait-homme&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -5156,6 +5228,18 @@
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/--XXP9TMk3s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Seule la croix nous sauve ?" id="seule-la-croix-nous-sauve">
+        <tests>
+          <test input="Seule la croix nous sauve ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SnEAmRbpk7g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;seule-la-croix-nous-sauve&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="C&apos;est quoi le salut ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SnEAmRbpk7g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;seule-la-croix-nous-sauve&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Seule la croix nous sauve ?"/>
+          <trigger value="C&apos;est quoi le salut ?"/>
+        </triggers>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SnEAmRbpk7g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
   </folder>
   <folder name="Découverte" id="decouverte" nb="2" image="discover.jpg">
@@ -5568,7 +5652,37 @@
       </message>
     </folder>
     <folder name="Communautés" id="communautes" nb="6" image="communaute.jpeg">
-      <folder name=" Missionnaires de la miséricorde divine" id="missionnaires-de-la-misericorde-divine" image="prise-soutane-missionaire-de-la-misericorde-divine.jpeg">
+      <folder name="Benedictines" id="benedictines" image="benedictines.jpeg">
+        <message name="On fait découvrir Youtube à des bonnes soeurs. Leur avis sur PNL est une masterclass" id="on-fait-decouvrir-youtube-a-des-bonnes-soeurs-leur-avis-sur-pnl-est-une-masterclass">
+          <triggers>
+            <trigger value="Montrez-moi des sœurs qui regardent YouTube !"/>
+          </triggers>
+          <sourceId>mcfly-et-carlito</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uiEFLYlT-WI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Cistercienne" id="cistercienne" image="Boulaur_Communauté_Cté2018.jpg">
+        <message name="JE VAIS CHEZ LES BONNES SOEURS !" id="je-vais-chez-les-bonnes-soeurs">
+          <triggers>
+            <trigger value="Montrez-moi une journée avec des sœurs !"/>
+          </triggers>
+          <sourceId>tibo-inshape</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xaLaoakTiqg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Eucharistein" id="eucharistein" image="eucharistein.jpg">
+        <message name="Témoignage : Père Nicolas Buttet" id="temoignage-pere-nicolas-buttet">
+          <triggers>
+            <trigger value="Montrez-moi un témoignage du Père Nicolas Buttet !"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="25" verseBegin="40"/>
+          </references>
+          <sourceId>kto</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Emx6P2eerO8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Missionnaires de la miséricorde divine" id="missionnaires-de-la-misericorde-divine" image="prise-soutane-missionaire-de-la-misericorde-divine.jpeg">
         <folder name="Chatbot" id="chatbot-missionnaires-de-la-misericorde-divine" isHidden="true">
           <message name="Découvrir missionnaires de la miséricorde divine" id="decouvrir-missionnaires-de-la-misericorde-divine">
             <recommendations>
@@ -5607,18 +5721,6 @@
           </references>
           <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rTq0UJMPyrM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
-      <folder name="Eucharistein" id="eucharistein" image="eucharistein.jpg">
-        <message name="Témoignage : Père Nicolas Buttet" id="temoignage-pere-nicolas-buttet">
-          <triggers>
-            <trigger value="Montrez-moi un témoignage du Père Nicolas Buttet !"/>
-          </triggers>
-          <references>
-            <bible book="Mt" chapter="25" verseBegin="40"/>
-          </references>
-          <sourceId>kto</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Emx6P2eerO8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
     </folder>
@@ -6301,7 +6403,7 @@
         </folder>
       </folder>
       <folder name="Temps liturgiques" id="temps-liturgiques" nb="2" image="temps_liturgique.jpg">
-        <folder name="Ascension" id="ascension" nb="6" image="ascension.jpg">
+        <folder name="Ascension" id="ascension" nb="6" image="ascension.webp">
           <message name="Deux bonnes raisons de fêter l&apos;Ascension" id="deux-bonnes-raisons-de-feter-l-ascension">
             <tests>
               <test input="À quoi sert l&apos;Ascension ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lkl9fnNx1L4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cédric de La Serre&quot; resourceid=&quot;deux-bonnes-raisons-de-feter-l-ascension&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -8766,6 +8868,23 @@
       </message>
     </folder>
     <folder name="L&apos;homme" id="l-homme" image="body.jpg">
+      <message name="L&apos;Humain, 1 + 1 = 1" id="l-humain-1-1-1">
+        <tests>
+          <test input="Quelle est la vision chrétienne de l&apos;âme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4HS7HpNS0yk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Th 5, 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-humain-1-1-1&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="L&apos;homme est une âme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4HS7HpNS0yk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Th 5, 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-humain-1-1-1&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="L&apos;homme est un corps ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4HS7HpNS0yk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Th 5, 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-humain-1-1-1&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle est la vision chrétienne de l&apos;âme ?"/>
+          <trigger value="L&apos;homme est une âme ?"/>
+          <trigger value="L&apos;homme est un corps ?"/>
+        </triggers>
+        <references>
+          <bible book="1 Thess" chapter="5" verseBegin="23"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4HS7HpNS0yk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="L&apos;âme, à quoi ça sert ?" id="l-ame-a-quoi-ca-sert">
         <tests>
           <test input="L&apos;âme, à quoi ça sert ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xQgkXBjaTgo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 2, 7&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-ame-a-quoi-ca-sert&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11143,6 +11262,51 @@
             </message>
           </folder>
           <folder name="Je crois en l&apos;Esprit-Saint" id="je-crois-en-l-esprit-saint" nb="113">
+            <message name="Comment l&apos;Esprit-Saint a-t-il pu agir dans, avec et par Marie ?" id="comment-l-esprit-saint-a-t-il-pu-agir-dans-avec-et-par-marie" nb="117">
+              <tests>
+                <test input="Comment l&apos;Esprit-Saint a-t-il pu agir dans, avec et par Marie ?" output="Marie a été totalement accessible et ouverte à Dieu (Lc 1, 38). Ainsi, par l&apos;opération du Saint-Esprit, elle a pu devenir « La mère de Dieu » et en tant que mère du Christ elle a pu devenir également la mère de tous les chrétiens et même de tous les hommes." outputReferences="&lt;hc_bible ref=&quot;Lc 1, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19, 25-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;721-726&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-l-esprit-saint-a-t-il-pu-agir-dans-avec-et-par-marie&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment l&apos;Esprit-Saint a-t-il pu agir dans, avec et par Marie ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="721" verseEnd="726"/>
+                <bible book="Lk" chapter="1" verseBegin="38"/>
+                <bible book="Jn" chapter="19" verseBegin="25" verseEnd="27"/>
+                <bible book="Lk" chapter="1" verseBegin="35"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Marie a été totalement accessible et ouverte à Dieu (Lc 1, 38). Ainsi, par l&apos;opération du Saint-Esprit, elle a pu devenir « La mère de Dieu » et en tant que mère du Christ elle a pu devenir également la mère de tous les chrétiens et même de tous les hommes.</text>
+            </message>
+            <message name="Que s&apos;est-il passé à la Pentecôte ?" id="que-s-est-il-passe-a-la-pentecote" nb="118">
+              <tests>
+                <test input="Que s&apos;est-il passé à la Pentecôte ?" output="Je ne sais pas ce qu&apos;il s&apos;est passé à la Pentecôte mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Que s&apos;est-il passé à la Pentecôte ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="731" verseEnd="733"/>
+                <bible book="Acts" chapter="2" verseBegin="4" verseEnd="6"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Cinquante jours après sa résurrection, le Seigneur a envoyé du ciel l&apos;Esprit-Saint sur ses disciples. Le temps de l&apos;Église a commencé.</text>
+            </message>
+            <message name="Que signifie : L&apos;Esprit-Saint « a parlé par les prophètes » ?" id="que-signifie-l-esprit-saint-a-parle-par-les-prophetes" nb="116">
+              <tests>
+                <test input="Que signifie : L&apos;Esprit-Saint « a parlé par les prophètes » ?" output="Dans l&apos;Ancien Testament, Dieu avait déjà accordé son Esprit à des hommes et à des femmes de telle sorte qu&apos;ils parlent en son Nom et annoncent au peuple la venue du Messie." outputReferences="&lt;hc_bible ref=&quot;He 1, 1-2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;683-688&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;702-720&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-signifie-l-esprit-saint-a-parle-par-les-prophetes&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Que signifie : L&apos;Esprit-Saint « a parlé par les prophètes » ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="683" verseEnd="688"/>
+                <ccc verseBegin="702" verseEnd="720"/>
+                <bible book="Heb" chapter="1" verseBegin="1" verseEnd="2"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Dans l&apos;Ancien Testament, Dieu avait déjà accordé son Esprit à des hommes et à des femmes de telle sorte qu&apos;ils parlent en son Nom et annoncent au peuple la venue du Messie.</text>
+            </message>
             <message name="Que signifie : je crois en l&apos;Esprit-Saint ?" id="que-signifie-je-crois-en-l-esprit-saint" nb="113">
               <tests>
                 <test input="Que signifie : je crois en l&apos;Esprit-Saint ?" output="Croire en l&apos;Esprit-Saint, c&apos;est l&apos;adorer en tant que Dieu avec le Père et le Fils comme l&apos;une des personnes de la Sainte Trinité « consubstantielle au Père et au fils ». Nous croyons que l&apos;Esprit vient dans le cœur de l&apos;homme pour l&apos;amener comme enfant de Dieu à connaître le Père du Ciel. Animés par l&apos;Esprit de Dieu, nous pouvons changer la face du monde." outputReferences="&lt;hc_bible ref=&quot;Jn 14, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;683-686&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-signifie-je-crois-en-l-esprit-saint&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -11177,6 +11341,9 @@
               <text>Toute l&apos;œuvre de Jésus ne peut se comprendre que comme animée par l&apos;Esprit-Saint. La présence de l&apos;Esprit de Dieu, celui que nous appelons Esprit-Saint, est absolument manifeste dans toute la vie de Jésus.</text>
             </message>
             <message name="Sous quel nom et sous quels signes l&apos;Esprit-Saint se manifeste-t-il ?" id="sous-quel-nom-et-sous-quels-signes-l-esprit-saint-se-manifeste-t-il" nb="115">
+              <tests>
+                <test input="Sous quel nom et sous quels signes l&apos;Esprit-Saint se manifeste-t-il ?" output="Quels sont sous de signes le Saint-Esprit ?" isOk="false"/>
+              </tests>
               <triggers>
                 <trigger value="Sous quel nom et sous quels signes l&apos;Esprit-Saint se manifeste-t-il ?"/>
               </triggers>
@@ -14820,6 +14987,20 @@
       </message>
     </folder>
     <folder name="Dieu le Père" id="dieu-le-pere" nb="1" image="père.jpg">
+      <message name="Le Notre Père comme vous ne l&apos;aviez certainement pas vu !" id="le-notre-pere-comme-vous-ne-l-aviez-certainement-pas-vu">
+        <tests>
+          <test input="Quelle est la structure du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhTsZQN2iw4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 2, 10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 33&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;le-notre-pere-comme-vous-ne-l-aviez-certainement-pas-vu&quot; textlength=&quot;30&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle est la structure du Notre Père ?"/>
+        </triggers>
+        <references>
+          <bible book="Phil" chapter="2" verseBegin="10"/>
+          <bible book="Mt" chapter="6" verseBegin="33"/>
+        </references>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhTsZQN2iw4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Notre Père (1/3) On commence par la fin ?" id="notre-pere-13-on-commence-par-la-fin">
         <tests>
           <test input="Que signifie &quot;Notre Père qui est aux cieux&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-13-on-commence-par-la-fin&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -15012,6 +15193,23 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RqprP5766g4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Des icônes pour rencontrer Jésus ?" id="des-icones-pour-rencontrer-jesus">
+        <tests>
+          <test input="Peut-on rencontrer Jésus avec des icônes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w8h7h4vhOb4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Col 1, 15-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 7, 1-2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;des-icones-pour-rencontrer-jesus&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Peut-on rencontrer Jésus avec des icônes ?"/>
+        </triggers>
+        <references>
+          <bible book="Col" chapter="1" verseBegin="15" verseEnd="20"/>
+          <bible book="Jn" chapter="1" verseBegin="3"/>
+          <bible book="Jn" chapter="8" verseBegin="12"/>
+          <bible book="Mt" chapter="7" verseBegin="1" verseEnd="2"/>
+          <bible book="Ex" chapter="3" verseBegin="14"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w8h7h4vhOb4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Jeûne" id="jene" nb="1" image="jeune.jpeg">
@@ -15751,8 +15949,8 @@
             </message>
             <message name="SDF : Que faire ? Des exemples concrets pour créer du lien" id="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien" nb="4">
               <tests>
-                <test input="Comment faire ?" output="Faire lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire la Bible, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, essayer de faire ce que Parole me dit, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
-                <test input="Que faire ?" output="Lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire la Bible, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, essayer de faire ce que Parole me dit, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+                <test input="Comment faire ?" output="Faire lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire la Bible, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, réveiller de nouveau à la vie par la puissance de son Père, essayer de faire ce que Parole me dit, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-s-est-il-fait-baptiser-par-jean-bien-qu-il-ft-sans-peche&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+                <test input="Que faire ?" output="Lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire la Bible, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, réveiller de nouveau à la vie par la puissance de son Père, essayer de faire ce que Parole me dit, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur mais les personnes surtout de la rue, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-s-est-il-fait-baptiser-par-jean-bien-qu-il-ft-sans-peche&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
                 <test input="Que faire pour un SDF par grand froid ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;"/>
                 <test input="Quel numéro faire pour le demande d&apos;hébergement ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;"/>
                 <test input="Que faire si un SDF a besoin de soins médicaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;"/>
