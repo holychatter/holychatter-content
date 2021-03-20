@@ -5642,6 +5642,24 @@
   </folder>
   <folder name="Eglise" id="eglise" nb="8" image="church.jpg">
     <folder name="Art" id="art" nb="7" image="cathedrale_liverpool.jpeg">
+      <message name="Dieu a-t-Il interdit les statues ?" id="dieu-a-t-il-interdit-les-statues">
+        <tests>
+          <test input="Dieu a-t-Il interdit les statues ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YGdD8qqyBLo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Col 1, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 25, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Nb 21, 8-9&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 20, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;dieu-a-t-il-interdit-les-statues&quot; textlength=&quot;26&quot; /&gt;"/>
+          <test input="Dieu a-t-Il interdit les images ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YGdD8qqyBLo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Col 1, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 25, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Nb 21, 8-9&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 20, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;dieu-a-t-il-interdit-les-statues&quot; textlength=&quot;26&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Dieu a-t-Il interdit les statues ?"/>
+          <trigger value="Dieu a-t-Il interdit les images ?"/>
+        </triggers>
+        <references>
+          <bible book="Col" chapter="1" verseBegin="15"/>
+          <bible book="Ex" chapter="25" verseBegin="18"/>
+          <bible book="Num" chapter="21" verseBegin="8" verseEnd="9"/>
+          <bible book="Ex" chapter="20" verseBegin="4"/>
+        </references>
+        <sourceId>pere-herve-marie-hignard</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YGdD8qqyBLo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Mystère des saints sépulcres alsaciens" id="mystere-des-saints-sepulcres-alsaciens">
         <references>
           <bible book="Jn" chapter="19" verseBegin="34" linkFromCorpus="no"/>
@@ -8606,6 +8624,19 @@
           <text>Toute l&apos;Ecriture est inspirée par Dieu.</text>
         </message>
       </folder>
+      <message name="Comment bien comprendre 1Tim2,5 qui dit qu&apos;il y a un seul médiateur entre Dieu et les hommes ?" id="comment-bien-comprendre-1tim25-qui-dit-qu-il-y-a-un-seul-mediateur-entre-dieu-et-les-hommes">
+        <triggers>
+          <trigger value="Jésus est-il le seul médiateur entre Dieu et les hommes ?"/>
+        </triggers>
+        <references>
+          <bible book="1 Tim" chapter="2" verseBegin="5"/>
+          <bible book="Lk" chapter="10" verseBegin="16"/>
+          <bible book="Jn" chapter="20" verseBegin="23"/>
+          <bible book="Mk" chapter="2" verseBegin="2" verseEnd="5"/>
+        </references>
+        <sourceId>pere-herve-marie-hignard</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZmQyxAZKoh4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Dei Verbum" id="dei-verbum">
         <triggers>
           <trigger value="Qu&apos;est-ce que c&apos;est Dei Verbum ?"/>
@@ -14357,6 +14388,18 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YwGUR__180U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Vénérer les images de la Vierge Marie et des saints, est-ce de l&apos;idolâtrie ?" id="venerer-les-images-de-la-vierge-marie-et-des-saints-est-ce-de-l-idolatrie">
+        <triggers>
+          <trigger value="Vénérer les images de la Vierge Marie, est-ce de l&apos;idolâtrie ?"/>
+          <trigger value="Vénérer les images des saints, est-ce de l´idolâtrie ?"/>
+        </triggers>
+        <references>
+          <bible book="Lev" chapter="26" verseBegin="1"/>
+          <bible book="Jn" chapter="14" verseBegin="9"/>
+        </references>
+        <sourceId>kto</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/97DwZ9VhDbw?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Padre Pio" id="padre-pio" nb="1" image="padre-pio.jpg">
