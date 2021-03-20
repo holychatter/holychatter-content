@@ -5910,11 +5910,9 @@
       <message name="Réforme et Contre-Réforme" id="reforme-et-contre-reforme" nb="4">
         <tests>
           <test input="Qu&apos;est-ce que la Réforme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PTpTiZfAZ2o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;reforme-et-contre-reforme&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Qui est Luther ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PTpTiZfAZ2o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;reforme-et-contre-reforme&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Qu&apos;est-ce que la Réforme ?"/>
-          <trigger value="Qui est Luther ?"/>
         </triggers>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PTpTiZfAZ2o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -7879,6 +7877,37 @@
         <sourceId>padreblog</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Qlz4-zlqUfY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Martin Luther, qui est-il ? Un fondateur, un réformateur, un homme de Dieu ou un déformateur....?" id="martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur">
+        <tests>
+          <test input="Qui est Martin Luther ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 5, 25-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 3, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur&quot; textlength=&quot;26&quot; /&gt;"/>
+          <test input="Martin Luther est un fondateur, un réformateur, un homme de Dieu ou un déformateur....?" output="Saint Joseph est aussi un fondateur, un réformateur, un homme de Dieu ou un déformateur.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 5, 25-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 3, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur&quot; textlength=&quot;26&quot; /&gt;" isOk="false"/>
+          <test input="Qui est Calvin ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 5, 25-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 3, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur&quot; textlength=&quot;26&quot; /&gt;"/>
+          <test input="Qui est Zwingli ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 5, 25-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 3, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur&quot; textlength=&quot;26&quot; /&gt;"/>
+          <test input="Qui est Philippe de Hesse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 5, 25-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 3, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur&quot; textlength=&quot;26&quot; /&gt;"/>
+          <test input="Qui est Luther ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 17, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 3, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 5, 25-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 3, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;martin-luther-qui-est-il-un-fondateur-un-reformateur-un-homme-de-dieu-ou-un-deformateur&quot; textlength=&quot;26&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Martin Luther ?"/>
+          <trigger value="Qui est Luther ?"/>
+          <trigger value="Martin Luther est un fondateur, un réformateur, un homme de Dieu ou un déformateur....?"/>
+          <trigger value="Qui est Calvin ?"/>
+          <trigger value="Qui est Zwingli ?"/>
+          <trigger value="Qui est Philippe de Hesse ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="17" verseBegin="21"/>
+          <bible book="Mt" chapter="16" verseBegin="18"/>
+          <bible book="1 Tim" chapter="3" verseBegin="15"/>
+          <bible book="Eph" chapter="5" verseBegin="25" verseEnd="27"/>
+          <bible book="Mt" chapter="28" verseBegin="20" linkFromCorpus="no"/>
+          <bible book="Rom" chapter="3" verseBegin="28"/>
+          <bible book="Jas" chapter="2" verseBegin="18"/>
+          <bible book="1 Cor" chapter="13" verseBegin="2" linkFromCorpus="no"/>
+          <bible book="Gal" chapter="5" verseBegin="6"/>
+        </references>
+        <sourceId>pere-herve-marie-hignard</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E6cl79JpI88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Pourquoi est-ce important d’avoir des prêtres et des communautés religieuses?" id="pourquoi-est-ce-important-d-avoir-des-pretres-et-des-communautes-religieuses">
         <tests>
           <test input="Pourquoi est-ce important d’avoir des prêtres et des communautés religieuses ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FjoqzdHPxhY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 12&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;pourquoi-est-ce-important-d-avoir-des-pretres-et-des-communautes-religieuses&quot; textlength=&quot;20&quot; /&gt;"/>
@@ -8001,6 +8030,19 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Un homme peut-il fonder une église ? L&apos;Eglise vient elle de Dieu ou d&apos;un homme ?" id="un-homme-peut-il-fonder-une-eglise-l-eglise-vient-elle-de-dieu-ou-d-un-homme">
+        <triggers>
+          <trigger value="Un homme peut-il fonder une église ?"/>
+          <trigger value="L&apos;Eglise vient elle de Dieu ou d&apos;un homme ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="16" verseBegin="18"/>
+          <bible book="Eph" chapter="5" verseBegin="25" verseEnd="26"/>
+          <bible book="1 Tim" chapter="3" verseBegin="15"/>
+        </references>
+        <sourceId>pere-herve-marie-hignard</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uRgKk_m5tIc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
   </folder>
@@ -9910,6 +9952,24 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ISjylsNJFqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Théorie du genre, sexualité, procréation et distinction amour sensible et spirituel" id="theorie-du-genre-sexualite-procreation-et-distinction-amour-sensible-et-spirituel">
+        <tests>
+          <test input="Qu&apos;est-ce que la théorie du genre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gGTV7vD-P0A?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 3-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;theorie-du-genre-sexualite-procreation-et-distinction-amour-sensible-et-spirituel&quot; textlength=&quot;26&quot; /&gt;"/>
+          <test input="Qu&apos;est-ce que l&apos;amour vrai ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gGTV7vD-P0A?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 3-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Hervé-Marie Hignard&quot; resourceid=&quot;theorie-du-genre-sexualite-procreation-et-distinction-amour-sensible-et-spirituel&quot; textlength=&quot;26&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;est-ce que la théorie du genre ?"/>
+          <trigger value="Qu&apos;est-ce que l&apos;amour vrai ?"/>
+        </triggers>
+        <references>
+          <bible book="Gen" chapter="1" verseBegin="22"/>
+          <bible book="Gen" chapter="2" verseBegin="24"/>
+          <bible book="Mt" chapter="19" verseBegin="3" verseEnd="6"/>
+          <bible book="1 Cor" chapter="7" verseBegin="39" verseEnd="40"/>
+        </references>
+        <sourceId>pere-herve-marie-hignard</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gGTV7vD-P0A?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Vie après la mort" id="vie-apres-la-mort" image="vie_après_la_mort.jpg">
