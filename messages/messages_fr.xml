@@ -2111,6 +2111,46 @@
       </folder>
     </folder>
     <folder name="À propos" id="a-propos-bible" image="about.png">
+      <folder name="Chatbot" id="chatbot-a-propos-4" isHidden="true">
+        <message name="La Bible donne le moyen d&apos;accéder au bonheur" id="la-bible-donne-le-moyen-d-acceder-au-bonheur">
+          <references>
+            <site url="https://fr.aleteia.org/2018/08/11/dix-versets-bibliques-pour-trouver-le-bonheur"/>
+            <bible book="Mt" chapter="5" verseBegin="1" verseEnd="16"/>
+            <bible book="Lk" chapter="6" verseBegin="20" verseEnd="38"/>
+            <bible book="Prov" chapter="16" verseBegin="20"/>
+            <bible book="Ps" chapter="118" verseBegin="1" verseEnd="2"/>
+            <bible book="Prov" chapter="3" verseBegin="13"/>
+            <bible book="Ps" chapter="1" verseBegin="1"/>
+            <bible book="Prov" chapter="13" verseBegin="20" verseEnd="21"/>
+            <bible book="Gal" chapter="6" verseBegin="4"/>
+            <bible book="Jn" chapter="15" verseBegin="10" verseEnd="11"/>
+            <bible book="Phil" chapter="4" verseBegin="4"/>
+            <bible book="Lk" chapter="10" verseBegin="23"/>
+            <bible book="Acts" chapter="20" verseBegin="35"/>
+            <bible book="1 Pet" chapter="3" verseBegin="10"/>
+            <bible book="Ps" chapter="22" verseBegin="6"/>
+            <bible book="Ps" chapter="56" verseBegin="8" verseEnd="12"/>
+          </references>
+          <sourceId>aleteia</sourceId>
+          <text>La Bible donne le moyen d&apos;accéder au bonheur en suivant Jésus.</text>
+        </message>
+        <message name="La Bible est le Best-Seller mondial n°1." id="la-bible-est-le-best-seller-mondial-n1">
+          <tests>
+            <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="&lt;hc_source name=&quot;France 2&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; url=&quot;https://www.youtube.com/watch?v=eRHVCQQHPCk&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;France 2&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; url=&quot;https://www.youtube.com/watch?v=eRHVCQQHPCk&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;la-bible-qu-est-ce-que-c-est&quot; textlength=&quot;12&quot; /&gt;"/>
+          </tests>
+          <sourceId>france-2</sourceId>
+          <sourceUrl>https://www.youtube.com/watch?v=eRHVCQQHPCk</sourceUrl>
+          <text>La Bible est le Best-Seller mondial n°1.</text>
+        </message>
+        <message name="La Bible raconte..." id="la-bible-raconte">
+          <tests>
+            <test input="Qu&apos;est-ce que la Bible raconte ?" output="La Bible raconte qui est Dieu, notre histoire, la souffrance qui est présent dans notre coeur et notre soif de vivre et d&apos;être heureux." outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-bible-raconte&quot; textlength=&quot;5&quot; /&gt;"/>
+          </tests>
+          <sourceId>bible</sourceId>
+          <text>La Bible raconte qui est Dieu.&#10;La Bible raconte notre histoire.&#10;La Bible raconte la souffrance qui est présente dans notre coeur.&#10;La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
+        </message>
+      </folder>
       <message name="Comment la Bible est-elle structurée ?" id="comment-la-bible-est-elle-structuree">
         <tests>
           <test input="Comment la Bible est-elle structurée ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/W5qUev-Zofw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;121-130&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;140&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-la-bible-est-elle-structuree&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -2229,28 +2269,6 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jC0LDU8OlZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <message name="La Bible donne le moyen d&apos;accéder au bonheur" id="la-bible-donne-le-moyen-d-acceder-au-bonheur">
-        <references>
-          <site url="https://fr.aleteia.org/2018/08/11/dix-versets-bibliques-pour-trouver-le-bonheur"/>
-          <bible book="Mt" chapter="5" verseBegin="1" verseEnd="16"/>
-          <bible book="Lk" chapter="6" verseBegin="20" verseEnd="38"/>
-          <bible book="Prov" chapter="16" verseBegin="20"/>
-          <bible book="Ps" chapter="118" verseBegin="1" verseEnd="2"/>
-          <bible book="Prov" chapter="3" verseBegin="13"/>
-          <bible book="Ps" chapter="1" verseBegin="1"/>
-          <bible book="Prov" chapter="13" verseBegin="20" verseEnd="21"/>
-          <bible book="Gal" chapter="6" verseBegin="4"/>
-          <bible book="Jn" chapter="15" verseBegin="10" verseEnd="11"/>
-          <bible book="Phil" chapter="4" verseBegin="4"/>
-          <bible book="Lk" chapter="10" verseBegin="23"/>
-          <bible book="Acts" chapter="20" verseBegin="35"/>
-          <bible book="1 Pet" chapter="3" verseBegin="10"/>
-          <bible book="Ps" chapter="22" verseBegin="6"/>
-          <bible book="Ps" chapter="56" verseBegin="8" verseEnd="12"/>
-        </references>
-        <sourceId>aleteia</sourceId>
-        <text>La Bible donne le moyen d&apos;accéder au bonheur en suivant Jésus.</text>
-      </message>
       <message name="La Bible en 3 minutes" id="la-bible-en-3-minutes">
         <tests>
           <test input="Que contient la Bible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2WxfSiRvaBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-bible-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -2262,15 +2280,6 @@
         </triggers>
         <sourceId>padre-dk</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2WxfSiRvaBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="La Bible est le Best-Seller mondial n°1." id="la-bible-est-le-best-seller-mondial-n1">
-        <tests>
-          <test input="La Bible est le Best-Seller mondial n°1" output="Oui, je sais que la Bible est le Best-Seller n°1 mondial." outputReferences="&lt;hc_source name=&quot;France 2&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; url=&quot;https://www.youtube.com/watch?v=eRHVCQQHPCk&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que c&apos;est la Bible ?" output="La Bible est parole de Dieu, une parole humaine et le Best-Seller n°1 mondial.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;France 2&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; url=&quot;https://www.youtube.com/watch?v=eRHVCQQHPCk&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;la-bible-qu-est-ce-que-c-est&quot; textlength=&quot;12&quot; /&gt;"/>
-        </tests>
-        <sourceId>france-2</sourceId>
-        <sourceUrl>https://www.youtube.com/watch?v=eRHVCQQHPCk</sourceUrl>
-        <text>La Bible est le Best-Seller mondial n°1.</text>
       </message>
       <message name="La Bible me dit-elle ce que je dois faire ?" id="la-bible-me-dit-elle-ce-que-je-dois-faire">
         <tests>
@@ -2285,14 +2294,10 @@
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G0ROZUh-fzw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="La Bible raconte..." id="la-bible-raconte">
-        <tests>
-          <test input="Qu&apos;est-ce que la Bible raconte ?" output="La Bible raconte qui est Dieu, notre histoire, la souffrance qui est présent dans notre coeur et notre soif de vivre et d&apos;être heureux." outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-bible-raconte&quot; textlength=&quot;5&quot; /&gt;"/>
-        </tests>
-        <sourceId>bible</sourceId>
-        <text>La Bible raconte qui est Dieu.&#10;La Bible raconte notre histoire.&#10;La Bible raconte la souffrance qui est présente dans notre coeur.&#10;La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
-      </message>
       <message name="La Bible, qu&apos;est-ce que c&apos;est ?" id="la-bible-qu-est-ce-que-c-est">
+        <tests>
+          <test input="Qu’est-ce que c’est la Bible ?" output="La Bible est le Best-Seller n°1 mondial, parole de Dieu et une parole humaine.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;France 2&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; url=&quot;https://www.youtube.com/watch?v=eRHVCQQHPCk&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;la-bible-qu-est-ce-que-c-est&quot; textlength=&quot;12&quot; /&gt;"/>
+        </tests>
         <triggers>
           <trigger value="Qu’est-ce que c’est la Bible ?"/>
         </triggers>
@@ -2300,6 +2305,9 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pYYIYRhlVoI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Que faire quand on s&apos;ennuie? Partie II (la Bible)" id="que-faire-quand-on-s-ennuie-partie-ii-la-bible">
+        <tests>
+          <test input="Que faire quand on s&apos;ennuie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Z6Ti_ZTGsAY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 1, 1-15&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;que-faire-quand-on-s-ennuie-partie-ii-la-bible&quot; textlength=&quot;36&quot; /&gt;"/>
+        </tests>
         <triggers>
           <trigger value="Que faire quand on s&apos;ennuie ?"/>
         </triggers>
