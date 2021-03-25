@@ -1139,7 +1139,33 @@
       </folder>
       <folder name="Évangiles" id="evangiles" nb="1" image="evangiles.jpg">
         <folder name="Par thèmes" id="par-themes" nb="1" image="themes.jpg">
-          <folder name="Ascension" id="ascension-par-themes" nb="4" image="ascension.webp">
+          <folder name="Annonciation" id="annonciation" nb="1" image="annonciation-de-l-ange-a-marie.jpg">
+            <message name="Annonciation" id="annonciation">
+              <tests>
+                <test input="Qu&apos;est-ce que l&apos;annonciation ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UUtUyQsMKQo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 26-38&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;annonciation&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que l&apos;annonciation ?"/>
+              </triggers>
+              <references>
+                <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38"/>
+              </references>
+              <sourceId>croire</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UUtUyQsMKQo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Quand fête-t-on l&apos;annonciation ?" id="quand-fete-t-on-l-annonciation">
+              <tests>
+                <test input="Quand fête-t-on l’annonciation ?" output="On fête l&apos;annonciation le 25 mars." outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;quand-fete-t-on-l-annonciation&quot; url=&quot;https://www.youtube.com/watch?v=UUtUyQsMKQo&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quand fête-t-on l’annonciation ?"/>
+              </triggers>
+              <sourceId>croire</sourceId>
+              <sourceUrl>https://www.youtube.com/watch?v=UUtUyQsMKQo</sourceUrl>
+              <text>On fête l&apos;annonciation le 25 mars.</text>
+            </message>
+          </folder>
+          <folder name="Ascension" id="ascension-par-themes" nb="5" image="ascension.webp">
             <message name="Jésus est au ciel avec son corps ?" id="jesus-est-au-ciel-avec-son-corps">
               <tests>
                 <test input="Jésus est au ciel avec son corps ?" output="Non, Jésus est à lieu en tout avec le corps de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 2, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 4, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-sommes-nous-sur-terre&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;He 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-est-au-ciel-avec-son-corps&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
@@ -1159,7 +1185,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Multiplication des pains" id="multiplication-des-pains" nb="2" image="pains.jpg">
+          <folder name="Multiplication des pains" id="multiplication-des-pains" nb="3" image="pains.jpg">
             <message name="Multiplication des pains" id="multiplication-des-pains">
               <triggers>
                 <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
@@ -1171,7 +1197,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7z_4koc9vrY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Paraboles" id="paraboles" nb="1" image="paraboles.jpg">
+          <folder name="Paraboles" id="paraboles" nb="2" image="paraboles.jpg">
             <folder name="L&apos;ami importun" id="l-ami-importun" nb="1" isHidden="true">
               <message name="Lire la parabole de l&apos;ami importun" id="lire-la-parabole-de-l-ami-importun">
                 <tests>
@@ -1756,7 +1782,7 @@
               </message>
             </folder>
           </folder>
-          <folder name="Résurrection" id="resurrection" nb="3" image="resurrection.jpg">
+          <folder name="Résurrection" id="resurrection" nb="4" image="resurrection.jpg">
             <folder name="Chatbot" id="chatbot-resurrection" isHidden="true">
               <message name="Jésus est réssuscité" id="jesus-est-ressuscite">
                 <tests>
@@ -15941,6 +15967,23 @@
             <goalsToAdd value="louange-ecouter"/>
           </goalsToAdd>
         </planningInfos>
+      </message>
+      <message name="Saint-Esprit (Voici mon coeur) - Temps de Louange &amp; Méditation" id="saint-esprit-voici-mon-coeur-temps-de-louange-meditation">
+        <tests>
+          <test input="Je veux avoir un temps de louange avec l&apos;Esprit Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Je veux avoir un temps de prière avec l&apos;Esprit Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Je veux avoir un temps de prière sur les tentations de Jésus au désert !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Je veux avoir un temps de louange avec l&apos;Esprit Saint !"/>
+          <trigger value="Je veux avoir un temps de prière avec l&apos;Esprit Saint !"/>
+          <trigger value="Je veux avoir un temps de prière sur les tentations de Jésus au désert !"/>
+        </triggers>
+        <references>
+          <bible book="Mk" chapter="1" verseBegin="12" verseEnd="15"/>
+        </references>
+        <sourceId>glorious</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Marie" id="marie-prieres" nb="1" image="marie.jpg">
