@@ -4381,6 +4381,36 @@
               <sourceId>youcat</sourceId>
               <text>All baptized persons belong to the Church of Jesus Christ. That is why also those Christians who find themselves separated from the full communion of the Catholic Church are rightly called Christians and are therefore our sisters and brothers.</text>
             </message>
+            <message name="How does the Church view other religions?" id="how-does-the-church-view-other-religions" nb="136">
+              <tests>
+                <test input="How does the Church view other religions?" output="The Church respects everything in other religions that is good and true. She respects and promotes freedom of religion as a human right. Yet she knows that Jesus Christ is the sole redeemer of all mankind. He alone is “the way, and the truth, and the life” (Jn 14:6)." outputReferences="&lt;hc_bible ref=&quot;Jn 14: 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;841-845&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;846-848&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-does-the-church-view-other-religions&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="How does the Church view other religions?"/>
+              </triggers>
+              <references>
+                <bible book="Jn" chapter="14" verseBegin="6"/>
+                <ccc verseBegin="841" verseEnd="845"/>
+                <ccc verseBegin="846" verseEnd="848"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The Church respects everything in other religions that is good and true. She respects and promotes freedom of religion as a human right. Yet she knows that Jesus Christ is the sole redeemer of all mankind. He alone is “the way, and the truth, and the life” (Jn 14:6).</text>
+            </message>
+            <message name="How is the one, holy, catholic, and apostolic Church structured?" id="how-is-the-one-holy-catholic-and-apostolic-church-structured" nb="138">
+              <tests>
+                <test input="How is the one, holy, catholic, and apostolic Church structured?" output="I don&apos;t know how 1 is the holy." isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="How is the one, holy, catholic, and apostolic Church structured?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="871" verseEnd="876"/>
+                <ccc verseBegin="934"/>
+                <ccc verseBegin="935"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>In the Church there are the laity and clerics. As children of God, they are of equal dignity. They have equally important but different tasks. The mission of the laity is to direct the whole world toward the kingdom of God. In addition, there are the ordained ministers (clerics), who have the duties of ecclesiastical governance, teaching, and sanctification. In both states of life, there are Christians who place themselves at God’s disposal in a special way through celibacy, poverty, and obedience (for example, consecrated religious).</text>
+            </message>
             <message name="What is the relation between the Church and the Jews?" id="what-is-the-relation-between-the-church-and-the-jews" nb="135">
               <tests>
                 <test input="What is the relation between the Church and the Jews?" output="Jews are the “older brethren” of Christians, because God loved them first and spoke to them first. Jesus Christ as man is a Jew, and this fact unites us. The Church recognizes in him the Son of the living God, and this fact separates us. In awaiting the final coming of the Messiah we are one." outputReferences="&lt;hc_bible ref=&quot;Mt 5: 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;839-840&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-relation-between-the-church-and-the-jews&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -4437,6 +4467,21 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Just as there is only one Christ, there can be only one Body of Christ, only one Bride of Christ, and therefore only one Church of Jesus Christ. He is the Head, the Church is the Body.&#10;Together they form the “whole Christ” (St. Augustine). Just as the body has many members yet is one, so too the one Church consists of and is made up of many particular churches (dioceses). Together they form the whole Christ.</text>
+            </message>
+            <message name="Why is the Church called apostolic?" id="why-is-the-church-called-apostolic" nb="137">
+              <tests>
+                <test input="Why is the Church called apostolic?" output="The Church is called apostolic because she was founded by the apostles, holds fast to their Tradition, and is governed by their successors." outputReferences="&lt;hc_bible ref=&quot;Mt 10: 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;857-860&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;869-877&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-the-church-called-apostolic&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why is the Church called apostolic?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="857" verseEnd="860"/>
+                <ccc verseBegin="869" verseEnd="877"/>
+                <bible book="Mt" chapter="10" verseBegin="2" verseEnd="4"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The Church is called apostolic because she was founded by the apostles, holds fast to their Tradition, and is governed by their successors.</text>
             </message>
             <message name="Why is the Church called catholic?" id="why-is-the-church-called-catholic" nb="133">
               <tests>
