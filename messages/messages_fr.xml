@@ -3641,12 +3641,15 @@
           <tests>
             <test input="Est-ce que Jésus est le fils de Dieu ?" output="Oui, Jésus est le fils de Dieu." outputReferences="&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;jesus-est-le-fils-de-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
           </tests>
+          <triggers>
+            <trigger value="Est-ce que Jésus est le fils de Dieu ?"/>
+          </triggers>
           <references>
             <ccc verseBegin="432"/>
             <site url="https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu"/>
           </references>
           <sourceId>croire</sourceId>
-          <text>Jésus est le fils de Dieu.</text>
+          <text>Oui, Jésus est le fils de Dieu.</text>
         </message>
         <message name="Jésus est vrai Dieu et vrai homme." id="jesus-est-vrai-dieu-et-vrai-homme">
           <sourceId>batir-sur-le-roc</sourceId>
@@ -7818,12 +7821,10 @@
           <tests>
             <test input="Je n&apos;ai pas besoin d&apos;aller voir un prêtre, je parle directement à Dieu." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zkrXE1IjSj0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-confession-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Je ne ressens pas le besoin d&apos;aller me confesser." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zkrXE1IjSj0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-confession-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
-            <test input="Pourquoi se confesser ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zkrXE1IjSj0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-confession-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Qu&apos;est-ce que la confession change ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zkrXE1IjSj0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-confession-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
             <test input="Pourquoi ne pas parler à Dieu directement au lieu d&apos;aller se confesser ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zkrXE1IjSj0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;la-confession-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
           </tests>
           <triggers>
-            <trigger value="Pourquoi se confesser ?"/>
             <trigger value="Qu&apos;est-ce que la confession change ?"/>
             <trigger value="Pourquoi ne pas parler à Dieu directement au lieu d&apos;aller se confesser ?"/>
             <trigger value="Je n&apos;ai pas besoin d&apos;aller voir un prêtre, je parle directement à Dieu."/>
