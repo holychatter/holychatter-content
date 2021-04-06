@@ -4381,6 +4381,21 @@
               <sourceId>youcat</sourceId>
               <text>All baptized persons belong to the Church of Jesus Christ. That is why also those Christians who find themselves separated from the full communion of the Catholic Church are rightly called Christians and are therefore our sisters and brothers.</text>
             </message>
+            <message name="Can bishops act and teach against the Pope, or the Pope against the bishops?" id="can-bishops-act-and-teach-against-the-pope-or-the-pope-against-the-bishops" nb="142">
+              <tests>
+                <test input="Can bishops act and teach against the Pope ?" output="Bishops cannot act and teach against the Pope, but only with him. In contrast, the Pope can make decisions in clearly defined cases even without the approval of the bishops." outputReferences="&lt;hc_ccc ref=&quot;880-890&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-bishops-act-and-teach-against-the-pope-or-the-pope-against-the-bishops&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Can the Pope act and teach against the bishops ?" output="Bishops cannot act and teach against the Pope, but only with him. In contrast, the Pope can make decisions in clearly defined cases even without the approval of the bishops." outputReferences="&lt;hc_ccc ref=&quot;880-890&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-bishops-act-and-teach-against-the-pope-or-the-pope-against-the-bishops&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Can bishops act and teach against the Pope ?"/>
+                <trigger value="Can the Pope act and teach against the bishops ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="880" verseEnd="890"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Bishops cannot act and teach against the Pope, but only with him. In contrast, the Pope can make decisions in clearly defined cases even without the approval of the bishops.</text>
+            </message>
             <message name="How does the Church view other religions?" id="how-does-the-church-view-other-religions" nb="136">
               <tests>
                 <test input="How does the Church view other religions?" output="The Church respects everything in other religions that is good and true. She respects and promotes freedom of religion as a human right. Yet she knows that Jesus Christ is the sole redeemer of all mankind. He alone is “the way, and the truth, and the life” (Jn 14:6)." outputReferences="&lt;hc_bible ref=&quot;Jn 14: 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;841-845&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;846-848&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-does-the-church-view-other-religions&quot; textlength=&quot;6&quot; /&gt;"/>
