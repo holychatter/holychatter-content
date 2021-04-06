@@ -6727,6 +6727,17 @@
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fGRQHJ6ysMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <folder name="Chatbot" id="chatbot-paques" isHidden="true">
+            <message name="C&apos;est quoi Pâques ?" id="c-est-quoi-paques">
+              <tests>
+                <test input="C&apos;est quoi Pâques ?" output="Pâques c&apos;est la commémoration de la résurrection de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S_lvTV36xdg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;c-est-quoi-paques&quot; url=&quot;https://fr.wikipedia.org/wiki/P%C3%A2ques&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-paques&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="C&apos;est quoi Pâques ?"/>
+              </triggers>
+              <sourceId>wikipedia</sourceId>
+              <sourceUrl>https://fr.wikipedia.org/wiki/P%C3%A2ques</sourceUrl>
+              <text>Pâques c&apos;est la commémoration de la résurrection de Jésus.</text>
+            </message>
             <message name="Christ est ressuscité !" id="christ-est-ressuscite">
               <tests>
                 <test input="Christ est ressuscité" output="Il est vraiment ressuscité !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u-q4KwE1VxY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://www.etoilenotredame.org/actualites/christ-est-ressuscite-il-est-vraiment-ressuscite-&quot; textlength=&quot;92&quot; /&gt;&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;christ-est-ressuscite&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Fraternités monastiques de Jérusalem&quot; resourceid=&quot;il-est-vraiment-ressuscite-chant-des-fraternites-monastiques-de-jerusalem&quot; textlength=&quot;38&quot; /&gt;"/>
@@ -6749,7 +6760,7 @@
                 <site url="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
               </references>
               <sourceId>eglise-catholique-en-france</sourceId>
-              <text>La fête la plus importante des chrétiens est Pâques.</text>
+              <text>Pâques est la fête la plus importante des chrétiens.</text>
             </message>
           </folder>
           <message name="Le Triduum pascal - Pâques" id="le-triduum-pascal-paques">
@@ -6795,6 +6806,21 @@
             <sourceId>webtele-ecdq</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ToRVjseNv20?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Pâques !" id="paques">
+            <tests>
+              <test input="C’est quoi Pâques pour vous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vAbLV1QVOtk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Os 6, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jon 2, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 24-32&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;paques&quot; textlength=&quot;19&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C’est quoi Pâques pour vous ?"/>
+            </triggers>
+            <references>
+              <bible book="Hos" chapter="6" verseBegin="2"/>
+              <bible book="Jon" chapter="2" verseBegin="1"/>
+              <bible book="Acts" chapter="2" verseBegin="24" verseEnd="32"/>
+            </references>
+            <sourceId>le-catho-de-service</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vAbLV1QVOtk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Qu&apos;est ce qu&apos;on fête à Pâques?" id="qu-est-ce-qu-on-fete-a-paques">
             <tests>
               <test input="Qu&apos;est ce qu&apos;on fête à pâques?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qprAxp2-IyM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Pratiks&quot; resourceid=&quot;qu-est-ce-qu-on-fete-a-paques&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -6820,6 +6846,18 @@
             </references>
             <sourceId>retraite-dans-la-ville</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kdCnCB4I5Ww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Qu&apos;est-ce que la fête de Pâques ?" id="qu-est-ce-que-la-fete-de-paques">
+            <tests>
+              <test input="Qu&apos;est-ce que la fête de Pâques ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S_lvTV36xdg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-paques&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="C&apos;est quoi Pâques ?" output="Pâques c&apos;est la commémoration de la résurrection de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S_lvTV36xdg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;c-est-quoi-paques&quot; url=&quot;https://fr.wikipedia.org/wiki/P%C3%A2ques&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;qu-est-ce-que-la-fete-de-paques&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que la fête de Pâques ?"/>
+              <trigger value="C&apos;est quoi Pâques ?"/>
+            </triggers>
+            <sourceId>croire</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/S_lvTV36xdg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
         <folder name="Temps ordinaire" id="temps-ordinaire" nb="1" image="temps_ordiaire.jpeg">
