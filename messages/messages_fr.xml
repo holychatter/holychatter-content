@@ -6025,6 +6025,27 @@
             <sourceId>aelf</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hVsVyo3IxkA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Alléluia : l&apos;histoire mystérieuse d’un mot qui donne (vraiment) la pêche" id="alleluia-l-histoire-mysterieuse-d-un-mot-qui-donne-vraiment-la-peche">
+            <triggers>
+              <trigger value="Qu&apos;est-ce que ça veut dire alléluia ?"/>
+            </triggers>
+            <references>
+              <bible book="Mt" chapter="26" verseBegin="30"/>
+              <bible book="Tob" chapter="13" verseBegin="18"/>
+              <bible book="Ps" chapter="104" verseBegin="45"/>
+              <bible book="Ps" chapter="105" verseBegin="1"/>
+              <bible book="Ps" chapter="106" verseBegin="0"/>
+              <bible book="Ps" chapter="110" verseBegin="1"/>
+              <bible book="Ps" chapter="111" verseBegin="1"/>
+              <bible book="Ps" chapter="112" verseBegin="1"/>
+              <bible book="Ps" chapter="117" verseBegin="0"/>
+              <bible book="Ps" chapter="134" verseBegin="1"/>
+              <bible book="Ps" chapter="145" verseBegin="1"/>
+              <bible book="Rev" chapter="19" verseBegin="1" verseEnd="6"/>
+            </references>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e97ZSbG3O8c?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <folder name="Chatbot" id="chatbot-liturgie-de-la-parole" isHidden="true">
             <message name="Commentaire de l&apos;Evangile" id="commentaire-de-l-evangile">
               <sourceId>l-evangile-au-quotidien</sourceId>
@@ -12180,6 +12201,20 @@
               <sourceId>youcat</sourceId>
               <text>Les laïcs ont la mission de s&apos;engager dans la société afin que le Royaume de Dieu puisse croître parmi les hommes.</text>
             </message>
+            <message name="Le pape est-il vraiment infaillible ?" id="le-pape-est-il-vraiment-infaillible" nb="143">
+              <tests>
+                <test input="Le pape est-il vraiment infaillible ?" output="Oui. Mais la parole du pape n&apos;est infaillible que lorsqu&apos;il proclame un dogme par un acte ecclésial solennel ex cathedra, c&apos;est-à-dire qu&apos;il prend une décision définitive sur un point de doctrine touchant la foi et les mœurs. Ce caractère d&apos;infaillibilité peut résider aussi dans des décisions voulues comme telles du collège des évêques en communion avec le pape, comme par exemple lors d’un concile." outputReferences="&lt;hc_bible ref=&quot;Mt 16, 18-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;888-892&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-pape-est-il-vraiment-infaillible&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Le pape est-il vraiment infaillible ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="888" verseEnd="892"/>
+                <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Oui. Mais la parole du pape n&apos;est infaillible que lorsqu&apos;il proclame un dogme par un acte ecclésial solennel ex cathedra, c&apos;est-à-dire qu&apos;il prend une décision définitive sur un point de doctrine touchant la foi et les mœurs. Ce caractère d&apos;infaillibilité peut résider aussi dans des décisions voulues comme telles du collège des évêques en communion avec le pape, comme par exemple lors d’un concile.</text>
+            </message>
             <message name="Les chrétiens non catholiques sont-ils également nos sœurs et nos frères ?" id="les-chretiens-non-catholiques-sont-ils-egalement-nos-surs-et-nos-freres" nb="130">
               <tests>
                 <test input="Les chrétiens non catholiques sont-ils également nos sœurs et nos frères ?" output="Tous les baptisés font partie de l&apos;Église de Jésus-Christ. C&apos;est pourquoi les baptisés qui ne sont pas en pleine communion avec l&apos;Église catholique sont appelés chrétiens à bon droit et sont de ce fait nos sœurs et nos frères." outputReferences="&lt;hc_ccc ref=&quot;817-819&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;les-chretiens-non-catholiques-sont-ils-egalement-nos-surs-et-nos-freres&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -12323,6 +12358,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>En tant que successeur de saint Pierre et chef du collège des évêques le pape est le garant de l&apos;unité de l&apos;Église. Il a la plus haute autorité en ce qui concerne la pastorale de l&apos;Église et l&apos;autorité suprême pour toutes les décisions concernant la doctrine et les règles disciplinaires.</text>
+            </message>
+            <message name="Quelle est la charge des évêques ?" id="quelle-est-la-charge-des-eveques" nb="144">
+              <tests>
+                <test input="Quelle est la charge des évêques ?" output="Les évêques ont la responsabilité de l&apos;Église particulière (diocèse) qui leur est confiée, et la coresponsabilité de l&apos;ensemble de l&apos;Église. Ils exercent leur autorité en union avec tous les évêques et pour toute l’Église sous la conduite du pape." outputReferences="&lt;hc_bible ref=&quot;Mc 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;886-887&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;893-896&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;938-939&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-charge-des-eveques&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quelle est la charge des évêques ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="886" verseEnd="887"/>
+                <ccc verseBegin="893" verseEnd="896"/>
+                <ccc verseBegin="938" verseEnd="939"/>
+                <bible book="Mk" chapter="3" verseBegin="14"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Les évêques ont la responsabilité de l&apos;Église particulière (diocèse) qui leur est confiée, et la coresponsabilité de l&apos;ensemble de l&apos;Église. Ils exercent leur autorité en union avec tous les évêques et pour toute l’Église sous la conduite du pape.</text>
             </message>
             <message name="Qui fait partie de l&apos;Église catholique ?" id="qui-fait-partie-de-l-eglise-catholique" nb="134">
               <tests>
@@ -17879,6 +17930,18 @@
         <sourceId>catholique45</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OiirLHvi0eA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Témoignage de Alice, maman d&apos;Isaac" id="temoignage-de-alice-maman-d-isaac">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une maman d&apos;un enfant trisomique !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-y9IA97D1cE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Maman Vogue&quot; resourceid=&quot;temoignage-de-alice-maman-d-isaac&quot; textlength=&quot;11&quot; /&gt;"/>
+          <test input="Montrez-moi un témoignage sur la trisomie 21 !" output="Je ne sais pas vous montrer un témoignage sur la trisomie." isOk="false"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une maman d&apos;un enfant trisomique !"/>
+          <trigger value="Montrez-moi un témoignage sur la trisomie 21 !"/>
+        </triggers>
+        <sourceId>maman-vogue</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-y9IA97D1cE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
     <folder name="Célébrité" id="celebrite" nb="4" image="celebrities.jpg">
       <folder name="Acteur" id="acteur" image="lonsdale.jpeg">
@@ -18172,6 +18235,20 @@
       </message>
     </folder>
     <folder name="Laïc" id="laic" nb="6" image="laic.jpg">
+      <message name="&quot;Je vis de la LOUANGE&quot; - Témoignage de Pauline Betuel" id="je-vis-de-la-louange-temoignage-de-pauline-betuel">
+        <tests>
+          <test input="Montrez-moi le témoignage de Pauline Betuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;je-vis-de-la-louange-temoignage-de-pauline-betuel&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une chanteuse !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;je-vis-de-la-louange-temoignage-de-pauline-betuel&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage sur la louange !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;je-vis-de-la-louange-temoignage-de-pauline-betuel&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage de Pauline Betuel !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une chanteuse !"/>
+          <trigger value="Montrez-moi le témoignage sur la louange !"/>
+        </triggers>
+        <sourceId>cn-media</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="&quot;J’ai fait la rencontre plus importante de ma vie....&quot; - Témoignage Claire" id="j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une personne qui voulais se sucider." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fNh59lpOE7U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 43, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;j-ai-fait-la-rencontre-plus-importante-de-ma-vie-temoignage-claire&quot; textlength=&quot;8&quot; /&gt;"/>
