@@ -3110,6 +3110,36 @@
             <sourceId>youcat</sourceId>
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
+          <folder name="I Believe . . . in Life Everlasting" id="i-believe-in-life-everlasting" nb="156" image="nature-campagne-grand.jpg">
+            <message name="What is eternal life?" id="what-is-eternal-life" nb="156">
+              <tests>
+                <test input="What is eternal life?" output="Eternal life begins with Baptism. It continues through death and will have no end." outputReferences="&lt;hc_bible ref=&quot;1 Jn 4: 16&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 13: 8&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1020&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-eternal-life&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What is eternal life?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1020"/>
+                <bible book="1 Jn" chapter="4" verseBegin="16"/>
+                <bible book="1 Cor" chapter="13" verseBegin="8"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Eternal life begins with Baptism. It continues through death and will have no end.</text>
+            </message>
+            <message name="Will we be brought to judgment after death?" id="will-we-be-brought-to-judgment-after-death" nb="157">
+              <tests>
+                <test input="Will we be brought to judgment after death?" output="The so-called particular or personal judgment occurs at the moment of death of the individual. The general judgment, which is also called the Last Judgment, occurs on the Last Day, at the end of the world, when the Lord comes again." outputReferences="&lt;hc_ccc ref=&quot;1021-1022&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;will-we-be-brought-to-judgment-after-death&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Will we be brought to judgment after death?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1021" verseEnd="1022"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The so-called particular or personal judgment occurs at the moment of death of the individual. The general judgment, which is also called the Last Judgment, occurs on the Last Day, at the end of the world, when the Lord comes again.</text>
+            </message>
+          </folder>
           <folder name="I Believe in . . . the Communion of Saints" id="i-believe-in-the-communion-of-saints" nb="146" image="communion_des_saints.jpg">
             <message name="Can Mary really help us?" id="can-mary-really-help-us" nb="148">
               <tests>
