@@ -2785,10 +2785,10 @@
         </message>
         <message name="What is Hell?" id="what-is-hell" nb="64">
           <tests>
-            <test input="What is Hell?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/8B-EB1Vx4Ls?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 16: 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mk 9: 47&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1056-1057&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-hell&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="What is hell?" output="Hell is the condition of everlasting separation from God, the absolute absence of love.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/8B-EB1Vx4Ls?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25: 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 25: 45&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 3: 14-15&quot; textlength=&quot;13&quot; /&gt;&lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-hell-i-believe-in-life-everlasting&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lk 16: 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mk 9: 47&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1056-1057&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-hell&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
-            <trigger value="What is Hell?"/>
+            <trigger value="What is hell?"/>
           </triggers>
           <references>
             <bible book="Lk" chapter="16" verseBegin="23"/>
@@ -3111,6 +3111,33 @@
             <text>The creeds go back to Jesus, who commanded his disciples to baptize. In doing so, they were to require of the people seeking Baptism the profession of a definite faith, namely, faith in the Father, the Son, and the Holy Spirit (Trinity).</text>
           </message>
           <folder name="I Believe . . . in Life Everlasting" id="i-believe-in-life-everlasting" nb="156" image="nature-campagne-grand.jpg">
+            <message name="But if God is love, how can there be a hell?" id="but-if-god-is-love-how-can-there-be-a-hell" nb="162">
+              <tests>
+                <test input="But if God is love, how can there be a hell?" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="But if God is love, how can there be a hell?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1036" verseEnd="1037"/>
+                <bible book="2 Pet" chapter="3" verseBegin="9"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>God does not damn men. Man himself is the one who refuses God’s merciful love and voluntarily deprives himself of (eternal) life by excluding himself from communion with God.</text>
+            </message>
+            <message name="Can we help the departed who are in the condition of purgatory?" id="can-we-help-the-departed-who-are-in-the-condition-of-purgatory" nb="160">
+              <tests>
+                <test input="Can we help the departed who are in the condition of purgatory?" output="Yes, since all those who are baptized into Christ form one communion and are united with one another, the living can also help the souls of the faithful departed in purgatory." outputReferences="&lt;hc_ccc ref=&quot;1032&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;can-we-help-the-departed-who-are-in-the-condition-of-purgatory&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Can we help the departed who are in the condition of purgatory?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1032"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Yes, since all those who are baptized into Christ form one communion and are united with one another, the living can also help the souls of the faithful departed in purgatory.</text>
+            </message>
             <message name="What is eternal life?" id="what-is-eternal-life" nb="156">
               <tests>
                 <test input="What is eternal life?" output="Eternal life begins with Baptism. It continues through death and will have no end." outputReferences="&lt;hc_bible ref=&quot;1 Jn 4: 16&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 13: 8&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1020&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-eternal-life&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3140,6 +3167,22 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Paradise is the endless moment of love. Nothing more separates us from God, whom our soul loves and has sought our whole life long. Together with all the angels and saints we will be able to rejoice forever in and with God.</text>
+            </message>
+            <message name="What is hell?" id="what-is-hell-i-believe-in-life-everlasting" nb="161">
+              <tests>
+                <test input="What is hell?" output="Hell is the condition of everlasting separation from God, the absolute absence of love.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/8B-EB1Vx4Ls?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25: 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 25: 45&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1 Jn 3: 14-15&quot; textlength=&quot;13&quot; /&gt;&lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-hell-i-believe-in-life-everlasting&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lk 16: 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mk 9: 47&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1033-1037&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1056-1057&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-hell&quot; textlength=&quot;18&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What is hell?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1033" verseEnd="1037"/>
+                <bible book="Mt" chapter="25" verseBegin="41"/>
+                <bible book="Mt" chapter="25" verseBegin="45"/>
+                <bible book="1 Jn" chapter="3" verseBegin="14" verseEnd="15"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Hell is the condition of everlasting separation from God, the absolute absence of love.</text>
             </message>
             <message name="What is purgatory?" id="what-is-purgatory-i-believe-in-life-everlasting" nb="159">
               <tests>
@@ -3562,12 +3605,12 @@
                 <sourceId>youcat</sourceId>
                 <text>Heaven is God’s milieu, the dwelling place of the angels and saints, and the goal of creation. With the words “heaven and earth” we designate the whole of created reality.</text>
               </message>
-              <message name="What is hell?" id="what-is-hell-divine-providence" nb="53">
+              <message name="What is hell?" id="what-is-hell-heaven-and-heavenly-creatures" nb="53">
                 <tests>
-                  <test input="What is hell?" output="Our faith calls “hell” the condition of final separation from God. Anyone who sees love clearly in the face of God and, nevertheless, does not want it decides freely to have this condition instead." outputReferences="&lt;hc_ccc ref=&quot;1033-1036&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-hell-divine-providence&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What hell means according to our faith?" output="Our faith calls “hell” the condition of final separation from God. Anyone who sees love clearly in the face of God and, nevertheless, does not want it decides freely to have this condition instead." outputReferences="&lt;hc_ccc ref=&quot;1033-1036&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-hell-heaven-and-heavenly-creatures&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
-                  <trigger value="What is hell?"/>
+                  <trigger value="What hell means according to our faith?"/>
                 </triggers>
                 <references>
                   <ccc verseBegin="1033" verseEnd="1036"/>
