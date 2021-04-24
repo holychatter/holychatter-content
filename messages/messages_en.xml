@@ -2139,7 +2139,7 @@
         </message>
         <message name="Is everyone called to holiness?" id="is-everyone-called-to-holiness" nb="66">
           <tests>
-            <test input="Is everyone called to holiness?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ayrvkqhwuoo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lev 20: 7&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 51: 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 51: 7-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5: 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jas 4: 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Pet 1: 15-16&quot; textlength=&quot;14&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 3: 9-10&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 1: 2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Eph 4: 24&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-everyone-called-to-holiness&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Is everyone called to holiness?" output="Yes, we are called to the holiness.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ayrvkqhwuoo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 119: 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1066-1070&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-does-the-church-celebrate-the-liturgy-so-often&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lev 20: 7&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 51: 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 51: 7-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5: 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jas 4: 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Pet 1: 15-16&quot; textlength=&quot;14&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 3: 9-10&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 1: 2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Eph 4: 24&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2012-2016&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2028-2029&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-everyone-called-to-holiness&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Is everyone called to holiness?"/>
@@ -3083,16 +3083,37 @@
         </message>
       </folder>
       <folder name="How We Celebrate the Christian Mysteries" id="how-we-celebrate-the-christian-mysteries" nb="166" image="eucharist.jpg">
-        <message name="What is liturgy?" id="what-is-liturgy" nb="167">
-          <tests>
-            <test input="What is liturgy?" output="The liturgy is the official divine worship of the Church." outputReferences="&lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
-          </tests>
-          <references>
-            <ccc verseBegin="1077" verseEnd="1112"/>
-          </references>
-          <sourceId>youcat</sourceId>
-          <text>Liturgy is the official divine worship of the Church.</text>
-        </message>
+        <folder name="God Acts in Our Regard by Means of sacred signs" id="god-acts-in-our-regard-by-means-of-sacred-signs" nb="166" image="signes_sacres.jpg">
+          <message name="What is liturgy?" id="what-is-liturgy" nb="167">
+            <tests>
+              <test input="What is liturgy?" output="Liturgy is the official divine worship of the Church." outputReferences="&lt;hc_bible ref=&quot;Lk 6: 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="What is liturgy?"/>
+            </triggers>
+            <references>
+              <ccc verseBegin="1077" verseEnd="1112"/>
+              <bible book="Lk" chapter="6" verseBegin="19"/>
+            </references>
+            <sourceId>youcat</sourceId>
+            <text>Liturgy is the official divine worship of the Church.</text>
+          </message>
+          <message name="Why does the Church celebrate the liturgy so often?" id="why-does-the-church-celebrate-the-liturgy-so-often" nb="166">
+            <tests>
+              <test input="Why does the Church celebrate the liturgy so often?" output="The people of Israel interrupted their work “seven times a day” (Ps 119:164) in order to praise God. Jesus participated in the liturgy and prayer of his people; he taught his disciples to pray and gathered them in the Upper Room so as to celebrate with them the Liturgy of all liturgies: the gift of himself in the Last Supper. The Church, which calls us to the liturgy, obeys his command, “Do this in remembrance of me” (1 Cor 11:24b)." outputReferences="&lt;hc_bible ref=&quot;Ps 119: 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1066-1070&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-does-the-church-celebrate-the-liturgy-so-often&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Why does the Church celebrate the liturgy so often?"/>
+            </triggers>
+            <references>
+              <ccc verseBegin="1066" verseEnd="1070"/>
+              <bible book="Ps" chapter="119" verseBegin="164"/>
+              <bible book="1 Cor" chapter="11" verseBegin="24"/>
+            </references>
+            <sourceId>youcat</sourceId>
+            <text>The people of Israel interrupted their work “seven times a day” (Ps 119:164) in order to praise God. Jesus participated in the liturgy and prayer of his people; he taught his disciples to pray and gathered them in the Upper Room so as to celebrate with them the Liturgy of all liturgies: the gift of himself in the Last Supper. The Church, which calls us to the liturgy, obeys his command, “Do this in remembrance of me” (1 Cor 11:24b).</text>
+          </message>
+        </folder>
       </folder>
       <folder name="What We Believe" id="what-we-believe" nb="1" image="croyons.jpeg">
         <folder name="The Christian Profession of Faith" id="the-christian-profession-of-faith" nb="25" image="resurrection.jpg">

@@ -6919,7 +6919,7 @@
       <folder name="À propos" id="a-propos-liturgie" image="about.png">
         <message name="Le mystère de la liturgie" id="le-mystere-de-la-liturgie">
           <tests>
-            <test input="C&apos;est quoi la liturgie ?" output="La liturgie est le culte officiel de l&apos;Église et le service public de l&apos;Église.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 12, 12-30&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 18-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-prier-ensemble&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
+            <test input="C&apos;est quoi la liturgie ?" output="La liturgie est le culte officiel de l&apos;Eglise.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 6, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
             <test input="C&apos;est quoi un mystère ?" output="Le mystère est une vérité inaccessible à la raison, mais que Dieu donne à connaître en se révélant.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;le-mystere&quot; url=&quot;https://eglise.catholique.fr/glossaire/mystere/&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
           </tests>
           <triggers>
@@ -13295,13 +13295,37 @@
         </folder>
       </folder>
       <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166" image="eucharist.jpg">
-        <message name="Qu&apos;est-ce que la liturgie ?" id="qu-est-ce-que-la-liturgie" nb="167">
-          <references>
-            <ccc verseBegin="1077" verseEnd="1112"/>
-          </references>
-          <sourceId>youcat</sourceId>
-          <text>La liturgie est le culte officiel de l&apos;Eglise.</text>
-        </message>
+        <folder name="Dieu agit en nous par des signes sacrés" id="dieu-agit-en-nous-par-des-signes-sacres" nb="166" image="signes_sacres.jpg">
+          <message name="Pourquoi l&apos;Église célèbre-t-elle si souvent des liturgies ?" id="pourquoi-l-eglise-celebre-t-elle-si-souvent-des-liturgies" nb="166">
+            <tests>
+              <test input="Pourquoi l&apos;Église célèbre-t-elle si souvent des liturgies ?" output="Le peuple d&apos;Israël interrompait déjà son travail &lt;i&gt;sept fois par jour&lt;/i&gt; (Ps 118, 164) pour louer Dieu. Jésus prit part au culte et aux prières de son peuple ; il a appris à ses disciples à prier et il les a rassemblés au Cénacle pour célébrer avec eux le plus grand de tous les cultes : s&apos;offrir lui-même comme nourriture. En invitant ses membres à participer à la liturgie, l&apos;Église est fidèle à l&apos;exhortation de Jésus : &lt;i&gt;Faites ceci en mémoire de moi&lt;/i&gt; (1 Co 11, 24)." outputReferences="&lt;hc_bible ref=&quot;Ps 118, 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 11, 24&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;1066-1070&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-celebre-t-elle-si-souvent-des-liturgies&quot; textlength=&quot;6&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Pourquoi l&apos;Église célèbre-t-elle si souvent des liturgies ?"/>
+            </triggers>
+            <references>
+              <ccc verseBegin="1066" verseEnd="1070"/>
+              <bible book="Ps" chapter="118" verseBegin="164"/>
+              <bible book="1 Cor" chapter="11" verseBegin="24"/>
+            </references>
+            <sourceId>youcat</sourceId>
+            <text fileType="text_in_html">Le peuple d&apos;Israël interrompait déjà son travail &lt;i&gt;sept fois par jour&lt;/i&gt; (Ps 118, 164) pour louer Dieu. Jésus prit part au culte et aux prières de son peuple ; il a appris à ses disciples à prier et il les a rassemblés au Cénacle pour célébrer avec eux le plus grand de tous les cultes : s&apos;offrir lui-même comme nourriture. En invitant ses membres à participer à la liturgie, l&apos;Église est fidèle à l&apos;exhortation de Jésus : &lt;i&gt;Faites ceci en mémoire de moi&lt;/i&gt; (1 Co 11, 24).</text>
+          </message>
+          <message name="Qu&apos;est-ce que la liturgie ?" id="qu-est-ce-que-la-liturgie" nb="167">
+            <tests>
+              <test input="Qu&apos;est-ce que la liturgie ?" output="La liturgie est le culte officiel de l&apos;Eglise.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gLybnW1OMqI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 6, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1077-1112&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liturgie&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ep 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 12, 1-2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Webtélé ECDQ&quot; resourceid=&quot;le-mystere-de-la-liturgie&quot; textlength=&quot;14&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que la liturgie ?"/>
+            </triggers>
+            <references>
+              <ccc verseBegin="1077" verseEnd="1112"/>
+              <bible book="Lk" chapter="6" verseBegin="19"/>
+            </references>
+            <sourceId>youcat</sourceId>
+            <text>La liturgie est le culte officiel de l&apos;Eglise.</text>
+          </message>
+        </folder>
       </folder>
       <folder name="La vie dans le Christ" id="la-vie-dans-le-christ" nb="279" image="jesus.jpg">
         <message name="Comment peut-on distinguer les péchés graves (péchés mortels) des péchés moins graves (péchés véniels) ?" id="comment-peut-on-distinguer-les-peches-graves-peches-mortels-des-peches-moins-graves-peches-veniels" nb="316">
