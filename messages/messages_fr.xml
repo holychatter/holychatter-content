@@ -13297,6 +13297,49 @@
       <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166" image="eucharist.jpg">
         <folder name="Dieu agit en nous par des signes sacrés" id="dieu-agit-en-nous-par-des-signes-sacres" nb="166" image="signes_sacres.jpg">
           <folder name="Dieu et la liturgie" id="dieu-et-la-liturgie" nb="170" image="liturgie.jpg">
+            <message name="Combien y a-t-il de sacrements, et comment s&apos;appellent-ils ?" id="combien-y-a-t-il-de-sacrements-et-comment-s-appellent-ils" nb="172">
+              <tests>
+                <test input="Combien y a-t-il de sacrements ?" output="Pour l&apos;Église il y a sept sacrements : le baptême, la confirmation, l’eucharistie, la réconciliation, l&apos;onction des malades, l&apos;ordre et le mariage." outputReferences="&lt;hc_ccc ref=&quot;1210&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;combien-y-a-t-il-de-sacrements-et-comment-s-appellent-ils&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Quels sont les sacrements ?" output="Pour l&apos;Église il y a sept sacrements : le baptême, la confirmation, l’eucharistie, la réconciliation, l&apos;onction des malades, l&apos;ordre et le mariage." outputReferences="&lt;hc_ccc ref=&quot;1210&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;combien-y-a-t-il-de-sacrements-et-comment-s-appellent-ils&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Combien y a-t-il de sacrements ?"/>
+                <trigger value="Quels sont les sacrements ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1210"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Pour l&apos;Église il y a sept sacrements : le baptême, la confirmation, l’eucharistie, la réconciliation, l&apos;onction des malades, l&apos;ordre et le mariage.</text>
+            </message>
+            <message name="Pourquoi avons-nous besoin de sacrements ?" id="pourquoi-avons-nous-besoin-de-sacrements" nb="173">
+              <tests>
+                <test input="Pourquoi avons-nous besoin de sacrements ?" isOk="false"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi avons-nous besoin de sacrements ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1129"/>
+                <bible book="2 Pet" chapter="1" verseBegin="3" verseEnd="4"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Nous avons besoin de sacrements pour dépasser une vie humaine étriquée, et devenir, grâce à Jésus, semblables à Jésus : des enfants de Dieu dans la liberté et la gloire.</text>
+            </message>
+            <message name="Quel est le caractère essentiel de chaque liturgie ?" id="quel-est-le-caractere-essentiel-de-chaque-liturgie" nb="171">
+              <tests>
+                <test input="Quel est le caractère essentiel de chaque liturgie ?" output="La célébration eucharistique, mais aussi toute liturgie, est une petite fête de Pâques. Jésus fête avec nous son passage de la mort à la vie et ouvre ce passage pour nous." outputReferences="&lt;hc_bible ref=&quot;Ex 12, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1085&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quel-est-le-caractere-essentiel-de-chaque-liturgie&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quel est le caractère essentiel de chaque liturgie ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1085"/>
+                <bible book="Ex" chapter="12" verseBegin="13"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>La célébration eucharistique, mais aussi toute liturgie, est une petite fête de Pâques. Jésus fête avec nous son passage de la mort à la vie et ouvre ce passage pour nous.</text>
+            </message>
             <message name="Quelle est la source originelle de la liturgie ?" id="quelle-est-la-source-originelle-de-la-liturgie" nb="170">
               <tests>
                 <test input="Quelle est la source originelle de la liturgie ?" output="La source la plus profonde de la liturgie est Dieu, dans lequel se déroule une éternelle et céleste fête de l&apos;amour - la joie du Père, du Fils et de l&apos;Esprit-Saint. Parce que Dieu est amour, il voudrait nous faire participer à la fête de sa joie et nous offrir sa bénédiction." outputReferences="&lt;hc_bible ref=&quot;Ps 42, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1077-1109&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-source-originelle-de-la-liturgie&quot; textlength=&quot;6&quot; /&gt;"/>
