@@ -3126,10 +3126,24 @@
               <sourceId>youcat</sourceId>
               <text>The most profound origin of the Liturgy is God, in whom there is an eternal, heavenly banquet of love - the joy of the Father, the Son, and the Holy Spirit. Because God is love, he would like to let us participate in the feast of his joy and to grant us his blessings.</text>
             </message>
+            <message name="Which sacraments can be received only once in a lifetime?" id="which-sacraments-can-be-received-only-once-in-a-lifetime" nb="176">
+              <tests>
+                <test input="Which sacraments can be received only once in a lifetime?" output="Baptism, Confirmation, and Holy Orders. These sacraments imprint an indelible mark on the soul of the Christian. Baptism and Confirmation make him once and for all a child of God and Christlike. Holy Orders similarly leaves an imprint on a Christian man." outputReferences="&lt;hc_bible ref=&quot;Titus 3: 4-5&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1121&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;which-sacraments-can-be-received-only-once-in-a-lifetime&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Which sacraments can be received only once in a lifetime?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1121"/>
+                <bible book="Titus" chapter="3" verseBegin="4" verseEnd="5"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Baptism, Confirmation, and Holy Orders. These sacraments imprint an indelible mark on the soul of the Christian. Baptism and Confirmation make him once and for all a child of God and Christlike. Holy Orders similarly leaves an imprint on a Christian man.</text>
+            </message>
             <message name="Why do the sacraments belong to the Church? Why cannot anyone use them however he wants?" id="why-do-the-sacraments-belong-to-the-church-why-cannot-anyone-use-them-however-he-wants" nb="175">
               <tests>
-                <test input="Why do the sacraments belong to the Church?" output="Sacraments are Christ’s gift to his Church. It is her duty to administer them and to protect them from misuse." outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1117-1119&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1131&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-the-sacraments-belong-to-the-church-why-cannot-anyone-use-them-however-he-wants&quot; textlength=&quot;6&quot; /&gt;"/>
-                <test input="Why cannot anyone use the sacraments however he wants?" output="Sacraments are Christ’s gift to his Church. It is her duty to administer them and to protect them from misuse." outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1117-1119&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1131&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-the-sacraments-belong-to-the-church-why-cannot-anyone-use-them-however-he-wants&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Why do the sacraments belong to the Church?" output="Sacraments are Christ’s gift to his Church. It is her duty to administer them and to protect them from misuse." outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 4: 1&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Pet 4: 10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1117-1119&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1131&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-the-sacraments-belong-to-the-church-why-cannot-anyone-use-them-however-he-wants&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Why cannot anyone use the sacraments however he wants?" output="Sacraments are Christ’s gift to his Church. It is her duty to administer them and to protect them from misuse." outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 4: 1&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1 Pet 4: 10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1117-1119&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1131&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-the-sacraments-belong-to-the-church-why-cannot-anyone-use-them-however-he-wants&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why do the sacraments belong to the Church?"/>
@@ -3139,6 +3153,8 @@
                 <ccc verseBegin="1117" verseEnd="1119"/>
                 <ccc verseBegin="1131"/>
                 <bible book="1 Cor" chapter="11" verseBegin="29"/>
+                <bible book="1 Cor" chapter="4" verseBegin="1"/>
+                <bible book="1 Pet" chapter="4" verseBegin="10"/>
               </references>
               <sourceId>youcat</sourceId>
               <text>Sacraments are Christ’s gift to his Church. It is her duty to administer them and to protect them from misuse.</text>
@@ -3156,6 +3172,20 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>We need sacraments in order to outgrow our petty human life and to become like Jesus through Jesus: children of God in freedom and glory.</text>
+            </message>
+            <message name="Why is faith a prerequisite for the sacraments?" id="why-is-faith-a-prerequisite-for-the-sacraments" nb="177">
+              <tests>
+                <test input="Why is faith a prerequisite for the sacraments?" output="Sacraments are not magic. A sacrament can be effective only if one understands and accepts it in faith. Sacraments not only presuppose faith, they also strengthen it and give expression to it." outputReferences="&lt;hc_bible ref=&quot;1 Cor 15: 3&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1122-1126&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-faith-a-prerequisite-for-the-sacraments&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why is faith a prerequisite for the sacraments?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1122" verseEnd="1126"/>
+                <bible book="1 Cor" chapter="15" verseBegin="3"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Sacraments are not magic. A sacrament can be effective only if one understands and accepts it in faith. Sacraments not only presuppose faith, they also strengthen it and give expression to it.</text>
             </message>
             <message name="Why is faith in Jesus Christ not enough? Why does God give us the sacraments, too?" id="why-is-faith-in-jesus-christ-not-enough-why-does-god-give-us-the-sacraments-too" nb="174">
               <tests>
