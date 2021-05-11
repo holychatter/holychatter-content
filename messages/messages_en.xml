@@ -3220,6 +3220,32 @@
             </message>
           </folder>
           <folder name="How We Celebrate the Mysteries of Christ" id="how-we-celebrate-the-mysteries-of-christ" nb="179" image="temps_liturgique.jpg">
+            <message name="How does the liturgy affect time?" id="how-does-the-liturgy-affect-time" nb="184">
+              <tests>
+                <test input="How does the liturgy affect time?" output="In the liturgy time becomes time for God." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-does-the-liturgy-affect-time&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="How does the liturgy affect time?"/>
+              </triggers>
+              <sourceId>youcat</sourceId>
+              <text>In the liturgy time becomes time for God.</text>
+            </message>
+            <message name="What is the liturgical year (the Church year)?" id="what-is-the-liturgical-year-the-church-year" nb="186">
+              <tests>
+                <test input="What is the liturgical year?" output="The liturgical year, or the Church year, superimposes the mysteries of the life of Christ — from his Incarnation to his second coming in glory — on the normal course of the year. The liturgical year begins with Advent, the time of waiting for the Lord, and has its first high point in the Christmas season and its second, even greater climax in the celebration of the redemptive suffering, death, and Resurrection of Christ at Easter. The Easter season ends with the feast of Pentecost, the descent of the Holy Spirit on the Church. The liturgical year is repeatedly interrupted by feasts of Mary and the saints, in which the Church praises God’s grace, which has led mankind to salvation." outputReferences="&lt;hc_ccc ref=&quot;1168-1173&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1194-1195&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-liturgical-year-the-church-year&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="What is the Church year?" output="The liturgical year, or the Church year, superimposes the mysteries of the life of Christ — from his Incarnation to his second coming in glory — on the normal course of the year. The liturgical year begins with Advent, the time of waiting for the Lord, and has its first high point in the Christmas season and its second, even greater climax in the celebration of the redemptive suffering, death, and Resurrection of Christ at Easter. The Easter season ends with the feast of Pentecost, the descent of the Holy Spirit on the Church. The liturgical year is repeatedly interrupted by feasts of Mary and the saints, in which the Church praises God’s grace, which has led mankind to salvation." outputReferences="&lt;hc_ccc ref=&quot;1168-1173&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1194-1195&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-liturgical-year-the-church-year&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="What is the liturgical year?"/>
+                <trigger value="What is the Church year?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1168" verseEnd="1173"/>
+                <ccc verseBegin="1194" verseEnd="1195"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>The liturgical year, or the Church year, superimposes the mysteries of the life of Christ — from his Incarnation to his second coming in glory — on the normal course of the year. The liturgical year begins with Advent, the time of waiting for the Lord, and has its first high point in the Christmas season and its second, even greater climax in the celebration of the redemptive suffering, death, and Resurrection of Christ at Easter. The Easter season ends with the feast of Pentecost, the descent of the Holy Spirit on the Church. The liturgical year is repeatedly interrupted by feasts of Mary and the saints, in which the Church praises God’s grace, which has led mankind to salvation.</text>
+            </message>
             <message name="Who celebrates the liturgy?" id="who-celebrates-the-liturgy" nb="179">
               <tests>
                 <test input="Who celebrates the liturgy?" output="In all earthly liturgies, Christ the Lord himself is the one who celebrates the cosmic liturgy, which encompasses angels and men, the living and the dead, the past, present, and future,heaven and earth. Priests and believers participate in different ways in Christ’s divine worship." outputReferences="&lt;hc_ccc ref=&quot;1136-1139&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;who-celebrates-the-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3261,6 +3287,21 @@
               <sourceId>youcat</sourceId>
               <text>Celebrating the liturgy means encountering God; allowing him to act, listening to him, responding to him. Such dialogues are always expressed in gestures and words.</text>
             </message>
+            <message name="Why does the liturgy repeat itself every year?" id="why-does-the-liturgy-repeat-itself-every-year" nb="185">
+              <tests>
+                <test input="Why does the liturgy repeat itself every year?" output="Just as we celebrate a birthday or a wedding anniversary each year, so too the liturgy celebrates over the course of the year the most important events in Christian salvation history. With one important difference, however: All time is God’s time. “Memories” of Jesus’ life and teaching are imultaneously encounters with the living God." outputReferences="&lt;hc_bible ref=&quot;Eph 5: 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1163-1165&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1194-1195&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-does-the-liturgy-repeat-itself-every-year&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why does the liturgy repeat itself every year?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1163" verseEnd="1165"/>
+                <ccc verseBegin="1194" verseEnd="1195"/>
+                <bible book="Eph" chapter="5" verseBegin="16"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Just as we celebrate a birthday or a wedding anniversary each year, so too the liturgy celebrates over the course of the year the most important events in Christian salvation history. With one important difference, however: All time is God’s time. “Memories” of Jesus’ life and teaching are imultaneously encounters with the living God.</text>
+            </message>
             <message name="Why is the Mass sometimes referred to as a “worship service”?" id="why-is-the-mass-sometimes-referred-to-as-a-worship-service" nb="180">
               <tests>
                 <test input="Why is the Mass sometimes referred to as a “worship service”?" output="A worship service is in the first place a service that God performs for us—and only then is it our service offered to God. God gives himself to us under the form of holy signs—so that we might do the same: give ourselves unreservedly to him." outputReferences="&lt;hc_bible ref=&quot;Jn 10: 10-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mk 10: 44-45&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1145-1192&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-the-mass-sometimes-referred-to-as-a-worship-service&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3275,6 +3316,23 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>A worship service is in the first place a service that God performs for us—and only then is it our service offered to God. God gives himself to us under the form of holy signs—so that we might do the same: give ourselves unreservedly to him.</text>
+            </message>
+            <message name="Why is there music at liturgies, and what kind of music must it be to be suitable for liturgy?" id="why-is-there-music-at-liturgies-and-what-kind-of-music-must-it-be-to-be-suitable-for-liturgy" nb="183">
+              <tests>
+                <test input="Why is there music at liturgies ?" output="Where words are not enough to praise God, music comes to our aid." outputReferences="&lt;hc_bible ref=&quot;Eph 5: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1156-1158&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1191&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-there-music-at-liturgies-and-what-kind-of-music-must-it-be-to-be-suitable-for-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="What kind of music must it be to be suitable for liturgy?" output="Where words are not enough to praise God, music comes to our aid." outputReferences="&lt;hc_bible ref=&quot;Eph 5: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1156-1158&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1191&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-is-there-music-at-liturgies-and-what-kind-of-music-must-it-be-to-be-suitable-for-liturgy&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Why is there music at liturgies ?"/>
+                <trigger value="What kind of music must it be to be suitable for liturgy?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1156" verseEnd="1158"/>
+                <ccc verseBegin="1191"/>
+                <bible book="Eph" chapter="5" verseBegin="19"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Where words are not enough to praise God, music comes to our aid.</text>
             </message>
           </folder>
           <message name="What happens to us when we celebrate the liturgy?" id="what-happens-to-us-when-we-celebrate-the-liturgy" nb="169">
@@ -4450,7 +4508,7 @@
             </message>
             <message name="On the Mount of Olives on the night before his death, did Jesus really experience fear of death?" id="on-the-mount-of-olives-on-the-night-before-his-death-did-jesus-really-experience-fear-of-death" nb="100">
               <tests>
-                <test input="On the Mount of Olives on the night before his death, did Jesus really experience fear of death?" output="What is Olives&apos; Mount?" isOk="false"/>
+                <test input="On the Mount of Olives on the night before his death, did Jesus really experience fear of death?" output="I don&apos;t know if Jesus experienced really death fear." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="On the Mount of Olives on the night before his death, did Jesus really experience fear of death?"/>

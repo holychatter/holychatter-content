@@ -5202,6 +5202,32 @@
       </message>
     </folder>
     <folder name="À propos" id="a-propos-dieu" image="about.png">
+      <folder name="Chatbot" id="chatbot-a-propos-5" isHidden="true">
+        <message name="Dieu n&apos;a pas de nom" id="dieu-n-a-pas-de-nom">
+          <tests>
+            <test input="Dieu a-t-il un nom ?" output="Non, Dieu n&apos;a aucun nom." outputReferences="&lt;hc_bible ref=&quot;Jg 13, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-n-a-pas-de-nom&quot; url=&quot;https://youtu.be/_R2GgIzt9u8&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Quel est le nom de Dieu ?" output="Le nom de Dieu est Dieu." outputReferences="&lt;hc_bible ref=&quot;Jn 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;988-991&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;997-1001&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1015&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-croyons-nous-en-la-resurrection-de-la-chair&quot; textlength=&quot;6&quot; /&gt;" isOk="false"/>
+          </tests>
+          <references>
+            <bible book="Judg" chapter="13" verseBegin="18"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <sourceUrl>https://youtu.be/_R2GgIzt9u8</sourceUrl>
+          <text>Dieu n&apos;a pas de nom.</text>
+        </message>
+      </folder>
+      <message name="Comment la Bible parle-t-elle de Dieu ?" id="comment-la-bible-parle-t-elle-de-dieu">
+        <triggers>
+          <trigger value="Comment la Bible parle-t-elle de Dieu ?"/>
+        </triggers>
+        <references>
+          <bible book="Rev" chapter="22" verseBegin="20" verseEnd="21"/>
+          <bible book="Judg" chapter="13" verseBegin="18"/>
+          <bible book="Ex" chapter="3" verseBegin="14"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_R2GgIzt9u8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Dieu est Amour, qu’est-ce que cela veut dire ?" id="dieu-est-amour-qu-est-ce-que-cela-veut-dire">
         <tests>
           <test input="Dieu est Amour, qu’est-ce que cela veut dire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/fHrvFUNKPjc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Jn 4, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;218-221&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;dieu-est-amour-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -5218,7 +5244,7 @@
       </message>
       <message name="Dieu est-il vraiment tout-puissant ?" id="dieu-est-il-vraiment-tout-puissant">
         <tests>
-          <test input="Dieu est-il vraiment tout-puissant ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-f9sTaxtSSM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 37&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 1, 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jb 37, 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jb 42, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;dieu-est-il-vraiment-tout-puissant&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Dieu est-il vraiment tout-puissant ?" output="Oui, Dieu est vraiment tout-puissant.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-f9sTaxtSSM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ep 3, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-parler-de-dieu&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lc 1, 37&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 1, 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jb 37, 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 1, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jb 42, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;dieu-est-il-vraiment-tout-puissant&quot; textlength=&quot;21&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Dieu est-il vraiment tout-puissant ?"/>
@@ -5236,7 +5262,7 @@
       </message>
       <message name="Dieu, est-il vraiment immuable ?" id="dieu-est-il-vraiment-immuable">
         <tests>
-          <test input="Dieu, est-il vraiment immuable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hj-ZCeKUBsY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jc 1, 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ml 3, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Is 40, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 6, 17-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 2, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;dieu-est-il-vraiment-immuable&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Dieu, est-il vraiment immuable ?" output="Oui, Dieu est vraiment immuable.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hj-ZCeKUBsY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ep 3, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-parler-de-dieu&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jc 1, 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ml 3, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Is 40, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 6, 17-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 2, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;dieu-est-il-vraiment-immuable&quot; textlength=&quot;21&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Dieu, est-il vraiment immuable ?"/>
@@ -5251,6 +5277,29 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hj-ZCeKUBsY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Peut-on parler de Dieu ?" id="peut-on-parler-de-dieu">
+        <tests>
+          <test input="Peut-on parler de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PVtFeBOmleY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ep 3, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-parler-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Peut-on parler de Dieu ?"/>
+        </triggers>
+        <descriptions>
+          <description value="Dieu n&apos;est pas fini."/>
+          <description value="Dieu est infini."/>
+          <description value="Rien n&apos;échappe à Dieu."/>
+          <description value="Dieu est tout puissant."/>
+          <description value="Dieu n&apos;a pas commencé."/>
+          <description value="Dieu ne change pas."/>
+          <description value="Dieu est immuable."/>
+          <description value="Dieu est un."/>
+        </descriptions>
+        <references>
+          <bible book="Eph" chapter="3" verseBegin="14" verseEnd="15"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PVtFeBOmleY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Qui est Dieu ?" id="qui-est-dieu">
         <tests>
@@ -5873,7 +5922,7 @@
       </message>
       <message name="Le Moyen-Age et ses clichés" id="le-moyen-age-et-ses-cliches" nb="3">
         <tests>
-          <test input="Que l&apos;Eglise fait de son pouvoir au Moyen-Age ?" output="Quel est le fait Église du pouvoir de Parole de Moyen-Age ?" isOk="false"/>
+          <test input="Que l&apos;Eglise fait de son pouvoir au Moyen-Age ?" output="Quel est le fait Église du pouvoir de Parole ?" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Que l&apos;Eglise fait de son pouvoir au Moyen-Age ?"/>
@@ -6767,7 +6816,7 @@
             </message>
             <message name="La fête la plus importante des chrétiens" id="la-fete-la-plus-importante-des-chretiens">
               <tests>
-                <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas ce qu&apos;est la fête la plus importante des chrétiens mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+                <test input="Quelle est la fête la plus importante des chrétiens ?" output="Je ne sais pas quelle est la fête la plus importante des chrétiens mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
               </tests>
               <references>
                 <site url="https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/careme-et-paques/semaine-sainte-paques/437257-fete-paques"/>
@@ -8114,7 +8163,7 @@
       </message>
       <message name="Qu’est-ce et combien ?" id="qu-est-ce-et-combien">
         <tests>
-          <test input="L&apos;Eglise catholique en chiffres" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-et-combien&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="L&apos;Eglise catholique en chiffres" output="L&apos;Église catholique est apostolique, catholique, le corps, une institution parce qu&apos;elle est un mystère aussi bien humain divin, le lieu de la présence de le Saint-Esprit et fidèle de Faites.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 10, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 22-23&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ep 4, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 118, 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 11, 24&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;857-860&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;869-877&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;830-831&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;849-856&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;811-816&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;866&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;870&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;770-773&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;779&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;797-801&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;809&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;1066-1070&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-apostolique&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-catholique&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-ne-peut-il-y-avoir-qu-une-seule-eglise&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-beaucoup-plus-qu-une-institution&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-celebre-t-elle-si-souvent-des-liturgies&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-et-combien&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="L&apos;Eglise catholique en chiffres"/>
@@ -11934,7 +11983,7 @@
             </message>
             <message name="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?" id="pourquoi-les-ecrits-sur-jesus-s-appellent-ils-evangile-c-est-a-dire-bonne-nouvelle" nb="71">
               <tests>
-                <test input="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?" output="Qu&apos;est-ce que c&apos;est les écrits ?|otherAnswer-&gt;|Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m27xeMQQHh4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|&lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; url=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8, 36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-7&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 30-33&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 6, 50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 44&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 34&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19, 33-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;la-traversee-topo-1-qui-est-jesus&quot; textlength=&quot;26&quot; /&gt;" isOk="false"/>
+                <test input="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?" output="Quels sont les écrits ?|otherAnswer-&gt;|Jésus est cet homme en qui Dieu s’est totalement manifesté. Par sa vie, ses paroles et son enseignement, il nous a révélé qu’il était lui-même Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/m27xeMQQHh4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|&lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;qui-est-jesus-pour-les-chretiens&quot; url=&quot;https://jesus.catholique.fr/questions/qui-est-jesus-pour-les-chretiens/qui-est-jesus-pour-les-chretiens&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8, 36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-7&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 30-33&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 6, 50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 44&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 34&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 19, 33-34&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;la-traversee-topo-1-qui-est-jesus&quot; textlength=&quot;26&quot; /&gt;" isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Pourquoi les écrits sur Jésus s&apos;appellent-ils Évangile, c&apos;est-à-dire « Bonne Nouvelle » ?"/>
@@ -12358,7 +12407,7 @@
             </message>
             <message name="Pourquoi ne peut-il y avoir qu&apos;une seule Église ?" id="pourquoi-ne-peut-il-y-avoir-qu-une-seule-eglise" nb="129">
               <tests>
-                <test input="Pourquoi ne peut-il y avoir qu&apos;une seule Église ?" output="Je ne sais pas pourquoi il peut mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+                <test input="Pourquoi ne peut-il y avoir qu&apos;une seule Église ?" output="Je ne sais pas pourquoi il ne peut pas mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Pourquoi ne peut-il y avoir qu&apos;une seule Église ?"/>
@@ -12593,7 +12642,7 @@
             </message>
             <message name="« L&apos;Église est le temple du Saint-Esprit. » Qu&apos;est-ce que cela veut dire ?" id="l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire" nb="128">
               <tests>
-                <test input="« L&apos;Église est le temple du Saint-Esprit. » Qu&apos;est-ce que cela veut dire ?" output="Au cœur du monde, l&apos;Église est le lieu de la présence de L&apos;Esprit." outputReferences="&lt;hc_bible ref=&quot;2Co 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;797-801&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;809&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="« L&apos;Église est le temple du Saint-Esprit. » Qu&apos;est-ce que cela veut dire ?" output="Au cœur du monde, l&apos;Église est le lieu de la présence de l&apos;Esprit." outputReferences="&lt;hc_bible ref=&quot;2Co 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;797-801&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;809&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="« L&apos;Église est le temple du Saint-Esprit. » Qu&apos;est-ce que cela veut dire ?"/>
@@ -12605,7 +12654,7 @@
                 <bible book="Mt" chapter="18" verseBegin="20"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Au cœur du monde, l&apos;Église est le lieu de la présence de L&apos;Esprit.</text>
+              <text>Au cœur du monde, l&apos;Église est le lieu de la présence de l&apos;Esprit.</text>
             </message>
           </folder>
           <folder name="Je crois... à la communion des saints" id="je-crois-a-la-communion-des-saints" nb="146" image="communion_des_saints.jpg">
@@ -13299,6 +13348,16 @@
       <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166" image="eucharist.jpg">
         <folder name="Dieu agit en nous par des signes sacrés" id="dieu-agit-en-nous-par-des-signes-sacres" nb="166" image="signes_sacres.jpg">
           <folder name="Comment nous célébrons les mystères du Christ" id="comment-nous-celebrons-les-mysteres-du-christ" nb="179" image="temps_liturgique.jpg">
+            <message name="Comment la liturgie façonne-t-elle le temps ?" id="comment-la-liturgie-faconne-t-elle-le-temps" nb="184">
+              <tests>
+                <test input="Comment la liturgie façonne-t-elle le temps ?" output="Dans la liturgie, le temps devient temps pour Dieu." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-la-liturgie-faconne-t-elle-le-temps&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Comment la liturgie façonne-t-elle le temps ?"/>
+              </triggers>
+              <sourceId>youcat</sourceId>
+              <text>Dans la liturgie, le temps devient temps pour Dieu.</text>
+            </message>
             <message name="Pourquoi accompagner les signes sacramentels de la liturgie par des paroles ?" id="pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles" nb="182">
               <tests>
                 <test input="Pourquoi accompagner les signes sacramentels de la liturgie par des paroles ?" output="Célébrer la liturgie, c&apos;est rencontrer Dieu : le laisser agir, l&apos;écouter, lui répondre. Ces dialogues s&apos;expriment toujours en gestes et en paroles." outputReferences="&lt;hc_bible ref=&quot;Is 6, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1153-1155&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1190&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -13329,6 +13388,38 @@
               <sourceId>youcat</sourceId>
               <text>Un service divin est avant tout le service que Dieu nous rend — et ensuite seulement un service que nous offrons à Dieu. Sous des signes sacrés, Dieu s&apos;offre à nous pour que nous fassions la même chose : nous offrir à lui sans retenue.</text>
             </message>
+            <message name="Pourquoi joue-t-on de la musique aux offices religieux ? Quelle musique convient à la liturgie ?" id="pourquoi-joue-t-on-de-la-musique-aux-offices-religieux-quelle-musique-convient-a-la-liturgie" nb="183">
+              <tests>
+                <test input="Pourquoi joue-t-on de la musique aux offices religieux ?" output="Quand les paroles ne suffisent pas pour louer Dieu, la musique nous vient en aide." outputReferences="&lt;hc_bible ref=&quot;Ep 5, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1156-1158&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1191&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-joue-t-on-de-la-musique-aux-offices-religieux-quelle-musique-convient-a-la-liturgie&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Quelle musique convient à la liturgie ?" output="Quand les paroles ne suffisent pas pour louer Dieu, la musique nous vient en aide." outputReferences="&lt;hc_bible ref=&quot;Ep 5, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1156-1158&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1191&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-joue-t-on-de-la-musique-aux-offices-religieux-quelle-musique-convient-a-la-liturgie&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi joue-t-on de la musique aux offices religieux ?"/>
+                <trigger value="Quelle musique convient à la liturgie ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1156" verseEnd="1158"/>
+                <ccc verseBegin="1191"/>
+                <bible book="Eph" chapter="5" verseBegin="19"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Quand les paroles ne suffisent pas pour louer Dieu, la musique nous vient en aide.</text>
+            </message>
+            <message name="Pourquoi les célébrations liturgiques se déroulent-elles selon un cycle annuel ?" id="pourquoi-les-celebrations-liturgiques-se-deroulent-elles-selon-un-cycle-annuel" nb="185">
+              <tests>
+                <test input="Pourquoi les célébrations liturgiques se déroulent-elles selon un cycle annuel ?" output="De même que nous célébrons tous les ans l&apos;anniversaire d&apos;une personne ou d&apos;un mariage, ainsi la liturgie célèbre-t-elle, pendant le cycle de l&apos;année, les principaux événements chrétiens de l&apos;histoire du salut. Il y a pourtant une différence importante : chaque époque dont la nôtre est temps de Dieu. Les « commémorations » du message et de la vie de Jésus sont dans notre actualité des rencontres avec le Dieu vivant." outputReferences="&lt;hc_bible ref=&quot;Ep 5, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1163-1165&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1194-1195&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-les-celebrations-liturgiques-se-deroulent-elles-selon-un-cycle-annuel&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi les célébrations liturgiques se déroulent-elles selon un cycle annuel ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1163" verseEnd="1165"/>
+                <ccc verseBegin="1194" verseEnd="1195"/>
+                <bible book="Eph" chapter="5" verseBegin="16"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>De même que nous célébrons tous les ans l&apos;anniversaire d&apos;une personne ou d&apos;un mariage, ainsi la liturgie célèbre-t-elle, pendant le cycle de l&apos;année, les principaux événements chrétiens de l&apos;histoire du salut. Il y a pourtant une différence importante : chaque époque dont la nôtre est temps de Dieu. Les « commémorations » du message et de la vie de Jésus sont dans notre actualité des rencontres avec le Dieu vivant.</text>
+            </message>
             <message name="Pourquoi y a-t-il tant de signes et de symboles dans les offices religieux ?" id="pourquoi-y-a-t-il-tant-de-signes-et-de-symboles-dans-les-offices-religieux" nb="181">
               <tests>
                 <test input="Pourquoi y a-t-il tant de signes et de symboles dans les offices religieux ?" output="Dieu sait que nous ne sommes pas seulement des êtres spirituels mais également corporels ; nous avons besoin de signes et de symboles pour percevoir et exprimer des réalités spirituelles ou intimes." outputReferences="&lt;hc_ccc ref=&quot;1145-1152&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-y-a-t-il-tant-de-signes-et-de-symboles-dans-les-offices-religieux&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -13341,6 +13432,20 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Dieu sait que nous ne sommes pas seulement des êtres spirituels mais également corporels ; nous avons besoin de signes et de symboles pour percevoir et exprimer des réalités spirituelles ou intimes.</text>
+            </message>
+            <message name="Qu&apos;est-ce que l&apos;année liturgique ?" id="qu-est-ce-que-l-annee-liturgique" nb="186">
+              <tests>
+                <test input="Qu&apos;est-ce que l&apos;année liturgique ?" output="Au cours de l&apos;année liturgique, l&apos;Église célèbre les mystères de la vie du Christ, de son incarnation jusqu à son retour dans la gloire. L&apos;année liturgique commence avec l&apos;Avent, qui est le temps de l&apos;attente du Seigneur.&#10;Elle a son premier sommet avec les célébrations de Noël. Le deuxième sommet, encore plus grand, à Pâques avec la célébration de la passion, de la mort et de la résurrection du Christ. Le temps de Pâques se termine à la Pentecôte où nous fêtons la venue du Saint-Esprit sur l&apos;Église. L&apos;année liturgique est émaillée de fêtes en l&apos;honneur de la Sainte Vierge et des saints, au cours desquelles l&apos;Église loue la grâce de Dieu qui a conduit les hommes vers le salut." outputReferences="&lt;hc_ccc ref=&quot;1168-1173&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1194-1195&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-l-annee-liturgique&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que l&apos;année liturgique ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1168" verseEnd="1173"/>
+                <ccc verseBegin="1194" verseEnd="1195"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Au cours de l&apos;année liturgique, l&apos;Église célèbre les mystères de la vie du Christ, de son incarnation jusqu à son retour dans la gloire. L&apos;année liturgique commence avec l&apos;Avent, qui est le temps de l&apos;attente du Seigneur.&#10;Elle a son premier sommet avec les célébrations de Noël. Le deuxième sommet, encore plus grand, à Pâques avec la célébration de la passion, de la mort et de la résurrection du Christ. Le temps de Pâques se termine à la Pentecôte où nous fêtons la venue du Saint-Esprit sur l&apos;Église. L&apos;année liturgique est émaillée de fêtes en l&apos;honneur de la Sainte Vierge et des saints, au cours desquelles l&apos;Église loue la grâce de Dieu qui a conduit les hommes vers le salut.</text>
             </message>
             <message name="Qui célèbre la liturgie ?" id="qui-celebre-la-liturgie" nb="179">
               <tests>
@@ -13932,7 +14037,7 @@
       </message>
       <message name="Quelle espérance face à la crise écologique ?" id="quelle-esperance-face-a-la-crise-ecologique">
         <tests>
-          <test input="Quelle espérance face à la crise écologique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VN37webExJg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-esperance-face-a-la-crise-ecologique&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quelle espérance face à la crise écologique ?" output="Ça|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VN37webExJg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 12, 31&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;hymne-a-l-amour-de-saint-paul&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-esperance-face-a-la-crise-ecologique&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Quelle espérance face à la crise écologique ?"/>
@@ -16749,7 +16854,7 @@
       <message name="Quelle place pour les morts dans notre prière ?" id="quelle-place-pour-les-morts-dans-notre-priere">
         <tests>
           <test input="Quelle place ont les morts dans ma prière ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0pvfBSkVB28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 17, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2M 12, 43&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-place-pour-les-morts-dans-notre-priere&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Quelle place pour les morts dans notre prière ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0pvfBSkVB28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 17, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2M 12, 43&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-place-pour-les-morts-dans-notre-priere&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Quelle place pour les morts dans notre prière ?" output="Le ciel et l&apos;Église|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0pvfBSkVB28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2Co 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;325-327&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;797-801&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;809&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-ciel&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 17, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2M 12, 43&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-place-pour-les-morts-dans-notre-priere&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Quelles sont les risques de s&apos;adresser à nos defunts proches ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0pvfBSkVB28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 17, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2M 12, 43&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-place-pour-les-morts-dans-notre-priere&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Pourquoi prier pour les morts ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0pvfBSkVB28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 17, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2M 12, 43&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-place-pour-les-morts-dans-notre-priere&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Qu&apos;est-ce que la communion des saints ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0pvfBSkVB28?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 17, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2M 12, 43&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-place-pour-les-morts-dans-notre-priere&quot; textlength=&quot;8&quot; /&gt;"/>
