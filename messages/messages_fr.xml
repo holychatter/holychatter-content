@@ -5215,6 +5215,32 @@
           <sourceUrl>https://youtu.be/_R2GgIzt9u8</sourceUrl>
           <text>Dieu n&apos;a pas de nom.</text>
         </message>
+        <message name="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?" id="les-hommes-qui-n-ont-pas-la-foi-font-comment-pour-aller-vers-dieu">
+          <tests>
+            <test input="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?" output="Les hommes qui n&apos;ont pas la foi sont éclairés par la raison, car ils sont à l&apos;image de Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nAKqFu1j7fo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-hommes-qui-n-ont-pas-la-foi-font-comment-pour-aller-vers-dieu&quot; url=&quot;https://youtu.be/nAKqFu1j7fo&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-chemins-de-la-connaissance-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?"/>
+          </triggers>
+          <references>
+            <bible book="Gen" chapter="1" verseBegin="27"/>
+            <bible book="Wis" chapter="13" verseBegin="1" verseEnd="5"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <sourceUrl>https://youtu.be/nAKqFu1j7fo</sourceUrl>
+          <text>Les hommes qui n&apos;ont pas la foi sont éclairés par la raison, car ils sont à l&apos;image de Dieu.</text>
+        </message>
+        <message name="Que faut-il pour cheminer vers Dieu ?" id="que-faut-il-pour-cheminer-vers-dieu">
+          <tests>
+            <test input="Que faut-il pour cheminer vers Dieu ?" output="Je ne sais pas ce qu&apos;il faut pour cheminer vers Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Que faut-il pour cheminer vers Dieu ?"/>
+          </triggers>
+          <sourceId>theodom</sourceId>
+          <sourceUrl>https://youtu.be/nAKqFu1j7fo</sourceUrl>
+          <text>Pour cheminer vers Dieu il faut la lumière de la foi pour lire l&apos;écriture dans la tradition.</text>
+        </message>
       </folder>
       <message name="Comment la Bible parle-t-elle de Dieu ?" id="comment-la-bible-parle-t-elle-de-dieu">
         <triggers>
@@ -5277,6 +5303,24 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/hj-ZCeKUBsY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Les chemins de la connaissance de Dieu" id="les-chemins-de-la-connaissance-de-dieu">
+        <tests>
+          <test input="Quels sont les chemins de la connaissance de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nAKqFu1j7fo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-chemins-de-la-connaissance-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Que faut-il pour cheminer vers Dieu ?" output="Je ne sais pas ce qu&apos;il faut pour cheminer vers Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          <test input="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?" output="Les hommes qui n&apos;ont pas la foi sont éclairés par la raison, car ils sont à l&apos;image de Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nAKqFu1j7fo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-hommes-qui-n-ont-pas-la-foi-font-comment-pour-aller-vers-dieu&quot; url=&quot;https://youtu.be/nAKqFu1j7fo&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-chemins-de-la-connaissance-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quels sont les chemins de la connaissance de Dieu ?"/>
+          <trigger value="Que faut-il pour cheminer vers Dieu ?"/>
+          <trigger value="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?"/>
+        </triggers>
+        <references>
+          <bible book="Gen" chapter="1" verseBegin="27"/>
+          <bible book="Wis" chapter="13" verseBegin="1" verseEnd="5"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nAKqFu1j7fo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Peut-on parler de Dieu ?" id="peut-on-parler-de-dieu">
         <tests>
@@ -8163,7 +8207,7 @@
       </message>
       <message name="Qu’est-ce et combien ?" id="qu-est-ce-et-combien">
         <tests>
-          <test input="L&apos;Eglise catholique en chiffres" output="L&apos;Église catholique est apostolique, catholique, le corps, une institution parce qu&apos;elle est un mystère aussi bien humain divin, le lieu de la présence de le Saint-Esprit et fidèle de Faites.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 10, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 22-23&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ep 4, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 118, 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 11, 24&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;857-860&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;869-877&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;830-831&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;849-856&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;811-816&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;866&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;870&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;770-773&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;779&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;797-801&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;809&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;1066-1070&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-apostolique&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-catholique&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-ne-peut-il-y-avoir-qu-une-seule-eglise&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-beaucoup-plus-qu-une-institution&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-celebre-t-elle-si-souvent-des-liturgies&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-et-combien&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
+          <test input="L&apos;Eglise catholique en chiffres" output="L&apos;Église catholique est apostolique, catholique, le corps, une institution parce qu&apos;elle est un mystère aussi bien humain divin, le lieu de la présence de le Saint-Esprit, une image de la maison céleste de Père et fidèle de Faites.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 10, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ep 1, 22-23&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ep 4, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 118, 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 11, 24&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;857-860&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;869-877&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;830-831&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;849-856&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;811-816&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;866&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;870&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;770-773&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;779&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;797-801&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;809&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;1179-1181&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1197-1198&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1066-1070&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-apostolique&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-catholique&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-ne-peut-il-y-avoir-qu-une-seule-eglise&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-est-elle-beaucoup-plus-qu-une-institution&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-eglise-est-le-temple-du-saint-esprit-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;la-liturgie-a-t-elle-besoin-de-lieux-o-elle-celebre-la-liturgie&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-celebre-t-elle-si-souvent-des-liturgies&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-et-combien&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="L&apos;Eglise catholique en chiffres"/>
@@ -13358,6 +13402,21 @@
               <sourceId>youcat</sourceId>
               <text>Dans la liturgie, le temps devient temps pour Dieu.</text>
             </message>
+            <message name="La liturgie a-t-elle besoin de lieux où elle célèbre la liturgie ?" id="la-liturgie-a-t-elle-besoin-de-lieux-o-elle-celebre-la-liturgie" nb="189">
+              <tests>
+                <test input="La liturgie a-t-elle besoin de lieux où elle célèbre la liturgie ?" output="Par sa victoire, le Christ est présent à tous les lieux du monde. Le culte de Dieu &lt;i&gt;en esprit et en vérité&lt;/i&gt; (Jn 4, 24) n’est plus lié à un lieu particulier, car le Christ lui-même est véritable temple de Dieu. Néanmoins le monde chrétien est parsemé d&apos;églises et de lieux saints parce que l&apos;humanité a besoin de lieux concrets pour se rencontrer, et de signes qui rappellent la réalité nouvelle. Chaque église est une image de la maison céleste du Père vers laquelle nous sommes en chemin." outputReferences="&lt;hc_bible ref=&quot;Jn 4, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1179-1181&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1197-1198&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;la-liturgie-a-t-elle-besoin-de-lieux-o-elle-celebre-la-liturgie&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="La liturgie a-t-elle besoin de lieux où elle célèbre la liturgie ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1179" verseEnd="1181"/>
+                <ccc verseBegin="1197" verseEnd="1198"/>
+                <bible book="Jn" chapter="4" verseBegin="24"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text fileType="text_in_html">Par sa victoire, le Christ est présent à tous les lieux du monde. Le culte de Dieu &lt;i&gt;en esprit et en vérité&lt;/i&gt; (Jn 4, 24) n’est plus lié à un lieu particulier, car le Christ lui-même est véritable temple de Dieu. Néanmoins le monde chrétien est parsemé d&apos;églises et de lieux saints parce que l&apos;humanité a besoin de lieux concrets pour se rencontrer, et de signes qui rappellent la réalité nouvelle. Chaque église est une image de la maison céleste du Père vers laquelle nous sommes en chemin.</text>
+            </message>
             <message name="Pourquoi accompagner les signes sacramentels de la liturgie par des paroles ?" id="pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles" nb="182">
               <tests>
                 <test input="Pourquoi accompagner les signes sacramentels de la liturgie par des paroles ?" output="Célébrer la liturgie, c&apos;est rencontrer Dieu : le laisser agir, l&apos;écouter, lui répondre. Ces dialogues s&apos;expriment toujours en gestes et en paroles." outputReferences="&lt;hc_bible ref=&quot;Is 6, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1153-1155&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1190&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -13433,6 +13492,20 @@
               <sourceId>youcat</sourceId>
               <text>Dieu sait que nous ne sommes pas seulement des êtres spirituels mais également corporels ; nous avons besoin de signes et de symboles pour percevoir et exprimer des réalités spirituelles ou intimes.</text>
             </message>
+            <message name="Qu&apos;est-ce qu&apos;une église chrétienne ?" id="qu-est-ce-qu-une-eglise-chretienne" nb="190">
+              <tests>
+                <test input="Qu&apos;est-ce qu&apos;une église chrétienne ?" output="Une église chrétienne est le symbole de la communauté en un lieu donné, mais aussi le symbole de la demeure céleste que Dieu a préparée pour nous. On vient dans l&apos;église pour prier, aussi bien en communauté qu&apos;individuellement, mais aussi pour célébrer les sacrements et tout particulièrement l&apos;eucharistie." outputReferences="&lt;hc_ccc ref=&quot;1179-1186&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1197-1199&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-qu-une-eglise-chretienne&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce qu&apos;une église chrétienne ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1179" verseEnd="1186"/>
+                <ccc verseBegin="1197" verseEnd="1199"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Une église chrétienne est le symbole de la communauté en un lieu donné, mais aussi le symbole de la demeure céleste que Dieu a préparée pour nous. On vient dans l&apos;église pour prier, aussi bien en communauté qu&apos;individuellement, mais aussi pour célébrer les sacrements et tout particulièrement l&apos;eucharistie.</text>
+            </message>
             <message name="Qu&apos;est-ce que l&apos;année liturgique ?" id="qu-est-ce-que-l-annee-liturgique" nb="186">
               <tests>
                 <test input="Qu&apos;est-ce que l&apos;année liturgique ?" output="Au cours de l&apos;année liturgique, l&apos;Église célèbre les mystères de la vie du Christ, de son incarnation jusqu à son retour dans la gloire. L&apos;année liturgique commence avec l&apos;Avent, qui est le temps de l&apos;attente du Seigneur.&#10;Elle a son premier sommet avec les célébrations de Noël. Le deuxième sommet, encore plus grand, à Pâques avec la célébration de la passion, de la mort et de la résurrection du Christ. Le temps de Pâques se termine à la Pentecôte où nous fêtons la venue du Saint-Esprit sur l&apos;Église. L&apos;année liturgique est émaillée de fêtes en l&apos;honneur de la Sainte Vierge et des saints, au cours desquelles l&apos;Église loue la grâce de Dieu qui a conduit les hommes vers le salut." outputReferences="&lt;hc_ccc ref=&quot;1168-1173&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1194-1195&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-l-annee-liturgique&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -13446,6 +13519,48 @@
               </references>
               <sourceId>youcat</sourceId>
               <text>Au cours de l&apos;année liturgique, l&apos;Église célèbre les mystères de la vie du Christ, de son incarnation jusqu à son retour dans la gloire. L&apos;année liturgique commence avec l&apos;Avent, qui est le temps de l&apos;attente du Seigneur.&#10;Elle a son premier sommet avec les célébrations de Noël. Le deuxième sommet, encore plus grand, à Pâques avec la célébration de la passion, de la mort et de la résurrection du Christ. Le temps de Pâques se termine à la Pentecôte où nous fêtons la venue du Saint-Esprit sur l&apos;Église. L&apos;année liturgique est émaillée de fêtes en l&apos;honneur de la Sainte Vierge et des saints, au cours desquelles l&apos;Église loue la grâce de Dieu qui a conduit les hommes vers le salut.</text>
+            </message>
+            <message name="Qu&apos;est-ce que la prière des heures ?" id="qu-est-ce-que-la-priere-des-heures" nb="188">
+              <tests>
+                <test input="Qu&apos;est-ce que la prière des heures ?" output="La « prière des heures » est la prière publique et officielle de l&apos;Église. Les textes bibliques conduisent celui qui prie au cœur du mystêre de la vie de Jésus-Christ. Partout dans le monde, à chaque heure du jour, on implore la Trinité divine pour qu&apos;elle transforme celui qui prie et le monde tout entier. La prière des heures n&apos;est pas réservée seulement aux prêtres et aux religieux. Beaucoup de chrétiens très impliqués dans leur foi s&apos;unissent aux multiples invocations qui montent vers Dieu de toutes les parties du monde." outputReferences="&lt;hc_bible ref=&quot;Ps 118, 164&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1174-1178&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1196&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-priere-des-heures&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que la prière des heures ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1174" verseEnd="1178"/>
+                <ccc verseBegin="1196"/>
+                <bible book="Ps" chapter="118" verseBegin="164"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>La « prière des heures » est la prière publique et officielle de l&apos;Église. Les textes bibliques conduisent celui qui prie au cœur du mystêre de la vie de Jésus-Christ. Partout dans le monde, à chaque heure du jour, on implore la Trinité divine pour qu&apos;elle transforme celui qui prie et le monde tout entier. La prière des heures n&apos;est pas réservée seulement aux prêtres et aux religieux. Beaucoup de chrétiens très impliqués dans leur foi s&apos;unissent aux multiples invocations qui montent vers Dieu de toutes les parties du monde.</text>
+            </message>
+            <message name="Quelle est l&apos;importance du dimanche ?" id="quelle-est-l-importance-du-dimanche" nb="187">
+              <tests>
+                <test input="Quelle est l&apos;importance du dimanche ?" output="Le dimanche est le centre du temps chrétien car il est le jour où nous célébrons la résurrection du Christ et chaque dimanche est une petite fête de Pâques." outputReferences="&lt;hc_ccc ref=&quot;1163-1167&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1193&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-l-importance-du-dimanche&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quelle est l&apos;importance du dimanche ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1163" verseEnd="1167"/>
+                <ccc verseBegin="1193"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Le dimanche est le centre du temps chrétien car il est le jour où nous célébrons la résurrection du Christ et chaque dimanche est une petite fête de Pâques.</text>
+            </message>
+            <message name="Quels sont les endroits privilégiés à l&apos;intérieur d&apos;une église ?" id="quels-sont-les-endroits-privilegies-a-l-interieur-d-une-eglise" nb="191">
+              <tests>
+                <test input="Quels sont les endroits privilégiés à l&apos;intérieur d&apos;une église ?" output="Ce sont : l&apos;autel avec la croix, le tabernacle, le siège du célébrant, l&apos;ambon, le baptistère et le confessionnal." outputReferences="&lt;hc_ccc ref=&quot;1182-1188&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quels-sont-les-endroits-privilegies-a-l-interieur-d-une-eglise&quot; textlength=&quot;6&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Quels sont les endroits privilégiés à l&apos;intérieur d&apos;une église ?"/>
+              </triggers>
+              <references>
+                <ccc verseBegin="1182" verseEnd="1188"/>
+              </references>
+              <sourceId>youcat</sourceId>
+              <text>Ce sont : l&apos;autel avec la croix, le tabernacle, le siège du célébrant, l&apos;ambon, le baptistère et le confessionnal.</text>
             </message>
             <message name="Qui célèbre la liturgie ?" id="qui-celebre-la-liturgie" nb="179">
               <tests>
@@ -15741,6 +15856,20 @@
     </folder>
     <folder name="À propos" id="a-propos-miracles" image="about.png">
       <message name="Charismes et guérisons, Sans langue de buis" id="charismes-et-guerisons-sans-langue-de-buis">
+        <tests>
+          <test input="Est-ce que c&apos;est dans la mission de l&apos;Eglise catholique de faire des prières de guérisons ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="De quoi Dieu guérit-il ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Quel secours Dieu peut apporter fasse à la souffrance ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Pourquoi certains sont guéris et d&apos;autres non ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Comment éviter les abus, le charlatanisme, les dérives de l&apos;emprise spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
+        </tests>
+        <triggers>
+          <trigger value="Est-ce que c&apos;est dans la mission de l&apos;Eglise catholique de faire des prières de guérisons ?"/>
+          <trigger value="De quoi Dieu guérit-il ?"/>
+          <trigger value="Quel secours Dieu peut apporter fasse à la souffrance ?"/>
+          <trigger value="Pourquoi certains sont guéris et d&apos;autres non ?"/>
+          <trigger value="Comment éviter les abus, le charlatanisme, les dérives de l&apos;emprise spirituelle ?"/>
+        </triggers>
         <references>
           <bible book="Jn" chapter="9" verseBegin="3"/>
           <bible book="Mk" chapter="5" verseBegin="28"/>
@@ -15765,6 +15894,27 @@
         </triggers>
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQo_t3qh3_U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Les miracles peuvent ils nous faire croire en Dieu ?" id="les-miracles-peuvent-ils-nous-faire-croire-en-dieu">
+        <tests>
+          <test input="Les miracles peuvent ils nous faire croire en Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iJ1VWlmu7Nk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 5, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-miracles-peuvent-ils-nous-faire-croire-en-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Les miracles sont-ils objectifs ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iJ1VWlmu7Nk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 5, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-miracles-peuvent-ils-nous-faire-croire-en-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Peut-on voir des miracles sans croire en Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iJ1VWlmu7Nk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 5, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-miracles-peuvent-ils-nous-faire-croire-en-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Les miracles peuvent ils nous faire croire en Dieu ?"/>
+          <trigger value="Les miracles sont-ils objectifs ?"/>
+          <trigger value="Peut-on voir des miracles sans croire en Dieu ?"/>
+        </triggers>
+        <descriptions>
+          <description value="Les miracles disposes à la foi."/>
+          <description value="Les miracles rendent plus facile l&apos;acte de foi."/>
+        </descriptions>
+        <references>
+          <bible book="Mk" chapter="5" verseBegin="26"/>
+        </references>
+        <sourceId>theodom</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iJ1VWlmu7Nk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Peut-on croire aux miracles ?" id="peut-on-croire-aux-miracles">
         <tests>
