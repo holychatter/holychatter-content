@@ -3294,6 +3294,10 @@
     </folder>
     <folder name="Le Père" id="le-pere" nb="2" image="père.jpg">
       <folder name="Chatbot" id="chatbot-le-pere" isHidden="true">
+        <message name="Dieu choisit les moyens par lesquels il se fait connaître." id="dieu-choisit-les-moyens-par-lesquels-il-se-fait-connaitre">
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Dieu choisit les moyens par lesquels il se fait connaître.</text>
+        </message>
         <message name="Dieu dépasse la raison" id="dieu-depasse-la-raison">
           <tests>
             <test input="Qu&apos;est-ce que Dieu dépasse ?" output="Dieu dépasse la raison." outputReferences="&lt;hc_bible ref=&quot;1Tm 6, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-depasse-la-raison&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -3403,6 +3407,16 @@
           <sourceId>bible</sourceId>
           <text>Il n&apos;y a qu&apos;un Dieu.</text>
         </message>
+        <message name="La manière de faire de Dieu..." id="la-maniere-de-faire-de-dieu">
+          <tests>
+            <test input="Quelle est la manière de faire de Dieu ?" output="Dieu prend en compte toute la nature de l&apos;homme y compris sa  liberté." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;la-maniere-de-faire-de-dieu&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quelle est la manière de faire de Dieu ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Dieu prend en compte toute la nature de l&apos;homme y compris sa  liberté.</text>
+        </message>
         <message name="Le Père est Dieu" id="le-pere-est-dieu">
           <tests>
             <test input="Est-ce que le Père est Dieu ?" output="Le Père est Dieu." outputReferences="&lt;hc_bible ref=&quot;Jn 6, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 1, 7&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1P 1, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Dieu-Pere/Decouvrir-Dieu-le-Pere&quot; textlength=&quot;78&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-pere-est-dieu&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3456,10 +3470,6 @@
         <sourceId>decouvrir-dieu</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sCLW91mAiw8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="Dieu choisit les moyens par lesquels il se fait connaître." id="dieu-choisit-les-moyens-par-lesquels-il-se-fait-connaitre">
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Dieu choisit les moyens par lesquels il se fait connaître.</text>
-      </message>
       <message name="Dieu est amour" id="dieu-est-amour">
         <references>
           <bible book="1 Jn" chapter="4" verseBegin="8"/>
@@ -3492,16 +3502,6 @@
         </descriptions>
         <sourceId>marie-de-nazareth</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YmAMijn00w0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="La manière de faire de Dieu..." id="la-maniere-de-faire-de-dieu">
-        <tests>
-          <test input="Quelle est la manière de faire de Dieu ?" output="Dieu prend en compte toute la nature de l&apos;homme y compris sa  liberté." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-maniere-de-faire-de-dieu&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quelle est la manière de faire de Dieu ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Dieu prend en compte toute la nature de l&apos;homme y compris sa  liberté.</text>
       </message>
       <message name="Qui est Dieu ?" id="qui-est-dieu-le-pere">
         <tests>
@@ -3575,7 +3575,7 @@
           <text>Oui, Jésus est le fils de Dieu.</text>
         </message>
         <message name="Jésus est vrai Dieu et vrai homme." id="jesus-est-vrai-dieu-et-vrai-homme">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text fileType="text_in_html">&lt;span&gt;Jésus est vrai Dieu et vrai homme.&lt;/span&gt;</text>
         </message>
         <message name="Pourquoi Jésus est-il Dieu" id="pourquoi-jesus-est-il-dieu">
@@ -8391,7 +8391,7 @@
       </message>
       <message name="Comment Dieu nous parle ? - Benjamin Pouzin" id="comment-dieu-nous-parle-benjamin-pouzin">
         <tests>
-          <test input="Comment Dieu nous parle ?" output="Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f_1I5kp7aZU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lc 1, 5-25&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 1, 35-58&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 1, 18-25&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Eglise Lyon Centre&quot; resourceid=&quot;comment-dieu-nous-parle-benjamin-pouzin&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Comment Dieu nous parle ?" output="Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f_1I5kp7aZU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;20&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Lc 1, 5-25&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 1, 35-58&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 1, 18-25&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Eglise Lyon Centre&quot; resourceid=&quot;comment-dieu-nous-parle-benjamin-pouzin&quot; textlength=&quot;18&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Comment Dieu nous parle ?"/>
@@ -8591,7 +8591,7 @@
           <test input="Je veux trouver un lieu où il y a de l&apos;amour." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;pourquoi-tibo-inshape-et-mcfly-carlito-vont-rencontrer-des-bonnes-soeurs&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Je veux trouver de la bienveillance." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;pourquoi-tibo-inshape-et-mcfly-carlito-vont-rencontrer-des-bonnes-soeurs&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Je veux trouver une vie alternative." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;pourquoi-tibo-inshape-et-mcfly-carlito-vont-rencontrer-des-bonnes-soeurs&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Où aller ?" output="Aller à la Sainte Messe et la rencontre.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;pourquoi-tibo-inshape-et-mcfly-carlito-vont-rencontrer-des-bonnes-soeurs&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Où aller ?" output="Aller à la Sainte Messe et la rencontre.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;20&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;pourquoi-tibo-inshape-et-mcfly-carlito-vont-rencontrer-des-bonnes-soeurs&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Où rencontrer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;pourquoi-tibo-inshape-et-mcfly-carlito-vont-rencontrer-des-bonnes-soeurs&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <triggers>
@@ -8889,55 +8889,142 @@
     </folder>
     <folder name="Ecritures Saintes" id="ecritures-saintes" image="bible.jpg">
       <folder name="Chatbot" id="chatbot-ecritures-saintes" isHidden="true">
+        <message name="Dei Verbum" id="dei-verbum">
+          <triggers>
+            <trigger value="Qu&apos;est-ce que c&apos;est Dei Verbum ?"/>
+          </triggers>
+          <sourceId>wikipedia</sourceId>
+          <text>Dei Verbum, ou la Constitution dogmatique sur la Révélation divine, est l&apos;une des quatre constitutions conciliaires promulguées par le IIe concile œcuménique du Vatican (Vatican II). Portant sur la révélation divine, ce texte est voté le 8 septembre 1965 et solennellement promulgué le 18 novembre 1965 par le pape Paul VI. En six chapitres, il refait le point sur la manière dont Dieu se révèle à l&apos;homme dans les Saintes Écritures reçues par les chrétiens comme Parole de Dieu.</text>
+        </message>
         <message name="Dieu fait confiance à l&apos;homme par la transmission de la Parole." id="dieu-fait-confiance-a-l-homme-par-la-transmission-de-la-parole">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>Dieu fait confiance à l&apos;homme par la transmission de la Parole.</text>
         </message>
+        <message name="Dieu nous parle par la Bible." id="dieu-nous-parle-par-la-bible">
+          <tests>
+            <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment Dieu nous parle ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique.</text>
+        </message>
+        <message name="Il y a 3 langues bibliques." id="il-y-a-3-langues-bibliques">
+          <tests>
+            <test input="Quelles sont les langues bibliques ?" output="Il y a 3 langues bibliques: l&apos;araméen, l&apos;hébreux et le grec." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;il-y-a-3-langues-bibliques&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quelles sont les langues bibliques ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Il y a 3 langues bibliques: l&apos;araméen, l&apos;hébreux et le grec.</text>
+        </message>
         <message name="Je te conseille de lire l&apos;évangile avant d&apos;aller à la messe." id="je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>Je te conseille de lire l&apos;évangile avant d&apos;aller à la messe.</text>
         </message>
         <message name="L&apos;écoute est l&apos;attitude principale du croyant." id="l-ecoute-est-l-attitude-principale-du-croyant">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>L&apos;écoute est l&apos;attitude principale du croyant.</text>
         </message>
         <message name="La Bible comporte 73 livres." id="la-bible-comporte-73-livres">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La Bible comporte 73 livres dont 46 dans l&apos;Ancien Testament.&#10;C&apos;était une tradition orale qui peu à peu a été mis par écrit.&#10;La tradition et l&apos;Ecriture vont de pair.</text>
         </message>
         <message name="La Parole est faite pour être reçue et donnée." id="la-parole-est-faite-pour-etre-recue-et-donnee">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La Parole est faite pour être reçue et donnée.</text>
         </message>
         <message name="La Parole est un don avant d&apos;être une exigence." id="la-parole-est-un-don-avant-d-etre-une-exigence">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La Parole est un don avant d&apos;être une exigence.</text>
         </message>
         <message name="La Parole produit du fruit quand on l&apos;acceuille avec joie." id="la-parole-produit-du-fruit-quand-on-l-acceuille-avec-joie">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La Parole produit du fruit quand on l&apos;acceuille avec joie.</text>
         </message>
         <message name="La Parole réalise ce qu&apos;elle dit." id="la-parole-realise-ce-qu-elle-dit">
           <tests>
-            <test input="La Parole réalise quoi ?" output="La Parole réalise ce qu&apos;elle dit." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-parole-realise-ce-qu-elle-dit&quot; textlength=&quot;17&quot; /&gt;"/>
+            <test input="La Parole réalise quoi ?" output="La Parole réalise ce qu&apos;elle dit." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;la-parole-realise-ce-qu-elle-dit&quot; textlength=&quot;20&quot; /&gt;"/>
           </tests>
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La Parole réalise ce qu&apos;elle dit.&#10;</text>
         </message>
         <message name="La Parole s&apos;accomplit dans les oeuvres." id="la-parole-s-accomplit-dans-les-oeuvres">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La Parole s&apos;accomplit dans les oeuvres.</text>
         </message>
         <message name="La communauté des croyants c&apos;est ceux qui ont reçu la Parole est qui ont crus." id="la-communaute-des-croyants-c-est-ceux-qui-ont-recu-la-parole-est-qui-ont-crus">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>La communauté des croyants c&apos;est ceux qui ont reçu la Parole est qui ont crus.</text>
         </message>
+        <message name="La séparation de la Bible en chapitres date de XIIIe siècle après JC." id="la-separation-de-la-bible-en-chapitres-date-de-xiiie-siecle-apres-jc">
+          <tests>
+            <test input="De quand date la séparation de la Bible en chapitres ?" output="La séparation de la Bible en chapitres date de XIIIe siècle après JC.&#10;" outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;la-separation-de-la-bible-en-chapitres-date-de-xiiie-siecle-apres-jc&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="De quand date la séparation de la Bible en chapitres ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>La séparation de la Bible en chapitres date de XIIIe siècle après JC.&#10;</text>
+        </message>
+        <message name="La séparation de la Bible en versets date de XVIe siècle après JC." id="la-separation-de-la-bible-en-versets-date-de-xvie-siecle-apres-jc">
+          <tests>
+            <test input="De quand date la séparation de la Bible en versets ?" output="La séparation de la Bible en versets date de XVIe siècle après JC.&#10;" outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;la-separation-de-la-bible-en-versets-date-de-xvie-siecle-apres-jc&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="De quand date la séparation de la Bible en versets ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>La séparation de la Bible en versets date de XVIe siècle après JC.&#10;</text>
+        </message>
+        <message name="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." id="le-canon-est-l-ensemble-des-livres-reconnus-comme-inspires-par-une-communaute-religieuse">
+          <tests>
+            <test input="Qu&apos;est-ce que le Canon ?" output="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;le-canon-est-l-ensemble-des-livres-reconnus-comme-inspires-par-une-communaute-religieuse&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que le Canon ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse.</text>
+        </message>
+        <message name="Le but de la Bible est de mener au salut." id="le-but-de-la-bible-est-de-mener-au-salut">
+          <tests>
+            <test input="Quel est le but de la Bible ?" output="Le but de la Bible est de mener au salut." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;le-but-de-la-bible-est-de-mener-au-salut&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quel est le but de la Bible ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Le but de la Bible est de mener au salut.</text>
+        </message>
         <message name="Les auteurs de la Bible écrivent en pleine possession de leurs moyens." id="les-auteurs-de-la-bible-ecrivent-en-pleine-possession-de-leurs-moyens">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>Les auteurs de la Bible écrivent en pleine possession de leurs moyens.</text>
         </message>
+        <message name="Les textes de la Bible sont fiables." id="les-textes-de-la-bible-sont-fiables">
+          <tests>
+            <test input="Est-ce que la Bible est fiable ?" output="Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisait tout." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Est-ce que la Bible est fiable ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisait tout.</text>
+        </message>
+        <message name="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." id="les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc">
+          <tests>
+            <test input="De quand datent les textes les plus anciens de la Bible ?" output="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." outputReferences="&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc&quot; textlength=&quot;20&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="De quand datent les textes les plus anciens de la Bible ?"/>
+          </triggers>
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Les textes les plus anciens de la Bible datent du Xe siècle avant JC.</text>
+        </message>
         <message name="Toute l&apos;Ecriture est inspirée par Dieu." id="toute-l-ecriture-est-inspiree-par-dieu">
-          <sourceId>batir-sur-le-roc</sourceId>
+          <sourceId>diocese-nanterre</sourceId>
           <text>Toute l&apos;Ecriture est inspirée par Dieu.</text>
         </message>
       </folder>
@@ -8953,33 +9040,6 @@
         </references>
         <sourceId>pere-herve-marie-hignard</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZmQyxAZKoh4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Dei Verbum" id="dei-verbum">
-        <triggers>
-          <trigger value="Qu&apos;est-ce que c&apos;est Dei Verbum ?"/>
-        </triggers>
-        <sourceId>wikipedia</sourceId>
-        <text>Dei Verbum, ou la Constitution dogmatique sur la Révélation divine, est l&apos;une des quatre constitutions conciliaires promulguées par le IIe concile œcuménique du Vatican (Vatican II). Portant sur la révélation divine, ce texte est voté le 8 septembre 1965 et solennellement promulgué le 18 novembre 1965 par le pape Paul VI. En six chapitres, il refait le point sur la manière dont Dieu se révèle à l&apos;homme dans les Saintes Écritures reçues par les chrétiens comme Parole de Dieu.</text>
-      </message>
-      <message name="Dieu nous parle par la Bible." id="dieu-nous-parle-par-la-bible">
-        <tests>
-          <test input="Dieu nous parle-t-il par la Bible ?" output="Je ne sais pas si Dieu nous me parle par la Bible mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
-        </tests>
-        <triggers>
-          <trigger value="Comment Dieu nous parle ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Dieu nous parle par la Bible. On ne peut pas lire la Bible comme un récit historique.</text>
-      </message>
-      <message name="Il y a 3 langues bibliques." id="il-y-a-3-langues-bibliques">
-        <tests>
-          <test input="Quelles sont les langues bibliques ?" output="Il y a 3 langues bibliques: l&apos;araméen, l&apos;hébreux et le grec." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;il-y-a-3-langues-bibliques&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quelles sont les langues bibliques ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Il y a 3 langues bibliques: l&apos;araméen, l&apos;hébreux et le grec.</text>
       </message>
       <message name="La Parole de Dieu | Alice Drisch" id="la-parole-de-dieu-alice-drisch">
         <tests>
@@ -9047,66 +9107,6 @@
         </references>
         <sourceId>padre-dk</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qk_fnQk8AV8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="La séparation de la Bible en chapitres date de XIIIe siècle après JC." id="la-separation-de-la-bible-en-chapitres-date-de-xiiie-siecle-apres-jc">
-        <tests>
-          <test input="De quand date la séparation de la Bible en chapitres ?" output="La séparation de la Bible en chapitres date de XIIIe siècle après JC.&#10;" outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-separation-de-la-bible-en-chapitres-date-de-xiiie-siecle-apres-jc&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="De quand date la séparation de la Bible en chapitres ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>La séparation de la Bible en chapitres date de XIIIe siècle après JC.&#10;</text>
-      </message>
-      <message name="La séparation de la Bible en versets date de XVIe siècle après JC." id="la-separation-de-la-bible-en-versets-date-de-xvie-siecle-apres-jc">
-        <tests>
-          <test input="De quand date la séparation de la Bible en versets ?" output="La séparation de la Bible en versets date de XVIe siècle après JC.&#10;" outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;la-separation-de-la-bible-en-versets-date-de-xvie-siecle-apres-jc&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="De quand date la séparation de la Bible en versets ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>La séparation de la Bible en versets date de XVIe siècle après JC.&#10;</text>
-      </message>
-      <message name="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." id="le-canon-est-l-ensemble-des-livres-reconnus-comme-inspires-par-une-communaute-religieuse">
-        <tests>
-          <test input="Qu&apos;est-ce que le Canon ?" output="Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;le-canon-est-l-ensemble-des-livres-reconnus-comme-inspires-par-une-communaute-religieuse&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qu&apos;est-ce que le Canon ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Le Canon est l&apos;ensemble des livres reconnus comme inspirés par une communauté religieuse.</text>
-      </message>
-      <message name="Le but de la Bible est de mener au salut." id="le-but-de-la-bible-est-de-mener-au-salut">
-        <tests>
-          <test input="Quel est le but de la Bible ?" output="Le but de la Bible est de mener au salut." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;le-but-de-la-bible-est-de-mener-au-salut&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quel est le but de la Bible ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Le but de la Bible est de mener au salut.</text>
-      </message>
-      <message name="Les textes de la Bible sont fiables." id="les-textes-de-la-bible-sont-fiables">
-        <tests>
-          <test input="Est-ce que la Bible est fiable ?" output="Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisait tout." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-de-la-bible-sont-fiables&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Est-ce que la Bible est fiable ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Les textes de la Bible sont fiables depuis les origines.&#10;On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisait tout.</text>
-      </message>
-      <message name="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." id="les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc">
-        <tests>
-          <test input="De quand datent les textes les plus anciens de la Bible ?" output="Les textes les plus anciens de la Bible datent du Xe siècle avant JC." outputReferences="&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;les-textes-les-plus-anciens-de-la-bible-datent-du-xe-siecle-avant-jc&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="De quand datent les textes les plus anciens de la Bible ?"/>
-        </triggers>
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Les textes les plus anciens de la Bible datent du Xe siècle avant JC.</text>
       </message>
       <message name="Parole de Dieu et Ecritures Saintes" id="parole-de-dieu-et-ecritures-saintes">
         <triggers>
@@ -9576,6 +9576,12 @@
       </message>
     </folder>
     <folder name="Le mal" id="le-mal" image="mal.jpg">
+      <folder name="Chatbot" id="chatbot-le-mal" isHidden="true">
+        <message name="Le mal n&apos;est pas toujours évident à trouver." id="le-mal-n-est-pas-toujours-evident-a-trouver">
+          <sourceId>diocese-nanterre</sourceId>
+          <text>Le mal n&apos;est pas toujours évident à trouver.</text>
+        </message>
+      </folder>
       <message name="C’est quoi, le mal ?" id="c-est-quoi-le-mal">
         <tests>
           <test input="C’est quoi, le mal ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/vLAfAC7Xslo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;309-314&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;324&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;400&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-le-mal&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -9622,10 +9628,6 @@
         </references>
         <sourceId>frere-paul-adrien-d-hardemare</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6GFQ0DURQIE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Le mal n&apos;est pas toujours évident à trouver." id="le-mal-n-est-pas-toujours-evident-a-trouver">
-        <sourceId>batir-sur-le-roc</sourceId>
-        <text>Le mal n&apos;est pas toujours évident à trouver.</text>
       </message>
       <message name="Pourquoi Dieu permet les épreuves ?" id="pourquoi-dieu-permet-les-epreuves">
         <tests>
@@ -18145,8 +18147,8 @@
             </message>
             <message name="SDF : Que faire ? Des exemples concrets pour créer du lien" id="sdf-que-faire-des-exemples-concrets-pour-creer-du-lien" nb="4">
               <tests>
-                <test input="Comment faire ?" output="Faire lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, lire la Bible, en faire, faire absolu, réveiller de nouveau à la vie par la puissance de son Père, enseigner, prendre des décisions sans l&apos;accord des évêques, répondre à écouter laisser agir que célébrer la liturgie c&apos;est rencontrer Dieu, essayer de faire ce que Parole me dit, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 6, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;880-890&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1153-1155&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1190&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c-est-quoi-l-impurete-sexuelle&quot; url=&quot;https://youtu.be/iCbtNXzZGUc&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-s-est-il-fait-baptiser-par-jean-bien-qu-il-ft-sans-peche&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;les-eveques-peuvent-ils-agir-et-enseigner-contre-le-pape-le-pape-peut-il-faire-de-meme-avec-les-eveques&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
-                <test input="Que faire ?" output="Lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, lire la Bible, en faire, faire absolu, réveiller de nouveau à la vie par la puissance de son Père, enseigner, prendre des décisions sans l&apos;accord des évêques, répondre à écouter laisser agir que célébrer la liturgie c&apos;est rencontrer Dieu, essayer de faire ce que Parole me dit, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 6, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;880-890&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1153-1155&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1190&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Bâtir sur le Roc&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c-est-quoi-l-impurete-sexuelle&quot; url=&quot;https://youtu.be/iCbtNXzZGUc&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-s-est-il-fait-baptiser-par-jean-bien-qu-il-ft-sans-peche&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;les-eveques-peuvent-ils-agir-et-enseigner-contre-le-pape-le-pape-peut-il-faire-de-meme-avec-les-eveques&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+                <test input="Comment faire ?" output="Faire lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire la Bible, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, en faire, faire absolu, réveiller de nouveau à la vie par la puissance de son Père, enseigner, prendre des décisions sans l&apos;accord des évêques, répondre à écouter laisser agir que célébrer la liturgie c&apos;est rencontrer Dieu, essayer de faire ce que Parole me dit, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 6, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;880-890&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1153-1155&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1190&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;20&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;20&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c-est-quoi-l-impurete-sexuelle&quot; url=&quot;https://youtu.be/iCbtNXzZGUc&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-s-est-il-fait-baptiser-par-jean-bien-qu-il-ft-sans-peche&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;les-eveques-peuvent-ils-agir-et-enseigner-contre-le-pape-le-pape-peut-il-faire-de-meme-avec-les-eveques&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
+                <test input="Que faire ?" output="Lire la parabole, pleurer, réaliser la grandeur du sacrement de mariage et le sacrement de l&apos;Eucharistie à la fois, annoncer l&apos;Évangile, lire la Bible, lire l&apos;Évangile avant de aller à la Sainte Messe, aller à la Sainte Messe, en faire, faire absolu, réveiller de nouveau à la vie par la puissance de son Père, enseigner, prendre des décisions sans l&apos;accord des évêques, répondre à écouter laisser agir que célébrer la liturgie c&apos;est rencontrer Dieu, essayer de faire ce que Parole me dit, aller à la rencontre, parler avec une personne sans domicile et aider Entourage.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 6, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;535-537&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;565&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;880-890&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1153-1155&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1190&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-bon-samaritain&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;portrait-de-jesus&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;pourquoi-les-concubins-ne-peuvent-pas-communier&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/connaitre-et-aimer-dieu/leglise/372834-leglise-en-questions/&quot; textlength=&quot;108&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;a-quoi-sert-l-eglise&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;dieu-nous-parle-par-la-bible&quot; textlength=&quot;20&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Nanterre&quot; resourceid=&quot;je-te-conseille-de-lire-l-evangile-avant-d-aller-a-la-messe&quot; textlength=&quot;20&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;c-est-quoi-l-impurete-sexuelle&quot; url=&quot;https://youtu.be/iCbtNXzZGUc&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-s-est-il-fait-baptiser-par-jean-bien-qu-il-ft-sans-peche&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;les-eveques-peuvent-ils-agir-et-enseigner-contre-le-pape-le-pape-peut-il-faire-de-meme-avec-les-eveques&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-accompagner-les-signes-sacramentels-de-la-liturgie-par-des-paroles&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;croire-en-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;23&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;je-n-ose-pas-aller-parler-a-une-personne-sdf-comment-faire&quot; textlength=&quot;53&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Chargé de médiation sociale - Entourage&quot; resourceid=&quot;entourage-c-est-aussi-une-application&quot; textlength=&quot;53&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;" isOk="false"/>
                 <test input="Que faire pour un SDF par grand froid ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;"/>
                 <test input="Quel numéro faire pour le demande d&apos;hébergement ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;"/>
                 <test input="Que faire si un SDF a besoin de soins médicaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QS7j7DaSqvs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Réseau Entourage&quot; resourceid=&quot;sdf-que-faire-des-exemples-concrets-pour-creer-du-lien&quot; textlength=&quot;17&quot; /&gt;"/>
