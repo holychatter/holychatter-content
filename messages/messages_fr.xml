@@ -626,7 +626,7 @@
             <message name="Moïse en 3 minutes" id="moise-en-3-minutes">
               <tests>
                 <test input="Qui est Moïse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/93S_gK5aK9g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 2-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;moise-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
-                <test input="Qu&apos;est-ce que Moïse a fait ?" output="Nous avons peut-être pas fait de péchés du mensonge mais très grave est parfois dominé par la colère par la jalousie par l&apos;égoïsme par la médisance, nous avons peut-être pas fait très grave mais très grave est parfois dominé par la colère par la jalousie par l&apos;égoïsme par la médisance et nous avons fait le tour des paroles de Jésus en croix.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/93S_gK5aK9g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;qui-est-pecheur&quot; url=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;14&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ex 2-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;moise-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+                <test input="Qu&apos;est-ce que Moïse a fait ?" output="Nous portions une guillotine ou une chaise du cou électrique, nous avons peut-être pas fait de péchés du mensonge mais très grave est parfois dominé par la colère par la jalousie par l&apos;égoïsme par la médisance, nous avons peut-être pas fait très grave mais très grave est parfois dominé par la colère par la jalousie par l&apos;égoïsme par la médisance et nous avons fait le tour des paroles de Jésus en croix.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/93S_gK5aK9g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;c-est-tres-etrange-de-porter-une-croix&quot; url=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;qui-est-pecheur&quot; url=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;14&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ex 2-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;moise-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
                 <test input="Comment Dieu a-t-il appelé Moïse ?" output="Je ne sais pas comment Dieu a appelé Moïse mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
               </tests>
               <triggers>
@@ -13792,6 +13792,35 @@
         <folder name="Les sept sacrements de l&apos;Église" id="les-sept-sacrements-de-l-eglise" nb="193" image="bapteme.jpg">
           <folder name="Les sacrements de l&apos;initiation" id="les-sacrements-de-l-initiation" nb="194" image="signes_sacres.jpg">
             <folder name="Le sacrement du baptême" id="le-sacrement-du-bapteme" nb="194" image="bapteme.jpg">
+              <message name="Comment le baptême est-il administré ?" id="comment-le-bapteme-est-il-administre" nb="195">
+                <tests>
+                  <test input="Comment le baptême est-il administré ?" output="La forme classique de baptême est la triple immersion du baptisé dans l&apos;eau. Mais, la plupart de temps, celui qui administre le baptême verse trois fois de l&apos;eau sur la tête du baptisé tout en disant : « Je te baptise au nom du Père et du Fils et du Saint Esprit. »" outputReferences="&lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1210-1211&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-le-bapteme-est-il-administre&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Comment le baptême est-il administré ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1210" verseEnd="1211"/>
+                  <bible book="Mt" chapter="28" verseBegin="19"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>La forme classique de baptême est la triple immersion du baptisé dans l&apos;eau. Mais, la plupart de temps, celui qui administre le baptême verse trois fois de l&apos;eau sur la tête du baptisé tout en disant : « Je te baptise au nom du Père et du Fils et du Saint Esprit. »</text>
+              </message>
+              <message name="Pourquoi l&apos;Église tient-elle à baptiser les petits enfants ?" id="pourquoi-l-eglise-tient-elle-a-baptiser-les-petits-enfants" nb="197">
+                <tests>
+                  <test input="Pourquoi l&apos;Église tient-elle à baptiser les petits enfants ?" output="&lt;span&gt;La pratique de baptiser les petits enfants est une tradition très ancienne de l&apos;Église. Il y a à cela une unique raison : avant que l&apos;homme ne fasse le choix de Dieu, Dieu le choisit. Le baptême est par conséquent une grâce, un cadeau immérité venant de Dieu qui accueille sans conditions. Des parents croyants qui veulent le bien de leur enfant veulent donc qu&apos;il reçoive le baptême. Le baptême délivre leur enfant de l&apos;influence du péché originel et de la puissance de la mort.&lt;/span&gt;" outputReferences="&lt;hc_bible ref=&quot;Rm 6, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Tm 2, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1250-1282&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-l-eglise-tient-elle-a-baptiser-les-petits-enfants&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Pourquoi l&apos;Église tient-elle à baptiser les petits enfants ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1250" verseEnd="1282"/>
+                  <bible book="Rom" chapter="6" verseBegin="4"/>
+                  <bible book="1 Tim" chapter="2" verseBegin="4"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;La pratique de baptiser les petits enfants est une tradition très ancienne de l&apos;Église. Il y a à cela une unique raison : avant que l&apos;homme ne fasse le choix de Dieu, Dieu le choisit. Le baptême est par conséquent une grâce, un cadeau immérité venant de Dieu qui accueille sans conditions. Des parents croyants qui veulent le bien de leur enfant veulent donc qu&apos;il reçoive le baptême. Le baptême délivre leur enfant de l&apos;influence du péché originel et de la puissance de la mort.&lt;/span&gt;</text>
+              </message>
               <message name="Qu&apos;est-ce que le baptême ?" id="qu-est-ce-que-le-bapteme" nb="194">
                 <tests>
                   <test input="Qu&apos;est-ce que le baptême ?" output="&lt;span&gt;Le baptême est le fondement de toute vie chrétienne. Il est la porte d&apos;entrée dans l’Église. Par lui, libérés du péché, nous devenons membres du Christ et nous entrons en communion avec Dieu.&lt;/span&gt;|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/_91QrjaTkN8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2Co 5, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rm 13, 12-14&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1213-1216&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1276-1278&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-bapteme&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 38-41&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ac 18, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 6, 3-4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Col 2, 12&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Tt 3, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1213-1284&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2167&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-le-bapteme&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -13807,6 +13836,21 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">&lt;span&gt;Le baptême est le fondement de toute vie chrétienne. Il est la porte d&apos;entrée dans l’Église. Par lui, libérés du péché, nous devenons membres du Christ et nous entrons en communion avec Dieu.&lt;/span&gt;</text>
+              </message>
+              <message name="Qui peut être baptisé ? Qu&apos;est-il exigé de celui qui demande le baptême ?" id="qui-peut-etre-baptise-qu-est-il-exige-de-celui-qui-demande-le-bapteme" nb="196">
+                <tests>
+                  <test input="Qui peut être baptisé ?" output="Toute personne qui n&apos;a pas encore été baptisée peut être baptisée. La seule condition au baptême est la foi, qui doit être proclamée publiquement lors du baptême." outputReferences="&lt;hc_ccc ref=&quot;1246-1254&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-peut-etre-baptise-qu-est-il-exige-de-celui-qui-demande-le-bapteme&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="Qu&apos;est-il exigé de celui qui demande le baptême ?" output="Toute personne qui n&apos;a pas encore été baptisée peut être baptisée. La seule condition au baptême est la foi, qui doit être proclamée publiquement lors du baptême." outputReferences="&lt;hc_ccc ref=&quot;1246-1254&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-peut-etre-baptise-qu-est-il-exige-de-celui-qui-demande-le-bapteme&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qui peut être baptisé ?"/>
+                  <trigger value="Qu&apos;est-il exigé de celui qui demande le baptême ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1246" verseEnd="1254"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Toute personne qui n&apos;a pas encore été baptisée peut être baptisée. La seule condition au baptême est la foi, qui doit être proclamée publiquement lors du baptême.</text>
               </message>
             </folder>
           </folder>
@@ -18914,6 +18958,16 @@
           </triggers>
           <sourceId>esseynelle</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/077LhM9N64g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Guillaume Warmuz, le gardien passé des terrains de foot à la vie d’homme de foi" id="guillaume-warmuz-le-gardien-passe-des-terrains-de-foot-a-la-vie-d-homme-de-foi">
+          <tests>
+            <test input="Montrez-moi le témoignage du gardien de but de football Guillaume Warmuz !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_i-icme7dsM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi le témoignage du gardien de but de football Guillaume Warmuz !"/>
+          </triggers>
+          <sourceId>le-parisein</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_i-icme7dsM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="La foi de Lilian Thuram (Etats Généraux du Christianisme)" id="la-foi-de-lilian-thuram-etats-generaux-du-christianisme">
           <tests>
