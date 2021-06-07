@@ -13837,6 +13837,19 @@
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">&lt;span&gt;Le baptême est le fondement de toute vie chrétienne. Il est la porte d&apos;entrée dans l’Église. Par lui, libérés du péché, nous devenons membres du Christ et nous entrons en communion avec Dieu.&lt;/span&gt;</text>
               </message>
+              <message name="Qui peut administrer le baptême ?" id="qui-peut-administrer-le-bapteme" nb="198">
+                <tests>
+                  <test input="Qui peut administrer le baptême ?" output="&lt;span&gt;Ordinairement, c&apos;est l&apos;évêque, un prêtre ou un diacre qui administrent le sacrement du baptême. En cas de besoin, tout chrétien. Oui, toute personne peut baptiser en versant de l&apos;eau sur la tête du baptisé en prononçant la formule baptismale : « Je te baptise au nom du Père et du Fils et du Saint-Esprit. »&lt;/span&gt;" outputReferences="&lt;hc_ccc ref=&quot;1256-1284&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-peut-administrer-le-bapteme&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qui peut administrer le baptême ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1256" verseEnd="1284"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;Ordinairement, c&apos;est l&apos;évêque, un prêtre ou un diacre qui administrent le sacrement du baptême. En cas de besoin, tout chrétien. Oui, toute personne peut baptiser en versant de l&apos;eau sur la tête du baptisé en prononçant la formule baptismale : « Je te baptise au nom du Père et du Fils et du Saint-Esprit. »&lt;/span&gt;</text>
+              </message>
               <message name="Qui peut être baptisé ? Qu&apos;est-il exigé de celui qui demande le baptême ?" id="qui-peut-etre-baptise-qu-est-il-exige-de-celui-qui-demande-le-bapteme" nb="196">
                 <tests>
                   <test input="Qui peut être baptisé ?" output="Toute personne qui n&apos;a pas encore été baptisée peut être baptisée. La seule condition au baptême est la foi, qui doit être proclamée publiquement lors du baptême." outputReferences="&lt;hc_ccc ref=&quot;1246-1254&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-peut-etre-baptise-qu-est-il-exige-de-celui-qui-demande-le-bapteme&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -18961,7 +18974,7 @@
         </message>
         <message name="Guillaume Warmuz, le gardien passé des terrains de foot à la vie d’homme de foi" id="guillaume-warmuz-le-gardien-passe-des-terrains-de-foot-a-la-vie-d-homme-de-foi">
           <tests>
-            <test input="Montrez-moi le témoignage du gardien de but de football Guillaume Warmuz !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_i-icme7dsM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            <test input="Montrez-moi le témoignage du gardien de but de football Guillaume Warmuz !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_i-icme7dsM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Parisein&quot; resourceid=&quot;guillaume-warmuz-le-gardien-passe-des-terrains-de-foot-a-la-vie-d-homme-de-foi&quot; textlength=&quot;11&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Montrez-moi le témoignage du gardien de but de football Guillaume Warmuz !"/>
