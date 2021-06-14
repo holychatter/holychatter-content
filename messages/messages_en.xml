@@ -2645,7 +2645,7 @@
         </message>
         <message name="What is Confirmation?" id="what-is-confirmation" nb="37">
           <tests>
-            <test input="What is Confirmation?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20: 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Eph 4: 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 19: 2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Rom 5: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confirmation&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="What is Confirmation?" output="Confirmation is the sacrament that completes Baptism; in it the gift of the Holy Spirit is bestowed upon us. Anyone who freely decides to live a life as God’s child and asks for God’s Spirit under the signs of the imposition of hands and anointing with chrism receives the strength to witness to God’s love and might in word and deed. He is now a full-fledged, responsible member of the Catholic Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2 Cor 2: 15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-confirmation-the-sacrament-of-confirmation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 20: 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Eph 4: 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 19: 2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Rom 5: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confirmation&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="What is Confirmation?"/>
@@ -3559,6 +3559,21 @@
                 <sourceId>youcat</sourceId>
                 <text>Baptism is the way out of the kingdom of death into life, the gateway to the Church, and the beginning of a lasting communion with God.</text>
               </message>
+              <message name="What is the significance of receiving a name in Baptism?" id="what-is-the-significance-of-receiving-a-name-in-baptism" nb="201">
+                <tests>
+                  <test input="What is the significance of receiving a name in Baptism?" output="Through the name that we receive in Baptism God tells us: “I have called you by name, you are mine” (Is 43:1)." outputReferences="&lt;hc_bible ref=&quot;Is 43: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;2156-2159&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2165-2167&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-significance-of-receiving-a-name-in-baptism&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What is the significance of receiving a name in Baptism?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="2156" verseEnd="2159"/>
+                  <ccc verseBegin="2165" verseEnd="2167"/>
+                  <bible book="Is" chapter="43" verseBegin="1"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Through the name that we receive in Baptism God tells us: “I have called you by name, you are mine” (Is 43:1).</text>
+              </message>
               <message name="Who can administer Baptism?" id="who-can-administer-baptism" nb="198">
                 <tests>
                   <test input="Who can administer Baptism?" output="Normally a bishop, a priest, or a deacon administers the sacrament of Baptism. In an emergency, any Christian, indeed anyone, can baptize by pouring water over the head of the recipient and pronouncing the baptismal formula, “I baptize you in the name of the Father and of the Son and of the Holy Spirit.”" outputReferences="&lt;hc_ccc ref=&quot;1256-1284&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;who-can-administer-baptism&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -3601,6 +3616,36 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text>From antiquity the Church has practiced infant Baptism. There is one reason for this: before we decide on God, God has decided on us. Baptism is therefore a grace, an undeserved gift of God, who accepts us unconditionally. Believing parents who want what is best for their child want Baptism also, in which the child is freed from the influence of original sin and the power of death.</text>
+              </message>
+              <message name="Why should Christians choose the names of saints at Baptism?" id="why-should-christians-choose-the-names-of-saints-at-baptism" nb="202">
+                <tests>
+                  <test input="Why should Christians choose the names of saints at Baptism?" output="There are no better examples than the saints and no better helpers. If my namesake is a saint, I have a friend with God." outputReferences="&lt;hc_ccc ref=&quot;2156-2159&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;2165&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-should-christians-choose-the-names-of-saints-at-baptism&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Why should Christians choose the names of saints at Baptism?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="2156" verseEnd="2159"/>
+                  <ccc verseBegin="2165"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>There are no better examples than the saints and no better helpers. If my namesake is a saint, I have a friend with God.</text>
+              </message>
+            </folder>
+            <folder name="The Sacrament of Confirmation" id="the-sacrament-of-confirmation" nb="203" image="confirmation.jpg">
+              <message name="What is Confirmation?" id="what-is-confirmation-the-sacrament-of-confirmation" nb="203">
+                <tests>
+                  <test input="What is Confirmation?" output="Confirmation is the sacrament that completes Baptism; in it the gift of the Holy Spirit is bestowed upon us. Anyone who freely decides to live a life as God’s child and asks for God’s Spirit under the signs of the imposition of hands and anointing with chrism receives the strength to witness to God’s love and might in word and deed. He is now a full-fledged, responsible member of the Catholic Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2 Cor 2: 15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-confirmation-the-sacrament-of-confirmation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 20: 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Eph 4: 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 19: 2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Rom 5: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confirmation&quot; textlength=&quot;18&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What is Confirmation?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1285" verseEnd="1314"/>
+                  <bible book="2 Cor" chapter="2" verseBegin="15"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Confirmation is the sacrament that completes Baptism; in it the gift of the Holy Spirit is bestowed upon us. Anyone who freely decides to live a life as God’s child and asks for God’s Spirit under the signs of the imposition of hands and anointing with chrism receives the strength to witness to God’s love and might in word and deed. He is now a full-fledged, responsible member of the Catholic Church.</text>
               </message>
             </folder>
           </folder>
