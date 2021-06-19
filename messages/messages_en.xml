@@ -2753,10 +2753,11 @@
         </message>
         <message name="What is the Eucharist?" id="what-is-the-eucharist" nb="38">
           <tests>
-            <test input="What is the Eucharist?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 6: 47-66&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 10: 16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-eucharist&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="What is the Eucharist?" output="Holy Eucharist is the sacrament in which Jesus Christ gives his Body and Blood —himself— for us, so that we too might give ourselves to him in love and be united with him in Holy communion. In this way we are joined with the one Body of Christ, the Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1324&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1409&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-holy-eucharist&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6: 47-66&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 10: 16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-eucharist&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="What is the Eucharist?"/>
+            <trigger value="What is Holy Eucharist?"/>
           </triggers>
           <references>
             <bible book="Jn" chapter="6" verseBegin="47" verseEnd="66"/>
@@ -3709,6 +3710,39 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text>Any Catholic Christian who has received the sacrament of Baptism and is in the “state of grace” can be admitted to Confirmation .</text>
+              </message>
+              <message name="Who may confirm?" id="who-may-confirm" nb="207">
+                <tests>
+                  <test input="Who may confirm?" output="The sacrament of confirmation is normally administered by the Bishop. For weighty reasons when necessary, the bishop can also delegate a priest to do it. In danger of death, any priest can administer Confirmation." outputReferences="&lt;hc_ccc ref=&quot;1312-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;who-may-confirm&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Who may confirm?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1312" verseEnd="1314"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>The sacrament of confirmation is normally administered by the Bishop. For weighty reasons when necessary, the bishop can also delegate a priest to do it. In danger of death, any priest can administer Confirmation.</text>
+              </message>
+            </folder>
+            <folder name="The Sacrament of the Eucharist" id="the-sacrament-of-the-eucharist" nb="208" image="eucharist.jpg">
+              <message name="What is Holy Eucharist?" id="what-is-holy-eucharist" nb="208">
+                <tests>
+                  <test input="What is Holy Eucharist?" output="Holy Eucharist is the sacrament in which Jesus Christ gives his Body and Blood —himself— for us, so that we too might give ourselves to him in love and be united with him in Holy communion. In this way we are joined with the one Body of Christ, the Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1324&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1409&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-holy-eucharist&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6: 47-66&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 10: 16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-eucharist&quot; textlength=&quot;18&quot; /&gt;"/>
+                  <test input="What is the Eucharist?" output="Holy Eucharist is the sacrament in which Jesus Christ gives his Body and Blood —himself— for us, so that we too might give ourselves to him in love and be united with him in Holy communion. In this way we are joined with the one Body of Christ, the Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/iRtDGELg27w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1 Cor 11: 24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1324&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1409&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-holy-eucharist&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6: 47-66&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 10: 16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 11: 27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-eucharist&quot; textlength=&quot;18&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What is the Eucharist?"/>
+                  <trigger value="What is Holy Eucharist?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1322" verseEnd="1324"/>
+                  <ccc verseBegin="1409"/>
+                  <bible book="1 Cor" chapter="11" verseBegin="24"/>
+                  <bible book="Jn" chapter="13" verseBegin="1"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Holy Eucharist is the sacrament in which Jesus Christ gives his Body and Blood —himself— for us, so that we too might give ourselves to him in love and be united with him in Holy communion. In this way we are joined with the one Body of Christ, the Church.</text>
               </message>
             </folder>
           </folder>
