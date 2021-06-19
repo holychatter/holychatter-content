@@ -3646,7 +3646,7 @@
       </message>
       <message name="Comment Jésus vivait-il ?" id="comment-jesus-vivait-il">
         <tests>
-          <test input="Comment Jésus vivait-il ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YGssVpl_qSQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-jesus-vivait-il&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Comment Jésus vivait-il ?" output="Jésus vivait tout particulier d&apos;amour et communion parfaite.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/YGssVpl_qSQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ac 8, 14-16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1288&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1315&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-dit-l-ecriture-sainte-sur-le-sacrement-de-la-confirmation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;comment-jesus-vivait-il&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="Comment Jésus vivait-il ?"/>
@@ -13806,6 +13806,69 @@
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">&lt;span&gt;La confirmation est le sacrement qui parfait le baptême, et par lequel nous recevons le don de l’Esprit-Saint. Celui qui fait le libre choix de vivre en enfant de Dieu, et qui demande à recevoir l&apos;Esprit de Dieu par les signes de l&apos;imposition des mains et de l&apos;onction au saint chrême, reçoit une force particulière pour témoigner, en paroles et en actes, de l’amour et de la puissance de Dieu. Il devient alors un membre à part entière et responsable de l&apos;Église catholique.&lt;/span&gt;</text>
               </message>
+              <message name="Que dit l&apos;Écriture sainte sur le sacrement de la confirmation ?" id="que-dit-l-ecriture-sainte-sur-le-sacrement-de-la-confirmation" nb="204">
+                <tests>
+                  <test input="Que dit l&apos;Écriture sainte sur le sacrement de la confirmation ?" output="Déjà dans l’Ancien Testament, le peuple de Dieu attendait l&apos;effusion, la venue, de l&apos;Esprit-Saint sur le Messie. Jésus vécut durant toute sa vie dans un Esprit tout particulier d&apos;amour et de communion parfaite avec son Père du ciel. Cet Esprit de Jésus était « l&apos;Esprit-Saint », que le peuple d&apos;Israël désirait ; et ce fut ce même Esprit que Jésus promit à ses disciples, ce même Esprit qui descendit sur les disciples cinquante jours après Pâques, le jour de la Pentecôte. Et c&apos;est encore cet Esprit-Saint de Jésus qui  descend sur tous ceux qui reçoivent le sacrement de la confirmation." outputReferences="&lt;hc_bible ref=&quot;Ac 8, 14-16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1288&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1315&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-dit-l-ecriture-sainte-sur-le-sacrement-de-la-confirmation&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Que dit l&apos;Écriture sainte sur le sacrement de la confirmation ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1285" verseEnd="1288"/>
+                  <ccc verseBegin="1315"/>
+                  <bible book="Acts" chapter="8" verseBegin="14" verseEnd="16"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Déjà dans l’Ancien Testament, le peuple de Dieu attendait l&apos;effusion, la venue, de l&apos;Esprit-Saint sur le Messie. Jésus vécut durant toute sa vie dans un Esprit tout particulier d&apos;amour et de communion parfaite avec son Père du ciel. Cet Esprit de Jésus était « l&apos;Esprit-Saint », que le peuple d&apos;Israël désirait ; et ce fut ce même Esprit que Jésus promit à ses disciples, ce même Esprit qui descendit sur les disciples cinquante jours après Pâques, le jour de la Pentecôte. Et c&apos;est encore cet Esprit-Saint de Jésus qui  descend sur tous ceux qui reçoivent le sacrement de la confirmation.</text>
+              </message>
+              <message name="Que se passe-t-il lors de la confirmation ?" id="que-se-passe-t-il-lors-de-la-confirmation" nb="205">
+                <tests>
+                  <test input="Que se passe-t-il lors de la confirmation ?" output="&lt;span&gt;Lors de la confirmation, un chrétien baptisé est marqué d’un sceau indélébile que l&apos;on ne peut recevoir qu&apos;une seule fois, et qui marque cette personne en tant que chrétien pour toujours. Le don de l&apos;Esprit-Saint est la force d&apos;en haut qui permet au chrétien d&apos;accomplir la grâce de son baptême à travers sa vie, et d&apos;être « témoin » du Christ.&lt;/span&gt;" outputReferences="&lt;hc_bible ref=&quot;Is 61, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 51, 12&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jc 4, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Dt 30, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1302-1305&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1317&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-se-passe-t-il-lors-de-la-confirmation&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Que se passe-t-il lors de la confirmation ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1302" verseEnd="1305"/>
+                  <ccc verseBegin="1317"/>
+                  <bible book="Is" chapter="61" verseBegin="1"/>
+                  <bible book="Ps" chapter="51" verseBegin="12"/>
+                  <bible book="Jas" chapter="4" verseBegin="8"/>
+                  <bible book="Deut" chapter="30" verseBegin="19"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;Lors de la confirmation, un chrétien baptisé est marqué d’un sceau indélébile que l&apos;on ne peut recevoir qu&apos;une seule fois, et qui marque cette personne en tant que chrétien pour toujours. Le don de l&apos;Esprit-Saint est la force d&apos;en haut qui permet au chrétien d&apos;accomplir la grâce de son baptême à travers sa vie, et d&apos;être « témoin » du Christ.&lt;/span&gt;</text>
+              </message>
+              <message name="Que signifie être en « état de grâce » ?" id="que-signifie-etre-en-etat-de-grace" nb="206">
+                <tests>
+                  <test input="Que signifie être en « état de grâce » ?" output="Être en « état de grâce », cela signifie : ne pas avoir commis de péché grave (mortel). Par un péché grave, on se sépare de Dieu, et on ne peut être réconcilié avec Dieu qu&apos;en recourant au sacrement de pénitence." outputReferences="&lt;hc_ccc ref=&quot;1310&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-signifie-etre-en-etat-de-grace&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Que signifie être en « état de grâce » ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1310"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Être en « état de grâce », cela signifie : ne pas avoir commis de péché grave (mortel). Par un péché grave, on se sépare de Dieu, et on ne peut être réconcilié avec Dieu qu&apos;en recourant au sacrement de pénitence.</text>
+              </message>
+              <message name="Qui peut être confirmé, et qu&apos;exige-t-on de celui qui demande à l&apos;être ?" id="qui-peut-etre-confirme-et-qu-exige-t-on-de-celui-qui-demande-a-l-etre" nb="206">
+                <tests>
+                  <test input="Qui peut être confirmé ?" output="Tout chrétien catholique ayant reçu le sacrement du baptême et qui est en « état de grâce » peut être autorisé à recevoir la confirmation." outputReferences="&lt;hc_ccc ref=&quot;1306-1311&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1319&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-peut-etre-confirme-et-qu-exige-t-on-de-celui-qui-demande-a-l-etre&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qui peut être confirmé ?"/>
+                </triggers>
+                <recommendations>
+                  <recommendation text="Que signifie être en « état de grâce » ?" outMessageId="que-signifie-etre-en-etat-de-grace"/>
+                </recommendations>
+                <references>
+                  <ccc verseBegin="1306" verseEnd="1311"/>
+                  <ccc verseBegin="1319"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Tout chrétien catholique ayant reçu le sacrement du baptême et qui est en « état de grâce » peut être autorisé à recevoir la confirmation.</text>
+              </message>
             </folder>
             <folder name="Le sacrement du baptême" id="le-sacrement-du-bapteme" nb="194" image="bapteme.jpg">
               <message name="Comment le baptême est-il administré ?" id="comment-le-bapteme-est-il-administre" nb="195">
@@ -18846,7 +18909,7 @@
     </folder>
   </folder>
   <folder name="Témoignages" id="temoignages" nb="1" image="prises_de_parole.jpeg">
-    <folder name="Ancien athée" id="ancien-athee" nb="1" image="athee.png">
+    <folder name="Ancien athée" id="ancien-athee" nb="2" image="athee.png">
       <message name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
           <test input="Y a-t-il une vie après la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines&quot; textlength=&quot;26&quot; /&gt;"/>
@@ -18916,7 +18979,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Ancien franc-maçon" id="ancien-franc-macon" nb="3" image="francs_macons.jpg">
+    <folder name="Ancien franc-maçon" id="ancien-franc-macon" nb="4" image="francs_macons.jpg">
       <message name="Le témoignage extraordinaire d’un franc-maçon converti à Lourdes" id="le-temoignage-extraordinaire-d-un-franc-macon-converti-a-lourdes">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un ancien franc-maçon !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CCSd0Ewy4gQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;le-temoignage-extraordinaire-d-un-franc-macon-converti-a-lourdes&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -18928,7 +18991,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CCSd0Ewy4gQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Ancien musulman" id="ancien-musulman" nb="2" image="ancien_musulman.jpg">
+    <folder name="Ancien musulman" id="ancien-musulman" nb="3" image="ancien_musulman.jpg">
       <message name="Mark Gabriel : UN IMAM RENCONTRE JESUS !" id="mark-gabriel-un-imam-rencontre-jesus">
         <triggers>
           <trigger value="Montrez-moi la conversion d&apos;un Imam au christianisme."/>
@@ -18998,7 +19061,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Couple" id="couple" nb="7" image="couple_calin.jpeg">
+    <folder name="Couple" id="couple" nb="8" image="couple_calin.jpeg">
       <message name="Pélé de l&apos;espérance Jour 32: Témoignage de Foucauld et Guillemette" id="pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un couple !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OiirLHvi0eA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;catholique45&quot; resourceid=&quot;pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -19024,7 +19087,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-y9IA97D1cE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Célébrité" id="celebrite" nb="4" image="celebrities.jpg">
+    <folder name="Célébrité" id="celebrite" nb="5" image="celebrities.jpg">
       <folder name="Acteur" id="acteur" image="lonsdale.jpeg">
         <message name="Arielle Dombasle : « La première fois que j’ai vu le Christ en croix, je me suis mise à pleurer »" id="arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer">
           <tests>
@@ -19149,7 +19212,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Diacre en vue du sacerdoce" id="diacre-en-vue-du-sacerdoce" nb="10" image="ordination_diaconale.jpeg">
+    <folder name="Diacre en vue du sacerdoce" id="diacre-en-vue-du-sacerdoce" nb="11" image="ordination_diaconale.jpeg">
       <message name="Ordination diaconale" id="ordination-diaconale">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un jeune avant son ordination diaconale !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d0y225lZ5Sw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 9, 10-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Aymar de Langautier&quot; resourceid=&quot;ordination-diaconale&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -19256,7 +19319,7 @@
         </planningInfos>
       </message>
     </folder>
-    <folder name="Enfant pauvre" id="enfant-pauvre" nb="12" image="enfants-des-rues.jpg">
+    <folder name="Enfant pauvre" id="enfant-pauvre" nb="13" image="enfants-des-rues.jpg">
       <message name="Les vrais miracles - Enseignement du père Matthieu Dauchez" id="les-vrais-miracles-enseignement-du-pere-matthieu-dauchez">
         <tests>
           <test input="Montrez-moi un témoignages des enfants des rues !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;les-vrais-miracles-enseignement-du-pere-matthieu-dauchez&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -19276,7 +19339,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Evêque" id="eveque" nb="16" image="évêques.jpg">
+    <folder name="Evêque" id="eveque" nb="17" image="évêques.jpg">
       <message name="Parabole sur la vie de Mgr Aupetit" id="parabole-sur-la-vie-de-mgr-aupetit">
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;un évêque !"/>
@@ -19285,7 +19348,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iv-XoBQmpQk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Frère" id="frere" nb="15" image="moines.jpg">
+    <folder name="Frère" id="frere" nb="16" image="moines.jpg">
       <message name="Appel de Charles, moine trappiste" id="appel-de-charles-moine-trappiste">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un moine !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rzYbTo7TvnQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 29-30&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;appel-de-charles-moine-trappiste&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -19314,7 +19377,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ucw_KW23SSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Homosexuel" id="homosexuel" nb="8" image="conversions_homo.jpg">
+    <folder name="Homosexuel" id="homosexuel" nb="9" image="conversions_homo.jpg">
       <message name="D&apos;HOMOSEXUELLE A CHRETIENNE - TEMOIGNAGE" id="d-homosexuelle-a-chretienne-temoignage" nb="1">
         <tests>
           <test input="Montrez-moi la conversion d&apos;une personne homosexuelle." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5EEVNi5z6uQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 2, 22-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lv 18, 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Horizon_Jésus&quot; resourceid=&quot;d-homosexuelle-a-chretienne-temoignage&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -19332,7 +19395,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5EEVNi5z6uQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Jeune" id="jeune" nb="5" image="jeunes.jpg">
+    <folder name="Jeune" id="jeune" nb="6" image="jeunes.jpg">
       <message name="Emeline : « J&apos;ai été harcelée »" id="emeline-j-ai-ete-harcelee">
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;une personne harcelée !"/>
@@ -19343,7 +19406,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zgutk4nodUE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="laic" nb="6" image="laic.jpg">
+    <folder name="Laïc" id="laic" nb="7" image="laic.jpg">
       <message name="&quot;Je vis de la LOUANGE&quot; - Témoignage de Pauline Betuel" id="je-vis-de-la-louange-temoignage-de-pauline-betuel">
         <tests>
           <test input="Montrez-moi le témoignage de Pauline Betuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;je-vis-de-la-louange-temoignage-de-pauline-betuel&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -19483,7 +19546,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i9pIVNfoH1o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Postulante" id="postulante" nb="13" image="postulante.jpg">
+    <folder name="Postulante" id="postulante" nb="14" image="postulante.jpg">
       <message name="Témoignage de Charlotte Servera" id="temoignage-de-charlotte-servera">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une postulante !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-charlotte-servera&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -19495,7 +19558,32 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="11" image="pretres.jpg">
+    <folder name="Prisonnier" id="prisonnier" nb="1" image="prisonnier.jpg">
+      <message name="Témoignage d&apos;André Levet - Jésus-Christ est venu dans ma cellule" id="temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;André Levet !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 35-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 65&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 18, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 33-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une ancien prisonnier !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 35-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 65&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 18, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 33-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule&quot; textlength=&quot;21&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;André Levet !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une ancien prisonnier !"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="2" verseBegin="1" verseEnd="10"/>
+          <bible book="Jn" chapter="4" verseBegin="7" verseEnd="10"/>
+          <bible book="Mt" chapter="14" verseBegin="25"/>
+          <bible book="Mt" chapter="4" verseBegin="23"/>
+          <bible book="Mt" chapter="11" verseBegin="5"/>
+          <bible book="Jn" chapter="11" verseBegin="35" verseEnd="44"/>
+          <bible book="Mk" chapter="14" verseBegin="65"/>
+          <bible book="Jn" chapter="18" verseBegin="39" verseEnd="40"/>
+          <bible book="Lk" chapter="23" verseBegin="33" verseEnd="41"/>
+        </references>
+        <sourceId>pere-philippe-rochas</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Prêtre" id="pretre" nb="12" image="pretres.jpg">
       <message name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -19584,7 +19672,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="9" image="séminaristes.jpg">
+    <folder name="Séminariste" id="seminariste" nb="10" image="séminaristes.jpg">
       <message name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -19599,7 +19687,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Sœur" id="sur" nb="14" image="nonnes.jpg">
+    <folder name="Sœur" id="sur" nb="15" image="nonnes.jpg">
       <message name="Appel soeur de Saint Jean" id="appel-soeur-de-saint-jean">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une soeur de Saint Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBjr3aNZGzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;appel-soeur-de-saint-jean&quot; textlength=&quot;10&quot; /&gt;"/>

@@ -2273,7 +2273,7 @@
       <folder name="Redemption" id="redemption" nb="5">
         <message name="How did Jesus live?" id="how-did-jesus-live" nb="30">
           <tests>
-            <test input="How did Jesus live?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-live&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="How did Jesus live?" output="Jesus lived his life.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/XGsnFQUunB0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Acts 8: 14-16&quot; textlength=&quot;13&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1288&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1315&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-sacred-scripture-say-about-the-sacrament-of-confirmation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_ccc ref=&quot;484-682&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;how-did-jesus-live&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="How did Jesus live?"/>
@@ -3633,6 +3633,39 @@
               </message>
             </folder>
             <folder name="The Sacrament of Confirmation" id="the-sacrament-of-confirmation" nb="203" image="confirmation.jpg">
+              <message name="What does Sacred Scripture say about the sacrament of Confirmation?" id="what-does-sacred-scripture-say-about-the-sacrament-of-confirmation" nb="204">
+                <tests>
+                  <test input="What does Sacred Scripture say about the sacrament of Confirmation?" output="In the Old Testament, the People of God expected the outpouring of the Holy Spirit upon the Messiah. Jesus lived his life in a special Spirit of love and of perfect unity with his Father in heaven. This Spirit of Jesus was the “Holy Spirit” for whom the people of Israel longed; this was the same Spirit whom Jesus promised to his disciples, the same Spirit who descended upon the disciples fifty days after Easter, on the feast of Pentecost. And it is again this same Holy Spirit of Jesus who descends upon everyone who receives the sacrament of Confirmation." outputReferences="&lt;hc_bible ref=&quot;Acts 8: 14-16&quot; textlength=&quot;13&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1288&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1315&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-sacred-scripture-say-about-the-sacrament-of-confirmation&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What does Sacred Scripture say about the sacrament of Confirmation?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1285" verseEnd="1288"/>
+                  <ccc verseBegin="1315"/>
+                  <bible book="Acts" chapter="8" verseBegin="14" verseEnd="16"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>In the Old Testament, the People of God expected the outpouring of the Holy Spirit upon the Messiah. Jesus lived his life in a special Spirit of love and of perfect unity with his Father in heaven. This Spirit of Jesus was the “Holy Spirit” for whom the people of Israel longed; this was the same Spirit whom Jesus promised to his disciples, the same Spirit who descended upon the disciples fifty days after Easter, on the feast of Pentecost. And it is again this same Holy Spirit of Jesus who descends upon everyone who receives the sacrament of Confirmation.</text>
+              </message>
+              <message name="What happens in Confirmation?" id="what-happens-in-confirmation" nb="205">
+                <tests>
+                  <test input="What happens in Confirmation?" output="In Confirmation the soul of a baptized Christian is imprinted with a permanent seal that can be received only once and marks this individual forever as a Christian. The gift of the Holy Spirit is the strength from above in which this individual puts the grace of his Baptism into practice through his life and acts as a “witness” for Christ." outputReferences="&lt;hc_bible ref=&quot;Is 61: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 51: 12&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jas 4: 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Deut 30: 19&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1302-1305&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1317&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-happens-in-confirmation&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What happens in Confirmation?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1302" verseEnd="1305"/>
+                  <ccc verseBegin="1317"/>
+                  <bible book="Is" chapter="61" verseBegin="1"/>
+                  <bible book="Ps" chapter="51" verseBegin="12"/>
+                  <bible book="Jas" chapter="4" verseBegin="8"/>
+                  <bible book="Deut" chapter="30" verseBegin="19"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>In Confirmation the soul of a baptized Christian is imprinted with a permanent seal that can be received only once and marks this individual forever as a Christian. The gift of the Holy Spirit is the strength from above in which this individual puts the grace of his Baptism into practice through his life and acts as a “witness” for Christ.</text>
+              </message>
               <message name="What is Confirmation?" id="what-is-confirmation-the-sacrament-of-confirmation" nb="203">
                 <tests>
                   <test input="What is Confirmation?" output="Confirmation is the sacrament that completes Baptism; in it the gift of the Holy Spirit is bestowed upon us. Anyone who freely decides to live a life as God’s child and asks for God’s Spirit under the signs of the imposition of hands and anointing with chrism receives the strength to witness to God’s love and might in word and deed. He is now a full-fledged, responsible member of the Catholic Church.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/b05PSjAZvJ0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2 Cor 2: 15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-confirmation-the-sacrament-of-confirmation&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 20: 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Eph 4: 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Acts 19: 2&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Rom 5: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1285-1314&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-confirmation&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -3646,6 +3679,36 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text>Confirmation is the sacrament that completes Baptism; in it the gift of the Holy Spirit is bestowed upon us. Anyone who freely decides to live a life as God’s child and asks for God’s Spirit under the signs of the imposition of hands and anointing with chrism receives the strength to witness to God’s love and might in word and deed. He is now a full-fledged, responsible member of the Catholic Church.</text>
+              </message>
+              <message name="What it means to be “in the state of grace”?" id="what-it-means-to-be-in-the-state-of-grace" nb="206">
+                <tests>
+                  <test input="What it means to be “in the state of grace”?" output="To be “in the state of grace” means not to have committed any serious sin (mortal sin). By a serious sin a person separates himself from God and can be reconciled with God only by making a good confession." outputReferences="&lt;hc_ccc ref=&quot;1310&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-it-means-to-be-in-the-state-of-grace&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="What it means to be “in the state of grace”?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1310"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>To be “in the state of grace” means not to have committed any serious sin (mortal sin). By a serious sin a person separates himself from God and can be reconciled with God only by making a good confession.</text>
+              </message>
+              <message name="Who can be confirmed, and what is required of a candidate for Confirmation?" id="who-can-be-confirmed-and-what-is-required-of-a-candidate-for-confirmation" nb="206">
+                <tests>
+                  <test input="Who can be confirmed?" output="Any Catholic Christian who has received the sacrament of Baptism and is in the “state of grace” can be admitted to Confirmation ." outputReferences="&lt;hc_ccc ref=&quot;1306-1311&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1319&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;who-can-be-confirmed-and-what-is-required-of-a-candidate-for-confirmation&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Who can be confirmed?"/>
+                </triggers>
+                <recommendations>
+                  <recommendation text="What it means to be “in the state of grace”?" outMessageId="what-it-means-to-be-in-the-state-of-grace"/>
+                </recommendations>
+                <references>
+                  <ccc verseBegin="1306" verseEnd="1311"/>
+                  <ccc verseBegin="1319"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Any Catholic Christian who has received the sacrament of Baptism and is in the “state of grace” can be admitted to Confirmation .</text>
               </message>
             </folder>
           </folder>
