@@ -703,9 +703,9 @@
           <preconditions>
             <notFact value="decouvrir-la-bible-en-un-mot"/>
           </preconditions>
-          <optionalPreconditions>
+          <preferInContext>
             <fact value="ne-pas-être-chrétien"/>
-          </optionalPreconditions>
+          </preferInContext>
           <potentialEffects>
             <fact value="decouvrir-la-bible"/>
           </potentialEffects>
@@ -4113,10 +4113,10 @@
           <sourceId>interne</sourceId>
           <text>Voulez-vous examiner ce qu&apos;on dit sur la résurrection de Jésus ?</text>
           <planningInfos>
-            <optionalPreconditions>
+            <preferInContext>
               <fact value="ne-pas-être-chrétien"/>
               <fact value="raisons-de-croire-jésus"/>
-            </optionalPreconditions>
+            </preferInContext>
             <effects>
               <fact value="la-résurrection-de-jésus"/>
             </effects>
@@ -4279,10 +4279,10 @@
           <sourceId>interne</sourceId>
           <text>Voulez-vous des raisons de croire Jésus ?</text>
           <planningInfos>
-            <optionalPreconditions>
+            <preferInContext>
               <fact value="ne-pas-être-chrétien"/>
               <fact value="portrait-de-jésus"/>
-            </optionalPreconditions>
+            </preferInContext>
             <effects>
               <fact value="raisons-de-croire-jésus"/>
             </effects>
@@ -4899,10 +4899,10 @@
           <sourceId>interne</sourceId>
           <text>Voulez-vous examiner les raisons de la mort de Jésus ?</text>
           <planningInfos>
-            <optionalPreconditions>
+            <preferInContext>
               <fact value="la-résurrection-de-jésus"/>
               <fact value="ne-pas-être-chrétien"/>
-            </optionalPreconditions>
+            </preferInContext>
             <effects>
               <fact value="raisons-de-la-mort-de-jésus"/>
             </effects>
@@ -5151,10 +5151,10 @@
           <sourceId>interne</sourceId>
           <text>Voulez-vous qu&apos;on s&apos;intéresse à la personnalité de Jésus ?</text>
           <planningInfos>
-            <optionalPreconditions>
+            <preferInContext>
               <fact value="jésus-a-existé"/>
               <fact value="ne-pas-être-chrétien"/>
-            </optionalPreconditions>
+            </preferInContext>
             <effects>
               <fact value="portrait-de-jésus"/>
             </effects>
@@ -5637,10 +5637,10 @@
           <sourceId>interne</sourceId>
           <text>Connaissez-vous le Parcours Alpha ?</text>
           <planningInfos>
-            <optionalPreconditions>
+            <preferInContext>
               <fact value="basse-priorité"/>
               <fact value="ne-pas-être-chrétien"/>
-            </optionalPreconditions>
+            </preferInContext>
             <potentialEffects>
               <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
             </potentialEffects>
@@ -6196,6 +6196,22 @@
             </triggers>
             <sourceId>retraite-dans-la-ville</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TNpdpOraGJ4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Jésus rendu présent par le prêtre à la messe? Transsubstantiation et communion eucharistique" id="jesus-rendu-present-par-le-pretre-a-la-messe-transsubstantiation-et-communion-eucharistique">
+            <tests>
+              <test input="Jésus est-il rendu présent par le prêtre à la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G4fphhQdUxc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 14, 12-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 22-26&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;jesus-rendu-present-par-le-pretre-a-la-messe-transsubstantiation-et-communion-eucharistique&quot; textlength=&quot;21&quot; /&gt;"/>
+              <test input="Qu&apos;est-ce que sont les espèces ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G4fphhQdUxc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 14, 12-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 22-26&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;jesus-rendu-present-par-le-pretre-a-la-messe-transsubstantiation-et-communion-eucharistique&quot; textlength=&quot;21&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Jésus est-il rendu présent par le prêtre à la messe ?"/>
+              <trigger value="Qu&apos;est-ce que sont les espèces ?"/>
+            </triggers>
+            <references>
+              <bible book="Mk" chapter="14" verseBegin="12" verseEnd="16"/>
+              <bible book="Mk" chapter="14" verseBegin="22" verseEnd="26"/>
+            </references>
+            <sourceId>pere-philippe-rochas</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G4fphhQdUxc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="La messe expliquée - La préparation des dons, l&apos;offertoire" id="la-messe-expliquee-la-preparation-des-dons-l-offertoire">
             <triggers>
@@ -8612,9 +8628,9 @@
             <sourceId>interne</sourceId>
             <text>Avez-vous trouvé votre vocation ?</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="demander-le-jour-de-naissance"/>
-              </optionalPreconditions>
+              </preferInContext>
               <potentialEffects>
                 <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
               </potentialEffects>
@@ -14428,9 +14444,9 @@
       <sourceId>interne</sourceId>
       <text>Croyez-vous que Jésus a existé ?</text>
       <planningInfos>
-        <optionalPreconditions>
+        <preferInContext>
           <fact value="ne-pas-être-chrétien"/>
-        </optionalPreconditions>
+        </preferInContext>
         <effects>
           <fact value="jésus-a-existé"/>
         </effects>
@@ -14524,9 +14540,9 @@
       <sourceId>interne</sourceId>
       <text>Je vais essayer de trouver des similitudes entre vous et une personne connue.&#10;Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et en préservant votre anonymat), si vous le voulez bien.</text>
       <planningInfos>
-        <optionalPreconditions>
+        <preferInContext>
           <fact value="être-chrétien"/>
-        </optionalPreconditions>
+        </preferInContext>
         <effects>
           <fact value="demander-le-jour-de-naissance"/>
         </effects>
@@ -14606,9 +14622,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Qu&apos;est-ce que le mot Carême veut dire ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -14661,9 +14677,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Quand est-ce que le Carême débute ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -14716,9 +14732,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Où était Jésus lors des 40 jours dont on se rappelle lors du Carême ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -14771,9 +14787,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Le Carême s&apos;achève à Pâques. Mais que fêtons à Pâques ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -14826,9 +14842,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text>Pourquoi les apôtres ont-ils été invités à annoncer l&apos;Evangile à toutes les nations ?</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -14944,9 +14960,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Pourquoi lors de la célébration des cendres on en reçoit sur le front ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -15005,9 +15021,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;De quelle manière doit-on aider quelqu&apos;un ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -15064,9 +15080,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Quelles sont les 3 oeuvres de Carême ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -15113,9 +15129,9 @@
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;Qui est mon prochain ?&lt;/span&gt;</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="temps-liturgique-careme"/>
-              </optionalPreconditions>
+              </preferInContext>
               <effects>
                 <exps>
                   <elts>
@@ -15146,9 +15162,9 @@
           <sourceUrl>https://www.youtube.com/watch?v=U5IW6i3Ns6E</sourceUrl>
           <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ?&lt;/span&gt;</text>
           <planningInfos>
-            <optionalPreconditions>
+            <preferInContext>
               <fact value="temps-liturgique-avent"/>
-            </optionalPreconditions>
+            </preferInContext>
             <effects>
               <exps>
                 <elts>
@@ -15301,9 +15317,9 @@
         <sourceId>bible</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Dans quelle ville est né Jésus ?&lt;/span&gt;</text>
         <planningInfos>
-          <optionalPreconditions>
+          <preferInContext>
             <fact value="temps-liturgique-avent"/>
-          </optionalPreconditions>
+          </preferInContext>
           <effects>
             <exps>
               <elts>
@@ -15547,9 +15563,9 @@
         <sourceId>interne</sourceId>
         <text>Voulez-vous faire un quiz pour s&apos;amuser ?</text>
         <planningInfos>
-          <optionalPreconditions>
+          <preferInContext>
             <fact value="être-chrétien"/>
-          </optionalPreconditions>
+          </preferInContext>
           <potentialEffects>
             <fact value="approfondir-sa-relation-a-dieu-par-le-quiz"/>
           </potentialEffects>
@@ -15583,11 +15599,11 @@
       <sourceId>interne</sourceId>
       <text>Voulez-vous voir le message chrétien ?</text>
       <planningInfos>
-        <optionalPreconditions>
+        <preferInContext>
           <fact value="basse-priorité"/>
           <fact value="basse-priorité-2"/>
           <fact value="ne-pas-être-chrétien"/>
-        </optionalPreconditions>
+        </preferInContext>
         <potentialEffects>
           <fact value="être-chrétien"/>
         </potentialEffects>
@@ -18301,9 +18317,9 @@
             <sourceId>interne</sourceId>
             <text>Connaissez-vous l&apos;application Entourage ?</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="demander-le-jour-de-naissance"/>
-              </optionalPreconditions>
+              </preferInContext>
               <potentialEffects>
                 <fact value="aimer-son-prochain-toujours-plus"/>
               </potentialEffects>
@@ -18318,9 +18334,9 @@
             <sourceId>interne</sourceId>
             <text>Voulez-vous découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue ?</text>
             <planningInfos>
-              <optionalPreconditions>
+              <preferInContext>
                 <fact value="demander-le-jour-de-naissance"/>
-              </optionalPreconditions>
+              </preferInContext>
               <potentialEffects>
                 <fact value="aimer-son-prochain-toujours-plus"/>
               </potentialEffects>
