@@ -13913,6 +13913,86 @@
                 <sourceId>youcat</sourceId>
                 <text>Je vous ai pourtant transmis, moi, ce que j&apos;ai reçu de la Tradition qui vient du Seigneur : la nuit même où il fut livré, le Seigneur Jésus prit du pain, puis, ayant rendu grâce, il le rompit, et dit : « Ceci est mon Corps, donné pour vous. Faites cela en mémoire de moi. » Après le repas, il fit de même avec la coupe, en disant : « Cette coupe est la nouvelle Alliance en mon Sang. Chaque fois que vous en boirez, faites cela en mémoire de moi » (1 Co 11, 23-25).</text>
               </message>
+              <message name="L&apos;Agnus Dei" id="l-agnus-dei" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que l&apos;Agnus Dei ?" output="Agneau de Dieu, qui enlèves le péché du monde,&#10;prends pitié de nous.&#10;Agneau de Dieu, qui enlèves le péché du monde,&#10;prends pitié de nous.&#10;Agneau de Dieu, qui enlèves le péché du monde,&#10;donne-nous la paix." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-agnus-dei&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que l&apos;Agnus Dei ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text>Agneau de Dieu, qui enlèves le péché du monde,&#10;prends pitié de nous.&#10;Agneau de Dieu, qui enlèves le péché du monde,&#10;prends pitié de nous.&#10;Agneau de Dieu, qui enlèves le péché du monde,&#10;donne-nous la paix.</text>
+              </message>
+              <message name="L&apos;Agnus Dei en latin" id="l-agnus-dei-en-latin" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que l&apos;Agnus Dei en latin ?" output="&lt;span&gt;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, dona nobis pacem.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-agnus-dei-en-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que l&apos;Agnus Dei en latin ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, dona nobis pacem.&lt;/span&gt;</text>
+              </message>
+              <message name="Le Gloria" id="le-gloria" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que le Gloria ?" output="Gloire à Dieu, au plus haut des cieux,&#10;et paix sur la terre aux hommes qu&apos;il aime.&#10;Nous te louons, nous te bénissons,&#10;nous t&apos;adorons,&#10;nous te glorifions, nous te rendons grâce&#10;pour ton immense gloire, Seigneur Dieu, Roi du ciel,&#10;Dieu le Père tout-puissant.&#10;Seigneur, Fils unique, Jésus-Christ.&#10;Seigneur Dieu, Agneau de Dieu,&#10;le Fils du Père ;&#10;Toi qui enlèves le péché du monde,&#10;prends pitié de nous ;&#10;Toi qui enlèves le péché du monde&#10;reçois notre prière ;&#10;Toi qui es assis à la droite du Père,&#10;prends pitié de nous. Car toi seul es saint,&#10;Toi seul es seigneur,&#10;Toi seul es le Très-Haut :&#10;Jésus-Christ, avec le Saint-Esprit dans la gloire de Dieu le Père ;&#10;Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-gloria&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que le Gloria ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text>Gloire à Dieu, au plus haut des cieux,&#10;et paix sur la terre aux hommes qu&apos;il aime.&#10;Nous te louons, nous te bénissons,&#10;nous t&apos;adorons,&#10;nous te glorifions, nous te rendons grâce&#10;pour ton immense gloire, Seigneur Dieu, Roi du ciel,&#10;Dieu le Père tout-puissant.&#10;Seigneur, Fils unique, Jésus-Christ.&#10;Seigneur Dieu, Agneau de Dieu,&#10;le Fils du Père ;&#10;Toi qui enlèves le péché du monde,&#10;prends pitié de nous ;&#10;Toi qui enlèves le péché du monde&#10;reçois notre prière ;&#10;Toi qui es assis à la droite du Père,&#10;prends pitié de nous. Car toi seul es saint,&#10;Toi seul es seigneur,&#10;Toi seul es le Très-Haut :&#10;Jésus-Christ, avec le Saint-Esprit dans la gloire de Dieu le Père ;&#10;Amen.</text>
+              </message>
+              <message name="Le Gloria en latin" id="le-gloria-en-latin" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que le Gloria en latin ?" output="&lt;span&gt;Gloria in excelsis Deo&#10;et in terra pax hominibus bonae voluntatis.&#10;Laudamus te, benedicimus te,&#10;adoramus te, glorificamus te,&#10;gratias agimus tibi propter magnam gloriam tuam,&#10;Domine Deus, Rex caelestis,&#10;Deus Pater omnipotens,&#10;Domine Fili unigenite, Iesu Christe,&#10;Domine Deus, Agnus Dei,&#10;Filius Patris,&#10;qui tollis peccata mundi, miserere nobis;&#10;qui tollis peccata mundi,&#10;suscipe deprecationem nostram.&#10;Qui sedes ad dexteram Patris, miserere nobis.&#10;Quoniam tu solus Sanctus,&#10;tu solus Dominus,&#10;tu solus Altissimus, Iesu Christe,&#10;cum Sancto Spiritu:&#10;in gloria Dei Patris. Amen.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-gloria-en-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que le Gloria en latin ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;Gloria in excelsis Deo&#10;et in terra pax hominibus bonae voluntatis.&#10;Laudamus te, benedicimus te,&#10;adoramus te, glorificamus te,&#10;gratias agimus tibi propter magnam gloriam tuam,&#10;Domine Deus, Rex caelestis,&#10;Deus Pater omnipotens,&#10;Domine Fili unigenite, Iesu Christe,&#10;Domine Deus, Agnus Dei,&#10;Filius Patris,&#10;qui tollis peccata mundi, miserere nobis;&#10;qui tollis peccata mundi,&#10;suscipe deprecationem nostram.&#10;Qui sedes ad dexteram Patris, miserere nobis.&#10;Quoniam tu solus Sanctus,&#10;tu solus Dominus,&#10;tu solus Altissimus, Iesu Christe,&#10;cum Sancto Spiritu:&#10;in gloria Dei Patris. Amen.&lt;/span&gt;</text>
+              </message>
+              <message name="Le Kyrie" id="le-kyrie" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que le Kyrie ?" output="Seigneur, prends pitié (de nous) ! Seigneur, prends pitié (de nous) !&#10;Ô Christ, prends pitié (de nous) ! Ô Christ, prends pitié (de nous) !&#10;Seigneur, prends pitié (de nous) ! Ô Christ, prends pitié (de nous) !" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-kyrie&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que le Kyrie ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text>Seigneur, prends pitié (de nous) ! Seigneur, prends pitié (de nous) !&#10;Ô Christ, prends pitié (de nous) ! Ô Christ, prends pitié (de nous) !&#10;Seigneur, prends pitié (de nous) ! Ô Christ, prends pitié (de nous) !</text>
+              </message>
+              <message name="Le Kyrie en latin" id="le-kyrie-en-latin" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que le Kyrie en latin ?" output="&lt;span&gt;Kyrie eleison! &lt;b&gt;R/&lt;/b&gt;Kyrie eleison!&#10;Christe elerson! &lt;b&gt;R/&lt;/b&gt;Christe eleison!&#10;Kyrie elerson! &lt;b&gt;R/&lt;/b&gt;Kyrie elerson!&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-kyrie-en-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que le Kyrie en latin ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;Kyrie eleison! &lt;b&gt;R/&lt;/b&gt;Kyrie eleison!&#10;Christe elerson! &lt;b&gt;R/&lt;/b&gt;Christe eleison!&#10;Kyrie elerson! &lt;b&gt;R/&lt;/b&gt;Kyrie elerson!&lt;/span&gt;</text>
+              </message>
+              <message name="Le Sanctus" id="le-sanctus" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que le Sanctus ?" output="Saint, Saint, Saint le Seigneur, Dieu de l&apos;Univers,&#10;Le ciel et la terre sont remplis de ta gloire&#10;Hosanna, au plus haut des cieux.&#10;Béni, soit celui qui vient au nom du Seigneur,&#10;Hosanna, au plus haut des cieux." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-sanctus&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que le Sanctus ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text>Saint, Saint, Saint le Seigneur, Dieu de l&apos;Univers,&#10;Le ciel et la terre sont remplis de ta gloire&#10;Hosanna, au plus haut des cieux.&#10;Béni, soit celui qui vient au nom du Seigneur,&#10;Hosanna, au plus haut des cieux.</text>
+              </message>
+              <message name="Le Sanctus en latin" id="le-sanctus-en-latin" nb="214">
+                <tests>
+                  <test input="Qu&apos;est-ce que le Sanctus en latin ?" output="&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.&#10;Pleni sunt caeli et terra gloria tua.&#10;Hosanna in excelsis.&#10;Benedictus qui venit in nomine Domini.&#10;Hosanna in excelsis.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;le-sanctus-en-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que le Sanctus en latin ?"/>
+                </triggers>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.&#10;Pleni sunt caeli et terra gloria tua.&#10;Hosanna in excelsis.&#10;Benedictus qui venit in nomine Domini.&#10;Hosanna in excelsis.&lt;/span&gt;</text>
+              </message>
               <message name="Qu&apos;est-ce que l&apos;eucharistie ?" id="qu-est-ce-que-l-eucharistie" nb="208">
                 <tests>
                   <test input="Qu&apos;est-ce que l&apos;eucharistie ?" output="&lt;span&gt;La sainte eucharistie est le sacrement par lequel Jésus-Christ livre pour nous son Corps et son Sang - par lequel il se donne lui-même -, afin que nous aussi nous nous donnions à lui par amour et que nous nous unissions à lui dans la sainte communion. Par elle, nous sommes liés au seul Corps du Christ, l&apos;Église.&lt;/span&gt;|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/ZHRWjBkm3Uc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 11, 24&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1324&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1409&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-l-eucharistie&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6, 47-66&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 10, 16&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 11, 27&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;1322-1419&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;c-est-quoi-l-eucharistie&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -13956,6 +14036,32 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text>La célébration de l&apos;eucharistie est le cœur de la communion chrétienne. En elle l’Église devient elle-même.</text>
+              </message>
+              <message name="Quelle est la structure de la messe ?" id="quelle-est-la-structure-de-la-messe" nb="214">
+                <tests>
+                  <test input="Quelle est la structure de la messe ?" output="La messe commence par le rassemblement des fidèles et la procession du  prêtre et des servants d&apos;autel. Après la salutation du prêtre vient la confession des péchés que tous font ensemble, et qui se termine par le Kyrie. Les dimanches (excepté pendant les temps du Carême et de l&apos;Avent) et les jours de fête on chante ou on récite ensuite le Gloria. La prière du jour introduit une ou deux lectures de L&apos;Ancien et du Nouveau Testament. L&apos;acclamation de l&apos;Alleluia prend place avant l&apos;Évangile. Les dimanches et jours de fête, après la proclamation de l&apos;Évangile, le prêtre ou le diacre prononce une homélie. En ces mêmes dimanches et jours de fête, l&apos;assemblée professe sa foi commune dans le Credo, auquel s&apos;ajoutent Les intercessions de la « prière universelle ».&#10;La deuxième partie de la messe commence par la préparation des offrandes, qui se termine par une prière sur les offrandes. Le sommet de la célébration eucharistique est la prière eucharistique, introduite par la préface et le Sanctus. C&apos;est alors que les offrandes du pain et du vin sont changées en Corps et Sang du Christ. La prière eucharistique se termine par la doxologie qui débouche sur la prière du Père (le Notre-Père). Viennent ensuite la prière pour la paix, l&apos;Agnus Dei, la fraction du pain et la communion, ce qui, en règle générale, ne se fait que sous l&apos;espèce du Corps du Christ. La messe s&apos;achève dans le recueillement, l’action de grâces, par une prière finale et une bénédiction par le prêtre." outputReferences="&lt;hc_ccc ref=&quot;1348-1355&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelle-est-la-structure-de-la-messe&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Quelle est la structure de la messe ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1348" verseEnd="1355"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>La messe commence par le rassemblement des fidèles et la procession du  prêtre et des servants d&apos;autel. Après la salutation du prêtre vient la confession des péchés que tous font ensemble, et qui se termine par le Kyrie. Les dimanches (excepté pendant les temps du Carême et de l&apos;Avent) et les jours de fête on chante ou on récite ensuite le Gloria. La prière du jour introduit une ou deux lectures de L&apos;Ancien et du Nouveau Testament. L&apos;acclamation de l&apos;Alleluia prend place avant l&apos;Évangile. Les dimanches et jours de fête, après la proclamation de l&apos;Évangile, le prêtre ou le diacre prononce une homélie. En ces mêmes dimanches et jours de fête, l&apos;assemblée professe sa foi commune dans le Credo, auquel s&apos;ajoutent Les intercessions de la « prière universelle ».&#10;La deuxième partie de la messe commence par la préparation des offrandes, qui se termine par une prière sur les offrandes. Le sommet de la célébration eucharistique est la prière eucharistique, introduite par la préface et le Sanctus. C&apos;est alors que les offrandes du pain et du vin sont changées en Corps et Sang du Christ. La prière eucharistique se termine par la doxologie qui débouche sur la prière du Père (le Notre-Père). Viennent ensuite la prière pour la paix, l&apos;Agnus Dei, la fraction du pain et la communion, ce qui, en règle générale, ne se fait que sous l&apos;espèce du Corps du Christ. La messe s&apos;achève dans le recueillement, l’action de grâces, par une prière finale et une bénédiction par le prêtre.</text>
+              </message>
+              <message name="Quelles sont les parties essentielles de la messe ?" id="quelles-sont-les-parties-essentielles-de-la-messe" nb="213">
+                <tests>
+                  <test input="Quelles sont les parties essentielles de la messe ?" output="Toute la messe (célébration eucharistique) se déroule en deux parties, la liturgie de la Parole et la célébration eucharistique à proprement parler." outputReferences="&lt;hc_ccc ref=&quot;1346-1347&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelles-sont-les-parties-essentielles-de-la-messe&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Quelles sont les parties essentielles de la messe ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1346" verseEnd="1347"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Toute la messe (célébration eucharistique) se déroule en deux parties, la liturgie de la Parole et la célébration eucharistique à proprement parler.</text>
               </message>
               <message name="Quels noms donne-t-on au repas de Jésus avec nous, et que signifient-ils ?" id="quels-noms-donne-t-on-au-repas-de-jesus-avec-nous-et-que-signifient-ils" nb="212">
                 <tests>
