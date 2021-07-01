@@ -7880,7 +7880,7 @@
         </message>
         <message name="Un prêtre se confesse ?" id="un-pretre-se-confesse">
           <tests>
-            <test input="Un prêtre se confesse ?" output="Oui, un prêtre se confesse.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N1Lrg-iGHPY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 23-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_site site=&quot;https://cybercure.fr/je-celebre-les-sacrements/eucharistie/article/la-communion-eucharistique&quot; textlength=&quot;93&quot; /&gt;&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;faut-il-se-confesser-avant-de-communier&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;un-pretre-se-confesse&quot; textlength=&quot;10&quot; /&gt;"/>
+            <test input="Un prêtre se confesse ?" output="Oui, un prêtre se confesse.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N1Lrg-iGHPY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;un-pretre-se-confesse-chatbot&quot; url=&quot;https://youtu.be/N1Lrg-iGHPY&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;un-pretre-se-confesse&quot; textlength=&quot;10&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Un prêtre se confesse ?"/>
@@ -7890,6 +7890,16 @@
         </message>
       </folder>
       <folder name="Réconciliation" id="reconciliation" nb="4" image="confession.jpg">
+        <folder name="Chatbot" id="chatbot-reconciliation" isHidden="true">
+          <message name="Un prêtre se confesse" id="un-pretre-se-confesse-chatbot">
+            <tests>
+              <test input="Est-ce que les prêtres se confessent ?" output="Oui, le prêtre se confessent." outputReferences="&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;un-pretre-se-confesse-chatbot&quot; url=&quot;https://youtu.be/N1Lrg-iGHPY&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            </tests>
+            <sourceId>vocation78</sourceId>
+            <sourceUrl>https://youtu.be/N1Lrg-iGHPY</sourceUrl>
+            <text>Un prêtre se confesse.</text>
+          </message>
+        </folder>
         <message name="Comment se confesser en 3 min" id="comment-se-confesser-en-3-min">
           <tests>
             <test input="Comment préparer une confession ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jQn_eW0vpvk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;comment-se-confesser-en-3-min&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -13914,6 +13924,36 @@
                 <sourceId>youcat</sourceId>
                 <text>Parce que Dieu est réellement présent sous les espèces consacrées du pain et du vin, nous devons conserver ces saintes espèces avec le plus grand respect, et adorer notre Seigneur et Sauveur présent dans le Saint Sacrement.</text>
               </message>
+              <message name="Comment dois-je me préparer pour pouvoir recevoir l&apos;eucharistie ?" id="comment-dois-je-me-preparer-pour-pouvoir-recevoir-l-eucharistie" nb="220">
+                <tests>
+                  <test input="Comment dois-je me préparer pour pouvoir recevoir l&apos;eucharistie ?" output="Celui qui veut recevoir l&apos;eucharistie doit être catholique. S&apos;il est conscient d&apos;avoir commis un péché grave, il doit d&apos;abord se confesser. Avant de s&apos;approcher de l&apos;autel, il faut se réconcilier avec son prochain." outputReferences="&lt;hc_bible ref=&quot;Mt 8, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1389&quot; textlength=&quot;4&quot; /&gt;&lt;hc_ccc ref=&quot;1417&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-dois-je-me-preparer-pour-pouvoir-recevoir-l-eucharistie&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Comment dois-je me préparer pour pouvoir recevoir l&apos;eucharistie ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1389"/>
+                  <ccc verseBegin="1417"/>
+                  <bible book="Mt" chapter="8" verseBegin="8"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Celui qui veut recevoir l&apos;eucharistie doit être catholique. S&apos;il est conscient d&apos;avoir commis un péché grave, il doit d&apos;abord se confesser. Avant de s&apos;approcher de l&apos;autel, il faut se réconcilier avec son prochain.</text>
+              </message>
+              <message name="Comment la communion me transforme-t-elle ?" id="comment-la-communion-me-transforme-t-elle" nb="221">
+                <tests>
+                  <test input="Comment la communion me transforme-t-elle ?" output="Chaque communion m&apos;unit plus profondément au Christ, fait de moi un membre vivant du Corps du Christ, renouvelle les grâces que j&apos;ai reçues au baptême et à la confirmation, et me rend fort dans le combat contre le péché." outputReferences="&lt;hc_bible ref=&quot;Mt 8, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1391-1397&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1416&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-la-communion-me-transforme-t-elle&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Comment la communion me transforme-t-elle ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1391" verseEnd="1397"/>
+                  <ccc verseBegin="1416"/>
+                  <bible book="Mt" chapter="8" verseBegin="8"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Chaque communion m&apos;unit plus profondément au Christ, fait de moi un membre vivant du Corps du Christ, renouvelle les grâces que j&apos;ai reçues au baptême et à la confirmation, et me rend fort dans le combat contre le péché.</text>
+              </message>
               <message name="Comment le Christ a-t-il institué l&apos;eucharistie ?" id="comment-le-christ-a-t-il-institue-l-eucharistie" nb="210">
                 <tests>
                   <test input="Comment le Christ a-t-il institué l&apos;eucharistie ?" output="Je vous ai pourtant transmis, moi, ce que j&apos;ai reçu de la Tradition qui vient du Seigneur : la nuit même où il fut livré, le Seigneur Jésus prit du pain, puis, ayant rendu grâce, il le rompit, et dit : « Ceci est mon Corps, donné pour vous. Faites cela en mémoire de moi. » Après le repas, il fit de même avec la coupe, en disant : « Cette coupe est la nouvelle Alliance en mon Sang. Chaque fois que vous en boirez, faites cela en mémoire de moi » (1 Co 11, 23-25)." outputReferences="&lt;hc_bible ref=&quot;1Co 11, 23-25&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-le-christ-a-t-il-institue-l-eucharistie&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -14020,6 +14060,19 @@
                 </triggers>
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.&#10;Pleni sunt caeli et terra gloria tua.&#10;Hosanna in excelsis.&#10;Benedictus qui venit in nomine Domini.&#10;Hosanna in excelsis.&lt;/span&gt;</text>
+              </message>
+              <message name="Peut-on donner l&apos;eucharistie à des non-catholiques ?" id="peut-on-donner-l-eucharistie-a-des-non-catholiques" nb="222">
+                <tests>
+                  <test input="Peut-on donner l&apos;eucharistie à des non-catholiques ?" output="La communion exprime l&apos;unité du Corps du Christ. Fait partie de l&apos;Église catholique celui qui est baptisé dans cette Église, qui partage sa foi, et qui vit en unité avec elle. Il serait contradictoire que l&apos;Église invite à la communion des personnes ne partageant (pas encore) ni sa foi ni sa vie. La crédibilité du signe de l&apos;eucharistie en pâtirait." outputReferences="&lt;hc_ccc ref=&quot;1398-1401&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;peut-on-donner-l-eucharistie-a-des-non-catholiques&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Peut-on donner l&apos;eucharistie à des non-catholiques ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1398" verseEnd="1401"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>La communion exprime l&apos;unité du Corps du Christ. Fait partie de l&apos;Église catholique celui qui est baptisé dans cette Église, qui partage sa foi, et qui vit en unité avec elle. Il serait contradictoire que l&apos;Église invite à la communion des personnes ne partageant (pas encore) ni sa foi ni sa vie. La crédibilité du signe de l&apos;eucharistie en pâtirait.</text>
               </message>
               <message name="Qu&apos;est-ce que l&apos;eucharistie ?" id="qu-est-ce-que-l-eucharistie" nb="208">
                 <tests>
