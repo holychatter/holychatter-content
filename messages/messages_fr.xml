@@ -1784,6 +1784,20 @@
           </folder>
           <folder name="Résurrection" id="resurrection" nb="4" image="resurrection.jpg">
             <folder name="Chatbot" id="chatbot-resurrection" isHidden="true">
+              <message name="C&apos;est quoi la résurrection ?" id="c-est-quoi-la-resurrection">
+                <tests>
+                  <test input="C&apos;est quoi la résurrection ?" output="La résurrection désigne le passage physique de la mort à la vie. C&apos;est arrivé à Jésus, il est sorti du tombeau, mais c&apos;est aussi quelque chose qui nous est promis. Nous allons participer à la création nouvelle que Dieu nous prépare.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzYpVX0t91E?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://youtu.be/FzYpVX0t91E&quot; sourceid=&quot;rcf-radio-chretienne-francophone&quot; textlength=&quot;28&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;c-est-quoi-la-resurrection&quot; url=&quot;https://fr.wikipedia.org/wiki/R%C3%A9surrection_(christianisme)&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;2Co 5, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;qu-est-ce-que-la-resurrection&quot; textlength=&quot;33&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="C&apos;est quoi la résurrection ?"/>
+                </triggers>
+                <references>
+                  <site url="https://youtu.be/FzYpVX0t91E" sourceId="rcf-radio-chretienne-francophone"/>
+                </references>
+                <sourceId>wikipedia</sourceId>
+                <sourceUrl>https://fr.wikipedia.org/wiki/R%C3%A9surrection_(christianisme)</sourceUrl>
+                <text>La résurrection désigne le passage physique de la mort à la vie. C&apos;est arrivé à Jésus, il est sorti du tombeau, mais c&apos;est aussi quelque chose qui nous est promis. Nous allons participer à la création nouvelle que Dieu nous prépare.</text>
+              </message>
               <message name="Jésus est réssuscité" id="jesus-est-ressuscite">
                 <tests>
                   <test input="Est-ce que Jésus est réssuscité ?" output="Oui, Jésus est réssuscité." outputReferences="&lt;hc_bible ref=&quot;Lc 24, 1-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 1-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 1-10&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 16-26&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 22-33&quot; textlength=&quot;11&quot; /&gt;&lt;hc_site site=&quot;https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite&quot; textlength=&quot;74&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-est-ressuscite&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -1869,6 +1883,19 @@
               </triggers>
               <sourceId>padre-dk</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LBkhjbh3ir0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Qu&apos;est-ce que la Résurrection ?" id="qu-est-ce-que-la-resurrection">
+              <tests>
+                <test input="Qu&apos;est-ce que la Résurrection ?" output="La résurrection désigne le passage physique de la mort à la vie. C&apos;est arrivé à Jésus, il est sorti du tombeau, mais c&apos;est aussi quelque chose qui nous est promis. Nous allons participer à la création nouvelle que Dieu nous prépare.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzYpVX0t91E?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://youtu.be/FzYpVX0t91E&quot; sourceid=&quot;rcf-radio-chretienne-francophone&quot; textlength=&quot;28&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;c-est-quoi-la-resurrection&quot; url=&quot;https://fr.wikipedia.org/wiki/R%C3%A9surrection_(christianisme)&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;2Co 5, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;qu-est-ce-que-la-resurrection&quot; textlength=&quot;33&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que la Résurrection ?"/>
+              </triggers>
+              <references>
+                <bible book="2 Cor" chapter="5" verseBegin="17"/>
+              </references>
+              <sourceId>rcf-radio-chretienne-francophone</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzYpVX0t91E?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
         </folder>
@@ -4266,7 +4293,6 @@
           <triggers>
             <trigger value="Jésus est-il ressuscité ?"/>
             <trigger value="Qu&apos;est-ce que la résurrection de Jésus ?"/>
-            <trigger value="Qu&apos;est-ce que la résurrection ?"/>
           </triggers>
           <recommendations>
             <recommendation text="La résurrection mythe ou réalité ?" outMessageId="la-resurrection-mythe-ou-realite"/>
@@ -5215,6 +5241,14 @@
           <sourceUrl>https://youtu.be/_R2GgIzt9u8</sourceUrl>
           <text>Dieu n&apos;a pas de nom.</text>
         </message>
+        <message name="Dieu ne punit pas" id="dieu-ne-punit-pas">
+          <tests>
+            <test input="Dieu punit-il ?" output="Non, Dieu ne punit pas.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82TLopVfB60?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;dieu-ne-punit-pas&quot; url=&quot;https://youtu.be/82TLopVfB60&quot; textlength=&quot;33&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;dieu-punit-il&quot; textlength=&quot;33&quot; /&gt;"/>
+          </tests>
+          <sourceId>rcf-radio-chretienne-francophone</sourceId>
+          <sourceUrl>https://youtu.be/82TLopVfB60</sourceUrl>
+          <text>Dieu ne punit pas.</text>
+        </message>
         <message name="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?" id="les-hommes-qui-n-ont-pas-la-foi-font-comment-pour-aller-vers-dieu">
           <tests>
             <test input="Les hommes qui n&apos;ont pas la foi font comment pour aller vers Dieu ?" output="Les hommes qui n&apos;ont pas la foi sont éclairés par la raison, car ils sont à l&apos;image de Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nAKqFu1j7fo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-hommes-qui-n-ont-pas-la-foi-font-comment-pour-aller-vers-dieu&quot; url=&quot;https://youtu.be/nAKqFu1j7fo&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Sg 13, 1-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-chemins-de-la-connaissance-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -5243,6 +5277,9 @@
         </message>
       </folder>
       <message name="Comment la Bible parle-t-elle de Dieu ?" id="comment-la-bible-parle-t-elle-de-dieu">
+        <tests>
+          <test input="Comment la Bible parle-t-elle de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_R2GgIzt9u8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ap 22, 20-21&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jg 13, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;comment-la-bible-parle-t-elle-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
         <triggers>
           <trigger value="Comment la Bible parle-t-elle de Dieu ?"/>
         </triggers>
@@ -5285,6 +5322,16 @@
         </references>
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-f9sTaxtSSM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Dieu punit-il ?" id="dieu-punit-il">
+        <tests>
+          <test input="Dieu punit-il ?" output="Non, Dieu ne punit pas.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82TLopVfB60?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;dieu-ne-punit-pas&quot; url=&quot;https://youtu.be/82TLopVfB60&quot; textlength=&quot;33&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;dieu-punit-il&quot; textlength=&quot;33&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Dieu punit-il ?"/>
+        </triggers>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82TLopVfB60?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Dieu, est-il vraiment immuable ?" id="dieu-est-il-vraiment-immuable">
         <tests>
@@ -6717,7 +6764,7 @@
           </message>
           <message name="Pénitence" id="penitence">
             <tests>
-              <test input="C&apos;est quoi la pénitence ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C1QpExKvKCA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;penitence&quot; textlength=&quot;3&quot; /&gt;"/>
+              <test input="C&apos;est quoi la pénitence ?" output="La pénitence est la réparation d&apos;une injustice commise. Je ne peux pas faire pénitence uniquement dans ma tête. Je dois la pratiquer en des actes d&apos;amour et d&apos;engagement au service des autres. En priant, en jeûnant, en soutenant les pauvres moralement et matériellement on fait aussi pénitence !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C1QpExKvKCA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1P 4, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1434-1439&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-penitence&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;penitence&quot; textlength=&quot;3&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="C&apos;est quoi la pénitence ?"/>
@@ -9856,13 +9903,10 @@
           </message>
           <message name="Les 7 péchés capitaux : Qu&apos;est ce qu&apos;on rate ?" id="les-7-peches-capitaux-qu-est-ce-qu-on-rate">
             <tests>
-              <test input="Qu&apos;est-ce que le péché ?" output="Le péché est fondamentalement rejet de Dieu et refus d&apos;accueillir son amour. Il se manifeste par le mépris de ses commandements.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82u2KKe9nl4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-peche&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-7-peches-capitaux-qu-est-ce-qu-on-rate&quot; textlength=&quot;8&quot; /&gt;"/>
-              <test input="Qu&apos;est-ce qu&apos;un péché ?" output="Le péché est fondamentalement rejet de Dieu et refus d&apos;accueillir son amour. Il se manifeste par le mépris de ses commandements.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82u2KKe9nl4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-peche&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-7-peches-capitaux-qu-est-ce-qu-on-rate&quot; textlength=&quot;8&quot; /&gt;"/>
               <test input="Qu&apos;est-ce qu&apos;un acte de péché ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82u2KKe9nl4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-7-peches-capitaux-qu-est-ce-qu-on-rate&quot; textlength=&quot;8&quot; /&gt;"/>
               <test input="Qu&apos;est-ce que un vice ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/82u2KKe9nl4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-7-peches-capitaux-qu-est-ce-qu-on-rate&quot; textlength=&quot;8&quot; /&gt;"/>
             </tests>
             <triggers>
-              <trigger value="Qu&apos;est-ce que le péché ?"/>
               <trigger value="Qu&apos;est-ce qu&apos;un acte de péché ?"/>
               <trigger value="Qu&apos;est-ce que un vice ?"/>
               <trigger value="Quelle est la différence entre un péché et un vice ?"/>
@@ -10082,6 +10126,17 @@
           </references>
           <sourceId>theodom</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sLVcu8aCixY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Qu&apos;est-ce que le péché ?" id="qu-est-ce-que-le-peche-peche">
+          <tests>
+            <test input="Qu&apos;est-ce que le péché ?" output="Le péché est fondamentalement rejet de Dieu et refus d&apos;accueillir son amour. Il se manifeste par le mépris de ses commandements.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ork9INoLBVI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-peche&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;qu-est-ce-que-le-peche-peche&quot; textlength=&quot;33&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce qu&apos;un péché ?" output="Le péché est fondamentalement rejet de Dieu et refus d&apos;accueillir son amour. Il se manifeste par le mépris de ses commandements.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ork9INoLBVI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-peche&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;qu-est-ce-que-le-peche-peche&quot; textlength=&quot;33&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que le péché ?"/>
+          </triggers>
+          <sourceId>rcf-radio-chretienne-francophone</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ork9INoLBVI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Que sont premier péché et péché originel?" id="que-sont-premier-peche-et-peche-originel">
           <tests>
@@ -11799,7 +11854,7 @@
             </message>
             <message name="Peut-on être chrétien sans croire en la résurrection du Christ ?" id="peut-on-etre-chretien-sans-croire-en-la-resurrection-du-christ" nb="104">
               <tests>
-                <test input="Peut-on être chrétien sans croire en la résurrection du Christ ?" output="Non. Si Le Christ n&apos;est pas ressuscité, notre prédication est vide, vide aussi votre foi (1 Co 15, 14)." outputReferences="&lt;hc_bible ref=&quot;1Co 15, 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;631&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;638&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;651&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;peut-on-etre-chretien-sans-croire-en-la-resurrection-du-christ&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Peut-on être chrétien sans croire en la résurrection du Christ ?" output="Non. Si le Christ n&apos;est pas ressuscité, notre prédication est vide, vide aussi votre foi (1 Co 15, 14)." outputReferences="&lt;hc_bible ref=&quot;1Co 15, 14&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;631&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;638&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;651&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;peut-on-etre-chretien-sans-croire-en-la-resurrection-du-christ&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Peut-on être chrétien sans croire en la résurrection du Christ ?"/>
@@ -11811,7 +11866,7 @@
                 <bible book="1 Cor" chapter="15" verseBegin="14"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Non. Si Le Christ n&apos;est pas ressuscité, notre prédication est vide, vide aussi votre foi (1 Co 15, 14).</text>
+              <text>Non. Si le Christ n&apos;est pas ressuscité, notre prédication est vide, vide aussi votre foi (1 Co 15, 14).</text>
             </message>
             <message name="Pourquoi Dieu s&apos;est-il incarné en Jésus-Christ ?" id="pourquoi-dieu-s-est-il-incarne-en-jesus-christ" nb="76">
               <tests>
@@ -13846,6 +13901,48 @@
                 <sourceId>youcat</sourceId>
                 <text>Le Christ manifeste son amour en allant chercher ceux qui sont perdus, et en guérissant les malades. C&apos;est pourquoi il nous a donné le Sacrement de pénitence et de réconciliation, par lequel nous sommes libérés du péché et fortifiés lorsque nous sommes faibles physiquement et moralement.</text>
               </message>
+              <message name="Qu&apos;est-ce que la pénitence ?" id="qu-est-ce-que-la-penitence" nb="230">
+                <tests>
+                  <test input="Qu&apos;est-ce que la pénitence ?" output="La pénitence est la réparation d&apos;une injustice commise. Je ne peux pas faire pénitence uniquement dans ma tête. Je dois la pratiquer en des actes d&apos;amour et d&apos;engagement au service des autres. En priant, en jeûnant, en soutenant les pauvres moralement et matériellement on fait aussi pénitence !|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C1QpExKvKCA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1P 4, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1434-1439&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-penitence&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;penitence&quot; textlength=&quot;3&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce que la pénitence ?"/>
+                </triggers>
+                <references>
+                  <bible book="1 Pet" chapter="4" verseBegin="8"/>
+                  <ccc verseBegin="1434" verseEnd="1439"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>La pénitence est la réparation d&apos;une injustice commise. Je ne peux pas faire pénitence uniquement dans ma tête. Je dois la pratiquer en des actes d&apos;amour et d&apos;engagement au service des autres. En priant, en jeûnant, en soutenant les pauvres moralement et matériellement on fait aussi pénitence !</text>
+              </message>
+              <message name="Qu&apos;est-ce qui dispose au repentir ?" id="qu-est-ce-qui-dispose-au-repentir" nb="229">
+                <tests>
+                  <test input="Qu&apos;est-ce qui dispose au repentir ?" output="Reconnaître sa faute personnelle suscite le désir de s&apos;améliorer : c&apos;est ce qu&apos;on appelle le repentir. Nous y parvenons quand nous voyons la contradiction entre l&apos;amour de Dieu et notre péché. Alors, pleins de douleur face aux péchés commis, nous décidons de changer notre vie, et mettons toute notre espérance dans le secours du Seigneur." outputReferences="&lt;hc_bible ref=&quot;Lm 5, 21&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1430-1433&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1490&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-qui-dispose-au-repentir&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qu&apos;est-ce qui dispose au repentir ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1430" verseEnd="1433"/>
+                  <ccc verseBegin="1490"/>
+                  <bible book="Lam" chapter="5" verseBegin="21"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Reconnaître sa faute personnelle suscite le désir de s&apos;améliorer : c&apos;est ce qu&apos;on appelle le repentir. Nous y parvenons quand nous voyons la contradiction entre l&apos;amour de Dieu et notre péché. Alors, pleins de douleur face aux péchés commis, nous décidons de changer notre vie, et mettons toute notre espérance dans le secours du Seigneur.</text>
+              </message>
+              <message name="Quelles sont les deux conditions fondamentales requises pour qu&apos;un chrétien soit pardonné ?" id="quelles-sont-les-deux-conditions-fondamentales-requises-pour-qu-un-chretien-soit-pardonne" nb="231">
+                <tests>
+                  <test input="Quelles sont les deux conditions fondamentales requises pour qu&apos;un chrétien soit pardonné ?" output="Pour que les péchés soient pardonnés, il faut que la personne se convertisse, et que le prêtre lui accorde au nom de Dieu l’absolution de ses péchés." outputReferences="&lt;hc_ccc ref=&quot;1448&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quelles-sont-les-deux-conditions-fondamentales-requises-pour-qu-un-chretien-soit-pardonne&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Quelles sont les deux conditions fondamentales requises pour qu&apos;un chrétien soit pardonné ?"/>
+                </triggers>
+                <references>
+                  <ccc verseBegin="1448"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text>Pour que les péchés soient pardonnés, il faut que la personne se convertisse, et que le prêtre lui accorde au nom de Dieu l’absolution de ses péchés.</text>
+              </message>
               <message name="Quels noms donne-t-on au sacrement de pénitence-réconciliation ?" id="quels-noms-donne-t-on-au-sacrement-de-penitence-reconciliation" nb="225">
                 <tests>
                   <test input="Quels noms donne-t-on au sacrement de pénitence-réconciliation ?" output="Il est appelé sacrement de pénitence-réconciliation, du pardon, de la conversion, ou de « confession »." outputReferences="&lt;hc_ccc ref=&quot;1422-1424&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1486&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quels-noms-donne-t-on-au-sacrement-de-penitence-reconciliation&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -13874,6 +13971,21 @@
                 </references>
                 <sourceId>youcat</sourceId>
                 <text fileType="text_in_html">Jésus lui-même a institué le sacrement de pénitence, quand il est apparu à ses apôtres le soir de Pâques, et qu&apos;il leur a dit : &lt;i&gt;Recevez l&apos;Esprit-Saint ; tout homme à qui vous remettrez ses péchés, ils lui seront remis ; tout homme à qui vous maintiendrez ses péchés, ils lui seront maintenus&lt;/i&gt; (Jn 20, 22 a-23).</text>
+              </message>
+              <message name="Qui peut pardonner les péchés ?" id="qui-peut-pardonner-les-peches" nb="228">
+                <tests>
+                  <test input="Qui peut pardonner les péchés ?" output="Seul Dieu peut pardonner les péchés. Seul Jésus, parce qu&apos;il est le Fils de Dieu, pouvait dire : &lt;i&gt;tes péchés te sont pardonnés&lt;/i&gt; (Mc 2, 5). Et c&apos;est uniquement parce que Jésus leur en a donné le pouvoir que les prêtres peuvent pardonner les péchés à la place de Jésus." outputReferences="&lt;hc_bible ref=&quot;Mc 2, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 23&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1441-1442&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-peut-pardonner-les-peches&quot; textlength=&quot;6&quot; /&gt;"/>
+                </tests>
+                <triggers>
+                  <trigger value="Qui peut pardonner les péchés ?"/>
+                </triggers>
+                <references>
+                  <bible book="Mk" chapter="2" verseBegin="5"/>
+                  <ccc verseBegin="1441" verseEnd="1442"/>
+                  <bible book="Jn" chapter="20" verseBegin="23"/>
+                </references>
+                <sourceId>youcat</sourceId>
+                <text fileType="text_in_html">Seul Dieu peut pardonner les péchés. Seul Jésus, parce qu&apos;il est le Fils de Dieu, pouvait dire : &lt;i&gt;tes péchés te sont pardonnés&lt;/i&gt; (Mc 2, 5). Et c&apos;est uniquement parce que Jésus leur en a donné le pouvoir que les prêtres peuvent pardonner les péchés à la place de Jésus.</text>
               </message>
             </folder>
           </folder>
@@ -17571,7 +17683,6 @@
       <message name="Je crois en la résurrection de la chair" id="je-crois-en-la-resurrection-de-la-chair">
         <tests>
           <test input="Qu&apos;est-ce que c&apos;est la résurrection de la chair ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TwampItiXD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 11, 1-48&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 39-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 35-44&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;je-crois-en-la-resurrection-de-la-chair&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que c&apos;est la résurrection ?" output="La résurrection de Jésus est vraiment le fondement de la foi chrétienne. Si Jésus n&apos;est pas ressuscité alors la foi des chrétiens n&apos;a aucun sens.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TwampItiXD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;sa-victoire-sur-la-mort&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 11, 1-48&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 39-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 35-44&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;je-crois-en-la-resurrection-de-la-chair&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Que pouvons-nous dire de la résurrection de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TwampItiXD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 11, 1-48&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 39-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 35-44&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;je-crois-en-la-resurrection-de-la-chair&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Qu&apos;est-ce que la résurrection de la chair ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TwampItiXD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 11, 1-48&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 39-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 35-44&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;je-crois-en-la-resurrection-de-la-chair&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Comment la résurrection de la chair est possible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TwampItiXD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 11, 1-48&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 39-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 35-44&quot; textlength=&quot;13&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;je-crois-en-la-resurrection-de-la-chair&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -17581,7 +17692,6 @@
         </tests>
         <triggers>
           <trigger value="Qu&apos;est-ce que c&apos;est la résurrection de la chair ?"/>
-          <trigger value="Qu&apos;est-ce que c&apos;est la résurrection ?"/>
           <trigger value="Que pouvons-nous dire de la résurrection de Jésus ?"/>
           <trigger value="Comment la résurrection de la chair est possible ?"/>
           <trigger value="Comment les morts ressuscitent-ils ?"/>
@@ -19315,7 +19425,7 @@
     </folder>
   </folder>
   <folder name="Témoignages" id="temoignages" nb="1" image="prises_de_parole.jpeg">
-    <folder name="Ancien athée" id="ancien-athee" nb="2" image="athee.png">
+    <folder name="Ancien athée" id="ancien-athee" nb="4" image="athee.png">
       <message name="&quot;Une athée raconte sa conversion&quot; suite à la mort de son mari dans son livre &quot;SAVEURS DIVINES&quot;" id="une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines">
         <tests>
           <test input="Y a-t-il une vie après la vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s2O3vp7MmTc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Rassemblement à Son Image&quot; resourceid=&quot;une-athee-raconte-sa-conversion-suite-a-la-mort-de-son-mari-dans-son-livre-saveurs-divines&quot; textlength=&quot;26&quot; /&gt;"/>
@@ -19385,7 +19495,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ga2ujSbMxdA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Ancien franc-maçon" id="ancien-franc-macon" nb="4" image="francs_macons.jpg">
+    <folder name="Ancien franc-maçon" id="ancien-franc-macon" nb="6" image="francs_macons.jpg">
       <message name="Le témoignage extraordinaire d’un franc-maçon converti à Lourdes" id="le-temoignage-extraordinaire-d-un-franc-macon-converti-a-lourdes">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un ancien franc-maçon !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CCSd0Ewy4gQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Famille Chrétienne&quot; resourceid=&quot;le-temoignage-extraordinaire-d-un-franc-macon-converti-a-lourdes&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -19397,7 +19507,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CCSd0Ewy4gQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Ancien musulman" id="ancien-musulman" nb="3" image="ancien_musulman.jpg">
+    <folder name="Ancien musulman" id="ancien-musulman" nb="5" image="ancien_musulman.jpg">
       <message name="Mark Gabriel : UN IMAM RENCONTRE JESUS !" id="mark-gabriel-un-imam-rencontre-jesus">
         <triggers>
           <trigger value="Montrez-moi la conversion d&apos;un Imam au christianisme."/>
@@ -19467,7 +19577,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Couple" id="couple" nb="8" image="couple_calin.jpeg">
+    <folder name="Couple" id="couple" nb="10" image="couple_calin.jpeg">
       <message name="Pélé de l&apos;espérance Jour 32: Témoignage de Foucauld et Guillemette" id="pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un couple !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OiirLHvi0eA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;catholique45&quot; resourceid=&quot;pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -19493,7 +19603,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-y9IA97D1cE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Célébrité" id="celebrite" nb="5" image="celebrities.jpg">
+    <folder name="Célébrité" id="celebrite" nb="7" image="celebrities.jpg">
       <folder name="Acteur" id="acteur" image="lonsdale.jpeg">
         <message name="Arielle Dombasle : « La première fois que j’ai vu le Christ en croix, je me suis mise à pleurer »" id="arielle-dombasle-la-premiere-fois-que-j-ai-vu-le-christ-en-croix-je-me-suis-mise-a-pleurer">
           <tests>
@@ -19618,7 +19728,7 @@
         </message>
       </folder>
     </folder>
-    <folder name="Diacre en vue du sacerdoce" id="diacre-en-vue-du-sacerdoce" nb="11" image="ordination_diaconale.jpeg">
+    <folder name="Diacre en vue du sacerdoce" id="diacre-en-vue-du-sacerdoce" nb="13" image="ordination_diaconale.jpeg">
       <message name="Ordination diaconale" id="ordination-diaconale">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un jeune avant son ordination diaconale !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d0y225lZ5Sw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 9, 10-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Aymar de Langautier&quot; resourceid=&quot;ordination-diaconale&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -19725,7 +19835,7 @@
         </planningInfos>
       </message>
     </folder>
-    <folder name="Enfant pauvre" id="enfant-pauvre" nb="13" image="enfants-des-rues.jpg">
+    <folder name="Enfant pauvre" id="enfant-pauvre" nb="15" image="enfants-des-rues.jpg">
       <message name="Les vrais miracles - Enseignement du père Matthieu Dauchez" id="les-vrais-miracles-enseignement-du-pere-matthieu-dauchez">
         <tests>
           <test input="Montrez-moi un témoignages des enfants des rues !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;les-vrais-miracles-enseignement-du-pere-matthieu-dauchez&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -19745,7 +19855,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Evêque" id="eveque" nb="17" image="évêques.jpg">
+    <folder name="Evêque" id="eveque" nb="19" image="évêques.jpg">
       <message name="Parabole sur la vie de Mgr Aupetit" id="parabole-sur-la-vie-de-mgr-aupetit">
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;un évêque !"/>
@@ -19754,7 +19864,59 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iv-XoBQmpQk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Frère" id="frere" nb="16" image="moines.jpg">
+    <folder name="Expérience de mort imminente" id="experience-de-mort-imminente" nb="1" image="mort_imminente.jpg">
+      <message name="Expérience de mort imminente (EMI) Ils sont revenus de l’au-delà" id="experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela">
+        <tests>
+          <test input="Montrez-moi une expérience de mort imminente !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
+          <test input="C&apos;est quoi une expérience de mort imminente ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi une expérience de mort imminente !"/>
+          <trigger value="C&apos;est quoi une expérience de mort imminente ?"/>
+        </triggers>
+        <sourceId>reinformationtv</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Vincent Lafargue, prêtre après une expérience de mort imminente" id="vincent-lafargue-pretre-apres-une-experience-de-mort-imminente">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un prêtre ayant fait une expérience de mort imminente !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c1TxswpsEcY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;vincent-lafargue-pretre-apres-une-experience-de-mort-imminente&quot; textlength=&quot;33&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage de Vincent Lafargue !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c1TxswpsEcY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;vincent-lafargue-pretre-apres-une-experience-de-mort-imminente&quot; textlength=&quot;33&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un prêtre ayant fait une expérience de mort imminente !"/>
+          <trigger value="Montrez-moi le témoignage de Vincent Lafargue !"/>
+        </triggers>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c1TxswpsEcY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Expérience mystique" id="experience-mystique-temoignages" nb="2" image="experience_mystique.jpg">
+      <message name="Ma grande carrière ne me rendait pas heureux - Témoignage de Jean-Marc Potdevin" id="ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin">
+        <tests>
+          <test input="Quel est le témoignage de Jean-Marc Potdevin ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 4, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quel est le témoignage de Jean-Marc Potdevin ?"/>
+        </triggers>
+        <references>
+          <bible book="Phil" chapter="4" verseBegin="4" verseEnd="6"/>
+        </references>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="✥ Témoignage chrétien : Raphaël, en Terre Sainte, expérimente la présence de DIEU ! ✥" id="temoignage-chretien-raphael-en-terre-sainte-experimente-la-presence-de-dieu">
+        <tests>
+          <test input="Montrez-moi une conversion en Terre Sainte !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i9pIVNfoH1o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Retour du Christ&quot; resourceid=&quot;temoignage-chretien-raphael-en-terre-sainte-experimente-la-presence-de-dieu&quot; textlength=&quot;16&quot; /&gt;"/>
+          <test input="Montrez-moi un clin Dieu dans le désert !" output="Je ne sais pas vous montrer un clin Dieu dans le désert." isOk="false"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi une conversion en Terre Sainte !"/>
+        </triggers>
+        <sourceId>retour-du-christ</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i9pIVNfoH1o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Frère" id="frere" nb="18" image="moines.jpg">
       <message name="Appel de Charles, moine trappiste" id="appel-de-charles-moine-trappiste">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un moine !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rzYbTo7TvnQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 29-30&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;appel-de-charles-moine-trappiste&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -19783,7 +19945,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ucw_KW23SSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Homosexuel" id="homosexuel" nb="9" image="conversions_homo.jpg">
+    <folder name="Homosexuel" id="homosexuel" nb="11" image="conversions_homo.jpg">
       <message name="D&apos;HOMOSEXUELLE A CHRETIENNE - TEMOIGNAGE" id="d-homosexuelle-a-chretienne-temoignage" nb="1">
         <tests>
           <test input="Montrez-moi la conversion d&apos;une personne homosexuelle." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5EEVNi5z6uQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 2, 22-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lv 18, 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Horizon_Jésus&quot; resourceid=&quot;d-homosexuelle-a-chretienne-temoignage&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -19801,7 +19963,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5EEVNi5z6uQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Jeune" id="jeune" nb="6" image="jeunes.jpg">
+    <folder name="Jeune" id="jeune" nb="8" image="jeunes.jpg">
       <message name="Emeline : « J&apos;ai été harcelée »" id="emeline-j-ai-ete-harcelee">
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;une personne harcelée !"/>
@@ -19812,7 +19974,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zgutk4nodUE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Laïc" id="laic" nb="7" image="laic.jpg">
+    <folder name="Laïc" id="laic" nb="9" image="laic.jpg">
       <message name="&quot;Je vis de la LOUANGE&quot; - Témoignage de Pauline Betuel" id="je-vis-de-la-louange-temoignage-de-pauline-betuel">
         <tests>
           <test input="Montrez-moi le témoignage de Pauline Betuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;je-vis-de-la-louange-temoignage-de-pauline-betuel&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -19866,35 +20028,6 @@
         <sourceId>retour-aux-sources</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xZrHI39LQlc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <folder name="Expérience de mort imminente" id="experience-de-mort-imminente" image="mort_imminente.jpg">
-        <message name="Expérience de mort imminente (EMI) Ils sont revenus de l’au-delà" id="experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela">
-          <tests>
-            <test input="Montrez-moi une expérience de mort imminente !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
-            <test input="C&apos;est quoi une expérience de mort imminente ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;reinformation.tv&quot; resourceid=&quot;experience-de-mort-imminente-emi-ils-sont-revenus-de-l-au-dela&quot; textlength=&quot;16&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Montrez-moi une expérience de mort imminente !"/>
-            <trigger value="C&apos;est quoi une expérience de mort imminente ?"/>
-          </triggers>
-          <sourceId>reinformationtv</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eRPUnkVYhOI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
-      <folder name="Expérience mystique" id="experience-mystique-laic" image="experience_mystique.jpg">
-        <message name="Ma grande carrière ne me rendait pas heureux - Témoignage de Jean-Marc Potdevin" id="ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin">
-          <tests>
-            <test input="Quel est le témoignage de Jean-Marc Potdevin ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 4, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;ma-grande-carriere-ne-me-rendait-pas-heureux-temoignage-de-jean-marc-potdevin&quot; textlength=&quot;25&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Quel est le témoignage de Jean-Marc Potdevin ?"/>
-          </triggers>
-          <references>
-            <bible book="Phil" chapter="4" verseBegin="4" verseEnd="6"/>
-          </references>
-          <sourceId>communaute-de-l-emmanuel</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vWfMJCUB_ns?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
       <message name="J&apos;ai rencontré Dieu mais je ne me reconnaissais pas dans les chrétiens qui m&apos;entouraient - Tanguy" id="j-ai-rencontre-dieu-mais-je-ne-me-reconnaissais-pas-dans-les-chretiens-qui-m-entouraient-tanguy">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un entraîneur de boxe !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WtbET_oKK5g?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;La vie témoigne de Lui&quot; resourceid=&quot;j-ai-rencontre-dieu-mais-je-ne-me-reconnaissais-pas-dans-les-chretiens-qui-m-entouraient-tanguy&quot; textlength=&quot;23&quot; /&gt;"/>
@@ -19904,6 +20037,20 @@
         </triggers>
         <sourceId>la-vie-temoigne-de-lui</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WtbET_oKK5g?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="LE TEMOIGNAGE DE COSPIEL (Agression, Harcèlement, Conversion à Christ)" id="le-temoignage-de-cospiel-agression-harcelement-conversion-a-christ">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une personne agressée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PS-bCmP6Ui8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cospiel&quot; resourceid=&quot;le-temoignage-de-cospiel-agression-harcelement-conversion-a-christ&quot; textlength=&quot;7&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une ancienne victime !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PS-bCmP6Ui8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cospiel&quot; resourceid=&quot;le-temoignage-de-cospiel-agression-harcelement-conversion-a-christ&quot; textlength=&quot;7&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage de Cospiel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PS-bCmP6Ui8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cospiel&quot; resourceid=&quot;le-temoignage-de-cospiel-agression-harcelement-conversion-a-christ&quot; textlength=&quot;7&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une personne agressée !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une ancienne victime !"/>
+          <trigger value="Montrez-moi le témoignage de Cospiel !"/>
+        </triggers>
+        <sourceId>cospiel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PS-bCmP6Ui8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Pourquoi être chrétien ? - Charlotte d&apos;Ornellas" id="pourquoi-etre-chretien-charlotte-d-ornellas">
         <tests>
@@ -19940,19 +20087,8 @@
         <sourceId>kto</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/P1OCFcQEyBA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="✥ Témoignage chrétien : Raphaël, en Terre Sainte, expérimente la présence de DIEU ! ✥" id="temoignage-chretien-raphael-en-terre-sainte-experimente-la-presence-de-dieu">
-        <tests>
-          <test input="Montrez-moi une conversion en Terre Sainte !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i9pIVNfoH1o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Retour du Christ&quot; resourceid=&quot;temoignage-chretien-raphael-en-terre-sainte-experimente-la-presence-de-dieu&quot; textlength=&quot;16&quot; /&gt;"/>
-          <test input="Montrez-moi un clin Dieu dans le désert !" output="Je ne sais pas vous montrer un clin Dieu dans le désert." isOk="false"/>
-        </tests>
-        <triggers>
-          <trigger value="Montrez-moi une conversion en Terre Sainte !"/>
-        </triggers>
-        <sourceId>retour-du-christ</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i9pIVNfoH1o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
     </folder>
-    <folder name="Postulante" id="postulante" nb="14" image="postulante.jpg">
+    <folder name="Postulante" id="postulante" nb="16" image="postulante.jpg">
       <message name="Témoignage de Charlotte Servera" id="temoignage-de-charlotte-servera">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une postulante !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-charlotte-servera&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -19964,7 +20100,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prisonnier" id="prisonnier" nb="1" image="prisonnier.jpg">
+    <folder name="Prisonnier" id="prisonnier" nb="3" image="prisonnier.jpg">
       <message name="Témoignage d&apos;André Levet - Jésus-Christ est venu dans ma cellule" id="temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;André Levet !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 35-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 65&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 18, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 33-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -19989,7 +20125,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="12" image="pretres.jpg">
+    <folder name="Prêtre" id="pretre" nb="14" image="pretres.jpg">
       <message name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -20078,7 +20214,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="10" image="séminaristes.jpg">
+    <folder name="Séminariste" id="seminariste" nb="12" image="séminaristes.jpg">
       <message name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -20093,7 +20229,7 @@
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Sœur" id="sur" nb="15" image="nonnes.jpg">
+    <folder name="Sœur" id="sur" nb="17" image="nonnes.jpg">
       <message name="Appel soeur de Saint Jean" id="appel-soeur-de-saint-jean">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une soeur de Saint Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBjr3aNZGzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;appel-soeur-de-saint-jean&quot; textlength=&quot;10&quot; /&gt;"/>
