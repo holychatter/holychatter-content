@@ -895,6 +895,19 @@
               <sourceId>theodom</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i4LEgRKuY3w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
+            <message name="L&apos;Apocalypse parle-t-elle de la Vierge Marie ?" id="l-apocalypse-parle-t-elle-de-la-vierge-marie">
+              <tests>
+                <test input="L&apos;Apocalypse parle-t-elle de la Vierge Marie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T7IdkyC8hfI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ap 12, 1-8&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-apocalypse-parle-t-elle-de-la-vierge-marie&quot; textlength=&quot;8&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="L&apos;Apocalypse parle-t-elle de la Vierge Marie ?"/>
+              </triggers>
+              <references>
+                <bible book="Rev" chapter="12" verseBegin="1" verseEnd="8"/>
+              </references>
+              <sourceId>theodom</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T7IdkyC8hfI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
             <message name="Monstres &amp; Cie (Ap 12-16)" id="monstres-cie-ap-12-16" nb="4">
               <tests>
                 <test input="Les symboles de l&apos;Apocalypse sont univoques." output="Non, les symboles de l&apos;Apocalypse ne sont pas univoques." outputReferences="&lt;hc_bible ref=&quot;Ap 12-16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;monstres-cie-ap-12-16&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -1165,7 +1178,7 @@
               <text>On fête l&apos;annonciation le 25 mars.</text>
             </message>
           </folder>
-          <folder name="Ascension" id="ascension-par-themes" nb="5" image="ascension.webp">
+          <folder name="Ascension" id="ascension-par-themes" nb="6" image="ascension.webp">
             <message name="Jésus est au ciel avec son corps ?" id="jesus-est-au-ciel-avec-son-corps">
               <tests>
                 <test input="Jésus est au ciel avec son corps ?" output="Non, Jésus est en tout à lieu avec le corps de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;He 2, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;jesus-est-au-ciel-avec-son-corps&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
@@ -1185,7 +1198,51 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/u3x_P3xCPHk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Multiplication des pains" id="multiplication-des-pains" nb="3" image="pains.jpg">
+          <folder name="Béatitudes" id="beatitudes" nb="2" image="Sermon-on-the-Mount.jpg">
+            <message name="&quot;Heureux les pauvres&quot;, ça signifie qu&apos;il ne faut pas lutter contre la pauvreté dans le monde ?" id="heureux-les-pauvres-ca-signifie-qu-il-ne-faut-pas-lutter-contre-la-pauvrete-dans-le-monde">
+              <tests>
+                <test input="&quot;Heureux les pauvres&quot;, ça signifie qu&apos;il ne faut pas lutter contre la pauvreté dans le monde ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YtmaP_9djJQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 6, 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;heureux-les-pauvres-ca-signifie-qu-il-ne-faut-pas-lutter-contre-la-pauvrete-dans-le-monde&quot; textlength=&quot;33&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="&quot;Heureux les pauvres&quot;, ça signifie qu&apos;il ne faut pas lutter contre la pauvreté dans le monde ?"/>
+              </triggers>
+              <references>
+                <bible book="Mt" chapter="5" verseBegin="3"/>
+                <bible book="Lk" chapter="6" verseBegin="20"/>
+              </references>
+              <sourceId>rcf-radio-chretienne-francophone</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YtmaP_9djJQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Qu&apos;est-ce que les Béatitudes ?" id="qu-est-ce-que-les-beatitudes">
+              <tests>
+                <test input="Qu&apos;est-ce que les Béatitudes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wEDAbCyVAOE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 6, 20-38&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;qu-est-ce-que-les-beatitudes&quot; textlength=&quot;33&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qu&apos;est-ce que les Béatitudes ?"/>
+              </triggers>
+              <references>
+                <bible book="Mt" chapter="5" verseBegin="3" verseEnd="12"/>
+                <bible book="Lk" chapter="6" verseBegin="20" verseEnd="38"/>
+              </references>
+              <sourceId>rcf-radio-chretienne-francophone</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wEDAbCyVAOE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+            <message name="Qui sont les artisans de paix que Jésus félicite dans les Béatitudes ?" id="qui-sont-les-artisans-de-paix-que-jesus-felicite-dans-les-beatitudes">
+              <tests>
+                <test input="Qui sont les artisans de paix que Jésus félicite dans les Béatitudes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X9gShuTTrTQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 36&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;qui-sont-les-artisans-de-paix-que-jesus-felicite-dans-les-beatitudes&quot; textlength=&quot;33&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Qui sont les artisans de paix que Jésus félicite dans les Béatitudes ?"/>
+              </triggers>
+              <references>
+                <bible book="Mt" chapter="5" verseBegin="9"/>
+                <bible book="Lk" chapter="24" verseBegin="36"/>
+              </references>
+              <sourceId>rcf-radio-chretienne-francophone</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/X9gShuTTrTQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
+          </folder>
+          <folder name="Multiplication des pains" id="multiplication-des-pains" nb="4" image="pains.jpg">
             <message name="Multiplication des pains" id="multiplication-des-pains">
               <triggers>
                 <trigger value="Ecouter un commentaire sur la multiplication des pains !"/>
@@ -1197,7 +1254,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7z_4koc9vrY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Paraboles" id="paraboles" nb="2" image="paraboles.jpg">
+          <folder name="Paraboles" id="paraboles" nb="3" image="paraboles.jpg">
             <folder name="L&apos;ami importun" id="l-ami-importun" nb="1" isHidden="true">
               <message name="Lire la parabole de l&apos;ami importun" id="lire-la-parabole-de-l-ami-importun">
                 <tests>
@@ -1782,7 +1839,7 @@
               </message>
             </folder>
           </folder>
-          <folder name="Résurrection" id="resurrection" nb="4" image="resurrection.jpg">
+          <folder name="Résurrection" id="resurrection" nb="5" image="resurrection.jpg">
             <folder name="Chatbot" id="chatbot-resurrection" isHidden="true">
               <message name="C&apos;est quoi la résurrection ?" id="c-est-quoi-la-resurrection">
                 <tests>
@@ -3070,6 +3127,21 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ob3S2TYZ40o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="L&apos;Esprit saint est-il une force ou une personne ?" id="l-esprit-saint-est-il-une-force-ou-une-personne">
+        <tests>
+          <test input="L&apos;Esprit saint est-il une force ou une personne ?" output="Oui, le Saint-Esprit est une force ou personne.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KnOSZ-dq91Q?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 146, 5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 34, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 3, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Dt 32, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 36, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ep 3, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Is 55, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 134, 5-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 36&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ga 4, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 8, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 32&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 1, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 1, 1-2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 7, 56&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;214-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;243-248&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;263-264&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;659-667&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;988-991&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;997-1001&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1015&quot; textlength=&quot;4&quot; /&gt;&lt;hc_ccc ref=&quot;66-67&quot; textlength=&quot;5&quot; /&gt;&lt;hc_site site=&quot;https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint&quot; textlength=&quot;69&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; textlength=&quot;25&quot; /&gt;&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)&quot; textlength=&quot;58&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;qui-est-dieu-un-et-trine&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-bon&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-omniscient&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-eternel&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-parler-de-dieu&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-dieu-a-t-il-cree-l-homme&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-veut-dire-dieu-est-la-verite&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-est-l-esprit-saint-je-crois-en-dieu-le-pere&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-est-monte-au-ciel-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-croyons-nous-en-la-resurrection-de-la-chair&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;avec-jesus-christ-tout-est-il-dit-ou-bien-la-revelation-continuera-t-elle-apres-lui&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;peut-on-connaitre-dieu&quot; textlength=&quot;23&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 16, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;l-esprit-saint-est-il-une-force-ou-une-personne&quot; textlength=&quot;33&quot; /&gt;" isOk="false"/>
+        </tests>
+        <triggers>
+          <trigger value="L&apos;Esprit saint est-il une force ou une personne ?"/>
+        </triggers>
+        <references>
+          <bible book="Acts" chapter="1" verseBegin="8"/>
+          <bible book="Jn" chapter="15" verseBegin="26"/>
+          <bible book="Jn" chapter="16" verseBegin="7"/>
+        </references>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KnOSZ-dq91Q?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="L&apos;Esprit-Saint dans la liturgie" id="l-esprit-saint-dans-la-liturgie">
         <tests>
@@ -8853,7 +8925,7 @@
       </message>
       <message name="Quand on parle de la volonté de Dieu, qu&apos;est-ce que ça veut dire ?" id="quand-on-parle-de-la-volonte-de-dieu-qu-est-ce-que-ca-veut-dire">
         <tests>
-          <test input="Quand on parle de la volonté de Dieu, qu&apos;est-ce que ça veut dire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jF2gpHNJG1A?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quand-on-parle-de-la-volonte-de-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;6&quot; /&gt;"/>
+          <test input="Quand on parle de la volonté de Dieu, qu&apos;est-ce que ça veut dire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jF2gpHNJG1A?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;quand-on-parle-de-la-volonte-de-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;33&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Quand on parle de la volonté de Dieu, qu&apos;est-ce que ça veut dire ?"/>
@@ -9883,6 +9955,16 @@
         </references>
         <sourceId>frere-paul-adrien-d-hardemare</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6GFQ0DURQIE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Où est Dieu et que fait-il quand des innocents souffrent ?" id="o-est-dieu-et-que-fait-il-quand-des-innocents-souffrent">
+        <tests>
+          <test input="Où est Dieu et que fait-il quand des innocents souffrent ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AjrjSghuuM0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;o-est-dieu-et-que-fait-il-quand-des-innocents-souffrent&quot; textlength=&quot;33&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Où est Dieu et que fait-il quand des innocents souffrent ?"/>
+        </triggers>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AjrjSghuuM0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Pourquoi Dieu permet les épreuves ?" id="pourquoi-dieu-permet-les-epreuves">
         <tests>
@@ -12107,7 +12189,7 @@
             </message>
             <message name="Pourquoi Jésus a-t-il fait des miracles ?" id="pourquoi-jesus-a-t-il-fait-des-miracles" nb="91">
               <tests>
-                <test input="Pourquoi Jésus a-t-il fait des miracles ?" output="Les miracles que Jésus a accomplis furent des signes de l&apos;avènement du Royaume de Dieu. Ils furent l&apos;expression de son amour pour les hommes et ils ont confirmé sa mission." outputReferences="&lt;hc_bible ref=&quot;Mc 7, 37&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 5-15&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 19, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-a-t-il-fait-des-miracles&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Pourquoi Jésus a-t-il fait des miracles ?" output="Les miracles que Jésus a accomplis furent des signes de l&apos;avènement du Royaume de Dieu. Ils furent l&apos;expression de son amour pour les hommes et ils ont confirmé sa mission.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rRxQGofz6gk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 7, 37&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 5-15&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 19, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-a-t-il-fait-des-miracles&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 7, 31&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 9, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 47&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 37&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 21, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;jesus-a-t-il-vraiment-fait-des-miracles-et-si-oui-pourquoi&quot; textlength=&quot;33&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Pourquoi Jésus a-t-il fait des miracles ?"/>
@@ -16857,6 +16939,33 @@
         <sourceId>cn-media</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQo_t3qh3_U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Jésus a-t-il vraiment fait des miracles et si oui pourquoi ?" id="jesus-a-t-il-vraiment-fait-des-miracles-et-si-oui-pourquoi">
+        <tests>
+          <test input="Jésus a-t-il vraiment fait des miracles ?" output="Oui, Jésus a vraiment fait des miracles.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rRxQGofz6gk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 4, 18-19&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 46-52&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-a-t-il-reellement-fait-des-miracles-ou-bien-ne-s-agit-il-que-de-pieuses-legendes&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 7, 31&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 9, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 47&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 37&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 21, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;jesus-a-t-il-vraiment-fait-des-miracles-et-si-oui-pourquoi&quot; textlength=&quot;33&quot; /&gt;"/>
+          <test input="Pourquoi Jésus a-t-il fait des miracles ?" output="Les miracles que Jésus a accomplis furent des signes de l&apos;avènement du Royaume de Dieu. Ils furent l&apos;expression de son amour pour les hommes et ils ont confirmé sa mission.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rRxQGofz6gk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 7, 37&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 5-15&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 19, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-jesus-a-t-il-fait-des-miracles&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 7, 31&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 9, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 47&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 37&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 21, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;jesus-a-t-il-vraiment-fait-des-miracles-et-si-oui-pourquoi&quot; textlength=&quot;33&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Jésus a-t-il vraiment fait des miracles ?"/>
+          <trigger value="Pourquoi Jésus a-t-il fait des miracles ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="2" verseBegin="11"/>
+          <bible book="Jn" chapter="2" verseBegin="23"/>
+          <bible book="Jn" chapter="3" verseBegin="2"/>
+          <bible book="Jn" chapter="4" verseBegin="48"/>
+          <bible book="Jn" chapter="6" verseBegin="2"/>
+          <bible book="Jn" chapter="6" verseBegin="26"/>
+          <bible book="Jn" chapter="7" verseBegin="31"/>
+          <bible book="Jn" chapter="9" verseBegin="16"/>
+          <bible book="Jn" chapter="11" verseBegin="47"/>
+          <bible book="Jn" chapter="12" verseBegin="37"/>
+          <bible book="Jn" chapter="20" verseBegin="30"/>
+          <bible book="Mk" chapter="16" verseBegin="20"/>
+          <bible book="Lk" chapter="21" verseBegin="11"/>
+        </references>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rRxQGofz6gk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Les miracles peuvent ils nous faire croire en Dieu ?" id="les-miracles-peuvent-ils-nous-faire-croire-en-dieu">
         <tests>
           <test input="Les miracles peuvent ils nous faire croire en Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iJ1VWlmu7Nk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 5, 26&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;les-miracles-peuvent-ils-nous-faire-croire-en-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -18005,6 +18114,13 @@
     </folder>
     <folder name="Demande" id="demande" nb="1" image="mans_praying.jpeg">
       <message name="Demandez et vous recevrez." id="demandez-et-vous-recevrez">
+        <tests>
+          <test input="Pourquoi Dieu n&apos;exauce pas nos prières ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjGTBI0UBy8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 12, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 16-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 12, 9&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;demandez-et-vous-recevrez&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Pourquoi prier ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjGTBI0UBy8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 12, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 16-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 12, 9&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;demandez-et-vous-recevrez&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Pourquoi demander quelque chose à Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjGTBI0UBy8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 12, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 16-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 12, 9&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;demandez-et-vous-recevrez&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="C&apos;est quoi l&apos;omniscience de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjGTBI0UBy8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 12, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 16-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 12, 9&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;demandez-et-vous-recevrez&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="C&apos;est quoi l&apos;omnipotence de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjGTBI0UBy8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 12, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 16-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;2S 24, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 12, 9&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;demandez-et-vous-recevrez&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
         <triggers>
           <trigger value="Pourquoi Dieu n&apos;exauce pas nos prières ?"/>
           <trigger value="Pourquoi prier ?"/>
@@ -18023,6 +18139,16 @@
         </references>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fjGTBI0UBy8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+      <message name="Pourquoi faire des demandes à Dieu s&apos;il sait déjà tout de nous ?" id="pourquoi-faire-des-demandes-a-dieu-s-il-sait-deja-tout-de-nous">
+        <tests>
+          <test input="Pourquoi faire des demandes à Dieu s&apos;il sait déjà tout de nous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t-6OuiXl0YQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;pourquoi-faire-des-demandes-a-dieu-s-il-sait-deja-tout-de-nous&quot; textlength=&quot;33&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Pourquoi faire des demandes à Dieu s&apos;il sait déjà tout de nous ?"/>
+        </triggers>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t-6OuiXl0YQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
     <folder name="Dieu le Père" id="dieu-le-pere" nb="1" image="père.jpg">
