@@ -24,7 +24,10 @@
           <test input="What does the Bible tell?" output="The Bible tells who God is, our story, the suffering that is present in our heart and our thirst." outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-bible-tells&quot; textlength=&quot;5&quot; /&gt;"/>
         </tests>
         <sourceId>bible</sourceId>
-        <text>The Bible tells who God is.&#10;The Bible tells our story.&#10;The Bible tells the suffering that is present in our heart.&#10;The Bible tells of our thirst for living and being happy.</text>
+        <text>The Bible tells who God is.
+The Bible tells our story.
+The Bible tells the suffering that is present in our heart.
+The Bible tells of our thirst for living and being happy.</text>
       </message>
     </folder>
     <folder name="New Testament" id="new-testament" nb="2" image="new_testament.jpg">
@@ -1127,7 +1130,8 @@
     <chatbot name="By default" id="by-default" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true">
       <message name="Welcome" id="welcome">
         <sourceId>internal</sourceId>
-        <text fileType="text_and_html">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.&#10;Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
+        <text fileType="text_and_html">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.
+Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <planningInfos>
           <effects>
             <fact value="say-hello"/>
@@ -1320,7 +1324,8 @@
       </message>
       <message name="Jesus is..." id="jesus-is">
         <sourceId>internal</sourceId>
-        <text>Jesus is the answer to all our questions.&#10;Jesus is the satisfaction of all our desires.</text>
+        <text>Jesus is the answer to all our questions.
+Jesus is the satisfaction of all our desires.</text>
       </message>
       <message name="Jesus loves us" id="jesus-loves-us">
         <tests>
@@ -1339,7 +1344,8 @@
           <bible book="Prov" chapter="8" verseBegin="17"/>
         </references>
         <sourceId>internal</sourceId>
-        <text>Jesus loves us for free.&#10;The love of God guarantees us to live forever.</text>
+        <text>Jesus loves us for free.
+The love of God guarantees us to live forever.</text>
       </message>
       <message name="Show me the life of JesusJesus Of Nazareth (1977)" id="show-me-the-life-of-jesusjesus-of-nazareth-1977">
         <triggers>
@@ -1389,7 +1395,8 @@
       </message>
       <message name="Why is Jesus God?" id="why-is-jesus-god">
         <tests>
-          <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;" outputReferences="&lt;hc_bible ref=&quot;Mt 26: 63-66&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 2: 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
+          <test input="Why is Jesus God?" output="Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?
+" outputReferences="&lt;hc_bible ref=&quot;Mt 26: 63-66&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 2: 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Why is Jesus God?"/>
@@ -1400,7 +1407,8 @@
           <ccc verseBegin="432"/>
         </references>
         <sourceId>internal</sourceId>
-        <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?&#10;</text>
+        <text>Because he said it. That for that he was sentenced to death. But God raised him up! Would he have resurrected a liar?
+</text>
       </message>
       <folder name="chatbot" id="chatbot" isHidden="true">
         <message name="How many natures are there in Jesus?" id="how-many-natures-are-there-in-jesus">
@@ -1667,7 +1675,11 @@
     <folder name="Saint Jean Marie Vianney" id="saint-jean-marie-vianney">
       <message name="Life" id="life">
         <sourceId>internal</sourceId>
-        <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.&#10;Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.&#10;He worked the land with his father.&#10;In October 1809, Jean Marie Vianney was called to the army.&#10;Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
+        <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.
+Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.
+He worked the land with his father.
+In October 1809, Jean Marie Vianney was called to the army.
+Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
     <folder name="Saint Maximilian Kolbe" id="saint-maximilian-kolbe">
@@ -4159,7 +4171,8 @@
               </message>
               <message name="How is the Mass structured?" id="how-is-the-mass-structured" nb="214">
                 <tests>
-                  <test input="How is the Mass structured?" output="Holy Mass begins with the gathering of the faithful and the entrance of the priest and the others who serve in the sanctuary (altar servers, lectors, cantors, and so on). After the greeting comes the Penitential Rite, which concludes with the Kyrie. On Sundays (outside of Advent and Lent) and feast days, the Gloria is then sung or recited. The prayer of the day introduces one or two readings from the Old and New Testament, followed by the responsorial psalm. Before the Gospel is read, there is an Alleluia, or acclamation. After the proclamation of the Gospel on Sundays and feast days, the priest or deacon gives a homily at least on Sundays and feast days. Then, again only on Sundays and feast days, the congregation professes its common faith in the Creed, followed by the intercessions.&#10;The second part of Holy Mass begins with the preparation of the gifts, which concludes with the Offertory prayer. The high point of the Eucharistic celebration is the Eucharistic Prayer, which is introduced by the Preface and the Sanctus. Now the gifts of bread and wine are transformed into the Body and Blood of Christ. The Eucharistic Prayer concludes, finally, in the doxology, which makes the transition to the Lord’s Prayer. Then comes the prayer for peace, the Agnus Dei, the breaking of the bread, and the distribution of the holy Gifts to the faithful, which often is done only under the form of the Body of Christ. Holy Mass ends with meditation, thanksgiving, a concluding prayer, and a blessing by the priest." outputReferences="&lt;hc_ccc ref=&quot;1348-1355&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-is-the-mass-structured&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="How is the Mass structured?" output="Holy Mass begins with the gathering of the faithful and the entrance of the priest and the others who serve in the sanctuary (altar servers, lectors, cantors, and so on). After the greeting comes the Penitential Rite, which concludes with the Kyrie. On Sundays (outside of Advent and Lent) and feast days, the Gloria is then sung or recited. The prayer of the day introduces one or two readings from the Old and New Testament, followed by the responsorial psalm. Before the Gospel is read, there is an Alleluia, or acclamation. After the proclamation of the Gospel on Sundays and feast days, the priest or deacon gives a homily at least on Sundays and feast days. Then, again only on Sundays and feast days, the congregation professes its common faith in the Creed, followed by the intercessions.
+The second part of Holy Mass begins with the preparation of the gifts, which concludes with the Offertory prayer. The high point of the Eucharistic celebration is the Eucharistic Prayer, which is introduced by the Preface and the Sanctus. Now the gifts of bread and wine are transformed into the Body and Blood of Christ. The Eucharistic Prayer concludes, finally, in the doxology, which makes the transition to the Lord’s Prayer. Then comes the prayer for peace, the Agnus Dei, the breaking of the bread, and the distribution of the holy Gifts to the faithful, which often is done only under the form of the Body of Christ. Holy Mass ends with meditation, thanksgiving, a concluding prayer, and a blessing by the priest." outputReferences="&lt;hc_ccc ref=&quot;1348-1355&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-is-the-mass-structured&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="How is the Mass structured?"/>
@@ -4168,7 +4181,8 @@
                   <ccc verseBegin="1348" verseEnd="1355"/>
                 </references>
                 <sourceId>youcat</sourceId>
-                <text>Holy Mass begins with the gathering of the faithful and the entrance of the priest and the others who serve in the sanctuary (altar servers, lectors, cantors, and so on). After the greeting comes the Penitential Rite, which concludes with the Kyrie. On Sundays (outside of Advent and Lent) and feast days, the Gloria is then sung or recited. The prayer of the day introduces one or two readings from the Old and New Testament, followed by the responsorial psalm. Before the Gospel is read, there is an Alleluia, or acclamation. After the proclamation of the Gospel on Sundays and feast days, the priest or deacon gives a homily at least on Sundays and feast days. Then, again only on Sundays and feast days, the congregation professes its common faith in the Creed, followed by the intercessions.&#10;The second part of Holy Mass begins with the preparation of the gifts, which concludes with the Offertory prayer. The high point of the Eucharistic celebration is the Eucharistic Prayer, which is introduced by the Preface and the Sanctus. Now the gifts of bread and wine are transformed into the Body and Blood of Christ. The Eucharistic Prayer concludes, finally, in the doxology, which makes the transition to the Lord’s Prayer. Then comes the prayer for peace, the Agnus Dei, the breaking of the bread, and the distribution of the holy Gifts to the faithful, which often is done only under the form of the Body of Christ. Holy Mass ends with meditation, thanksgiving, a concluding prayer, and a blessing by the priest.</text>
+                <text>Holy Mass begins with the gathering of the faithful and the entrance of the priest and the others who serve in the sanctuary (altar servers, lectors, cantors, and so on). After the greeting comes the Penitential Rite, which concludes with the Kyrie. On Sundays (outside of Advent and Lent) and feast days, the Gloria is then sung or recited. The prayer of the day introduces one or two readings from the Old and New Testament, followed by the responsorial psalm. Before the Gospel is read, there is an Alleluia, or acclamation. After the proclamation of the Gospel on Sundays and feast days, the priest or deacon gives a homily at least on Sundays and feast days. Then, again only on Sundays and feast days, the congregation professes its common faith in the Creed, followed by the intercessions.
+The second part of Holy Mass begins with the preparation of the gifts, which concludes with the Offertory prayer. The high point of the Eucharistic celebration is the Eucharistic Prayer, which is introduced by the Preface and the Sanctus. Now the gifts of bread and wine are transformed into the Body and Blood of Christ. The Eucharistic Prayer concludes, finally, in the doxology, which makes the transition to the Lord’s Prayer. Then comes the prayer for peace, the Agnus Dei, the breaking of the bread, and the distribution of the holy Gifts to the faithful, which often is done only under the form of the Body of Christ. Holy Mass ends with meditation, thanksgiving, a concluding prayer, and a blessing by the priest.</text>
               </message>
               <message name="How often must a Catholic Christian participate in the celebration of the Eucharist?" id="how-often-must-a-catholic-christian-participate-in-the-celebration-of-the-eucharist" nb="219">
                 <tests>
@@ -4227,83 +4241,203 @@
               </message>
               <message name="The Agnus Dei" id="the-agnus-dei" nb="214">
                 <tests>
-                  <test input="What is the Agnus Dei?" output="Lamb of God, you take away the sins of the world,&#10;have mercy on us.&#10;Lamb of God, you take away the sins of the world,&#10;have mercy on us.&#10;Lamb of God, you take away the sins of the world,&#10;grant us peace." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-agnus-dei&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Agnus Dei?" output="Lamb of God, you take away the sins of the world,
+have mercy on us.
+Lamb of God, you take away the sins of the world,
+have mercy on us.
+Lamb of God, you take away the sins of the world,
+grant us peace." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-agnus-dei&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Agnus Dei?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text>Lamb of God, you take away the sins of the world,&#10;have mercy on us.&#10;Lamb of God, you take away the sins of the world,&#10;have mercy on us.&#10;Lamb of God, you take away the sins of the world,&#10;grant us peace.</text>
+                <text>Lamb of God, you take away the sins of the world,
+have mercy on us.
+Lamb of God, you take away the sins of the world,
+have mercy on us.
+Lamb of God, you take away the sins of the world,
+grant us peace.</text>
               </message>
               <message name="The Agnus Dei in Latin" id="the-agnus-dei-in-latin" nb="214">
                 <tests>
-                  <test input="What is the Agnus Dei in Latin?" output="&lt;span&gt;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, dona nobis pacem.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-agnus-dei-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Agnus Dei in Latin?" output="&lt;span&gt;Agnus Dei, qui tollis peccata mundi, miserere nobis.
+Agnus Dei, qui tollis peccata mundi, miserere nobis.
+Agnus Dei, qui tollis peccata mundi, dona nobis pacem.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-agnus-dei-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Agnus Dei in Latin?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text fileType="text_in_html">&lt;span&gt;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, miserere nobis.&#10;Agnus Dei, qui tollis peccata mundi, dona nobis pacem.&lt;/span&gt;</text>
+                <text fileType="text_in_html">&lt;span&gt;Agnus Dei, qui tollis peccata mundi, miserere nobis.
+Agnus Dei, qui tollis peccata mundi, miserere nobis.
+Agnus Dei, qui tollis peccata mundi, dona nobis pacem.&lt;/span&gt;</text>
               </message>
               <message name="The Gloria" id="the-gloria" nb="214">
                 <tests>
-                  <test input="What is the Gloria?" output="Glory to God in the highest,&#10;and on earth peace to people of good will.&#10;We praise you, we bless you,&#10;we adore you, we glorify you,&#10;we give you thanks for your great glory,&#10;Lord God, heavenly King,&#10;O God, almighty Father.&#10;Lord Jesus Christ, Only Begotten Son,&#10;Lord God, Lamb of God, Son of the Father,&#10;you take away the sins of the world,&#10;have mercy on us;&#10;you take away the sins of the world,&#10;receive our prayer;&#10;you are seated at the right hand of the Father,&#10;have mercy on us.&#10;For you alone are the Holy One,&#10;you alone are the Lord,&#10;you alone are the Most High,&#10;Jesus Christ,&#10;with the Holy Spirit,&#10;in the glory of God the Father." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-gloria&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Gloria?" output="Glory to God in the highest,
+and on earth peace to people of good will.
+We praise you, we bless you,
+we adore you, we glorify you,
+we give you thanks for your great glory,
+Lord God, heavenly King,
+O God, almighty Father.
+Lord Jesus Christ, Only Begotten Son,
+Lord God, Lamb of God, Son of the Father,
+you take away the sins of the world,
+have mercy on us;
+you take away the sins of the world,
+receive our prayer;
+you are seated at the right hand of the Father,
+have mercy on us.
+For you alone are the Holy One,
+you alone are the Lord,
+you alone are the Most High,
+Jesus Christ,
+with the Holy Spirit,
+in the glory of God the Father." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-gloria&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Gloria?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text>Glory to God in the highest,&#10;and on earth peace to people of good will.&#10;We praise you, we bless you,&#10;we adore you, we glorify you,&#10;we give you thanks for your great glory,&#10;Lord God, heavenly King,&#10;O God, almighty Father.&#10;Lord Jesus Christ, Only Begotten Son,&#10;Lord God, Lamb of God, Son of the Father,&#10;you take away the sins of the world,&#10;have mercy on us;&#10;you take away the sins of the world,&#10;receive our prayer;&#10;you are seated at the right hand of the Father,&#10;have mercy on us.&#10;For you alone are the Holy One,&#10;you alone are the Lord,&#10;you alone are the Most High,&#10;Jesus Christ,&#10;with the Holy Spirit,&#10;in the glory of God the Father.</text>
+                <text>Glory to God in the highest,
+and on earth peace to people of good will.
+We praise you, we bless you,
+we adore you, we glorify you,
+we give you thanks for your great glory,
+Lord God, heavenly King,
+O God, almighty Father.
+Lord Jesus Christ, Only Begotten Son,
+Lord God, Lamb of God, Son of the Father,
+you take away the sins of the world,
+have mercy on us;
+you take away the sins of the world,
+receive our prayer;
+you are seated at the right hand of the Father,
+have mercy on us.
+For you alone are the Holy One,
+you alone are the Lord,
+you alone are the Most High,
+Jesus Christ,
+with the Holy Spirit,
+in the glory of God the Father.</text>
               </message>
               <message name="The Gloria in Latin" id="the-gloria-in-latin" nb="214">
                 <tests>
-                  <test input="What is the Gloria in Latin?" output="&lt;span&gt;Gloria in excelsis Deo&#10;et in terra pax hominibus bonae voluntatis.&#10;Laudamus te, benedicimus te,&#10;adoramus te, glorificamus te,&#10;gratias agimus tibi propter magnam gloriam tuam,&#10;Domine Deus, Rex caelestis,&#10;Deus Pater omnipotens,&#10;Domine Fili unigenite, Iesu Christe,&#10;Domine Deus, Agnus Dei,&#10;Filius Patris,&#10;qui tollis peccata mundi, miserere nobis;&#10;qui tollis peccata mundi,&#10;suscipe deprecationem nostram.&#10;Qui sedes ad dexteram Patris, miserere nobis.&#10;Quoniam tu solus Sanctus,&#10;tu solus Dominus,&#10;tu solus Altissimus, Iesu Christe,&#10;cum Sancto Spiritu:&#10;in gloria Dei Patris. Amen.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-gloria-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Gloria in Latin?" output="&lt;span&gt;Gloria in excelsis Deo
+et in terra pax hominibus bonae voluntatis.
+Laudamus te, benedicimus te,
+adoramus te, glorificamus te,
+gratias agimus tibi propter magnam gloriam tuam,
+Domine Deus, Rex caelestis,
+Deus Pater omnipotens,
+Domine Fili unigenite, Iesu Christe,
+Domine Deus, Agnus Dei,
+Filius Patris,
+qui tollis peccata mundi, miserere nobis;
+qui tollis peccata mundi,
+suscipe deprecationem nostram.
+Qui sedes ad dexteram Patris, miserere nobis.
+Quoniam tu solus Sanctus,
+tu solus Dominus,
+tu solus Altissimus, Iesu Christe,
+cum Sancto Spiritu:
+in gloria Dei Patris. Amen.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-gloria-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Gloria in Latin?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text fileType="text_in_html">&lt;span&gt;Gloria in excelsis Deo&#10;et in terra pax hominibus bonae voluntatis.&#10;Laudamus te, benedicimus te,&#10;adoramus te, glorificamus te,&#10;gratias agimus tibi propter magnam gloriam tuam,&#10;Domine Deus, Rex caelestis,&#10;Deus Pater omnipotens,&#10;Domine Fili unigenite, Iesu Christe,&#10;Domine Deus, Agnus Dei,&#10;Filius Patris,&#10;qui tollis peccata mundi, miserere nobis;&#10;qui tollis peccata mundi,&#10;suscipe deprecationem nostram.&#10;Qui sedes ad dexteram Patris, miserere nobis.&#10;Quoniam tu solus Sanctus,&#10;tu solus Dominus,&#10;tu solus Altissimus, Iesu Christe,&#10;cum Sancto Spiritu:&#10;in gloria Dei Patris. Amen.&lt;/span&gt;</text>
+                <text fileType="text_in_html">&lt;span&gt;Gloria in excelsis Deo
+et in terra pax hominibus bonae voluntatis.
+Laudamus te, benedicimus te,
+adoramus te, glorificamus te,
+gratias agimus tibi propter magnam gloriam tuam,
+Domine Deus, Rex caelestis,
+Deus Pater omnipotens,
+Domine Fili unigenite, Iesu Christe,
+Domine Deus, Agnus Dei,
+Filius Patris,
+qui tollis peccata mundi, miserere nobis;
+qui tollis peccata mundi,
+suscipe deprecationem nostram.
+Qui sedes ad dexteram Patris, miserere nobis.
+Quoniam tu solus Sanctus,
+tu solus Dominus,
+tu solus Altissimus, Iesu Christe,
+cum Sancto Spiritu:
+in gloria Dei Patris. Amen.&lt;/span&gt;</text>
               </message>
               <message name="The Kyrie" id="the-kyrie" nb="214">
                 <tests>
-                  <test input="What is the Kyrie?" output="&lt;b&gt;Celebrant&lt;/b&gt; Lord, have mercy!&#10;&lt;b&gt;Response&lt;/b&gt; Lord, have mercy!&#10;&lt;b&gt;C.&lt;/b&gt; Christ, have mercy!&#10;&lt;b&gt;R.&lt;/b&gt; Christ, have mercy!&#10;&lt;b&gt;C.&lt;/b&gt; Lord, have mercy!&#10;&lt;b&gt;R.&lt;/b&gt; Lord, have mercy!" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-kyrie&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Kyrie?" output="&lt;b&gt;Celebrant&lt;/b&gt; Lord, have mercy!
+&lt;b&gt;Response&lt;/b&gt; Lord, have mercy!
+&lt;b&gt;C.&lt;/b&gt; Christ, have mercy!
+&lt;b&gt;R.&lt;/b&gt; Christ, have mercy!
+&lt;b&gt;C.&lt;/b&gt; Lord, have mercy!
+&lt;b&gt;R.&lt;/b&gt; Lord, have mercy!" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-kyrie&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Kyrie?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text fileType="text_in_html">&lt;b&gt;Celebrant&lt;/b&gt; Lord, have mercy!&#10;&lt;b&gt;Response&lt;/b&gt; Lord, have mercy!&#10;&lt;b&gt;C.&lt;/b&gt; Christ, have mercy!&#10;&lt;b&gt;R.&lt;/b&gt; Christ, have mercy!&#10;&lt;b&gt;C.&lt;/b&gt; Lord, have mercy!&#10;&lt;b&gt;R.&lt;/b&gt; Lord, have mercy!</text>
+                <text fileType="text_in_html">&lt;b&gt;Celebrant&lt;/b&gt; Lord, have mercy!
+&lt;b&gt;Response&lt;/b&gt; Lord, have mercy!
+&lt;b&gt;C.&lt;/b&gt; Christ, have mercy!
+&lt;b&gt;R.&lt;/b&gt; Christ, have mercy!
+&lt;b&gt;C.&lt;/b&gt; Lord, have mercy!
+&lt;b&gt;R.&lt;/b&gt; Lord, have mercy!</text>
               </message>
               <message name="The Kyrie in Latin" id="the-kyrie-in-latin" nb="214">
                 <tests>
-                  <test input="What is the Kyrie in Latin?" output="&lt;span&gt;&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!&#10;&lt;b&gt;C.&lt;/b&gt; Christe eleison! &lt;b&gt;R.&lt;/b&gt; Christe eleison!&#10;&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-kyrie-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Kyrie in Latin?" output="&lt;span&gt;&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!
+&lt;b&gt;C.&lt;/b&gt; Christe eleison! &lt;b&gt;R.&lt;/b&gt; Christe eleison!
+&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-kyrie-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Kyrie in Latin?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text fileType="text_in_html">&lt;span&gt;&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!&#10;&lt;b&gt;C.&lt;/b&gt; Christe eleison! &lt;b&gt;R.&lt;/b&gt; Christe eleison!&#10;&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!&lt;/span&gt;</text>
+                <text fileType="text_in_html">&lt;span&gt;&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!
+&lt;b&gt;C.&lt;/b&gt; Christe eleison! &lt;b&gt;R.&lt;/b&gt; Christe eleison!
+&lt;b&gt;C.&lt;/b&gt; Kyrie eleison! &lt;b&gt;R.&lt;/b&gt; Kyrie eleison!&lt;/span&gt;</text>
               </message>
               <message name="The Sanctus" id="the-sanctus" nb="214">
                 <tests>
-                  <test input="What is the Sanctus?" output="Holy, Holy, Holy Lord God of hosts.&#10;Heaven and earth are full of your glory.&#10;Hosanna in the highest.&#10;Blessed is he who comes in the name of the Lord.&#10;Hosanna in the highest." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-sanctus&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Sanctus?" output="Holy, Holy, Holy Lord God of hosts.
+Heaven and earth are full of your glory.
+Hosanna in the highest.
+Blessed is he who comes in the name of the Lord.
+Hosanna in the highest." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-sanctus&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Sanctus?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text>Holy, Holy, Holy Lord God of hosts.&#10;Heaven and earth are full of your glory.&#10;Hosanna in the highest.&#10;Blessed is he who comes in the name of the Lord.&#10;Hosanna in the highest.</text>
+                <text>Holy, Holy, Holy Lord God of hosts.
+Heaven and earth are full of your glory.
+Hosanna in the highest.
+Blessed is he who comes in the name of the Lord.
+Hosanna in the highest.</text>
               </message>
               <message name="The Sanctus in Latin" id="the-sanctus-in-latin" nb="214">
                 <tests>
-                  <test input="What is the Sanctus in Latin?" output="&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.&#10;Pleni sunt caeli et terra gloria tua.&#10;Hosanna in excelsis.&#10;Benedictus qui venit in nomine Domini.&#10;Hosanna in excelsis.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-sanctus-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
+                  <test input="What is the Sanctus in Latin?" output="&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.
+Pleni sunt caeli et terra gloria tua.
+Hosanna in excelsis.
+Benedictus qui venit in nomine Domini.
+Hosanna in excelsis.&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;the-sanctus-in-latin&quot; textlength=&quot;6&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="What is the Sanctus in Latin?"/>
                 </triggers>
                 <sourceId>youcat</sourceId>
-                <text fileType="text_in_html">&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.&#10;Pleni sunt caeli et terra gloria tua.&#10;Hosanna in excelsis.&#10;Benedictus qui venit in nomine Domini.&#10;Hosanna in excelsis.&lt;/span&gt;</text>
+                <text fileType="text_in_html">&lt;span&gt;Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.
+Pleni sunt caeli et terra gloria tua.
+Hosanna in excelsis.
+Benedictus qui venit in nomine Domini.
+Hosanna in excelsis.&lt;/span&gt;</text>
               </message>
               <message name="What elements are essential to a Holy Mass?" id="what-elements-are-essential-to-a-holy-mass" nb="213">
                 <tests>
@@ -4865,7 +4999,8 @@
                 <ccc verseBegin="265" verseEnd="266"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text fileType="text_in_html">We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect&#10;communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
+              <text fileType="text_in_html">We believe in one God in three persons (Trinity). &lt;i&gt;“God is not solitude but perfect
+communion.”&lt;/i&gt; (Pope Benedict XVI, May 22, 2005).</text>
             </message>
             <message name="Does science make the Creator superfluous?" id="does-science-make-the-creator-superfluous" nb="41">
               <tests>
@@ -6162,7 +6297,8 @@
             </message>
             <message name="Why can there be only one Church?" id="why-can-there-be-only-one-church" nb="129">
               <tests>
-                <test input="Why can there be only one Church?" output="Just as there is only one Christ, there can be only one Body of Christ, only one Bride of Christ, and therefore only one Church of Jesus Christ. He is the Head, the Church is the Body.&#10;Together they form the “whole Christ” (St. Augustine). Just as the body has many members yet is one, so too the one Church consists of and is made up of many particular churches (dioceses). Together they form the whole Christ." outputReferences="&lt;hc_bible ref=&quot;Eph 4: 4-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;811-816&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;866&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;870&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-can-there-be-only-one-church&quot; textlength=&quot;6&quot; /&gt;"/>
+                <test input="Why can there be only one Church?" output="Just as there is only one Christ, there can be only one Body of Christ, only one Bride of Christ, and therefore only one Church of Jesus Christ. He is the Head, the Church is the Body.
+Together they form the “whole Christ” (St. Augustine). Just as the body has many members yet is one, so too the one Church consists of and is made up of many particular churches (dioceses). Together they form the whole Christ." outputReferences="&lt;hc_bible ref=&quot;Eph 4: 4-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;811-816&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;866&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;870&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-can-there-be-only-one-church&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Why can there be only one Church?"/>
@@ -6174,7 +6310,8 @@
                 <bible book="Eph" chapter="4" verseBegin="4" verseEnd="6"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Just as there is only one Christ, there can be only one Body of Christ, only one Bride of Christ, and therefore only one Church of Jesus Christ. He is the Head, the Church is the Body.&#10;Together they form the “whole Christ” (St. Augustine). Just as the body has many members yet is one, so too the one Church consists of and is made up of many particular churches (dioceses). Together they form the whole Christ.</text>
+              <text>Just as there is only one Christ, there can be only one Body of Christ, only one Bride of Christ, and therefore only one Church of Jesus Christ. He is the Head, the Church is the Body.
+Together they form the “whole Christ” (St. Augustine). Just as the body has many members yet is one, so too the one Church consists of and is made up of many particular churches (dioceses). Together they form the whole Christ.</text>
             </message>
             <message name="Why does Jesus want there to be Christians who live their whole lives in poverty, unmarried chastity, and obedience?" id="why-does-jesus-want-there-to-be-christians-who-live-their-whole-lives-in-poverty-unmarried-chastity-and-obedience" nb="145">
               <tests>
@@ -6509,27 +6646,192 @@
           </message>
           <message name="What does the Apostles’ Creed say?" id="what-does-the-apostles-creed-say" nb="28">
             <tests>
-              <test input="What does the Apostles’ Creed say?" output="I believe in God, the Father almighty,&#10;Creator of heaven and earth,&#10;and in Jesus Christ, his only Son,&#10;our Lord,&#10;who was conceived by the Holy Spirit,&#10;born of the Virgin Mary,&#10;suffered under Pontius Pilate,&#10;was crucified, died and was buried;&#10;he descended into hell;&#10;on the third day he rose again from the dead;&#10;he ascended into heaven,&#10;and is seated at the right hand of God the Father almighty;&#10;from there he will come to judge the living and the dead.&#10;I believe in the Holy Spirit,&#10;the holy catholic Church,&#10;the communion of saints,&#10;the forgiveness of sins,&#10;the resurrection of the body,&#10;and life everlasting. Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-apostles-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
-              <test input="Apostles’ Creed" output="I believe in God, the Father almighty,&#10;Creator of heaven and earth,&#10;and in Jesus Christ, his only Son,&#10;our Lord,&#10;who was conceived by the Holy Spirit,&#10;born of the Virgin Mary,&#10;suffered under Pontius Pilate,&#10;was crucified, died and was buried;&#10;he descended into hell;&#10;on the third day he rose again from the dead;&#10;he ascended into heaven,&#10;and is seated at the right hand of God the Father almighty;&#10;from there he will come to judge the living and the dead.&#10;I believe in the Holy Spirit,&#10;the holy catholic Church,&#10;the communion of saints,&#10;the forgiveness of sins,&#10;the resurrection of the body,&#10;and life everlasting. Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-apostles-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="What does the Apostles’ Creed say?" output="I believe in God, the Father almighty,
+Creator of heaven and earth,
+and in Jesus Christ, his only Son,
+our Lord,
+who was conceived by the Holy Spirit,
+born of the Virgin Mary,
+suffered under Pontius Pilate,
+was crucified, died and was buried;
+he descended into hell;
+on the third day he rose again from the dead;
+he ascended into heaven,
+and is seated at the right hand of God the Father almighty;
+from there he will come to judge the living and the dead.
+I believe in the Holy Spirit,
+the holy catholic Church,
+the communion of saints,
+the forgiveness of sins,
+the resurrection of the body,
+and life everlasting. Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-apostles-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="Apostles’ Creed" output="I believe in God, the Father almighty,
+Creator of heaven and earth,
+and in Jesus Christ, his only Son,
+our Lord,
+who was conceived by the Holy Spirit,
+born of the Virgin Mary,
+suffered under Pontius Pilate,
+was crucified, died and was buried;
+he descended into hell;
+on the third day he rose again from the dead;
+he ascended into heaven,
+and is seated at the right hand of God the Father almighty;
+from there he will come to judge the living and the dead.
+I believe in the Holy Spirit,
+the holy catholic Church,
+the communion of saints,
+the forgiveness of sins,
+the resurrection of the body,
+and life everlasting. Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-apostles-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="What does the Apostles’ Creed say?"/>
               <trigger value="_Apostles’ Creed"/>
             </triggers>
             <sourceId>youcat</sourceId>
-            <text>I believe in God, the Father almighty,&#10;Creator of heaven and earth,&#10;and in Jesus Christ, his only Son,&#10;our Lord,&#10;who was conceived by the Holy Spirit,&#10;born of the Virgin Mary,&#10;suffered under Pontius Pilate,&#10;was crucified, died and was buried;&#10;he descended into hell;&#10;on the third day he rose again from the dead;&#10;he ascended into heaven,&#10;and is seated at the right hand of God the Father almighty;&#10;from there he will come to judge the living and the dead.&#10;I believe in the Holy Spirit,&#10;the holy catholic Church,&#10;the communion of saints,&#10;the forgiveness of sins,&#10;the resurrection of the body,&#10;and life everlasting. Amen.</text>
+            <text>I believe in God, the Father almighty,
+Creator of heaven and earth,
+and in Jesus Christ, his only Son,
+our Lord,
+who was conceived by the Holy Spirit,
+born of the Virgin Mary,
+suffered under Pontius Pilate,
+was crucified, died and was buried;
+he descended into hell;
+on the third day he rose again from the dead;
+he ascended into heaven,
+and is seated at the right hand of God the Father almighty;
+from there he will come to judge the living and the dead.
+I believe in the Holy Spirit,
+the holy catholic Church,
+the communion of saints,
+the forgiveness of sins,
+the resurrection of the body,
+and life everlasting. Amen.</text>
           </message>
           <message name="What does the Nicene (Nicene-Constantinopolitan) Creed say?" id="what-does-the-nicene-nicene-constantinopolitan-creed-say" nb="29">
             <tests>
-              <test input="What does the Nicene Creed say?" output="I believe in one God,&#10;the Father almighty,&#10;maker of heaven and earth,&#10;of all things visible and invisible.&#10;&#10;I believe in one Lord Jesus Christ,&#10;the Only Begotten Son of God,&#10;born of the Father before all ages.&#10;God from God, Light from Light,&#10;true God from true God,&#10;begotten, not made,&#10;consubstantial with the Father;&#10;through him all things were made.&#10;For us men and for our salvation&#10;he came down from heaven,&#10;and by the Holy Spirit was incarnate&#10;of the Virgin Mary,&#10;and became man.&#10;For our sake he was crucified under Pontius Pilate,&#10;he suffered death and was buried,&#10;and rose again on the third day&#10;in accordance with the Scriptures.&#10;He ascended into heaven&#10;and is seated at the right hand of the Father.&#10;He will come again in glory&#10;to judge the living and the dead&#10;and his kingdom will have no end.&#10;&#10;I believe in the Holy Spirit,&#10;the Lord, the giver of life,&#10;who proceeds from the Father and the Son,&#10;who with the Father and the Son is adored and glorified,&#10;who has spoken through the prophets.&#10;I believe in one, holy, catholic and apostolic Church.&#10;I confess one baptism for the forgiveness of sins&#10;and I look forward to the resurrection of the dead&#10;and the life of the world to come.&#10;Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-nicene-nicene-constantinopolitan-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
-              <test input="What does the Nicene-Constantinopolitan Creed say?" output="I believe in one God,&#10;the Father almighty,&#10;maker of heaven and earth,&#10;of all things visible and invisible.&#10;&#10;I believe in one Lord Jesus Christ,&#10;the Only Begotten Son of God,&#10;born of the Father before all ages.&#10;God from God, Light from Light,&#10;true God from true God,&#10;begotten, not made,&#10;consubstantial with the Father;&#10;through him all things were made.&#10;For us men and for our salvation&#10;he came down from heaven,&#10;and by the Holy Spirit was incarnate&#10;of the Virgin Mary,&#10;and became man.&#10;For our sake he was crucified under Pontius Pilate,&#10;he suffered death and was buried,&#10;and rose again on the third day&#10;in accordance with the Scriptures.&#10;He ascended into heaven&#10;and is seated at the right hand of the Father.&#10;He will come again in glory&#10;to judge the living and the dead&#10;and his kingdom will have no end.&#10;&#10;I believe in the Holy Spirit,&#10;the Lord, the giver of life,&#10;who proceeds from the Father and the Son,&#10;who with the Father and the Son is adored and glorified,&#10;who has spoken through the prophets.&#10;I believe in one, holy, catholic and apostolic Church.&#10;I confess one baptism for the forgiveness of sins&#10;and I look forward to the resurrection of the dead&#10;and the life of the world to come.&#10;Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-nicene-nicene-constantinopolitan-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="What does the Nicene Creed say?" output="I believe in one God,
+the Father almighty,
+maker of heaven and earth,
+of all things visible and invisible.
+
+I believe in one Lord Jesus Christ,
+the Only Begotten Son of God,
+born of the Father before all ages.
+God from God, Light from Light,
+true God from true God,
+begotten, not made,
+consubstantial with the Father;
+through him all things were made.
+For us men and for our salvation
+he came down from heaven,
+and by the Holy Spirit was incarnate
+of the Virgin Mary,
+and became man.
+For our sake he was crucified under Pontius Pilate,
+he suffered death and was buried,
+and rose again on the third day
+in accordance with the Scriptures.
+He ascended into heaven
+and is seated at the right hand of the Father.
+He will come again in glory
+to judge the living and the dead
+and his kingdom will have no end.
+
+I believe in the Holy Spirit,
+the Lord, the giver of life,
+who proceeds from the Father and the Son,
+who with the Father and the Son is adored and glorified,
+who has spoken through the prophets.
+I believe in one, holy, catholic and apostolic Church.
+I confess one baptism for the forgiveness of sins
+and I look forward to the resurrection of the dead
+and the life of the world to come.
+Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-nicene-nicene-constantinopolitan-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="What does the Nicene-Constantinopolitan Creed say?" output="I believe in one God,
+the Father almighty,
+maker of heaven and earth,
+of all things visible and invisible.
+
+I believe in one Lord Jesus Christ,
+the Only Begotten Son of God,
+born of the Father before all ages.
+God from God, Light from Light,
+true God from true God,
+begotten, not made,
+consubstantial with the Father;
+through him all things were made.
+For us men and for our salvation
+he came down from heaven,
+and by the Holy Spirit was incarnate
+of the Virgin Mary,
+and became man.
+For our sake he was crucified under Pontius Pilate,
+he suffered death and was buried,
+and rose again on the third day
+in accordance with the Scriptures.
+He ascended into heaven
+and is seated at the right hand of the Father.
+He will come again in glory
+to judge the living and the dead
+and his kingdom will have no end.
+
+I believe in the Holy Spirit,
+the Lord, the giver of life,
+who proceeds from the Father and the Son,
+who with the Father and the Son is adored and glorified,
+who has spoken through the prophets.
+I believe in one, holy, catholic and apostolic Church.
+I confess one baptism for the forgiveness of sins
+and I look forward to the resurrection of the dead
+and the life of the world to come.
+Amen." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-does-the-nicene-nicene-constantinopolitan-creed-say&quot; textlength=&quot;6&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="What does the Nicene Creed say?"/>
               <trigger value="What does the Nicene-Constantinopolitan Creed say?"/>
             </triggers>
             <sourceId>youcat</sourceId>
-            <text>I believe in one God,&#10;the Father almighty,&#10;maker of heaven and earth,&#10;of all things visible and invisible.&#10;&#10;I believe in one Lord Jesus Christ,&#10;the Only Begotten Son of God,&#10;born of the Father before all ages.&#10;God from God, Light from Light,&#10;true God from true God,&#10;begotten, not made,&#10;consubstantial with the Father;&#10;through him all things were made.&#10;For us men and for our salvation&#10;he came down from heaven,&#10;and by the Holy Spirit was incarnate&#10;of the Virgin Mary,&#10;and became man.&#10;For our sake he was crucified under Pontius Pilate,&#10;he suffered death and was buried,&#10;and rose again on the third day&#10;in accordance with the Scriptures.&#10;He ascended into heaven&#10;and is seated at the right hand of the Father.&#10;He will come again in glory&#10;to judge the living and the dead&#10;and his kingdom will have no end.&#10;&#10;I believe in the Holy Spirit,&#10;the Lord, the giver of life,&#10;who proceeds from the Father and the Son,&#10;who with the Father and the Son is adored and glorified,&#10;who has spoken through the prophets.&#10;I believe in one, holy, catholic and apostolic Church.&#10;I confess one baptism for the forgiveness of sins&#10;and I look forward to the resurrection of the dead&#10;and the life of the world to come.&#10;Amen.</text>
+            <text>I believe in one God,
+the Father almighty,
+maker of heaven and earth,
+of all things visible and invisible.
+
+I believe in one Lord Jesus Christ,
+the Only Begotten Son of God,
+born of the Father before all ages.
+God from God, Light from Light,
+true God from true God,
+begotten, not made,
+consubstantial with the Father;
+through him all things were made.
+For us men and for our salvation
+he came down from heaven,
+and by the Holy Spirit was incarnate
+of the Virgin Mary,
+and became man.
+For our sake he was crucified under Pontius Pilate,
+he suffered death and was buried,
+and rose again on the third day
+in accordance with the Scriptures.
+He ascended into heaven
+and is seated at the right hand of the Father.
+He will come again in glory
+to judge the living and the dead
+and his kingdom will have no end.
+
+I believe in the Holy Spirit,
+the Lord, the giver of life,
+who proceeds from the Father and the Son,
+who with the Father and the Son is adored and glorified,
+who has spoken through the prophets.
+I believe in one, holy, catholic and apostolic Church.
+I confess one baptism for the forgiveness of sins
+and I look forward to the resurrection of the dead
+and the life of the world to come.
+Amen.</text>
           </message>
           <message name="Why does the faith require definitions and formulas?" id="why-does-the-faith-require-definitions-and-formulas" nb="25">
             <tests>
@@ -6918,7 +7220,9 @@
             </triggers>
             <nextMessageId>believing-in-god-how-does-that-work-continuation</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Believing in God means: I put all my trust in him who loves me most.&#10;I accept what God reveals about himself.&#10;I try to do what he tells me.</text>
+            <text>Believing in God means: I put all my trust in him who loves me most.
+I accept what God reveals about himself.
+I try to do what he tells me.</text>
           </message>
           <message name="Believing in God, how does that work? (continuation)" id="believing-in-god-how-does-that-work-continuation" nb="6">
             <references>
@@ -6927,11 +7231,15 @@
               <bible book="Lk" chapter="18" verseBegin="42"/>
             </references>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Believing in God means being safe and secure with him.&#10;God loves us. We do not need to be afraid.&#10;With him, we can bring out the best in ourselves!</text>
+            <text>Believing in God means being safe and secure with him.
+God loves us. We do not need to be afraid.
+With him, we can bring out the best in ourselves!</text>
           </message>
           <message name="Can I talk to God?" id="can-i-talk-to-god" nb="5">
             <tests>
-              <test input="Can I talk to God?" output="Yes.&#10;Talk to him!&#10;Ask him to make himself known in your heart." outputReferences="&lt;hc_bible ref=&quot;Ps 139: 16&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-i-talk-to-god&quot; textlength=&quot;15&quot; /&gt;"/>
+              <test input="Can I talk to God?" output="Yes.
+Talk to him!
+Ask him to make himself known in your heart." outputReferences="&lt;hc_bible ref=&quot;Ps 139: 16&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-i-talk-to-god&quot; textlength=&quot;15&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Can I talk to God?"/>
@@ -6941,44 +7249,62 @@
               <bible book="Ps" chapter="139" verseBegin="16"/>
             </references>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Yes.&#10;Talk to him!&#10;Ask him to make himself known in your heart.</text>
+            <text>Yes.
+Talk to him!
+Ask him to make himself known in your heart.</text>
           </message>
           <message name="Can I talk to God? (continuation)" id="can-i-talk-to-god-continuation" nb="5">
             <references>
               <bible book="Ps" chapter="139" verseBegin="1" verseEnd="3"/>
             </references>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Not only can you talk to God, God is already waiting for you.&#10;It does not matter if you are riding your bike or waiting for a bus.&#10;Just talk to him.</text>
+            <text>Not only can you talk to God, God is already waiting for you.
+It does not matter if you are riding your bike or waiting for a bus.
+Just talk to him.</text>
           </message>
           <message name="Can we believe whatever we want?" id="can-we-believe-whatever-we-want" nb="7">
             <tests>
-              <test input="Can we believe whatever we want?" output="Yes, but only the truth is worth believing.&#10;Christians do not invent the faith; they trust in Jesus Christ.&#10;He has brought us the truth about God.&#10;It is written in the Bible and in the living Tradition of the Church." outputReferences="&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-we-believe-whatever-we-want&quot; textlength=&quot;15&quot; /&gt;"/>
+              <test input="Can we believe whatever we want?" output="Yes, but only the truth is worth believing.
+Christians do not invent the faith; they trust in Jesus Christ.
+He has brought us the truth about God.
+It is written in the Bible and in the living Tradition of the Church." outputReferences="&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-we-believe-whatever-we-want&quot; textlength=&quot;15&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Can we believe whatever we want?"/>
             </triggers>
             <nextMessageId>can-we-believe-whatever-we-want-continuation</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Yes, but only the truth is worth believing.&#10;Christians do not invent the faith; they trust in Jesus Christ.&#10;He has brought us the truth about God.&#10;It is written in the Bible and in the living Tradition of the Church.</text>
+            <text>Yes, but only the truth is worth believing.
+Christians do not invent the faith; they trust in Jesus Christ.
+He has brought us the truth about God.
+It is written in the Bible and in the living Tradition of the Church.</text>
           </message>
           <message name="Can we believe whatever we want? (continuation)" id="can-we-believe-whatever-we-want-continuation" nb="7">
             <sourceId>youcat-for-kids</sourceId>
-            <text>In the Church, together we live out what we have learned from Jesus.&#10;We should bring this faith to all people.&#10;Even though God is close to everyone, he asks us to share our faith with each other.</text>
+            <text>In the Church, together we live out what we have learned from Jesus.
+We should bring this faith to all people.
+Even though God is close to everyone, he asks us to share our faith with each other.</text>
           </message>
           <message name="Can we know God?" id="can-we-know-god" nb="4">
             <tests>
-              <test input="Can we know God?" output="Yes, but not without his help.&#10;God is greater than all of our images and all of our thoughts.&#10;God is a great mystery." outputReferences="&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-we-know-god&quot; textlength=&quot;15&quot; /&gt;"/>
+              <test input="Can we know God?" output="Yes, but not without his help.
+God is greater than all of our images and all of our thoughts.
+God is a great mystery." outputReferences="&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;can-we-know-god&quot; textlength=&quot;15&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Can we know God?"/>
             </triggers>
             <nextMessageId>can-we-know-god-continuation</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Yes, but not without his help.&#10;God is greater than all of our images and all of our thoughts.&#10;God is a great mystery.</text>
+            <text>Yes, but not without his help.
+God is greater than all of our images and all of our thoughts.
+God is a great mystery.</text>
           </message>
           <message name="Can we know God? (continuation)" id="can-we-know-god-continuation" nb="4">
             <sourceId>youcat-for-kids</sourceId>
-            <text>God wants us to know and love him.&#10;That is why he shows himself to us.&#10;That is called &quot;revelation&quot;.</text>
+            <text>God wants us to know and love him.
+That is why he shows himself to us.
+That is called &quot;revelation&quot;.</text>
           </message>
           <message name="How do we know that God exists?" id="how-do-we-know-that-god-exists" nb="3">
             <tests>
@@ -6996,27 +7322,38 @@
           </message>
           <message name="How do we know that God exists? (continuation)" id="how-do-we-know-that-god-exists-continuation" nb="3">
             <sourceId>youcat-for-kids</sourceId>
-            <text>Look at everything:&#10;the sun in the sky,&#10;the stars at night,&#10;the forests, the mountains, the seas, and the rivers,&#10;the big animals and the small,&#10;the people on all the continents.&#10;God has made all that.</text>
+            <text>Look at everything:
+the sun in the sky,
+the stars at night,
+the forests, the mountains, the seas, and the rivers,
+the big animals and the small,
+the people on all the continents.
+God has made all that.</text>
           </message>
           <message name="How is knowledge about God passed on?" id="how-is-knowledge-about-god-passed-on" nb="8">
             <tests>
-              <test input="How is knowledge about God passed on?" output="Among God&apos;s people, from the beginning, knowledge of God was passed on through stories about him, which were written down in the Bible.&#10;They are celebrated at Mass and proclaimed by the Church." outputReferences="&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;how-is-knowledge-about-god-passed-on&quot; textlength=&quot;15&quot; /&gt;" isOk="false"/>
+              <test input="How is knowledge about God passed on?" output="Among God&apos;s people, from the beginning, knowledge of God was passed on through stories about him, which were written down in the Bible.
+They are celebrated at Mass and proclaimed by the Church." outputReferences="&lt;hc_source name=&quot;YOUCAT for Kids&quot; resourceid=&quot;how-is-knowledge-about-god-passed-on&quot; textlength=&quot;15&quot; /&gt;" isOk="false"/>
             </tests>
             <triggers>
               <trigger value="How is knowledge about God passed on?"/>
             </triggers>
             <nextMessageId>how-is-knowledge-about-god-passed-on-continuation</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
-            <text>Among God&apos;s people, from the beginning, knowledge of God was passed on through stories about him, which were written down in the Bible.&#10;They are celebrated at Mass and proclaimed by the Church.</text>
+            <text>Among God&apos;s people, from the beginning, knowledge of God was passed on through stories about him, which were written down in the Bible.
+They are celebrated at Mass and proclaimed by the Church.</text>
           </message>
           <message name="How is knowledge about God passed on? (continuation 2)" id="how-is-knowledge-about-god-passed-on-continuation-2" nb="8">
             <sourceId>youcat-for-kids</sourceId>
-            <text>Sometimes we learn about God from the experiences of others.&#10;When Christians recount the ways God has showed himself to them, guided them in their lives, or healed them, they give witness to their faith.</text>
+            <text>Sometimes we learn about God from the experiences of others.
+When Christians recount the ways God has showed himself to them, guided them in their lives, or healed them, they give witness to their faith.</text>
           </message>
           <message name="How is knowledge about God passed on? (continuation)" id="how-is-knowledge-about-god-passed-on-continuation" nb="8">
             <nextMessageId>how-is-knowledge-about-god-passed-on-continuation-2</nextMessageId>
             <sourceId>youcat-for-kids</sourceId>
-            <text fileType="text_in_html">&lt;span&gt;The Church is the community where experiences with the living God are correctly understood and passed on from generation to generation.&#10;Every Christian who lives by his faith has a story to tell.&#10;Christian parents and grandparents try to pass on their faith to their children and grandchildren.&lt;/span&gt;</text>
+            <text fileType="text_in_html">&lt;span&gt;The Church is the community where experiences with the living God are correctly understood and passed on from generation to generation.
+Every Christian who lives by his faith has a story to tell.
+Christian parents and grandparents try to pass on their faith to their children and grandchildren.&lt;/span&gt;</text>
           </message>
           <message name="Where does the world and everything that is come from ?" id="where-does-the-world-and-everything-that-is-come-from" nb="1">
             <triggers>
@@ -7055,7 +7392,8 @@
               <bible book="Prov" chapter="8" verseBegin="17"/>
             </references>
             <sourceId>youcat-for-kids</sourceId>
-            <text>God knows you.&#10;God loves you beyond measure, and he wants to make you happy.</text>
+            <text>God knows you.
+God loves you beyond measure, and he wants to make you happy.</text>
           </message>
         </folder>
       </folder>
