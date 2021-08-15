@@ -3702,6 +3702,12 @@ Dieu a décidé de descendre sur terre pour prendre sur lui notre malédiction p
         </message>
       </folder>
       <message name="Dieu a décidé de descendre sur terre pour..." id="dieu-a-decide-de-descendre-sur-terre-pour">
+        <tests>
+          <test input="Pourquoi Dieu a décidé de descendre sur terre ?" output="Dieu a décidé de descendre sur terre pour prendre notre malédiction par amour pour nous." outputReferences="&lt;hc_bible ref=&quot;Jn 3, 16-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-a-decide-de-descendre-sur-terre-pour&quot; textlength=&quot;5&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Pourquoi Dieu a décidé de descendre sur terre ?"/>
+        </triggers>
         <references>
           <bible book="Jn" chapter="3" verseBegin="16" verseEnd="17"/>
         </references>
@@ -4143,6 +4149,27 @@ Le premier étant que plus le temps entre l&apos;original et la première copie 
           </message>
         </folder>
       </folder>
+      <message name="Jean 3.13 veut-il dire que personne n’est monté au ciel avant Jésus ?" id="jean-3-13-veut-il-dire-que-personne-n-est-monte-au-ciel-avant-jesus">
+        <triggers>
+          <trigger value="Est-ce que quelqu&apos;un est monté au ciel avant Jésus ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="3" verseBegin="13"/>
+          <bible book="Jn" chapter="3" verseBegin="10" verseEnd="12"/>
+          <bible book="Jn" chapter="1" verseBegin="18"/>
+          <bible book="Gen" chapter="5" verseBegin="24"/>
+          <bible book="Heb" chapter="11" verseBegin="5"/>
+          <bible book="2 Kgs" chapter="2" verseBegin="11"/>
+          <bible book="Jn" chapter="1" verseBegin="14"/>
+        </references>
+        <sourceId>got-questions</sourceId>
+        <sourceUrl>https://www.gotquestions.org/Francais/Jean-3-13.html</sourceUrl>
+        <text>Jn 3, 13 dit : « Personne n’est monté au ciel, sinon celui qui est descendu du ciel, le Fils de l’homme. » Ce verset est assez difficile à interpréter et souvent mal compris. Il est souvent cité aussi par ceux qui cherchent des contradictions dans la Bible. Le contexte, surtout les versets 10-12, montrent que Jésus défend l’autorité et la validité de son enseignement. Au verset 13, il explique à Nicodème pourquoi lui seul est qualifié pour parler de ces choses : parce qu’il est le seul à être monté au ciel et redescendu pour enseigner la connaissance céleste.
+
+Aucun homme ne peut donc parler des choses célestes avec la même autorité que Jésus, car cela exige une connaissance intime de ces choses, que lui seul a vues et dont il a lui seul fait l’expérience. Étant donné que personne n’est monté au ciel et n’en est revenu, personne n’est qualifié pour parler de ces choses, sauf celui qui est descendu du ciel. Jésus dit que lui seul a vu le Père et est donc qualifié pour annoncer Dieu et le faire connaître (Jn 1, 18).
+
+Cela ne veut pas dire que personne n’a été sauvé ni n’est monté au ciel avant lui : Hénoc et Élie y ont été enlevés (Gn 5, 24 , He 11, 5 , 2R 2, 11) et Abraham, Isaac, Jacob et d’autres y étaient déjà. Le passage veut dire plutôt que personne n’est monté et « revenu », de manière à être qualifié pour parler des choses célestes. « Monter » implique l’idée d’autorité. Jésus, le Fils unique de Dieu (Jn 1, 14), est le seul à être jamais monté au ciel avec autorité. </text>
+      </message>
       <message name="Jesus raconté aux enfants" id="jesus-raconte-aux-enfants">
         <tests>
           <test input="Montrez-moi la vie de Jésus en bande dessinée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rah8qg0H04w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Imineo&quot; resourceid=&quot;jesus-raconte-aux-enfants&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -5966,6 +5993,23 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
           </references>
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afSGW0gWRMw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Initiation" id="initiation" nb="5" image="le_catéchuménat.jpg">
+        <message name="TUTO DEVENIR CHRÉTIEN : 4 CONSEILS POUR BIEN DÉBUTER" id="tuto-devenir-chretien-4-conseils-pour-bien-debuter">
+          <triggers>
+            <trigger value="Comment devenir chrétien ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
+            <bible book="Lk" chapter="11" verseBegin="1" verseEnd="4"/>
+            <bible book="Mt" chapter="22" verseBegin="37" verseEnd="39"/>
+            <bible book="Mt" chapter="18" verseBegin="20"/>
+            <bible book="Mt" chapter="16" verseBegin="18"/>
+            <bible book="Jn" chapter="13" verseBegin="35"/>
+          </references>
+          <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yE30qcXz1Zk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
       <folder name="Message chrétien" id="message-chretien" nb="2" image="christian_message.jpg">
@@ -9317,6 +9361,17 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         <sourceId>glorious</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vY0NcwX5aWU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Qu&apos;est-ce que l&apos;espérance chrétienne et comment la vivre ?" id="qu-est-ce-que-l-esperance-chretienne-et-comment-la-vivre">
+        <triggers>
+          <trigger value="Qu&apos;est-ce que l&apos;espérance chrétienne ?"/>
+          <trigger value="Comment la vivre de l&apos;espérance chrétienne ?"/>
+        </triggers>
+        <references>
+          <bible book="Rom" chapter="5" verseBegin="5"/>
+        </references>
+        <sourceId>rcf-radio-chretienne-francophone</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Itoqz8eD7hI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Quand on parle de la volonté de Dieu, qu&apos;est-ce que ça veut dire ?" id="quand-on-parle-de-la-volonte-de-dieu-qu-est-ce-que-ca-veut-dire">
         <tests>
           <test input="Quand on parle de la volonté de Dieu, qu&apos;est-ce que ça veut dire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jF2gpHNJG1A?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;quand-on-parle-de-la-volonte-de-dieu-qu-est-ce-que-ca-veut-dire&quot; textlength=&quot;33&quot; /&gt;"/>
@@ -11717,6 +11772,9 @@ c’est la charité.</text>
           <references>
             <bible book="Jn" chapter="11" verseBegin="25" verseEnd="26"/>
             <bible book="Ezek" chapter="18" verseBegin="32"/>
+            <bible book="1 Jn" chapter="4" verseBegin="8"/>
+            <bible book="1 Jn" chapter="4" verseBegin="16"/>
+            <bible book="1 Cor" chapter="13" verseBegin="8"/>
             <bible book="Lk" chapter="22" verseBegin="61" verseEnd="62"/>
             <bible book="Mt" chapter="25" verseBegin="41"/>
             <bible book="Mt" chapter="25" verseBegin="45"/>
@@ -18318,18 +18376,6 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
       </folder>
       <folder name="Âme" id="me" nb="2" image="ame.jpg">
         <folder name="Confession" id="confession" image="confession.jpg">
-          <message name="Alberto Maalouf Saint Laurent sur Sèvre 2011" id="alberto-maalouf-saint-laurent-sur-sevre-2011">
-            <references>
-              <bible book="Mt" chapter="10" verseBegin="19" verseEnd="20"/>
-              <bible book="Rom" chapter="10" verseBegin="13" verseEnd="15"/>
-              <bible book="Mt" chapter="11" verseBegin="28"/>
-              <bible book="Mt" chapter="18" verseBegin="9"/>
-              <bible book="Num" chapter="22" verseBegin="21" verseEnd="34"/>
-              <bible book="Mt" chapter="12" verseBegin="33"/>
-            </references>
-            <sourceId>ndml</sourceId>
-            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1TGIruRFC5U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          </message>
           <message name="Confession et guérison en 10 min" id="confession-et-guerison-en-10-min">
             <tests>
               <test input="Que dit Marie sur la confession ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Sda2HNB1w2A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;confession-et-guerison-en-10-min&quot; textlength=&quot;41&quot; /&gt;"/>
@@ -21823,6 +21869,18 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lj5mxzAA1eU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
         </folder>
+        <message name="Que signifient les 10 tatouages de Messi ?" id="que-signifient-les-10-tatouages-de-messi">
+          <tests>
+            <test input="Montrez-moi les tatouages de Lionel Messi !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzI9Fy0I7LA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Oh My Goal - France&quot; resourceid=&quot;que-signifient-les-10-tatouages-de-messi&quot; textlength=&quot;19&quot; /&gt;"/>
+            <test input="Que signifient les 10 tatouages de Messi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzI9Fy0I7LA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Oh My Goal - France&quot; resourceid=&quot;que-signifient-les-10-tatouages-de-messi&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi les tatouages de Lionel Messi !"/>
+            <trigger value="Que signifient les 10 tatouages de Messi ?"/>
+          </triggers>
+          <sourceId>oh-my-goal-france</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzI9Fy0I7LA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Yohan Cabaye le catholique" id="yohan-cabaye-le-catholique">
           <tests>
             <test input="Montrez-moi le témoignage du footballeur Yohan Cabaye !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jE9_iqvOfjE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;yohan-cabaye-le-catholique&quot; textlength=&quot;10&quot; /&gt;"/>
