@@ -645,7 +645,7 @@
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vIXGHIdTx6k?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
           </folder>
-          <folder name="Moïse" id="moise">
+          <folder name="Moïse" id="moise" image="moise.jpg">
             <message name="Moïse en 3 minutes" id="moise-en-3-minutes">
               <tests>
                 <test input="Qui est Moïse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/93S_gK5aK9g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 2-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;moise-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -7766,6 +7766,19 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b-opGnR8ZM8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Qu&apos;est-ce qui caractérise les funérailles chrétiennes ?" id="qu-est-ce-qui-caracterise-les-funerailles-chretiennes">
+        <tests>
+          <test input="Qu&apos;est-ce qui caractérise les funérailles chrétiennes ?" output="Les funérailles chrétiennes sont un service que la communauté chrétienne rend à ses morts. Elles expriment le chagrin des proches du défunt, mais doivent toujours signifier le caractère pascal de la mort chrétienne. Nous mourons en Jésus-Christ, pour être capables de célébrer avec lui la fête de la Résurrection." outputReferences="&lt;hc_ccc ref=&quot;1686-1690&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-qui-caracterise-les-funerailles-chretiennes&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;est-ce qui caractérise les funérailles chrétiennes ?"/>
+        </triggers>
+        <references>
+          <ccc verseBegin="1686" verseEnd="1690"/>
+        </references>
+        <sourceId>youcat</sourceId>
+        <text>Les funérailles chrétiennes sont un service que la communauté chrétienne rend à ses morts. Elles expriment le chagrin des proches du défunt, mais doivent toujours signifier le caractère pascal de la mort chrétienne. Nous mourons en Jésus-Christ, pour être capables de célébrer avec lui la fête de la Résurrection.</text>
+      </message>
       <message name="Quelle parole lors des funérailles ?" id="quelle-parole-lors-des-funerailles">
         <tests>
           <test input="Quelle parole lors des funérailles ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mhV9cGrCSU4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 42-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 1-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lm 3, 25&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;quelle-parole-lors-des-funerailles&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -11551,7 +11564,7 @@ c’est la charité.</text>
             <trigger value="Qu’est-ce que dit la Foi catholique au sujet de la création ?"/>
           </triggers>
           <references>
-            <bible book="Gen" chapter="1" verseBegin="1" verseEnd="2"/>
+            <bible book="Gen" chapter="1" verseBegin="1" verseEnd="2" linkFromCorpus="hight"/>
             <bible book="Gen" chapter="1" verseBegin="4"/>
             <bible book="Gen" chapter="2" verseBegin="5" verseEnd="25"/>
             <bible book="Is" chapter="45" verseBegin="18"/>
