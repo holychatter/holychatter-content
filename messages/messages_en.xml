@@ -2,6 +2,20 @@
 <contentRoot>
   <folder name="Bible" id="bible" nb="3" image="bible.jpg">
     <folder name="About" id="about" image="about.png">
+      <message name="Does Sacred Scripture speak about a way to happiness?" id="does-sacred-scripture-speak-about-a-way-to-happiness">
+        <tests>
+          <test input="Does Sacred Scripture speak about a way to happiness?" output="We become happy by trusting in Jesus’ words in the Beatitudes." outputReferences="&lt;hc_bible ref=&quot;Mt 5: 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;1716-1717&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;does-sacred-scripture-speak-about-a-way-to-happiness&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Does Sacred Scripture speak about a way to happiness?"/>
+        </triggers>
+        <references>
+          <ccc verseBegin="1716" verseEnd="1717"/>
+          <bible book="Mt" chapter="5" verseBegin="3" verseEnd="12"/>
+        </references>
+        <sourceId>youcat</sourceId>
+        <text>We become happy by trusting in Jesus’ words in the Beatitudes.</text>
+      </message>
       <message name="How to Read the Bible: What is the Bible?" id="how-to-read-the-bible-what-is-the-bible">
         <tests>
           <test input="What is the Bible?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ak06MSETeo4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;how-to-read-the-bible-what-is-the-bible&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1157,7 +1171,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         <text>Do you want to see a video that describe the Church ?</text>
       </message>
     </folder>
-    <folder name="Mass" id="mass" image="mass.jpg">
+    <folder name="Mass" id="mass" nb="1" image="mass.jpg">
       <folder name="Readings" id="readings">
         <message name="First Reading" id="first-reading">
           <sourceId>daily-gospel</sourceId>
@@ -1194,7 +1208,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         </message>
       </folder>
     </folder>
-    <folder name="Sacramentals" id="sacramentals" image="sacramenteaux.jpeg">
+    <folder name="Sacramentals" id="sacramentals" nb="3" image="sacramenteaux.jpeg">
       <message name="What is the purpose of a Christian funeral?" id="what-is-the-purpose-of-a-christian-funeral">
         <tests>
           <test input="What is the purpose of a Christian funeral?" output="A Christian funeral is a service performed by the Christian community for the benefit of its dead. It expresses the sorrow of the survivors, yet it always has a Paschal character. Ultimately, we die in Christ so as to celebrate with him the feast of the Resurrection." outputReferences="&lt;hc_ccc ref=&quot;1686-1690&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-is-the-purpose-of-a-christian-funeral&quot; textlength=&quot;6&quot; /&gt;"/>
@@ -1208,6 +1222,35 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         <sourceId>youcat</sourceId>
         <text>A Christian funeral is a service performed by the Christian community for the benefit of its dead. It expresses the sorrow of the survivors, yet it always has a Paschal character. Ultimately, we die in Christ so as to celebrate with him the feast of the Resurrection.</text>
       </message>
+    </folder>
+    <folder name="Sacraments" id="sacraments" nb="2" image="bapteme_enfant.jpeg">
+      <folder name="About" id="about-sacraments" image="about.png">
+        <message name="A sacrement" id="a-sacrement">
+          <tests>
+            <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
+            <test input="A sacrement" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="What is a sacrement ?"/>
+          </triggers>
+          <sourceId>theomatters</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Why do we need faith and the sacraments in order to live a good, upright life?" id="why-do-we-need-faith-and-the-sacraments-in-order-to-live-a-good-upright-life">
+          <tests>
+            <test input="Why do we need faith and the sacraments in order to live a good, upright life?" output="If we were to rely only on ourselves and our own strength, we would not get far in our attempts to be good. Through faith we discover that we are God’s children and that God makes us strong. When God gives us his strength, we call this “grace”. Especially in the sacred signs that we call the sacraments, God gives us the ability actually to do the good that we want to do." outputReferences="&lt;hc_bible ref=&quot;Col 1: 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1691-1695&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-we-need-faith-and-the-sacraments-in-order-to-live-a-good-upright-life&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Why do we need faith and the sacraments in order to live a good, upright life?"/>
+          </triggers>
+          <references>
+            <ccc verseBegin="1691" verseEnd="1695"/>
+            <bible book="Col" chapter="1" verseBegin="13"/>
+          </references>
+          <sourceId>youcat</sourceId>
+          <text>If we were to rely only on ourselves and our own strength, we would not get far in our attempts to be good. Through faith we discover that we are God’s children and that God makes us strong. When God gives us his strength, we call this “grace”. Especially in the sacred signs that we call the sacraments, God gives us the ability actually to do the good that we want to do.</text>
+        </message>
+      </folder>
     </folder>
     <folder name="Usual answers" id="usual-answers" isHidden="true">
       <message name="Christ is risen!" id="christ-is-risen">
@@ -1248,6 +1291,18 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         <sourceId>internal</sourceId>
         <text>And with your spirit.</text>
       </message>
+    </folder>
+    <folder name="Vatican" id="vatican">
+      <folder name="Laudato Si " id="laudato-si">
+        <message name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
+          <descriptions>
+            <description value="Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;"/>
+            <description value="Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it."/>
+          </descriptions>
+          <sourceId>america-media</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
   </folder>
   <folder name="Discovery" id="discovery" nb="2" isHidden="true" image="discover.jpg">
@@ -3063,30 +3118,37 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
         </message>
       </folder>
     </folder>
-    <folder name="TheoMatters" id="theomatters">
-      <message name="A sacrement" id="a-sacrement">
+    <folder name="Good" id="good" image="bien.jpg">
+      <message name="Why do we yearn for happiness?" id="why-do-we-yearn-for-happiness">
         <tests>
-          <test input="What is a sacrement ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
-          <test input="A sacrement" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;TheoMatters&quot; resourceid=&quot;a-sacrement&quot; textlength=&quot;11&quot; /&gt;"/>
+          <test input="Why do we yearn for happiness?" output="God has placed in our hearts such an infinite desire for happiness that nothing can satisfy it but God himself. All earthly fulfillment gives us only a foretaste of eternal happiness. Above and beyond that, we should be drawn to God." outputReferences="&lt;hc_ccc ref=&quot;1718-1719&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1725&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-do-we-yearn-for-happiness&quot; textlength=&quot;6&quot; /&gt;"/>
         </tests>
         <triggers>
-          <trigger value="What is a sacrement ?"/>
+          <trigger value="Why do we yearn for happiness?"/>
         </triggers>
-        <sourceId>theomatters</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU7bEZAmr1I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <references>
+          <ccc verseBegin="1718" verseEnd="1719"/>
+          <ccc verseBegin="1725"/>
+        </references>
+        <sourceId>youcat</sourceId>
+        <text>God has placed in our hearts such an infinite desire for happiness that nothing can satisfy it but God himself. All earthly fulfillment gives us only a foretaste of eternal happiness. Above and beyond that, we should be drawn to God.</text>
       </message>
     </folder>
-    <folder name="Vatican" id="vatican">
-      <folder name="Laudato Si " id="laudato-si">
-        <message name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
-          <descriptions>
-            <description value="Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;"/>
-            <description value="Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it."/>
-          </descriptions>
-          <sourceId>america-media</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
+    <folder name="Human" id="human" image="body.jpg">
+      <message name="What reasons do Christians give for human dignity?" id="what-reasons-do-christians-give-for-human-dignity">
+        <tests>
+          <test input="What reasons do Christians give for human dignity?" output="Every person, from the first moment of his life in the womb, has an inviolable dignity, because from all eternity God willed, loved, created, and redeemed that person and destined him for eternal happiness." outputReferences="&lt;hc_bible ref=&quot;Gen 1: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1699-1715&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;what-reasons-do-christians-give-for-human-dignity&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="What reasons do Christians give for human dignity?"/>
+        </triggers>
+        <references>
+          <ccc verseBegin="1699" verseEnd="1715"/>
+          <bible book="Gen" chapter="1" verseBegin="27"/>
+        </references>
+        <sourceId>youcat</sourceId>
+        <text>Every person, from the first moment of his life in the womb, has an inviolable dignity, because from all eternity God willed, loved, created, and redeemed that person and destined him for eternal happiness.</text>
+      </message>
     </folder>
     <folder name="YOUCAT" id="youcat" image="youcat.jpg">
       <folder name="How We Are to Have Life in Christ" id="how-we-are-to-have-life-in-christ" nb="279" image="jesus.jpg">
