@@ -537,6 +537,20 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6gAkIXm4ZN8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Les 10 commandements - Cardinal Philippe Barbarin" id="les-10-commandements-cardinal-philippe-barbarin">
+            <tests>
+              <test input="Expliquez-moi les 10 commandements !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_gQudePgQEI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 1-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;les-10-commandements-cardinal-philippe-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+              <test input="Expliquez-moi les 10 commandements !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_gQudePgQEI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 1-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;les-10-commandements-cardinal-philippe-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Expliquez-moi les 10 commandements !"/>
+            </triggers>
+            <references>
+              <bible book="Ex" chapter="20" verseBegin="1" verseEnd="17"/>
+            </references>
+            <sourceId>diocese-de-lyon</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_gQudePgQEI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
         <folder name="Genèse" id="genese" nb="1" image="genese.jpg">
           <folder name="Abraham" id="abraham" image="abraham.jpg">
@@ -700,6 +714,28 @@
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <folder name="À propos" id="a-propos-pentateuque" image="about.png">
+          <message name="Le Pentateuque - Cardinal Philippe Barbarin" id="le-pentateuque-cardinal-philippe-barbarin">
+            <tests>
+              <test input="C&apos;est quoi le Pentateuque ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CbLEQeZBXng?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Dt 6, 1-5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 26, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1-50&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ex 1-40&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lv 1-27&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Nb 1-36&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Dt 1-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;le-pentateuque-cardinal-philippe-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C&apos;est quoi le Pentateuque ?"/>
+              <trigger value="C&apos;est quoi la Torah ?"/>
+            </triggers>
+            <references>
+              <bible book="Deut" chapter="6" verseBegin="1" verseEnd="5"/>
+              <bible book="Ex" chapter="26" verseBegin="5"/>
+              <bible book="Gen" chapter="1" chapterEnd="50"/>
+              <bible book="Ex" chapter="1" chapterEnd="40"/>
+              <bible book="Lev" chapter="1" chapterEnd="27"/>
+              <bible book="Num" chapter="1" chapterEnd="36"/>
+              <bible book="Deut" chapter="1" chapterEnd="34"/>
+            </references>
+            <sourceId>diocese-de-lyon</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CbLEQeZBXng?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
       </folder>
       <folder name="À propos" id="a-propos" image="about.png">
         <message name="Comment lire un récit biblique ?" id="comment-lire-un-recit-biblique">
@@ -711,6 +747,18 @@
           </references>
           <sourceId>theodom</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MYtLSyUHfR0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Panorama de l&apos;Ancien Testament - Cardinal Barbarin" id="panorama-de-l-ancien-testament-cardinal-barbarin">
+          <tests>
+            <test input="Qu&apos;est-ce que l&apos;Ancien Testament ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lzZm3JOqphg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;panorama-de-l-ancien-testament-cardinal-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+            <test input="Faites-moi un panorama de l&apos;Ancien Testament !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lzZm3JOqphg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;panorama-de-l-ancien-testament-cardinal-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que l&apos;Ancien Testament ?"/>
+            <trigger value="Faites-moi un panorama de l&apos;Ancien Testament !"/>
+          </triggers>
+          <sourceId>diocese-de-lyon</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lzZm3JOqphg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
     </folder>
@@ -3264,15 +3312,13 @@ Vous souhaitez nous rejoindre ?</text>
     <folder name="L&apos;Esprit" id="l-esprit" nb="4" image="esprit.jpg">
       <message name="Comment définir l’Esprit Saint ?" id="comment-definir-l-esprit-saint">
         <tests>
-          <test input="Comment définir l’Esprit Saint ?" output="L’Esprit Saint est une des Trois Personnes de la Sainte Trinité. L’Esprit Saint est un seul Dieu avec le Père et le Fils. Il est l’Amour mutuel, le don total échangé entre le Père et le Fils. Le Père engendre le Fils dans le feu de l’Amour, il se donne tout entier à lui dans l’Amour ; le Fils se reçoit du Père, il se redonne tout entier au Père, dans le même Amour que celui qu’il a reçu. Cet Amour échangé entre le Père et le Fils, c’est l’Esprit Saint." outputReferences="&lt;hc_site site=&quot;https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint&quot; textlength=&quot;69&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; textlength=&quot;25&quot; /&gt;"/>
+          <test input="Comment définir l’Esprit Saint ?" output="L’Esprit Saint est une des Trois Personnes de la Sainte Trinité. L’Esprit Saint est un seul Dieu avec le Père et le Fils. Il est l’Amour mutuel, le don total échangé entre le Père et le Fils. Le Père engendre le Fils dans le feu de l’Amour, il se donne tout entier à lui dans l’Amour ; le Fils se reçoit du Père, il se redonne tout entier au Père, dans le même Amour que celui qu’il a reçu. Cet Amour échangé entre le Père et le Fils, c’est l’Esprit Saint." outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; url=&quot;https://emmanuel.info/qui-est-lesprit-saint/&quot; textlength=&quot;25&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Comment définir l’Esprit Saint ?"/>
         </triggers>
-        <references>
-          <site url="https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint"/>
-        </references>
         <sourceId>communaute-de-l-emmanuel</sourceId>
+        <sourceUrl>https://emmanuel.info/qui-est-lesprit-saint/</sourceUrl>
         <text>L’Esprit Saint est une des Trois Personnes de la Sainte Trinité. L’Esprit Saint est un seul Dieu avec le Père et le Fils. Il est l’Amour mutuel, le don total échangé entre le Père et le Fils. Le Père engendre le Fils dans le feu de l’Amour, il se donne tout entier à lui dans l’Amour ; le Fils se reçoit du Père, il se redonne tout entier au Père, dans le même Amour que celui qu’il a reçu. Cet Amour échangé entre le Père et le Fils, c’est l’Esprit Saint.</text>
       </message>
       <message name="Comment le Saint-Esprit agit dans ma vie ! | Alice Drisch" id="comment-le-saint-esprit-agit-dans-ma-vie-alice-drisch">
@@ -3309,7 +3355,7 @@ Vous souhaitez nous rejoindre ?</text>
       </message>
       <message name="L&apos;Esprit saint est-il une force ou une personne ?" id="l-esprit-saint-est-il-une-force-ou-une-personne">
         <tests>
-          <test input="L&apos;Esprit saint est-il une force ou une personne ?" output="Oui, le Saint-Esprit est une force ou personne.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KnOSZ-dq91Q?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 146, 5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 34, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 3, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Dt 32, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 36, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ep 3, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Is 55, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 134, 5-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 36&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ga 4, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 8, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 32&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 1, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 1, 1-2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 7, 56&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;214-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;243-248&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;263-264&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;659-667&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;988-991&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;997-1001&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1015&quot; textlength=&quot;4&quot; /&gt;&lt;hc_ccc ref=&quot;66-67&quot; textlength=&quot;5&quot; /&gt;&lt;hc_site site=&quot;https://emmanuel.info/effusion-de-l-esprit-saint/qui-est-esprit-saint&quot; textlength=&quot;69&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; textlength=&quot;25&quot; /&gt;&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)&quot; textlength=&quot;58&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;qui-est-dieu-un-et-trine&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-bon&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-omniscient&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-eternel&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-parler-de-dieu&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Aymar de Langautier&quot; resourceid=&quot;dieu-est-eternel-parce-qu-il-est-amour-l-amour-est-eternel-parce-qu-il-est-divin&quot; url=&quot;https://youtu.be/gG1UeghChGg&quot; textlength=&quot;19&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-dieu-a-t-il-cree-l-homme&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-veut-dire-dieu-est-la-verite&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-est-l-esprit-saint-je-crois-en-dieu-le-pere&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-est-monte-au-ciel-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-croyons-nous-en-la-resurrection-de-la-chair&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;avec-jesus-christ-tout-est-il-dit-ou-bien-la-revelation-continuera-t-elle-apres-lui&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;peut-on-connaitre-dieu&quot; textlength=&quot;23&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 16, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;l-esprit-saint-est-il-une-force-ou-une-personne&quot; textlength=&quot;33&quot; /&gt;" isOk="false"/>
+          <test input="L&apos;Esprit saint est-il une force ou une personne ?" output="Oui, le Saint-Esprit est une force ou personne.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KnOSZ-dq91Q?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 146, 5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 34, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 3, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Dt 32, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 36, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ep 3, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Is 55, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 134, 5-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 36&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ga 4, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Rm 8, 15&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 32&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 1, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 1, 1-2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 7, 56&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;268-278&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;358&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;214-217&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;243-248&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;263-264&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;659-667&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;988-991&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;997-1001&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;1015&quot; textlength=&quot;4&quot; /&gt;&lt;hc_ccc ref=&quot;66-67&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; url=&quot;https://emmanuel.info/qui-est-lesprit-saint/&quot; textlength=&quot;25&quot; /&gt;&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)&quot; textlength=&quot;58&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;qui-est-dieu-un-et-trine&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-bon&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-omniscient&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-eternel&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;peut-on-parler-de-dieu&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Aymar de Langautier&quot; resourceid=&quot;dieu-est-eternel-parce-qu-il-est-amour-l-amour-est-eternel-parce-qu-il-est-divin&quot; url=&quot;https://youtu.be/gG1UeghChGg&quot; textlength=&quot;19&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;dieu-peut-il-tout-est-il-le-tout-puissant&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-dieu-a-t-il-cree-l-homme&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-veut-dire-dieu-est-la-verite&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qui-est-l-esprit-saint-je-crois-en-dieu-le-pere&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;jesus-est-monte-au-ciel-qu-est-ce-que-cela-veut-dire&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;pourquoi-croyons-nous-en-la-resurrection-de-la-chair&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;avec-jesus-christ-tout-est-il-dit-ou-bien-la-revelation-continuera-t-elle-apres-lui&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT pour les enfants&quot; resourceid=&quot;peut-on-connaitre-dieu&quot; textlength=&quot;23&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ac 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 16, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;l-esprit-saint-est-il-une-force-ou-une-personne&quot; textlength=&quot;33&quot; /&gt;" isOk="false"/>
         </tests>
         <triggers>
           <trigger value="L&apos;Esprit saint est-il une force ou une personne ?"/>
@@ -6447,6 +6493,40 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
           <sourceId>theodom</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TwampItiXD0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Je crois en la vie éternelle - Mgr Gobilliard" id="je-crois-en-la-vie-eternelle-mgr-gobilliard">
+          <tests>
+            <test input="Que veut dire croire en la vie éternelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bMQt2q7QWuY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;je-crois-en-la-vie-eternelle-mgr-gobilliard&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Que veut dire croire en la vie éternelle ?"/>
+          </triggers>
+          <sourceId>diocese-de-lyon</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bMQt2q7QWuY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Je crois à la rémission des péchés - Mgr Gobilliard" id="je-crois-a-la-remission-des-peches-mgr-gobilliard">
+          <tests>
+            <test input="Qu&apos;est-ce que la rémission des péchés ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0h2-WFV_EO4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;je-crois-a-je-crois-a-la-remission-des-peches-mgr-gobilliard-mgr-gobilliard&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que la rémission des péchés ?"/>
+          </triggers>
+          <sourceId>diocese-de-lyon</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0h2-WFV_EO4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="La résurrection des corps - Mgr Gobilliard" id="la-resurrection-des-corps-mgr-gobilliard">
+          <tests>
+            <test input="Qu&apos;est-ce que la résurrection des corps ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n3gh2hiDIPA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 20, 12-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 13-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;la-resurrection-des-corps-mgr-gobilliard&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que la résurrection des corps ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="20" verseBegin="12" verseEnd="16"/>
+            <bible book="Lk" chapter="24" verseBegin="13" verseEnd="32"/>
+          </references>
+          <sourceId>diocese-de-lyon</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/n3gh2hiDIPA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Le credo" id="le-credo">
           <tests>
             <test input="le credo" output="Le credo est :
@@ -6547,6 +6627,16 @@ Amen.&quot;</text>
           </triggers>
           <sourceId>theodom</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SDsn7bPW-pQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Les quatre piliers de la foi - Cardinal Barbarin" id="les-quatre-piliers-de-la-foi-cardinal-barbarin">
+          <tests>
+            <test input="Quels sont les quatre piliers de la foi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YxMBWwG11Zc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;les-quatre-piliers-de-la-foi-cardinal-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quels sont les quatre piliers de la foi ?"/>
+          </triggers>
+          <sourceId>diocese-de-lyon</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YxMBWwG11Zc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Quel est l’enseignement de l’Église sur la morale sexuelle ?" id="quel-est-l-enseignement-de-l-eglise-sur-la-morale-sexuelle">
           <tests>
@@ -6658,6 +6748,16 @@ Amen.&quot;</text>
       </folder>
     </folder>
     <folder name="Histoire" id="histoire" nb="5" image="history.jpg">
+      <message name="Histoire de la Terre Sainte - Cardinal Philippe Barbarin" id="histoire-de-la-terre-sainte-cardinal-philippe-barbarin">
+        <tests>
+          <test input="Quel est l&apos;histoire de la Terre Sainte ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTqQqqrMkv4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;histoire-de-la-terre-sainte-cardinal-philippe-barbarin&quot; textlength=&quot;16&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quel est l&apos;histoire de la Terre Sainte ?"/>
+        </triggers>
+        <sourceId>diocese-de-lyon</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VTqQqqrMkv4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Histoire(s) d&apos;Eglise : le temps des commencements" id="histoires-d-eglise-le-temps-des-commencements" nb="1">
         <tests>
           <test input="Quel est le début de l&apos;Eglise ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qdwQpAP6c2g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 1-4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;histoires-d-eglise-le-temps-des-commencements&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -7602,7 +7702,7 @@ Amen.&quot;</text>
               <trigger value="Pourquoi jeûner ?"/>
             </triggers>
             <references>
-              <bible book="Mk" chapter="12" verseBegin="31"/>
+              <bible book="Mk" chapter="12" verseBegin="31" linkFromCorpus="hight"/>
               <bible book="Mt" chapter="4" verseBegin="4"/>
               <bible book="Mt" chapter="4" verseBegin="1" verseEnd="11"/>
               <bible book="Lk" chapter="4" verseBegin="1" verseEnd="13"/>
@@ -18771,6 +18871,19 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             <sourceId>famille-chretienne</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vp1bUFVFbek?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="De la drogue à la vie éternelle - Témoignage de Tiffany" id="de-la-drogue-a-la-vie-eternelle-temoignage-de-tiffany">
+            <tests>
+              <test input="Montrez-moi le témoignage d&apos;une ancienne droguée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vss2Awoe8hc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 2, 21-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;de-la-drogue-a-la-vie-eternelle-temoignage-de-tiffany&quot; textlength=&quot;25&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi le témoignage d&apos;une ancienne droguée !"/>
+            </triggers>
+            <references>
+              <bible book="Gen" chapter="2" verseBegin="21" verseEnd="22" linkFromCorpus="hight"/>
+            </references>
+            <sourceId>communaute-de-l-emmanuel</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vss2Awoe8hc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
         <folder name="Paralysie partielle" id="paralysie-partielle" nb="3" image="paralésie.jpg">
           <message name="&quot;Il a guéri son prêtre !&quot; Père Alain-Marie Ratti Open Medj" id="il-a-gueri-son-pretre-pere-alain-marie-ratti-open-medj">
@@ -20741,6 +20854,18 @@ Amen.</text>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RuNgeoQjhKA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
+    <folder name="Liturgie des heures" id="liturgie-des-heures" nb="5" image="liturgie_des_heures.jpg">
+      <message name="La liturgie des heures - Mgr Gobilliard" id="la-liturgie-des-heures-mgr-gobilliard">
+        <tests>
+          <test input="Qu&apos;est-ce que c&apos;est la liturgie des heures ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-2sRYIio9I?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;la-liturgie-des-heures-mgr-gobilliard&quot; textlength=&quot;16&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;est-ce que c&apos;est la liturgie des heures ?"/>
+        </triggers>
+        <sourceId>diocese-de-lyon</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/s-2sRYIio9I?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
     <folder name="Louange" id="louange" nb="5" image="louange.jpeg">
       <folder name="Chatbot" id="chatbot-louange" isHidden="true">
         <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges">
@@ -22040,6 +22165,21 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>padreblog</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G8evIh-bIIU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Il n&apos;y a pas de plus grand amour... Mgr Gobilliard" id="il-n-y-a-pas-de-plus-grand-amour-mgr-gobilliard">
+        <tests>
+          <test input="Qu&apos;est-ce que la fraternité pour un chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2E6Dxl0nyTQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Lyon&quot; resourceid=&quot;il-n-y-a-pas-de-plus-grand-amour-mgr-gobilliard&quot; textlength=&quot;16&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qu&apos;est-ce que la fraternité pour un chrétien ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="15" verseBegin="13" linkFromCorpus="hight"/>
+          <bible book="Mt" chapter="22" verseBegin="39" linkFromCorpus="hight"/>
+          <bible book="Mk" chapter="12" verseBegin="31"/>
+        </references>
+        <sourceId>diocese-de-lyon</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2E6Dxl0nyTQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
     </folder>
   </folder>
   <folder name="Témoignages" id="temoignages" nb="1" image="prises_de_parole.jpeg">
@@ -22195,7 +22335,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zSLJci0-Kik?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Couple" id="couple" nb="10" image="couple_calin.jpeg">
+    <folder name="Couple" id="couple" nb="11" image="couple_calin.jpeg">
       <message name="Pélé de l&apos;espérance Jour 32: Témoignage de Foucauld et Guillemette" id="pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un couple !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OiirLHvi0eA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;catholique45&quot; resourceid=&quot;pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -22358,7 +22498,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </message>
       </folder>
     </folder>
-    <folder name="Diacre en vue du sacerdoce" id="diacre-en-vue-du-sacerdoce" nb="13" image="ordination_diaconale.jpeg">
+    <folder name="Diacre en vue du sacerdoce" id="diacre-en-vue-du-sacerdoce" nb="14" image="ordination_diaconale.jpeg">
       <message name="Ordination diaconale" id="ordination-diaconale">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un jeune avant son ordination diaconale !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d0y225lZ5Sw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 9, 10-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Aymar de Langautier&quot; resourceid=&quot;ordination-diaconale&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -22465,7 +22605,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </planningInfos>
       </message>
     </folder>
-    <folder name="Enfant pauvre" id="enfant-pauvre" nb="15" image="enfants-des-rues.jpg">
+    <folder name="Enfant pauvre" id="enfant-pauvre" nb="16" image="enfants-des-rues.jpg">
       <message name="Les vrais miracles - Enseignement du père Matthieu Dauchez" id="les-vrais-miracles-enseignement-du-pere-matthieu-dauchez">
         <tests>
           <test input="Montrez-moi un témoignages des enfants des rues !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;1Co 13, 1-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;les-vrais-miracles-enseignement-du-pere-matthieu-dauchez&quot; textlength=&quot;25&quot; /&gt;"/>
@@ -22485,7 +22625,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zpiiK7FHBoU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Evêque" id="eveque" nb="19" image="évêques.jpg">
+    <folder name="Evêque" id="eveque" nb="20" image="évêques.jpg">
       <message name="Parabole sur la vie de Mgr Aupetit" id="parabole-sur-la-vie-de-mgr-aupetit">
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;un évêque !"/>
@@ -22577,7 +22717,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i9pIVNfoH1o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Frère" id="frere" nb="18" image="moines.jpg">
+    <folder name="Frère" id="frere" nb="19" image="moines.jpg">
       <message name="Appel de Charles, moine trappiste" id="appel-de-charles-moine-trappiste">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un moine !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rzYbTo7TvnQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 29-30&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;appel-de-charles-moine-trappiste&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -22595,11 +22735,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
       </message>
       <message name="Témoignage de frère Jack Mardesic" id="temoignage-de-frere-jack-mardesic">
         <tests>
-          <test input="Montrez-moi le témoignage d&apos;un ancien drogué !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OljmTmQq8r4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Frère mineur&quot; resourceid=&quot;temoignage-de-frere-jack-mardesic&quot; textlength=&quot;13&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;un franciscain !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OljmTmQq8r4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Frère mineur&quot; resourceid=&quot;temoignage-de-frere-jack-mardesic&quot; textlength=&quot;13&quot; /&gt;"/>
           <test input="Montrez-moi le témoignage de Jack Mardesic !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OljmTmQq8r4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Frère mineur&quot; resourceid=&quot;temoignage-de-frere-jack-mardesic&quot; textlength=&quot;13&quot; /&gt;"/>
         </tests>
         <triggers>
-          <trigger value="Montrez-moi le témoignage d&apos;un ancien drogué !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;un franciscain !"/>
           <trigger value="Montrez-moi le témoignage de Jack Mardesic !"/>
         </triggers>
         <references>
@@ -22621,7 +22761,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ucw_KW23SSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Homosexuel" id="homosexuel" nb="11" image="conversions_homo.jpg">
+    <folder name="Homosexuel" id="homosexuel" nb="12" image="conversions_homo.jpg">
       <message name="D&apos;HOMOSEXUELLE A CHRETIENNE - TEMOIGNAGE" id="d-homosexuelle-a-chretienne-temoignage" nb="1">
         <tests>
           <test input="Montrez-moi la conversion d&apos;une personne homosexuelle." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5EEVNi5z6uQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 2, 22-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lv 18, 22&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Horizon_Jésus&quot; resourceid=&quot;d-homosexuelle-a-chretienne-temoignage&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -22748,6 +22888,19 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>famille-chretienne</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CWjDBORoKVA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
+      <message name="Sauvé par le regard d’un prêtre - Témoignage de Nicolas" id="sauve-par-le-regard-d-un-pretre-temoignage-de-nicolas">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un homme sauvé par un regard d&apos;amour !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iGXDeJ42wP4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 10, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;sauve-par-le-regard-d-un-pretre-temoignage-de-nicolas&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un homme sauvé par un regard d&apos;amour !"/>
+        </triggers>
+        <references>
+          <bible book="Mk" chapter="10" verseBegin="21" linkFromCorpus="hight"/>
+        </references>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iGXDeJ42wP4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="Xavier : &quot;Un trader qui rencontre Dieu&quot;" id="xavier-un-trader-qui-rencontre-dieu">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un trader !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/P1OCFcQEyBA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 4, 5-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;xavier-un-trader-qui-rencontre-dieu&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -22764,7 +22917,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/P1OCFcQEyBA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Postulante" id="postulante" nb="16" image="postulante.jpg">
+    <folder name="Postulante" id="postulante" nb="17" image="postulante.jpg">
       <message name="Témoignage de Charlotte Servera" id="temoignage-de-charlotte-servera">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une postulante !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-charlotte-servera&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -22801,7 +22954,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Prêtre" id="pretre" nb="14" image="pretres.jpg">
+    <folder name="Prêtre" id="pretre" nb="15" image="pretres.jpg">
       <message name="&quot;Et si on décidait d&apos;être heureux ?&quot; : le Christ compte sur toi !" id="et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi">
         <tests>
           <test input="Qui est le Père Didier Noblot ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1qlkBAwRL_U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 25, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Jeunes Cathos&quot; resourceid=&quot;et-si-on-decidait-d-etre-heureux-le-christ-compte-sur-toi&quot; textlength=&quot;13&quot; /&gt;"/>
@@ -22873,7 +23026,19 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/E_yiVYYqJ9w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Séminariste" id="seminariste" nb="12" image="séminaristes.jpg">
+    <folder name="Scientifique" id="scientifique" nb="10" image="scientist.webp">
+      <message name="&quot;Il s&apos;est passé quelque chose d&apos;incroyable pour le scientifique que je suis&quot; - Témoignage de Guillaume" id="il-s-est-passe-quelque-chose-d-incroyable-pour-le-scientifique-que-je-suis-temoignage-de-guillaume">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un scientifique !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8fZBc9rV1ew?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;il-s-est-passe-quelque-chose-d-incroyable-pour-le-scientifique-que-je-suis-temoignage-de-guillaume&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un scientifique !"/>
+        </triggers>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8fZBc9rV1ew?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
+    <folder name="Séminariste" id="seminariste" nb="13" image="séminaristes.jpg">
       <message name="Quel est le sens de ma vie ? - Guillaume" id="quel-est-le-sens-de-ma-vie-guillaume">
         <tests>
           <test input="quel est le sens de ma vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 8, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Guillaume - Est-ce que Dieu existe ?&quot; resourceid=&quot;quel-est-le-sens-de-ma-vie-guillaume&quot; textlength=&quot;36&quot; /&gt;"/>
@@ -22888,7 +23053,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eyW-HfVjZ_o?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Sœur" id="sur" nb="17" image="nonnes.jpg">
+    <folder name="Sœur" id="sur" nb="18" image="nonnes.jpg">
       <message name="Appel soeur de Saint Jean" id="appel-soeur-de-saint-jean">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une soeur de Saint Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vBjr3aNZGzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;VOCATION78&quot; resourceid=&quot;appel-soeur-de-saint-jean&quot; textlength=&quot;10&quot; /&gt;"/>
