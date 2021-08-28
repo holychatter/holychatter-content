@@ -451,6 +451,13 @@
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aY3R8FpE92Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <folder name="Psaumes" id="psaumes" nb="2" image="psalms.jpg">
+          <message name="22e dimanche ordinaire B - Psaume" id="22e-dimanche-ordinaire-b-psaume">
+            <references>
+              <bible book="Ps" chapter="14" verseBegin="2" verseEnd="5"/>
+            </references>
+            <sourceId>kto</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GhdwTzLyBYM?start=52&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
           <message name="Psaumes - Synthèse" id="psaumes-synthese">
             <tests>
               <test input="Fais-moi un résumé du livre des Psaumes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 1-150&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;psaumes-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -484,19 +491,28 @@
         </folder>
       </folder>
       <folder name="Pentateuque" id="pentateuque" nb="1" image="pentateuque.jpeg">
-        <message name="Deutéronome - Synthèse" id="deuteronome-synthese" nb="5">
-          <tests>
-            <test input="Fais-moi un résumé du Deutéronome !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j8FrGTdho14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Dt 1-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;deuteronome-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du Deutéronome !"/>
-          </triggers>
-          <references>
-            <bible book="Deut" chapter="1" chapterEnd="34"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j8FrGTdho14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
+        <folder name="Deutérononme" id="deuterononme" nb="5">
+          <message name="22e dimanche ordinaire B - 1re lecture" id="22e-dimanche-ordinaire-b-1re-lecture">
+            <references>
+              <bible book="Deut" chapter="4" verseBegin="1" verseEnd="8"/>
+            </references>
+            <sourceId>kto</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SeoYmD5rXY4?start=82&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+          <message name="Deutéronome - Synthèse" id="deuteronome-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du Deutéronome !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j8FrGTdho14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Dt 1-34&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;deuteronome-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du Deutéronome !"/>
+            </triggers>
+            <references>
+              <bible book="Deut" chapter="1" chapterEnd="34"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j8FrGTdho14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
+        </folder>
         <folder name="Exode" id="exode" nb="2" image="exode.jpg">
           <message name="Exode 19–40 - Synthèse" id="exode-19-40-synthese" nb="2">
             <tests>
@@ -812,6 +828,13 @@
           </references>
           <sourceId>bibleproject</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/w6JiduuSdnQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="22e dimanche ordinaire B - 2e lecture" id="22e-dimanche-ordinaire-b-2e-lecture">
+          <references>
+            <bible book="Jas" chapter="1" verseBegin="17" verseEnd="27"/>
+          </references>
+          <sourceId>kto</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9a1gXV1UxB8?start=69&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Hébreux - Synthèse" id="hebreux-synthese" nb="1">
           <tests>
@@ -2095,6 +2118,13 @@ ci-dessous</text>
             </message>
           </folder>
           <folder name="Marc" id="marc" nb="2" image="marc.jpg">
+            <message name="22e dimanche ordinaire B - Évangile" id="22e-dimanche-ordinaire-b-evangile">
+              <references>
+                <bible book="Mk" chapter="7" verseBegin="1" verseEnd="23"/>
+              </references>
+              <sourceId>kto</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5SiqhPULoNs?start=130&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            </message>
             <message name="Marc - Synthèse" id="marc-synthese">
               <tests>
                 <test input="Fais-moi un résumé de l&apos;Évangile selon Marc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1-16&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;marc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
