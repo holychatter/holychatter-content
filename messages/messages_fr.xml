@@ -463,7 +463,7 @@
               <bible book="Mk" chapter="1" verseBegin="40" verseEnd="45" linkFromCorpus="no"/>
               <bible book="Jn" chapter="8" verseBegin="1" verseEnd="11" linkFromCorpus="no"/>
             </references>
-            <sourceId>kto</sourceId>
+            <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GhdwTzLyBYM?start=52&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Psaumes - Synthèse" id="psaumes-synthese">
@@ -504,7 +504,7 @@
             <references>
               <bible book="Deut" chapter="4" verseBegin="1" verseEnd="8"/>
             </references>
-            <sourceId>kto</sourceId>
+            <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SeoYmD5rXY4?start=82&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
           <message name="Deutéronome - Synthèse" id="deuteronome-synthese">
@@ -847,7 +847,7 @@
             <bible book="Is" chapter="9" verseBegin="1" linkFromCorpus="no"/>
             <bible book="Jn" chapter="8" verseBegin="12" linkFromCorpus="no"/>
           </references>
-          <sourceId>kto</sourceId>
+          <sourceId>en-marche-vers-dimanche</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9a1gXV1UxB8?start=69&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Hébreux - Synthèse" id="hebreux-synthese" nb="1">
@@ -2137,7 +2137,7 @@ ci-dessous</text>
                 <bible book="Mk" chapter="7" verseBegin="1" verseEnd="23"/>
                 <bible book="Is" chapter="29" verseBegin="13" linkFromCorpus="no"/>
               </references>
-              <sourceId>kto</sourceId>
+              <sourceId>en-marche-vers-dimanche</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5SiqhPULoNs?start=130&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             </message>
             <message name="Marc - Synthèse" id="marc-synthese">
@@ -18800,15 +18800,15 @@ Dieu lui répond:
     </message>
     <message name="Tu connais Jesus ?" id="tu-connais-jesus">
       <tests>
-        <test input="Racontez-moi une histoire mignonne d&apos;un enfant !" output="Question a une petite fille du patro : tu connais Jesus ?
-Réponse : non c’est la première fois que je viens, je ne connais pas encore tout le monde..." outputReferences="&lt;hc_source name=&quot;Humour catho&quot; resourceid=&quot;tu-connais-jesus&quot; textlength=&quot;12&quot; /&gt;"/>
+        <test input="Racontez-moi une histoire mignonne d&apos;un enfant !" output="&lt;span&gt;Question a une petite fille du patro : tu connais Jesus ?
+Réponse : non c’est la première fois que je viens, je ne connais pas encore tout le monde...&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;Humour catho&quot; resourceid=&quot;tu-connais-jesus&quot; textlength=&quot;12&quot; /&gt;"/>
       </tests>
       <triggers>
         <trigger value="Racontez-moi une histoire mignonne d&apos;un enfant !"/>
       </triggers>
       <sourceId>humour-catho</sourceId>
-      <text>Question a une petite fille du patro : tu connais Jesus ?
-Réponse : non c’est la première fois que je viens, je ne connais pas encore tout le monde...</text>
+      <text fileType="text_in_html">&lt;span&gt;Question a une petite fille du patro : tu connais Jesus ?
+Réponse : non c’est la première fois que je viens, je ne connais pas encore tout le monde...&lt;/span&gt;</text>
     </message>
   </folder>
   <folder name="Miracles" id="miracles" nb="3" image="miracle.png">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Bible" id="bible" nb="3" image="bible.jpg">
+  <folder name="Bible" id="bible" nb="6" image="bible.jpg">
     <folder name="About" id="about" image="about.png">
       <message name="Does Sacred Scripture speak about a way to happiness?" id="does-sacred-scripture-speak-about-a-way-to-happiness">
         <tests>
@@ -1161,7 +1161,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
       </goals>
     </chatbot>
   </folder>
-  <folder name="Church" id="church" nb="5" image="church.jpg">
+  <folder name="Church" id="church" nb="8" image="church.jpg">
     <folder name="Chat" id="chat" isHidden="true">
       <message name="Suggest to know what is the Church" id="suggest-to-know-what-is-the-church">
         <triggers>
@@ -1292,21 +1292,9 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         <text>And with your spirit.</text>
       </message>
     </folder>
-    <folder name="Vatican" id="vatican">
-      <folder name="Laudato Si " id="laudato-si">
-        <message name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
-          <descriptions>
-            <description value="Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;"/>
-            <description value="Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it."/>
-          </descriptions>
-          <sourceId>america-media</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
-      </folder>
-    </folder>
   </folder>
-  <folder name="Discovery" id="discovery" nb="2" isHidden="true" image="discover.jpg">
-    <folder name="By age" id="by-age" image="by_age.jpg">
+  <folder name="Discovery" id="discovery" nb="2" image="discover.jpg">
+    <folder name="By age" id="by-age" isHidden="true" image="by_age.jpg">
       <folder name="Everybody" id="everybody" image="by_age.jpg">
         <folder name="Holy Chatter" id="holy-chatter">
           <message name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
@@ -1343,9 +1331,53 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         </folder>
       </folder>
     </folder>
+    <message name="What is, love? (and how do i know)" id="what-is-love-and-how-do-i-know">
+      <tests>
+        <test input="What is love?" output="Love is profoundly human.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aOLufK42QHA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;344&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;354&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-should-man-treat-animals-and-other-fellow-creatures&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 13: 34&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 13: 2&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;imBeggar&quot; resourceid=&quot;what-is-love-and-how-do-i-know&quot; textlength=&quot;8&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="What is love?"/>
+      </triggers>
+      <references>
+        <bible book="Jn" chapter="13" verseBegin="34"/>
+        <bible book="1 Cor" chapter="13" verseBegin="2"/>
+      </references>
+      <sourceId>imbeggar</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aOLufK42QHA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+    </message>
+    <message name="What&apos;s the best thing we could want? Seriously." id="what-s-the-best-thing-we-could-want-seriously">
+      <tests>
+        <test input="What&apos;s the best thing we could want?" output="The good thing that we could want is present, the life, Jesus&apos; Ascension, Jesus&apos; Resurrection, Abraham, Genesis&apos; book, Risen, fine, me, the 3 Jn gist, an expert, God&apos;s son, the answer, our questions, the satisfaction Jesus is the answer our questions to all, our desires, Jesus, God, man to have a body and a soul, Anointed, Saviour, the Son that became man for us, Mother Teresa, Saint Faustina and Maximilian Kolbe, &quot;I believe in God, the Father Almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord: who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried; he descended into hell; the third day he rose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father Almighty; from thence he shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.&quot;, a proof, to believe in God, the soul, Satan, Lucifer, the daemon, the Original Sin, the Lawgiver true, the judge of all, the Lord of all, Life&apos;s giver and that.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kkj1PQWqB_Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 24: 50-53&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Acts 1: 1-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lk 24: 1-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28: 1-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mk 16: 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 15: 14-19&quot; textlength=&quot;15&quot; /&gt;&lt;hc_bible ref=&quot;Acts 2: 22-33&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3: 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3: 10-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1: 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mk 12: 26-27&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Gen 5: 24&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Heb 11: 5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2 Kgs 2: 11&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1: 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rom 9: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Col 2: 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mk 14: 61-62&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10: 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16: 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rom 10: 17&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Prov 3: 5-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ps 28: 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 118: 8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ezek 18: 4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Eccl 12: 7&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Deut 6: 5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16: 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 24: 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gen 1: 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1 Chr 21: 1&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Zech 3: 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12: 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lk 10: 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mk 7: 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1: 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Gen 3&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5: 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 25: 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28: 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 8: 1-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11: 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Col 1: 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;31-37&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;44-47&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;150-165&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;179-180&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;183&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;362-368&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;382&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;385-390&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;396&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;421&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;422-455&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1674-1676&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-bible-tells&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Inspiring Philosophy&quot; resourceid=&quot;the-resurrection-of-jesus-introduction&quot; textlength=&quot;20&quot; /&gt;&lt;hc_source name=&quot;Thinbey Sk&quot; resourceid=&quot;abraham-sarah-isaac-jacob-full-movie&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://en.wikipedia.org/wiki/Paschal_greeting&quot; textlength=&quot;46&quot; /&gt;&lt;hc_source name=&quot;Got Questions?&quot; resourceid=&quot;does-john-313-mean-that-no-one-went-to-heaven-before-jesus&quot; textlength=&quot;14&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-son-is-god&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;is-jesus-christ-truly-man&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;what-does-the-name-christ-mean&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;what-does-the-name-jesus-mean-chatbot&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;&lt;hc_source name=&quot;Catholic Online&quot; resourceid=&quot;who-is-jesus&quot; url=&quot;https://www.catholic.org/clife/jesus/webelieve.php&quot; textlength=&quot;15&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;is-there-a-proof-for-the-existence-of-god&quot; textlength=&quot;18&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-does-it-mean-to-believe-in-god&quot; textlength=&quot;18&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-the-soul&quot; textlength=&quot;18&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;does-the-devil-exist&quot; textlength=&quot;18&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-is-original-sin&quot; textlength=&quot;18&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;who-was-jesus&quot; textlength=&quot;18&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;how-important-is-so-called-popular-piety&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 6: 68&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;imBeggar&quot; resourceid=&quot;what-s-the-best-thing-we-could-want-seriously&quot; textlength=&quot;8&quot; /&gt;" isOk="false"/>
+      </tests>
+      <triggers>
+        <trigger value="What&apos;s the best thing we could want?"/>
+      </triggers>
+      <references>
+        <bible book="Jn" chapter="6" verseBegin="68"/>
+      </references>
+      <sourceId>imbeggar</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kkj1PQWqB_Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+    </message>
+    <message name="Who am I... In the mind of the artist." id="who-am-i-in-the-mind-of-the-artist">
+      <tests>
+        <test input="Why God created earth ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i8OyGdBNFqI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jer 1: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;imBeggar&quot; resourceid=&quot;who-am-i-in-the-mind-of-the-artist&quot; textlength=&quot;8&quot; /&gt;"/>
+        <test input="Why God created me ?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i8OyGdBNFqI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jer 1: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;imBeggar&quot; resourceid=&quot;who-am-i-in-the-mind-of-the-artist&quot; textlength=&quot;8&quot; /&gt;"/>
+        <test input="Why God created everybody ?" output="God created us out of free and unselfish love.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i8OyGdBNFqI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jer 1: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;imBeggar&quot; resourceid=&quot;who-am-i-in-the-mind-of-the-artist&quot; textlength=&quot;8&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Why God created earth ?"/>
+        <trigger value="Why God created me ?"/>
+        <trigger value="Why God created everybody ?"/>
+      </triggers>
+      <references>
+        <bible book="Jer" chapter="1" verseBegin="5"/>
+      </references>
+      <sourceId>imbeggar</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i8OyGdBNFqI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+    </message>
   </folder>
-  <folder name="God" id="god" nb="8" image="god.jpg">
-    <folder name="Jesus" id="jesus" image="jesus.jpg">
+  <folder name="God" id="god" nb="11" image="god.jpg">
+    <folder name="Jesus" id="jesus" nb="2" image="jesus.jpg">
       <message name="Does John 3:13 mean that no one went to Heaven before Jesus?" id="does-john-313-mean-that-no-one-went-to-heaven-before-jesus">
         <triggers>
           <trigger value="Did anyone went to Heaven before Jesus?"/>
@@ -1623,15 +1655,8 @@ The love of God guarantees us to live forever.</text>
         </message>
       </folder>
     </folder>
-    <folder name="The Father" id="the-father">
-      <folder name="God exists" id="god-exists">
-        <message name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part-1">
-          <descriptions>
-            <description value="That is why God exists."/>
-          </descriptions>
-          <sourceId>restored-cog</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
+    <folder name="The Father" id="the-father" nb="1" image="père.jpg">
+      <folder name="Chatbot" id="chatbot-the-father" isHidden="true">
         <message name="God exists" id="god-exists">
           <tests>
             <test input="Does God exist?" output="Yes, God exists." outputReferences="&lt;hc_bible ref=&quot;Gen 22: 1-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mt 1&quot; textlength=&quot;4&quot; /&gt;&lt;hc_bible ref=&quot;Is 7: 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 52: 13-53&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mk 16: 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mic 5: 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Zech 12: 3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;god-exists&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -1655,6 +1680,13 @@ The love of God guarantees us to live forever.</text>
           <text>God exists.</text>
         </message>
       </folder>
+      <message name="Does God Exist?—Many Absolute Proofs! (Part 1) " id="does-god-existmany-absolute-proofs-part-1">
+        <descriptions>
+          <description value="That is why God exists."/>
+        </descriptions>
+        <sourceId>restored-cog</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FbxD04LWW10?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
       <message name="God is good." id="god-is-good">
         <tests>
           <test input="God is good ?" output="Yes, God is good."/>
@@ -1705,7 +1737,7 @@ The love of God guarantees us to live forever.</text>
         <text>There is but one God.</text>
       </message>
     </folder>
-    <folder name="The Holy Spirit" id="the-holy-spirit">
+    <folder name="The Holy Spirit" id="the-holy-spirit" nb="3" image="esprit.jpg">
       <message name="The Spirit is God" id="the-spirit-is-god">
         <tests>
           <test input="The Spirit is God?" output="Yes, the Spirit is God." outputReferences="&lt;hc_bible ref=&quot;Acts 5: 3-4&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1 Cor 3: 16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;the-spirit-is-god&quot; textlength=&quot;5&quot; /&gt;"/>
@@ -1719,8 +1751,23 @@ The love of God guarantees us to live forever.</text>
       </message>
     </folder>
   </folder>
-  <folder name="Inspiring people" id="inspiring-people" nb="7" image="person.jpg">
-    <folder name="Carlo Acutis" id="carlo-acutis" image="carlo_acutis.jpg">
+  <folder name="Humor" id="humor" nb="5" image="laugh.png">
+    <message name="What did Jonah’s family say when he told them about what happened before reaching Nineveh?" id="what-did-jonah-s-family-say-when-he-told-them-about-what-happened-before-reaching-nineveh">
+      <tests>
+        <test input="Tell me a joke!" output="&lt;span&gt;Question: What did Jonah’s family say when he told them about what happened before reaching Nineveh?
+Answer: “Hmm, sounds fishy.”&lt;/span&gt;" outputReferences="&lt;hc_source name=&quot;Parade&quot; resourceid=&quot;what-did-jonah-s-family-say-when-he-told-them-about-what-happened-before-reaching-nineveh&quot; textlength=&quot;6&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Tell me a joke!"/>
+      </triggers>
+      <sourceId>parade</sourceId>
+      <sourceUrl>https://parade.com/1196835/kelseypelzer/christian-jokes/</sourceUrl>
+      <text fileType="text_in_html">&lt;span&gt;Question: What did Jonah’s family say when he told them about what happened before reaching Nineveh?
+Answer: “Hmm, sounds fishy.”&lt;/span&gt;</text>
+    </message>
+  </folder>
+  <folder name="Inspiring people" id="inspiring-people" nb="10" image="person.jpg">
+    <folder name="Carlo Acutis" id="carlo-acutis" nb="1" image="carlo_acutis.jpg">
       <message name="Carlo Acutis Web Missionary" id="carlo-acutis-web-missionary">
         <tests>
           <test input="Who is Carlo Acutis?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RVHxeNPNkBM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 10: 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;CheminNeuf NetforGod&quot; resourceid=&quot;carlo-acutis-web-missionary&quot; textlength=&quot;20&quot; /&gt;"/>
@@ -1735,7 +1782,19 @@ The love of God guarantees us to live forever.</text>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RVHxeNPNkBM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Mother Teresa" id="mother-teresa">
+    <folder name="Chatbot" id="chatbot-inspiring-people" isHidden="true">
+      <message name="Saint" id="saint">
+        <tests>
+          <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Who is the Saint of today ?"/>
+        </triggers>
+        <sourceId>daily-gospel</sourceId>
+        <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
+      </message>
+    </folder>
+    <folder name="Mother Teresa" id="mother-teresa" nb="1" image="madre-teresa.webp">
       <message name="Mother Teresa of Calcutta on Irish Television, 1974 " id="mother-teresa-of-calcutta-on-irish-television-1974">
         <tests>
           <test input="Show me the life of Mother Teresa" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
@@ -1748,17 +1807,7 @@ The love of God guarantees us to live forever.</text>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Th2QzJwy8tI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <message name="Saint" id="saint">
-      <tests>
-        <test input="Who is the Saint of today?" output="The Saint of today is \hc_resource_html=#en_US#&lt;p&gt;&lt;/p&gt;&lt;iframe width=&quot;780&quot; height=&quot;500&quot; src=&quot;https://feed.evangelizo.orgFake Saint of the day for tests&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Daily Gospel&quot; resourceid=&quot;saint&quot; textlength=&quot;12&quot; /&gt;"/>
-      </tests>
-      <triggers>
-        <trigger value="Who is the Saint of today ?"/>
-      </triggers>
-      <sourceId>daily-gospel</sourceId>
-      <text fileType="api">&lt;hc_api name=&quot;saint&quot; /&gt;</text>
-    </message>
-    <folder name="Saint Faustina" id="saint-faustina">
+    <folder name="Saint Faustina" id="saint-faustina" nb="1" image="sainte_faustine.jpg">
       <message name="The Life of St. Faustina" id="the-life-of-st-faustina">
         <descriptions>
           <description value="It&apos;s Saint Faustina."/>
@@ -1767,8 +1816,8 @@ The love of God guarantees us to live forever.</text>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FLAPt4waYxU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
     </folder>
-    <folder name="Saint Jean Marie Vianney" id="saint-jean-marie-vianney">
-      <message name="Life" id="life">
+    <folder name="Saint Jean Marie Vianney" id="saint-jean-marie-vianney" nb="1" image="cure-d-ars.jpg">
+      <message name="Life of Jean Marie Vianney" id="life-of-jean-marie-vianney">
         <sourceId>internal</sourceId>
         <text>Jean Marie Vianney was born in Dardilly in the Rhone in 1786.
 Jean Marie Vianney made his first communion in the neighboring village of Écully in 1799.
@@ -1777,7 +1826,7 @@ In October 1809, Jean Marie Vianney was called to the army.
 Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
-    <folder name="Saint Maximilian Kolbe" id="saint-maximilian-kolbe">
+    <folder name="Saint Maximilian Kolbe" id="saint-maximilian-kolbe" nb="1" image="maxilillian_kolbe.jpg">
       <message name="Saint Maximilian Mary Kolbe" id="saint-maximilian-mary-kolbe">
         <descriptions>
           <description value="It&apos;s Saint Maximilian Kolbe."/>
@@ -1787,7 +1836,19 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
   </folder>
-  <folder name="Prayers" id="prayers" nb="6" image="prier.jpg">
+  <folder name="Miracle" id="miracle" nb="3" image="miracle.png">
+    <message name="The Eucharistic Miracle of Buenos Aires" id="the-eucharistic-miracle-of-buenos-aires">
+      <tests>
+        <test input="Show me a miracle!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wXLfwdw2yUk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;St. John the Evangelist-Center Moriches, NY&quot; resourceid=&quot;the-eucharistic-miracle-of-buenos-aires&quot; textlength=&quot;43&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Show me a miracle!"/>
+      </triggers>
+      <sourceId>st-john-the-evangelist-center-moriches-ny</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wXLfwdw2yUk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+    </message>
+  </folder>
+  <folder name="Prayers" id="prayers" nb="9" image="prier.jpg">
     <folder name="Jesus" id="jesus-prayers" image="jesus.jpg">
       <message name="Eucharistic Adoration: St. Stephen Catholic Church" id="eucharistic-adoration-st-stephen-catholic-church">
         <tests>
@@ -1819,7 +1880,21 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
   </folder>
-  <folder name="Teachings" id="teachings" nb="4" image="teachings.jpeg">
+  <folder name="Solidarity" id="solidarity" nb="4" image="solidarite.jpg">
+    <message name="The Catholic Campaign for Human Development" id="the-catholic-campaign-for-human-development">
+      <tests>
+        <test input="What is the Catholic Campaign for Human Development?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gf8Zh44DnIE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Spirit Juice&quot; resourceid=&quot;the-catholic-campaign-for-human-development&quot; textlength=&quot;12&quot; /&gt;"/>
+        <test input="What is CCHD?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gf8Zh44DnIE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Spirit Juice&quot; resourceid=&quot;the-catholic-campaign-for-human-development&quot; textlength=&quot;12&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="What is the Catholic Campaign for Human Development?"/>
+        <trigger value="What is CCHD?"/>
+      </triggers>
+      <sourceId>spirit-juice</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gf8Zh44DnIE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+    </message>
+  </folder>
+  <folder name="Teachings" id="teachings" nb="7" image="teachings.jpeg">
     <folder name="3 Minute Catechism" id="3-minute-catechism">
       <folder name="Basics" id="basics" nb="1">
         <message name="Is there a proof for the existence of God?" id="is-there-a-proof-for-the-existence-of-god" nb="5">
@@ -2924,22 +2999,6 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
           <sourceId>minute-catechism</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/56IELJssnOs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
-        <message name="What will we do in Heaven?" id="what-will-we-do-in-heaven" nb="62">
-          <tests>
-            <test input="What will we do in Heaven?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1 Jn 3: 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rev 21: 3&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-will-we-do-in-heaven&quot; textlength=&quot;18&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="What will we do in Heaven?"/>
-          </triggers>
-          <references>
-            <bible book="1 Jn" chapter="3" verseBegin="2"/>
-            <bible book="Rev" chapter="21" verseBegin="3"/>
-            <ccc verseBegin="1023" verseEnd="1026"/>
-            <ccc verseBegin="1053"/>
-          </references>
-          <sourceId>minute-catechism</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        </message>
       </folder>
       <folder name="The Sanctified (Church)" id="the-sanctified-church" nb="7">
         <message name="Criticism of the Church" id="criticism-of-the-church" nb="58">
@@ -3118,6 +3177,16 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
         </message>
       </folder>
     </folder>
+    <folder name="Ecology" id="ecology" image="ecologie.jpeg">
+      <message name="Summary of Pope Francis &apos;Laudato Si&apos;" id="summary-of-pope-francis-laudato-si">
+        <descriptions>
+          <description value="Top 10 Things You Need to Know about Pope Francis&apos; Laudato Si&apos;"/>
+          <description value="Pope Francis&apos; highly-anticipated environmental encyclical has arrived and Fr. James Martin, S.J., presents the ten things you need to know about it."/>
+        </descriptions>
+        <sourceId>america-media</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a_lqFTYLc_4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      </message>
+    </folder>
     <folder name="Good" id="good" image="bien.jpg">
       <message name="Why do we yearn for happiness?" id="why-do-we-yearn-for-happiness">
         <tests>
@@ -3151,19 +3220,39 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
     <folder name="Life after death" id="life-after-death" image="vie_après_la_mort.jpg">
-      <message name="Will we be brought to judgment after death?" id="will-we-be-brought-to-judgment-after-death">
-        <tests>
-          <test input="Will we be brought to judgment after death?" output="The so-called particular or personal judgment occurs at the moment of death of the individual. The general judgment, which is also called the Last Judgment, occurs on the Last Day, at the end of the world, when the Lord comes again." outputReferences="&lt;hc_ccc ref=&quot;1021-1022&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;will-we-be-brought-to-judgment-after-death&quot; textlength=&quot;6&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Will we be brought to judgment after death?"/>
-        </triggers>
-        <references>
-          <ccc verseBegin="1021" verseEnd="1022"/>
-        </references>
-        <sourceId>youcat</sourceId>
-        <text>The so-called particular or personal judgment occurs at the moment of death of the individual. The general judgment, which is also called the Last Judgment, occurs on the Last Day, at the end of the world, when the Lord comes again.</text>
-      </message>
+      <folder name="About" id="about-life-after-death" image="about.png">
+        <message name="Will we be brought to judgment after death?" id="will-we-be-brought-to-judgment-after-death">
+          <tests>
+            <test input="Will we be brought to judgment after death?" output="The so-called particular or personal judgment occurs at the moment of death of the individual. The general judgment, which is also called the Last Judgment, occurs on the Last Day, at the end of the world, when the Lord comes again." outputReferences="&lt;hc_ccc ref=&quot;1021-1022&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;will-we-be-brought-to-judgment-after-death&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Will we be brought to judgment after death?"/>
+          </triggers>
+          <references>
+            <ccc verseBegin="1021" verseEnd="1022"/>
+          </references>
+          <sourceId>youcat</sourceId>
+          <text>The so-called particular or personal judgment occurs at the moment of death of the individual. The general judgment, which is also called the Last Judgment, occurs on the Last Day, at the end of the world, when the Lord comes again.</text>
+        </message>
+      </folder>
+      <folder name="Heaven" id="heaven" nb="1" image="paradis.jpeg">
+        <message name="What will we do in Heaven?" id="what-will-we-do-in-heaven" nb="62">
+          <tests>
+            <test input="What will we do in Heaven?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1 Jn 3: 2&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Rev 21: 3&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1023-1026&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1053&quot; textlength=&quot;4&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-will-we-do-in-heaven&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="What will we do in Heaven?"/>
+          </triggers>
+          <references>
+            <bible book="1 Jn" chapter="3" verseBegin="2"/>
+            <bible book="Rev" chapter="21" verseBegin="3"/>
+            <ccc verseBegin="1023" verseEnd="1026"/>
+            <ccc verseBegin="1053"/>
+          </references>
+          <sourceId>minute-catechism</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/51Vpr7rFEbI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="The end of the world" id="the-end-of-the-world" image="fin_du_monde.jpg">
       <message name="What will it be like when the world comes to an end?" id="what-will-it-be-like-when-the-world-comes-to-an-end">
@@ -7708,7 +7797,7 @@ Amen.</text>
           </message>
           <message name="Why did God create us?" id="why-did-god-create-us" nb="2">
             <tests>
-              <test input="Why did God create us?" output="God created us out of free and unselfish love." outputReferences="&lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;"/>
+              <test input="Why did God create us?" output="God created us out of free and unselfish love.|otherAnswer-&gt;|\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i8OyGdBNFqI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_ccc ref=&quot;1-3&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;why-did-god-create-us&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jer 1: 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;imBeggar&quot; resourceid=&quot;who-am-i-in-the-mind-of-the-artist&quot; textlength=&quot;8&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Why did God create us?"/>
@@ -7920,6 +8009,15 @@ God loves you beyond measure, and he wants to make you happy.</text>
       <sourceId>internal</sourceId>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zMyaKqtu0TE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
     </message>
+    <folder name="Chatbot" id="chatbot-testimonies" isHidden="true">
+      <message name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
+        <triggers>
+          <trigger value="I don&apos;t want to see a video that it describes the Church."/>
+        </triggers>
+        <sourceId>internal</sourceId>
+        <text>Do you want to see a Christian testimony?</text>
+      </message>
+    </folder>
     <message name="Confessions of a High Class Prostitute" id="confessions-of-a-high-class-prostitute">
       <triggers>
         <trigger value="Show me a Christian testimony"/>
@@ -7935,13 +8033,6 @@ God loves you beyond measure, and he wants to make you happy.</text>
       </triggers>
       <sourceId>internal</sourceId>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jYpBgJHmGmw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-    </message>
-    <message name="Suggest to see a Christian testimony" id="suggest-to-see-a-christian-testimony">
-      <triggers>
-        <trigger value="I don&apos;t want to see a video that it describes the Church."/>
-      </triggers>
-      <sourceId>internal</sourceId>
-      <text>Do you want to see a Christian testimony?</text>
     </message>
   </folder>
 </contentRoot>
