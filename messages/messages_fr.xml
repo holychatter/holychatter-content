@@ -584,6 +584,26 @@
             <sourceId>diocese-de-lyon</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_gQudePgQEI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           </message>
+          <message name="Qu’est-ce que sont les Dix Commandements ?" id="qu-est-ce-que-sont-les-dix-commandements">
+            <tests>
+              <test input="Qu’est-ce que sont les Dix Commandements ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
+              <test input="les 10 commandements" output="Les 10 commandements sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
+              <test input="les 10 Commandements" output="Les 10 commandements sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
+              <test input="Qu’est-ce que sont les 10 Commandements ?" output="Les 10 commandements sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu’est-ce que sont les Dix Commandements ?"/>
+            </triggers>
+            <descriptions>
+              <description value="C&apos;est les 10 commandements"/>
+            </descriptions>
+            <references>
+              <bible book="Ex" chapter="20" verseBegin="2" verseEnd="17"/>
+              <ccc verseBegin="2052" verseEnd="2557"/>
+            </references>
+            <sourceId>le-cate-en-minutes</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          </message>
         </folder>
         <folder name="Genèse" id="genese" nb="1" image="genese.jpg">
           <folder name="Abraham" id="abraham" image="abraham.jpg">
@@ -6844,7 +6864,7 @@ Amen.&quot;</text>
       </folder>
     </folder>
     <folder name="Communautés" id="communautes" nb="6" image="communaute.jpeg">
-      <folder name="Benedictines" id="benedictines" image="benedictines.jpeg">
+      <folder name="Benedictines" id="benedictines" nb="1" image="benedictines.jpeg">
         <message name="On fait découvrir Youtube à des bonnes soeurs. Leur avis sur PNL est une masterclass" id="on-fait-decouvrir-youtube-a-des-bonnes-soeurs-leur-avis-sur-pnl-est-une-masterclass">
           <triggers>
             <trigger value="Montrez-moi des sœurs qui regardent YouTube !"/>
@@ -6853,7 +6873,7 @@ Amen.&quot;</text>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uiEFLYlT-WI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Cistercienne" id="cistercienne" image="Boulaur_Communauté_Cté2018.jpg">
+      <folder name="Cistercienne" id="cistercienne" nb="1" image="Boulaur_Communauté_Cté2018.jpg">
         <message name="JE VAIS CHEZ LES BONNES SOEURS !" id="je-vais-chez-les-bonnes-soeurs">
           <triggers>
             <trigger value="Montrez-moi une journée avec des sœurs !"/>
@@ -6862,7 +6882,7 @@ Amen.&quot;</text>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xaLaoakTiqg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Eucharistein" id="eucharistein" image="eucharistein.jpg">
+      <folder name="Eucharistein" id="eucharistein" nb="1" image="eucharistein.jpg">
         <message name="Témoignage : Père Nicolas Buttet" id="temoignage-pere-nicolas-buttet">
           <triggers>
             <trigger value="Montrez-moi un témoignage du Père Nicolas Buttet !"/>
@@ -6874,7 +6894,7 @@ Amen.&quot;</text>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Emx6P2eerO8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
-      <folder name="Missionnaires de la miséricorde divine" id="missionnaires-de-la-misericorde-divine" image="prise-soutane-missionaire-de-la-misericorde-divine.jpeg">
+      <folder name="Missionnaires de la miséricorde divine" id="missionnaires-de-la-misericorde-divine" nb="1" image="prise-soutane-missionaire-de-la-misericorde-divine.jpeg">
         <folder name="Chatbot" id="chatbot-missionnaires-de-la-misericorde-divine" isHidden="true">
           <message name="Découvrir missionnaires de la miséricorde divine" id="decouvrir-missionnaires-de-la-misericorde-divine">
             <recommendations>
@@ -6913,6 +6933,31 @@ Amen.&quot;</text>
           </references>
           <sourceId>missionnaires-de-la-misericorde-divine</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rTq0UJMPyrM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="À propos" id="a-propos-communautes" image="about.png">
+        <message name="Qu’est-ce que les moines, les moniales et les religieux ?" id="qu-est-ce-que-les-moines-les-moniales-et-les-religieux">
+          <tests>
+            <test input="Qu’est-ce que les moines, les moniales et les religieux ?" isOk="false"/>
+            <test input="Qu&apos;est ce que les moines ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 37-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 6, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Qu&apos;est ce que les moniales ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 37-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 6, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
+            <test input="Qu&apos;est ce que les religieux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 37-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 6, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu’est-ce que les moines, les moniales et les religieux ?"/>
+            <trigger value="Qu&apos;est ce que les moines ?"/>
+            <trigger value="Qu&apos;est ce que les moniales ?"/>
+            <trigger value="Qu&apos;est ce que les religieux ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="19" verseBegin="21"/>
+            <bible book="1 Cor" chapter="7" verseBegin="37" verseEnd="40"/>
+            <bible book="1 Cor" chapter="6" verseBegin="19"/>
+            <ccc verseBegin="914" verseEnd="933"/>
+            <ccc verseBegin="944" verseEnd="945"/>
+          </references>
+          <sourceId>le-cate-en-minutes</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
       </folder>
     </folder>
@@ -9457,29 +9502,6 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         <sourceId>le-cate-en-minutes</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/GWFfJ1JHuTM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
-      <message name="Qu’est-ce que les moines, les moniales et les religieux ?" id="qu-est-ce-que-les-moines-les-moniales-et-les-religieux">
-        <tests>
-          <test input="Qu’est-ce que les moines, les moniales et les religieux ?" isOk="false"/>
-          <test input="Qu&apos;est ce que les moines ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 37-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 6, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Qu&apos;est ce que les moniales ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 37-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 6, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Qu&apos;est ce que les religieux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 19, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Co 7, 37-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 6, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;914-933&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;944-945&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-les-moines-les-moniales-et-les-religieux&quot; textlength=&quot;21&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qu’est-ce que les moines, les moniales et les religieux ?"/>
-          <trigger value="Qu&apos;est ce que les moines ?"/>
-          <trigger value="Qu&apos;est ce que les moniales ?"/>
-          <trigger value="Qu&apos;est ce que les religieux ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="19" verseBegin="21"/>
-          <bible book="1 Cor" chapter="7" verseBegin="37" verseEnd="40"/>
-          <bible book="1 Cor" chapter="6" verseBegin="19"/>
-          <ccc verseBegin="914" verseEnd="933"/>
-          <ccc verseBegin="944" verseEnd="945"/>
-        </references>
-        <sourceId>le-cate-en-minutes</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Gvw6lt1IcSo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
       <message name="Un chrétien a-t-il vraiment besoin de l&apos;Église ?" id="un-chretien-a-t-il-vraiment-besoin-de-l-eglise">
         <tests>
           <test input="Un chrétien a-t-il vraiment besoin de l&apos;Église ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9mQmMzLkNf4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 13, 35&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;un-chretien-a-t-il-vraiment-besoin-de-l-eglise&quot; textlength=&quot;17&quot; /&gt;"/>
@@ -11051,26 +11073,6 @@ On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisai
         </references>
         <sourceId>le-fraternel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MJ1S6fO2pMo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Qu’est-ce que sont les Dix Commandements ?" id="qu-est-ce-que-sont-les-dix-commandements">
-        <tests>
-          <test input="Qu’est-ce que sont les Dix Commandements ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="les 10 commandements" output="Les 10 commandements sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="les 10 Commandements" output="Les 10 commandements sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Qu’est-ce que sont les 10 Commandements ?" output="Les 10 commandements sont \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qu’est-ce que sont les Dix Commandements ?"/>
-        </triggers>
-        <descriptions>
-          <description value="C&apos;est les 10 commandements"/>
-        </descriptions>
-        <references>
-          <bible book="Ex" chapter="20" verseBegin="2" verseEnd="17"/>
-          <ccc verseBegin="2052" verseEnd="2557"/>
-        </references>
-        <sourceId>le-cate-en-minutes</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/q2CBGf8TxB4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       </message>
       <message name="Qu’est-ce que sont les vertus ?" id="qu-est-ce-que-sont-les-vertus">
         <tests>
