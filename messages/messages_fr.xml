@@ -8261,7 +8261,7 @@ Amen.&quot;</text>
             <trigger value="C’est quoi, le baptême ?"/>
           </triggers>
           <references>
-            <bible book="Mt" chapter="28" verseBegin="19"/>
+            <bible book="Mt" chapter="28" verseBegin="19" linkFromCorpus="hight"/>
             <bible book="Jn" chapter="3" verseBegin="5" linkFromCorpus="hight"/>
             <bible book="Acts" chapter="2" verseBegin="38" verseEnd="41"/>
             <bible book="Acts" chapter="8" verseBegin="12"/>
@@ -8313,6 +8313,24 @@ Si aucun des deux partenaires n’est chrétien, il n’est pas possible de se m
           </references>
           <sourceId>glorious</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gP4mQtSaWpc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Pourquoi être baptisé ?" id="pourquoi-etre-baptise">
+          <tests>
+            <test input="Pourquoi être baptisé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oMoFREG5NRE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ga 2, 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;pourquoi-etre-baptise&quot; textlength=&quot;7&quot; /&gt;"/>
+            <test input="Pourquoi sommes-nous baptisés très jeunes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oMoFREG5NRE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ga 2, 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;pourquoi-etre-baptise&quot; textlength=&quot;7&quot; /&gt;"/>
+            <test input="Que se passe-t-il si un bébé meurt sans être baptisé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oMoFREG5NRE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ga 2, 20&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;pourquoi-etre-baptise&quot; textlength=&quot;7&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Pourquoi être baptisé ?"/>
+            <trigger value="Pourquoi sommes-nous baptisés très jeunes ?"/>
+            <trigger value="Que se passe-t-il si un bébé meurt sans être baptisé ?"/>
+          </triggers>
+          <references>
+            <bible book="Gal" chapter="2" verseBegin="20"/>
+            <bible book="Mt" chapter="28" verseBegin="19"/>
+          </references>
+          <sourceId>aleteia</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oMoFREG5NRE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Qu&apos;est-ce que le baptême ?" id="qu-est-ce-que-le-bapteme-bapteme">
           <tests>
