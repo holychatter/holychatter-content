@@ -1400,7 +1400,7 @@
             </message>
             <message name="Que disent les Béatitudes ?" id="que-disent-les-beatitudes">
               <tests>
-                <test input="Que disent les Béatitudes ?" output="Heureux les pauvres en esprit,
+                <test input="Que disent les Béatitudes ?" output="&lt;span&gt;Heureux les pauvres en esprit,
 car le Royaume des Cieux est à eux.
 
 Heureux les affligés,
@@ -1426,7 +1426,7 @@ car le Royaume des Cieux est à eux.
 
 Heureux êtes-vous quand on vous insultera, qu&apos;on vous persécutera, et qu&apos;on dira faussement contre vous toute sorte d&apos;infamie à cause de moi.
 
-Soyez dans la joie et l&apos;allégresse, car votre récompense sera grande dans les cieux : c&apos;est bien ainsi qu&apos;on à persécuté les prophètes, vos devanciers. (Mt 5, 3-12.)" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-disent-les-beatitudes&quot; textlength=&quot;6&quot; /&gt;"/>
+Soyez dans la joie et l&apos;allégresse, car votre récompense sera grande dans les cieux : c&apos;est bien ainsi qu&apos;on à persécuté les prophètes, vos devanciers. (Mt 5, 3-12.)&lt;/span&gt;" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 3-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;que-disent-les-beatitudes&quot; textlength=&quot;6&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Que disent les Béatitudes ?"/>
@@ -1435,7 +1435,7 @@ Soyez dans la joie et l&apos;allégresse, car votre récompense sera grande dans
                 <bible book="Mt" chapter="5" verseBegin="3" verseEnd="12" linkFromCorpus="no"/>
               </references>
               <sourceId>youcat</sourceId>
-              <text>Heureux les pauvres en esprit,
+              <text fileType="text_in_html">&lt;span&gt;Heureux les pauvres en esprit,
 car le Royaume des Cieux est à eux.
 
 Heureux les affligés,
@@ -1461,7 +1461,7 @@ car le Royaume des Cieux est à eux.
 
 Heureux êtes-vous quand on vous insultera, qu&apos;on vous persécutera, et qu&apos;on dira faussement contre vous toute sorte d&apos;infamie à cause de moi.
 
-Soyez dans la joie et l&apos;allégresse, car votre récompense sera grande dans les cieux : c&apos;est bien ainsi qu&apos;on à persécuté les prophètes, vos devanciers. (Mt 5, 3-12.)</text>
+Soyez dans la joie et l&apos;allégresse, car votre récompense sera grande dans les cieux : c&apos;est bien ainsi qu&apos;on à persécuté les prophètes, vos devanciers. (Mt 5, 3-12.)&lt;/span&gt;</text>
             </message>
             <message name="Qui sont les artisans de paix que Jésus félicite dans les Béatitudes ?" id="qui-sont-les-artisans-de-paix-que-jesus-felicite-dans-les-beatitudes">
               <tests>
@@ -10023,6 +10023,16 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           </references>
           <sourceId>guillaume-est-ce-que-dieu-existe</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iF02zCN-oNY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Discerner une vocation religieuse" id="discerner-une-vocation-religieuse">
+          <tests>
+            <test input="Comment discerner une vocation religieuse ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LOiBvo0brpw?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;discerner-une-vocation-religieuse&quot; textlength=&quot;30&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment discerner une vocation religieuse ?"/>
+          </triggers>
+          <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LOiBvo0brpw?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
         <message name="Que faire lorsqu&apos;on se sent appelé par le Christ ?" id="que-faire-lorsqu-on-se-sent-appele-par-le-christ">
           <tests>
@@ -18948,6 +18958,16 @@ Dieu lui répond:
 -Oh, vraiment !? Et qu&apos;as - tu fait?
 -Un nouveau testament...</text>
     </message>
+    <message name="La prière du Notre Père (sketch)" id="la-priere-du-notre-pere-sketch">
+      <tests>
+        <test input="Je veux écouter un sketch sur le Notre Père !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBafmjZzit4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+      </tests>
+      <triggers>
+        <trigger value="Je veux écouter un sketch sur le Notre Père !"/>
+      </triggers>
+      <sourceId>osufbe</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBafmjZzit4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+    </message>
     <message name="Saint Michel priez pour nous" id="saint-michel-priez-pour-nous">
       <triggers>
         <trigger value="Racontez-moi une blague sur Saint Michel !"/>
@@ -20685,69 +20705,108 @@ Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
       </message>
     </folder>
     <folder name="Dieu le Père" id="dieu-le-pere" nb="2" image="père.jpg">
-      <message name="Le Notre Père comme vous ne l&apos;aviez certainement pas vu !" id="le-notre-pere-comme-vous-ne-l-aviez-certainement-pas-vu">
-        <tests>
-          <test input="Quelle est la structure du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhTsZQN2iw4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 2, 10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 33&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;le-notre-pere-comme-vous-ne-l-aviez-certainement-pas-vu&quot; textlength=&quot;30&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quelle est la structure du Notre Père ?"/>
-        </triggers>
-        <references>
-          <bible book="Phil" chapter="2" verseBegin="10"/>
-          <bible book="Mt" chapter="6" verseBegin="33"/>
-        </references>
-        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhTsZQN2iw4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Notre Père (1/3) On commence par la fin ?" id="notre-pere-13-on-commence-par-la-fin">
-        <tests>
-          <test input="Que signifie &quot;Notre Père qui est aux cieux&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-13-on-commence-par-la-fin&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Que signifie &quot;Notre Père qui est aux cieux&quot; ?"/>
-        </triggers>
-        <references>
-          <bible book="Lk" chapter="11" verseBegin="1"/>
-          <bible book="Mt" chapter="6" verseBegin="9"/>
-        </references>
-        <sourceId>theodom</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Notre Père (2/3) Ciel et Terre" id="notre-pere-23-ciel-et-terre">
-        <tests>
-          <test input="Qu&apos;est-ce que le tétragramme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-23-ciel-et-terre&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="C&apos;est Dieu ou c&apos;est l&apos;homme qui agit ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-23-ciel-et-terre&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qu&apos;est-ce que le tétragramme ?"/>
-          <trigger value="C&apos;est Dieu ou c&apos;est l&apos;homme qui agit ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="6" verseBegin="9" verseEnd="10"/>
-          <bible book="Ex" chapter="3" verseBegin="14"/>
-        </references>
-        <sourceId>theodom</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Notre Père (3/3) Les deux pieds sur terre." id="notre-pere-33-les-deux-pieds-sur-terre">
-        <tests>
-          <test input="Comment comprendre les demandes du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rBk3RqFKugQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 11-13&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 28-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 6, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-33-les-deux-pieds-sur-terre&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Comment comprendre les demandes du Notre Père ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="6" verseBegin="11" verseEnd="13"/>
-          <bible book="Mt" chapter="6" verseBegin="34"/>
-          <bible book="Lk" chapter="15" verseBegin="28" verseEnd="32"/>
-          <bible book="Lk" chapter="6" verseBegin="38"/>
-        </references>
-        <sourceId>theodom</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rBk3RqFKugQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Notre-Père" id="notre-pere">
-        <tests>
-          <test input="Montrez-moi la prière du Notre-Père !" output="Notre Père
+      <folder name="Explication du Notre Père" id="explication-du-notre-pere" nb="2" image="notre-pere-explication.jpg">
+        <message name="Le Notre Père comme vous ne l&apos;aviez certainement pas vu !" id="le-notre-pere-comme-vous-ne-l-aviez-certainement-pas-vu">
+          <tests>
+            <test input="Quelle est la structure du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhTsZQN2iw4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 2, 10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 33&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien d&apos;Hardemare&quot; resourceid=&quot;le-notre-pere-comme-vous-ne-l-aviez-certainement-pas-vu&quot; textlength=&quot;30&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Quelle est la structure du Notre Père ?"/>
+          </triggers>
+          <references>
+            <bible book="Phil" chapter="2" verseBegin="10"/>
+            <bible book="Mt" chapter="6" verseBegin="33"/>
+          </references>
+          <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EhTsZQN2iw4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Notre Père (1/3) On commence par la fin ?" id="notre-pere-13-on-commence-par-la-fin">
+          <tests>
+            <test input="Que signifie &quot;Notre Père qui est aux cieux&quot; ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-13-on-commence-par-la-fin&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Que signifie &quot;Notre Père qui est aux cieux&quot; ?"/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="11" verseBegin="1"/>
+            <bible book="Mt" chapter="6" verseBegin="9"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lk853PfhcWo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Notre Père (2/3) Ciel et Terre" id="notre-pere-23-ciel-et-terre">
+          <tests>
+            <test input="Qu&apos;est-ce que le tétragramme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-23-ciel-et-terre&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="C&apos;est Dieu ou c&apos;est l&apos;homme qui agit ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-23-ciel-et-terre&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que le tétragramme ?"/>
+            <trigger value="C&apos;est Dieu ou c&apos;est l&apos;homme qui agit ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="9" verseEnd="10"/>
+            <bible book="Ex" chapter="3" verseBegin="14"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fUHjZoVP80A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Notre Père (3/3) Les deux pieds sur terre." id="notre-pere-33-les-deux-pieds-sur-terre">
+          <tests>
+            <test input="Comment comprendre les demandes du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rBk3RqFKugQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 11-13&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 6, 34&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 28-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 6, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;notre-pere-33-les-deux-pieds-sur-terre&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment comprendre les demandes du Notre Père ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="11" verseEnd="13"/>
+            <bible book="Mt" chapter="6" verseBegin="34"/>
+            <bible book="Lk" chapter="15" verseBegin="28" verseEnd="32"/>
+            <bible book="Lk" chapter="6" verseBegin="38"/>
+          </references>
+          <sourceId>theodom</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rBk3RqFKugQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Que veut-dire &quot;ne nous laisse pas entrer en tentation&quot; dans la prière du Notre Père ?" id="que-veut-dire-ne-nous-laisse-pas-entrer-en-tentation-dans-la-priere-du-notre-pere">
+          <tests>
+            <test input="Que veut-dire &quot;ne nous laisse pas entrer en tentation&quot; dans la prière du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fJnN2LL8mjs?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;que-veut-dire-ne-nous-laisse-pas-entrer-en-tentation-dans-la-priere-du-notre-pere&quot; textlength=&quot;33&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Que veut-dire &quot;ne nous laisse pas entrer en tentation&quot; dans la prière du Notre Père ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="13"/>
+            <bible book="Lk" chapter="11" verseBegin="4"/>
+          </references>
+          <sourceId>rcf-radio-chretienne-francophone</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fJnN2LL8mjs?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Notre Père chanté" id="notre-pere-chante" nb="3" image="notre-pere-chante.jpg">
+        <message name="Abun d&apos;bashmayo — Notre Père en araméen — Syriac Aramaic Lord&apos;s prayer" id="abun-d-bashmayo-notre-pere-en-arameen-syriac-aramaic-lord-s-prayer">
+          <tests>
+            <test input="Je veux écouter le Notre Père chanté en araméen !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tzfdeCrjlss?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Léna Oura&quot; resourceid=&quot;abun-d-bashmayo-notre-pere-en-arameen-syriac-aramaic-lord-s-prayer&quot; textlength=&quot;10&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux écouter le Notre Père chanté en araméen !"/>
+          </triggers>
+          <sourceId>lena-oura</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tzfdeCrjlss?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="NOTRE PERE - Eglise Lyon centre" id="notre-pere-eglise-lyon-centre">
+          <tests>
+            <test input="Je veux écouter le Notre Père chanté !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PHlFj5r_qsU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;notre-pere-eglise-lyon-centre&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux écouter le Notre Père chanté !"/>
+          </triggers>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PHlFj5r_qsU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="Texte du Notre Père" id="texte-du-notre-pere" nb="1" image="notre_pere.jpg">
+        <message name="Notre-Père" id="notre-pere">
+          <tests>
+            <test input="Montrez-moi la prière du Notre-Père !" output="Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20760,7 +20819,7 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
-          <test input="Qu&apos;est-ce que c&apos;est le Notre-Père ?" output="Notre Père
+            <test input="Qu&apos;est-ce que c&apos;est le Notre-Père ?" output="Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20773,7 +20832,7 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
-          <test input="Peux-tu me réciter la prière du Notre-Père ?" output="Notre Père
+            <test input="Peux-tu me réciter la prière du Notre-Père ?" output="Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20786,7 +20845,7 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
-          <test input="notre Père" output="Notre Père
+            <test input="notre Père" output="Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20799,7 +20858,7 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
-          <test input="Notre Père" output="Notre Père
+            <test input="Notre Père" output="Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20812,7 +20871,7 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
-          <test input="notre père" output="Notre Père
+            <test input="notre père" output="Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20825,18 +20884,18 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen." outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 2-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Montrez-moi la prière du Notre-Père !"/>
-          <trigger value="Qu&apos;est-ce que c&apos;est le Notre-Père ?"/>
-          <trigger value="Peux-tu me réciter la prière du Notre-Père ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
-          <bible book="Lk" chapter="11" verseBegin="2" verseEnd="4"/>
-        </references>
-        <sourceId>diocese-de-paris</sourceId>
-        <text>Notre Père
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi la prière du Notre-Père !"/>
+            <trigger value="Qu&apos;est-ce que c&apos;est le Notre-Père ?"/>
+            <trigger value="Peux-tu me réciter la prière du Notre-Père ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
+            <bible book="Lk" chapter="11" verseBegin="2" verseEnd="4"/>
+          </references>
+          <sourceId>diocese-de-paris</sourceId>
+          <text>Notre Père
 qui es aux cieux,
 que ton nom soit sanctifié,
 que ton règne vienne,
@@ -20849,52 +20908,54 @@ comme nous pardonnons aussi
 et ne nous laisse pas entrer en tentation,
 mais délivre-nous du mal.
 Amen.</text>
-      </message>
-      <message name="Pourquoi on dit le Notre Père ? 2 minutes à la foi" id="pourquoi-on-dit-le-notre-pere-2-minutes-a-la-foi">
-        <tests>
-          <test input="Pourquoi on dit le Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-dit-le-notre-pere-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
-          <test input="D’où vient la prière du Notre Père ?" output="Je ne sais pas où la prière du notre père vient mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
-          <test input="Pourquoi le Notre Père a une place si importante ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-dit-le-notre-pere-2-minutes-a-la-foi&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Pourquoi on dit le Notre Père ?"/>
-          <trigger value="Mais d’où vient la prière du Notre Père ?"/>
-          <trigger value="Pourquoi le Notre Père a une place si importante ?"/>
-        </triggers>
-        <references>
-          <bible book="Lk" chapter="11" verseBegin="1"/>
-        </references>
-        <sourceId>diocese-de-paris</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Que veut-dire &quot;ne nous laisse pas entrer en tentation&quot; dans la prière du Notre Père ?" id="que-veut-dire-ne-nous-laisse-pas-entrer-en-tentation-dans-la-priere-du-notre-pere">
-        <tests>
-          <test input="Que veut-dire &quot;ne nous laisse pas entrer en tentation&quot; dans la prière du Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fJnN2LL8mjs?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 11, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;RCF-Radio Chrétienne Francophone&quot; resourceid=&quot;que-veut-dire-ne-nous-laisse-pas-entrer-en-tentation-dans-la-priere-du-notre-pere&quot; textlength=&quot;33&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Que veut-dire &quot;ne nous laisse pas entrer en tentation&quot; dans la prière du Notre Père ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="6" verseBegin="13"/>
-          <bible book="Lk" chapter="11" verseBegin="4"/>
-        </references>
-        <sourceId>rcf-radio-chretienne-francophone</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fJnN2LL8mjs?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Qu’est-ce qu’on prie dans le Notre-Père ?" id="qu-est-ce-qu-on-prie-dans-le-notre-pere">
-        <tests>
-          <test input="Qu’est-ce qu’on prie dans le Notre-Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;2759-2865&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-prie-dans-le-notre-pere&quot; textlength=&quot;21&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qu’est-ce qu’on prie dans le Notre-Père ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
-          <ccc verseBegin="2759" verseEnd="2865"/>
-        </references>
-        <sourceId>le-cate-en-minutes</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
+        </message>
+        <message name="Prière du Notre Père selon l&apos;Apôtre Matthieu (6, 7-15) (La prière parfaite)" id="priere-du-notre-pere-selon-l-apotre-matthieu-6-7-15-la-priere-parfaite">
+          <tests>
+            <test input="Je veux écouter le Notre Père !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CwckPOItf2c?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 7-15&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Cathoglad&quot; resourceid=&quot;priere-du-notre-pere-selon-l-apotre-matthieu-6-7-15-la-priere-parfaite&quot; textlength=&quot;9&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux écouter le Notre Père !"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="7" verseEnd="15"/>
+          </references>
+          <sourceId>cathoglad</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CwckPOItf2c?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="À propos" id="a-propos-dieu-le-pere" image="about.png">
+        <message name="Pourquoi on dit le Notre Père ?" id="pourquoi-on-dit-le-notre-pere">
+          <tests>
+            <test input="Pourquoi on dit le Notre Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-dit-le-notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+            <test input="D’où vient la prière du Notre Père ?" output="Je ne sais pas où la prière du notre père vient mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
+            <test input="Pourquoi le Notre Père a une place si importante ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 11, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;pourquoi-on-dit-le-notre-pere&quot; textlength=&quot;17&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Pourquoi on dit le Notre Père ?"/>
+            <trigger value="Mais d’où vient la prière du Notre Père ?"/>
+            <trigger value="Pourquoi le Notre Père a une place si importante ?"/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="11" verseBegin="1"/>
+          </references>
+          <sourceId>diocese-de-paris</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FywfwN0MurE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Qu’est-ce qu’on prie dans le Notre-Père ?" id="qu-est-ce-qu-on-prie-dans-le-notre-pere">
+          <tests>
+            <test input="Qu’est-ce qu’on prie dans le Notre-Père ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 9-13&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;2759-2865&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-qu-on-prie-dans-le-notre-pere&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Qu’est-ce qu’on prie dans le Notre-Père ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="6" verseBegin="9" verseEnd="13"/>
+            <ccc verseBegin="2759" verseEnd="2865"/>
+          </references>
+          <sourceId>le-cate-en-minutes</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/Oqy3x0Yd8S4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
     </folder>
     <folder name="En vacances" id="en-vacances" nb="5" image="holidays.jpg">
       <message name="Comment prier pendant les vacances ? Les conseils d&apos;un moine-touriste !" id="comment-prier-pendant-les-vacances-les-conseils-d-un-moine-touriste">
@@ -23226,7 +23287,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
       </message>
       <message name="Pourquoi être chrétien ? - Charlotte d&apos;Ornellas" id="pourquoi-etre-chretien-charlotte-d-ornellas">
         <tests>
-          <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;23&quot; /&gt;"/>
+          <test input="Pourquoi être chrétien ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9U5oY3u68c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 13, 34&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 4, 7&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 11, 13-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;846-848&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;SOS Chrétiens d&apos;Orient&quot; resourceid=&quot;pourquoi-etre-chretien-charlotte-d-ornellas&quot; textlength=&quot;23&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Pourquoi être chrétien ?"/>
