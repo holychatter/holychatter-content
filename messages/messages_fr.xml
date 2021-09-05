@@ -21287,6 +21287,41 @@ Amen.</text>
       </message>
     </folder>
     <folder name="Louange" id="louange" nb="5" image="louange.jpeg">
+      <folder name="Chants" id="chants" nb="1" image="comment_louer.jpg">
+        <message name="Glorious - La guérison" id="glorious-la-guerison">
+          <tests>
+            <test input="Ecouter un chant sur la guérison !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7dxoq0gWDmI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;glorious-la-guerison&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Ecouter un chant sur la guérison !"/>
+          </triggers>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7dxoq0gWDmI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Glorious - Mon berger (Alléluia)" id="glorious-mon-berger-alleluia">
+          <tests>
+            <test input="Ecouter un chant de Glorious !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/clpEYDjy3DQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;glorious-mon-berger-alleluia&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Ecouter un chant de Glorious !"/>
+          </triggers>
+          <references>
+            <bible book="Ps" chapter="22"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/clpEYDjy3DQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Quel jour de joie" id="quel-jour-de-joie">
+          <tests>
+            <test input="Ecouter un chant !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iGs9JLAFV0I?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;quel-jour-de-joie&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Ecouter un chant !"/>
+          </triggers>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iGs9JLAFV0I?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
       <folder name="Chatbot" id="chatbot-louange" isHidden="true">
         <folder name="Dieu a-t-il besoin de nos louanges ?" id="dieu-a-t-il-besoin-de-nos-louanges">
           <message name="Ce que Dieu désire" id="ce-que-dieu-desire">
@@ -21418,7 +21453,136 @@ La louange nous permet de nous rapprocher de lui en regardant ses merveilles dan
           </message>
         </folder>
       </folder>
-      <folder name="Comment louer Dieu ?" id="comment-louer-dieu" image="comment_louer.jpg">
+      <folder name="Louange et mediation" id="louange-et-mediation" nb="1" image="louange_et_mediation.jpg">
+        <message name="Esprit-Saint (Louange spontanée) - Temps de Méditation" id="esprit-saint-louange-spontanee-temps-de-meditation">
+          <tests>
+            <test input="Je veux prier avec l&apos;Esprit-Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7L-qDYmx3tA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 3, 14-21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;esprit-saint-louange-spontanee-temps-de-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux prier avec l&apos;Esprit-Saint !"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="3" verseBegin="14" verseEnd="21"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7L-qDYmx3tA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="J&apos;attendrai - Temps de Louange &amp; de Méditation" id="j-attendrai-temps-de-louange-de-meditation">
+          <tests>
+            <test input="Je suis dans un moment difficile mais je veux louer Jésus." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6dIScj3f1vY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 19, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 11, 1-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 12-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 1-39&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 47&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;j-attendrai-temps-de-louange-de-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je suis dans un moment difficile mais je veux louer Jésus."/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="19" verseBegin="40"/>
+            <bible book="Mk" chapter="11" verseBegin="1" verseEnd="10"/>
+            <bible book="Jn" chapter="12" verseBegin="12" verseEnd="16"/>
+            <bible book="Mk" chapter="14" verseBegin="1" verseEnd="39"/>
+            <bible book="Mk" chapter="14" verseBegin="47"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6dIScj3f1vY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="La guérison - Temps de Louange &amp; Méditation" id="la-guerison-temps-de-louange-meditation">
+          <tests>
+            <test input="Comment la promesse du Seigneur se révèle pour nous dans notre vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uL0FrlmxUZg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 13-25&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;la-guerison-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment la promesse du Seigneur se révèle pour nous dans notre vie ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="2" verseBegin="13" verseEnd="25"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uL0FrlmxUZg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Le Christ est ressuscité 🔔 - Louange et Méditation" id="le-christ-est-ressuscite-louange-et-meditation">
+          <tests>
+            <test input="Je veux prier avec le Christ est ressuscité !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9-DcZJwX8s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 16, 1-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 21, 1-14&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 24-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;le-christ-est-ressuscite-louange-et-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux prier avec le Christ est ressuscité !"/>
+          </triggers>
+          <references>
+            <bible book="Mk" chapter="16" verseBegin="1" verseEnd="17"/>
+            <bible book="Jn" chapter="21" verseBegin="1" verseEnd="14"/>
+            <bible book="Jn" chapter="20" verseBegin="24" verseEnd="29"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9-DcZJwX8s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Saint-Esprit (Voici mon coeur) - Temps de Louange &amp; Méditation" id="saint-esprit-voici-mon-coeur-temps-de-louange-meditation">
+          <tests>
+            <test input="Je veux avoir un temps de louange avec l&apos;Esprit Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Je veux avoir un temps de prière avec l&apos;Esprit Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+            <test input="Je veux avoir un temps de prière sur les tentations de Jésus au désert !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux avoir un temps de louange avec l&apos;Esprit Saint !"/>
+            <trigger value="Je veux avoir un temps de prière avec l&apos;Esprit Saint !"/>
+            <trigger value="Je veux avoir un temps de prière sur les tentations de Jésus au désert !"/>
+          </triggers>
+          <references>
+            <bible book="Mk" chapter="1" verseBegin="12" verseEnd="15"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Ta Grâce - Temps de Louange &amp; Méditation" id="ta-grace-temps-de-louange-meditation">
+          <tests>
+            <test input="Je veux prendre du temps avec Jésus." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q9Xt_0GSIt0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 9, 2-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;ta-grace-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux prendre du temps avec Jésus."/>
+          </triggers>
+          <references>
+            <bible book="Mk" chapter="9" verseBegin="2" verseEnd="10"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q9Xt_0GSIt0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Ta majesté - Temps de Louange &amp; de Méditation" id="ta-majeste-temps-de-louange-de-meditation">
+          <tests>
+            <test input="Je veux faire une prière de détachement." output="Jésus veut aussi faire une prière de détachement.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/39zoSaLq-LU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 12, 20-33&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;ta-majeste-temps-de-louange-de-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux faire une prière de détachement."/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="12" verseBegin="20" verseEnd="33"/>
+          </references>
+          <sourceId>glorious</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/39zoSaLq-LU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+      </folder>
+      <folder name="À propos" id="a-propos-louange" image="about.png">
+        <message name="La louange c&apos;est quoi ?" id="la-louange-c-est-quoi">
+          <tests>
+            <test input="Qu&apos;est-ce que la louange ?" output="Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne." outputReferences="&lt;hc_site site=&quot;https://hozana.org/priere/louange&quot; textlength=&quot;33&quot; /&gt;&lt;hc_source name=&quot;Hozana&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;6&quot; /&gt;"/>
+            <test input="La louange c&apos;est quoi ?" output="Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne." outputReferences="&lt;hc_site site=&quot;https://hozana.org/priere/louange&quot; textlength=&quot;33&quot; /&gt;&lt;hc_source name=&quot;Hozana&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;6&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="La louange c&apos;est quoi ?"/>
+          </triggers>
+          <recommendations>
+            <recommendation text="Pourquoi louer Dieu ?" outMessageId="pourquoi-louer-dieu"/>
+            <recommendation text="Dieu a-t-il besoin de nos louanges ?" outMessageId="dieu-a-t-il-besoin-de-nos-louanges"/>
+            <recommendation text="A quoi ça ressemble des chants de louange ?" outMessageId="examples-de-chants-de-louange"/>
+          </recommendations>
+          <references>
+            <site url="https://hozana.org/priere/louange"/>
+          </references>
+          <sourceId>hozana</sourceId>
+          <text fileType="text_in_html">Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne.</text>
+          <planningInfos>
+            <goalsToAdd>
+              <goalsToAdd value="louange-pourquoi-louer-dieu"/>
+              <goalsToAdd value="louange-qu-est-ce-que-dieu-desire"/>
+              <goalsToAdd value="louange-ecouter"/>
+            </goalsToAdd>
+          </planningInfos>
+        </message>
         <message name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu-comment-louer-dieu">
           <tests>
             <test input="Comment louer Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ap 19, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Dn 3, 16-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 16, 25-26&quot; textlength=&quot;12&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Figures-spirituelles/Mere-Teresa/Les-dix-plus-belles-prieres-de-Mere-Teresa&quot; sourceid=&quot;croire&quot; textlength=&quot;115&quot; /&gt;&lt;hc_site site=&quot;https://www.albin-michel.fr/ouvrages/le-livre-des-louanges-9782226178237&quot; textlength=&quot;72&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;pourquoi-louer-dieu-comment-louer-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -21440,145 +21604,18 @@ La louange nous permet de nous rapprocher de lui en regardant ses merveilles dan
           <sourceId>theodom</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wwxAuzNIfKI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         </message>
+        <message name="Que dire pour louer Dieu ?" id="que-dire-pour-louer-dieu">
+          <tests>
+            <test input="Que dire pour louer Dieu ?" output="&lt;i&gt;Mon Dieu, je vous aime !&lt;/i&gt;" outputReferences="&lt;hc_source name=&quot;Sainte Thérèse de Lisieux&quot; resourceid=&quot;que-dire-pour-louer-dieu&quot; url=&quot;https://site-catholique.fr/index.php?post/Priere-d-amour-a-Jesus-de-Ste-Therese-de-Lisieux&quot; textlength=&quot;27&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Que dire pour louer Dieu ?"/>
+          </triggers>
+          <sourceId>la-petite-therese</sourceId>
+          <sourceUrl>https://site-catholique.fr/index.php?post/Priere-d-amour-a-Jesus-de-Ste-Therese-de-Lisieux</sourceUrl>
+          <text fileType="text_in_html">&lt;i&gt;Mon Dieu, je vous aime !&lt;/i&gt;</text>
+        </message>
       </folder>
-      <message name="Esprit-Saint (Louange spontanée) - Temps de Méditation" id="esprit-saint-louange-spontanee-temps-de-meditation">
-        <tests>
-          <test input="Je veux prier avec l&apos;Esprit-Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7L-qDYmx3tA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 3, 14-21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;esprit-saint-louange-spontanee-temps-de-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Je veux prier avec l&apos;Esprit-Saint !"/>
-        </triggers>
-        <references>
-          <bible book="Jn" chapter="3" verseBegin="14" verseEnd="21"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7L-qDYmx3tA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="J&apos;attendrai - Temps de Louange &amp; de Méditation" id="j-attendrai-temps-de-louange-de-meditation">
-        <tests>
-          <test input="Je suis dans un moment difficile mais je veux louer Jésus." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6dIScj3f1vY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 19, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 11, 1-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 12, 12-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 1-39&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 47&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;j-attendrai-temps-de-louange-de-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Je suis dans un moment difficile mais je veux louer Jésus."/>
-        </triggers>
-        <references>
-          <bible book="Lk" chapter="19" verseBegin="40"/>
-          <bible book="Mk" chapter="11" verseBegin="1" verseEnd="10"/>
-          <bible book="Jn" chapter="12" verseBegin="12" verseEnd="16"/>
-          <bible book="Mk" chapter="14" verseBegin="1" verseEnd="39"/>
-          <bible book="Mk" chapter="14" verseBegin="47"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6dIScj3f1vY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="La guérison - Temps de Louange &amp; Méditation" id="la-guerison-temps-de-louange-meditation">
-        <tests>
-          <test input="Comment la promesse du Seigneur se révèle pour nous dans notre vie ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uL0FrlmxUZg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 13-25&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;la-guerison-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Comment la promesse du Seigneur se révèle pour nous dans notre vie ?"/>
-        </triggers>
-        <references>
-          <bible book="Jn" chapter="2" verseBegin="13" verseEnd="25"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uL0FrlmxUZg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="La louange c&apos;est quoi ?" id="la-louange-c-est-quoi">
-        <tests>
-          <test input="Qu&apos;est-ce que la louange ?" output="Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne." outputReferences="&lt;hc_site site=&quot;https://hozana.org/priere/louange&quot; textlength=&quot;33&quot; /&gt;&lt;hc_source name=&quot;Hozana&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;6&quot; /&gt;"/>
-          <test input="La louange c&apos;est quoi ?" output="Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne." outputReferences="&lt;hc_site site=&quot;https://hozana.org/priere/louange&quot; textlength=&quot;33&quot; /&gt;&lt;hc_source name=&quot;Hozana&quot; resourceid=&quot;la-louange-c-est-quoi&quot; textlength=&quot;6&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="La louange c&apos;est quoi ?"/>
-        </triggers>
-        <recommendations>
-          <recommendation text="Pourquoi louer Dieu ?" outMessageId="pourquoi-louer-dieu"/>
-          <recommendation text="Dieu a-t-il besoin de nos louanges ?" outMessageId="dieu-a-t-il-besoin-de-nos-louanges"/>
-          <recommendation text="A quoi ça ressemble des chants de louange ?" outMessageId="examples-de-chants-de-louange"/>
-        </recommendations>
-        <references>
-          <site url="https://hozana.org/priere/louange"/>
-        </references>
-        <sourceId>hozana</sourceId>
-        <text fileType="text_in_html">Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne.</text>
-        <planningInfos>
-          <goalsToAdd>
-            <goalsToAdd value="louange-pourquoi-louer-dieu"/>
-            <goalsToAdd value="louange-qu-est-ce-que-dieu-desire"/>
-            <goalsToAdd value="louange-ecouter"/>
-          </goalsToAdd>
-        </planningInfos>
-      </message>
-      <message name="Le Christ est ressuscité 🔔 - Louange et Méditation" id="le-christ-est-ressuscite-louange-et-meditation">
-        <tests>
-          <test input="Je veux prier avec le Christ est ressuscité !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9-DcZJwX8s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 16, 1-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 21, 1-14&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 24-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;le-christ-est-ressuscite-louange-et-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Je veux prier avec le Christ est ressuscité !"/>
-        </triggers>
-        <references>
-          <bible book="Mk" chapter="16" verseBegin="1" verseEnd="17"/>
-          <bible book="Jn" chapter="21" verseBegin="1" verseEnd="14"/>
-          <bible book="Jn" chapter="20" verseBegin="24" verseEnd="29"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/C9-DcZJwX8s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Que dire pour louer Dieu ?" id="que-dire-pour-louer-dieu">
-        <tests>
-          <test input="Que dire pour louer Dieu ?" output="&lt;i&gt;Mon Dieu, je vous aime !&lt;/i&gt;" outputReferences="&lt;hc_source name=&quot;Sainte Thérèse de Lisieux&quot; resourceid=&quot;que-dire-pour-louer-dieu&quot; url=&quot;https://site-catholique.fr/index.php?post/Priere-d-amour-a-Jesus-de-Ste-Therese-de-Lisieux&quot; textlength=&quot;27&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Que dire pour louer Dieu ?"/>
-        </triggers>
-        <sourceId>la-petite-therese</sourceId>
-        <sourceUrl>https://site-catholique.fr/index.php?post/Priere-d-amour-a-Jesus-de-Ste-Therese-de-Lisieux</sourceUrl>
-        <text fileType="text_in_html">&lt;i&gt;Mon Dieu, je vous aime !&lt;/i&gt;</text>
-      </message>
-      <message name="Saint-Esprit (Voici mon coeur) - Temps de Louange &amp; Méditation" id="saint-esprit-voici-mon-coeur-temps-de-louange-meditation">
-        <tests>
-          <test input="Je veux avoir un temps de louange avec l&apos;Esprit Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Je veux avoir un temps de prière avec l&apos;Esprit Saint !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-          <test input="Je veux avoir un temps de prière sur les tentations de Jésus au désert !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 12-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;saint-esprit-voici-mon-coeur-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Je veux avoir un temps de louange avec l&apos;Esprit Saint !"/>
-          <trigger value="Je veux avoir un temps de prière avec l&apos;Esprit Saint !"/>
-          <trigger value="Je veux avoir un temps de prière sur les tentations de Jésus au désert !"/>
-        </triggers>
-        <references>
-          <bible book="Mk" chapter="1" verseBegin="12" verseEnd="15"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v0kI3nTgl-Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Ta Grâce - Temps de Louange &amp; Méditation" id="ta-grace-temps-de-louange-meditation">
-        <tests>
-          <test input="Je veux prendre du temps avec Jésus." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q9Xt_0GSIt0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 9, 2-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;ta-grace-temps-de-louange-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Je veux prendre du temps avec Jésus."/>
-        </triggers>
-        <references>
-          <bible book="Mk" chapter="9" verseBegin="2" verseEnd="10"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q9Xt_0GSIt0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
-      <message name="Ta majesté - Temps de Louange &amp; de Méditation" id="ta-majeste-temps-de-louange-de-meditation">
-        <tests>
-          <test input="Je veux faire une prière de détachement." output="Jésus veut aussi faire une prière de détachement.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/39zoSaLq-LU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 12&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;1Co 14&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;le-charisme-de-guerison&quot; textlength=&quot;8&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 12, 20-33&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;ta-majeste-temps-de-louange-de-meditation&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Je veux faire une prière de détachement."/>
-        </triggers>
-        <references>
-          <bible book="Jn" chapter="12" verseBegin="20" verseEnd="33"/>
-        </references>
-        <sourceId>glorious</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/39zoSaLq-LU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      </message>
     </folder>
     <folder name="Marie" id="marie-prieres" nb="5" image="marie.jpg">
       <message name="Je vous salue Marie" id="je-vous-salue-marie">
@@ -21616,6 +21653,28 @@ maintenant et à l’heure de notre mort.
 Amen</text>
       </message>
       <folder name="Musiques" id="musiques" image="music.jpg">
+        <message name="Ave Maria - Gregorian" id="ave-maria-gregorian">
+          <tests>
+            <test input="Je veux écouter un &quot;Je vous salue Marie&quot; chanté en latin !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rzSOObvRtNI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+            <test input="Je veux écouter l&apos;Ave Maria !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rzSOObvRtNI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux écouter un &quot;Je vous salue Marie&quot; chanté en latin !"/>
+            <trigger value="Je veux écouter l&apos;Ave Maria !"/>
+          </triggers>
+          <sourceId>goldm90</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rzSOObvRtNI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
+        <message name="Je vous salue Marie" id="je-vous-salue-marie-musiques">
+          <tests>
+            <test input="Je veux écouter un &quot;Je vous salue Marie&quot; chanté !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lJY3deOCC5E?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse de Griselles&quot; resourceid=&quot;je-vous-salue-marie-musiques&quot; textlength=&quot;21&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Je veux écouter un &quot;Je vous salue Marie&quot; chanté !"/>
+          </triggers>
+          <sourceId>paroisse-de-griselles</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lJY3deOCC5E?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        </message>
         <message name="Qui est celle-ci ?" id="qui-est-celle-ci">
           <triggers>
             <trigger value="Je veux écouter à chant à Marie."/>
