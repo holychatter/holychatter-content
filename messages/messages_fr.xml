@@ -750,6 +750,17 @@
             <viewCount>1094</viewCount>
             <uploadDate year="2015" month="9" day="15"/>
           </message>
+          <message name="Commentaire - Fête de la Croix Glorieuse - Psaume" id="commentaire-fete-de-la-croix-glorieuse-psaume">
+            <references>
+              <bible book="Ps" chapter="77" verseBegin="3" verseEnd="4"/>
+              <bible book="Ps" chapter="77" verseBegin="34" verseEnd="39"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NMnenByeAZQ?start=64&amp;end=470&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="46"/>
+            <viewCount>927</viewCount>
+            <uploadDate year="2015" month="9" day="17"/>
+          </message>
           <message name="Psaumes - Synthèse" id="psaumes-synthese">
             <tests>
               <test input="Fais-moi un résumé du livre des Psaumes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 1-150&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;psaumes-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1142,25 +1153,38 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Nombres - Synthèse" id="nombres-synthese" nb="4">
-          <tests>
-            <test input="Fais-moi un résumé du livre des Nombres !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Nb 1-36&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;nombres-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre des Nombres !"/>
-          </triggers>
-          <references>
-            <bible book="Num" chapter="1" chapterEnd="36"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="6" seconds="51"/>
-          <viewCount>27668</viewCount>
-          <uploadDate year="2019" month="7" day="30"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Nombres" id="nombres" nb="4">
+          <message name="Commentaire - Fête de la Croix Glorieuse - 1ère lecture (Tiré de l&apos;intégrale)" id="commentaire-fete-de-la-croix-glorieuse-1ere-lecture-tire-de-l-integrale">
+            <references>
+              <bible book="Num" chapter="21" verseBegin="4" verseEnd="9"/>
+              <bible book="Wis" chapter="16" verseBegin="7" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7Ub1ZXfcMag?start=83&amp;end=391&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="8"/>
+            <viewCount>927</viewCount>
+            <uploadDate year="2015" month="9" day="17"/>
+          </message>
+          <message name="Nombres - Synthèse" id="nombres-synthese" nb="4">
+            <tests>
+              <test input="Fais-moi un résumé du livre des Nombres !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Nb 1-36&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;nombres-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre des Nombres !"/>
+            </triggers>
+            <references>
+              <bible book="Num" chapter="1" chapterEnd="36"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VxrSqvkN-BY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="51"/>
+            <viewCount>27668</viewCount>
+            <uploadDate year="2019" month="7" day="30"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <folder name="À propos" id="a-propos-pentateuque" image="about.png">
           <message name="Le Pentateuque - Cardinal Philippe Barbarin" id="le-pentateuque-cardinal-philippe-barbarin">
             <tests>
@@ -1803,25 +1827,38 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Philippiens - Synthèse" id="philippiens-synthese" nb="6">
-          <tests>
-            <test input="Fais-moi un résumé de la lettre de Paul aux philippiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ei_5jKbrUJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 1-4&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;philippiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé de la lettre de Paul aux philippiens !"/>
-          </triggers>
-          <references>
-            <bible book="Phil" chapter="1" chapterEnd="4"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ei_5jKbrUJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="9" seconds="13"/>
-          <viewCount>16670</viewCount>
-          <uploadDate year="2019" month="3" day="13"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Philippiens" id="philippiens" nb="6">
+          <message name="Commentaire - Fête de la Croix Glorieuse - 2ème lecture" id="commentaire-fete-de-la-croix-glorieuse-2eme-lecture">
+            <references>
+              <bible book="Phil" chapter="2" verseBegin="6" verseEnd="11"/>
+              <bible book="Is" chapter="45" verseBegin="23" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/J-H34awDC1E?start=76&amp;end=452&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="16"/>
+            <viewCount>927</viewCount>
+            <uploadDate year="2015" month="9" day="17"/>
+          </message>
+          <message name="Philippiens - Synthèse" id="philippiens-synthese" nb="6">
+            <tests>
+              <test input="Fais-moi un résumé de la lettre de Paul aux philippiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ei_5jKbrUJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ph 1-4&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;philippiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé de la lettre de Paul aux philippiens !"/>
+            </triggers>
+            <references>
+              <bible book="Phil" chapter="1" chapterEnd="4"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ei_5jKbrUJM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="9" seconds="13"/>
+            <viewCount>16670</viewCount>
+            <uploadDate year="2019" month="3" day="13"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <message name="Philémon - Synthèse" id="philemon-synthese" nb="13">
           <tests>
             <test input="Fais-moi un résumé de la lettre de Paul à Philémon !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6FHGUa1Usfc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Phm 1&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;philemon-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3058,6 +3095,29 @@ ci-dessous</text>
         </folder>
         <folder name="Par évangélistes" id="par-evangelistes" nb="2" image="evangelistes.png">
           <folder name="Jean" id="jean" nb="4" image="jean.jpg">
+            <message name="Commentaire 1 - Fête de la Croix Glorieuse - Evangile" id="commentaire-1-fete-de-la-croix-glorieuse-evangile">
+              <references>
+                <bible book="Jn" chapter="3" verseBegin="13" verseEnd="17"/>
+                <bible book="Num" chapter="21" verseBegin="7" verseEnd="9" linkFromCorpus="no"/>
+                <bible book="Jn" chapter="19" verseBegin="37" linkFromCorpus="no"/>
+                <bible book="Zech" chapter="12" verseBegin="10" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FDAuCE-Btgs?start=62&amp;end=475&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="6" seconds="53"/>
+              <viewCount>927</viewCount>
+              <uploadDate year="2015" month="9" day="17"/>
+            </message>
+            <message name="Commentaire 2 - Fête de la Croix Glorieuse - Evangile" id="commentaire-2-fete-de-la-croix-glorieuse-evangile">
+              <references>
+                <bible book="Jn" chapter="3" verseBegin="13" verseEnd="17"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0PFEFGYUgMk?start=56&amp;end=401&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="45"/>
+              <viewCount>927</viewCount>
+              <uploadDate year="2015" month="9" day="17"/>
+            </message>
             <message name="Jean 13–21 - Synthèse" id="jean-13-21-synthese" nb="2">
               <tests>
                 <test input="Fais-moi un résumé de la fin de l&apos;Évangile selon Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/isJCKKCZx5A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 13-21&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;jean-13-21-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
