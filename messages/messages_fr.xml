@@ -3384,7 +3384,7 @@ ci-dessous</text>
         <folder name="À propos" id="a-propos-evangiles" image="about.png">
           <message name="Appeler un prêtre &quot;père&quot; : c&apos;est dans la Bible ça ? En bref..." id="appeler-un-pretre-pere-c-est-dans-la-bible-ca-en-bref">
             <references>
-              <bible book="Mt" chapter="23" verseBegin="9" linkFromCorpus="hight"/>
+              <bible book="Mt" chapter="23" verseBegin="9" linkFromCorpus="high"/>
               <bible book="2 Cor" chapter="3" verseBegin="6"/>
               <bible book="1 Cor" chapter="4" verseBegin="14" verseEnd="16"/>
             </references>
@@ -3395,6 +3395,7 @@ ci-dessous</text>
             <uploadDate year="2021" month="9" day="16"/>
             <tags>
               <tag id="Bible"/>
+              <tag id="DialogueCatholiqueProtestant"/>
             </tags>
           </message>
           <folder name="Chatbot" id="chatbot-a-propos" isHidden="true">
@@ -5330,7 +5331,7 @@ Dieu a décidé de descendre sur terre pour prendre sur lui notre malédiction p
         <references>
           <bible book="Gen" chapter="1" verseBegin="27"/>
           <bible book="Lk" chapter="12" verseBegin="7"/>
-          <bible book="Rev" chapter="21" verseBegin="4" linkFromCorpus="hight"/>
+          <bible book="Rev" chapter="21" verseBegin="4" linkFromCorpus="high"/>
           <bible book="Is" chapter="49" verseBegin="15"/>
           <bible book="Lk" chapter="11" verseBegin="10" verseEnd="13"/>
           <bible book="Deut" chapter="30" verseBegin="19"/>
@@ -7970,7 +7971,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
             <bible book="Jn" chapter="10" verseBegin="30" verseEnd="33"/>
             <bible book="Mt" chapter="22" verseBegin="39"/>
             <bible book="Mk" chapter="6" verseBegin="50"/>
-            <bible book="Mt" chapter="5" verseBegin="44" linkFromCorpus="hight"/>
+            <bible book="Mt" chapter="5" verseBegin="44" linkFromCorpus="high"/>
             <bible book="Jn" chapter="2" verseBegin="7" verseEnd="10"/>
             <bible book="Jn" chapter="15" verseBegin="13"/>
             <bible book="Lk" chapter="23" verseBegin="34"/>
@@ -8258,8 +8259,11 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
           <sourceId>diocese-nanterre</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tElzlJzwpJw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="2"/>
-          <viewCount>1882</viewCount>
+          <viewCount>1885</viewCount>
           <uploadDate year="2017" month="3" day="14"/>
+          <tags>
+            <tag id="Publicité"/>
+          </tags>
         </message>
         <message name="Qu&apos;est-ce qu&apos;une session de Paray ?" id="qu-est-ce-qu-une-session-de-paray">
           <tests>
@@ -9953,7 +9957,7 @@ Amen.&quot;</text>
               <trigger value="Pourquoi jeûner ?"/>
             </triggers>
             <references>
-              <bible book="Mk" chapter="12" verseBegin="31" linkFromCorpus="hight"/>
+              <bible book="Mk" chapter="12" verseBegin="31" linkFromCorpus="high"/>
               <bible book="Mt" chapter="4" verseBegin="4"/>
               <bible book="Mt" chapter="4" verseBegin="1" verseEnd="11"/>
               <bible book="Lk" chapter="4" verseBegin="1" verseEnd="13"/>
@@ -10407,14 +10411,14 @@ Amen.&quot;</text>
             <trigger value="C’est quoi, le baptême ?"/>
           </triggers>
           <references>
-            <bible book="Mt" chapter="28" verseBegin="19" linkFromCorpus="hight"/>
-            <bible book="Jn" chapter="3" verseBegin="5" linkFromCorpus="hight"/>
+            <bible book="Mt" chapter="28" verseBegin="19" linkFromCorpus="high"/>
+            <bible book="Jn" chapter="3" verseBegin="5" linkFromCorpus="high"/>
             <bible book="Acts" chapter="2" verseBegin="38" verseEnd="41"/>
             <bible book="Acts" chapter="8" verseBegin="12"/>
             <bible book="Acts" chapter="18" verseBegin="8"/>
             <bible book="Rom" chapter="6" verseBegin="3" verseEnd="4"/>
             <bible book="Col" chapter="2" verseBegin="12"/>
-            <bible book="Titus" chapter="3" verseBegin="5" linkFromCorpus="hight"/>
+            <bible book="Titus" chapter="3" verseBegin="5" linkFromCorpus="high"/>
             <ccc verseBegin="1213" verseEnd="1284"/>
             <ccc verseBegin="2167"/>
           </references>
@@ -10906,6 +10910,27 @@ Jadis on communiait rarement, on participait le plus souvent à la messe sans co
 
 Jadis on communiait rarement, on participait le plus souvent à la messe sans communier. On considérait qu’il était suffisant de contempler l’hostie consacrée au moment de l’élévation. Il suffisait de communier une fois par an au moment de Pâques, on faisait &quot;ses Pâques&quot;. Actuellement on communie habituellement quand on participe à la messe, mais il y a le risque que la pratique devienne un automatisme, une routine. Il faut donc chercher les moyens pour garder la qualité de la démarche personnelle et se préparer à recevoir le Seigneur en reconnaissant que nous avons besoin du pardon de Dieu.</text>
         </message>
+        <message name="Pourquoi l&apos;Eucharistie est &quot;le sommet de la vie chrétienne&quot;" id="pourquoi-l-eucharistie-est-le-sommet-de-la-vie-chretienne">
+          <tests>
+            <test input="Pourquoi l&apos;Eucharistie est le sommet de la vie chrétienne ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXFVAeDDBoo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 22, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ap 19, 7-9&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 35&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 42-46&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 10, 17&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;pourquoi-l-eucharistie-est-le-sommet-de-la-vie-chretienne&quot; textlength=&quot;7&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Pourquoi l&apos;Eucharistie est le sommet de la vie chrétienne ?"/>
+          </triggers>
+          <references>
+            <bible book="Lk" chapter="22" verseBegin="19"/>
+            <bible book="Rev" chapter="19" verseBegin="7" verseEnd="9"/>
+            <bible book="Mt" chapter="26" verseBegin="26" linkFromCorpus="high"/>
+            <bible book="Lk" chapter="24" verseBegin="35"/>
+            <bible book="Acts" chapter="2" verseBegin="42" verseEnd="46"/>
+            <bible book="1 Cor" chapter="10" verseBegin="17"/>
+          </references>
+          <sourceId>aleteia</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXFVAeDDBoo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="3" seconds="59"/>
+          <viewCount>351</viewCount>
+          <uploadDate year="2021" month="8" day="30"/>
+        </message>
         <message name="Pourquoi les concubins ne peuvent pas communier ?" id="pourquoi-les-concubins-ne-peuvent-pas-communier">
           <tests>
             <test input="Pourquoi les concubins ne peuvent pas communier ?" output="C’est une question que beaucoup de chrétiens se posent et qui concerne beaucoup de monde.
@@ -10966,7 +10991,7 @@ Même si on ne communie pas, la messe garde sa valeur, la participation à la me
             <trigger value="Pourquoi y a-t-il du pain et vin à la messe ?"/>
           </triggers>
           <references>
-            <bible book="Lk" chapter="22" verseBegin="19" verseEnd="20"/>
+            <bible book="Lk" chapter="22" verseBegin="19" verseEnd="20" linkFromCorpus="high"/>
             <bible book="Mt" chapter="26" verseBegin="26" verseEnd="28"/>
             <bible book="Mk" chapter="14" verseBegin="22" verseEnd="25"/>
             <bible book="Ex" chapter="12" verseBegin="11"/>
@@ -10974,7 +10999,7 @@ Même si on ne communie pas, la messe garde sa valeur, la participation à la me
           <sourceId>diocese-de-paris</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kF5W88PSgl0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="3" seconds="32"/>
-          <viewCount>4348</viewCount>
+          <viewCount>4370</viewCount>
           <uploadDate year="2020" month="2" day="11"/>
           <tags>
             <tag id="Découverte"/>
@@ -13212,7 +13237,7 @@ On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisai
           <trigger value="Jésus est-il le seul médiateur entre Dieu et les hommes ?"/>
         </triggers>
         <references>
-          <bible book="1 Tim" chapter="2" verseBegin="5" linkFromCorpus="hight"/>
+          <bible book="1 Tim" chapter="2" verseBegin="5" linkFromCorpus="high"/>
           <bible book="Lk" chapter="10" verseBegin="16"/>
           <bible book="Jn" chapter="20" verseBegin="23"/>
           <bible book="Mk" chapter="2" verseBegin="2" verseEnd="5"/>
@@ -14372,7 +14397,7 @@ On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisai
             <trigger value="Qu&apos;est-ce que le péché contre le Saint Esprit ?"/>
           </triggers>
           <references>
-            <bible book="Mt" chapter="12" verseBegin="31" linkFromCorpus="hight"/>
+            <bible book="Mt" chapter="12" verseBegin="31" linkFromCorpus="high"/>
             <bible book="Lk" chapter="23" verseBegin="34" linkFromCorpus="no"/>
             <bible book="Rom" chapter="5" verseBegin="7" verseEnd="8"/>
             <bible book="Jn" chapter="19" verseBegin="30" linkFromCorpus="no"/>
@@ -15524,7 +15549,7 @@ c’est la charité.</text>
             <trigger value="Qu’est-ce que dit la Foi catholique au sujet de la création ?"/>
           </triggers>
           <references>
-            <bible book="Gen" chapter="1" verseBegin="1" verseEnd="2" linkFromCorpus="hight"/>
+            <bible book="Gen" chapter="1" verseBegin="1" verseEnd="2" linkFromCorpus="high"/>
             <bible book="Gen" chapter="1" verseBegin="4"/>
             <bible book="Gen" chapter="2" verseBegin="5" verseEnd="25"/>
             <bible book="Is" chapter="45" verseBegin="18"/>
@@ -16009,7 +16034,7 @@ c’est la charité.</text>
             <bible book="Lk" chapter="22" verseBegin="61" verseEnd="62"/>
             <bible book="Mt" chapter="25" verseBegin="41"/>
             <bible book="Mt" chapter="25" verseBegin="45"/>
-            <bible book="Lk" chapter="23" verseBegin="43" linkFromCorpus="hight"/>
+            <bible book="Lk" chapter="23" verseBegin="43" linkFromCorpus="high"/>
           </references>
           <sourceId>aymar-de-langautier</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gG1UeghChGg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -22903,7 +22928,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
               <trigger value="Montrez-moi le témoignage d&apos;une ancienne droguée !"/>
             </triggers>
             <references>
-              <bible book="Gen" chapter="2" verseBegin="21" verseEnd="22" linkFromCorpus="hight"/>
+              <bible book="Gen" chapter="2" verseBegin="21" verseEnd="22" linkFromCorpus="high"/>
             </references>
             <sourceId>communaute-de-l-emmanuel</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vss2Awoe8hc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
@@ -27445,8 +27470,8 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <trigger value="Qu&apos;est-ce que la fraternité pour un chrétien ?"/>
         </triggers>
         <references>
-          <bible book="Jn" chapter="15" verseBegin="13" linkFromCorpus="hight"/>
-          <bible book="Mt" chapter="22" verseBegin="39" linkFromCorpus="hight"/>
+          <bible book="Jn" chapter="15" verseBegin="13" linkFromCorpus="high"/>
+          <bible book="Mt" chapter="22" verseBegin="39" linkFromCorpus="high"/>
           <bible book="Mk" chapter="12" verseBegin="31"/>
         </references>
         <sourceId>diocese-de-lyon</sourceId>
@@ -28480,7 +28505,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <trigger value="Montrez-moi le témoignage d&apos;un homme sauvé par un regard d&apos;amour !"/>
         </triggers>
         <references>
-          <bible book="Mk" chapter="10" verseBegin="21" linkFromCorpus="hight"/>
+          <bible book="Mk" chapter="10" verseBegin="21" linkFromCorpus="high"/>
         </references>
         <sourceId>communaute-de-l-emmanuel</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iGXDeJ42wP4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
