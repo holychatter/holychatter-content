@@ -443,25 +443,38 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Jérémie - Synthèse" id="jeremie-synthese" nb="2">
-          <tests>
-            <test input="Fais-moi un résumé du livre du prophète Jérémie !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qTz_5zFBDsc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jr 1-52&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;jeremie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre du prophète Jérémie !"/>
-          </triggers>
-          <references>
-            <bible book="Jer" chapter="1" chapterEnd="52"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qTz_5zFBDsc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="7" seconds="14"/>
-          <viewCount>26898</viewCount>
-          <uploadDate year="2019" month="6" day="16"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Jérémie" id="jeremie" nb="2">
+          <message name="Commentaire - 30e ordinaire dimanche B - 1re lecture - Jr 31, 7-9" id="commentaire-30e-ordinaire-dimanche-b-1re-lecture-jr-31-7-9" nb="31">
+            <references>
+              <bible book="Jer" chapter="31" verseBegin="7" verseEnd="9"/>
+              <bible book="Hos" chapter="11" verseBegin="1" verseEnd="4" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/SAhaBK3l4Tg?rel=0&amp;start=63&amp;end=430&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="7"/>
+            <viewCount>1068</viewCount>
+            <uploadDate year="2015" month="10" day="19"/>
+          </message>
+          <message name="Jérémie - Synthèse" id="jeremie-synthese" nb="2">
+            <tests>
+              <test input="Fais-moi un résumé du livre du prophète Jérémie !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qTz_5zFBDsc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jr 1-52&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;jeremie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre du prophète Jérémie !"/>
+            </triggers>
+            <references>
+              <bible book="Jer" chapter="1" chapterEnd="52"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qTz_5zFBDsc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="7" seconds="14"/>
+            <viewCount>26898</viewCount>
+            <uploadDate year="2019" month="6" day="16"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <message name="Lamentations - Synthèse" id="lamentations-synthese" nb="3">
           <tests>
             <test input="Fais-moi un résumé du livre des lamentations !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nY4dZgLRzSg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lm 1-5&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;lamentations-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -831,6 +844,17 @@
             <tags>
               <tag id="Bible"/>
             </tags>
+          </message>
+          <message name="Commentaire - 30e dimanche ordinaire B - Psaume - Ps 125" id="commentaire-30e-dimanche-ordinaire-b-psaume-ps-125">
+            <references>
+              <bible book="Ps" chapter="125"/>
+              <bible book="Jer" chapter="31" verseBegin="7" verseEnd="9" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0mX7PAcqdco?rel=0&amp;start=56&amp;end=428&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="12"/>
+            <viewCount>1024</viewCount>
+            <uploadDate year="2015" month="10" day="20"/>
           </message>
           <message name="Commentaire - Fête de la Croix Glorieuse - Psaume - Ps 77, 3-4" id="commentaire-fete-de-la-croix-glorieuse-psaume-ps-77-3-4">
             <references>
@@ -1455,7 +1479,7 @@
           </tags>
         </message>
         <folder name="Hébreux" id="hebreux" nb="1">
-          <message name="Commentaire - 27e dimanche ordinaire B - 2e lecture - He 2, 9-11" id="commentaire-27e-dimanche-ordinaire-b-2e-lecture-he-2-9-11">
+          <message name="Commentaire - 27e dimanche ordinaire B - 2e lecture - He 2, 9-11" id="commentaire-27e-dimanche-ordinaire-b-2e-lecture-he-2-9-11" nb="209">
             <references>
               <bible book="Heb" chapter="2" verseBegin="9" verseEnd="11"/>
               <bible book="Ps" chapter="8" verseBegin="2" verseEnd="7" linkFromCorpus="no"/>
@@ -1463,13 +1487,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mUEZ0lHEnMI?rel=0&amp;start=64&amp;end=416&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="52"/>
-            <viewCount>940</viewCount>
+            <viewCount>963</viewCount>
             <uploadDate year="2015" month="9" day="30"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 28e dimanche ordinaire B - 2e lecture - He 4, 12-13" id="commentaire-28e-dimanche-ordinaire-b-2e-lecture-he-4-12-13">
+          <message name="Commentaire - 28e dimanche ordinaire B - 2e lecture - He 4, 12-13" id="commentaire-28e-dimanche-ordinaire-b-2e-lecture-he-4-12-13" nb="412">
             <references>
               <bible book="Heb" chapter="4" verseBegin="12" verseEnd="13"/>
               <bible book="Jer" chapter="36" linkFromCorpus="no"/>
@@ -1481,13 +1505,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bQHvSIfDyWk?rel=0&amp;start=46&amp;end=356&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="10"/>
-            <viewCount>284</viewCount>
+            <viewCount>308</viewCount>
             <uploadDate year="2015" month="10" day="7"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 29e dimanche ordinaire B - 2e lecture - He 4, 14-16" id="commentaire-29e-dimanche-ordinaire-b-2e-lecture-he-4-14-16">
+          <message name="Commentaire - 29e dimanche ordinaire B - 2e lecture - He 4, 14-16" id="commentaire-29e-dimanche-ordinaire-b-2e-lecture-he-4-14-16" nb="414">
             <references>
               <bible book="Heb" chapter="4" verseBegin="14" verseEnd="16"/>
               <bible book="Lk" chapter="22" verseBegin="42" linkFromCorpus="no"/>
@@ -1495,11 +1519,23 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6dS3lDYoAQ4?rel=0&amp;start=54&amp;end=430&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6" seconds="16"/>
-            <viewCount>764</viewCount>
+            <viewCount>776</viewCount>
             <uploadDate year="2015" month="10" day="16"/>
             <tags>
               <tag id="Bible"/>
             </tags>
+          </message>
+          <message name="Commentaire - 30e dimanche ordinaire B - 2e lecture - He 5, 1-6" id="commentaire-30e-dimanche-ordinaire-b-2e-lecture-he-5-1-6" nb="501">
+            <references>
+              <bible book="Heb" chapter="5" verseBegin="1" verseEnd="6"/>
+              <bible book="Mt" chapter="5" verseBegin="17" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="109" verseBegin="4" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b2S0L1u3E_8?rel=0&amp;start=76&amp;end=405&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="29"/>
+            <viewCount>866</viewCount>
+            <uploadDate year="2015" month="10" day="21"/>
           </message>
           <message name="Hébreux - Synthèse" id="hebreux-synthese" nb="1">
             <tests>
@@ -3622,6 +3658,20 @@ ci-dessous</text>
               <tags>
                 <tag id="Bible"/>
               </tags>
+            </message>
+            <message name="Commentaire - 30e dimanche ordinaire B - Evangile - Mc 10, 46 - 52" id="commentaire-30e-dimanche-ordinaire-b-evangile-mc-10-46-52" nb="1046">
+              <references>
+                <bible book="Mk" chapter="10" verseBegin="46" verseEnd="52"/>
+                <bible book="Mk" chapter="8" verseBegin="30" linkFromCorpus="no"/>
+                <bible book="Is" chapter="42" verseBegin="6" verseEnd="7" linkFromCorpus="no"/>
+                <bible book="Is" chapter="35" verseBegin="5" verseEnd="6" linkFromCorpus="no"/>
+                <bible book="Is" chapter="29" verseBegin="18" verseEnd="19" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wlGrqQAXDjM?rel=0&amp;start=74&amp;end=417&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="43"/>
+              <viewCount>1260</viewCount>
+              <uploadDate year="2015" month="10" day="22"/>
             </message>
             <message name="Marc - Synthèse" id="marc-synthese">
               <tests>
