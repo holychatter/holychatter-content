@@ -109,7 +109,7 @@ The Bible tells of our thirst for living and being happy.</text>
             </message>
             <message name="Overview: John Ch. 1-12" id="overview-john-ch-1-12" nb="1">
               <tests>
-                <test input="Give me a summary of the beginning of the Gospel according to John!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G-2e9mMf7E8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 1-12&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-john-ch-1-12&quot; textlength=&quot;12&quot; /&gt;"/>
+                <test input="Give me a summary of the beginning of the Gospel according to John!" output="I can&apos;t give you a summary of the beginning of the Holy Gospel according to John." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Give me a summary of the beginning of the Gospel according to John!"/>
@@ -125,7 +125,7 @@ The Bible tells of our thirst for living and being happy.</text>
             </message>
             <message name="Overview: John Ch. 13-21" id="overview-john-ch-13-21" nb="2">
               <tests>
-                <test input="Give me a summary of the ending of the Gospel according to John!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RUfh_wOsauk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 13-21&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-john-ch-13-21&quot; textlength=&quot;12&quot; /&gt;"/>
+                <test input="Give me a summary of the ending of the Gospel according to John!" output="I can&apos;t give you a summary of the ending of the Holy Gospel according to John." isOk="false"/>
               </tests>
               <triggers>
                 <trigger value="Give me a summary of the ending of the Gospel according to John!"/>
@@ -427,7 +427,7 @@ Blessed are those who are persecuted for righteousness’ sake, for theirs is th
         </message>
         <message name="Overview: 1-3 John" id="overview-1-3-john" nb="5">
           <tests>
-            <test input="Give me a summary of the letters of John!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l3QkE6nKylM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1 Jn 1-5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2 Jn 1&quot; textlength=&quot;6&quot; /&gt;&lt;hc_bible ref=&quot;3 Jn 1&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;overview-1-3-john&quot; textlength=&quot;12&quot; /&gt;"/>
+            <test input="Give me a summary of the letters of John!" output="I can&apos;t give you a summary of John&apos;s letters." isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Give me a summary of the letters of John!"/>
@@ -2686,7 +2686,7 @@ The love of God guarantees us to live forever.</text>
       </message>
       <message name="God is good." id="god-is-good">
         <tests>
-          <test input="God is good ?" output="Yes, God is good."/>
+          <test input="God is good ?" output="I don&apos;t know if God is good." isOk="false"/>
         </tests>
         <sourceId>internal</sourceId>
         <text>God is good.</text>
