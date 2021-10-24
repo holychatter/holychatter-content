@@ -22,6 +22,41 @@
             <tag id="Bible"/>
           </tags>
         </message>
+        <folder name="1-2 Rois" id="1-2-rois" nb="6" image="1_king.jpg">
+          <message name="1–2 Rois - Synthèse" id="1-2-rois-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du livre des Rois !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uNfWBrrMn4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1R 1-22&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;2R 1-25&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-2-rois-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre des Rois !"/>
+            </triggers>
+            <references>
+              <bible book="1 Kgs" chapter="1" chapterEnd="22"/>
+              <bible book="2 Kgs" chapter="1" chapterEnd="25"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uNfWBrrMn4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="8" seconds="51"/>
+            <viewCount>24545</viewCount>
+            <uploadDate year="2019" month="4" day="14"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - 32e dimanche ordinaire B - 1re lecture - 1R 17, 10 - 16" id="commentaire-32e-dimanche-ordinaire-b-1re-lecture-1r-17-10-16" nb="1017">
+            <references>
+              <bible book="1 Kgs" chapter="17" verseBegin="10" verseEnd="16"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5I4xGSjQtTQ?rel=0&amp;start=101&amp;end=410&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="9"/>
+            <viewCount>1985</viewCount>
+            <uploadDate year="2015" month="11" day="2"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <message name="1–2 Chroniques - Synthèse" id="1-2-chroniques-synthese" nb="7">
           <tests>
             <test input="Fais-moi un résumé du livre des Chroniques !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zlz7aB9Zmhc?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Ch 1-29&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2Ch 1-36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-2-chroniques-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -38,26 +73,6 @@
           <duration minutes="6" seconds="28"/>
           <viewCount>14237</viewCount>
           <uploadDate year="2019" month="6" day="6"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
-        <message name="1–2 Rois - Synthèse" id="1-2-rois-synthese" nb="6">
-          <tests>
-            <test input="Fais-moi un résumé du livre des Rois !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uNfWBrrMn4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1R 1-22&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;2R 1-25&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-2-rois-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre des Rois !"/>
-          </triggers>
-          <references>
-            <bible book="1 Kgs" chapter="1" chapterEnd="22"/>
-            <bible book="2 Kgs" chapter="1" chapterEnd="25"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uNfWBrrMn4Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="8" seconds="51"/>
-          <viewCount>22985</viewCount>
-          <uploadDate year="2019" month="4" day="14"/>
           <tags>
             <tag id="Bible"/>
           </tags>
@@ -879,6 +894,22 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - 32e dimanche ordinaire B - Psaume - Ps 145, 6-10" id="commentaire-32e-dimanche-ordinaire-b-psaume-ps-145-6-10" nb="14506">
+            <references>
+              <bible book="Ps" chapter="145" verseBegin="6" verseEnd="10"/>
+              <bible book="Hos" chapter="6" verseBegin="6" linkFromCorpus="no"/>
+              <bible book="Mic" chapter="6" verseBegin="8" linkFromCorpus="no"/>
+              <bible book="Sir" chapter="35" verseBegin="18" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pf1x_bRJl2g?rel=0&amp;start=50&amp;end=430&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="20"/>
+            <viewCount>842</viewCount>
+            <uploadDate year="2015" month="11" day="3"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Commentaire - Fête de la Croix Glorieuse - Psaume - Ps 77, 3-4" id="commentaire-fete-de-la-croix-glorieuse-psaume-ps-77-3-4" nb="7703">
             <references>
               <bible book="Ps" chapter="77" verseBegin="3" verseEnd="4"/>
@@ -910,7 +941,7 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Psaumes - Synthèse" id="psaumes-synthese">
+          <message name="Psaumes - Synthèse" id="psaumes-synthese" nb="0">
             <tests>
               <test input="Fais-moi un résumé du livre des Psaumes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 1-150&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;psaumes-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -923,7 +954,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T-DvRiiLS1Y?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="9" seconds="4"/>
-            <viewCount>27471</viewCount>
+            <viewCount>29418</viewCount>
             <uploadDate year="2019" month="6" day="10"/>
             <tags>
               <tag id="Bible"/>
@@ -1584,6 +1615,23 @@
             <duration minutes="5" seconds="42"/>
             <viewCount>898</viewCount>
             <uploadDate year="2018" month="10" day="31"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - 32e dimanche ordinaire B - 2e lecture - He 9, 24-28" id="commentaire-32e-dimanche-ordinaire-b-2e-lecture-he-9-24-28" nb="924">
+            <references>
+              <bible book="Heb" chapter="9" verseBegin="24" verseEnd="28"/>
+              <bible book="1 Kgs" chapter="8" verseBegin="27" linkFromCorpus="no"/>
+              <bible book="Jn" chapter="2" verseBegin="13" verseEnd="21" linkFromCorpus="no"/>
+              <bible book="Heb" chapter="10" linkFromCorpus="no"/>
+              <bible book="Heb" chapter="9" verseBegin="11" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eXPzVLmvZfY?rel=0&amp;start=78&amp;end=422&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="44"/>
+            <viewCount>933</viewCount>
+            <uploadDate year="2015" month="11" day="4"/>
             <tags>
               <tag id="Bible"/>
             </tags>
@@ -3814,7 +3862,24 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Marc - Synthèse" id="marc-synthese">
+            <message name="Commentaire - 32e dimanche ordinaire B - Evangile - Mc 12, 38-44" id="commentaire-32e-dimanche-ordinaire-b-evangile-mc-12-38-44" nb="1238">
+              <references>
+                <bible book="Mk" chapter="12" verseBegin="38" verseEnd="44"/>
+                <bible book="Sir" chapter="38" verseBegin="34" chapterEnd="39" verseEnd="11" linkFromCorpus="no"/>
+                <bible book="Sir" chapter="39" verseBegin="1" verseEnd="3" linkFromCorpus="no"/>
+                <bible book="Mk" chapter="12" verseBegin="34" linkFromCorpus="no"/>
+                <bible book="1 Kgs" chapter="17" verseBegin="10" verseEnd="16" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dybk_VuLXts?rel=0&amp;start=85&amp;end=410&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="25"/>
+              <viewCount>1363</viewCount>
+              <uploadDate year="2015" month="11" day="5"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
+            </message>
+            <message name="Marc - Synthèse" id="marc-synthese" nb="0">
               <tests>
                 <test input="Fais-moi un résumé de l&apos;Évangile selon Marc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1-16&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;marc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
@@ -3827,7 +3892,7 @@ ci-dessous</text>
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="9" seconds="32"/>
-              <viewCount>23758</viewCount>
+              <viewCount>25505</viewCount>
               <uploadDate year="2018" month="11" day="15"/>
               <tags>
                 <tag id="Bible"/>
