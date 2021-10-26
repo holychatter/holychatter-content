@@ -1491,6 +1491,10 @@ Blessed are those who are persecuted for righteousness’ sake, for theirs is th
   <folder name="Chatbots" id="chatbots" isHidden="true">
     <chatbot name="By default" id="by-default" useDefaultContent="true" allowToJumpFromLocalMessageToDefaultRecommendations="true" useDefaultProactivity="true">
       <message name="Welcome" id="welcome">
+        <recommendations>
+          <recommendation text="What is love?" outMessageId="what-is-love-and-how-do-i-know"/>
+          <recommendation/>
+        </recommendations>
         <sourceId>internal</sourceId>
         <text fileType="text_and_html">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.
 Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
@@ -2121,6 +2125,16 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
             <sourceId>internal</sourceId>
             <text>My name is Holy Chatter.</text>
           </message>
+          <message name="What&apos;s the best thing we could want?" id="what-s-the-best-thing-we-could-want">
+            <tests>
+              <test input="What&apos;s the best thing we could want?" output="Jesus  \hc_resource_html=#en_US#&lt;img height=&quot;20&quot; src=&quot;/resources/emojis/happy.png&quot; /&gt;\"/>
+            </tests>
+            <triggers>
+              <trigger value="What&apos;s the best thing we could want?"/>
+            </triggers>
+            <sourceId>internal</sourceId>
+            <text>Eternal life with God.</text>
+          </message>
         </folder>
       </folder>
     </folder>
@@ -2148,13 +2162,16 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
       <triggers>
         <trigger value="What&apos;s the best thing we could want?"/>
       </triggers>
+      <recommendations>
+        <recommendation text="Why God created earth ?" outMessageId="who-am-i-in-the-mind-of-the-artist"/>
+      </recommendations>
       <references>
         <bible book="Jn" chapter="6" verseBegin="68"/>
       </references>
       <sourceId>imbeggar</sourceId>
       <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kkj1PQWqB_Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
       <duration minutes="3" seconds="45"/>
-      <viewCount>5682</viewCount>
+      <viewCount>6542</viewCount>
       <uploadDate year="2018" month="7" day="8"/>
     </message>
     <message name="Who am I... In the mind of the artist." id="who-am-i-in-the-mind-of-the-artist">
