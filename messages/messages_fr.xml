@@ -253,25 +253,40 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Daniel - Synthèse" id="daniel-synthese" nb="5">
-          <tests>
-            <test input="Fais-moi un résumé du livre du prophète Daniel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Dn 1-14&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;daniel-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre du prophète Daniel !"/>
-          </triggers>
-          <references>
-            <bible book="Dan" chapter="1" chapterEnd="14"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="8" seconds="54"/>
-          <viewCount>29999</viewCount>
-          <uploadDate year="2019" month="6" day="25"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Daniel" id="daniel" nb="5" image="daniel.jpg">
+          <message name="Commentaire - 33e dimanche ordinaire B - 1re lecture - Dn 12, 1-3" id="commentaire-33e-dimanche-ordinaire-b-1re-lecture-dn-12-1-3" nb="1201">
+            <references>
+              <bible book="Dan" chapter="12" verseBegin="1" verseEnd="3"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8SbKxah7ygc?rel=0&amp;start=67&amp;end=437&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="10"/>
+            <viewCount>1064</viewCount>
+            <uploadDate year="2015" month="11" day="9"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Daniel - Synthèse" id="daniel-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du livre du prophète Daniel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Dn 1-14&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;daniel-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre du prophète Daniel !"/>
+            </triggers>
+            <references>
+              <bible book="Dan" chapter="1" chapterEnd="14"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5RyZ2lceuPA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="8" seconds="54"/>
+            <viewCount>32780</viewCount>
+            <uploadDate year="2019" month="6" day="25"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <folder name="Ezéchiel" id="ezechiel" nb="4" image="ezekiel.jpg">
           <message name="Ézéchiel 1–33 - Synthèse" id="ezechiel-1-33-synthese" nb="1">
             <tests>
@@ -906,6 +921,21 @@
             <duration minutes="6" seconds="20"/>
             <viewCount>842</viewCount>
             <uploadDate year="2015" month="11" day="3"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - 33eme dimanche ordinaire B - Psaume - Ps 15, 5-11" id="commentaire-33eme-dimanche-ordinaire-b-psaume-ps-15-5-11" nb="1505">
+            <references>
+              <bible book="Ps" chapter="15" verseBegin="5" verseEnd="11"/>
+              <bible book="Dan" chapter="12" verseBegin="1" verseEnd="3" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="15" verseBegin="1" verseEnd="4" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CU-M1j6kWaY?rel=0&amp;start=51&amp;end=455&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="44"/>
+            <viewCount>1127</viewCount>
+            <uploadDate year="2015" month="11" day="10"/>
             <tags>
               <tag id="Bible"/>
             </tags>
@@ -1567,7 +1597,7 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <folder name="Hébreux" id="hebreux" nb="1">
+        <folder name="Hébreux" id="hebreux" nb="1" image="hebrews.jpg">
           <message name="Commentaire - 27e dimanche ordinaire B - 2e lecture - He 2, 9-11" id="commentaire-27e-dimanche-ordinaire-b-2e-lecture-he-2-9-11" nb="209">
             <references>
               <bible book="Heb" chapter="2" verseBegin="9" verseEnd="11"/>
@@ -1661,7 +1691,24 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Hébreux - Synthèse" id="hebreux-synthese" nb="1">
+          <message name="Commentaire - 33e dimanche ordinaire B - 2e lecture - He 10, 11-18." id="commentaire-33e-dimanche-ordinaire-b-2e-lecture-he-10-11-18" nb="1011">
+            <references>
+              <bible book="Heb" chapter="10" verseBegin="11" verseEnd="18"/>
+              <bible book="Jer" chapter="31" verseBegin="31" verseEnd="33" linkFromCorpus="no"/>
+              <bible book="Ezek" chapter="36" verseBegin="26" verseEnd="27" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="109" verseBegin="1" linkFromCorpus="no"/>
+              <bible book="Hos" chapter="6" verseBegin="6" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CUiPHLo7ZS4?rel=0&amp;start=61&amp;end=449&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="28"/>
+            <viewCount>997</viewCount>
+            <uploadDate year="2015" month="11" day="11"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Hébreux - Synthèse" id="hebreux-synthese">
             <tests>
               <test input="Fais-moi un résumé de la lettre aux hébreux !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/scvkhZ5DyhQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;He 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;hebreux-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -1674,15 +1721,15 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/scvkhZ5DyhQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="8" seconds="16"/>
-            <viewCount>19168</viewCount>
+            <viewCount>20824</viewCount>
             <uploadDate year="2019" month="4" day="8"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
         </folder>
-        <folder name="Jacques" id="jacques" nb="2">
-          <message name="Commentaire - 22e dimanche ordinaire B - 2e lecture - Jc 1, 17-27" id="commentaire-22e-dimanche-ordinaire-b-2e-lecture-jc-1-17-27">
+        <folder name="Jacques" id="jacques" nb="2" image="sermon_sur_la_montagne.jpg">
+          <message name="Commentaire - 22e dimanche ordinaire B - 2e lecture - Jc 1, 17-27" id="commentaire-22e-dimanche-ordinaire-b-2e-lecture-jc-1-17-27" nb="117">
             <references>
               <bible book="Jas" chapter="1" verseBegin="17" verseEnd="27"/>
               <bible book="Jn" chapter="3" verseBegin="16" linkFromCorpus="no"/>
@@ -1695,13 +1742,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9a1gXV1UxB8?rel=0&amp;start=69&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6"/>
-            <viewCount>943</viewCount>
+            <viewCount>946</viewCount>
             <uploadDate year="2015" month="8" day="26"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 23e dimanche ordinaire B - 2e lecture - Jc 2, 1-5" id="commentaire-23e-dimanche-ordinaire-b-2e-lecture-jc-2-1-5">
+          <message name="Commentaire - 23e dimanche ordinaire B - 2e lecture - Jc 2, 1-5" id="commentaire-23e-dimanche-ordinaire-b-2e-lecture-jc-2-1-5" nb="201">
             <references>
               <bible book="Jas" chapter="2" verseBegin="1" verseEnd="5"/>
               <bible book="Lev" chapter="19" verseBegin="15" linkFromCorpus="no"/>
@@ -1718,13 +1765,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zaGMQNU9DMk?rel=0&amp;start=73&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6"/>
-            <viewCount>955</viewCount>
+            <viewCount>956</viewCount>
             <uploadDate year="2015" month="9" day="2"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 24e dimanche ordinaire B - 2e lecture - Jc 2, 14-18" id="commentaire-24e-dimanche-ordinaire-b-2e-lecture-jc-2-14-18">
+          <message name="Commentaire - 24e dimanche ordinaire B - 2e lecture - Jc 2, 14-18" id="commentaire-24e-dimanche-ordinaire-b-2e-lecture-jc-2-14-18" nb="214">
             <references>
               <bible book="Jas" chapter="2" verseBegin="14" verseEnd="18"/>
               <bible book="Mt" chapter="7" verseBegin="21" linkFromCorpus="no"/>
@@ -1739,13 +1786,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/46wxFj-EK_Q?rel=0&amp;start=59&amp;end=389&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="30"/>
-            <viewCount>843</viewCount>
+            <viewCount>845</viewCount>
             <uploadDate year="2015" month="9" day="9"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 25e dimanche ordinaire B - 2e lecture - Jc 3, 16 - 4,3" id="commentaire-25e-dimanche-ordinaire-b-2e-lecture-jc-3-16-43">
+          <message name="Commentaire - 25e dimanche ordinaire B - 2e lecture - Jc 3, 16 - 4,3" id="commentaire-25e-dimanche-ordinaire-b-2e-lecture-jc-3-16-43" nb="316">
             <references>
               <bible book="Jas" chapter="3" verseBegin="16" chapterEnd="4" verseEnd="3"/>
               <bible book="Jas" chapter="3" verseBegin="15" linkFromCorpus="no"/>
@@ -1760,13 +1807,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/lkXNzHxF6fY?rel=0&amp;start=80&amp;end=409&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="29"/>
-            <viewCount>650</viewCount>
+            <viewCount>652</viewCount>
             <uploadDate year="2015" month="9" day="17"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 26e dimanche ordinaire B - 2e lecture - Jc 5, 1-6" id="commentaire-26e-dimanche-ordinaire-b-2e-lecture-jc-5-1-6">
+          <message name="Commentaire - 26e dimanche ordinaire B - 2e lecture - Jc 5, 1-6" id="commentaire-26e-dimanche-ordinaire-b-2e-lecture-jc-5-1-6" nb="501">
             <references>
               <bible book="Jas" chapter="5" verseBegin="1" verseEnd="6"/>
               <bible book="Ex" chapter="3" verseBegin="9" linkFromCorpus="no"/>
@@ -1782,13 +1829,13 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/naVKKTxl19c?rel=0&amp;start=69&amp;end=413&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="44"/>
-            <viewCount>1369</viewCount>
+            <viewCount>1370</viewCount>
             <uploadDate year="2015" month="9" day="23"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Jacques - Synthèse" id="jacques-synthese" nb="2">
+          <message name="Jacques - Synthèse" id="jacques-synthese">
             <tests>
               <test input="Fais-moi un résumé de la lettre de Jacques !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_hXVE65I2tw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jc 1-5&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;jacques-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -1801,15 +1848,15 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_hXVE65I2tw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="8" seconds="2"/>
-            <viewCount>16266</viewCount>
+            <viewCount>17532</viewCount>
             <uploadDate year="2019" month="4" day="28"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
         </folder>
-        <folder name="Jean" id="jean-autres-epitres" nb="5">
-          <message name="1–3 Jean - Synthèse" id="1-3-jean-synthese" nb="0">
+        <folder name="Jean" id="jean-autres-epitres" nb="5" image="1_john.jpg">
+          <message name="1–3 Jean - Synthèse" id="1-3-jean-synthese">
             <tests>
               <test input="Fais-moi un résumé des lettres de Jean !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N-q8TaM8opA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Jn 1-5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;2Jn 1&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;3Jn 1&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-3-jean-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -1824,7 +1871,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N-q8TaM8opA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="9" seconds="40"/>
-            <viewCount>17309</viewCount>
+            <viewCount>17603</viewCount>
             <uploadDate year="2019" month="4" day="13"/>
             <tags>
               <tag id="Bible"/>
@@ -2426,8 +2473,11 @@
               <sourceId>croire</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UUtUyQsMKQo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="3" seconds="10"/>
-              <viewCount>11590</viewCount>
+              <viewCount>11672</viewCount>
               <uploadDate year="2015" month="10" day="9"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
             </message>
             <message name="Quand fête-t-on l&apos;annonciation ?" id="quand-fete-t-on-l-annonciation">
               <tests>
@@ -3910,6 +3960,22 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
+            <message name="Commentaire - 33e dimanche ordinaire B - Evangile - Mc 13, 24-32" id="commentaire-33e-dimanche-ordinaire-b-evangile-mc-13-24-32" nb="1324">
+              <references>
+                <bible book="Mk" chapter="13" verseBegin="24" verseEnd="32"/>
+                <bible book="Joel" chapter="3" verseBegin="1" verseEnd="5" linkFromCorpus="no"/>
+                <bible book="Joel" chapter="4" verseBegin="15" verseEnd="16" linkFromCorpus="no"/>
+                <bible book="Jn" chapter="16" verseBegin="33"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mUPTY1I8Yq8?rel=0&amp;start=98&amp;end=451&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="53"/>
+              <viewCount>1615</viewCount>
+              <uploadDate year="2015" month="11" day="12"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
+            </message>
             <message name="Marc - Synthèse" id="marc-synthese" nb="0">
               <tests>
                 <test input="Fais-moi un résumé de l&apos;Évangile selon Marc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9NhjIuy6_oo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1-16&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;marc-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -3929,7 +3995,7 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Podcast Benjamin Pouzin - #1 Jésus lui dit : &quot;Suis-moi&quot;" id="podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi" nb="0">
+            <message name="Podcast Benjamin Pouzin - #1 Jésus lui dit : &quot;Suis-moi&quot;" id="podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi" nb="1">
               <tests>
                 <test input="Quelle est la force qui pousse quelqu&apos;un à tout laisser pour partir à l&apos;aventure ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 2, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi&quot; textlength=&quot;8&quot; /&gt;"/>
                 <test input="Quelle est la force qui pousse quelqu&apos;un à tout laisser pour partir vers l&apos;inconnu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 2, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-1-jesus-lui-dit-suis-moi&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -3946,13 +4012,13 @@ ci-dessous</text>
               <sourceId>glorious</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Yl7trcXi-Kk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="8" seconds="24"/>
-              <viewCount>14293</viewCount>
+              <viewCount>14298</viewCount>
               <uploadDate year="2020" month="3" day="17"/>
               <tags>
                 <tag id="Prédication"/>
               </tags>
             </message>
-            <message name="Podcast Benjamin Pouzin - #3 Jésus fût baptisé" id="podcast-benjamin-pouzin-3-jesus-ft-baptise" nb="0">
+            <message name="Podcast Benjamin Pouzin - #3 Jésus fût baptisé" id="podcast-benjamin-pouzin-3-jesus-ft-baptise" nb="2">
               <tests>
                 <test input="Pourquoi Jésus fût baptisé ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-3-jesus-ft-baptise&quot; textlength=&quot;8&quot; /&gt;"/>
                 <test input="Que signifie le baptême de Jésus ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 9&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Glorious&quot; resourceid=&quot;podcast-benjamin-pouzin-3-jesus-ft-baptise&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -3967,7 +4033,7 @@ ci-dessous</text>
               <sourceId>glorious</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KOQcJqpj64M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="4" seconds="26"/>
-              <viewCount>11313</viewCount>
+              <viewCount>11318</viewCount>
               <uploadDate year="2020" month="3" day="31"/>
               <tags>
                 <tag id="Prédication"/>
@@ -5739,8 +5805,11 @@ Vous souhaitez nous rejoindre ?</text>
         <sourceId>forum-jesus-le-messie</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ti9UYcYpkSg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration seconds="58"/>
-        <viewCount>1542</viewCount>
+        <viewCount>1563</viewCount>
         <uploadDate year="2019" month="7" day="10"/>
+        <tags>
+          <tag id="Islam"/>
+        </tags>
       </message>
       <message name="Quelle est la signification de Dieu qui est Trinité ?" id="quelle-est-la-signification-de-dieu-qui-est-trinite">
         <tests>
@@ -6542,8 +6611,12 @@ Cela ne veut pas dire que personne n’a été sauvé ni n’est monté au ciel 
         <sourceId>imineo</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rah8qg0H04w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration hours="1" minutes="25" seconds="34"/>
-        <viewCount>755977</viewCount>
+        <viewCount>759795</viewCount>
         <uploadDate year="2013" month="9" day="12"/>
+        <tags>
+          <tag id="DessinAnimé"/>
+          <tag id="Bible"/>
+        </tags>
       </message>
       <message name="Jésus est-il Dieu ? - abbé Guy Pagès" id="jesus-est-il-dieu-abbe-guy-pages">
         <tests>
@@ -6558,8 +6631,11 @@ Cela ne veut pas dire que personne n’a été sauvé ni n’est monté au ciel 
         <sourceId>forum-jesus-le-messie</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/o009EgegdEo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration seconds="54"/>
-        <viewCount>1157</viewCount>
+        <viewCount>1180</viewCount>
         <uploadDate year="2019" month="7" day="9"/>
+        <tags>
+          <tag id="Islam"/>
+        </tags>
       </message>
       <message name="Jésus et la croix" id="jesus-et-la-croix">
         <references>
@@ -6635,8 +6711,11 @@ L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
         <sourceId>forum-jesus-le-messie</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LsQH7qVq3IY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="1" seconds="29"/>
-        <viewCount>3252</viewCount>
+        <viewCount>3298</viewCount>
         <uploadDate year="2019" month="7" day="9"/>
+        <tags>
+          <tag id="Islam"/>
+        </tags>
       </message>
       <message name="Jésus, homme et Dieu ?" id="jesus-homme-et-dieu">
         <tests>
@@ -7788,8 +7867,11 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
         <sourceId>forum-jesus-le-messie</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bReGHhLR_40?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="1" seconds="36"/>
-        <viewCount>6149</viewCount>
+        <viewCount>6236</viewCount>
         <uploadDate year="2019" month="7" day="10"/>
+        <tags>
+          <tag id="Islam"/>
+        </tags>
       </message>
       <message name="Qui est Jésus ?" id="qui-est-jesus">
         <tests>
@@ -20779,8 +20861,11 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         <sourceId>croire</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="2" seconds="2"/>
-        <viewCount>3631</viewCount>
+        <viewCount>3660</viewCount>
         <uploadDate year="2012" month="8" day="1"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
       </message>
     </folder>
     <folder name="Frédéric Ozanam" id="frederic-ozanam" nb="1" image="fréderic_ozanam.jpg">
@@ -20937,8 +21022,11 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         <sourceId>croire</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NKc5fZ4SPvA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="2" seconds="22"/>
-        <viewCount>1422</viewCount>
+        <viewCount>1448</viewCount>
         <uploadDate year="2012" month="8" day="1"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
       </message>
       <message name="Marie dans le Nouveau Testament" id="marie-dans-le-nouveau-testament">
         <tests>
@@ -21144,8 +21232,11 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         <sourceId>croire</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="2" seconds="44"/>
-        <viewCount>37849</viewCount>
+        <viewCount>39135</viewCount>
         <uploadDate year="2012" month="9" day="12"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
       </message>
       <message name="Saint François d&apos;Assise - Frère Eric Bidot" id="saint-francois-d-assise-frere-eric-bidot">
         <tests>
@@ -21157,8 +21248,11 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         <sourceId>en-quete-d-esprit</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="6" seconds="31"/>
-        <viewCount>56</viewCount>
+        <viewCount>58</viewCount>
         <uploadDate year="2020" month="8" day="22"/>
+        <tags>
+          <tag id="Découverte"/>
+        </tags>
       </message>
     </folder>
     <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney" nb="1" image="cure-d-ars.jpg">
