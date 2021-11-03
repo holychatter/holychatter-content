@@ -14595,8 +14595,12 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
       </message>
       <folder name="Paix intérieure" id="paix-interieure" image="paix_interieure.jpg">
         <message name="La paix intérieure" id="la-paix-interieure">
+          <tests>
+            <test input="Comment remplir ce vide ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QSHD4chwwRI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 19, 41-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Dt 6, 4-5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 29-31&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Le catho de service&quot; resourceid=&quot;la-paix-interieure&quot; textlength=&quot;19&quot; /&gt;"/>
+          </tests>
           <triggers>
             <trigger value="C&apos;est quoi la paix intérieure ?"/>
+            <trigger value="Comment remplir ce vide ?"/>
           </triggers>
           <references>
             <bible book="Lk" chapter="19" verseBegin="41" verseEnd="44"/>
@@ -14606,8 +14610,11 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           <sourceId>le-catho-de-service</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/QSHD4chwwRI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="8" seconds="27"/>
-          <viewCount>65</viewCount>
+          <viewCount>68</viewCount>
           <uploadDate year="2021" month="11" day="3"/>
+          <tags>
+            <tag id="Découverte"/>
+          </tags>
         </message>
         <message name="Peut-on faire du yoga quand on est chrétien ? Que dit l&apos;Eglise ? et la Bible ?" id="peut-on-faire-du-yoga-quand-on-est-chretien-que-dit-l-eglise-et-la-bible">
           <triggers>
@@ -14833,7 +14840,7 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         </message>
         <message name="Les différentes vocations chrétiennes : récap en bref...." id="les-differentes-vocations-chretiennes-recap-en-bref">
           <tests>
-            <test input="Quelles sont les différentes vocations chrétiennes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-hBldVTya5M?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;les-differentes-vocations-chretiennes-recap-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Quelles sont les différentes vocations chrétiennes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-hBldVTya5M?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 7, 37-38&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;les-differentes-vocations-chretiennes-recap-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Quelles sont les différentes vocations chrétiennes ?"/>
@@ -24162,8 +24169,8 @@ Amen</text>
       <folder name="Musiques" id="musiques" image="music.jpg">
         <message name="Chants à la très Douce Vierge Marie en latin" id="chants-a-la-tres-douce-vierge-marie-en-latin">
           <tests>
-            <test input="Je veux écouter un &quot;Je vous salue Marie&quot; chanté en latin !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q-RYiyY-3YE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;GoldM90&quot; resourceid=&quot;chants-a-la-tres-douce-vierge-marie-en-latin&quot; textlength=&quot;7&quot; /&gt;"/>
-            <test input="Je veux écouter l&apos;Ave Maria !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q-RYiyY-3YE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;GoldM90&quot; resourceid=&quot;chants-a-la-tres-douce-vierge-marie-en-latin&quot; textlength=&quot;7&quot; /&gt;"/>
+            <test input="Je veux écouter un &quot;Je vous salue Marie&quot; chanté en latin !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q-RYiyY-3YE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Rédemption&quot; resourceid=&quot;chants-a-la-tres-douce-vierge-marie-en-latin&quot; textlength=&quot;11&quot; /&gt;"/>
+            <test input="Je veux écouter l&apos;Ave Maria !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q-RYiyY-3YE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Rédemption&quot; resourceid=&quot;chants-a-la-tres-douce-vierge-marie-en-latin&quot; textlength=&quot;11&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Je veux écouter un &quot;Je vous salue Marie&quot; chanté en latin !"/>
