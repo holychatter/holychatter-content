@@ -427,7 +427,7 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 3e dimanche de l&apos;Avent C - Psaume - Cantique d&apos;Isaie 12, 2-3. 4bcde. 5-6." id="commentaire-3e-dimanche-de-l-avent-c-psaume-cantique-d-isaie-12-2-3-4bcde-5-6" nb="1202">
+          <message name="Commentaire - 3e dimanche de l&apos;Avent C (dimanche de Gaudete) - Psaume - Cantique d&apos;Isaie 12, 2-3. 4bcde. 5-6." id="commentaire-3e-dimanche-de-l-avent-c-dimanche-de-gaudete-psaume-cantique-d-isaie-12-2-3-4bcde-5-6" nb="1202">
             <references>
               <bible book="Is" chapter="12" verseBegin="2" verseEnd="6"/>
               <bible book="Is" chapter="7" verseBegin="2" linkFromCorpus="no"/>
@@ -441,7 +441,7 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5v95gP0lvtQ?rel=0&amp;start=56&amp;end=420&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6" seconds="4"/>
-            <viewCount>1019</viewCount>
+            <viewCount>1039</viewCount>
             <uploadDate year="2015" month="12" day="8"/>
             <tags>
               <tag id="Bible"/>
@@ -613,25 +613,41 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Michée - Synthèse" id="michee-synthese" nb="12">
-          <tests>
-            <test input="Fais-moi un résumé du livre du prophète Michée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dmS-4-0cx5g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mi 1-7&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;michee-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre du prophète Michée !"/>
-          </triggers>
-          <references>
-            <bible book="Mic" chapter="1" chapterEnd="7"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dmS-4-0cx5g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="6" seconds="38"/>
-          <viewCount>14412</viewCount>
-          <uploadDate year="2019" month="7" day="1"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Michée" id="michee" nb="12" image="micah.jpg">
+          <message name="Commentaire - 4e dimanche de l&apos;Avent C - 1re lecture - Mi 5, 1-4" id="commentaire-4e-dimanche-de-l-avent-c-1re-lecture-mi-5-1-4" nb="501">
+            <references>
+              <bible book="Mic" chapter="5" verseBegin="1" verseEnd="4"/>
+              <bible book="Jn" chapter="7" verseBegin="40" verseEnd="43" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9bfXwsg6EwM?rel=0&amp;start=65&amp;end=428&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="3"/>
+            <viewCount>568</viewCount>
+            <uploadDate year="2015" month="12" day="14"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Michée - Synthèse" id="michee-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du livre du prophète Michée !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dmS-4-0cx5g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mi 1-7&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;michee-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre du prophète Michée !"/>
+            </triggers>
+            <references>
+              <bible book="Mic" chapter="1" chapterEnd="7"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dmS-4-0cx5g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="38"/>
+            <viewCount>14896</viewCount>
+            <uploadDate year="2019" month="7" day="1"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <message name="Nahum - Synthèse" id="nahum-synthese" nb="13">
           <tests>
             <test input="Fais-moi un résumé du livre du prophète Nahum !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7rBdJ1JZo9A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Na 1-3&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;nahum-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -671,7 +687,7 @@
           </tags>
         </message>
         <folder name="Sophonie" id="sophonie" nb="15" image="zephaniah.jpg">
-          <message name="Commentaire - 3e dimanche de l&apos;Avent C - 1re lecture - So 3, 14-18" id="commentaire-3e-dimanche-de-l-avent-c-1re-lecture-so-3-14-18" nb="3014">
+          <message name="Commentaire - 3e dimanche de l&apos;Avent C (dimanche de Gaudete) - 1re lecture - So 3, 14-18" id="commentaire-3e-dimanche-de-l-avent-c-dimanche-de-gaudete-1re-lecture-so-3-14-18" nb="3014">
             <references>
               <bible book="Zeph" chapter="3" verseBegin="14" verseEnd="18"/>
               <bible book="Zeph" chapter="2" verseBegin="3" linkFromCorpus="no"/>
@@ -681,7 +697,7 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gzjgxzOX7HE?rel=0&amp;start=64&amp;end=431&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6" seconds="7"/>
-            <viewCount>1129</viewCount>
+            <viewCount>1158</viewCount>
             <uploadDate year="2015" month="12" day="7"/>
             <tags>
               <tag id="Bible"/>
@@ -1056,6 +1072,25 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - 4e dimanche de l&apos;Avent C - Psaume - Ps 79, 2ac. 3bc, 15-16, 18-19" id="commentaire-4e-dimanche-de-l-avent-c-psaume-ps-79-2ac-3bc-15-16-18-19" nb="7902">
+            <references>
+              <bible book="Ps" chapter="79" verseBegin="2" verseEnd="19"/>
+              <bible book="Is" chapter="5" verseBegin="1" verseEnd="2" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="79" verseBegin="9" verseEnd="12" linkFromCorpus="no"/>
+              <bible book="Is" chapter="5" verseBegin="2" verseEnd="6" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="79" verseBegin="13" verseEnd="14" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="79" verseBegin="17" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="79" verseBegin="7" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yZGcTVjZNjo?rel=0&amp;start=47&amp;end=430&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="23"/>
+            <viewCount>994</viewCount>
+            <uploadDate year="2015" month="12" day="15"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Commentaire - Fête de la Croix Glorieuse - Psaume - Ps 77, 3-4" id="commentaire-fete-de-la-croix-glorieuse-psaume-ps-77-3-4" nb="7703">
             <references>
               <bible book="Ps" chapter="77" verseBegin="3" verseEnd="4"/>
@@ -1321,9 +1356,9 @@
           <folder name="Abraham" id="abraham" image="abraham.jpg">
             <message name="Abraham en 3 minutes" id="abraham-en-3-minutes">
               <tests>
-                <test input="Que signifie Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 11, 10 - 25,18&quot; textlength=&quot;17&quot; /&gt;&lt;hc_bible ref=&quot;Gn 22, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;abraham-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
-                <test input="Quel est le drame d&apos;Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 11, 10 - 25,18&quot; textlength=&quot;17&quot; /&gt;&lt;hc_bible ref=&quot;Gn 22, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;abraham-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
-                <test input="Qu&apos;est-ce que le sacrifice d&apos;Isaac ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 11, 10 - 25,18&quot; textlength=&quot;17&quot; /&gt;&lt;hc_bible ref=&quot;Gn 22, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;abraham-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Que signifie Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 11, 10 - 25, 18&quot; textlength=&quot;18&quot; /&gt;&lt;hc_bible ref=&quot;Gn 22, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;abraham-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Quel est le drame d&apos;Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 11, 10 - 25, 18&quot; textlength=&quot;18&quot; /&gt;&lt;hc_bible ref=&quot;Gn 22, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;abraham-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
+                <test input="Qu&apos;est-ce que le sacrifice d&apos;Isaac ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f0EwQ0EV0Z8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 11, 10 - 25, 18&quot; textlength=&quot;18&quot; /&gt;&lt;hc_bible ref=&quot;Gn 22, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Padre DK&quot; resourceid=&quot;abraham-en-3-minutes&quot; textlength=&quot;8&quot; /&gt;"/>
               </tests>
               <triggers>
                 <trigger value="Que signifie Abraham ?"/>
@@ -1838,7 +1873,25 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Hébreux - Synthèse" id="hebreux-synthese">
+          <message name="Commentaire - 4e dimanche de l&apos;Avent C - 2e lecture - He 10, 5-10" id="commentaire-4e-dimanche-de-l-avent-c-2e-lecture-he-10-5-10" nb="1005">
+            <references>
+              <bible book="Heb" chapter="10" verseBegin="5" verseEnd="10"/>
+              <bible book="Ps" chapter="39" linkFromCorpus="no"/>
+              <bible book="Gen" chapter="22" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="3" verseBegin="1" verseEnd="7" linkFromCorpus="no"/>
+              <bible book="1 Sam" chapter="3" verseBegin="1" verseEnd="9" linkFromCorpus="no"/>
+              <bible book="1 Sam" chapter="15" verseBegin="22" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/exWLnnU61XE?rel=0&amp;start=74&amp;end=451&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="17"/>
+            <viewCount>1064</viewCount>
+            <uploadDate year="2015" month="12" day="16"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Hébreux - Synthèse" id="hebreux-synthese" nb="0">
             <tests>
               <test input="Fais-moi un résumé de la lettre aux hébreux !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/scvkhZ5DyhQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;He 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;hebreux-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -1851,7 +1904,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/scvkhZ5DyhQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="8" seconds="16"/>
-            <viewCount>20824</viewCount>
+            <viewCount>22101</viewCount>
             <uploadDate year="2019" month="4" day="8"/>
             <tags>
               <tag id="Bible"/>
@@ -2412,7 +2465,7 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - 3e dimanche de l&apos;Avent C - 2e lecture - Ph 4, 4-7" id="commentaire-3e-dimanche-de-l-avent-c-2e-lecture-ph-4-4-7" nb="404">
+          <message name="Commentaire - 3e dimanche de l&apos;Avent C (dimanche de Gaudete) - 2e lecture - Ph 4, 4-7" id="commentaire-3e-dimanche-de-l-avent-c-dimanche-de-gaudete-2e-lecture-ph-4-4-7" nb="404">
             <references>
               <bible book="Phil" chapter="4" verseBegin="4" verseEnd="7"/>
               <bible book="Phil" chapter="3" verseBegin="20" linkFromCorpus="no"/>
@@ -2423,7 +2476,7 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CNAims6CFzQ?rel=0&amp;start=49&amp;end=420&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6" seconds="11"/>
-            <viewCount>1008</viewCount>
+            <viewCount>1024</viewCount>
             <uploadDate year="2015" month="12" day="9"/>
             <tags>
               <tag id="Bible"/>
@@ -3971,15 +4024,33 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Commentaire - 3e dimanche de l&apos;Avent C - Evangile - Lc 3, 10-18" id="commentaire-3e-dimanche-de-l-avent-c-evangile-lc-3-10-18" nb="3010">
+            <message name="Commentaire - 3e dimanche de l&apos;Avent C (dimanche de Gaudete) - Evangile - Lc 3, 10-18" id="commentaire-3e-dimanche-de-l-avent-c-dimanche-de-gaudete-evangile-lc-3-10-18" nb="310">
               <references>
-                <bible book="Lk" chapter="3" verseBegin="10" verseEnd="18" linkFromCorpus="no"/>
+                <bible book="Lk" chapter="3" verseBegin="10" verseEnd="18"/>
               </references>
               <sourceId>en-marche-vers-dimanche</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/x-4EieLiGY8?rel=0&amp;start=101&amp;end=390&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="4" seconds="49"/>
-              <viewCount>1482</viewCount>
+              <viewCount>1555</viewCount>
               <uploadDate year="2015" month="12" day="10"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
+            </message>
+            <message name="Commentaire - 4e dimanche de l&apos;Avent C - Evangile - Lc 1, 39-45" id="commentaire-4e-dimanche-de-l-avent-c-evangile-lc-1-39-45" nb="139">
+              <references>
+                <bible book="Lk" chapter="1" verseBegin="39" verseEnd="45" linkFromCorpus="no"/>
+                <bible book="Lk" chapter="1" verseBegin="13" verseEnd="17" linkFromCorpus="no"/>
+                <bible book="2 Sam" chapter="6" verseBegin="2" verseEnd="11" linkFromCorpus="no"/>
+                <bible book="2 Sam" chapter="6" verseBegin="12" linkFromCorpus="no"/>
+                <bible book="2 Sam" chapter="6" verseBegin="16" linkFromCorpus="no"/>
+                <bible book="Jn" chapter="1" verseBegin="14" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wTdGuiqNSQg?rel=0&amp;start=70&amp;end=432&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="6" seconds="2"/>
+              <viewCount>1557</viewCount>
+              <uploadDate year="2015" month="12" day="17"/>
               <tags>
                 <tag id="Bible"/>
               </tags>
@@ -5890,6 +5961,17 @@ Vous souhaitez nous rejoindre ?</text>
         <tags>
           <tag id="Théologie"/>
         </tags>
+      </message>
+      <message name="Quels sont les 7 dons de l&apos;Esprit Saint ?" id="quels-sont-les-7-dons-de-l-esprit-saint">
+        <tests>
+          <test input="Quels sont les 7 dons de l&apos;Esprit Saint ?" output="Les 7 dons de l&apos;Esprit Saint sont la sagesse, l’intelligence, la science, la force, le conseil, la piété et la crainte.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i_Ux4lXgPi0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;quels-sont-les-7-dons-de-l-esprit-saint&quot; url=&quot;https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/la-pentecote/438333-sept-dons-de-lesprit-saint/&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Is 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;7-dons-de-l-esprit-saint-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quels sont les 7 dons de l&apos;Esprit Saint ?"/>
+        </triggers>
+        <sourceId>eglise-catholique-en-france</sourceId>
+        <sourceUrl>https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/la-pentecote/438333-sept-dons-de-lesprit-saint/</sourceUrl>
+        <text>Les 7 dons de l&apos;Esprit Saint sont la sagesse, l’intelligence, la science, la force, le conseil, la piété et la crainte.</text>
       </message>
       <message name="Qui est l’Esprit Saint ?" id="qui-est-l-esprit-saint">
         <tests>
@@ -10173,10 +10255,10 @@ Amen.&quot;</text>
       </message>
       <message name="Histoire(s) d&apos;Eglise: des martyrs à l&apos;Empire" id="histoires-d-eglise-des-martyrs-a-l-empire" nb="2">
         <tests>
-          <test input="Comment les Eglise est passée de martyrs à l&apos;Empire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wdWawY9Dt14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;histoires-d-eglise-des-martyrs-a-l-empire&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="Comment l&apos;Eglise est passée de martyrs à l&apos;Empire ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wdWawY9Dt14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 7, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 50, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;histoires-d-eglise-des-martyrs-a-l-empire&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
         <triggers>
-          <trigger value="Comment les Eglise est passée de martyrs à l&apos;Empire ?"/>
+          <trigger value="Comment l&apos;Eglise est passée de martyrs à l&apos;Empire ?"/>
         </triggers>
         <references>
           <bible book="Is" chapter="7" verseBegin="14"/>
@@ -10185,7 +10267,7 @@ Amen.&quot;</text>
         <sourceId>theodom</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wdWawY9Dt14?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="7" seconds="14"/>
-        <viewCount>8479</viewCount>
+        <viewCount>8488</viewCount>
         <uploadDate year="2019" month="7" day="29"/>
         <tags>
           <tag id="Histoire"/>
@@ -11267,6 +11349,19 @@ Amen.&quot;</text>
             <tags>
               <tag id="Prédication"/>
             </tags>
+          </message>
+          <message name="Le troisième dimanche de l&apos;Avent (Gaudete - Réjouissez-vous)" id="le-troisieme-dimanche-de-l-avent-gaudete-rejouissez-vous">
+            <tests>
+              <test input="Qu&apos;est-ce que le dimanche du Gaudete ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eHRxQfj5dc8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;le-troisieme-dimanche-de-l-avent-gaudete-rejouissez-vous&quot; textlength=&quot;18&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Qu&apos;est-ce que le dimanche du Gaudete ?"/>
+            </triggers>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eHRxQfj5dc8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="2" seconds="51"/>
+            <viewCount>62</viewCount>
+            <uploadDate year="2020" month="12" day="12"/>
           </message>
         </folder>
         <folder name="Carême" id="careme" nb="4" image="careme.jpg">
@@ -21043,8 +21138,8 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
       <folder name="A propos" id="a-propos-charimes" image="about.png">
         <message name="7 dons de l&apos;Esprit Saint, en bref...." id="7-dons-de-l-esprit-saint-en-bref">
           <tests>
-            <test input="Quels sont les 7 dons de l&apos;Esprit Saint ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i_Ux4lXgPi0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;7-dons-de-l-esprit-saint-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
-            <test input="Quels sont les 7 dons du Saint-Esprit ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i_Ux4lXgPi0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Is 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;7-dons-de-l-esprit-saint-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Quels sont les 7 dons de l&apos;Esprit Saint ?" output="Les 7 dons de l&apos;Esprit Saint sont la sagesse, l’intelligence, la science, la force, le conseil, la piété et la crainte.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i_Ux4lXgPi0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;quels-sont-les-7-dons-de-l-esprit-saint&quot; url=&quot;https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/la-pentecote/438333-sept-dons-de-lesprit-saint/&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Is 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;7-dons-de-l-esprit-saint-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
+            <test input="Quels sont les 7 dons du Saint-Esprit ?" output="Les 7 dons de l&apos;Esprit Saint sont la sagesse, l’intelligence, la science, la force, le conseil, la piété et la crainte.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i_Ux4lXgPi0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;quels-sont-les-7-dons-de-l-esprit-saint&quot; url=&quot;https://eglise.catholique.fr/approfondir-sa-foi/la-celebration-de-la-foi/les-grandes-fetes-chretiennes/la-pentecote/438333-sept-dons-de-lesprit-saint/&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Is 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;7-dons-de-l-esprit-saint-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Quels sont les 7 dons de l&apos;Esprit Saint ?"/>
@@ -24506,6 +24601,26 @@ Amen.</text>
         </tags>
       </message>
     </folder>
+    <folder name="Lectio divina" id="lectio-divina" nb="5" image="lectio_divina.jpg">
+      <message name="Comment faire de la lectio divina ? (méditer la Bible)" id="comment-faire-de-la-lectio-divina-mediter-la-bible">
+        <tests>
+          <test input="Comment faire de la lectio divina ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xlMZY0WjlGc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;comment-faire-de-la-lectio-divina-mediter-la-bible&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Comment méditer la Bible ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xlMZY0WjlGc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;comment-faire-de-la-lectio-divina-mediter-la-bible&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment faire de la lectio divina ?"/>
+          <trigger value="Comment méditer la Bible ?"/>
+        </triggers>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xlMZY0WjlGc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration seconds="54"/>
+        <viewCount>2950</viewCount>
+        <uploadDate year="2021" month="12" day="8"/>
+        <tags>
+          <tag id="Néophyte"/>
+        </tags>
+      </message>
+    </folder>
     <folder name="Liturgie des heures" id="liturgie-des-heures" nb="5" image="liturgie_des_heures.jpg">
       <message name="La liturgie des heures - Mgr Gobilliard" id="la-liturgie-des-heures-mgr-gobilliard">
         <tests>
@@ -25174,6 +25289,19 @@ Amen</text>
         </message>
       </folder>
       <folder name="À propos" id="a-propos-marie" image="about.png">
+        <folder name="Chatbot" id="chatbot-a-propos-6" isHidden="true">
+          <message name="Cela veut dire quoi de prier Marie ?" id="cela-veut-dire-quoi-de-prier-marie">
+            <tests>
+              <test input="Cela veut dire quoi de prier Marie ?" output="Prier Marie, ça veut dire prier Dieu avec Marie et avec tous les chrétiens. Marie n&apos;est que la première de tous les chrétiens.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/us9JRQVtfOg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;cela-veut-dire-quoi-de-prier-marie&quot; url=&quot;https://youtu.be/us9JRQVtfOg&quot; textlength=&quot;18&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;prier-marie-cela-veut-dire-quoi-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Cela veut dire quoi de prier Marie ?"/>
+            </triggers>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <sourceUrl>https://youtu.be/us9JRQVtfOg</sourceUrl>
+            <text>Prier Marie, ça veut dire prier Dieu avec Marie et avec tous les chrétiens. Marie n&apos;est que la première de tous les chrétiens.</text>
+          </message>
+        </folder>
         <message name="Pourquoi les catholiques demandent l&apos;intercession de sainte Marie ?" id="pourquoi-les-catholiques-demandent-l-intercession-de-sainte-marie">
           <triggers>
             <trigger value="Pourquoi les catholiques demandent l&apos;intercession de sainte Marie ?"/>
@@ -25193,7 +25321,7 @@ Amen</text>
         </message>
         <message name="Prier Marie, cela veut dire quoi ? en bref" id="prier-marie-cela-veut-dire-quoi-en-bref">
           <tests>
-            <test input="Cela veut dire quoi de prier Marie ?" output="Oui, ça le qui prier la Vierge Marie veut dire.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/us9JRQVtfOg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 2-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ap 17-22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 13, 47-50&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 24, 1-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 1-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 1-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 1-10&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 15, 16-26&quot; textlength=&quot;13&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 22-33&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 13-15&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 6, 2-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 32-36&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 13-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 14-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40-44&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Lc 13, 10-17&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ac 8, 13-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 6, 2-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 13, 1-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 28, 7-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mc 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ps 146, 5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 34, 21&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;He 4, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1Jn 3, 20&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Dt 32, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jb 36, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 6, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 1, 7&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1P 1, 2&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Ps 138, 7-11&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1Co 1, 17-25&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Rm 4, 25&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ga 3, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 10-12&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 18&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 5, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;He 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;2R 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 9, 5&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Col 2, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 61-62&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 10, 30&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 16&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ga 4, 4-5&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ph 2, 5-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_ccc ref=&quot;2052-2557&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;432&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;456-482&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;qu-est-ce-que-sont-les-dix-commandements&quot; textlength=&quot;21&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;abraham-pere-des-croyants&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;happy-end-ap-17-22&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-parabole-du-filet-rempli-de-poissons&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;je-suis-le-bon-berger-hd&quot; textlength=&quot;5&quot; /&gt;&lt;hc_site site=&quot;https://questions.aleteia.org/articles/77/jesus-est-il-vraiment-ressuscite&quot; textlength=&quot;74&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;jesus-est-ressuscite&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;les-differences-sont-un-element-de-credibilite&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;pourquoi-il-y-a-des-divergences-dans-les-evangiles&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;France 2&quot; resourceid=&quot;la-bible-est-le-best-seller-mondial-n1&quot; url=&quot;https://www.youtube.com/watch?v=eRHVCQQHPCk&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;la-bible-raconte&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;dieu-a-t-il-ecrit-la-bible&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;le-mystere&quot; url=&quot;https://eglise.catholique.fr/glossaire/mystere/&quot; textlength=&quot;27&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;comment-definir-l-esprit-saint&quot; url=&quot;https://emmanuel.info/qui-est-lesprit-saint/&quot; textlength=&quot;25&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;l-esprit-saint-dans-la-liturgie&quot; textlength=&quot;8&quot; /&gt;&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Trinit%C3%A9_(christianisme)&quot; textlength=&quot;58&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;qui-est-dieu-un-et-trine&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-bon&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-omniscient&quot; textlength=&quot;5&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;dieu-est-eternel&quot; textlength=&quot;5&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Dieu-Pere/Decouvrir-Dieu-le-Pere&quot; textlength=&quot;78&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-pere-est-dieu&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;o-est-dieu&quot; textlength=&quot;5&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Jesus/Jesus-vraiment-fils-de-Dieu&quot; textlength=&quot;79&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;jesus-est-le-fils-de-dieu&quot; textlength=&quot;6&quot; /&gt;&lt;hc_site site=&quot;https://jesus.catholique.fr/questions/pourquoi-jesus-est-il-mort-sur-la-croix/pourquoi-jesus-est-il-mort-sur-la-croix/&quot; textlength=&quot;118&quot; /&gt;&lt;hc_source name=&quot;Rencontrer Jésus&quot; resourceid=&quot;pourquoi-jesus-est-il-mort-sur-la-croix&quot; textlength=&quot;17&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;deuxieme-principe-de-la-critique-textuelle&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;premier-principe-de-la-critique-textuelle&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Got Questions?&quot; resourceid=&quot;jean-3-13-veut-il-dire-que-personne-n-est-monte-au-ciel-avant-jesus&quot; url=&quot;https://www.gotquestions.org/Francais/Jean-3-13.html&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;jesus-est-il-bien-mort-sur-la-croix&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;l-annonce-de-la-resurrection-par-les-disciples&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;la-propagation-de-la-bonne-nouvelle&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;le-fils-est-dieu&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;sa-victoire-sur-la-mort&quot; url=&quot;https://www.youtube.com/watch?v=m27xeMQQHh4&quot; textlength=&quot;14&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;pourquoi-dieu-s-est-il-fait-homme&quot; textlength=&quot;21&quot; /&gt;&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;c-est-tres-etrange-de-porter-une-croix&quot; url=&quot;https://www.youtube.com/watch?v=H5SE6YwN-SE&quot; textlength=&quot;14&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;prier-marie-cela-veut-dire-quoi-en-bref&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
+            <test input="Cela veut dire quoi de prier Marie ?" output="Prier Marie, ça veut dire prier Dieu avec Marie et avec tous les chrétiens. Marie n&apos;est que la première de tous les chrétiens.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/us9JRQVtfOg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;cela-veut-dire-quoi-de-prier-marie&quot; url=&quot;https://youtu.be/us9JRQVtfOg&quot; textlength=&quot;18&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;prier-marie-cela-veut-dire-quoi-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Cela veut dire quoi de prier Marie ?"/>
@@ -25566,6 +25694,26 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         <uploadDate year="2017" month="2" day="24"/>
         <tags>
           <tag id="Solidarité"/>
+        </tags>
+      </message>
+      <message name="Replay Paray Témoignage de Cécile Association Le Rocher du 16 juillet 2016" id="replay-paray-temoignage-de-cecile-association-le-rocher-du-16-juillet-2016">
+        <tests>
+          <test input="Montrez-moi un témoignage de l&apos;association Le Rocher !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RxmCFSnvleo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 18, 5-6&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 18, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;replay-paray-temoignage-de-cecile-association-le-rocher-du-16-juillet-2016&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi un témoignage de l&apos;association Le Rocher !"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="18" verseBegin="5" verseEnd="6"/>
+          <bible book="Mt" chapter="18" verseBegin="10"/>
+        </references>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RxmCFSnvleo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="10" seconds="7"/>
+        <viewCount>3324</viewCount>
+        <uploadDate year="2016" month="8" day="19"/>
+        <tags>
+          <tag id="Témoignage"/>
         </tags>
       </message>
       <message name="Témoignage de Etienne VILLEMAIN Association Lazare du 16 juillet 2016" id="temoignage-de-etienne-villemain-association-lazare-du-16-juillet-2016">
@@ -27429,6 +27577,32 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
       </message>
     </folder>
     <folder name="Laïc" id="laic" nb="10" image="laic.jpg">
+      <message name="&quot;A la recherche de la Vérité&quot; Témoignage de Théo - 16 août" id="a-la-recherche-de-la-verite-temoignage-de-theo-16-aot">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un ancien non chrétien !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jNtddagCJwg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 14, 38&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 40&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 46&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ph 4, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Th 5, 17&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 23, 8-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 14, 6&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;a-la-recherche-de-la-verite-temoignage-de-theo-16-aot&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un ancien non chrétien !"/>
+        </triggers>
+        <references>
+          <bible book="Mk" chapter="14" verseBegin="38"/>
+          <bible book="Mt" chapter="26" verseBegin="41"/>
+          <bible book="Lk" chapter="22" verseBegin="40"/>
+          <bible book="Lk" chapter="22" verseBegin="46"/>
+          <bible book="Phil" chapter="4" verseBegin="6"/>
+          <bible book="1 Thess" chapter="5" verseBegin="17"/>
+          <bible book="Mt" chapter="23" verseBegin="8" verseEnd="10"/>
+          <bible book="Jn" chapter="14" verseBegin="6" linkFromCorpus="high"/>
+        </references>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jNtddagCJwg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="10" seconds="26"/>
+        <viewCount>23663</viewCount>
+        <uploadDate year="2017" month="10" day="12"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
+      </message>
       <message name="&quot;Je vis de la LOUANGE&quot; - Témoignage de Pauline Betuel" id="je-vis-de-la-louange-temoignage-de-pauline-betuel">
         <tests>
           <test input="Montrez-moi le témoignage de Pauline Betuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pi5Nd_T80OU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;je-vis-de-la-louange-temoignage-de-pauline-betuel&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -30706,6 +30880,22 @@ de leur temps. Ils partageaient Les représentations culturelles de leur époque
         </message>
       </folder>
     </folder>
+    <message name="Est-ce que « être libre » ne consiste pas justement à pouvoir opter pour le mal ?" id="est-ce-que-etre-libre-ne-consiste-pas-justement-a-pouvoir-opter-pour-le-mal" nb="287">
+      <tests>
+        <test input="Opter pour le mal?" output="Le mal n’est enviable qu&apos;en apparence, et opter pour le mal ne rend libre qu&apos;en apparence. Le mal ne rend pas heureux, il nous prive du vrai bien : il nous attache à du néant et finit par détruire toute notre liberté." outputReferences="&lt;hc_ccc ref=&quot;1730-1733&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1743-1744&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;est-ce-que-etre-libre-ne-consiste-pas-justement-a-pouvoir-opter-pour-le-mal&quot; textlength=&quot;6&quot; /&gt;"/>
+        <test input="Qu&apos;est ce qui ne rend pas libre ?" output="Le mal n’est enviable qu&apos;en apparence, et opter pour le mal ne rend libre qu&apos;en apparence. Le mal ne rend pas heureux, il nous prive du vrai bien : il nous attache à du néant et finit par détruire toute notre liberté." outputReferences="&lt;hc_ccc ref=&quot;1730-1733&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1743-1744&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;est-ce-que-etre-libre-ne-consiste-pas-justement-a-pouvoir-opter-pour-le-mal&quot; textlength=&quot;6&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Opter pour le mal?"/>
+        <trigger value="Qu&apos;est ce qui ne rend pas libre ? "/>
+      </triggers>
+      <references>
+        <ccc verseBegin="1730" verseEnd="1733"/>
+        <ccc verseBegin="1743" verseEnd="1744"/>
+      </references>
+      <sourceId>youcat</sourceId>
+      <text>Le mal n’est enviable qu&apos;en apparence, et opter pour le mal ne rend libre qu&apos;en apparence. Le mal ne rend pas heureux, il nous prive du vrai bien : il nous attache à du néant et finit par détruire toute notre liberté.</text>
+    </message>
     <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166" image="eucharist.jpg">
       <folder name="Dieu agit en nous par des signes sacrés" id="dieu-agit-en-nous-par-des-signes-sacres" nb="166" image="signes_sacres.jpg">
         <folder name="Comment nous célébrons les mystères du Christ" id="comment-nous-celebrons-les-mysteres-du-christ" nb="179" image="temps_liturgique.jpg">
@@ -32642,6 +32832,22 @@ La deuxième partie de la messe commence par la préparation des offrandes, qui 
       </references>
       <sourceId>youcat</sourceId>
       <text>La béatitude éternelle, c&apos;est voir Dieu, et c&apos;est devenir participant de la béatitude divine.</text>
+    </message>
+    <message name="Qu&apos;est-ce que la liberté, et pourquoi est-elle là ?" id="qu-est-ce-que-la-liberte-et-pourquoi-est-elle-la" nb="286">
+      <tests>
+        <test input="Qu&apos;est-ce que la liberté ?" output="La liberté est un don de Dieu qui permet de déterminer soi-même ce que l&apos;on veut faire. La liberté est le contraire du déterminisme." outputReferences="&lt;hc_ccc ref=&quot;1730-1733&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1743-1744&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liberte-et-pourquoi-est-elle-la&quot; textlength=&quot;6&quot; /&gt;"/>
+        <test input=" Pourquoi la liberté est là ?" output="La liberté est un don de Dieu qui permet de déterminer soi-même ce que l&apos;on veut faire. La liberté est le contraire du déterminisme." outputReferences="&lt;hc_ccc ref=&quot;1730-1733&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1743-1744&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-la-liberte-et-pourquoi-est-elle-la&quot; textlength=&quot;6&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Qu&apos;est-ce que la liberté ? "/>
+        <trigger value="Pourquoi la liberté est là ?"/>
+      </triggers>
+      <references>
+        <ccc verseBegin="1730" verseEnd="1733"/>
+        <ccc verseBegin="1743" verseEnd="1744"/>
+      </references>
+      <sourceId>youcat</sourceId>
+      <text>La liberté est un don de Dieu qui permet de déterminer soi-même ce que l&apos;on veut faire. La liberté est le contraire du déterminisme.</text>
     </message>
     <folder name="YOUCAT pour les enfants" id="youcat-pour-les-enfants" image="youcat_enfants.jpeg">
       <folder name="Prologue" id="prologue" image="prologue.jpg">
