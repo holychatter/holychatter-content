@@ -112,28 +112,46 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Esdras-Néhémie - Synthèse" id="esdras-nehemie-synthese" nb="8">
-          <tests>
-            <test input="Fais-moi un résumé du livre d&apos;Esdras !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/twgdre6_vdE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Esd 1-10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ne 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;esdras-nehemie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-            <test input="Fais-moi un résumé du livre de Néhémie !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/twgdre6_vdE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Esd 1-10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ne 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;esdras-nehemie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre d&apos;Esdras !"/>
-            <trigger value="Fais-moi un résumé du livre de Néhémie !"/>
-          </triggers>
-          <references>
-            <bible book="Ezra" chapter="1" chapterEnd="10"/>
-            <bible book="Neh" chapter="1" chapterEnd="13"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/twgdre6_vdE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="8" seconds="36"/>
-          <viewCount>27215</viewCount>
-          <uploadDate year="2019" month="6" day="8"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Esdras-Néhémie" id="esdras-nehemie" nb="8" image="ezra.jpg">
+          <folder name="Esdras" id="esdras" nb="0" image="ezra.jpg"/>
+          <message name="Esdras-Néhémie - Synthèse" id="esdras-nehemie-synthese">
+            <tests>
+              <test input="Fais-moi un résumé du livre d&apos;Esdras !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/twgdre6_vdE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Esd 1-10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ne 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;esdras-nehemie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+              <test input="Fais-moi un résumé du livre de Néhémie !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/twgdre6_vdE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Esd 1-10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ne 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;esdras-nehemie-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre d&apos;Esdras !"/>
+              <trigger value="Fais-moi un résumé du livre de Néhémie !"/>
+            </triggers>
+            <references>
+              <bible book="Ezra" chapter="1" chapterEnd="10"/>
+              <bible book="Neh" chapter="1" chapterEnd="13"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/twgdre6_vdE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="8" seconds="36"/>
+            <viewCount>32672</viewCount>
+            <uploadDate year="2019" month="6" day="8"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <folder name="Néhémie" id="nehemie" nb="1" image="nehemiah.jpg">
+            <message name="Commentaire - 3e dimanche ordinaire C - Né 8,2-4a.5-6.8-10" id="commentaire-3e-dimanche-ordinaire-c-ne-82-4a-5-6-8-10" nb="802">
+              <references>
+                <bible book="Neh" chapter="8" verseBegin="2" verseEnd="10"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0w8KQ1lmDxc?rel=0&amp;start=122&amp;end=405&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="4" seconds="43"/>
+              <viewCount>1246</viewCount>
+              <uploadDate year="2016" month="1" day="18"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
+            </message>
+          </folder>
+        </folder>
         <message name="Esther - Synthèse" id="esther-synthese" nb="9">
           <tests>
             <test input="Fais-moi un résumé du livre d&apos;Esther !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wB1_ziugZB8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Est 1-10&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;esther-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1154,6 +1172,25 @@
             <duration minutes="6" seconds="44"/>
             <viewCount>1127</viewCount>
             <uploadDate year="2015" month="11" day="10"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - 3e dimanche ordinaire C - Psaume - Ps 18, 8.9.10.15" id="commentaire-3e-dimanche-ordinaire-c-psaume-ps-18-8-9-10-15" nb="1808">
+            <references>
+              <bible book="Ps" chapter="18" verseBegin="8" verseEnd="15"/>
+              <bible book="Deut" chapter="32" verseBegin="9" verseEnd="11" linkFromCorpus="no"/>
+              <bible book="Deut" chapter="6" verseBegin="20" verseEnd="24" linkFromCorpus="no"/>
+              <bible book="Deut" chapter="29" verseBegin="28" linkFromCorpus="no"/>
+              <bible book="Deut" chapter="7" verseBegin="7" linkFromCorpus="no"/>
+              <bible book="Deut" chapter="9" verseBegin="6" linkFromCorpus="no"/>
+              <bible book="Deut" chapter="30" verseBegin="11" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i-PRt6HcPs4?rel=0&amp;start=57&amp;end=437&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="20"/>
+            <viewCount>1425</viewCount>
+            <uploadDate year="2016" month="1" day="19"/>
             <tags>
               <tag id="Bible"/>
             </tags>
@@ -2564,7 +2601,7 @@
       </folder>
       <folder name="Épîtres de Paul" id="epitres-de-paul" nb="3" image="epitre_paul.jpg">
         <folder name="1 Corinthiens" id="1-corinthiens" nb="2" image="1_corinthians.jpg">
-          <message name="1 Corinthiens - Synthèse" id="1-corinthiens-synthese">
+          <message name="1 Corinthiens - Synthèse" id="1-corinthiens-synthese" nb="0">
             <tests>
               <test input="Fais-moi un résumé de la première lettre de Paul aux corinthiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q99CrlpKBrw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 1-16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;1-corinthiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -2577,7 +2614,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q99CrlpKBrw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="8" seconds="48"/>
-            <viewCount>28910</viewCount>
+            <viewCount>29125</viewCount>
             <uploadDate year="2018" month="11" day="15"/>
             <tags>
               <tag id="Bible"/>
@@ -2593,6 +2630,20 @@
             <duration minutes="5" seconds="41"/>
             <viewCount>1024</viewCount>
             <uploadDate year="2016" month="1" day="13"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - 3e dimanche ordinaire C - 2e lecture - 1 Co 12, 12-30" id="commentaire-3e-dimanche-ordinaire-c-2e-lecture-1-co-12-12-30" nb="1212">
+            <references>
+              <bible book="1 Cor" chapter="12" verseBegin="12" verseEnd="30"/>
+              <bible book="Is" chapter="52" verseBegin="7" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6fgjGUWNUjM?rel=0&amp;start=181&amp;end=368&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="3" seconds="7"/>
+            <viewCount>1422</viewCount>
+            <uploadDate year="2016" month="1" day="20"/>
             <tags>
               <tag id="Bible"/>
             </tags>
@@ -4378,6 +4429,21 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
+            <message name="Commentaire - 3e dimanche ordinaire C - Evangile - Lc 1,1-4 ; 4,14-21" id="commentaire-3e-dimanche-ordinaire-c-evangile-lc-11-4-414-21" nb="101">
+              <references>
+                <bible book="Lk" chapter="1" verseBegin="1" verseEnd="4"/>
+                <bible book="Lk" chapter="4" verseBegin="14" verseEnd="21"/>
+                <bible book="Is" chapter="61" verseBegin="1" verseEnd="2" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/g0WpwsxSKMM?rel=0&amp;start=127&amp;end=435&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="8"/>
+              <viewCount>2086</viewCount>
+              <uploadDate year="2016" month="1" day="21"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
+            </message>
             <message name="Commentaire - 4e dimanche de l&apos;Avent C - Evangile - Lc 1, 39-45" id="commentaire-4e-dimanche-de-l-avent-c-evangile-lc-1-39-45" nb="139">
               <references>
                 <bible book="Lk" chapter="1" verseBegin="39" verseEnd="45"/>
@@ -4450,7 +4516,7 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Luc 10–24 - Synthèse" id="luc-10-24-synthese" nb="2">
+            <message name="Luc 10–24 - Synthèse" id="luc-10-24-synthese" nb="1">
               <tests>
                 <test input="Fais-moi un résumé de la fin de l&apos;Évangile selon Luc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/O-Za0jggT8Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 10-24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;luc-10-24-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
@@ -4463,13 +4529,13 @@ ci-dessous</text>
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/O-Za0jggT8Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="7" seconds="48"/>
-              <viewCount>12137</viewCount>
+              <viewCount>14690</viewCount>
               <uploadDate year="2018" month="11" day="15"/>
               <tags>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Luc 1–9 - Synthèse" id="luc-1-9-synthese" nb="1">
+            <message name="Luc 1–9 - Synthèse" id="luc-1-9-synthese" nb="0">
               <tests>
                 <test input="Fais-moi un résumé du début de l&apos;Évangile selon Luc !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bo46uU2IF9w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1-9&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;luc-1-9-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
@@ -4482,13 +4548,13 @@ ci-dessous</text>
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Bo46uU2IF9w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="8" seconds="16"/>
-              <viewCount>17209</viewCount>
+              <viewCount>21234</viewCount>
               <uploadDate year="2018" month="11" day="15"/>
               <tags>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Podcast Benjamin Pouzin - #2 Marie a dit oui" id="podcast-benjamin-pouzin-2-marie-a-dit-oui" nb="3">
+            <message name="Podcast Benjamin Pouzin - #2 Marie a dit oui" id="podcast-benjamin-pouzin-2-marie-a-dit-oui" nb="2">
               <tests>
                 <test input="Comment Marie a prit sa décision face à l&apos;ange et face à Dieu ?" output="Je ne sais pas comment la Vierge Marie a pris sa décision l&apos;ange et Dieu mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
               </tests>
@@ -4501,7 +4567,7 @@ ci-dessous</text>
               <sourceId>glorious</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/TOBxRH8-Q80?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="5" seconds="20"/>
-              <viewCount>16498</viewCount>
+              <viewCount>16794</viewCount>
               <uploadDate year="2020" month="3" day="23"/>
               <tags>
                 <tag id="Prédication"/>
@@ -11068,7 +11134,7 @@ Amen.&quot;</text>
         <folder name="Épiphanie" id="epiphanie" nb="1" image="epiphanie.jpg">
           <message name="L&apos;étoile de Bethléem t des rois mages" id="l-etoile-de-bethleem-t-des-rois-mages">
             <tests>
-              <test input="Quand Jésus est né ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3ezk7iBEeVk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 2, 1-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;l-etoile-de-bethleem-t-des-rois-mages&quot; textlength=&quot;18&quot; /&gt;"/>
+              <test input="Quand Jésus est né ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3ezk7iBEeVk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 2, 1-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 2, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;l-etoile-de-bethleem-t-des-rois-mages&quot; textlength=&quot;18&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Quand Jésus est né ?"/>
@@ -15568,6 +15634,27 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         <uploadDate year="2019" month="3" day="14"/>
         <tags>
           <tag id="Prédication"/>
+        </tags>
+      </message>
+      <message name="J&apos;ai perdu la foi" id="j-ai-perdu-la-foi">
+        <tests>
+          <test input="Que faire quand on a perdu la foi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jh-yhnxY3xk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;j-ai-perdu-la-foi&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Comment retrouver la foi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jh-yhnxY3xk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;j-ai-perdu-la-foi&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Que faire quand on a perdu la foi ?"/>
+          <trigger value="Comment retrouver la foi ?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="2" verseBegin="41" verseEnd="52"/>
+        </references>
+        <sourceId>le-catho-de-service</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jh-yhnxY3xk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="8" seconds="29"/>
+        <viewCount>216</viewCount>
+        <uploadDate year="2022" month="1" day="11"/>
+        <tags>
+          <tag id="NonChrétien"/>
         </tags>
       </message>
       <message name="La Parabole des Etoiles ou comment reconnaître les signes de Dieu ?" id="la-parabole-des-etoiles-ou-comment-reconnaitre-les-signes-de-dieu">
