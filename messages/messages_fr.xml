@@ -22552,7 +22552,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             </tags>
           </message>
         </folder>
-        <folder name="Diabète" id="diabete" nb="7">
+        <folder name="Diabète" id="diabete" nb="7" image="diabete.jpeg">
           <message name="Témoignage de guérison, Anne Marie: &quot;J&apos;ai été guéri du diabète“" id="temoignage-de-guerison-anne-marie-j-ai-ete-gueri-du-diabete">
             <triggers>
               <trigger value="Montrer moi une vidéo de guérison de diabète!"/>
@@ -22679,6 +22679,34 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             <uploadDate year="2019" month="3" day="29"/>
             <tags>
               <tag id="Témoignage"/>
+            </tags>
+          </message>
+        </folder>
+        <folder name="Syndrome de la queue de cheval" id="syndrome-de-la-queue-de-cheval" nb="8" image="syndrome_de_la_queue_cheval.jpg">
+          <message name="Soeur Bernadette Moriau raconte sa &quot;guérison miraculeuse&quot;" id="soeur-bernadette-moriau-raconte-sa-guerison-miraculeuse">
+            <tests>
+              <test input="Montrez-moi le témoignage de la 70e miraculée de Lourdes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sLIDHIQQzug?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 9, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 5, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;France 3 Hauts-de-France&quot; resourceid=&quot;soeur-bernadette-moriau-raconte-sa-guerison-miraculeuse&quot; textlength=&quot;24&quot; /&gt;"/>
+              <test input="Montrez-moi le témoignage d&apos;une personne guérie du syndrome de la queue de cheval !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sLIDHIQQzug?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 9, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 5, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;France 3 Hauts-de-France&quot; resourceid=&quot;soeur-bernadette-moriau-raconte-sa-guerison-miraculeuse&quot; textlength=&quot;24&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi le témoignage de la 70e miraculée de Lourdes !"/>
+              <trigger value="Montrez-moi le témoignage d&apos;une personne guérie du syndrome de la queue de cheval !"/>
+            </triggers>
+            <references>
+              <bible book="Mk" chapter="2" verseBegin="11"/>
+              <bible book="Mt" chapter="9" verseBegin="6"/>
+              <bible book="Lk" chapter="5" verseBegin="24"/>
+              <bible book="Jn" chapter="5" verseBegin="8"/>
+            </references>
+            <sourceId>france-3</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sLIDHIQQzug?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="15" seconds="8"/>
+            <viewCount>21218</viewCount>
+            <uploadDate year="2018" month="2" day="12"/>
+            <tags>
+              <tag id="Témoignage"/>
+              <tag id="Miracle"/>
+              <tag id="Guérison"/>
             </tags>
           </message>
         </folder>
@@ -29486,7 +29514,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
       </message>
     </folder>
   </folder>
-  <folder name="YOUCAT" id="youcat" image="youcat.jpg">
+  <folder name="YOUCAT" id="youcat" isHidden="true" image="youcat.jpg">
     <folder name="Ce que nous croyons" id="ce-que-nous-croyons" nb="1" image="croyons.jpeg">
       <folder name="La profession de foi chrétienne" id="la-profession-de-foi-chretienne" nb="25" image="resurrection.jpg">
         <message name="Comment sont nées les professions de foi ?" id="comment-sont-nees-les-professions-de-foi" nb="27">
