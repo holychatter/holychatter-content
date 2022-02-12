@@ -3744,8 +3744,11 @@ Soyez dans la joie et l&apos;allégresse, car votre récompense sera grande dans
                 <sourceId>chantliturgique</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V3O-o35FGJo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
                 <duration minutes="1" seconds="5"/>
-                <viewCount>8747</viewCount>
+                <viewCount>9108</viewCount>
                 <uploadDate year="2012" month="11" day="20"/>
+                <tags>
+                  <tag id="Catéchisme"/>
+                </tags>
               </message>
             </folder>
             <folder name="La maison bâtie sur le roc" id="la-maison-batie-sur-le-roc" nb="1" image="maison_sur_roc.jpg">
@@ -4170,8 +4173,11 @@ ci-dessous</text>
                 <sourceId>godly-play-foundation</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
                 <duration minutes="4" seconds="38"/>
-                <viewCount>345</viewCount>
+                <viewCount>387</viewCount>
                 <uploadDate year="2018" month="11" day="7"/>
+                <tags>
+                  <tag id="Catéchisme"/>
+                </tags>
               </message>
             </folder>
             <folder name="Le mauvais riche et le pauvre Lazare" id="le-mauvais-riche-et-le-pauvre-lazare" nb="1" image="mauvais_riche.jpg">
@@ -5795,14 +5801,14 @@ La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
         <references>
           <bible book="Ex" chapter="25"/>
           <bible book="Rev" chapter="4"/>
-          <bible book="Jn" chapter="20" verseBegin="12"/>
+          <bible book="Jn" chapter="20" verseBegin="12" linkFromCorpus="high"/>
           <bible book="Heb" chapter="9" verseBegin="4" verseEnd="5"/>
           <bible book="Heb" chapter="9" verseBegin="12" verseEnd="14"/>
         </references>
         <sourceId>frere-paul-adrien-d-hardemare</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hA-Y-tSg8UQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="7" seconds="50"/>
-        <viewCount>12572</viewCount>
+        <viewCount>13547</viewCount>
         <uploadDate year="2022" month="2" day="6"/>
         <tags>
           <tag id="ChrétienAffermi"/>
@@ -11285,6 +11291,25 @@ Amen.&quot;</text>
         <uploadDate year="2021" month="12" day="4"/>
         <tags>
           <tag id="ApprofondissementDeLaFoi"/>
+        </tags>
+      </message>
+      <message name="La tonsure, c&apos;est quoi" id="la-tonsure-c-est-quoi">
+        <tests>
+          <test input="C&apos;est quoi la tonsure ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mMB4dXslaXI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ac 18, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;la-tonsure-c-est-quoi&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="C&apos;est quoi la tonsure ?"/>
+        </triggers>
+        <references>
+          <bible book="Acts" chapter="18" verseBegin="18"/>
+        </references>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mMB4dXslaXI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration seconds="59"/>
+        <viewCount>2596</viewCount>
+        <uploadDate year="2022" month="2" day="11"/>
+        <tags>
+          <tag id="ChrétienAffermi"/>
         </tags>
       </message>
       <message name="Le Jugement Dernier sur le tympan de la cathédrale d&apos;Autun" id="le-jugement-dernier-sur-le-tympan-de-la-cathedrale-d-autun" nb="3">
@@ -17540,7 +17565,7 @@ On comptait les caractères, lorsqu&apos;il manquait un caractère on détruisai
       </folder>
       <message name="Homme et femme, à l&apos;image de Dieu ?" id="homme-et-femme-a-l-image-de-dieu">
         <tests>
-          <test input="L&apos;homme et la femme sont à l&apos;image de Dieu ?" output="Oui, l&apos;homme et la femme sont à l&apos;image de Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ekZNOIGCpqE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 8, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;343-344&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;353&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;839-840&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1734-1737&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1745-1746&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;qui-est-a-l-image-de-dieu&quot; url=&quot;https://youtu.be/ekZNOIGCpqE&quot; textlength=&quot;8&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/anthropologie-catholique/decouvrir-document-quest-lhomme-elements-danthropologie-catholique&quot; textlength=&quot;139&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;qu-est-ce-que-l-homme-elements-d-anthropologie-catholique&quot; textlength=&quot;27&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-homme-a-t-il-une-place-speciale-dans-la-creation&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quel-est-le-rapport-de-l-eglise-avec-le-peuple-juif&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-homme-est-il-responsable-de-tout-ce-qu-il-fait&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 1, 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 18-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 5, 1-3&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;homme-et-femme-a-l-image-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
+          <test input="L&apos;homme et la femme sont à l&apos;image de Dieu ?" output="Oui, l&apos;homme et la femme sont à l&apos;image de Dieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ekZNOIGCpqE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 27&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 8, 4-6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 5, 17&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;343-344&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;353&quot; textlength=&quot;3&quot; /&gt;&lt;hc_ccc ref=&quot;839-840&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;1749-1754&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1757-1758&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1734-1737&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1745-1746&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;qui-est-a-l-image-de-dieu&quot; url=&quot;https://youtu.be/ekZNOIGCpqE&quot; textlength=&quot;8&quot; /&gt;&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/anthropologie-catholique/decouvrir-document-quest-lhomme-elements-danthropologie-catholique&quot; textlength=&quot;139&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;qu-est-ce-que-l-homme-elements-d-anthropologie-catholique&quot; textlength=&quot;27&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Definitions/Bible/Marie&quot; textlength=&quot;51&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;la-place-de-marie-dans-la-foi-chretienne&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-homme-a-t-il-une-place-speciale-dans-la-creation&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;quel-est-le-rapport-de-l-eglise-avec-le-peuple-juif&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-discerner-si-ce-que-je-fais-est-bon-ou-mauvais&quot; textlength=&quot;6&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;l-homme-est-il-responsable-de-tout-ce-qu-il-fait&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 1, 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 18-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 5, 1-3&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;homme-et-femme-a-l-image-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Est-ce que l’homme et la femme sont également à l’image de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ekZNOIGCpqE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 18-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 5, 1-3&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;homme-et-femme-a-l-image-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
           <test input="Que dit la Genèse sur l&apos;homme et la femme ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ekZNOIGCpqE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1, 26-28&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 2, 18-24&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 5, 1-3&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;homme-et-femme-a-l-image-de-dieu&quot; textlength=&quot;8&quot; /&gt;"/>
         </tests>
@@ -22584,7 +22609,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             </tags>
           </message>
         </folder>
-        <folder name="Arthrose" id="arthrose" nb="5" image="arthrose-du-genou.jpeg">
+        <folder name="Arthrose" id="arthrose" nb="6" image="arthrose-du-genou.jpeg">
           <message name="Témoignage de guérison de Mónica : Le Seigneur m&apos;a guéri de l&apos;arthrose du genou" id="temoignage-de-guerison-de-mnica-le-seigneur-m-a-gueri-de-l-arthrose-du-genou">
             <tests>
               <test input="Montrez-moi un témoignage d&apos;une guérison d&apos;une arthrose !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MhT3i9PskyY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Koïnonia Jean Baptiste, Suisse p. Olivier Bagnoud&quot; resourceid=&quot;temoignage-de-guerison-de-mnica-le-seigneur-m-a-gueri-de-l-arthrose-du-genou&quot; textlength=&quot;50&quot; /&gt;"/>
@@ -22602,7 +22627,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             </tags>
           </message>
         </folder>
-        <folder name="Diabète" id="diabete" nb="7" image="diabete.jpeg">
+        <folder name="Diabète" id="diabete" nb="8" image="diabete.jpeg">
           <message name="Témoignage de guérison, Anne Marie: &quot;J&apos;ai été guéri du diabète“" id="temoignage-de-guerison-anne-marie-j-ai-ete-gueri-du-diabete">
             <triggers>
               <trigger value="Montrer moi une vidéo de guérison de diabète!"/>
@@ -22657,6 +22682,34 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             <tags>
               <tag id="Témoignage"/>
               <tag id="Miracle"/>
+            </tags>
+          </message>
+        </folder>
+        <folder name="Kyste" id="kyste" nb="9">
+          <message name="Replay Paray Témoignage de Isabelle du 17 août 2016" id="replay-paray-temoignage-de-isabelle-du-17-aot-2016">
+            <tests>
+              <test input="Montrez-moi le témoignage d&apos;une personne souffrant d&apos;un kyste de la glande thyroïde !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tUPlkXejydU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;replay-paray-temoignage-de-isabelle-du-17-aot-2016&quot; textlength=&quot;25&quot; /&gt;"/>
+              <test input="Montrez-moi une intercession de Claude La Colombière !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tUPlkXejydU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;replay-paray-temoignage-de-isabelle-du-17-aot-2016&quot; textlength=&quot;25&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi le témoignage d&apos;une personne souffrant d&apos;un kyste de la glande thyroïde !"/>
+              <trigger value="Montrez-moi une intercession de Claude La Colombière !"/>
+            </triggers>
+            <references>
+              <bible book="Mk" chapter="4" verseBegin="31"/>
+              <bible book="Mt" chapter="13" verseBegin="31" linkFromCorpus="low"/>
+              <bible book="Mt" chapter="17" verseBegin="20"/>
+              <bible book="Lk" chapter="13" verseBegin="19"/>
+              <bible book="Lk" chapter="17" verseBegin="6"/>
+            </references>
+            <sourceId>communaute-de-l-emmanuel</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tUPlkXejydU?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="3" seconds="51"/>
+            <viewCount>4147</viewCount>
+            <uploadDate year="2016" month="8" day="19"/>
+            <tags>
+              <tag id="Témoignage"/>
+              <tag id="Guérison"/>
             </tags>
           </message>
         </folder>
@@ -22732,7 +22785,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             </tags>
           </message>
         </folder>
-        <folder name="Syndrome de la queue de cheval" id="syndrome-de-la-queue-de-cheval" nb="8" image="syndrome_de_la_queue_cheval.jpg">
+        <folder name="Syndrome de la queue de cheval" id="syndrome-de-la-queue-de-cheval" nb="5" image="syndrome_de_la_queue_cheval.jpg">
           <message name="Rencontre avec : soeur Bernadette Moriau, miraculée de Lourdes" id="rencontre-avec-soeur-bernadette-moriau-miraculee-de-lourdes">
             <tests>
               <test input="Montrez-moi le témoignage de la 70e miraculée de Lourdes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3hkmoOE7ALk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 5, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 9, 6&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lc 5, 24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;rencontre-avec-soeur-bernadette-moriau-miraculee-de-lourdes&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -22782,7 +22835,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
             </tags>
           </message>
         </folder>
-        <folder name="Tendinite" id="tendinite" nb="6" image="tendinite.jpg">
+        <folder name="Tendinite" id="tendinite" nb="7" image="tendinite.jpg">
           <message name="Véronique guérie d&apos;une tendinite" id="veronique-guerie-d-une-tendinite">
             <tests>
               <test input="Montrez-moi le témoignage d&apos;une personne guérie d&apos;une tendinite !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aPCLp6VyrU8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Koïnonia Jean Baptiste, Suisse p. Olivier Bagnoud&quot; resourceid=&quot;veronique-guerie-d-une-tendinite&quot; textlength=&quot;50&quot; /&gt;"/>
@@ -28176,6 +28229,22 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
       </message>
     </folder>
     <folder name="Couple" id="couple" nb="13" image="couple_calin.jpeg">
+      <message name="Le Seigneur a miraculeusement sauvé ma famille de la rupture - Témoignage de Magalie" id="le-seigneur-a-miraculeusement-sauve-ma-famille-de-la-rupture-temoignage-de-magalie">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un couple au bord de la rupture." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9z3EK6s2SSg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;le-seigneur-a-miraculeusement-sauve-ma-famille-de-la-rupture-temoignage-de-magalie&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un couple au bord de la rupture."/>
+        </triggers>
+        <sourceId>communaute-de-l-emmanuel</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9z3EK6s2SSg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="8" seconds="11"/>
+        <viewCount>4628</viewCount>
+        <uploadDate year="2021" month="12" day="1"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
+      </message>
       <message name="Pélé de l&apos;espérance Jour 32: Témoignage de Foucauld et Guillemette" id="pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un couple !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OiirLHvi0eA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;catholique45&quot; resourceid=&quot;pele-de-l-esperance-jour-32-temoignage-de-foucauld-et-guillemette&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -28188,8 +28257,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>catholique45</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OiirLHvi0eA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="3" seconds="8"/>
-        <viewCount>372</viewCount>
+        <viewCount>379</viewCount>
         <uploadDate year="2020" month="12" day="8"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
       </message>
       <message name="Témoignage de Alice, maman d&apos;Isaac" id="temoignage-de-alice-maman-d-isaac">
         <tests>
@@ -28203,8 +28275,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>maman-vogue</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-y9IA97D1cE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="5" seconds="3"/>
-        <viewCount>3997</viewCount>
+        <viewCount>4974</viewCount>
         <uploadDate year="2021" month="3" day="21"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
       </message>
     </folder>
     <folder name="Célébrité" id="celebrite" nb="7" image="celebrities.jpg">
@@ -28248,7 +28323,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </message>
       </folder>
       <folder name="Footballeur" id="footballeur" image="footballers_praying.jpeg">
-        <message name="Griezmann et ses tatouages religieux" id="griezmann-et-ses-tatouages-religieux">
+        <message name="Griezmann et ses tatouages religieux" id="griezmann-et-ses-tatouages-religieux" nb="1">
           <tests>
             <test input="Montrez-moi les tatouages de Griezmann !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/077LhM9N64g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;griezmann-et-ses-tatouages-religieux&quot; textlength=&quot;10&quot; /&gt;"/>
           </tests>
@@ -28259,13 +28334,13 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <sourceId>esseynelle</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/077LhM9N64g?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="1" seconds="3"/>
-          <viewCount>46556</viewCount>
+          <viewCount>46731</viewCount>
           <uploadDate year="2016" month="7" day="16"/>
           <tags>
             <tag id="Témoignage"/>
           </tags>
         </message>
-        <message name="Guillaume Warmuz, le gardien passé des terrains de foot à la vie d’homme de foi" id="guillaume-warmuz-le-gardien-passe-des-terrains-de-foot-a-la-vie-d-homme-de-foi">
+        <message name="Guillaume Warmuz, le gardien passé des terrains de foot à la vie d’homme de foi" id="guillaume-warmuz-le-gardien-passe-des-terrains-de-foot-a-la-vie-d-homme-de-foi" nb="1">
           <tests>
             <test input="Montrez-moi le témoignage du gardien de but de football Guillaume Warmuz !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_i-icme7dsM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Parisein&quot; resourceid=&quot;guillaume-warmuz-le-gardien-passe-des-terrains-de-foot-a-la-vie-d-homme-de-foi&quot; textlength=&quot;11&quot; /&gt;"/>
           </tests>
@@ -28275,13 +28350,13 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <sourceId>le-parisein</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_i-icme7dsM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="4" seconds="3"/>
-          <viewCount>4357</viewCount>
+          <viewCount>4476</viewCount>
           <uploadDate year="2021" month="1" day="11"/>
           <tags>
             <tag id="Témoignage"/>
           </tags>
         </message>
-        <message name="La foi de Lilian Thuram (Etats Généraux du Christianisme)" id="la-foi-de-lilian-thuram-etats-generaux-du-christianisme">
+        <message name="La foi de Lilian Thuram (Etats Généraux du Christianisme)" id="la-foi-de-lilian-thuram-etats-generaux-du-christianisme" nb="1">
           <tests>
             <test input="Quel est l&apos;avis de Lilian Thuram sur les religions ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Jour du Seigneur&quot; resourceid=&quot;la-foi-de-lilian-thuram-etats-generaux-du-christianisme&quot; textlength=&quot;19&quot; /&gt;"/>
           </tests>
@@ -28292,13 +28367,13 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <sourceId>le-jour-du-seigneur</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cwzz8Cam3JQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="2" seconds="39"/>
-          <viewCount>2945</viewCount>
+          <viewCount>2956</viewCount>
           <uploadDate year="2012" month="9" day="3"/>
           <tags>
             <tag id="Témoignage"/>
           </tags>
         </message>
-        <folder name="Olivier Giroud" id="olivier-giroud" image="giroud-fra.jpeg">
+        <folder name="Olivier Giroud" id="olivier-giroud" nb="1" image="giroud-fra.jpeg">
           <message name="Giroud passe un moment avec Jésus et parle de sa foi" id="giroud-passe-un-moment-avec-jesus-et-parle-de-sa-foi">
             <tests>
               <test input="Montrez-moi une journée avec Olivier Giroud !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CFKHSJeHaQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;giroud-passe-un-moment-avec-jesus-et-parle-de-sa-foi&quot; textlength=&quot;10&quot; /&gt;"/>
@@ -28336,7 +28411,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
             </tags>
           </message>
         </folder>
-        <message name="Que signifient les 10 tatouages de Messi ?" id="que-signifient-les-10-tatouages-de-messi">
+        <message name="Que signifient les 10 tatouages de Messi ?" id="que-signifient-les-10-tatouages-de-messi" nb="1">
           <tests>
             <test input="Montrez-moi les tatouages de Lionel Messi !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzI9Fy0I7LA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Oh My Goal - France&quot; resourceid=&quot;que-signifient-les-10-tatouages-de-messi&quot; textlength=&quot;19&quot; /&gt;"/>
             <test input="Que signifient les 10 tatouages de Messi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzI9Fy0I7LA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Oh My Goal - France&quot; resourceid=&quot;que-signifient-les-10-tatouages-de-messi&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -28348,13 +28423,13 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <sourceId>oh-my-goal-france</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FzI9Fy0I7LA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="3" seconds="21"/>
-          <viewCount>938528</viewCount>
+          <viewCount>1004032</viewCount>
           <uploadDate year="2019" month="6" day="11"/>
           <tags>
             <tag id="Témoignage"/>
           </tags>
         </message>
-        <message name="Yohan Cabaye le catholique" id="yohan-cabaye-le-catholique">
+        <message name="Yohan Cabaye le catholique" id="yohan-cabaye-le-catholique" nb="1">
           <tests>
             <test input="Montrez-moi le témoignage du footballeur Yohan Cabaye !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jE9_iqvOfjE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Esseynelle&quot; resourceid=&quot;yohan-cabaye-le-catholique&quot; textlength=&quot;10&quot; /&gt;"/>
           </tests>
@@ -28365,12 +28440,30 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <sourceId>esseynelle</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jE9_iqvOfjE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="5" seconds="30"/>
-          <viewCount>3912</viewCount>
+          <viewCount>3930</viewCount>
           <uploadDate year="2016" month="5" day="28"/>
           <tags>
             <tag id="Témoignage"/>
           </tags>
         </message>
+        <folder name="À propos" id="a-propos-footballeur" image="about.png">
+          <message name="Ces footballeurs chrétiens" id="ces-footballeurs-chretiens">
+            <tests>
+              <test input="Montrez-moi des footballeurs chrétiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zNbULEIZi8k?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Faith Investigation&quot; resourceid=&quot;ces-footballeurs-chretiens&quot; textlength=&quot;19&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Montrez-moi des footballeurs chrétiens !"/>
+            </triggers>
+            <sourceId>faith-investigation</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zNbULEIZi8k?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="8" seconds="33"/>
+            <viewCount>93106</viewCount>
+            <uploadDate year="2021" month="5" day="22"/>
+            <tags>
+              <tag id="Documentaire"/>
+            </tags>
+          </message>
+        </folder>
       </folder>
       <folder name="Humoriste" id="humoriste" image="bigard.jpeg">
         <message name="Gad Elmaleh raconte sa première fois à Lourdes" id="gad-elmaleh-raconte-sa-premiere-fois-a-lourdes">
@@ -29146,14 +29239,33 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
       </message>
     </folder>
     <folder name="Prisonnier" id="prisonnier" nb="3" image="prisonnier.jpg">
+      <message name="Dans sa cellule, il recontre Jésus ! Témoignage chrétien" id="dans-sa-cellule-il-recontre-jesus-temoignage-chretien">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;un prisonnier !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1ALEtpJw8ZE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Communauté de l&apos;Emmanuel&quot; resourceid=&quot;dans-sa-cellule-il-recontre-jesus-temoignage-chretien&quot; textlength=&quot;25&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;un prisonnier !"/>
+        </triggers>
+        <references>
+          <bible book="Ps" chapter="90"/>
+        </references>
+        <sourceId>il-t-aime</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1ALEtpJw8ZE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="17" seconds="5"/>
+        <viewCount>132690</viewCount>
+        <uploadDate year="2020" month="2" day="14"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
+      </message>
       <message name="Témoignage d&apos;André Levet - Jésus-Christ est venu dans ma cellule" id="temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;André Levet !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 35-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 65&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 18, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 33-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule&quot; textlength=&quot;21&quot; /&gt;"/>
-          <test input="Montrez-moi le témoignage d&apos;une ancien prisonnier !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 35-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 65&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 18, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 33-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule&quot; textlength=&quot;21&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;un ancien prisonnier !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 2, 1-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 4, 7-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 25&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 11, 5&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 11, 35-44&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 14, 65&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 18, 39-40&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 33-41&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Père Philippe Rochas&quot; resourceid=&quot;temoignage-d-andre-levet-jesus-christ-est-venu-dans-ma-cellule&quot; textlength=&quot;21&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Montrez-moi le témoignage d&apos;André Levet !"/>
-          <trigger value="Montrez-moi le témoignage d&apos;une ancien prisonnier !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;un ancien prisonnier !"/>
         </triggers>
         <references>
           <bible book="Jn" chapter="2" verseBegin="1" verseEnd="10"/>
@@ -29169,7 +29281,7 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>pere-philippe-rochas</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HASAAIqDGa4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="24" seconds="49"/>
-        <viewCount>521344</viewCount>
+        <viewCount>526732</viewCount>
         <uploadDate year="2013" month="12" day="10"/>
         <tags>
           <tag id="Témoignage"/>
@@ -32223,6 +32335,22 @@ de leur temps. Ils partageaient Les représentations culturelles de leur époque
       <sourceId>youcat</sourceId>
       <text>Le Christ veut que nous soyons vraiment libres (Ga 5,1), et que nous soyons capables de nous aimer en frères et sœurs. C&apos;est pourquoi il nous donne l&apos;Esprit-Saint, qui rend libre et affranchi des puissances du monde et donne la force de vivre amour et responsabilité.</text>
     </message>
+    <message name="Comment discerner si ce que je fais est bon ou mauvais?" id="comment-discerner-si-ce-que-je-fais-est-bon-ou-mauvais" nb="291">
+      <tests>
+        <test input="Comment distinguer les bonnes des mauvaises actions?" output="L&apos;homme est en mesure de distinguer les bonnes des mauvaises actions parce qu&apos;il est doté d&apos;une raison et d&apos;une conscience, qui lui permettent de juger clairement." outputReferences="&lt;hc_ccc ref=&quot;1749-1754&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1757-1758&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-discerner-si-ce-que-je-fais-est-bon-ou-mauvais&quot; textlength=&quot;6&quot; /&gt;"/>
+        <test input="Comment juger sur mes actions?" output="L&apos;homme est en mesure de distinguer les bonnes des mauvaises actions parce qu&apos;il est doté d&apos;une raison et d&apos;une conscience, qui lui permettent de juger clairement." outputReferences="&lt;hc_ccc ref=&quot;1749-1754&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1757-1758&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-discerner-si-ce-que-je-fais-est-bon-ou-mauvais&quot; textlength=&quot;6&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Comment distinguer les bonnes des mauvaises actions?"/>
+        <trigger value="Comment juger sur mes actions?"/>
+      </triggers>
+      <references>
+        <ccc verseBegin="1749" verseEnd="1754"/>
+        <ccc verseBegin="1757" verseEnd="1758"/>
+      </references>
+      <sourceId>youcat</sourceId>
+      <text>L&apos;homme est en mesure de distinguer les bonnes des mauvaises actions parce qu&apos;il est doté d&apos;une raison et d&apos;une conscience, qui lui permettent de juger clairement.</text>
+    </message>
     <message name="Doit-on laisser l&apos;homme user de son libre arbitre, même s&apos;il opte pour le mal ?" id="doit-on-laisser-l-homme-user-de-son-libre-arbitre-meme-s-il-opte-pour-le-mal" nb="289">
       <tests>
         <test input="Doit-on laisser l&apos;homme user de son libre arbitre ?" output="Je ne sais pas si nous devons laisser user l&apos;homme de son libre mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;" isOk="false"/>
@@ -32251,6 +32379,25 @@ de leur temps. Ils partageaient Les représentations culturelles de leur époque
       </references>
       <sourceId>youcat</sourceId>
       <text>Le mal n’est enviable qu&apos;en apparence, et opter pour le mal ne rend libre qu&apos;en apparence. Le mal ne rend pas heureux, il nous prive du vrai bien : il nous attache à du néant et finit par détruire toute notre liberté.</text>
+    </message>
+    <message name="Et si je faisais le mal pour faire du bien?" id="et-si-je-faisais-le-mal-pour-faire-du-bien" nb="292">
+      <tests>
+        <test input="Faire du mal pour viser le bien? " output="Non, il n&apos;est jamais permis de faire le mal, même pour viser un bien. Mais il peut arriver qu&apos;il n&apos;y ait pas d&apos;autre solution, pour éviter un mal plus grand, que de choisir un moindre mal.
+" outputReferences="&lt;hc_ccc ref=&quot;1755-1756&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1759-1761&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;et-si-je-faisais-le-mal-pour-faire-du-bien&quot; textlength=&quot;6&quot; /&gt;"/>
+        <test input="Et si je n&apos;avais que le choix de faire du mal?" output="Non, il n&apos;est jamais permis de faire le mal, même pour viser un bien. Mais il peut arriver qu&apos;il n&apos;y ait pas d&apos;autre solution, pour éviter un mal plus grand, que de choisir un moindre mal.
+" outputReferences="&lt;hc_ccc ref=&quot;1755-1756&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1759-1761&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;et-si-je-faisais-le-mal-pour-faire-du-bien&quot; textlength=&quot;6&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Faire du mal pour viser le bien?"/>
+        <trigger value="Et si je n&apos;avais que le choix de faire du mal?"/>
+      </triggers>
+      <references>
+        <ccc verseBegin="1755" verseEnd="1756"/>
+        <ccc verseBegin="1759" verseEnd="1761"/>
+      </references>
+      <sourceId>youcat</sourceId>
+      <text>Non, il n&apos;est jamais permis de faire le mal, même pour viser un bien. Mais il peut arriver qu&apos;il n&apos;y ait pas d&apos;autre solution, pour éviter un mal plus grand, que de choisir un moindre mal.
+</text>
     </message>
     <message name="L&apos;homme est-il responsable de tout ce qu&apos;il fait ?" id="l-homme-est-il-responsable-de-tout-ce-qu-il-fait" nb="288">
       <tests>
