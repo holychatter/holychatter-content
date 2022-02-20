@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentRoot>
-  <folder name="Bible" id="bible" nb="6" image="bible.jpg">
+  <folder name="Bible" id="bible" nb="5" image="bible.jpg">
     <folder name="About" id="about" image="about.png">
       <message name="Does Sacred Scripture speak about a way to happiness?" id="does-sacred-scripture-speak-about-a-way-to-happiness">
         <tests>
@@ -1742,7 +1742,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
       </goals>
     </chatbot>
   </folder>
-  <folder name="Church" id="church" nb="8" image="church.jpg">
+  <folder name="Church" id="church" nb="7" image="church.jpg">
     <folder name="About" id="about-church" image="about.png">
       <message name="Criticism of the Church" id="criticism-of-the-church" nb="58">
         <tests>
@@ -2399,7 +2399,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
       </folder>
     </folder>
   </folder>
-  <folder name="Discovery" id="discovery" nb="2" image="discover.jpg">
+  <folder name="Discovery" id="discovery" nb="3" image="discover.jpg">
     <folder name="By age" id="by-age" isHidden="true" image="by_age.jpg">
       <folder name="Everybody" id="everybody" image="by_age.jpg">
         <folder name="Holy Chatter" id="holy-chatter">
@@ -3278,7 +3278,7 @@ The love of God guarantees us to live forever.</text>
       </message>
     </folder>
   </folder>
-  <folder name="Humor" id="humor" nb="5" image="laugh.png">
+  <folder name="Humor" id="humor" nb="10" image="laugh.png">
     <message name="What did Jonah’s family say when he told them about what happened before reaching Nineveh?" id="what-did-jonah-s-family-say-when-he-told-them-about-what-happened-before-reaching-nineveh">
       <tests>
         <test input="Tell me a joke!" output="&lt;span&gt;Question: What did Jonah’s family say when he told them about what happened before reaching Nineveh?
@@ -3293,7 +3293,7 @@ Answer: “Hmm, sounds fishy.”&lt;/span&gt;" outputReferences="&lt;hc_source n
 Answer: “Hmm, sounds fishy.”&lt;/span&gt;</text>
     </message>
   </folder>
-  <folder name="Inspiring people" id="inspiring-people" nb="10" image="person.jpg">
+  <folder name="Inspiring people" id="inspiring-people" nb="9" image="person.jpg">
     <folder name="About" id="about-inspiring-people" image="about.png">
       <message name="Is everyone called to holiness?" id="is-everyone-called-to-holiness">
         <tests>
@@ -3456,48 +3456,7 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
   </folder>
-  <folder name="Miracles" id="miracles" nb="3" image="miracle.png">
-    <folder name="About" id="about-miracles" image="about.png">
-      <message name="What are miracles?" id="what-are-miracles">
-        <tests>
-          <test input="What are miracles?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 17: 12-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 30-31&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-miracles&quot; textlength=&quot;18&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="What are miracles?"/>
-        </triggers>
-        <references>
-          <bible book="Lk" chapter="17" verseBegin="12" verseEnd="18"/>
-          <bible book="Jn" chapter="20" verseBegin="30" verseEnd="31"/>
-          <ccc verseBegin="547" verseEnd="550"/>
-        </references>
-        <sourceId>minute-catechism</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="3" seconds="46"/>
-        <viewCount>4625</viewCount>
-        <uploadDate year="2015" month="12" day="11"/>
-        <tags>
-          <tag id="Catechism"/>
-        </tags>
-      </message>
-    </folder>
-    <message name="The Eucharistic Miracle of Buenos Aires" id="the-eucharistic-miracle-of-buenos-aires">
-      <tests>
-        <test input="Show me a miracle!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wXLfwdw2yUk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;St. John the Evangelist-Center Moriches, NY&quot; resourceid=&quot;the-eucharistic-miracle-of-buenos-aires&quot; textlength=&quot;43&quot; /&gt;"/>
-      </tests>
-      <triggers>
-        <trigger value="Show me a miracle!"/>
-      </triggers>
-      <sourceId>st-john-the-evangelist-center-moriches-ny</sourceId>
-      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wXLfwdw2yUk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-      <duration minutes="2" seconds="58"/>
-      <viewCount>13281</viewCount>
-      <uploadDate year="2020" month="6" day="15"/>
-      <tags>
-        <tag id="Miracle"/>
-      </tags>
-    </message>
-  </folder>
-  <folder name="Prayers" id="prayers" nb="9" image="prier.jpg">
+  <folder name="Prayers" id="prayers" nb="8" image="prier.jpg">
     <folder name="About" id="about-prayers" image="about.png">
       <message name="What is prayer?" id="what-is-prayer">
         <tests>
@@ -3862,6 +3821,47 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </message>
     </folder>
   </folder>
+  <folder name="Reasons to believe" id="reasons-to-believe" nb="2" image="pp.jpg">
+    <folder name="About" id="about-miracles" image="about.png">
+      <message name="What are miracles?" id="what-are-miracles">
+        <tests>
+          <test input="What are miracles?" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lk 17: 12-18&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 20: 30-31&quot; textlength=&quot;12&quot; /&gt;&lt;hc_ccc ref=&quot;547-550&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;3 Minute Catechism&quot; resourceid=&quot;what-are-miracles&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="What are miracles?"/>
+        </triggers>
+        <references>
+          <bible book="Lk" chapter="17" verseBegin="12" verseEnd="18"/>
+          <bible book="Jn" chapter="20" verseBegin="30" verseEnd="31"/>
+          <ccc verseBegin="547" verseEnd="550"/>
+        </references>
+        <sourceId>minute-catechism</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/PyzIAKJtGIg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="3" seconds="46"/>
+        <viewCount>4625</viewCount>
+        <uploadDate year="2015" month="12" day="11"/>
+        <tags>
+          <tag id="Catechism"/>
+        </tags>
+      </message>
+    </folder>
+    <message name="The Eucharistic Miracle of Buenos Aires" id="the-eucharistic-miracle-of-buenos-aires">
+      <tests>
+        <test input="Show me a miracle!" output="\hc_resource_html=#en_US#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wXLfwdw2yUk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;St. John the Evangelist-Center Moriches, NY&quot; resourceid=&quot;the-eucharistic-miracle-of-buenos-aires&quot; textlength=&quot;43&quot; /&gt;"/>
+      </tests>
+      <triggers>
+        <trigger value="Show me a miracle!"/>
+      </triggers>
+      <sourceId>st-john-the-evangelist-center-moriches-ny</sourceId>
+      <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wXLfwdw2yUk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+      <duration minutes="2" seconds="58"/>
+      <viewCount>13281</viewCount>
+      <uploadDate year="2020" month="6" day="15"/>
+      <tags>
+        <tag id="Miracle"/>
+      </tags>
+    </message>
+  </folder>
   <folder name="Solidarity" id="solidarity" nb="4" image="solidarite.jpg">
     <message name="The Catholic Campaign for Human Development" id="the-catholic-campaign-for-human-development">
       <tests>
@@ -3882,7 +3882,7 @@ Jean Marie Vianney was accepted at the seminary of Verrières in 1811.</text>
       </tags>
     </message>
   </folder>
-  <folder name="Teachings" id="teachings" nb="7" image="teachings.jpeg">
+  <folder name="Teachings" id="teachings" nb="6" image="teachings.jpeg">
     <folder name="Angels" id="angels" image="angel.jpg">
       <folder name="Satan" id="satan" image="satan.jpg">
         <message name="Does the Devil exist?" id="does-the-devil-exist">
