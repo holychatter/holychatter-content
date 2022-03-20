@@ -187,25 +187,38 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Josué - Synthèse" id="josue-synthese" nb="1">
-          <tests>
-            <test input="Fais-moi un résumé du livre de Josué !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3r38RWz3k4c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jos 1-24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;josue-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre de Josué !"/>
-          </triggers>
-          <references>
-            <bible book="Josh" chapter="1" chapterEnd="24"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3r38RWz3k4c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="8" seconds="48"/>
-          <viewCount>33470</viewCount>
-          <uploadDate year="2019" month="6" day="1"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Josué" id="josue" nb="1">
+          <message name="Commentaire - 4e dimanche de Carême C (dimanche de Laetare) - 1re lecture - Jos 5, 10-12" id="commentaire-4e-dimanche-de-careme-c-dimanche-de-laetare-1re-lecture-jos-5-10-12" nb="510">
+            <references>
+              <bible book="Josh" chapter="5" verseBegin="10" verseEnd="12"/>
+              <bible book="Deut" chapter="34" verseBegin="6" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1zxN4KQNlwc?rel=0&amp;start=57&amp;end=413&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="56"/>
+            <viewCount>1784</viewCount>
+            <uploadDate year="2016" month="2" day="29"/>
+          </message>
+          <message name="Josué - Synthèse" id="josue-synthese" nb="0">
+            <tests>
+              <test input="Fais-moi un résumé du livre de Josué !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3r38RWz3k4c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jos 1-24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;josue-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre de Josué !"/>
+            </triggers>
+            <references>
+              <bible book="Josh" chapter="1" chapterEnd="24"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3r38RWz3k4c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="8" seconds="48"/>
+            <viewCount>44219</viewCount>
+            <uploadDate year="2019" month="6" day="1"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <message name="Juges - Synthèse" id="juges-synthese" nb="2">
           <tests>
             <test input="Fais-moi un résumé du livre des Juges !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CJhCzmboXSQ?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jg 1-21&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;juges-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1355,6 +1368,22 @@
             <tags>
               <tag id="Bible"/>
             </tags>
+          </message>
+          <message name="Commentaire - 4e dimanche de Carême C (dimanche de Laetare) - Psaume - Ps 33, 2-3, 4-5, 6-7" id="commentaire-4e-dimanche-de-careme-c-dimanche-de-laetare-psaume-ps-33-2-3-4-5-6-7" nb="3302">
+            <references>
+              <bible book="Ps" chapter="33" verseBegin="2" verseEnd="3"/>
+              <bible book="Ps" chapter="33" verseBegin="4" verseEnd="5"/>
+              <bible book="Ps" chapter="33" verseBegin="6" verseEnd="7"/>
+              <bible book="Ex" chapter="3" verseBegin="1" verseEnd="7" linkFromCorpus="no"/>
+              <bible book="Lk" chapter="6" verseBegin="20" linkFromCorpus="no"/>
+              <bible book="Mt" chapter="5" verseBegin="3" linkFromCorpus="no"/>
+              <bible book="Lk" chapter="11" verseBegin="9" verseEnd="13" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zrZAlf2PMAg?rel=0&amp;start=52&amp;end=436&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="24"/>
+            <viewCount>1609</viewCount>
+            <uploadDate year="2016" month="3" day="1"/>
           </message>
           <message name="Commentaire - 4e dimanche de l&apos;Avent C - Psaume - Ps 79, 2ac. 3bc, 15-16, 18-19" id="commentaire-4e-dimanche-de-l-avent-c-psaume-ps-79-2ac-3bc-15-16-18-19" nb="7902">
             <references>
@@ -3169,7 +3198,23 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Commentaire - Mercredi des Cendres - 2e lecture - 2Co 5,20-6,2" id="commentaire-mercredi-des-cendres-2e-lecture-2co-520-62" nb="520">
+          <message name="Commentaire - 4e dimanche de Carême C (dimanche du Laetare) - 2e lecture - 2Co 5, 17-21" id="commentaire-4e-dimanche-de-careme-c-dimanche-du-laetare-2e-lecture-2co-5-17-21" nb="517">
+            <references>
+              <bible book="2 Cor" chapter="5" verseBegin="17" verseEnd="21"/>
+              <bible book="Ps" chapter="102" verseBegin="12" linkFromCorpus="no"/>
+              <bible book="Jon" chapter="1" chapterEnd="4" linkFromCorpus="no"/>
+              <bible book="Jn" chapter="18" verseBegin="37" linkFromCorpus="no"/>
+              <bible book="Jn" chapter="14" verseBegin="9" linkFromCorpus="no"/>
+              <bible book="Zech" chapter="12" verseBegin="10" linkFromCorpus="no"/>
+              <bible book="Jn" chapter="19" verseBegin="37" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/roa4z-qHLtU?rel=0&amp;start=74&amp;end=442&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="8"/>
+            <viewCount>1973</viewCount>
+            <uploadDate year="2016" month="3" day="2"/>
+          </message>
+          <message name="Commentaire - Mercredi des Cendres - 2e lecture - 2Co 5, 20 - 6, 2" id="commentaire-mercredi-des-cendres-2e-lecture-2co-5-20-6-2" nb="520">
             <references>
               <bible book="2 Cor" chapter="5" verseBegin="20" chapterEnd="6" verseEnd="2"/>
               <bible book="Ps" chapter="102" linkFromCorpus="no"/>
@@ -3189,7 +3234,7 @@
             <sourceId>en-marche-vers-dimanche</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hN0yZef-sSQ?rel=0&amp;start=62&amp;end=428&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="6" seconds="6"/>
-            <viewCount>3238</viewCount>
+            <viewCount>3367</viewCount>
             <uploadDate year="2021" month="2" day="15"/>
             <tags>
               <tag id="Bible"/>
@@ -5142,6 +5187,18 @@ ci-dessous</text>
               <tags>
                 <tag id="Bible"/>
               </tags>
+            </message>
+            <message name="Commentaire - 4e dimanche de Carême C (dimanche de Laetare) - Evangile - Lc 15, 1-3, 11-32 " id="commentaire-4e-dimanche-de-careme-c-dimanche-de-laetare-evangile-lc-15-1-3-11-32" nb="1501">
+              <references>
+                <bible book="Lk" chapter="15" verseBegin="1" verseEnd="3"/>
+                <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
+                <bible book="Lk" chapter="15" verseBegin="3" verseEnd="7" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RNKz3b9lIe0?rel=0&amp;start=199&amp;end=399&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="3" seconds="20"/>
+              <viewCount>1705</viewCount>
+              <uploadDate year="2016" month="3" day="3"/>
             </message>
             <message name="Commentaire - 4e dimanche de l&apos;Avent C - Evangile - Lc 1, 39-45" id="commentaire-4e-dimanche-de-l-avent-c-evangile-lc-1-39-45" nb="139">
               <references>
