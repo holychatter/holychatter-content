@@ -187,7 +187,7 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <folder name="Josué" id="josue" nb="1">
+        <folder name="Josué" id="josue" nb="1" image="joshua.jpg">
           <message name="Commentaire - 4e dimanche de Carême C (dimanche de Laetare) - 1re lecture - Jos 5, 10-12" id="commentaire-4e-dimanche-de-careme-c-dimanche-de-laetare-1re-lecture-jos-5-10-12" nb="510">
             <references>
               <bible book="Josh" chapter="5" verseBegin="10" verseEnd="12"/>
@@ -199,7 +199,7 @@
             <viewCount>1784</viewCount>
             <uploadDate year="2016" month="2" day="29"/>
           </message>
-          <message name="Josué - Synthèse" id="josue-synthese" nb="0">
+          <message name="Josué - Synthèse" id="josue-synthese">
             <tests>
               <test input="Fais-moi un résumé du livre de Josué !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3r38RWz3k4c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jos 1-24&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;josue-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -212,7 +212,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3r38RWz3k4c?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="8" seconds="48"/>
-            <viewCount>44219</viewCount>
+            <viewCount>44270</viewCount>
             <uploadDate year="2019" month="6" day="1"/>
             <tags>
               <tag id="Bible"/>
@@ -16504,6 +16504,35 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         <duration minutes="9" seconds="25"/>
         <viewCount>8104</viewCount>
         <uploadDate year="2020" month="9" day="20"/>
+        <tags>
+          <tag id="Prédication"/>
+        </tags>
+      </message>
+      <message name="C&apos;est quoi pardonner ?" id="c-est-quoi-pardonner">
+        <tests>
+          <test input="C&apos;est quoi pardonner ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eJmrXSvw2ZQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 7, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1P 3, 9-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 17, 3-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Col 3, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;IZUNA KAÏ 2&quot; resourceid=&quot;c-est-quoi-pardonner&quot; textlength=&quot;12&quot; /&gt;"/>
+          <test input="Pardonner c&apos;est oublier ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eJmrXSvw2ZQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 6, 14-15&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 7, 12&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1P 3, 9-12&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Lc 17, 3-4&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Col 3, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;IZUNA KAÏ 2&quot; resourceid=&quot;c-est-quoi-pardonner&quot; textlength=&quot;12&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="C&apos;est quoi pardonner ?"/>
+          <trigger value="Pardonner c&apos;est oublier ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="6" verseBegin="14" verseEnd="15"/>
+          <bible book="Mt" chapter="7" verseBegin="12" linkFromCorpus="low"/>
+          <bible book="1 Pet" chapter="3" verseBegin="9" verseEnd="12"/>
+          <bible book="Lk" chapter="17" verseBegin="3" verseEnd="4"/>
+          <bible book="Col" chapter="3" verseBegin="13"/>
+          <bible book="Ps" chapter="31" verseBegin="8" linkFromCorpus="low"/>
+          <bible book="Rom" chapter="8" verseBegin="38" verseEnd="39" linkFromCorpus="low"/>
+          <bible book="Jas" chapter="4" verseBegin="10" linkFromCorpus="low"/>
+          <bible book="1 Pet" chapter="2" verseBegin="24" linkFromCorpus="low"/>
+        </references>
+        <sourceId>izuna-ka-2</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eJmrXSvw2ZQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="11" seconds="30"/>
+        <viewCount>26</viewCount>
+        <uploadDate year="2022" month="3" day="20"/>
         <tags>
           <tag id="Prédication"/>
         </tags>
