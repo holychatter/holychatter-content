@@ -11271,6 +11271,22 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
             <tag id="Découverte"/>
           </tags>
         </message>
+        <message name="Cette vidéo peut changer de votre vie !" id="cette-video-peut-changer-de-votre-vie">
+          <tests>
+            <test input="Montrez-moi des témoignages de parcours Alpha !" output="Je ne sais pas vous montrer des témoignages de parcours Alpha." isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi des témoignages de parcours Alpha !"/>
+          </triggers>
+          <sourceId>paroisse-catholique-de-figeac</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KF7eZiK5lLM?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="4" seconds="16"/>
+          <viewCount>11</viewCount>
+          <uploadDate year="2022" month="1" day="9"/>
+          <tags>
+            <tag id="Témoignage"/>
+          </tags>
+        </message>
         <message name="Le Parcours Alpha, c&apos;est quoi?" id="le-parcours-alpha-c-est-quoi">
           <tests>
             <test input="Le Parcours Alpha, c&apos;est quoi?" output="Le Parcours Alpha est \hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0VRzP3wyf1M?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Parcours Alpha&quot; resourceid=&quot;le-parcours-alpha-c-est-quoi&quot; textlength=&quot;14&quot; /&gt;"/>
@@ -17268,6 +17284,26 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
             <tag id="Découverte"/>
           </tags>
         </message>
+        <message name="Le piège des méditations non chrétiennes" id="le-piege-des-meditations-non-chretiennes">
+          <tests>
+            <test input="Que penser des méditations non chrétiennes ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t6kBsvCqrCE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;le-piege-des-meditations-non-chretiennes&quot; textlength=&quot;29&quot; /&gt;"/>
+            <test input="C&apos;est quoi le Nouvel âge ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t6kBsvCqrCE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;le-piege-des-meditations-non-chretiennes&quot; textlength=&quot;29&quot; /&gt;"/>
+            <test input="C&apos;est quoi l&apos;état christique ?" output="L&apos;état christique est le purgatoire représenté souvent comme un lieu.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t6kBsvCqrCE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2M 12, 45&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;1030-1031&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;qu-est-ce-que-le-purgatoire-je-crois-a-la-vie-eternelle&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;le-piege-des-meditations-non-chretiennes&quot; textlength=&quot;29&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Que penser des méditations non chrétiennes ?"/>
+            <trigger value="C&apos;est quoi le Nouvel âge ?"/>
+            <trigger value="C&apos;est quoi l&apos;état christique ?"/>
+          </triggers>
+          <sourceId>paroisse-catholique-de-figeac</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/t6kBsvCqrCE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="12" seconds="10"/>
+          <viewCount>1816</viewCount>
+          <uploadDate year="2021" month="11" day="25"/>
+          <tags>
+            <tag id="Témoignage"/>
+          </tags>
+        </message>
         <message name="Peut-on faire du yoga quand on est chrétien ? Que dit l&apos;Eglise ? et la Bible ?" id="peut-on-faire-du-yoga-quand-on-est-chretien-que-dit-l-eglise-et-la-bible">
           <triggers>
             <trigger value="Peut-on faire du yoga quand on est chrétien ?"/>
@@ -17779,6 +17815,28 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           </message>
         </folder>
       </folder>
+      <folder name="Franc-maçon" id="franc-macon" nb="5" image="francs_macons.jpg">
+        <message name="Quand un Franc-maçon devient catholique fervent..." id="quand-un-franc-macon-devient-catholique-fervent">
+          <tests>
+            <test input="Montrez-moi le témoignage d&apos;un franc-maçon devenu chrétien !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aNbVHDRn0pQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jc 2, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 38&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;quand-un-franc-macon-devient-catholique-fervent&quot; textlength=&quot;29&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Montrez-moi le témoignage d&apos;un franc-maçon devenu chrétien !"/>
+          </triggers>
+          <references>
+            <bible book="Jas" chapter="2" verseBegin="13" linkFromCorpus="high"/>
+            <bible book="Jn" chapter="1" verseBegin="38"/>
+          </references>
+          <sourceId>paroisse-catholique-de-figeac</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aNbVHDRn0pQ?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="7" seconds="58"/>
+          <viewCount>570</viewCount>
+          <uploadDate year="2021" month="7" day="5"/>
+          <tags>
+            <tag id="Témoignage"/>
+          </tags>
+        </message>
+      </folder>
       <folder name="Islam" id="islam" nb="3" image="islam.jpg">
         <message name="Chrétiens et musulmans : le même Dieu ? - abbé Guy Pagès" id="chretiens-et-musulmans-le-meme-dieu-abbe-guy-pages">
           <tests>
@@ -17906,7 +17964,7 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           </tags>
         </message>
       </folder>
-      <folder name="Reiki" id="reiki" nb="5" image="reiki.jpg">
+      <folder name="Reiki" id="reiki" nb="6" image="reiki.jpg">
         <message name="Reiki : Attention Danger !" id="reiki-attention-danger">
           <tests>
             <test input="Montrez-moi le témoignage d&apos;une personne qui a fait du reiki !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yJLvUjDLLs8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;reiki-attention-danger&quot; textlength=&quot;29&quot; /&gt;"/>
@@ -30575,7 +30633,31 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </tags>
       </message>
     </folder>
-    <folder name="Postulante" id="postulante" nb="19" image="postulante.jpg">
+    <folder name="Postulante" id="postulante" nb="19" image="postulantes.jpg">
+      <message name="Quand appel rime avec Carmel !" id="quand-appel-rime-avec-carmel">
+        <tests>
+          <test input="Montrez-moi le témoignage d&apos;une jeune qui rentre au Carmel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qyHOjbktGC4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;quand-appel-rime-avec-carmel&quot; textlength=&quot;29&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une conversion à Lourdes !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qyHOjbktGC4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;quand-appel-rime-avec-carmel&quot; textlength=&quot;29&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une conversion à Częstochowa !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qyHOjbktGC4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;quand-appel-rime-avec-carmel&quot; textlength=&quot;29&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une conversion par l&apos;intermédiaire d&apos;un prêtre !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qyHOjbktGC4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;quand-appel-rime-avec-carmel&quot; textlength=&quot;29&quot; /&gt;"/>
+          <test input="Montrez-moi le témoignage d&apos;une conversion par l&apos;eucharistie !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qyHOjbktGC4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Paroisse catholique de Figeac&quot; resourceid=&quot;quand-appel-rime-avec-carmel&quot; textlength=&quot;29&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Montrez-moi le témoignage d&apos;une jeune qui rentre au Carmel !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une conversion à Lourdes !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une conversion à Częstochowa !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une conversion par l&apos;intermédiaire d&apos;un prêtre !"/>
+          <trigger value="Montrez-moi le témoignage d&apos;une conversion par l&apos;eucharistie !"/>
+        </triggers>
+        <sourceId>paroisse-catholique-de-figeac</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qyHOjbktGC4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="10" seconds="44"/>
+        <viewCount>1911</viewCount>
+        <uploadDate year="2021" month="12" day="6"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
+      </message>
       <message name="Témoignage de Charlotte Servera" id="temoignage-de-charlotte-servera">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;une postulante !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Cahors&quot; resourceid=&quot;temoignage-de-charlotte-servera&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -30586,8 +30668,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>diocese-de-cahors</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9klC7h_RaMY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="5" seconds="24"/>
-        <viewCount>1725</viewCount>
+        <viewCount>1771</viewCount>
         <uploadDate year="2017" month="8" day="24"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
       </message>
     </folder>
     <folder name="Prisonnier" id="prisonnier" nb="3" image="prisonnier.jpg">
@@ -30924,8 +31009,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         <sourceId>diocese-de-cahors</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Xd4RBcizwUI?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="5" seconds="53"/>
-        <viewCount>25741</viewCount>
+        <viewCount>27713</viewCount>
         <uploadDate year="2017" month="8" day="3"/>
+        <tags>
+          <tag id="Témoignage"/>
+        </tags>
       </message>
     </folder>
     <folder name="À propos" id="a-propos-temoignages" image="about.png">
