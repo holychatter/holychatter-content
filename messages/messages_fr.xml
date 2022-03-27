@@ -3162,6 +3162,27 @@
           </folder>
         </folder>
       </folder>
+      <folder name="À propos" id="a-propos-nouveau-testament" image="about.png">
+        <message name="Les Evangiles et le Nouveau Testament, des documents fiables ?" id="les-evangiles-et-le-nouveau-testament-des-documents-fiables">
+          <tests>
+            <test input="Les Evangiles et le Nouveau Testament sont-ils des documents fiables ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kezIsM4nnOs?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 18, 37&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;les-evangiles-et-le-nouveau-testament-des-documents-fiables&quot; textlength=&quot;23&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Les Evangiles et le Nouveau Testament sont-ils des documents fiables ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="18" verseBegin="37"/>
+          </references>
+          <sourceId>et-pourtant-dieu-existe</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kezIsM4nnOs?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="6" seconds="20"/>
+          <viewCount>19988</viewCount>
+          <uploadDate year="2016" month="3" day="21"/>
+          <tags>
+            <tag id="Découverte"/>
+          </tags>
+        </message>
+      </folder>
       <folder name="Épîtres de Paul" id="epitres-de-paul" nb="3" image="epitre_paul.jpg">
         <folder name="1 Corinthiens" id="1-corinthiens" nb="2" image="1_corinthians.jpg">
           <message name="1 Corinthiens - Synthèse" id="1-corinthiens-synthese" nb="0">
@@ -11044,11 +11065,9 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
       </message>
       <message name="Qui est Dieu ?" id="qui-est-dieu">
         <tests>
-          <test input="Dieu existe-t-il ?" output="Oui, Dieu existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 22, 1-19&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Is 7, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 52, 13-53&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mi 5, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Za 12, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;dieu-existe&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 2, 16-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Rm 7, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;qui-est-dieu&quot; textlength=&quot;15&quot; /&gt;"/>
           <test input="Si Dieu existe, pourquoi le mal ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 2, 16-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Rm 7, 19&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 15, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Découvrir Dieu&quot; resourceid=&quot;qui-est-dieu&quot; textlength=&quot;15&quot; /&gt;"/>
         </tests>
         <triggers>
-          <trigger value="Dieu existe-t-il ?"/>
           <trigger value="Si Dieu existe, pourquoi le mal ?"/>
         </triggers>
         <references>
@@ -11059,7 +11078,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
         <sourceId>decouvrir-dieu</sourceId>
         <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OauoEcw78Zg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
         <duration minutes="4" seconds="36"/>
-        <viewCount>7826</viewCount>
+        <viewCount>8276</viewCount>
         <uploadDate year="2016" month="5" day="19"/>
         <tags>
           <tag id="Découverte"/>
@@ -17769,13 +17788,11 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         <message name="Est-ce que l’athéisme conduit à un meilleur monde ?" id="est-ce-que-l-atheisme-conduit-a-un-meilleur-monde">
           <tests>
             <test input="Est-ce que l’athéisme conduit à un meilleur monde ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
-            <test input="Les religions n&apos;apportent que des problèmes." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
             <test input="Le monde est violent à cause des religions." output="Pourquoi le monde est violent à cause des religions ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ps 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;"/>
             <test input="C&apos;est la religion qui est responsable de tous les maux dans le monde." output="Pourquoi est-ce la religion qui est responsable de tous les maux dans le monde ?|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ps 13, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;37-38&quot; textlength=&quot;5&quot; /&gt;&lt;hc_ccc ref=&quot;2127-2128&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;est-ce-que-l-atheisme-conduit-a-un-meilleur-monde&quot; textlength=&quot;21&quot; /&gt;" isOk="false"/>
           </tests>
           <triggers>
             <trigger value="Est-ce que l’athéisme conduit à un meilleur monde ?"/>
-            <trigger value="_Les religions n&apos;apportent que des problèmes."/>
             <trigger value="_Le monde est violent à cause des religions."/>
             <trigger value="_C&apos;est la religion qui est responsable de tous les maux dans le monde."/>
           </triggers>
@@ -17787,7 +17804,7 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           <sourceId>le-cate-en-minutes</sourceId>
           <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/-2E5lsUBxzY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
           <duration minutes="3" seconds="58"/>
-          <viewCount>1425</viewCount>
+          <viewCount>1551</viewCount>
           <uploadDate year="2016" month="5" day="19"/>
           <tags>
             <tag id="Catéchisme"/>
@@ -18167,6 +18184,34 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         </message>
       </folder>
       <folder name="À propos" id="a-propos-croyances" image="about.png">
+        <message name="Les religions n&apos;apportent que des problèmes - comment croire en Dieu ? ?" id="les-religions-n-apportent-que-des-problemes-comment-croire-en-dieu">
+          <tests>
+            <test input="Les religions n&apos;apportent que des problèmes." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDFi9zgcqVY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 13, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lv 19, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;les-religions-n-apportent-que-des-problemes-comment-croire-en-dieu&quot; textlength=&quot;23&quot; /&gt;" isOk="false"/>
+            <test input=" Comment croire en Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDFi9zgcqVY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 22, 39&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 12, 31&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 19, 19&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 27&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ga 5, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 13, 9&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jc 2, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Lv 19, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;les-religions-n-apportent-que-des-problemes-comment-croire-en-dieu&quot; textlength=&quot;23&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="_Les religions n&apos;apportent que des problèmes."/>
+            <trigger value="Comment croire en Dieu ?"/>
+          </triggers>
+          <references>
+            <bible book="Mt" chapter="22" verseBegin="39"/>
+            <bible book="Mk" chapter="12" verseBegin="31"/>
+            <bible book="Mt" chapter="19" verseBegin="19"/>
+            <bible book="Lk" chapter="10" verseBegin="27"/>
+            <bible book="Gal" chapter="5" verseBegin="14"/>
+            <bible book="Rom" chapter="13" verseBegin="9"/>
+            <bible book="Jas" chapter="2" verseBegin="8"/>
+            <bible book="Lev" chapter="19" verseBegin="18"/>
+          </references>
+          <sourceId>et-pourtant-dieu-existe</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aDFi9zgcqVY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="4" seconds="30"/>
+          <viewCount>9525</viewCount>
+          <uploadDate year="2018" month="6" day="12"/>
+          <tags>
+            <tag id="NonChrétien"/>
+          </tags>
+        </message>
         <message name="Musulmans et Chrétiens ont-ils le même Dieu ?" id="musulmans-et-chretiens-ont-ils-le-meme-dieu">
           <tests>
             <test input="Musulmans et Chrétiens ont-ils le même Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/564I2n-O8hE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;musulmans-et-chretiens-ont-ils-le-meme-dieu&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -19945,12 +19990,12 @@ L’avarice conduit à la fermeture de cœur et à l&apos;injustice, mais elle p
             </triggers>
             <references>
               <bible book="Gen" chapter="4" verseBegin="6" verseEnd="7"/>
-              <bible book="Rom" chapter="13" verseBegin="9"/>
+              <bible book="Rom" chapter="13" verseBegin="9" linkFromCorpus="high"/>
             </references>
             <sourceId>theodom</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CWqe25aoRWE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="1"/>
-            <viewCount>14363</viewCount>
+            <viewCount>16737</viewCount>
             <uploadDate year="2021" month="3" day="6"/>
             <tags>
               <tag id="Théologie"/>
@@ -27295,7 +27340,7 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
     </folder>
   </folder>
   <folder name="Raisons de croire" id="raisons-de-croire" nb="2" image="penser.jpg">
-    <folder name="Apparitions" id="apparitions" nb="1" image="fatima.jpeg">
+    <folder name="Apparitions" id="apparitions" nb="8" image="fatima.jpeg">
       <message name="Les apparitions les plus connues de la Vierge Marie dans le monde" id="les-apparitions-les-plus-connues-de-la-vierge-marie-dans-le-monde">
         <tests>
           <test input="Quelles sont les apparitions les plus connues de la Vierge Marie dans le monde ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PlipIOHyQvI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aleteia&quot; resourceid=&quot;les-apparitions-les-plus-connues-de-la-vierge-marie-dans-le-monde&quot; textlength=&quot;7&quot; /&gt;"/>
@@ -27342,7 +27387,82 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         </tags>
       </message>
     </folder>
-    <folder name="Charimes" id="charimes" nb="2" image="charismes.jpg">
+    <folder name="Bible" id="bible-raisons-de-croire" nb="3" image="bible.jpg">
+      <message name="L&apos;exode biblique est-il une légende ou un événement historique ?" id="l-exode-biblique-est-il-une-legende-ou-un-evenement-historique">
+        <tests>
+          <test input="L&apos;exode biblique est-il une légende ou un événement historique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UKXhaR-_jF8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 1, 11&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;1R 6, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jos 6, 20-24&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Gn 47, 11&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ex 1, 16-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Gn 41, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;l-exode-biblique-est-il-une-legende-ou-un-evenement-historique&quot; textlength=&quot;23&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="L&apos;exode biblique est-il une légende ou un événement historique ?"/>
+        </triggers>
+        <references>
+          <bible book="Ex" chapter="1" verseBegin="11"/>
+          <bible book="1 Kgs" chapter="6" verseBegin="1"/>
+          <bible book="Josh" chapter="6" verseBegin="20" verseEnd="24"/>
+          <bible book="Gen" chapter="47" verseBegin="11"/>
+          <bible book="Ex" chapter="1" verseBegin="16" verseEnd="22"/>
+          <bible book="Gen" chapter="41" verseBegin="41"/>
+        </references>
+        <sourceId>et-pourtant-dieu-existe</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UKXhaR-_jF8?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="6" seconds="37"/>
+        <viewCount>40797</viewCount>
+        <uploadDate year="2015" month="2" day="6"/>
+        <tags>
+          <tag id="Découverte"/>
+        </tags>
+      </message>
+      <message name="Tyr - une confirmation de l&apos;inspiration prophétique de la Bible ?" id="tyr-une-confirmation-de-l-inspiration-prophetique-de-la-bible">
+        <tests>
+          <test input="Quelle est la prophétie biblique sur Tyr ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ez 26, 7-14&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;tyr-une-confirmation-de-l-inspiration-prophetique-de-la-bible&quot; textlength=&quot;23&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle est la prophétie biblique sur Tyr ?"/>
+        </triggers>
+        <references>
+          <bible book="Ezek" chapter="26" verseBegin="7" verseEnd="14"/>
+        </references>
+        <sourceId>et-pourtant-dieu-existe</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3XO97tPUoYY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="6" seconds="19"/>
+        <viewCount>6853</viewCount>
+        <uploadDate year="2019" month="4" day="3"/>
+        <tags>
+          <tag id="Bible"/>
+        </tags>
+      </message>
+      <message name="Une preuve de Dieu ? Le signe d&apos;Abraham" id="une-preuve-de-dieu-le-signe-d-abraham">
+        <tests>
+          <test input="Comment comprendre le sacrifice qu&apos;Abraham fait de son fils Isaac ?" output="Je ne sais pas comment comprendre le sacrifice." isOk="false"/>
+          <test input="Comment comprendre le sacrifice d&apos;Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/es7MejCoqBc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 22, 2-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 20, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 21, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;une-preuve-de-dieu-le-signe-d-abraham&quot; textlength=&quot;23&quot; /&gt;"/>
+          <test input="Comment comprendre le sacrifice d&apos;Isaac ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/es7MejCoqBc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 22, 2-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 20, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 21, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;une-preuve-de-dieu-le-signe-d-abraham&quot; textlength=&quot;23&quot; /&gt;"/>
+          <test input="Quel est le signe d&apos;Abraham ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/es7MejCoqBc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 22, 2-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 20, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 21, 10&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Jn 1, 36&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 13&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 23&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;une-preuve-de-dieu-le-signe-d-abraham&quot; textlength=&quot;23&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment comprendre le sacrifice qu&apos;Abraham fait de son fils Isaac ?"/>
+          <trigger value="Comment comprendre le sacrifice d&apos;Abraham ?"/>
+          <trigger value="Comment comprendre le sacrifice d&apos;Isaac ?"/>
+          <trigger value="Quel est le signe d&apos;Abraham ?"/>
+        </triggers>
+        <references>
+          <bible book="Gen" chapter="22" verseBegin="2" verseEnd="18"/>
+          <bible book="Ex" chapter="20" verseBegin="13"/>
+          <bible book="Mt" chapter="21" verseBegin="10"/>
+          <bible book="Jn" chapter="1" verseBegin="36"/>
+          <bible book="Jn" chapter="2" verseBegin="13"/>
+          <bible book="Jn" chapter="2" verseBegin="23"/>
+        </references>
+        <sourceId>et-pourtant-dieu-existe</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/es7MejCoqBc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="6" seconds="23"/>
+        <viewCount>4252</viewCount>
+        <uploadDate year="2020" month="5" day="30"/>
+        <tags>
+          <tag id="Bible"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Charimes" id="charimes" nb="6" image="charismes.jpg">
       <folder name="A propos" id="a-propos-charimes" image="about.png">
         <message name="7 dons de l&apos;Esprit Saint, en bref...." id="7-dons-de-l-esprit-saint-en-bref">
           <tests>
@@ -27362,6 +27482,42 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
           <uploadDate year="2021" month="10" day="23"/>
           <tags>
             <tag id="Découverte"/>
+          </tags>
+        </message>
+        <message name="Charismes et guérisons, Sans langue de buis" id="charismes-et-guerisons-sans-langue-de-buis">
+          <tests>
+            <test input="Est-ce que c&apos;est dans la mission de l&apos;Eglise catholique de faire des prières de guérisons ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
+            <test input="De quoi Dieu guérit-il ?" output="Oui, Dieu guérit.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f7DmnzSSMW8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 18, 35&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 20, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;une-difference-dans-les-evangiles&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_site site=&quot;https://jesus.catholique.fr/questions/jesus-guerit-il-encore-aujourdhui/jesus-guerit/&quot; textlength=&quot;85&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;jesus-guerit&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
+            <test input="Quel secours Dieu peut apporter fasse à la souffrance ?" output="Je ne sais pas ce qui secours Dieu peut apporter mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
+            <test input="Pourquoi certains sont guéris et d&apos;autres non ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
+            <test input="Comment éviter les abus, le charlatanisme, les dérives de l&apos;emprise spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
+          </tests>
+          <triggers>
+            <trigger value="Est-ce que c&apos;est dans la mission de l&apos;Eglise catholique de faire des prières de guérisons ?"/>
+            <trigger value="De quoi Dieu guérit-il ?"/>
+            <trigger value="Quel secours Dieu peut apporter fasse à la souffrance ?"/>
+            <trigger value="Pourquoi certains sont guéris et d&apos;autres non ?"/>
+            <trigger value="Comment éviter les abus, le charlatanisme, les dérives de l&apos;emprise spirituelle ?"/>
+          </triggers>
+          <references>
+            <bible book="Jn" chapter="9" verseBegin="3"/>
+            <bible book="Mk" chapter="5" verseBegin="28"/>
+            <bible book="Lk" chapter="18" verseBegin="41"/>
+            <bible book="Mk" chapter="2" verseBegin="5" verseEnd="11"/>
+            <bible book="Mt" chapter="8" verseBegin="14" verseEnd="17"/>
+            <bible book="Jn" chapter="5" verseBegin="2" verseEnd="8"/>
+            <bible book="Lk" chapter="4" verseBegin="40"/>
+            <bible book="Mt" chapter="10" verseBegin="8"/>
+            <bible book="Mt" chapter="26" verseBegin="42"/>
+            <bible book="Lk" chapter="22" verseBegin="44"/>
+          </references>
+          <sourceId>kto</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="56" seconds="17"/>
+          <viewCount>195016</viewCount>
+          <uploadDate year="2020" month="1" day="10"/>
+          <tags>
+            <tag id="Débat"/>
           </tags>
         </message>
       </folder>
@@ -27554,7 +27710,7 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         </tags>
       </message>
     </folder>
-    <folder name="Création" id="creation-miracles" nb="6" image="systeme-solaire.webp">
+    <folder name="Création" id="creation-raisons-de-croire" nb="7" image="systeme-solaire.webp">
       <message name="Démonstration de l&apos;existence de Dieu et raisons de croire chrétiennes " id="demonstration-de-l-existence-de-dieu-et-raisons-de-croire-chretiennes">
         <descriptions>
           <description value="C&apos;est pour cela que Dieu existe."/>
@@ -27621,7 +27777,7 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         </tags>
       </message>
     </folder>
-    <folder name="Guérisons" id="guerisons" nb="3" image="healings.jpg">
+    <folder name="Guérisons" id="guerisons" nb="4" image="healings.jpg">
       <folder name="Corps" id="corps" nb="1" image="body.jpg">
         <folder name="Addiction" id="addiction" nb="1" image="addiction.jpeg">
           <message name="Témoignage de Claire du 18 août 2016" id="temoignage-de-claire-du-18-aot-2016">
@@ -28166,27 +28322,7 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         </folder>
       </folder>
     </folder>
-    <folder name="Linceul de Turin" id="linceul-de-turin" nb="7" image="linceul.jpg">
-      <message name="Le Linceul de Turin ne peut venir que de la Résurrection du Christ" id="le-linceul-de-turin-ne-peut-venir-que-de-la-resurrection-du-christ">
-        <triggers>
-          <trigger value="D&apos;où vient le linceul de Turin ?"/>
-        </triggers>
-        <references>
-          <bible book="Jas" chapter="2" verseBegin="19"/>
-          <bible book="Jn" chapter="11" verseBegin="53"/>
-          <bible book="Jn" chapter="20" verseBegin="27"/>
-        </references>
-        <sourceId>marie-de-nazareth</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/x8kXiDm5rLc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="46" seconds="17"/>
-        <viewCount>1697335</viewCount>
-        <uploadDate year="2018" month="3" day="25"/>
-        <tags>
-          <tag id="Preuve"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Miracles eucharistiques" id="miracles-eucharistiques" nb="4" image="miracles_eucharistiques.webp">
+    <folder name="Miracles eucharistiques" id="miracles-eucharistiques" nb="2" image="miracles_eucharistiques.webp">
       <message name="De la violence à l&apos;amour - Témoignage" id="de-la-violence-a-l-amour-temoignage">
         <tests>
           <test input="Montrez-moi le témoignage d&apos;un conversion suite à une adoration eucharistique !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wVhxKAIz7ds?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;de-la-violence-a-l-amour-temoignage&quot; textlength=&quot;3&quot; /&gt;"/>
@@ -28296,43 +28432,49 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         </tags>
       </message>
     </folder>
-    <folder name="À propos" id="a-propos-miracles" image="about.png">
-      <message name="Charismes et guérisons, Sans langue de buis" id="charismes-et-guerisons-sans-langue-de-buis">
+    <folder name="Résurrection de Jésus" id="resurrection-de-jesus" nb="1" image="jesus-dead-and-resurrected.jpg">
+      <message name="La résurrection de Jésus, un fait historique ?" id="la-resurrection-de-jesus-un-fait-historique">
         <tests>
-          <test input="Est-ce que c&apos;est dans la mission de l&apos;Eglise catholique de faire des prières de guérisons ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
-          <test input="De quoi Dieu guérit-il ?" output="Oui, Dieu guérit.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f7DmnzSSMW8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 18, 35&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 20, 29&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;une-difference-dans-les-evangiles&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_site site=&quot;https://jesus.catholique.fr/questions/jesus-guerit-il-encore-aujourdhui/jesus-guerit/&quot; textlength=&quot;85&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;jesus-guerit&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
-          <test input="Quel secours Dieu peut apporter fasse à la souffrance ?" output="Je ne sais pas ce qui secours Dieu peut apporter mais vous pouvez demander à un prêtre ici : \hc_resource_html=#fr_FR#&lt;a href=&quot;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&quot;&gt;https://cybercure.fr/hors-flux/article/je-pose-une-question-au-cybercure&lt;/a&gt;\|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Cybercuré&quot; resourceid=&quot;comment-poser-une-question-a-un-pretre&quot; textlength=&quot;10&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
-          <test input="Pourquoi certains sont guéris et d&apos;autres non ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;"/>
-          <test input="Comment éviter les abus, le charlatanisme, les dérives de l&apos;emprise spirituelle ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 9, 3&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mc 5, 28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 18, 41&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 2, 5-11&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 8, 14-17&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jn 5, 2-8&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 4, 40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 10, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 42&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 44&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;KTO&quot; resourceid=&quot;charismes-et-guerisons-sans-langue-de-buis&quot; textlength=&quot;3&quot; /&gt;" isOk="false"/>
+          <test input="La résurrection de Jésus est-elle un fait historique ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5dyd7LiMce4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1Co 15, 3-6&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 32&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;la-resurrection-de-jesus-un-fait-historique&quot; textlength=&quot;23&quot; /&gt;"/>
         </tests>
         <triggers>
-          <trigger value="Est-ce que c&apos;est dans la mission de l&apos;Eglise catholique de faire des prières de guérisons ?"/>
-          <trigger value="De quoi Dieu guérit-il ?"/>
-          <trigger value="Quel secours Dieu peut apporter fasse à la souffrance ?"/>
-          <trigger value="Pourquoi certains sont guéris et d&apos;autres non ?"/>
-          <trigger value="Comment éviter les abus, le charlatanisme, les dérives de l&apos;emprise spirituelle ?"/>
+          <trigger value="La résurrection de Jésus est-elle un fait historique ?"/>
         </triggers>
         <references>
-          <bible book="Jn" chapter="9" verseBegin="3"/>
-          <bible book="Mk" chapter="5" verseBegin="28"/>
-          <bible book="Lk" chapter="18" verseBegin="41"/>
-          <bible book="Mk" chapter="2" verseBegin="5" verseEnd="11"/>
-          <bible book="Mt" chapter="8" verseBegin="14" verseEnd="17"/>
-          <bible book="Jn" chapter="5" verseBegin="2" verseEnd="8"/>
-          <bible book="Lk" chapter="4" verseBegin="40"/>
-          <bible book="Mt" chapter="10" verseBegin="8"/>
-          <bible book="Mt" chapter="26" verseBegin="42"/>
-          <bible book="Lk" chapter="22" verseBegin="44"/>
+          <bible book="1 Cor" chapter="15" verseBegin="3" verseEnd="6"/>
+          <bible book="Acts" chapter="2" verseBegin="32"/>
         </references>
-        <sourceId>kto</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Dpv1WcsaC0Q?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="56" seconds="17"/>
-        <viewCount>195016</viewCount>
-        <uploadDate year="2020" month="1" day="10"/>
+        <sourceId>et-pourtant-dieu-existe</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5dyd7LiMce4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="6" seconds="10"/>
+        <viewCount>95270</viewCount>
+        <uploadDate year="2014" month="12" day="16"/>
         <tags>
-          <tag id="Débat"/>
+          <tag id="Découverte"/>
         </tags>
       </message>
+      <folder name="Linceul de Turin" id="linceul-de-turin" image="linceul.jpg">
+        <message name="Le Linceul de Turin ne peut venir que de la Résurrection du Christ" id="le-linceul-de-turin-ne-peut-venir-que-de-la-resurrection-du-christ">
+          <triggers>
+            <trigger value="D&apos;où vient le linceul de Turin ?"/>
+          </triggers>
+          <references>
+            <bible book="Jas" chapter="2" verseBegin="19"/>
+            <bible book="Jn" chapter="11" verseBegin="53"/>
+            <bible book="Jn" chapter="20" verseBegin="27"/>
+          </references>
+          <sourceId>marie-de-nazareth</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/x8kXiDm5rLc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="46" seconds="17"/>
+          <viewCount>1697335</viewCount>
+          <uploadDate year="2018" month="3" day="25"/>
+          <tags>
+            <tag id="Preuve"/>
+          </tags>
+        </message>
+      </folder>
+    </folder>
+    <folder name="À propos" id="a-propos-miracles" image="about.png">
       <message name="Comment ne pas passer à coté de la grâce ?" id="comment-ne-pas-passer-a-cote-de-la-grace">
         <tests>
           <test input="Comment ne pas passer à coté de la grâce ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fQo_t3qh3_U?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;CN Media&quot; resourceid=&quot;comment-ne-pas-passer-a-cote-de-la-grace&quot; textlength=&quot;8&quot; /&gt;"/>
@@ -28347,6 +28489,40 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         <uploadDate year="2018" month="10" day="23"/>
         <tags>
           <tag id="Prédication"/>
+        </tags>
+      </message>
+      <message name="Dieu existe-t-il ? Trois signes tangibles de son existence" id="dieu-existe-t-il-trois-signes-tangibles-de-son-existence">
+        <tests>
+          <test input="Dieu existe-t-il ?" output="Oui, Dieu existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/r2mxAzuqyTI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 22, 1-19&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 12&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 13&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 14&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ps 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Is 7, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 52, 13-53&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mi 5, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Za 12, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_site site=&quot;https://croire.la-croix.com/Enfants/Questions-d-enfants/Dieu-Jesus/Comment-sait-on-que-Dieu-existe&quot; textlength=&quot;98&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;dieu-existe&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Gn 22&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Ex 12-14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Ps 21&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mt 1, 1-17&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Is 7&quot; textlength=&quot;4&quot; /&gt;&lt;hc_bible ref=&quot;Is 53&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Is 61&quot; textlength=&quot;5&quot; /&gt;&lt;hc_bible ref=&quot;Mc 16, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mi 5, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Jl 2, 19-27&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jr 16, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 24, 9-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 24, 2&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 66, 8&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Is 35, 1&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;Et pourtant Dieu existe&quot; resourceid=&quot;dieu-existe-t-il-trois-signes-tangibles-de-son-existence&quot; textlength=&quot;23&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Dieu existe-t-il ?"/>
+        </triggers>
+        <references>
+          <bible book="Gen" chapter="22" linkFromCorpus="low"/>
+          <bible book="Ex" chapter="12" chapterEnd="14"/>
+          <bible book="Ps" chapter="21"/>
+          <bible book="Mt" chapter="1" verseBegin="1" verseEnd="17"/>
+          <bible book="Is" chapter="7"/>
+          <bible book="Is" chapter="53"/>
+          <bible book="Is" chapter="61"/>
+          <bible book="Mk" chapter="16" verseBegin="15"/>
+          <bible book="Mic" chapter="5" verseBegin="1"/>
+          <bible book="Joel" chapter="2" verseBegin="19" verseEnd="27"/>
+          <bible book="Jer" chapter="16" verseBegin="15"/>
+          <bible book="Mt" chapter="24" verseBegin="9" verseEnd="10"/>
+          <bible book="Mt" chapter="24" verseBegin="2"/>
+          <bible book="Is" chapter="66" verseBegin="8"/>
+          <bible book="Jer" chapter="16" verseBegin="15"/>
+          <bible book="Is" chapter="35" verseBegin="1"/>
+        </references>
+        <sourceId>et-pourtant-dieu-existe</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/r2mxAzuqyTI?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="6" seconds="58"/>
+        <viewCount>161732</viewCount>
+        <uploadDate year="2015" month="9" day="11"/>
+        <tags>
+          <tag id="Découverte"/>
         </tags>
       </message>
       <message name="Jésus a-t-il vraiment fait des miracles et si oui pourquoi ?" id="jesus-a-t-il-vraiment-fait-des-miracles-et-si-oui-pourquoi">
