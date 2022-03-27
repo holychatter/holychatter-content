@@ -109,25 +109,39 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="2 Samuel - Synthèse" id="2-samuel-synthese" nb="5">
-          <tests>
-            <test input="Fais-moi un résumé du deuxième livre de Samuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a8yoTzGxOTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2S 1-24&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;2-samuel-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du deuxième livre de Samuel !"/>
-          </triggers>
-          <references>
-            <bible book="2 Sam" chapter="1" chapterEnd="24"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a8yoTzGxOTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="5" seconds="59"/>
-          <viewCount>17629</viewCount>
-          <uploadDate year="2019" month="4" day="27"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="2 Samuel" id="2-samuel" nb="5">
+          <message name="2 Samuel - Synthèse" id="2-samuel-synthese" nb="0">
+            <tests>
+              <test input="Fais-moi un résumé du deuxième livre de Samuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a8yoTzGxOTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2S 1-24&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;2-samuel-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du deuxième livre de Samuel !"/>
+            </triggers>
+            <references>
+              <bible book="2 Sam" chapter="1" chapterEnd="24"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a8yoTzGxOTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="59"/>
+            <viewCount>23357</viewCount>
+            <uploadDate year="2019" month="4" day="27"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - Solennité de la Saint Joseph, époux de la Vierge Marie, patron de l&apos;Eglise - 1re lecture - 2S 7, 4-5a.12-14a.16 (Tiré à l&apos;intégrale)" id="commentaire-solennite-de-la-saint-joseph-epoux-de-la-vierge-marie-patron-de-l-eglise-1re-lecture-2s-7-4-5a-12-14a-16-tire-a-l-integrale" nb="704">
+            <references>
+              <bible book="2 Sam" chapter="7" verseBegin="4" verseEnd="5"/>
+              <bible book="2 Sam" chapter="7" verseBegin="12" verseEnd="14"/>
+              <bible book="2 Sam" chapter="7" verseBegin="16"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4_RyL55AOFQ?rel=0&amp;start=62&amp;end=424&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="2"/>
+            <viewCount>11457</viewCount>
+            <uploadDate year="2018" month="3" day="19"/>
+          </message>
+        </folder>
         <folder name="Esdras-Néhémie" id="esdras-nehemie" nb="8" image="ezra.jpg">
           <folder name="Esdras" id="esdras" nb="0" image="ezra.jpg"/>
           <message name="Esdras-Néhémie - Synthèse" id="esdras-nehemie-synthese">
@@ -1657,6 +1671,23 @@
             <duration minutes="6" seconds="5"/>
             <viewCount>2866</viewCount>
             <uploadDate year="2019" month="3" day="25"/>
+          </message>
+          <message name="Commentaire - Solennité de la Saint Joseph, époux de la Vierge Marie, patron de l&apos;Eglise - Ps 88, 2-3, 4-5, 27.29 (Tiré de l&apos;intégrale)" id="commentaire-solennite-de-la-saint-joseph-epoux-de-la-vierge-marie-patron-de-l-eglise-ps-88-2-3-4-5-27-29-tire-de-l-integrale" nb="8802">
+            <references>
+              <bible book="Ps" chapter="88" verseBegin="2" verseEnd="5"/>
+              <bible book="Ps" chapter="88" verseBegin="27"/>
+              <bible book="Ps" chapter="88" verseBegin="29"/>
+              <bible book="Ps" chapter="88" verseBegin="50" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="88" verseBegin="39" verseEnd="47" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="88" verseBegin="53" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="34" verseBegin="6" linkFromCorpus="no"/>
+              <bible book="2 Sam" chapter="7" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4_RyL55AOFQ?rel=0&amp;start=476&amp;end=863&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="27"/>
+            <viewCount>11457</viewCount>
+            <uploadDate year="2018" month="3" day="19"/>
           </message>
           <message name="Commentaire - Solennité de la Toussaint - Psaume - Ps 23" id="commentaire-solennite-de-la-toussaint-psaume-ps-23" nb="2300">
             <references>
@@ -3589,6 +3620,27 @@
             <tags>
               <tag id="Bible"/>
             </tags>
+          </message>
+          <message name="Commentaire - Solennité de la Saint Joseph, époux de la Vierge Marie, patron de l&apos;Eglise - 2e lecture - Rm 4, 13.16-18.22 (Tiré de l&apos;intégrale)" id="commentaire-solennite-de-la-saint-joseph-epoux-de-la-vierge-marie-patron-de-l-eglise-2e-lecture-rm-4-13-16-18-22-tire-de-l-integrale" nb="413">
+            <references>
+              <bible book="Rom" chapter="4" verseBegin="13"/>
+              <bible book="Rom" chapter="4" verseBegin="16" verseEnd="18"/>
+              <bible book="Rom" chapter="4" verseBegin="22"/>
+              <bible book="2 Sam" chapter="7" verseBegin="4" verseEnd="5" linkFromCorpus="no"/>
+              <bible book="2 Sam" chapter="7" verseBegin="12" verseEnd="14" linkFromCorpus="no"/>
+              <bible book="2 Sam" chapter="7" verseBegin="16" linkFromCorpus="no"/>
+              <bible book="Gen" chapter="15" verseBegin="1" verseEnd="7" linkFromCorpus="no"/>
+              <bible book="Num" chapter="11" verseBegin="23" linkFromCorpus="no"/>
+              <bible book="Is" chapter="50" verseBegin="2" linkFromCorpus="no"/>
+              <bible book="Is" chapter="59" verseBegin="1" linkFromCorpus="no"/>
+              <bible book="Heb" chapter="11" verseBegin="8" verseEnd="10" linkFromCorpus="no"/>
+              <bible book="Heb" chapter="11" verseBegin="19" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4_RyL55AOFQ?rel=0&amp;start=938&amp;end=1279&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="41"/>
+            <viewCount>11457</viewCount>
+            <uploadDate year="2018" month="3" day="19"/>
           </message>
           <message name="Romains 1–4 - Synthèse" id="romains-1-4-synthese" nb="0">
             <tests>
@@ -5717,7 +5769,7 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Commentaire - Solennité de l&apos;Annonciation - Evangile - Lc 1, 26-38" id="commentaire-solennite-de-l-annonciation-evangile-lc-1-26-38" nb="126">
+            <message name="Commentaire - Solennité de l&apos;Annonciation - Evangile - Lc 1, 26-38 (Tiré de l&apos;intégrale)" id="commentaire-solennite-de-l-annonciation-evangile-lc-1-26-38-tire-de-l-integrale" nb="126">
               <references>
                 <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38"/>
                 <bible book="2 Sam" chapter="7" linkFromCorpus="no"/>
@@ -5730,8 +5782,22 @@ ci-dessous</text>
               <sourceId>en-marche-vers-dimanche</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/AJHhNd4bFV0?rel=0&amp;start=1379&amp;end=1699&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="5" seconds="20"/>
-              <viewCount>2867</viewCount>
+              <viewCount>2910</viewCount>
               <uploadDate year="2019" month="3" day="25"/>
+            </message>
+            <message name="Commentaire - Solennité de la Saint Joseph, époux de la Vierge Marie, patron de l&apos;Eglise - Evangile n°2 - Lc 2, 41-51a (Tiré de l&apos;intégrale)" id="commentaire-solennite-de-la-saint-joseph-epoux-de-la-vierge-marie-patron-de-l-eglise-evangile-n2-lc-2-41-51a-tire-de-l-integrale" nb="241">
+              <references>
+                <bible book="Lk" chapter="2" verseBegin="41" verseEnd="51"/>
+                <bible book="Jn" chapter="1" verseBegin="11" linkFromCorpus="no"/>
+                <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38" linkFromCorpus="no"/>
+                <bible book="Is" chapter="55" verseBegin="8" verseEnd="9" linkFromCorpus="no"/>
+                <bible book="Mal" chapter="3" verseBegin="1" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4_RyL55AOFQ?rel=0&amp;start=1800&amp;end=2125&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="25"/>
+              <viewCount>11457</viewCount>
+              <uploadDate year="2018" month="3" day="19"/>
             </message>
             <message name="Luc 10–24 - Synthèse" id="luc-10-24-synthese" nb="1">
               <tests>
@@ -6096,6 +6162,22 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
+            <message name="Commentaire - Solennité de la Saint Joseph, époux de la Vierge Marie, patron de l&apos;Eglise - Evangile n°1 - Mt 1, 16.18-21.24a (Tiré de l&apos;intégrale)" id="commentaire-solennite-de-la-saint-joseph-epoux-de-la-vierge-marie-patron-de-l-eglise-evangile-n1-mt-1-16-18-21-24a-tire-de-l-integrale" nb="116">
+              <references>
+                <bible book="Mt" chapter="1" verseBegin="16"/>
+                <bible book="Mt" chapter="1" verseBegin="18" verseEnd="21"/>
+                <bible book="Mt" chapter="1" verseBegin="24"/>
+                <bible book="Mt" chapter="1" verseBegin="1" verseEnd="2" linkFromCorpus="no"/>
+                <bible book="Lk" chapter="1" verseBegin="26" verseEnd="38" linkFromCorpus="no"/>
+                <bible book="Lk" chapter="1" verseBegin="39" verseEnd="56" linkFromCorpus="no"/>
+                <bible book="Gen" chapter="12" verseBegin="4" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4_RyL55AOFQ?rel=0&amp;start=1363&amp;end=1713&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="50"/>
+              <viewCount>11457</viewCount>
+              <uploadDate year="2018" month="3" day="19"/>
+            </message>
             <message name="Commentaire - Solennité de la Toussaint - Evangile - Mt 5, 1-12" id="commentaire-solennite-de-la-toussaint-evangile-mt-5-1-12" nb="501">
               <references>
                 <bible book="Mt" chapter="5" verseBegin="1" verseEnd="12"/>
@@ -6110,7 +6192,7 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Matthieu 14–28 - Synthèse" id="matthieu-14-28-synthese" nb="2">
+            <message name="Matthieu 14–28 - Synthèse" id="matthieu-14-28-synthese" nb="1">
               <tests>
                 <test input="Fais-moi un résumé de la fin de l&apos;Évangile selon Matthieu !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mq0vO1vNVfY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 14-28&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;matthieu-14-28-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
@@ -6123,13 +6205,13 @@ ci-dessous</text>
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mq0vO1vNVfY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="7" seconds="11"/>
-              <viewCount>17858</viewCount>
+              <viewCount>23468</viewCount>
               <uploadDate year="2018" month="11" day="15"/>
               <tags>
                 <tag id="Bible"/>
               </tags>
             </message>
-            <message name="Matthieu 1–13 - Synthèse" id="matthieu-1-13-synthese" nb="1">
+            <message name="Matthieu 1–13 - Synthèse" id="matthieu-1-13-synthese" nb="0">
               <tests>
                 <test input="Fais-moi un résumé du début de l&apos;Évangile selon Matthieu !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wOJY7gRBkNU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 1-13&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;matthieu-1-13-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               </tests>
@@ -6142,7 +6224,7 @@ ci-dessous</text>
               <sourceId>bibleproject</sourceId>
               <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/wOJY7gRBkNU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
               <duration minutes="8" seconds="17"/>
-              <viewCount>39772</viewCount>
+              <viewCount>51799</viewCount>
               <uploadDate year="2018" month="11" day="15"/>
               <tags>
                 <tag id="Bible"/>
