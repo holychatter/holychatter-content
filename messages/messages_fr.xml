@@ -109,8 +109,8 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <folder name="2 Samuel" id="2-samuel" nb="5">
-          <message name="2 Samuel - Synthèse" id="2-samuel-synthese" nb="0">
+        <folder name="2 Samuel" id="2-samuel" nb="5" image="2_samuel.jpg">
+          <message name="2 Samuel - Synthèse" id="2-samuel-synthese">
             <tests>
               <test input="Fais-moi un résumé du deuxième livre de Samuel !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a8yoTzGxOTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;2S 1-24&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;2-samuel-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -123,7 +123,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a8yoTzGxOTU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="5" seconds="59"/>
-            <viewCount>23357</viewCount>
+            <viewCount>24051</viewCount>
             <uploadDate year="2019" month="4" day="27"/>
             <tags>
               <tag id="Bible"/>
@@ -352,6 +352,20 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - 6ème texte de la Veillée Pascale - Ba 3, 9-15, 32 - 4, 4" id="commentaire-6eme-texte-de-la-veillee-pascale-ba-3-9-15-32-4-4" nb="309">
+            <references>
+              <bible book="Bar" chapter="3" verseBegin="9" verseEnd="15"/>
+              <bible book="Bar" chapter="3" verseBegin="32" chapterEnd="4" verseEnd="4"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tcl_Eydg8fc?rel=0&amp;start=139&amp;end=442&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="3"/>
+            <viewCount>6749</viewCount>
+            <uploadDate year="2016" month="3" day="24"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
         </folder>
         <folder name="Daniel" id="daniel" nb="6" image="daniel.jpg">
           <message name="Commentaire - 33e dimanche ordinaire B - 1re lecture - Dn 12, 1-3" id="commentaire-33e-dimanche-ordinaire-b-1re-lecture-dn-12-1-3" nb="1201">
@@ -545,6 +559,20 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - 4ème lecture de la Veillée Pascale - Is 54, 5-14" id="commentaire-4eme-lecture-de-la-veillee-pascale-is-54-5-14" nb="5405">
+            <references>
+              <bible book="Is" chapter="54" verseBegin="5" verseEnd="14"/>
+              <bible book="Is" chapter="54" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NmOe8YQ7JLo?rel=0&amp;start=107&amp;end=447&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="40"/>
+            <viewCount>5665</viewCount>
+            <uploadDate year="2016" month="3" day="23"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Commentaire - 5e dimanche de Carême C - 1re lecture - Is 43, 16-21" id="commentaire-5e-dimanche-de-careme-c-1re-lecture-is-43-16-21" nb="4316">
             <references>
               <bible book="Is" chapter="43" verseBegin="16" verseEnd="21"/>
@@ -585,6 +613,9 @@
             <duration minutes="6" seconds="12"/>
             <viewCount>1572</viewCount>
             <uploadDate year="2016" month="3" day="14"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
           </message>
           <message name="Commentaire - Fête de l&apos;Épiphanie du Seigneur Jésus - 1re lecture - Is 60, 1-6" id="commentaire-fete-de-l-epiphanie-du-seigneur-jesus-1re-lecture-is-60-1-6" nb="6001">
             <references>
@@ -1578,6 +1609,26 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - Dimanche de Pâques (Année C) - Psaume - Ps 117" id="commentaire-dimanche-de-paques-annee-c-psaume-ps-117" nb="11700">
+            <references>
+              <bible book="Ps" chapter="117" verseBegin="1"/>
+              <bible book="Ps" chapter="117" verseBegin="4"/>
+              <bible book="Ps" chapter="117" verseBegin="16" verseEnd="17"/>
+              <bible book="Ps" chapter="117" verseBegin="22" verseEnd="23"/>
+              <bible book="Is" chapter="28" verseBegin="16" linkFromCorpus="no"/>
+              <bible book="Mt" chapter="21" verseBegin="33" verseEnd="46" linkFromCorpus="no"/>
+              <bible book="Mk" chapter="12" verseBegin="1" verseEnd="12" linkFromCorpus="no"/>
+              <bible book="Lk" chapter="20" verseBegin="9" verseEnd="19" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ilIuwin3yjY?rel=0&amp;start=460&amp;end=821&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="1"/>
+            <viewCount>6128</viewCount>
+            <uploadDate year="2019" month="4" day="19"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Commentaire - Dimanche des Rameaux et de la Passion du Seigneur C - Psaume - Ps 21, 2, 8-9, 17-20, 22b-24" id="commentaire-dimanche-des-rameaux-et-de-la-passion-du-seigneur-c-psaume-ps-21-2-8-9-17-20-22b-24" nb="2102">
             <references>
               <bible book="Ps" chapter="21" verseBegin="2"/>
@@ -1592,6 +1643,9 @@
             <duration minutes="5" seconds="49"/>
             <viewCount>1393</viewCount>
             <uploadDate year="2016" month="3" day="15"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
           </message>
           <message name="Commentaire - Fête de l&apos;Épiphanie du Seigneur Jésus - Psaume - Ps 71" id="commentaire-fete-de-l-epiphanie-du-seigneur-jesus-psaume-ps-71" nb="7100">
             <references>
@@ -1951,6 +2005,25 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - 3ème texte de la Veillée Pascale - Ex 14, 15 - 15, 1" id="commentaire-3eme-texte-de-la-veillee-pascale-ex-14-15-15-1" nb="1415">
+            <references>
+              <bible book="Ex" chapter="14" verseBegin="15" chapterEnd="15" verseEnd="1"/>
+              <bible book="Ps" chapter="76" verseBegin="17" verseEnd="21" linkFromCorpus="no"/>
+              <bible book="Is" chapter="43" verseBegin="16" verseEnd="17" linkFromCorpus="no"/>
+              <bible book="Wis" chapter="19" verseBegin="7" verseEnd="8" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="14" verseBegin="10" verseEnd="11" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="3" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="15" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/szfjpQcE_oQ?rel=0&amp;start=154&amp;end=421&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="4" seconds="27"/>
+            <viewCount>2067</viewCount>
+            <uploadDate year="2016" month="3" day="22"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Exode 19–40 - Synthèse" id="exode-19-40-synthese" nb="1">
             <tests>
               <test input="Fais-moi un résumé de la deuxième partie de l&apos;Exode !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GIdz46OiA5s?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 19-40&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;exode-19-40-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -2128,6 +2201,21 @@
               </tags>
             </message>
           </folder>
+          <message name="Commentaire - 1er texte de la Veillée Pascale - Gn 1, 1 - 2, 2" id="commentaire-1er-texte-de-la-veillee-pascale-gn-1-1-2-2" nb="11">
+            <references>
+              <bible book="Gen" chapter="1" verseBegin="1" chapterEnd="2" verseEnd="2"/>
+              <bible book="Ex" chapter="20" verseBegin="4" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="32" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WWIolbZ69ZM?rel=0&amp;start=240&amp;end=439&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="3" seconds="19"/>
+            <viewCount>1419</viewCount>
+            <uploadDate year="2016" month="3" day="21"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Commentaire - 27e dimanche ordinaire B - 1re lecture - Gn 2, 18-24" id="commentaire-27e-dimanche-ordinaire-b-1re-lecture-gn-2-18-24" nb="218">
             <references>
               <bible book="Gen" chapter="2" verseBegin="18" verseEnd="24"/>
@@ -2157,7 +2245,7 @@
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Genèse 12–50 - Synthèse" id="genese-12-50-synthese" nb="2">
+          <message name="Genèse 12–50 - Synthèse" id="genese-12-50-synthese" nb="1">
             <tests>
               <test input="Faites-moi un résumé de la deuxième partie de la Genèse !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NylJU42gNnU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 12-50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;genese-12-50-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
               <test input="Montrez-moi l&apos;histoire d&apos;Abraham !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NylJU42gNnU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 12-50&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;genese-12-50-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -2178,13 +2266,13 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NylJU42gNnU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="8" seconds="6"/>
-            <viewCount>47268</viewCount>
+            <viewCount>63207</viewCount>
             <uploadDate year="2018" month="11" day="15"/>
             <tags>
               <tag id="Bible"/>
             </tags>
           </message>
-          <message name="Genèse 1–11 - Synthèse" id="genese-1-11-synthese" nb="1">
+          <message name="Genèse 1–11 - Synthèse" id="genese-1-11-synthese" nb="0">
             <tests>
               <test input="Fais-moi un résumé du début de la Genèse !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3m24IHVZ0XM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 1-11&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;genese-1-11-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
             </tests>
@@ -2197,7 +2285,7 @@
             <sourceId>bibleproject</sourceId>
             <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3m24IHVZ0XM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
             <duration minutes="7" seconds="44"/>
-            <viewCount>91591</viewCount>
+            <viewCount>123537</viewCount>
             <uploadDate year="2018" month="11" day="15"/>
             <tags>
               <tag id="Bible"/>
@@ -2998,6 +3086,20 @@
             <tag id="Bible"/>
           </tags>
         </message>
+        <message name="Commentaire - Dimanche de Pâques (Année C) - 1re lecture - Ac 10, 34-43 (Tiré de l&apos;intégrale)" id="commentaire-dimanche-de-paques-annee-c-1re-lecture-ac-10-34-43-tire-de-l-integrale" nb="1034">
+          <references>
+            <bible book="Acts" chapter="10" verseBegin="34" verseEnd="43"/>
+            <bible book="Acts" chapter="9" verseBegin="32" verseEnd="43" linkFromCorpus="no"/>
+          </references>
+          <sourceId>en-marche-vers-dimanche</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ilIuwin3yjY?rel=0&amp;start=94&amp;end=417&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="5" seconds="23"/>
+          <viewCount>6128</viewCount>
+          <uploadDate year="2019" month="4" day="19"/>
+          <tags>
+            <tag id="Bible"/>
+          </tags>
+        </message>
       </folder>
       <folder name="Livre prophétique" id="livre-prophetique" nb="5" image="apocalypse.jpg">
         <folder name="Apocalypse de Jean" id="apocalypse-de-jean" image="apocalypse.jpg">
@@ -3358,6 +3460,20 @@
               <tag id="Bible"/>
             </tags>
           </message>
+          <message name="Commentaire - Dimanche de Pâques (Année C) - 2e lecture - 1Co 5, 6b–8 (Tiré de l&apos;intégrale)" id="commentaire-dimanche-de-paques-annee-c-2e-lecture-1co-5-6b-8-tire-de-l-integrale" nb="506">
+            <references>
+              <bible book="1 Cor" chapter="5" verseBegin="6" verseEnd="8"/>
+              <bible book="Col" chapter="3" verseBegin="1" verseEnd="4" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ilIuwin3yjY?rel=0&amp;start=898&amp;end=1218&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="20"/>
+            <viewCount>6128</viewCount>
+            <uploadDate year="2019" month="4" day="19"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
         </folder>
         <folder name="1 Thessaloniciens" id="1-thessaloniciens" nb="8" image="1_thessalonians.jpg">
           <message name="1 Thessaloniciens - Synthèse" id="1-thessaloniciens-synthese">
@@ -3524,25 +3640,41 @@
             </tags>
           </message>
         </folder>
-        <message name="Colossiens - Synthèse" id="colossiens-synthese" nb="7">
-          <tests>
-            <test input="Fais-moi un résumé de la lettre de Paul aux colossiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d9lcTLTNSF4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Col 1-4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;colossiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé de la lettre de Paul aux colossiens !"/>
-          </triggers>
-          <references>
-            <bible book="Col" chapter="1" chapterEnd="4"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d9lcTLTNSF4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="9" seconds="23"/>
-          <viewCount>17354</viewCount>
-          <uploadDate year="2019" month="3" day="14"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Colossiens" id="colossiens" nb="7" image="colossians.jpg">
+          <message name="Colossiens - Synthèse" id="colossiens-synthese" nb="0">
+            <tests>
+              <test input="Fais-moi un résumé de la lettre de Paul aux colossiens !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d9lcTLTNSF4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Col 1-4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;colossiens-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé de la lettre de Paul aux colossiens !"/>
+            </triggers>
+            <references>
+              <bible book="Col" chapter="1" chapterEnd="4"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d9lcTLTNSF4?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="9" seconds="23"/>
+            <viewCount>22820</viewCount>
+            <uploadDate year="2019" month="3" day="14"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="Commentaire - Dimanche de Pâques (Année C) - 2e lecture - Col 3, 1-4 (Tiré de l&apos;intégrale)" id="commentaire-dimanche-de-paques-annee-c-2e-lecture-col-3-1-4-tire-de-l-integrale" nb="301">
+            <references>
+              <bible book="Col" chapter="3" verseBegin="1" verseEnd="4"/>
+              <bible book="1 Cor" chapter="5" verseBegin="6" verseEnd="8" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ilIuwin3yjY?rel=0&amp;start=898&amp;end=1218&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="20"/>
+            <viewCount>6128</viewCount>
+            <uploadDate year="2019" month="4" day="19"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <folder name="Galates" id="galates" nb="4" image="galatians.jpg">
           <message name="Commentaire - Solennité de Sainte Marie, Mère de Dieu - 2e lecture - Ga 4, 4-7" id="commentaire-solennite-de-sainte-marie-mere-de-dieu-2e-lecture-ga-4-4-7" nb="404">
             <references>
@@ -3661,6 +3793,9 @@
             <duration minutes="6" seconds="27"/>
             <viewCount>1411</viewCount>
             <uploadDate year="2016" month="3" day="16"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
           </message>
           <message name="Commentaire - Fête de la Croix Glorieuse - 2ème lecture - Ph 2, 6-11" id="commentaire-fete-de-la-croix-glorieuse-2eme-lecture-ph-2-6-11" nb="206">
             <references>
@@ -5140,6 +5275,21 @@ ci-dessous</text>
                 <tag id="Bible"/>
               </tags>
             </message>
+            <message name="Commentaire - Dimanche de Pâques (Année C) - Evangile - Jn 20, 1-9 (Tiré de l&apos;intégrale)" id="commentaire-dimanche-de-paques-annee-c-evangile-jn-20-1-9-tire-de-l-integrale" nb="2001">
+              <references>
+                <bible book="Jn" chapter="20" verseBegin="1" verseEnd="9"/>
+                <bible book="Jn" chapter="2" verseBegin="22" linkFromCorpus="no"/>
+                <bible book="Jn" chapter="12" verseBegin="16" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ilIuwin3yjY?rel=0&amp;start=1295&amp;end=2641&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="22" seconds="26"/>
+              <viewCount>6128</viewCount>
+              <uploadDate year="2019" month="4" day="19"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
+            </message>
             <message name="Commentaire - Solennité de la nativité (messe du jour) - Evangile - Jn 1, 1-18" id="commentaire-solennite-de-la-nativite-messe-du-jour-evangile-jn-1-1-18" nb="101">
               <references>
                 <bible book="Jn" chapter="1" verseBegin="1" verseEnd="18"/>
@@ -5842,6 +5992,9 @@ ci-dessous</text>
               <duration minutes="6" seconds="38"/>
               <viewCount>2050</viewCount>
               <uploadDate year="2016" month="3" day="17"/>
+              <tags>
+                <tag id="Bible"/>
+              </tags>
             </message>
             <message name="Commentaire - Fête de la Présentation du Seigneur - Evangile - Lc 2, 22-40" id="commentaire-fete-de-la-presentation-du-seigneur-evangile-lc-2-22-40" nb="222">
               <references>
@@ -8649,6 +8802,13 @@ Dieu a décidé de descendre sur terre pour prendre sur lui notre malédiction p
           <text>Il est mort… parce qu’on l’a tué !
 Il est mort « pour nous »,  «pour nos péchés»</text>
         </message>
+        <message name="Que sait-on sur la jeunesse de Jésus ?" id="que-sait-on-sur-la-jeunesse-de-jesus">
+          <triggers>
+            <trigger value="Que sait-on sur la jeunesse de Jésus ?"/>
+          </triggers>
+          <sourceId>bible</sourceId>
+          <text>Pas grand chose.</text>
+        </message>
       </folder>
       <message name="Comment Jésus nous a-t-il racheté à la Croix ?" id="comment-jesus-nous-a-t-il-rachete-a-la-croix">
         <tests>
@@ -9156,6 +9316,22 @@ L&apos;amour de Dieu nous garanti de vivre pour toujours.</text>
         <tags>
           <tag id="Bible"/>
           <tag id="Film"/>
+        </tags>
+      </message>
+      <message name="La jeunesse de Jésus : qu&apos;est ce qu&apos;on sait ?" id="la-jeunesse-de-jesus-qu-est-ce-qu-on-sait">
+        <tests>
+          <test input="Que sait-on sur la jeunesse de Jésus ?" output="Pas grand chose.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ajvk75bXVrA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;que-sait-on-sur-la-jeunesse-de-jesus&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;la-jeunesse-de-jesus-qu-est-ce-qu-on-sait&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Que sait-on sur la jeunesse de Jésus ?"/>
+        </triggers>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ajvk75bXVrA?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="1"/>
+        <viewCount>9207</viewCount>
+        <uploadDate year="2022" month="3" day="11"/>
+        <tags>
+          <tag id="Découverte"/>
         </tags>
       </message>
       <folder name="La résurrection mythe ou réalité ?" id="la-resurrection-mythe-ou-realite" nb="4" isHidden="true">
@@ -11764,7 +11940,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
       </message>
       <message name="Les statues, l&apos;idolâtrie et la Bible : Protestants VS catholiques" id="les-statues-l-idolatrie-et-la-bible-protestants-vs-catholiques">
         <tests>
-          <test input="Les catholiques sont-ils idolâtres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GeGQ-BLP8Cw?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 25, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1R 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 32, 8-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Col 2, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Nb 21, 8-9&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 14-21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;les-statues-l-idolatrie-et-la-bible-protestants-vs-catholiques&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Les catholiques sont-ils idolâtres ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GeGQ-BLP8Cw?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ex 20, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ex 25, 17-20&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;1R 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ex 32, 8-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Col 2, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Nb 21, 8-9&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Jn 3, 14-21&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Dn 7, 9-10&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 3, 16&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Col 1, 15&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;2Co 3, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;les-statues-l-idolatrie-et-la-bible-protestants-vs-catholiques&quot; textlength=&quot;18&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Les catholiques sont-ils idolâtres ?"/>
@@ -13374,6 +13550,25 @@ Amen.&quot;</text>
               <tag id="Catéchisme"/>
             </tags>
           </message>
+          <message name="Quels sont les vêtements du prêtre pendant la messe ?" id="quels-sont-les-vetements-du-pretre-pendant-la-messe">
+            <tests>
+              <test input="Quels sont les vêtements du prêtre pendant la messe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jMGMPZWHnAE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1P 4, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;quels-sont-les-vetements-du-pretre-pendant-la-messe&quot; textlength=&quot;18&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Quels sont les vêtements du prêtre pendant la messe ?"/>
+            </triggers>
+            <references>
+              <bible book="1 Pet" chapter="4" verseBegin="8"/>
+            </references>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jMGMPZWHnAE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration seconds="56"/>
+            <viewCount>7333</viewCount>
+            <uploadDate year="2022" month="3" day="17"/>
+            <tags>
+              <tag id="Découverte"/>
+            </tags>
+          </message>
           <message name="TOUT SAVOIR SUR LES VASES SACRÉS PENDANT LA MESSE" id="tout-savoir-sur-les-vases-sacres-pendant-la-messe">
             <tests>
               <test input="Pourquoi célébrer la messe dans des vases sacrés ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LOeXt79pcZw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Aymar de Langautier&quot; resourceid=&quot;tout-savoir-sur-les-vases-sacres-pendant-la-messe&quot; textlength=&quot;19&quot; /&gt;"/>
@@ -13583,6 +13778,24 @@ Amen.&quot;</text>
             <uploadDate year="2016" month="1" day="15"/>
             <tags>
               <tag id="Solidarité"/>
+            </tags>
+          </message>
+          <message name="Le carême, en bref, c&apos;est quoi ?" id="le-careme-en-bref-c-est-quoi">
+            <tests>
+              <test input="C&apos;est quand le Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pyZQApOtl88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;le-careme-en-bref-c-est-quoi&quot; textlength=&quot;18&quot; /&gt;"/>
+              <test input="Quels sont les efforts de Carême ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pyZQApOtl88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;le-careme-en-bref-c-est-quoi&quot; textlength=&quot;18&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="C&apos;est quand le Carême ?"/>
+              <trigger value="Quels sont les efforts de Carême ?"/>
+            </triggers>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pyZQApOtl88?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration seconds="58"/>
+            <viewCount>6937</viewCount>
+            <uploadDate year="2022" month="3" day="10"/>
+            <tags>
+              <tag id="Découverte"/>
             </tags>
           </message>
           <message name="Pourquoi le Carême dure-t-il 40 jours ?" id="pourquoi-le-careme-dure-t-il-40-jours">
@@ -13804,6 +14017,29 @@ Amen.&quot;</text>
               <text>Pâques est la fête la plus importante des chrétiens.</text>
             </message>
           </folder>
+          <message name="Commentaire - Introduction aux textes de la Veillée Pascale" id="commentaire-introduction-aux-textes-de-la-veillee-pascale" nb="5">
+            <references>
+              <bible book="Ex" chapter="12" verseBegin="40" verseEnd="42" linkFromCorpus="no"/>
+              <site url="https://catechese.catholique.fr/outils/conference-contribution/310494-poeme-quatre-nuits-pessah-paque/"/>
+              <bible book="Gen" chapter="1" verseBegin="1" chapterEnd="2" verseEnd="2" linkFromCorpus="no"/>
+              <bible book="Gen" chapter="22" verseBegin="1" verseEnd="13" linkFromCorpus="no"/>
+              <bible book="Gen" chapter="22" verseBegin="15" verseEnd="18" linkFromCorpus="no"/>
+              <bible book="Ex" chapter="14" verseBegin="15" chapterEnd="15" verseEnd="1" linkFromCorpus="no"/>
+              <bible book="Is" chapter="55" verseBegin="1" verseEnd="11" linkFromCorpus="no"/>
+              <bible book="Bar" chapter="3" verseBegin="9" verseEnd="15" linkFromCorpus="no"/>
+              <bible book="Bar" chapter="3" verseBegin="32" chapterEnd="4" verseEnd="4" linkFromCorpus="no"/>
+              <bible book="Ezek" chapter="36" verseBegin="16" verseEnd="17" linkFromCorpus="no"/>
+              <bible book="Gen" chapter="36" verseBegin="18" verseEnd="28" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xOnaNLHB2-k?rel=0&amp;start=15&amp;end=402&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="27"/>
+            <viewCount>1790</viewCount>
+            <uploadDate year="2016" month="3" day="20"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
           <message name="Le Triduum pascal - Pâques" id="le-triduum-pascal-paques">
             <tests>
               <test input="Comment entrer dans le mystère du Triduum pascal ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q44ypvT-WyY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Église catholique à Montréal&quot; resourceid=&quot;le-triduum-pascal-paques&quot; textlength=&quot;31&quot; /&gt;"/>
@@ -15133,6 +15369,22 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         </message>
       </folder>
       <folder name="Ordre" id="ordre" nb="7" image="ordination.jpg">
+        <message name="Comment devient-on prêtre ?" id="comment-devient-on-pretre">
+          <tests>
+            <test input="Comment devient-on prêtre ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gsWo4Heo83g?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;comment-devient-on-pretre&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment devient-on prêtre ?"/>
+          </triggers>
+          <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gsWo4Heo83g?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration seconds="57"/>
+          <viewCount>7017</viewCount>
+          <uploadDate year="2022" month="3" day="12"/>
+          <tags>
+            <tag id="Découverte"/>
+          </tags>
+        </message>
         <message name="Femmes prêtres : c&apos;est pour quand ? - Abbé Amar" id="femmes-pretres-c-est-pour-quand-abbe-amar">
           <tests>
             <test input="Quand il y aura-t-il enfin des femmes prêtres ?" output="\hc_resource_html=#fr_FR#&lt;video controls&gt;
@@ -17026,6 +17278,22 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
             <tag id="MessageDeMarie"/>
           </tags>
         </message>
+        <message name="Comment lutter contre le diable ? En bref" id="comment-lutter-contre-le-diable-en-bref">
+          <tests>
+            <test input="Comment lutter contre le diable ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q0P8WnZeJOc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;comment-lutter-contre-le-diable-en-bref&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Comment lutter contre le diable ?"/>
+          </triggers>
+          <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/q0P8WnZeJOc?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="1"/>
+          <viewCount>12640</viewCount>
+          <uploadDate year="2022" month="3" day="14"/>
+          <tags>
+            <tag id="ApprofondissementDeLaFoi"/>
+          </tags>
+        </message>
         <message name="Le diable existe-t-il ?" id="le-diable-existe-t-il">
           <tests>
             <test input="Le diable existe-t-il ?" output="Oui, le diable existe.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;307&quot; src=&quot;https://www.youtube.com/embed/qbW_d_CiM4A?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Ps 23, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Gn 1, 4&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;1Ch 21, 1&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Za 3, 1&quot; textlength=&quot;7&quot; /&gt;&lt;hc_bible ref=&quot;Mt 12, 22-29&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 18&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mc 7, 25-30&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Jude 1, 6&quot; textlength=&quot;9&quot; /&gt;&lt;hc_ccc ref=&quot;391-395&quot; textlength=&quot;7&quot; /&gt;&lt;hc_ccc ref=&quot;414&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;Le caté en 3 minutes&quot; resourceid=&quot;le-diable-existe-t-il&quot; textlength=&quot;21&quot; /&gt;"/>
@@ -17111,6 +17379,26 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         </message>
       </folder>
       <folder name="À propos" id="a-propos-anges" image="about.png">
+        <message name="Peut-on prier les anges ?" id="peut-on-prier-les-anges">
+          <tests>
+            <test input="Peut-on prier les anges ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZpMQFbOIu3c?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Gn 28, 12&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Ap 8, 3-4&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;peut-on-prier-les-anges&quot; textlength=&quot;18&quot; /&gt;"/>
+          </tests>
+          <triggers>
+            <trigger value="Peut-on prier les anges ?"/>
+          </triggers>
+          <references>
+            <bible book="Gen" chapter="28" verseBegin="12"/>
+            <bible book="Rev" chapter="8" verseBegin="3" verseEnd="4"/>
+          </references>
+          <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZpMQFbOIu3c?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="1"/>
+          <viewCount>13259</viewCount>
+          <uploadDate year="2022" month="3" day="15"/>
+          <tags>
+            <tag id="ApprofondissementDeLaFoi"/>
+          </tags>
+        </message>
         <message name="Pourquoi les vrais anges de la Bible fonts-ils peur ?" id="pourquoi-les-vrais-anges-de-la-bible-fonts-ils-peur">
           <tests>
             <test input="Pourquoi les vrais anges de la Bible fonts-ils peur ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nBj4Av4GU_Y?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Ez 1, 13-18&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 28, 3&quot; textlength=&quot;8&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;pourquoi-les-vrais-anges-de-la-bible-fonts-ils-peur&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -20387,6 +20675,30 @@ L’avarice conduit à la fermeture de cœur et à l&apos;injustice, mais elle p
           </message>
         </folder>
       </folder>
+      <message name="Un chrétien peut-il encore parler de guerre juste ?" id="un-chretien-peut-il-encore-parler-de-guerre-juste">
+        <tests>
+          <test input="Un chrétien peut-il encore parler de guerre juste ?" output="Non, un chrétien ne peut pas encore parler.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OoaDBYquE1s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 48&quot; textlength=&quot;8&quot; /&gt;&lt;hc_ccc ref=&quot;971&quot; textlength=&quot;3&quot; /&gt;&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;peut-on-adorer-marie&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 5, 39&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 13, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 14, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;un-chretien-peut-il-encore-parler-de-guerre-juste&quot; textlength=&quot;18&quot; /&gt;" isOk="false"/>
+          <test input="C&apos;est quoi la droiture d&apos;intentions ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OoaDBYquE1s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 5, 39&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 3, 14&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Rm 13, 4&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 14, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;un-chretien-peut-il-encore-parler-de-guerre-juste&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Un chrétien peut-il encore parler de guerre juste ?"/>
+          <trigger value="C&apos;est quoi la droiture d&apos;intentions ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="5" verseBegin="39"/>
+          <bible book="Lk" chapter="3" verseBegin="14"/>
+          <bible book="Rom" chapter="13" verseBegin="4"/>
+          <bible book="Lk" chapter="14" verseBegin="31" verseEnd="32"/>
+        </references>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OoaDBYquE1s?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="9" seconds="12"/>
+        <viewCount>11319</viewCount>
+        <uploadDate year="2022" month="3" day="20"/>
+        <tags>
+          <tag id="ChrétienAffermi"/>
+        </tags>
+      </message>
     </folder>
     <folder name="Mort et résurrection de Jésus" id="mort-et-resurrection-de-jesus" image="jesus-dead-and-resurrected.jpg">
       <folder name="Chatbot" id="chatbot-mort-et-resurrection-de-jesus" isHidden="true">
