@@ -13714,7 +13714,7 @@ Amen.&quot;</text>
           </message>
         </folder>
       </folder>
-      <folder name="Temps liturgiques" id="temps-liturgiques" nb="2" image="temps_liturgique.jpg">
+      <folder name="Temps liturgiques" id="temps-liturgiques" nb="2" image="temps_liturgiques.png">
         <folder name="Avent" id="avent" nb="2" image="avent.jpg">
           <message name="L&apos;Avent... et après ?" id="l-avent-et-apres">
             <tests>
@@ -13943,6 +13943,40 @@ Amen.&quot;</text>
               <tag id="Prédication"/>
             </tags>
           </message>
+          <folder name="Semaine sainte" id="semaine-sainte" image="semaine_sainte.jpg">
+            <message name="Le jeudi saint, c&apos;est quoi ?" id="le-jeudi-saint-c-est-quoi">
+              <tests>
+                <test input="Le jeudi saint, c&apos;est quoi ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CTJ3Dq2E7Q?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;le-jeudi-saint-c-est-quoi&quot; textlength=&quot;18&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Le jeudi saint, c&apos;est quoi ?"/>
+              </triggers>
+              <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3CTJ3Dq2E7Q?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration seconds="55"/>
+              <viewCount>3023</viewCount>
+              <uploadDate year="2022" month="4" day="13"/>
+              <tags>
+                <tag id="Découverte"/>
+              </tags>
+            </message>
+            <message name="Pourquoi des palmiers pour le dimanche des rameaux ?" id="pourquoi-des-palmiers-pour-le-dimanche-des-rameaux">
+              <tests>
+                <test input="Pourquoi des palmiers pour le dimanche des rameaux ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OarSXBhNXN0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;pourquoi-des-palmiers-pour-le-dimanche-des-rameaux&quot; textlength=&quot;18&quot; /&gt;"/>
+              </tests>
+              <triggers>
+                <trigger value="Pourquoi des palmiers pour le dimanche des rameaux ?"/>
+              </triggers>
+              <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OarSXBhNXN0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration seconds="58"/>
+              <viewCount>6720</viewCount>
+              <uploadDate year="2022" month="4" day="8"/>
+              <tags>
+                <tag id="Histoire"/>
+              </tags>
+            </message>
+          </folder>
           <message name="Vivre le carême" id="vivre-le-careme">
             <tests>
               <test input="Comment vivre son carême ?" output="Je ne sais pas comment vivre son carême." isOk="false"/>
@@ -14102,6 +14136,22 @@ Amen.&quot;</text>
             <uploadDate year="2016" month="3" day="20"/>
             <tags>
               <tag id="Bible"/>
+            </tags>
+          </message>
+          <message name="L&apos;Exultet : LE chant de Pâques" id="l-exultet-le-chant-de-paques">
+            <tests>
+              <test input="Je veux écouter l&apos;Exultet !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h-D6udbbtHE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;l-exultet-le-chant-de-paques-je-repete&quot; textlength=&quot;18&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Je veux écouter l&apos;Exultet !"/>
+            </triggers>
+            <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h-D6udbbtHE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration seconds="58"/>
+            <viewCount>3898</viewCount>
+            <uploadDate year="2022" month="4" day="16"/>
+            <tags>
+              <tag id="Chant"/>
             </tags>
           </message>
           <message name="Le Triduum pascal - Pâques" id="le-triduum-pascal-paques">
@@ -17907,6 +17957,28 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
         </tags>
       </message>
       <folder name="Paix intérieure" id="paix-interieure" image="paix_interieure.jpg">
+        <message name="Comment arrêter de stresser ?" id="comment-arreter-de-stresser">
+          <triggers>
+            <trigger value="Comment arrêter de stresser ?"/>
+          </triggers>
+          <references>
+            <bible book="Mk" chapter="5" verseBegin="36"/>
+            <bible book="Lk" chapter="2" verseBegin="10"/>
+            <bible book="Dan" chapter="10" verseBegin="12"/>
+            <bible book="Gen" chapter="26" verseBegin="24"/>
+            <bible book="Mk" chapter="14" verseBegin="33"/>
+            <bible book="Mt" chapter="26" verseBegin="37"/>
+            <bible book="Mt" chapter="7" verseBegin="21"/>
+          </references>
+          <sourceId>le-catho-de-service</sourceId>
+          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FNy5XXAp0PY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+          <duration minutes="5" seconds="21"/>
+          <viewCount>1143</viewCount>
+          <uploadDate year="2022" month="4" day="10"/>
+          <tags>
+            <tag id="GuidePratique"/>
+          </tags>
+        </message>
         <message name="Comment gérer la colère ? - La Traversée" id="comment-gerer-la-colere-la-traversee">
           <tests>
             <test input="Comment gérer la colère ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/F6aKAeRiT58?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 21, 12-13&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mc 11, 15-17&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 19, 45-46&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 2, 14-16&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ez 36, 26&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Fréjus-Toulon&quot; resourceid=&quot;comment-gerer-la-colere-la-traversee&quot; textlength=&quot;26&quot; /&gt;"/>
@@ -21947,6 +22019,24 @@ c’est la charité.</text>
         <uploadDate year="2020" month="11" day="22"/>
         <tags>
           <tag id="Prédication"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Sport" id="sport" image="sport.jpg">
+      <message name="Toulouse, le stade toulousain et saint Thomas : complot" id="toulouse-le-stade-toulousain-et-saint-thomas-complot">
+        <tests>
+          <test input="Quel est le rapport entre le stade toulousain et saint Thomas d&apos;Aquin ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxRUppW01I0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;toulouse-le-stade-toulousain-et-saint-thomas-complot&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quel est le rapport entre le stade toulousain et saint Thomas d&apos;Aquin ?"/>
+        </triggers>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PxRUppW01I0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="1"/>
+        <viewCount>5092</viewCount>
+        <uploadDate year="2022" month="4" day="9"/>
+        <tags>
+          <tag id="Curiosité"/>
         </tags>
       </message>
     </folder>
@@ -34867,7 +34957,7 @@ de leur temps. Ils partageaient Les représentations culturelles de leur époque
     </message>
     <folder name="La célébration des mystères chrétiens" id="la-celebration-des-mysteres-chretiens" nb="166" image="eucharist.jpg">
       <folder name="Dieu agit en nous par des signes sacrés" id="dieu-agit-en-nous-par-des-signes-sacres" nb="166" image="signes_sacres.jpg">
-        <folder name="Comment nous célébrons les mystères du Christ" id="comment-nous-celebrons-les-mysteres-du-christ" nb="179" image="temps_liturgique.jpg">
+        <folder name="Comment nous célébrons les mystères du Christ" id="comment-nous-celebrons-les-mysteres-du-christ" nb="179" image="temps_liturgiques.png">
           <message name="Comment la liturgie façonne-t-elle le temps ?" id="comment-la-liturgie-faconne-t-elle-le-temps" nb="184">
             <tests>
               <test input="Comment la liturgie façonne-t-elle le temps ?" output="Dans la liturgie, le temps devient temps pour Dieu." outputReferences="&lt;hc_source name=&quot;YOUCAT&quot; resourceid=&quot;comment-la-liturgie-faconne-t-elle-le-temps&quot; textlength=&quot;6&quot; /&gt;"/>
