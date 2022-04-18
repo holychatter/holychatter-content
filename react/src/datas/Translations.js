@@ -5,7 +5,15 @@ const TranslationsEn = {
     "categories": "Categories",
     "categoriesFolderName": "categories",
     "reasonsToBelieve": "Reasons to believe",
-    "chatbot": "Chatbot"
+    "chatbot": "Chatbot",
+    "readingsOfTheDay": "Readings of the day",
+    "gospelOfTheDay": "Gospel of the day",
+    "readings": "Readings",
+    "bible": "Bible",
+    "gospels": "Gospels",
+    "sources": "Sources",
+    "goToTheOtherLanguageVersion": "Version française",
+    "about": "About"
 };
 
 const TranslationsFr = {
@@ -13,7 +21,15 @@ const TranslationsFr = {
     "categories": "Catégories",
     "categoriesFolderName": "categories",
     "reasonsToBelieve": "Raisons de croire",
-    "chatbot": "Chatbot"
+    "chatbot": "Chatbot",
+    "readingsOfTheDay": "Lectures du jour",
+    "gospelOfTheDay": "Évangile du jour",
+    "readings": "Lectures",
+    "bible": "Bible",
+    "gospels": "Évangiles",
+    "sources": "Sources",
+    "goToTheOtherLanguageVersion": "Switch to English",
+    "about": "A propos"
 };
 
 function GetStrLocalized({ language, textId }) {
