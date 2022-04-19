@@ -32,7 +32,7 @@ const TranslationsFr = {
     "about": "A propos"
 };
 
-function GetStrLocalized({ language, textId }) {
+function GetHtmlStrLocalized({ language, textId }) {
     if (language === "fr") {
         return (<React.Fragment>{TranslationsFr[textId]}</React.Fragment>)
     }
@@ -41,4 +41,4 @@ function GetStrLocalized({ language, textId }) {
 
 
 
-export default GetStrLocalized
+export default GetHtmlStrLocalized

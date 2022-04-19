@@ -9,7 +9,8 @@ const TranslationsEn = {
     "bibleFolderName": "bible",
     "gospelsFolderName": "gospels",
     "sourcesFolderName": "sources",
-    "aboutFolderName": "about"
+    "aboutFolderName": "about",
+    "search": "Search"
 };
 
 const TranslationsFr = {
@@ -22,11 +23,12 @@ const TranslationsFr = {
     "bibleFolderName": "bible",
     "gospelsFolderName": "evangiles",
     "sourcesFolderName": "sources",
-    "aboutFolderName": "a-propos"
+    "aboutFolderName": "a-propos",
+    "search": "Rechercher"
 };
 
 
-function GetFolderName(language, textId) {
+function GetStrLocalized(language, textId) {
     if (language === "fr") {
         return TranslationsFr[textId]
     }
@@ -34,4 +36,4 @@ function GetFolderName(language, textId) {
 }
 
 
-export default GetFolderName
+export default GetStrLocalized

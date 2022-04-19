@@ -1,26 +1,26 @@
 import { useState } from 'react'
-import HCNavBar from './HCNavBar';
+import HCNavBar from './HCNavBar'
 
 
-function Chatbot({language}) {
+
+function Chatbot({language, setLanguage}) {
 
     function onEnterPress(e) {
-        if(e.keyCode == 13 && e.shiftKey == false) {
+        if(e.keyCode === 13 && e.shiftKey === false) {
           e.preventDefault();
           setMessages([...messages, document.getElementById("chatbotInputId").value]);
           document.getElementById("chatbotInputId").value = ""
         }
       }
 
-
-    const [messages, setMessages] = useState(["toto"])
+    const [messages, setMessages] = useState(["Hello"])
     return (
-        <div style={{ marginLeft: 200 }}>
-            <HCNavBar language={language} />
+        <div style={{ margin: 200 }}>
+            <HCNavBar language={language} setLanguage={setLanguage} />
             {
                 messages.map((message, index) => (
-                    <div key={"msg-${index}"}>
-                        {message}
+                    <div key={`chat-msg-${index}`}>
+                        {message} - {index}
                     </div>
                 ))
             }
@@ -28,8 +28,7 @@ function Chatbot({language}) {
 
             <textarea
                id="chatbotInputId"
-               // on={(e) => setMessages([...messages, e.target.value])}
-                onKeyDown={onEnterPress}
+               onKeyDown={onEnterPress}
             />
         </div>
     )
