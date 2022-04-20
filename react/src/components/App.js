@@ -1,3 +1,4 @@
+import About from './About'
 import Banner from './Banner'
 import Categories from './Categories'
 import HCNavBar from './HCNavBar'
@@ -26,10 +27,14 @@ function App() {
 					<Route path='' element={<HCNavBar language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "categoriesFolderName")} element={<Categories language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "chatbotFolderName")} element={<Chatbot language="fr" setLanguage={setLanguage} />}></Route>
+					<Route path={GetStrLocalized("fr", "aboutFolderName")} element={<About language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path='*' element={<HCNavBar language="fr" setLanguage={setLanguage} />}></Route>
 				</Route>
 				<Route path='/en/*'>
-					<Route path='' element={<HCNavBar language="en" setLanguage={setLanguage} />}></Route>
+				<Route path='' element={<HCNavBar language="en" setLanguage={setLanguage} />}></Route>
+					<Route path={GetStrLocalized("en", "categoriesFolderName")} element={<Categories language="en" setLanguage={setLanguage} />}></Route>
+					<Route path={GetStrLocalized("en", "chatbotFolderName")} element={<Chatbot language="en" setLanguage={setLanguage} />}></Route>
+					<Route path={GetStrLocalized("en", "aboutFolderName")} element={<About language="en" setLanguage={setLanguage} />}></Route>
 					<Route path='*' element={<HCNavBar language="en" setLanguage={setLanguage} />}></Route>
 				</Route>
 				<Route path='*' element={<Navigate to="/fr" />}></Route>

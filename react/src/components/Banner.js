@@ -2,13 +2,15 @@ import '../assets/resources/custom/style/main-6.css'
 import '../assets/resources/custom/style/bootstrap_hc.css'
 import { Link } from "react-router-dom";
 import image_logo from '../assets/upload/holy_chatter_logo.png'
+import image_youtube from '../assets/resources/custom/images/youtube.png'
+import image_magnifying_glass from '../assets/resources/custom/images/magnifying_glass.jpg'
 import GetStrLocalized from '../datas/GetStrLocalized'
 import React from 'react'
 import OpenNav from './nav/OpenNav'
 import CloseNav from './nav/CloseNav'
 
 
-function Banner({language}) {
+function Banner({ language }) {
 
 	function openOrCloseNav() {
 		if (document.getElementById("hcSidenavId").style.width === "250px") {
@@ -59,8 +61,20 @@ function Banner({language}) {
 								<table>
 									<tbody>
 										<tr>
-											<td><span title="Options">Options</span></td>
-											<td><span title="Youtube channel">Youtube channel</span></td>
+											<td><span title="Options">
+												<span className="hc-very-short-screen" style={{ paddingRight: 10 }}>
+													<Link to={"/" + language + "/" + GetStrLocalized(language, "searchFolderName")}>
+														<img src={image_magnifying_glass} alt="search" height="30px" width="30px" />
+													</Link>
+												</span>
+											</span></td>
+											<td><span title="Youtube channel">
+												<span className="hc-not-very-short-screen" style={{ paddingRight: 15 }}>
+													<a href="https://www.youtube.com/c/HOLYChatterfr">
+														<img src={image_youtube} alt="YouTube logo" height="30" width="30" />
+													</a>
+												</span>
+											</span></td>
 										</tr>
 									</tbody>
 								</table>
@@ -71,11 +85,6 @@ function Banner({language}) {
 					</tbody>
 				</table>
 				<span style={{ display: 'block', height: 13 }}></span>
-			</div>
-			<div className='hc-main'>
-				<div className="hc-content-text" style={{ textAlign: 'center', margin: '0 auto', marginTop: 50, marginBottom: 25 }}>
-					holychatter@gmail.com
-				</div>
 			</div>
 		</React.Fragment>
 	)

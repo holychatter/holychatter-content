@@ -10,6 +10,8 @@ const TranslationsEn = {
     "gospelsFolderName": "gospels",
     "sourcesFolderName": "sources",
     "aboutFolderName": "about",
+    "searchFolderName": "search",
+    "christianMessageFolderName": "christian-message",
     "search": "Search"
 };
 
@@ -24,6 +26,8 @@ const TranslationsFr = {
     "gospelsFolderName": "evangiles",
     "sourcesFolderName": "sources",
     "aboutFolderName": "a-propos",
+    "searchFolderName": "rechercher",
+    "christianMessageFolderName": "message-chretien",
     "search": "Rechercher"
 };
 

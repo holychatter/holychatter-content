@@ -1,5 +1,6 @@
 import '../assets/resources/custom/style/main-6.css'
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from "react-router-dom"
 import image_house from '../assets/resources/custom/navbar_icons/house.png'
 import image_chatbot from '../assets/resources/custom/navbar_icons/chatbot.jpg'
 import image_bible from '../assets/resources/custom/navbar_icons/bible.jpg'
@@ -19,7 +20,7 @@ function HCNavBar({ language, setLanguage }) {
 	const image_otherLanguageFlag = (language === "fr") ? image_englishFlag : image_frenchFlag;
 
 	return (
-		<div className="App">
+		<React.Fragment>
 			<div id='hcSidenavId' className='hc-sidenav' onMouseOver={OpenNav} onMouseOut={CloseNav}>
 				<Link to={"/" + language}><img style={{marginLeft: 20}} width='20px' src={image_house} alt="home" /> <span className='hc-sidebar-text'><GetHtmlStrLocalized language={language} textId="home" /></span></Link>
 				<Link to={"/" + language + "/" + GetStrLocalized(language, "categoriesFolderName")}><img style={{marginLeft: 20}} width='20px' src={image_house} alt="home" /> <span className='hc-sidebar-text hc-sidebar-text-sub'><GetHtmlStrLocalized language={language} textId="categories" /></span></Link>
@@ -33,8 +34,10 @@ function HCNavBar({ language, setLanguage }) {
 				<Link to={"/" + language + "/" + GetStrLocalized(language, "sourcesFolderName")}><img style={{marginLeft: 20}} width='20px' src={image_sources} alt="sources" /><span className='hc-sidebar-text'><GetHtmlStrLocalized language={language} textId="sources" /></span></Link>
 				<Link to={"/" + otherLanguage} onClick={() => setLanguage(otherLanguage)}><img style={{marginLeft: 20}} width='20px' src={image_otherLanguageFlag} alt="flag" /><span className='hc-sidebar-text'><GetHtmlStrLocalized language={language} textId="goToTheOtherLanguageVersion" /></span></Link>
 				<Link to={"/" + language + "/" + GetStrLocalized(language, "aboutFolderName")}><img style={{marginLeft: 20}} width='20px' src={image_profil} alt="profil" /> <span className='hc-sidebar-text'><GetHtmlStrLocalized language={language} textId="about" /></span></Link>
+				<br/><br/><br/><br/><br/><br/>
 			</div>
-		</div>
+			<br/>
+		</React.Fragment>
 	)
 }
 
