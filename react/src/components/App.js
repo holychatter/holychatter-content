@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Categories from './Categories'
 import HCNavBar from './HCNavBar'
 import Chatbot from './Chatbot'
+import ChristianMessage from './ChristianMessage'
 import GetStrLocalized from '../datas/GetStrLocalized'
 import React from 'react'
 import { Navigate, Routes, Route } from "react-router-dom";
@@ -28,6 +29,7 @@ function App() {
 					<Route path={GetStrLocalized("fr", "categoriesFolderName")} element={<Categories language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "chatbotFolderName")} element={<Chatbot language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "aboutFolderName")} element={<About language="fr" setLanguage={setLanguage} />}></Route>
+					<Route path={GetStrLocalized("fr", "christianMessageFolderName")} element={<ChristianMessage language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path='*' element={<HCNavBar language="fr" setLanguage={setLanguage} />}></Route>
 				</Route>
 				<Route path='/en/*'>
