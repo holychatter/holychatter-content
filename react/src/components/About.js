@@ -34,7 +34,7 @@ function About({ language, setLanguage }) {
                     <br /><br />
                     <div className="hc-text-align-center" style={{ padding: 15 }}>
                         <Link to={"/" + language + "/" + GetStrLocalized(language, "christianMessageFolderName")}>
-                            <img src={image_pret_a_chatter} className="hc-cursor-pointer" width='100%' style={{ maxWidth: 730, maxHeight: 730 }} />
+                            <img src={image_pret_a_chatter} alt="Prêt à chatter ?" className="hc-cursor-pointer" width='100%' style={{ maxWidth: 730, maxHeight: 730 }} />
                         </Link>
                     </div>
                 </React.Fragment> :

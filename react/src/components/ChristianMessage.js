@@ -4,8 +4,6 @@ import sound_hurtubise_ogg from '../assets/resources/holychatter/sounds/hurtubis
 import sound_hurtubise_mp3 from '../assets/resources/holychatter/sounds/hurtubise.mp3'
 import React from 'react'
 import GetInnerHtmlStrLocalized from '../datas/GetInnerHtmlStrLocalized'
-import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
-import GetStrLocalized from '../datas/GetStrLocalized'
 import PageContent from './util/PageContent'
 import H1Title from './util/H1Title'
 
@@ -25,7 +23,7 @@ function ChristianMessage({ language, setLanguage }) {
                 </audio>
                 <br /><br />
 
-                <span class='hc-content-text'><GetInnerHtmlStrLocalized language={language} textId="hurtubiseMsg1" /></span>
+                <span className='hc-content-text'><GetInnerHtmlStrLocalized language={language} textId="hurtubiseMsg1" /></span>
                 Mt 11,28
             </div>
         </PageContent>
