@@ -12,7 +12,8 @@ const TranslationsEn = {
     "aboutFolderName": "about",
     "searchFolderName": "search",
     "christianMessageFolderName": "christian-message",
-    "search": "Search"
+    "search": "Search",
+    "close": "Close"
 };
 
 const TranslationsFr = {
@@ -28,7 +29,8 @@ const TranslationsFr = {
     "aboutFolderName": "a-propos",
     "searchFolderName": "rechercher",
     "christianMessageFolderName": "message-chretien",
-    "search": "Rechercher"
+    "search": "Rechercher",
+    "close": "Fermer"
 };
 
 

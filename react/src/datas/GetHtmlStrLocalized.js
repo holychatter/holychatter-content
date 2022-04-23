@@ -17,7 +17,8 @@ const TranslationsEn = {
     "aboutHolyChatterContent": "Holy Chatter is a site that aims to show the beauty and truth of the Christian religion thanks to a chatbot with a content verified by the webmaster.<br />This site was created in 2015 by young French Catholics wanting to share their received faith.<br />We hope it will improve your relationship with this God of love and it will give you the desire to meet Christians to continue the discussion!<br />Holy Chatter",
     "recipientsOfTheSite": "Recipients of the site",
     "readyToChat": "READY TO CHAT?",
-    "christianMessage": "Christian message"
+    "christianMessage": "Christian message",
+    "close": "Close"
 };
 
 const TranslationsFr = {
@@ -37,7 +38,8 @@ const TranslationsFr = {
     "aboutHolyChatterContent": "Holy Chatter est un site qui a pour but de montrer la beauté et véracité de la religion chrétienne grâce à un agent conversationnel ayant un contenu vérifié par le webmaster.<br />Ce site a été créé en 2015 par des jeunes catholiques français voulant partager la foi qu'ils ont reçu.<br />On espère que ça améliorera votre relation au Dieu d'amour et vous donnera le désir de rencontrer des chrétiens pour poursuivre la discussion !<br />Holy Chatter",
     "recipientsOfTheSite": "Destinataires du site",
     "readyToChat": "PRÊT À CHATTER ?",
-    "christianMessage": "Message chrétien"
+    "christianMessage": "Message chrétien",
+    "close": "Fermer"
 };
 
 
