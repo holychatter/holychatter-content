@@ -7,7 +7,7 @@ import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
 import GetStrLocalized from '../datas/GetStrLocalized'
 import PageContent from './util/PageContent'
 import H1TitleId from './util/H1TitleId'
-import H2Title from './util/H2Title'
+import H2TitleId from './util/H2TitleId'
 import { Link } from "react-router-dom"
 
 
@@ -22,7 +22,7 @@ function About({ language, setLanguage }) {
                 <GetInnerHtmlStrLocalized language={language} textId="aboutHolyChatterContent" />
             </div>
             <br /><br />
-            <H2Title language={language} titleId="recipientsOfTheSite" />
+            <H2TitleId language={language} titleId="recipientsOfTheSite" />
             <br />
             <div className='hc-content-text' style={{ marginLeft: 80 }}>
                 <GetInnerHtmlStrLocalized language={language} textId="forWhoContent" />

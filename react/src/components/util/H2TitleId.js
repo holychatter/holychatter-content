@@ -1,7 +1,7 @@
 import GetHtmlStrLocalized from "../../datas/GetHtmlStrLocalized"
 
 
-function H2Title({ language, titleId }) {
+function H2TitleId({ language, titleId }) {
 
     return (
         <div style={{ marginLeft: 40, marginRight: 40 }}>
@@ -13,4 +13,4 @@ function H2Title({ language, titleId }) {
     )
 }
 
-export default H2Title
+export default H2TitleId

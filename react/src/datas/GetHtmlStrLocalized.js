@@ -18,7 +18,8 @@ const TranslationsEn = {
     "recipientsOfTheSite": "Recipients of the site",
     "readyToChat": "READY TO CHAT?",
     "christianMessage": "Christian message",
-    "close": "Close"
+    "close": "Close",
+    "relatedQuestions": "Related questions"
 };
 
 const TranslationsFr = {
@@ -39,7 +40,8 @@ const TranslationsFr = {
     "recipientsOfTheSite": "Destinataires du site",
     "readyToChat": "PRÊT À CHATTER ?",
     "christianMessage": "Message chrétien",
-    "close": "Fermer"
+    "close": "Fermer",
+    "relatedQuestions": "Questions liées"
 };
 
 
