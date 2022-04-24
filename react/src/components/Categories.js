@@ -11,7 +11,7 @@ import BigButtonWithTextABottom from './util/BigButtonWithTextABottom'
 function Categories({ language, setLanguage }) {
 
 	const wtUrl = "http://localhost:8080/categories_json_api?l=" + language + "&id=decouverte";
-	const [request, setRequest] = useState([])
+	const [request, setRequest] = useState({name: "", bigButtontDatas: []})
 
 	useEffect(() => {
 		const getGitHubUserWithFetch = async () => {
@@ -26,12 +26,12 @@ function Categories({ language, setLanguage }) {
 
 	return (
 		<PageContent language={language} setLanguage={setLanguage}>
-			<H1Title language={language} titleId="about" />
+			<H1Title>{request.name}</H1Title>
 			<br /><br />
 
 			<div className='hc-categories-left-margin'>
 				{
-					request.map((item, index) => {
+					request.bigButtontDatas.map((item, index) => {
 						return <BigButtonWithTextABottom key={index} link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
 					})
 				}

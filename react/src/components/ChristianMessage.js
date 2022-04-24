@@ -5,7 +5,7 @@ import sound_hurtubise_mp3 from '../assets/resources/holychatter/sounds/hurtubis
 import React from 'react'
 import GetInnerHtmlStrLocalized from '../datas/GetInnerHtmlStrLocalized'
 import PageContent from './util/PageContent'
-import H1Title from './util/H1Title'
+import H1TitleId from './util/H1TitleId'
 import LinkToModal from './modal/LinkToModal'
 
 
@@ -14,7 +14,7 @@ function ChristianMessage({ language, setLanguage }) {
 
     return (
         <PageContent language={language} setLanguage={setLanguage}>
-            <H1Title language={language} titleId="christianMessage" />
+            <H1TitleId language={language} titleId="christianMessage" />
             <br /><br />
             <div className="hc-left-a-search">
                 <audio controls>

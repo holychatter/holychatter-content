@@ -1,13 +1,11 @@
-import GetHtmlStrLocalized from "../../datas/GetHtmlStrLocalized"
 
-
-function H1Title({language, titleId}) {
+function H1Title({children}) {
 
     return (
         <div className='hc-text-align-center'>
             <div style={{ height: 1 }}></div>
             <div>
-                <h1 className='hc-h1-main-title'><GetHtmlStrLocalized language={language} textId={titleId} /></h1>
+                <h1 className='hc-h1-main-title'>{children}</h1>
             </div>
             <div style={{ height: 1 }}></div>
         </div>
