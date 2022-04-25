@@ -4,13 +4,13 @@ import Categories from './Categories'
 import HCNavBar from './HCNavBar'
 import Chatbot from './Chatbot'
 import ChristianMessage from './ChristianMessage'
-import Sources from './Sources'
 import GetStrLocalized from '../datas/GetStrLocalized'
 import React from 'react'
 import { Navigate, Routes, Route } from "react-router-dom";
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Helmet } from "react-helmet"
+import Article from './Article'
 
 function App() {
 	const backendUrl = "http://localhost:8080"
@@ -32,7 +32,7 @@ function App() {
 					<Route path={GetStrLocalized("fr", "chatbotFolderName")} element={<Chatbot language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "aboutFolderName")} element={<About language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "christianMessageFolderName")} element={<ChristianMessage language="fr" setLanguage={setLanguage} />}></Route>
-					<Route path='*' element={<Sources />}></Route>
+					<Route path='*' element={<Article language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 				</Route>
 				<Route path='/en/*'>
 				<Route path='' element={<HCNavBar language="en" setLanguage={setLanguage} />}></Route>
