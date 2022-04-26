@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 function BigButtonWithTextABottom({ link, image, duration, title, tags, sourceImage, sourceName }) {
 
-	if (image == "") {
+	if (image === "") {
 		image = sourceImage;
 	}
 

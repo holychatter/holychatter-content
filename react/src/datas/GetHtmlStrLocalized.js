@@ -19,7 +19,8 @@ const TranslationsEn = {
     "readyToChat": "READY TO CHAT?",
     "christianMessage": "Christian message",
     "close": "Close",
-    "relatedQuestions": "Related questions"
+    "relatedQuestions": "Related questions",
+    "chatFromThisMessage": "Chat from this message"
 };
 
 const TranslationsFr = {
@@ -41,7 +42,8 @@ const TranslationsFr = {
     "readyToChat": "PRÊT À CHATTER ?",
     "christianMessage": "Message chrétien",
     "close": "Fermer",
-    "relatedQuestions": "Questions liées"
+    "relatedQuestions": "Questions liées",
+    "chatFromThisMessage": "Discuter à partir de ce message"
 };
 
 
