@@ -9,6 +9,7 @@ import H1Title from './util/H1Title'
 import H1TitleBreadcrumb from './util/H1TitleBreadcrumb'
 import PageContent from './util/PageContent'
 import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
+import BigButtonWithTextAtRight from './util/BigButtonWithTextAtRight'
 
 function Article({ language, setLanguage, backendUrl }) {
 
@@ -18,7 +19,8 @@ function Article({ language, setLanguage, backendUrl }) {
 	const [request, setRequest] = useState({
 		name: "", parentFolders: [], html: "", tags: "", references: [],
 		fileType: "", sourceIconPath: "", sourceName: "", sourcePath: "", sourceUrl: "",
-		duration: "", viewCountsAndUploadDate: "", chatbotId: ""
+		duration: "", viewCountsAndUploadDate: "", chatbotId: "",
+		rightRecommendationsHtmlForLongSreens: []
 	})
 
 	if (location.pathname !== lastPath) {
@@ -111,6 +113,25 @@ function Article({ language, setLanguage, backendUrl }) {
 							<td className="hc-reference-viewer-width">
 								<span id="right-recommendations-for-long-screens">
 
+
+									<div className='hc-long-screen' style={{ paddingLeft: 15, paddingRight: 5 }}>
+										{
+											request.rightRecommendationsHtmlForLongSreens !== "" &&
+											request.rightRecommendationsHtmlForLongSreens.map((item, index) => {
+												return (
+													<div key={index} className="hc-inline-flex hc-small-margin" >
+														<BigButtonWithTextAtRight link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
+														<br />
+													</div>
+												)
+											})
+										}
+									</div>
+
+
+
+
+
 								</span>
 							</td>
 						</tr>
@@ -119,7 +140,7 @@ function Article({ language, setLanguage, backendUrl }) {
 			</div>
 
 
-		</PageContent>
+		</PageContent >
 	)
 }
 
