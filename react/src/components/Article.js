@@ -20,7 +20,7 @@ function Article({ language, setLanguage, backendUrl }) {
 		name: "", parentFolders: [], html: "", tags: "", references: [],
 		fileType: "", sourceIconPath: "", sourceName: "", sourcePath: "", sourceUrl: "",
 		duration: "", viewCountsAndUploadDate: "", chatbotId: "",
-		rightRecommendationsHtmlForLongSreens: []
+		rightRecommendationsHtmlForLongSreens: [], bibleRefs: []
 	})
 
 	if (location.pathname !== lastPath) {
@@ -40,8 +40,9 @@ function Article({ language, setLanguage, backendUrl }) {
 			getBackendWithFetch();
 
 		}
-
 	}
+
+	const zeroPad = (num, places) => String(num).padStart(places, '0')
 
 	return (
 		<PageContent language={language} setLanguage={setLanguage}>
@@ -137,6 +138,47 @@ function Article({ language, setLanguage, backendUrl }) {
 						</tr>
 					</tbody>
 				</table>
+
+				{
+					request.bibleRefs !== "" &&
+					request.bibleRefs.length > 0 &&
+					<React.Fragment>
+						{
+							request.bibleRefs.map((item, index) => {
+								return (
+									<React.Fragment key={"bible-verse-" + index}>
+
+										<table style={{ width: '100%' }}>
+											<tbody>
+												<tr>
+													<td style={{ width: '50%', paddingLeft: 5, paddingRight: 15 }}>
+														<div className='hc-content-text'>
+															<div style={{ marginLeft: 10 }}><font color="#bf2329">{zeroPad(item.nb, 2)}</font> {item.text}</div>
+															<br />
+														</div>
+													</td>
+													<td style={{ width: '50%', paddingLeft: 15, paddingRight: 5 }}>
+														{
+															item.link !== "" &&
+															<div style={{ marginLeft: 30 }}>
+																<BigButtonWithTextAtRight link={item.link.link} image={item.link.image} duration={item.link.duration} title={item.link.title} tags={item.link.tags} sourceImage={item.link.sourceImage} sourceName={item.link.sourceName} />
+																<br/>
+															</div>
+														}
+													</td>
+												</tr>
+											</tbody>
+										</table>
+
+									</React.Fragment>
+								)
+							})
+						}
+					</React.Fragment>
+				}
+
+
+
 			</div>
 
 
