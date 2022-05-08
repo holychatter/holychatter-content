@@ -44,6 +44,16 @@ function Article({ language, setLanguage, backendUrl }) {
 
 	const zeroPad = (num, places) => String(num).padStart(places, '0')
 
+    function addAutoStart(string) {
+		const relZero = 'rel=0'
+		const relZeroIndex = string.indexOf(relZero);
+		if (relZeroIndex != -1) {
+			return string.substring(0, relZeroIndex + relZero.length) + "&autoplay=1" +
+			string.substring(relZeroIndex + relZero.length, string.length);
+		}
+		return string
+	}
+
 	return (
 		<PageContent language={language} setLanguage={setLanguage}>
 
@@ -55,7 +65,7 @@ function Article({ language, setLanguage, backendUrl }) {
 						<tr>
 							<td className="hc-message-viewer-width">
 								<div style={{ paddingLeft: 5, paddingRight: 15, paddingTop: 10 }}>
-									<span dangerouslySetInnerHTML={{ __html: request.html }} />
+									<span dangerouslySetInnerHTML={{ __html: addAutoStart(request.html) }} />
 									<p>{request.tags}</p>
 
 									<p>
