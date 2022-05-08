@@ -1,11 +1,13 @@
 import React from 'react'
 import HCNavBar from '../HCNavBar'
+import ScrollToTop from './ScrollToTop'
 
 
 function PageContent({ language, setLanguage, title, children }) {
 
     return (
         <React.Fragment>
+            <ScrollToTop />
             <HCNavBar language={language} setLanguage={setLanguage} />
             <div className='hc-main'>
                 {children}
