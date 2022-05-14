@@ -13,7 +13,9 @@ const TranslationsEn = {
     "searchFolderName": "search",
     "christianMessageFolderName": "christian-message",
     "search": "Search",
-    "close": "Close"
+    "close": "Close",
+    "verse": "Verse",
+    "verses": "Verses"
 };
 
 const TranslationsFr = {
@@ -30,7 +32,9 @@ const TranslationsFr = {
     "searchFolderName": "rechercher",
     "christianMessageFolderName": "message-chretien",
     "search": "Rechercher",
-    "close": "Fermer"
+    "close": "Fermer",
+    "verse": "Verset",
+    "verses": "Versets"
 };
 
 

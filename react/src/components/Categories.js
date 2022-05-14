@@ -47,6 +47,7 @@ function Categories({ language, setLanguage, backendUrl }) {
 
 			<div className='hc-categories-left-margin'>
 				{
+					request.bigButtontDatas !== "" &&
 					request.bigButtontDatas.map((item, index) => {
 						return <BigButtonWithTextABottom key={index} link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
 					})

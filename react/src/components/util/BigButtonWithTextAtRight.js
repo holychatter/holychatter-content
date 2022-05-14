@@ -1,11 +1,21 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import GetStrLocalized from '../../datas/GetStrLocalized';
 
 
-function BigButtonWithTextAtRight({ link, image, duration, title, tags, sourceImage, sourceName }) {
+function BigButtonWithTextAtRight({ language, link, image, duration, title, tags, sourceImage, sourceName, firstVerse = "", lastVerse = "" }) {
 
 	if (image === "") {
 		image = sourceImage;
+	}
+	let versesStr = ""
+	if (firstVerse !== "") {
+		if (lastVerse !== "") {
+			versesStr += GetStrLocalized(language, "verses") + ` ${firstVerse}-${lastVerse}`
+		} else {
+			versesStr += GetStrLocalized(language, "verse") + ` ${firstVerse}`
+
+		}
 	}
 
 	return (
@@ -24,7 +34,9 @@ function BigButtonWithTextAtRight({ link, image, duration, title, tags, sourceIm
 						<td className="hc-big-button-text-at-right-padding">
 							<b className='hc-button-title-style'>{title}</b>
 							<span style={{ color: '#22292f' }}><p>{tags}</p></span>
-							<span style={{ textAlign: 'left', color: '#22292f' }}>{sourceImage !== "" && <img src={sourceImage} alt='Source logo' width="23" height="23" style={{ marginRight: 13 }} />}{sourceName}</span>						</td>
+							<p><span style={{ textAlign: 'left', color: '#22292f' }}>{sourceImage !== "" && <img src={sourceImage} alt='Source logo' width="23" height="23" style={{ marginRight: 13 }} />}{sourceName}</span></p>
+							<span>{versesStr}</span>
+						</td>
 					</tr>
 				</tbody>
 			</table>

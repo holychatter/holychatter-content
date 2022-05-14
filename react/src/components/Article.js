@@ -47,7 +47,7 @@ function Article({ language, setLanguage, backendUrl }) {
     function addAutoStart(string) {
 		const relZero = 'rel=0'
 		const relZeroIndex = string.indexOf(relZero);
-		if (relZeroIndex != -1) {
+		if (relZeroIndex !== -1) {
 			return string.substring(0, relZeroIndex + relZero.length) + "&autoplay=1" +
 			string.substring(relZeroIndex + relZero.length, string.length);
 		}
@@ -131,7 +131,7 @@ function Article({ language, setLanguage, backendUrl }) {
 											request.rightRecommendationsHtmlForLongSreens.map((item, index) => {
 												return (
 													<div key={index} className="hc-inline-flex hc-small-margin" >
-														<BigButtonWithTextAtRight link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
+														<BigButtonWithTextAtRight language={language} link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
 														<br />
 													</div>
 												)
@@ -171,7 +171,7 @@ function Article({ language, setLanguage, backendUrl }) {
 														{
 															item.link !== "" &&
 															<div style={{ marginLeft: 30 }}>
-																<BigButtonWithTextAtRight link={item.link.link} image={item.link.image} duration={item.link.duration} title={item.link.title} tags={item.link.tags} sourceImage={item.link.sourceImage} sourceName={item.link.sourceName} />
+																<BigButtonWithTextAtRight language={language} link={item.link.link} image={item.link.image} duration={item.link.duration} title={item.link.title} tags={item.link.tags} sourceImage={item.link.sourceImage} sourceName={item.link.sourceName} firstVerse={item.link.firstVerse} lastVerse={item.link.lastVerse} />
 																<br/>
 															</div>
 														}

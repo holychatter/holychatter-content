@@ -36,10 +36,10 @@ function App() {
 				</Route>
 				<Route path='/en/*'>
 				<Route path='' element={<HCNavBar language="en" setLanguage={setLanguage} />}></Route>
-					<Route path={GetStrLocalized("en", "categoriesFolderName")} element={<Categories language="en" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
+					<Route path={GetStrLocalized("en", "categoriesFolderName") + "/*"} element={<Categories language="en" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 					<Route path={GetStrLocalized("en", "chatbotFolderName")} element={<Chatbot language="en" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("en", "aboutFolderName")} element={<About language="en" setLanguage={setLanguage} />}></Route>
-					<Route path='*' element={<HCNavBar language="en" setLanguage={setLanguage} />}></Route>
+					<Route path='*' element={<Article language="en" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 				</Route>
 				<Route path='*' element={<Navigate to="/fr" />}></Route>
 			</Routes>
