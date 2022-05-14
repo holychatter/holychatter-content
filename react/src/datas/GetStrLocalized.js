@@ -15,7 +15,9 @@ const TranslationsEn = {
     "search": "Search",
     "close": "Close",
     "verse": "Verse",
-    "verses": "Verses"
+    "verses": "Verses",
+    "listen": "Listen",
+    "stop": "Stop"
 };
 
 const TranslationsFr = {
@@ -34,7 +36,9 @@ const TranslationsFr = {
     "search": "Rechercher",
     "close": "Fermer",
     "verse": "Verset",
-    "verses": "Versets"
+    "verses": "Versets",
+    "listen": "Écouter",
+    "stop": "Arrêter"
 };
 
 

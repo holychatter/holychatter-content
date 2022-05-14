@@ -20,7 +20,8 @@ const TranslationsEn = {
     "christianMessage": "Christian message",
     "close": "Close",
     "relatedQuestions": "Related questions",
-    "chatFromThisMessage": "Chat from this message"
+    "chatFromThisMessage": "Chat from this message",
+    "listen": "Listen"
 };
 
 const TranslationsFr = {
@@ -43,7 +44,8 @@ const TranslationsFr = {
     "christianMessage": "Message chrétien",
     "close": "Fermer",
     "relatedQuestions": "Questions liées",
-    "chatFromThisMessage": "Discuter à partir de ce message"
+    "chatFromThisMessage": "Discuter à partir de ce message",
+    "listen": "Écouter"
 };
 
 
