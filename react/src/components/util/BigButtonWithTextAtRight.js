@@ -30,11 +30,16 @@ function BigButtonWithTextAtRight({ id, language, item }) {
 	function Bb_loadYoutubeVideo() {
 
 		if (hc_playersAreVisible[id] == null) {
+			let playerVarsObj = {
+				'rel': 0,
+			};
+			if (item.startTimeSeconds !== "")
+			    playerVarsObj.start = item.startTimeSeconds;
+				if (item.endTimeSeconds !== "")
+			    playerVarsObj.end = item.endTimeSeconds;
 			hc_players[id] = new window.YT.Player('hc-youtube-video-placeholder-id-'.concat(id), {
 				videoId: item.youtubeId,
-				playerVars: {
-					'rel': 0
-				},
+				playerVars: playerVarsObj,
 				events: {
 					onReady: Bb_onPlayYoutube.bind(null)
 				}
