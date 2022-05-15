@@ -4,17 +4,17 @@ import GetHtmlStrLocalized from '../../datas/GetHtmlStrLocalized';
 import GetStrLocalized from '../../datas/GetStrLocalized';
 
 
-function BigButtonWithTextAtRight({ id, language, link, youtubeId, image, duration, title, tags, sourceImage, sourceName, firstVerse = "", lastVerse = "" }) {
+function BigButtonWithTextAtRight({ id, language, item }) {
 
-	if (image === "") {
-		image = sourceImage;
+	if (item.image === "") {
+		item.image = item.sourceImage;
 	}
 	let versesStr = ""
-	if (firstVerse !== "") {
-		if (lastVerse !== "") {
-			versesStr += GetStrLocalized(language, "verses") + ` ${firstVerse}-${lastVerse}`
+	if (item.firstVerse !== "") {
+		if (item.lastVerse !== "") {
+			versesStr += GetStrLocalized(language, "verses") + ` ${item.firstVerse}-${item.lastVerse}`
 		} else {
-			versesStr += GetStrLocalized(language, "verse") + ` ${firstVerse}`
+			versesStr += GetStrLocalized(language, "verse") + ` ${item.firstVerse}`
 
 		}
 	}
@@ -22,7 +22,7 @@ function BigButtonWithTextAtRight({ id, language, link, youtubeId, image, durati
 	var tag = document.createElement('script');
 	tag.src = "https://www.youtube.com/iframe_api";
 	var firstScriptTag = document.getElementsByTagName('script')[0];
-	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	firstScriptTag.parentNode.insertBefore(item.tag, firstScriptTag);
 
 	var hc_players = {}
 	var hc_playersAreVisible = {}
@@ -31,7 +31,7 @@ function BigButtonWithTextAtRight({ id, language, link, youtubeId, image, durati
 
 		if (hc_playersAreVisible[id] == null) {
 			hc_players[id] = new window.YT.Player('hc-youtube-video-placeholder-id-'.concat(id), {
-				videoId: youtubeId,
+				videoId: item.youtubeId,
 				playerVars: {
 					'rel': 0
 				},
@@ -72,17 +72,17 @@ function BigButtonWithTextAtRight({ id, language, link, youtubeId, image, durati
 				<tbody>
 					<tr>
 						<td className="hc-big-button-search-width">
-							<Link id={'hc-youtube-video-view-id-' + id} style={{ color: 'white', textAlign: 'left', idth: '100%', textDecoration: 'none', outline: 'none' }} to={link}>
-								<div className="hc-big-button-search-width hc-big-button-search-height hc-center-background-image" style={{ position: 'relative', borderRadius: 10, borderWidth: 0, backgroundImage: 'url(' + image + ')' }}>
-									{duration !== "" && <span className="hc-big-button-search-durationtop" style={{ position: 'absolute', backgroundColor: 'black', padding: 3, right: 8 }}>{duration}</span>}
+							<Link id={'hc-youtube-video-view-id-' + id} style={{ color: 'white', textAlign: 'left', idth: '100%', textDecoration: 'none', outline: 'none' }} to={item.link}>
+								<div className="hc-big-button-search-width hc-big-button-search-height hc-center-background-image" style={{ position: 'relative', borderRadius: 10, borderWidth: 0, backgroundImage: 'url(' + item.image + ')' }}>
+									{item.duration !== "" && <span className="hc-big-button-search-durationtop" style={{ position: 'absolute', backgroundColor: 'black', padding: 3, right: 8 }}>{item.duration}</span>}
 								</div>
 							</Link>
 							<div id={'hc-youtube-video-placeholder-id-' + id} style={{ display: 'none' }} />
 						</td>
 						<td className="hc-big-button-text-at-right-padding">
-							<b className='hc-button-title-style'>{title}</b>
-							<span style={{ color: '#22292f' }}><p>{id !== "" && <React.Fragment> <button id={'hc-youtube-video-link-id-' + id} style={{ cursor: 'pointer' }} onClick={Bb_loadYoutubeVideo} ><GetHtmlStrLocalized language={language} textId="listen" /> </button> &nbsp; </React.Fragment>}{tags}</p></span>
-							<p><span style={{ textAlign: 'left', color: '#22292f' }}>{sourceImage !== "" && <img src={sourceImage} alt='Source logo' width="23" height="23" style={{ marginRight: 13 }} />}{sourceName}</span></p>
+							<b className='hc-button-title-style'>{item.title}</b>
+							<span style={{ color: '#22292f' }}><p>{id !== "" && <React.Fragment> <button id={'hc-youtube-video-link-id-' + id} style={{ cursor: 'pointer' }} onClick={Bb_loadYoutubeVideo} ><GetHtmlStrLocalized language={language} textId="listen" /> </button> &nbsp; </React.Fragment>}{item.tags}</p></span>
+							<p><span style={{ textAlign: 'left', color: '#22292f' }}>{item.sourceImage !== "" && <img src={item.sourceImage} alt='Source logo' width="23" height="23" style={{ marginRight: 13 }} />}{item.sourceName}</span></p>
 							<span>{versesStr}</span>
 						</td>
 					</tr>

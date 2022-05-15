@@ -131,15 +131,13 @@ function Article({ language, setLanguage, backendUrl }) {
 											request.rightRecommendationsHtmlForLongSreens.map((item, index) => {
 												return (
 													<div key={index} className="hc-inline-flex hc-small-margin" >
-														<BigButtonWithTextAtRight id="" language={language} link={item.link} youtubeId={item.link.youtubeId} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
+														<BigButtonWithTextAtRight id="" language={language} item={item} />
 														<br />
 													</div>
 												)
 											})
 										}
 									</div>
-
-
 
 
 
@@ -171,7 +169,7 @@ function Article({ language, setLanguage, backendUrl }) {
 														{
 															item.link !== "" &&
 															<div style={{ marginLeft: 30 }}>
-																<BigButtonWithTextAtRight id={index} language={language} link={item.link.link} youtubeId={item.link.youtubeId} image={item.link.image} duration={item.link.duration} title={item.link.title} tags={item.link.tags} sourceImage={item.link.sourceImage} sourceName={item.link.sourceName} firstVerse={item.link.firstVerse} lastVerse={item.link.lastVerse} />
+																<BigButtonWithTextAtRight id={index} language={language} item={item.link} />
 																<br/>
 															</div>
 														}
