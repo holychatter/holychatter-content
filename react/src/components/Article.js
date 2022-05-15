@@ -10,8 +10,8 @@ import H1TitleBreadcrumb from './util/H1TitleBreadcrumb'
 import PageContent from './util/PageContent'
 import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
 import BigButtonWithTextAtRight from './util/BigButtonWithTextAtRight'
-import GetStrLocalized from '../datas/GetStrLocalized'
-import H2TitleId from './util/H2TitleId'
+
+import Refs from './util/Refs'
 
 function Article({ language, setLanguage, backendUrl }) {
 
@@ -22,7 +22,7 @@ function Article({ language, setLanguage, backendUrl }) {
 		name: "", parentFolders: [], html: "", tags: "", references: [],
 		fileType: "", sourceIconPath: "", sourceName: "", sourcePath: "", sourceUrl: "",
 		duration: "", viewCountsAndUploadDate: "", chatbotId: "",
-		rightRecommendationsHtmlForLongSreens: [], bibleRefs: []
+		rightRecommendationsHtmlForLongSreens: [], bibleRefs: [], cccRefs: []
 	})
 
 	if (location.pathname !== lastPath) {
@@ -44,8 +44,6 @@ function Article({ language, setLanguage, backendUrl }) {
 		}
 	}
 
-	const zeroPad = (num, places) => String(num).padStart(places, '0')
-
 	function addAutoStart(string) {
 		const relZero = 'rel=0'
 		const relZeroIndex = string.indexOf(relZero);
@@ -54,15 +52,6 @@ function Article({ language, setLanguage, backendUrl }) {
 				string.substring(relZeroIndex + relZero.length, string.length);
 		}
 		return string
-	}
-
-
-	function PrintVerse({ nb, text }) {
-		return (
-			<React.Fragment>
-				<font color="#bf2329">{zeroPad(nb, 2)}</font> {text}
-			</React.Fragment>
-		)
 	}
 
 	return (
@@ -160,90 +149,9 @@ function Article({ language, setLanguage, backendUrl }) {
 			</div>
 			<br />
 			<br />
+			<Refs language={language} type="bible" refs={request.bibleRefs} />
 			<br />
-			{
-				request.bibleRefs !== "" &&
-				request.bibleRefs.length > 0 &&
-				<React.Fragment>
-					<H2TitleId language={language} titleId="bibleVerses" />
-					{
-						request.bibleRefs.map((chapterItem, chapterIndex) => {
-							return (
-								<div key={"bible-chapter-" + chapterIndex} style={{ marginLeft: 40 }}>
-									<br />
-									&nbsp;&nbsp;&nbsp;<Link to={"/" + language + "/" + GetStrLocalized(language, "readingsFolderName") + "/" + GetStrLocalized(language, "bibleFolderName") + "/" + chapterItem.referenceUrlChapterName}>{chapterItem.reference}</Link>
-									<br />
-									<br />
-									<div className='hc-long-screen'>
-										{
-											chapterItem.content.map((item, index) => {
-												return (
-													<React.Fragment key={"bible-verse-" + index}>
-
-														<table style={{ width: '100%' }}>
-															<tbody>
-																<tr>
-																	<td style={{ width: '50%', paddingLeft: 5, paddingRight: 15 }}>
-																		<div className='hc-content-text'>
-																			<div style={{ marginLeft: 10 }}>
-																				<PrintVerse nb={item.nb} text={item.text} />
-																			</div>
-																			<br />
-																		</div>
-																	</td>
-																	<td style={{ width: '50%', paddingLeft: 15, paddingRight: 5 }}>
-																		{
-																			item.link !== "" &&
-																			<div style={{ marginLeft: 30 }}>
-																				<BigButtonWithTextAtRight id={index} language={language} item={item.link} />
-																				<br />
-																			</div>
-																		}
-																	</td>
-																</tr>
-															</tbody>
-														</table>
-
-													</React.Fragment>
-												)
-											})
-										}
-									</div>
-
-									<div className='hc-short-screen'>
-										{
-											chapterItem.content.map((item, index) => {
-												return (
-													<React.Fragment key={"bible-verse-" + index}>
-
-														<div className='hc-content-text'>
-															<div style={{ marginRight: 20 }}>
-																<PrintVerse nb={item.nb} text={item.text} />
-															</div>
-															<br />
-														</div>
-														<br />
-
-														{
-															item.link !== "" &&
-															<div style={{ marginRight: 20 }}>
-																<BigButtonWithTextAtRight id={index} language={language} item={item.link} />
-																<br />
-															</div>
-														}
-
-													</React.Fragment>
-												)
-											})
-										}
-									</div>
-
-								</div>
-							)
-						})
-					}
-				</React.Fragment>
-			}
+			<Refs language={language} type="ccc" refs={request.cccRefs} />
 		</PageContent >
 	)
 }

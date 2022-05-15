@@ -7,6 +7,7 @@ const TranslationsEn = {
     "gospelFolderName": "gospel",
     "readingsFolderName": "readings",
     "bibleFolderName": "bible",
+    "catechismOfTheCatholicChurchFolderName": "catechism-of-the-catholic-church",
     "gospelsFolderName": "gospels",
     "sourcesFolderName": "sources",
     "aboutFolderName": "about",
@@ -17,7 +18,8 @@ const TranslationsEn = {
     "verse": "Verse",
     "verses": "Verses",
     "listen": "Listen",
-    "stop": "Stop"
+    "stop": "Stop",
+    "reference": "Reference"
 };
 
 const TranslationsFr = {
@@ -28,6 +30,7 @@ const TranslationsFr = {
     "gospelFolderName": "evangile",
     "readingsFolderName": "lectures",
     "bibleFolderName": "bible",
+    "catechismOfTheCatholicChurchFolderName": "catechisme-de-l-eglise-catholique",
     "gospelsFolderName": "evangiles",
     "sourcesFolderName": "sources",
     "aboutFolderName": "a-propos",
@@ -38,7 +41,8 @@ const TranslationsFr = {
     "verse": "Verset",
     "verses": "Versets",
     "listen": "Écouter",
-    "stop": "Arrêter"
+    "stop": "Arrêter",
+    "reference": "Référence"
 };
 
 

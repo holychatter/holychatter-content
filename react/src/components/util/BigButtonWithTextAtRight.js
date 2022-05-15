@@ -34,9 +34,9 @@ function BigButtonWithTextAtRight({ id, language, item }) {
 				'rel': 0,
 			};
 			if (item.startTimeSeconds !== "")
-			    playerVarsObj.start = item.startTimeSeconds;
-				if (item.endTimeSeconds !== "")
-			    playerVarsObj.end = item.endTimeSeconds;
+				playerVarsObj.start = item.startTimeSeconds;
+			if (item.endTimeSeconds !== "")
+				playerVarsObj.end = item.endTimeSeconds;
 			hc_players[id] = new window.YT.Player('hc-youtube-video-placeholder-id-'.concat(id), {
 				videoId: item.youtubeId,
 				playerVars: playerVarsObj,
@@ -71,6 +71,8 @@ function BigButtonWithTextAtRight({ id, language, item }) {
 		document.getElementById('hc-youtube-video-link-id-'.concat(id)).innerHTML = GetStrLocalized(language, "stop");
 	}
 
+
+
 	return (
 		<React.Fragment>
 			<table style={{ width: '100%' }}>
@@ -85,7 +87,7 @@ function BigButtonWithTextAtRight({ id, language, item }) {
 							<div id={'hc-youtube-video-placeholder-id-' + id} style={{ display: 'none' }} />
 						</td>
 						<td className="hc-big-button-text-at-right-padding">
-							<b className='hc-button-title-style'>{item.title}</b>
+							<Link to={item.link} style={{ textDecoration: 'none' }}><b className='hc-button-title-style'>{item.title}</b></Link>
 							<span style={{ color: '#22292f' }}><p>{id !== "" && <React.Fragment> <button id={'hc-youtube-video-link-id-' + id} style={{ cursor: 'pointer' }} onClick={Bb_loadYoutubeVideo} ><GetHtmlStrLocalized language={language} textId="listen" /> </button> &nbsp; </React.Fragment>}{item.tags}</p></span>
 							<p><span style={{ textAlign: 'left', color: '#22292f' }}>{item.sourceImage !== "" && <img src={item.sourceImage} alt='Source logo' width="23" height="23" style={{ marginRight: 13 }} />}{item.sourceName}</span></p>
 							<span>{versesStr}</span>
