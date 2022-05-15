@@ -22,7 +22,7 @@ function BigButtonWithTextAtRight({ id, language, item }) {
 	var tag = document.createElement('script');
 	tag.src = "https://www.youtube.com/iframe_api";
 	var firstScriptTag = document.getElementsByTagName('script')[0];
-	firstScriptTag.parentNode.insertBefore(item.tag, firstScriptTag);
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 	var hc_players = {}
 	var hc_playersAreVisible = {}
