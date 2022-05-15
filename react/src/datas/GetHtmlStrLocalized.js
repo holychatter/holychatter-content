@@ -21,7 +21,8 @@ const TranslationsEn = {
     "close": "Close",
     "relatedQuestions": "Related questions",
     "chatFromThisMessage": "Chat from this message",
-    "listen": "Listen"
+    "listen": "Listen",
+    "bibleVerses": "Bible verses"
 };
 
 const TranslationsFr = {
@@ -45,7 +46,8 @@ const TranslationsFr = {
     "close": "Fermer",
     "relatedQuestions": "Questions liées",
     "chatFromThisMessage": "Discuter à partir de ce message",
-    "listen": "Écouter"
+    "listen": "Écouter",
+    "bibleVerses": "Versets de la Bible"
 };
 
 
