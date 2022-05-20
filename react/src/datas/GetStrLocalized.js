@@ -18,8 +18,7 @@ const TranslationsEn = {
     "verse": "Verse",
     "verses": "Verses",
     "listen": "Listen",
-    "stop": "Stop",
-    "reference": "Reference"
+    "stop": "Stop"
 };
 
 const TranslationsFr = {
@@ -41,8 +40,7 @@ const TranslationsFr = {
     "verse": "Verset",
     "verses": "Versets",
     "listen": "Écouter",
-    "stop": "Arrêter",
-    "reference": "Référence"
+    "stop": "Arrêter"
 };
 
 
