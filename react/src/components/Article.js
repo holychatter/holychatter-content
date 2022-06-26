@@ -131,7 +131,7 @@ function Article({ language, setLanguage, backendUrl }) {
 											request.rightRecommendationsHtmlForLongSreens.map((item, index) => {
 												return (
 													<div key={index} className="hc-inline-flex hc-small-margin" >
-														<BigButtonWithTextAtRight id="" language={language} item={item} />
+														<BigButtonWithTextAtRight allowPreview={false} language={language} item={item} />
 														<br />
 													</div>
 												)

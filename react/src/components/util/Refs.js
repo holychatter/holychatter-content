@@ -45,7 +45,7 @@ function Refs({ language, type, refs }) {
                                             chapterItem.content &&
                                             chapterItem.content.map((item, index) => {
                                                 return (
-                                                    <React.Fragment key={type + "-verse-" + index}>
+                                                    <React.Fragment key={item.text + "-" + type + "-verse-" + index}>
 
                                                         <table style={{ width: '100%' }}>
                                                             <tbody>
@@ -62,7 +62,7 @@ function Refs({ language, type, refs }) {
                                                                         {
                                                                             item.link !== "" &&
                                                                             <div style={{ marginLeft: 30 }}>
-                                                                                <BigButtonWithTextAtRight id={chapterIndex + "-" + index} language={language} item={item.link} />
+                                                                                <BigButtonWithTextAtRight allowPreview={true} language={language} item={item.link} />
                                                                                 <br />
                                                                             </div>
                                                                         }
@@ -95,7 +95,7 @@ function Refs({ language, type, refs }) {
                                                         {
                                                             item.link !== "" &&
                                                             <div style={{ marginRight: 20 }}>
-                                                                <BigButtonWithTextAtRight id={chapterIndex + "-" + index} language={language} item={item.link} />
+                                                                <BigButtonWithTextAtRight allowPreview={true} language={language} item={item.link} />
                                                                 <br />
                                                             </div>
                                                         }
