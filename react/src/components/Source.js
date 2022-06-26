@@ -1,10 +1,10 @@
 import '../assets/resources/custom/style/sources-0.css'
 import React, { useState } from "react"
 import { useLocation } from "react-router-dom"
-import H1TitleBreadcrumb from './breadcrumb/H1TitleBreadcrumb'
+import H1TitleBreadcrumb from './title/H1TitleBreadcrumb'
 import PageContent from './util/PageContent'
-import H2TitleId from './util/H2TitleId'
-import BigButtonWithTextABottom from './util/BigButtonWithTextABottom'
+import H2TitleId from './title/H2TitleId'
+import BigButtonsWithTextABottom from './bigButton/BigButtonsWithTextABottom'
 
 
 function Source({ language, setLanguage, backendUrl }) {
@@ -71,6 +71,7 @@ function Source({ language, setLanguage, backendUrl }) {
 														<a href={siteItem.url} style={{ textDecoration: 'none', outiline: 'none' }}>
 															<div className="hc-center-background-image" width="100px" style={{ height: '500px', borderRadius: '10px', borderWidth: '0px', backgroundImage: 'url(/sites/' + siteItem.image + ')' }} >
 															</div>
+															<br />
 															<div style={{ textAlign: 'left' }}><b className='hc-button-title-style'>{siteItem.title}</b></div>
 														</a>
 													}
@@ -86,12 +87,7 @@ function Source({ language, setLanguage, backendUrl }) {
 							<td className="hc-long-screen hc-reference-viewer-width" style={{ paddingLeft: '30px', paddingRight: '15px', paddingBottom: '15px' }}>
 
 								<div style={{ paddingTop: '13px' }}>
-									{
-										request.videos !== "" &&
-										request.videos.map((videoItem, videoIndex) => {
-											return <BigButtonWithTextABottom key={videoIndex} link={videoItem.link} image={videoItem.image} duration={videoItem.duration} title={videoItem.title} tags={videoItem.tags} sourceImage={videoItem.sourceImage} sourceName={videoItem.sourceName} beginOfClassName="hc-big-button-normal" />
-										})
-									}
+									<BigButtonsWithTextABottom videos={request.videos} />
 								</div>
 
 								<br />
@@ -101,8 +97,11 @@ function Source({ language, setLanguage, backendUrl }) {
 				</table >
 				<div className="hc-short-screen" style={{ textAlign: 'left', paddingLeft: '15px', paddingRight: '30px', paddingBottom: '15px' }} >
 					<br />
-					articleTitle
-					nbofRefs
+					<H2TitleId language={language} titleId={"videos"} />
+
+					<div style={{ paddingTop: '13px' }}>
+						<BigButtonsWithTextABottom videos={request.videos} />
+					</div>
 				</div>
 			</div >
 

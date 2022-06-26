@@ -5,7 +5,7 @@ import sound_hurtubise_mp3 from '../assets/resources/holychatter/sounds/hurtubis
 import React from 'react'
 import GetInnerHtmlStrLocalized from '../datas/GetInnerHtmlStrLocalized'
 import PageContent from './util/PageContent'
-import H1TitleId from './util/H1TitleId'
+import H1TitleId from './title/H1TitleId'
 import LinkToModal from './modal/LinkToModal'
 
 

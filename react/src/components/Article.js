@@ -5,11 +5,11 @@ import '../assets/resources/custom/style/categories-1.css'
 import '../assets/resources/custom/style/video_size-0.css'
 import React, { useState } from "react"
 import { useLocation, Link } from "react-router-dom"
-import H1Title from './util/H1Title'
-import H1TitleBreadcrumb from './breadcrumb/H1TitleBreadcrumb'
+import H1Title from './title/H1Title'
+import H1TitleBreadcrumb from './title/H1TitleBreadcrumb'
 import PageContent from './util/PageContent'
 import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
-import BigButtonWithTextAtRight from './util/BigButtonWithTextAtRight'
+import BigButtonWithTextAtRight from './bigButton/BigButtonWithTextAtRight'
 
 import Refs from './util/Refs'
 

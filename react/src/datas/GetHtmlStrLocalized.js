@@ -25,7 +25,8 @@ const TranslationsEn = {
     "referencesToTheCatechismOfTheCatholicChurch": "References to the Catechism of the Catholic Church",
     "catechismOfTheCatholicChurchNum": "Catechism of the Catholic Church n°",
     "reference": "Reference",
-    "site": "Site"
+    "site": "Site",
+    "videos": "Videos"
 
 };
 
@@ -54,7 +55,8 @@ const TranslationsFr = {
     "referencesToTheCatechismOfTheCatholicChurch": "Références au Catéchisme de l'Église catholique",
     "catechismOfTheCatholicChurchNum": "Catéchisme de l'Église catholique n°",
     "reference": "Référence",
-    "site": "Site"
+    "site": "Site",
+    "videos": "Vidéos"
 };
 
 

@@ -6,8 +6,8 @@ import GetInnerHtmlStrLocalized from '../datas/GetInnerHtmlStrLocalized'
 import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
 import GetStrLocalized from '../datas/GetStrLocalized'
 import PageContent from './util/PageContent'
-import H1TitleId from './util/H1TitleId'
-import H2TitleId from './util/H2TitleId'
+import H1TitleId from './title/H1TitleId'
+import H2TitleId from './title/H2TitleId'
 import { Link } from "react-router-dom"
 
 

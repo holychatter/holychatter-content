@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import GetStrLocalized from '../../datas/GetStrLocalized'
-import H2TitleId from './H2TitleId'
-import BigButtonWithTextAtRight from './BigButtonWithTextAtRight'
+import H2TitleId from '../title/H2TitleId'
+import BigButtonWithTextAtRight from '../bigButton/BigButtonWithTextAtRight'
 import GetHtmlStrLocalized from "../../datas/GetHtmlStrLocalized"
 
 

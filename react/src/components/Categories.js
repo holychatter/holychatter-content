@@ -6,11 +6,11 @@ import '../assets/resources/custom/style/categories-1.css'
 import React, { useState } from "react"
 import { useLocation } from "react-router-dom"
 import { Link } from "react-router-dom"
-import H1Title from './util/H1Title'
-import H1TitleBreadcrumb from './breadcrumb/H1TitleBreadcrumb'
+import H1Title from './title/H1Title'
+import H1TitleBreadcrumb from './title/H1TitleBreadcrumb'
 import PageContent from './util/PageContent'
-import BigButtonWithTextABottom from './util/BigButtonWithTextABottom'
-import H2TitleId from './util/H2TitleId'
+import BigButtonWithTextABottom from './bigButton/BigButtonWithTextABottom'
+import H2TitleId from './title/H2TitleId'
 import Bubble from './chatbot/Bubble'
 
 function Categories({ language, setLanguage, backendUrl }) {
