@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 
-function BigButtonWithTextABottom({ link, image, duration, title, tags, sourceImage, sourceName }) {
+function BigButtonWithTextABottom({ link, image, duration, title, tags, sourceImage, sourceName, beginOfClassName }) {
 
 	if (image === "") {
 		image = sourceImage;
@@ -11,10 +11,10 @@ function BigButtonWithTextABottom({ link, image, duration, title, tags, sourceIm
     return (
         <React.Fragment>
 			<div className='hc-move-up-animation hc-inline-flex hc-small-margin'>
-				<span className="hc-big-button-normal-width" style={{textAlign: 'left'}}>
+				<span className={beginOfClassName + "-width"} style={{textAlign: 'left'}}>
 					<Link to={link} style={{color: 'white', textDecoration: 'none', outline: 'none'}}>
-						<div className="hc-big-button-normal-width hc-big-button-normal-height hc-center-background-image" style={{borderRadius: 10, borderWidth: 0, backgroundImage: "url(" + image + ")" }}>
-							{ duration !== "" && <span className="hc-big-button-normal-durationtop" style={{position: 'absolute', backgroundColor: 'black', padding: 3, right: 8}}>{duration}</span> }
+						<div className={beginOfClassName + "-width " + beginOfClassName + "-height hc-center-background-image"} style={{borderRadius: 10, borderWidth: 0, backgroundImage: "url(" + image + ")" }}>
+							{ duration !== "" && <span className={beginOfClassName + "-durationtop"} style={{position: 'absolute', backgroundColor: 'black', padding: 3, right: 8}}>{duration}</span> }
 						</div>
 						<span style={{textAlign: 'left'}}><b className='hc-button-title-style'><p>{title}</p></b></span>
 					</Link>

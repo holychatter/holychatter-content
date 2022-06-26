@@ -49,7 +49,7 @@ function Categories({ language, setLanguage, backendUrl }) {
 				{
 					request.bigButtontDatas !== "" &&
 					request.bigButtontDatas.map((item, index) => {
-						return <BigButtonWithTextABottom key={index} link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} />
+						return <BigButtonWithTextABottom key={index} link={item.link} image={item.image} duration={item.duration} title={item.title} tags={item.tags} sourceImage={item.sourceImage} sourceName={item.sourceName} beginOfClassName="hc-big-button-normal" />
 					})
 				}
 			</div>

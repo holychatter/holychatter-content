@@ -1,32 +1,52 @@
+import '../assets/resources/custom/style/sources-0.css'
+import React, { useState } from "react"
+import { useLocation } from "react-router-dom"
+import H1Title from './util/H1Title'
+import PageContent from './util/PageContent'
+import BigButtonWithTextABottom from "./util/BigButtonWithTextABottom"
 
-import React, { useState, useEffect } from "react";
 
-//const gitHubUrl = "https://holychatter.com:445/article_api_internal?l=fr&id=jesus-aimait-marthe-et-sa-sur-et-lazare-jn-11-5-abbe-montfort-gillet&messageIds&allRecommendationIds";
+function Sources({ language, setLanguage, backendUrl }) {
 
-function Sources() {
-  const [userData, setUserData] = useState({});
+	const location = useLocation();
+	const [lastPath, setLastPath] = useState("")
+	const [request, setRequest] = useState({ sources: [] })
+	let categoryName = ""
 
-  useEffect(() => {
-    getGitHubUserWithFetch();
-  }, []);
+	if (location.pathname !== lastPath) {
 
-  const gitHubUrl = "http://127.0.0.1:8080/article_api_internal?l=fr&id=jesus-aimait-marthe-et-sa-sur-et-lazare-jn-11-5-abbe-montfort-gillet&messageIds&allRecommendationIds";
-  const getGitHubUserWithFetch = async () => {
-	const response = await fetch(gitHubUrl);
-	const jsonData = await response.json();
-	setUserData(jsonData);
-  };
+		setLastPath(location.pathname);
+		const foldersArray = location.pathname.split('/');
+		if (foldersArray.length > 3) {
+			categoryName = foldersArray[3]
+		}
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h2>GitHub User Data</h2>
-      </header>
-      <div className="user-container">
-        <h5 className="info-item">{userData.rightRecommendationsHtmlForLongSreens}</h5>
-      </div>
-    </div>
-  );
+		const wtUrl = backendUrl + "/sources_page_json?l=" + language;
+		console.log("Request url: " + wtUrl);
+		const getBackendWithFetch = async () => {
+			const response = await fetch(wtUrl);
+			const jsonData = await response.json();
+			setRequest(jsonData);
+		};
+		getBackendWithFetch();
+	}
+
+	return (
+		<PageContent language={language} setLanguage={setLanguage}>
+			<H1Title>Sources</H1Title>
+			<br /><br />
+
+			<div className='hc-sources-left-margin'>
+				{
+					request.sources !== "" &&
+					request.sources.map((item, index) => {
+						return <BigButtonWithTextABottom key={index} link={item.nameForUrl} image={item.icon} duration="" title={item.name} tags="" sourceImage="" sourceName=""  beginOfClassName="hc-big-button-source" />
+					})
+				}
+			</div>
+
+		</PageContent>
+	)
 }
 
 export default Sources;
