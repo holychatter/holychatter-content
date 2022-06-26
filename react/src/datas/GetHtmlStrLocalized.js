@@ -21,11 +21,12 @@ const TranslationsEn = {
     "close": "Close",
     "relatedQuestions": "Related questions",
     "chatFromThisMessage": "Chat from this message",
-    "listen": "Listen",
     "biblicalReferences": "Biblical references",
     "referencesToTheCatechismOfTheCatholicChurch": "References to the Catechism of the Catholic Church",
     "catechismOfTheCatholicChurchNum": "Catechism of the Catholic Church n°",
-    "reference": "Reference"
+    "reference": "Reference",
+    "site": "Site"
+
 };
 
 const TranslationsFr = {
@@ -49,11 +50,11 @@ const TranslationsFr = {
     "close": "Fermer",
     "relatedQuestions": "Questions liées",
     "chatFromThisMessage": "Discuter à partir de ce message",
-    "listen": "Écouter",
     "biblicalReferences": "Références bibliques",
     "referencesToTheCatechismOfTheCatholicChurch": "Références au Catéchisme de l'Église catholique",
     "catechismOfTheCatholicChurchNum": "Catéchisme de l'Église catholique n°",
-    "reference": "Référence"
+    "reference": "Référence",
+    "site": "Site"
 };
 
 

@@ -4,6 +4,7 @@ import Categories from './Categories'
 import HCNavBar from './HCNavBar'
 import Chatbot from './Chatbot'
 import ChristianMessage from './ChristianMessage'
+import Source from './Source'
 import Sources from './Sources'
 import GetStrLocalized from '../datas/GetStrLocalized'
 import React from 'react'
@@ -33,7 +34,8 @@ function App() {
 					<Route path={GetStrLocalized("fr", "chatbotFolderName")} element={<Chatbot language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "aboutFolderName")} element={<About language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("fr", "aboutFolderName")} element={<About language="fr" setLanguage={setLanguage} />}></Route>
-					<Route path={GetStrLocalized("fr", "sourcesFolderName")} element={<Sources language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
+					<Route path={GetStrLocalized("fr", "sourcesFolderName") + "/"} element={<Sources language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
+					<Route path={GetStrLocalized("fr", "sourcesFolderName") + "/*"} element={<Source language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 					<Route path={GetStrLocalized("fr", "christianMessageFolderName")} element={<ChristianMessage language="fr" setLanguage={setLanguage} />}></Route>
 					<Route path='*' element={<Article language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 				</Route>
@@ -42,7 +44,8 @@ function App() {
 					<Route path={GetStrLocalized("en", "categoriesFolderName") + "/*"} element={<Categories language="en" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 					<Route path={GetStrLocalized("en", "chatbotFolderName")} element={<Chatbot language="en" setLanguage={setLanguage} />}></Route>
 					<Route path={GetStrLocalized("en", "aboutFolderName")} element={<About language="en" setLanguage={setLanguage} />}></Route>
-					<Route path={GetStrLocalized("en", "sourcesFolderName")} element={<Sources language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
+					<Route path={GetStrLocalized("en", "sourcesFolderName") + "/"} element={<Sources language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
+					<Route path={GetStrLocalized("en", "sourcesFolderName") + "/*"} element={<Source language="fr" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 					<Route path='*' element={<Article language="en" setLanguage={setLanguage} backendUrl={backendUrl} />}></Route>
 				</Route>
 				<Route path='*' element={<Navigate to="/fr" />}></Route>

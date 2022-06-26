@@ -11,16 +11,10 @@ function Sources({ language, setLanguage, backendUrl }) {
 	const location = useLocation();
 	const [lastPath, setLastPath] = useState("")
 	const [request, setRequest] = useState({ sources: [] })
-	let categoryName = ""
 
 	if (location.pathname !== lastPath) {
 
 		setLastPath(location.pathname);
-		const foldersArray = location.pathname.split('/');
-		if (foldersArray.length > 3) {
-			categoryName = foldersArray[3]
-		}
-
 		const wtUrl = backendUrl + "/sources_page_json?l=" + language;
 		console.log("Request url: " + wtUrl);
 		const getBackendWithFetch = async () => {

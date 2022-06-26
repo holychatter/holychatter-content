@@ -1,0 +1,108 @@
+import '../assets/resources/custom/style/sources-0.css'
+import React, { useState } from "react"
+import { useLocation } from "react-router-dom"
+import H1Title from './util/H1Title'
+import PageContent from './util/PageContent'
+import H2TitleId from './util/H2TitleId'
+import BigButtonWithTextABottom from './util/BigButtonWithTextABottom'
+
+
+function Source({ language, setLanguage, backendUrl }) {
+
+	const location = useLocation();
+	const [lastPath, setLastPath] = useState("")
+	const [request, setRequest] = useState({ name: "", iconPath: "", description: "", videos: [], sites: [] })
+	let sourceId = ""
+
+	if (location.pathname !== lastPath) {
+
+		setLastPath(location.pathname);
+		const foldersArray = location.pathname.split('/');
+		if (foldersArray.length > 3) {
+			sourceId = foldersArray[3]
+		}
+
+		const wtUrl = backendUrl + "/source_page_json?l=" + language + "&id=" + sourceId;
+		console.log("Request url: " + wtUrl);
+		const getBackendWithFetch = async () => {
+			const response = await fetch(wtUrl);
+			const jsonData = await response.json();
+			setRequest(jsonData);
+		};
+		getBackendWithFetch();
+	}
+
+	return (
+		<PageContent language={language} setLanguage={setLanguage}>
+			<H1Title>{request.name}</H1Title>
+			<br /><br />
+
+
+
+
+			<div style={{ width: '100%' }}>
+				<table style={{ width: '100%' }}>
+					<tbody>
+						<tr>
+							<td className="hc-message-viewer-width">
+								<br />
+								<div style={{ textAlign: 'center', paddingTop: '10px' }}><img src={request.iconPath} height="150" width="150" /></div>
+								<br /><br /><br />
+								<div className="hc-content-text" style={{ paddingLeft: '30px', paddingRight: '15px', paddingBottom: '15px' }}>{request.description}</div>
+								<br />
+								<H2TitleId language={language} titleId={"site"} />
+								<br />
+								<div className="hc-content-text" style={{ paddingLeft: '30px', paddingRight: '15px', paddingBottom: '15px' }} >
+
+									{
+										request.sites !== "" &&
+										request.sites.map((siteItem, siteIndex) => {
+											return (
+												<span key={'source-site-' + siteIndex} width="100px" style={{ textAlign: 'left' }}>
+													{
+														siteItem.image &&
+														<a href={siteItem.url} style={{ textDecoration: 'none', outiline: 'none' }}>
+															<div className="hc-center-background-image" width="100px" style={{ height: '500px', borderRadius: '10px', borderWidth: '0px', backgroundImage: 'url(/sites/' + siteItem.image + ')' }} >
+															</div>
+															<div style={{ textAlign: 'left' }}><b className='hc-button-title-style'>{siteItem.title}</b></div>
+														</a>
+													}
+													<span style={{ textAlign: 'left', color: '#22292f' }}><a href={siteItem.url}>{siteItem.url}</a></span>
+												</span>
+											)
+										})
+									}
+
+
+
+								</div>
+							</td>
+							<td className="hc-long-screen hc-reference-viewer-width" style={{ paddingLeft: '30px', paddingRight: '15px', paddingBottom: '15px' }}>
+
+								<div style={{ paddingTop: '13px' }}>
+									{
+										request.videos !== "" &&
+										request.videos.map((videoItem, videoIndex) => {
+											return <BigButtonWithTextABottom key={videoIndex} link={videoItem.link} image={videoItem.image} duration={videoItem.duration} title={videoItem.title} tags={videoItem.tags} sourceImage={videoItem.sourceImage} sourceName={videoItem.sourceName} beginOfClassName="hc-big-button-normal" />
+										})
+									}
+								</div>
+
+								<br />
+							</td>
+						</tr >
+					</tbody >
+				</table >
+				<div className="hc-short-screen" style={{ textAlign: 'left', paddingLeft: '15px', paddingRight: '30px', paddingBottom: '15px' }} >
+					<br />
+					articleTitle
+					nbofRefs
+				</div>
+			</div >
+
+
+		</PageContent >
+	)
+}
+
+export default Source;
