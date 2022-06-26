@@ -1,9 +1,9 @@
 import '../assets/resources/custom/style/sources-0.css'
 import React, { useState } from "react"
 import { useLocation } from "react-router-dom"
-import H1Title from './title/H1Title'
-import PageContent from './util/PageContent'
-import BigButtonWithTextABottom from "./bigButton/BigButtonWithTextABottom"
+import H1Title from '../components/title/H1Title'
+import PageContent from '../components/util/PageContent'
+import BigButtonWithTextABottom from "../components/bigButton/BigButtonWithTextABottom"
 
 
 function Sources({ language, setLanguage, backendUrl }) {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import HCNavBar from './HCNavBar'
+import HCNavBar from '../components/HCNavBar'
 
 
 

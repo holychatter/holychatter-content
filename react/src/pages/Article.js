@@ -5,13 +5,13 @@ import '../assets/resources/custom/style/categories-1.css'
 import '../assets/resources/custom/style/video_size-0.css'
 import React, { useState } from "react"
 import { useLocation, Link } from "react-router-dom"
-import H1Title from './title/H1Title'
-import H1TitleBreadcrumb from './title/H1TitleBreadcrumb'
-import PageContent from './util/PageContent'
+import H1Title from '../components/title/H1Title'
+import H1TitleBreadcrumb from '../components/title/H1TitleBreadcrumb'
+import PageContent from '../components/util/PageContent'
 import GetHtmlStrLocalized from '../datas/GetHtmlStrLocalized'
-import BigButtonWithTextAtRight from './bigButton/BigButtonWithTextAtRight'
+import BigButtonWithTextAtRight from '../components/bigButton/BigButtonWithTextAtRight'
 
-import Refs from './util/Refs'
+import Refs from '../components/util/Refs'
 
 function Article({ language, setLanguage, backendUrl }) {
 
