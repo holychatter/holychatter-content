@@ -1,7 +1,7 @@
 import '../assets/resources/custom/style/sources-0.css'
 import React, { useState } from "react"
 import { useLocation } from "react-router-dom"
-import H1Title from './util/H1Title'
+import H1TitleBreadcrumb from './breadcrumb/H1TitleBreadcrumb'
 import PageContent from './util/PageContent'
 import H2TitleId from './util/H2TitleId'
 import BigButtonWithTextABottom from './util/BigButtonWithTextABottom'
@@ -32,9 +32,16 @@ function Source({ language, setLanguage, backendUrl }) {
 		getBackendWithFetch();
 	}
 
+	const parentFolders = [
+		{
+			path: 'sources',
+			name: 'Sources'
+		}
+	]
+
 	return (
 		<PageContent language={language} setLanguage={setLanguage}>
-			<H1Title>{request.name}</H1Title>
+			<H1TitleBreadcrumb language={language} parentFolders={parentFolders}>{request.name}</H1TitleBreadcrumb>
 			<br /><br />
 
 
@@ -72,7 +79,6 @@ function Source({ language, setLanguage, backendUrl }) {
 											)
 										})
 									}
-
 
 
 								</div>

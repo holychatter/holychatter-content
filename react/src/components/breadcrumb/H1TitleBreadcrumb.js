@@ -15,11 +15,13 @@ function H1TitleBreadcrumb({ language, parentFolders, children }) {
     return (
         <div className='hc-text-align-center'>
             <ol className="breadcrumb" style={{ marginTop: 0, fontSize: 14 }}>
-                <li><Link to={"/" + language + "/categories"}><img border="0" onMouseOver={onMouseOverHome} onMouseOut={onMouseOutHome} src={image_house_out} alt="home" width="14px" height="14px" /></Link></li>
                 {
                     parentFolders !== "" &&
                     parentFolders.map((item, index) => {
-                        return <li key={"breadcrumb-elt-" + index} ><Link to={"/" + language + "/categories/" + item.id}>{item.name}</Link></li>
+                        if (item.name === "") {
+                            return <li><Link to={"/" + language + "/" + item.path}><img border="0" onMouseOver={onMouseOverHome} onMouseOut={onMouseOutHome} src={image_house_out} alt="home" width="14px" height="14px" /></Link></li>
+                        }
+                        return <li key={"breadcrumb-elt-" + index} ><Link to={"/" + language + "/" + item.path}>{item.name}</Link></li>
                     })
                 }
             </ol>
