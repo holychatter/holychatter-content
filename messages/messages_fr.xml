@@ -4396,7 +4396,7 @@
               <text>On fête l&apos;annonciation le 25 mars.</text>
             </message>
           </folder>
-          <folder name="Apparitions" id="apparitions-par-themes" nb="8">
+          <folder name="Apparitions" id="apparitions-par-themes" nb="8" image="marie_madeleine_et_le_christ.jpg">
             <message name="Les récits d&apos;apparition dans la Bible" id="les-recits-d-apparition-dans-la-bible">
               <triggers>
                 <trigger value="Quels sont les récits d&apos;apparition dans la Bible ?"/>
@@ -24626,7 +24626,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         </tags>
       </message>
     </folder>
-    <folder name="Esther" id="esther" nb="1">
+    <folder name="Esther" id="esther" nb="1" image="esther.jpg">
       <message name="Esther : le saviez-vous ?" id="esther-le-saviez-vous">
         <tests>
           <test input="A quelle âge Esther s&apos;est mariée ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mCvY-bZMid0?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;esther-le-saviez-vous&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -24656,7 +24656,119 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         <uploadDate year="2016" month="11" day="23"/>
       </message>
     </folder>
-    <folder name="Jean le Baptiste" id="jean-le-baptiste" nb="1" image="jean_le_baptiste.webp">
+    <folder name="Joséphine Bakhita" id="josephine-bakhita" nb="1" image="josphine-bakhita.jpg">
+      <message name="Qui est sainte Joséphine Bakhita ?" id="qui-est-sainte-josephine-bakhita">
+        <tests>
+          <test input="Qui est sainte Joséphine Bakhita ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N1gGWhvGb-w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;qui-est-sainte-josephine-bakhita&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est sainte Joséphine Bakhita ?"/>
+        </triggers>
+        <sourceId>diocese-de-paris</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N1gGWhvGb-w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="2" seconds="19"/>
+        <viewCount>898</viewCount>
+        <uploadDate year="2021" month="2" day="8"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Padre Pio" id="padre-pio" nb="1" image="padre-pio.jpg">
+      <message name="PADRE PIO (1/2) Meilleur interview jamais réalisé avec le père JEAN DeROBERT" id="padre-pio-12-meilleur-interview-jamais-realise-avec-le-pere-jean-derobert">
+        <triggers>
+          <trigger value="Interview du père Jean De Robert sur le Padre Pio"/>
+        </triggers>
+        <nextMessageId>padre-pio-22-ma-relation-personnelle-avec-le-padre-pio-jean-derobert</nextMessageId>
+        <sourceId>mystiques-chretiens</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HkfMuZ-rtMw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="54" seconds="20"/>
+        <viewCount>93717</viewCount>
+        <uploadDate year="2019" month="7" day="7"/>
+      </message>
+      <message name="PADRE PIO (2/2) Ma relation personnelle avec le Padre Pio / JEAN DeROBERT" id="padre-pio-22-ma-relation-personnelle-avec-le-padre-pio-jean-derobert">
+        <sourceId>mystiques-chretiens</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JrvTODpnLhk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="52" seconds="19"/>
+        <viewCount>165515</viewCount>
+        <uploadDate year="2019" month="7" day="7"/>
+      </message>
+      <message name="Padre Pio et San Giovanni Rotondo" id="padre-pio-et-san-giovanni-rotondo">
+        <tests>
+          <test input="Qui est Padre Pio ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;padre-pio-et-san-giovanni-rotondo&quot; textlength=&quot;17&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Padre Pio ?"/>
+        </triggers>
+        <sourceId>etoile-notre-dame</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="7" seconds="52"/>
+        <viewCount>48449</viewCount>
+        <uploadDate year="2015" month="8" day="30"/>
+      </message>
+    </folder>
+    <folder name="Saint Charles de Foucauld" id="saint-charles-de-foucauld" nb="1" image="charles-de-foucauld.jpg">
+      <message name="Charles de Foucauld" id="charles-de-foucauld">
+        <tests>
+          <test input="Qui est Charles de Foucauld ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;charles-de-foucauld&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Charles de Foucauld ?"/>
+        </triggers>
+        <sourceId>croire</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="2" seconds="2"/>
+        <viewCount>3660</viewCount>
+        <uploadDate year="2012" month="8" day="1"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Saint Fidèle" id="saint-fidele" nb="1" image="saint_fidele.jpg">
+      <message name="Saint Fidèle de Sigmaringen, martyr des calvinistes - Sermon" id="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon">
+        <sourceId>la-sapiniere</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="18" seconds="15"/>
+        <viewCount>362</viewCount>
+        <uploadDate year="2019" month="4" day="26"/>
+      </message>
+    </folder>
+    <folder name="Saint François d&apos;Assise" id="saint-francois-d-assise" nb="1" image="saint_francois_d_assise.jpg">
+      <message name="Saint François d&apos;Assise" id="saint-francois-d-assise">
+        <tests>
+          <test input="Qui est Saint François d&apos;Assise ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-francois-d-assise&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Saint François d&apos;Assise ?"/>
+        </triggers>
+        <sourceId>croire</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="2" seconds="44"/>
+        <viewCount>39135</viewCount>
+        <uploadDate year="2012" month="9" day="12"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
+      </message>
+      <message name="Saint François d&apos;Assise - Frère Eric Bidot" id="saint-francois-d-assise-frere-eric-bidot">
+        <tests>
+          <test input="Quelle relation Saint François d&apos;Assise avait avec la nature ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;En quête d&apos;esprit&quot; resourceid=&quot;saint-francois-d-assise-frere-eric-bidot&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Quelle relation Saint François d&apos;Assise avait avec la nature ?"/>
+        </triggers>
+        <sourceId>en-quete-d-esprit</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="6" seconds="31"/>
+        <viewCount>58</viewCount>
+        <uploadDate year="2020" month="8" day="22"/>
+        <tags>
+          <tag id="Découverte"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Saint Jean le Baptiste" id="saint-jean-le-baptiste" nb="1" image="jean_le_baptiste.webp">
       <message name="Jean le baptiste : le saviez-vous ?" id="jean-le-baptiste-le-saviez-vous">
         <tests>
           <test input="Qui est Jean le baptiste ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2b9q3zC0Wes?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;1R 1, 8&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;jean-le-baptiste-le-saviez-vous&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -24679,25 +24791,284 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         </tags>
       </message>
     </folder>
-    <folder name="Joséphine Bakhita" id="josephine-bakhita" nb="1" image="josphine-bakhita.jpg">
-      <message name="Qui est sainte Joséphine Bakhita ?" id="qui-est-sainte-josephine-bakhita">
+    <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney" nb="1" image="cure-d-ars.jpg">
+      <message name="Dates et lieux" id="dates-et-lieux">
         <tests>
-          <test input="Qui est sainte Joséphine Bakhita ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N1gGWhvGb-w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;qui-est-sainte-josephine-bakhita&quot; textlength=&quot;17&quot; /&gt;"/>
+          <test input="Quand Jean-Marie Vianney fut appelé à l&apos;armée ?" output="Jean-Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Jean-Marie_Vianney&quot; textlength=&quot;48&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;10&quot; /&gt;"/>
+        </tests>
+        <references>
+          <site url="https://fr.wikipedia.org/wiki/Jean-Marie_Vianney"/>
+        </references>
+        <sourceId>wikipedia</sourceId>
+        <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.
+Jean-Marie Vianney fit sa première communion à Écully en 1799.
+Il travaillait la terre avec son père.
+En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.
+Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
+      </message>
+    </folder>
+    <folder name="Saint Joseph" id="saint-joseph" nb="1" image="joseph.jpg">
+      <folder name="Chatbot" id="chatbot-saint-joseph" isHidden="true">
+        <message name="Saint Joseph est le père adoptif de Jésus." id="saint-joseph-est-le-pere-adoptif-de-jesus">
+          <references>
+            <site url="https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus"/>
+          </references>
+          <sourceId>eglise-catholique-en-france</sourceId>
+          <text>Saint Joseph est le père adoptif de Jésus.
+</text>
+        </message>
+      </folder>
+      <message name="Joseph : le saviez vous ?" id="joseph-le-saviez-vous">
+        <tests>
+          <test input="Quel est le métier de Saint Joseph ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ch9_opLYZwY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;joseph-le-saviez-vous&quot; textlength=&quot;18&quot; /&gt;"/>
         </tests>
         <triggers>
-          <trigger value="Qui est sainte Joséphine Bakhita ?"/>
+          <trigger value="Quel est le métier de Saint Joseph ?"/>
         </triggers>
-        <sourceId>diocese-de-paris</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/N1gGWhvGb-w?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="2" seconds="19"/>
-        <viewCount>898</viewCount>
-        <uploadDate year="2021" month="2" day="8"/>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ch9_opLYZwY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration seconds="45"/>
+        <viewCount>17563</viewCount>
+        <uploadDate year="2022" month="4" day="18"/>
+        <tags>
+          <tag id="ChrétienAffermi"/>
+        </tags>
+      </message>
+      <message name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
+        <tests>
+          <test input="Qui est Saint Joseph ?" output="Le père adoptif de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+          <test input="Saint Joseph" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+          <test input="saint joseph" output="Saint joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Saint Joseph ?"/>
+          <trigger value="saint joseph"/>
+        </triggers>
+        <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="3" seconds="12"/>
+        <viewCount>19817</viewCount>
+        <uploadDate year="2019" month="3" day="19"/>
+        <tags>
+          <tag id="Musique"/>
+          <tag id="Découverte"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Saint Luc" id="saint-luc" nb="1" image="saint_luc.jpg">
+      <message name="Qui était Saint Luc ?" id="qui-etait-saint-luc">
+        <tests>
+          <test input="Qui était Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
+          <test input="Qui est Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
+          <test input="Saint Luc" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui était Saint Luc ?"/>
+        </triggers>
+        <descriptions>
+          <description value="C&apos;est Saint Luc."/>
+        </descriptions>
+        <references>
+          <bible book="Lk" chapter="1" verseBegin="35"/>
+          <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
+          <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
+          <bible book="Lk" chapter="23" verseBegin="39" verseEnd="43"/>
+          <bible book="Lk" chapter="22" verseBegin="31" verseEnd="32"/>
+        </references>
+        <sourceId>retraite-dans-la-ville</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="2" seconds="51"/>
+        <viewCount>5032</viewCount>
+        <uploadDate year="2019" month="10" day="17"/>
+        <tags>
+          <tag id="Théologie"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe" nb="1" image="maxilillian_kolbe.jpg">
+      <message name="La vie de Saint Maximilien Kolbe" id="la-vie-de-saint-maximilien-kolbe">
+        <tests>
+          <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
+          <test input="Montrez-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
+          <test input="Où a travaillé Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe a travaillé au Japon." outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Saint Maximilien Kolbe ?"/>
+          <trigger value="Montrez-moi la vie de Saint Maximilien Kolbe"/>
+        </triggers>
+        <descriptions>
+          <description value="Saint Maximilien Kolbe a travaillé au Japon."/>
+        </descriptions>
+        <references>
+          <bible book="Jn" chapter="15" verseBegin="13"/>
+        </references>
+        <sourceId>pere-rene-luc</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="18" seconds="10"/>
+        <viewCount>4774</viewCount>
+        <uploadDate year="2014" month="1" day="8"/>
         <tags>
           <tag id="VieDeSaint"/>
         </tags>
       </message>
     </folder>
-    <folder name="Marie" id="marie" nb="1" image="marie.jpg">
+    <folder name="Saint Paul" id="saint-paul" nb="1" image="saint_paul.jpg">
+      <message name="Saint Paul : le saviez vous ?" id="saint-paul-le-saviez-vous">
+        <triggers>
+          <trigger value="Qui est Saint Paul ?"/>
+          <trigger value="Comment Paul est sorti de Damas ?"/>
+        </triggers>
+        <references>
+          <bible book="2 Cor" chapter="11" verseBegin="32" verseEnd="33"/>
+        </references>
+        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T8Fup-ud560?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration seconds="55"/>
+        <viewCount>16260</viewCount>
+        <uploadDate year="2022" month="4" day="20"/>
+        <tags>
+          <tag id="ChrétienAffermi"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Saint Pierre" id="saint-pierre" nb="1" image="saint_pierre.jpg">
+      <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la Miséricorde&quot; 2° partie" id="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-2-partie" nb="2">
+        <triggers>
+          <trigger value="Que fait Saint Pierre au moment de la Passion du Christ ?"/>
+          <trigger value="Que fait Saint Pierre après la Résurrection du Christ ?"/>
+        </triggers>
+        <references>
+          <bible book="Jn" chapter="13" verseBegin="1" verseEnd="17"/>
+          <bible book="Jn" chapter="12" verseBegin="1" verseEnd="8"/>
+          <bible book="Lk" chapter="22" verseBegin="61"/>
+          <bible book="Jn" chapter="21" verseBegin="14" verseEnd="18"/>
+          <site url="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
+        </references>
+        <sourceId>paroisse-st-pierre-st-paul-colombes</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qVEcwI0Sqec?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="11" seconds="48"/>
+        <viewCount>110</viewCount>
+        <uploadDate year="2020" month="4" day="18"/>
+        <tags>
+          <tag id="ApprofondissementDeLaFoi"/>
+        </tags>
+      </message>
+      <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la miséricorde&quot; 1° partie" id="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie" nb="1">
+        <tests>
+          <test input="Quelle est la devise du Pape François ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 29-31&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 18-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 17, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+          <test input="Comment Saint Pierre peut nous rassurer ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 29-31&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 18-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 17, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+          <test input="Comment Saint Pierre nous aide à comprendre la miséricorde de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 29-31&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 18-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 17, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie&quot; textlength=&quot;35&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Comment Saint Pierre peut nous rassurer ?"/>
+          <trigger value="Comment Saint Pierre nous aide à comprendre la miséricorde de Dieu ?"/>
+          <trigger value="Qu&apos;est-ce que c&apos;est la miséricorde ?"/>
+          <trigger value="Quelle est la devise du Pape François ?"/>
+        </triggers>
+        <nextMessageId>2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-2-partie</nextMessageId>
+        <references>
+          <bible book="Mk" chapter="1" verseBegin="29" verseEnd="31"/>
+          <bible book="Mt" chapter="4" verseBegin="18" verseEnd="22"/>
+          <bible book="Mt" chapter="14" verseBegin="28"/>
+          <bible book="Mt" chapter="16" verseBegin="15" verseEnd="16"/>
+          <bible book="Mt" chapter="17" verseBegin="4" verseEnd="5"/>
+          <bible book="Mt" chapter="26" verseBegin="33"/>
+          <site url="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
+        </references>
+        <sourceId>paroisse-st-pierre-st-paul-colombes</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="7" seconds="34"/>
+        <viewCount>175</viewCount>
+        <uploadDate year="2020" month="4" day="17"/>
+        <tags>
+          <tag id="ApprofondissementDeLaFoi"/>
+        </tags>
+      </message>
+      <message name="Saint Pierre" id="saint-pierre">
+        <triggers>
+          <trigger value="Qui est Saint Pierre ?"/>
+        </triggers>
+        <recommendations>
+          <recommendation text="Comment Saint Pierre peut nous rassurer ?" outMessageId="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie"/>
+        </recommendations>
+        <references>
+          <bible book="Mt" chapter="16" verseBegin="15" verseEnd="19"/>
+          <bible book="Mt" chapter="26" verseBegin="69" verseEnd="75"/>
+          <bible book="Jn" chapter="21" verseBegin="15" verseEnd="17"/>
+          <bible book="Acts" chapter="2" verseBegin="14" verseEnd="32"/>
+          <bible book="Acts" chapter="11" verseBegin="2" verseEnd="3"/>
+          <bible book="Acts" chapter="15" verseBegin="7" verseEnd="11"/>
+        </references>
+        <sourceId>croire</sourceId>
+        <text fileType="html">&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svx3fx/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;</text>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
+      </message>
+      <message name="Saint Pierre - Croire" id="saint-pierre-croire">
+        <tests>
+          <test input="Qui est Saint Pierre ?" output="Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svx3fx/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 16, 18-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-pierre-croire&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 16, 15-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 69-75&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 21, 15-17&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 14-32&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 15, 7-11&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-pierre&quot; textlength=&quot;6&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Saint Pierre ?"/>
+        </triggers>
+        <references>
+          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
+        </references>
+        <sourceId>croire</sourceId>
+        <text>Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).</text>
+      </message>
+    </folder>
+    <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous" nb="1" image="bernadette_soubirous.jpg">
+      <message name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
+        <tests>
+          <test input="Qui est Bernadette Soubirous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Point&quot; resourceid=&quot;11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous&quot; textlength=&quot;8&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est Bernadette Soubirous ?"/>
+        </triggers>
+        <sourceId>le-point</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="2" seconds="45"/>
+        <viewCount>11912</viewCount>
+        <uploadDate year="2020" month="1" day="28"/>
+      </message>
+    </folder>
+    <folder name="Sainte Catherine Larouré" id="sainte-catherine-laroure" nb="1" image="sainte_catherine_laboure.jpg">
+      <message name="Sainte Catherine Labouré, celle qui vit la Vierge (+ 1876), par Arnaud Dumouch" id="sainte-catherine-laboure-celle-qui-vit-la-vierge-1876-par-arnaud-dumouch">
+        <tests>
+          <test input="Qui est sainte Catherine Labouré ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4EYHc_dK3Qk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Chaîne Catholique d&apos;Arnaud Dumouch&quot; resourceid=&quot;sainte-catherine-laboure-celle-qui-vit-la-vierge-1876-par-arnaud-dumouch&quot; textlength=&quot;35&quot; /&gt;"/>
+        </tests>
+        <triggers>
+          <trigger value="Qui est sainte Catherine Labouré ?"/>
+        </triggers>
+        <sourceId>chaine-catholique-d-arnaud-dumouch</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4EYHc_dK3Qk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="58" seconds="11"/>
+        <viewCount>42825</viewCount>
+        <uploadDate year="2017" month="8" day="14"/>
+        <tags>
+          <tag id="VieDeSaint"/>
+        </tags>
+      </message>
+    </folder>
+    <folder name="Sainte Faustine" id="sainte-faustine" nb="1" image="sainte_faustine.jpg">
+      <message name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="soeur-faustine-jesus-j-ai-confiance-en-toi">
+        <tests>
+          <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
+        </tests>
+        <descriptions>
+          <description value="C&apos;est la vie de Sainte Faustine."/>
+          <description value="C&apos;est Sainte Faustine."/>
+        </descriptions>
+        <sourceId>fabienne-guerrero</sourceId>
+        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+        <duration minutes="59" seconds="55"/>
+        <viewCount>299260</viewCount>
+        <uploadDate year="2012" month="1" day="13"/>
+      </message>
+    </folder>
+    <folder name="Sainte Marie" id="sainte-marie" nb="1" image="marie.jpg">
       <folder name="Chatbot" id="chatbot-marie" isHidden="true">
         <message name="Marie est la mère de Jésus" id="marie-est-la-mere-de-jesus">
           <triggers>
@@ -24978,7 +25349,7 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
         </tags>
       </message>
     </folder>
-    <folder name="Marie Madeleine" id="marie-madeleine" nb="1" image="marie_madeleine_et_le_christ.jpg">
+    <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine" nb="1" image="marie_madeleine_et_le_christ.jpg">
       <message name="Marie Madeleine : le saviez-vous ?" id="marie-madeleine-le-saviez-vous">
         <tests>
           <test input="A-t-on retrouvé la synagogue de Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YV_TGw67vhg?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;marie-madeleine-le-saviez-vous&quot; textlength=&quot;18&quot; /&gt;"/>
@@ -24995,379 +25366,6 @@ Réponse : non c’est la première fois que je viens, je ne connais pas encore 
           <tag id="ChrétienAffermi"/>
         </tags>
       </message>
-    </folder>
-    <folder name="Padre Pio" id="padre-pio" nb="1" image="padre-pio.jpg">
-      <message name="PADRE PIO (1/2) Meilleur interview jamais réalisé avec le père JEAN DeROBERT" id="padre-pio-12-meilleur-interview-jamais-realise-avec-le-pere-jean-derobert">
-        <triggers>
-          <trigger value="Interview du père Jean De Robert sur le Padre Pio"/>
-        </triggers>
-        <nextMessageId>padre-pio-22-ma-relation-personnelle-avec-le-padre-pio-jean-derobert</nextMessageId>
-        <sourceId>mystiques-chretiens</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HkfMuZ-rtMw?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="54" seconds="20"/>
-        <viewCount>93717</viewCount>
-        <uploadDate year="2019" month="7" day="7"/>
-      </message>
-      <message name="PADRE PIO (2/2) Ma relation personnelle avec le Padre Pio / JEAN DeROBERT" id="padre-pio-22-ma-relation-personnelle-avec-le-padre-pio-jean-derobert">
-        <sourceId>mystiques-chretiens</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JrvTODpnLhk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="52" seconds="19"/>
-        <viewCount>165515</viewCount>
-        <uploadDate year="2019" month="7" day="7"/>
-      </message>
-      <message name="Padre Pio et San Giovanni Rotondo" id="padre-pio-et-san-giovanni-rotondo">
-        <tests>
-          <test input="Qui est Padre Pio ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Etoile Notre Dame&quot; resourceid=&quot;padre-pio-et-san-giovanni-rotondo&quot; textlength=&quot;17&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Padre Pio ?"/>
-        </triggers>
-        <sourceId>etoile-notre-dame</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kEtcvbYG0w0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="7" seconds="52"/>
-        <viewCount>48449</viewCount>
-        <uploadDate year="2015" month="8" day="30"/>
-      </message>
-    </folder>
-    <folder name="Saint Charles de Foucauld" id="saint-charles-de-foucauld" nb="1" image="charles-de-foucauld.jpg">
-      <message name="Charles de Foucauld" id="charles-de-foucauld">
-        <tests>
-          <test input="Qui est Charles de Foucauld ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;charles-de-foucauld&quot; textlength=&quot;6&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Charles de Foucauld ?"/>
-        </triggers>
-        <sourceId>croire</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c79VrZaHzac?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="2" seconds="2"/>
-        <viewCount>3660</viewCount>
-        <uploadDate year="2012" month="8" day="1"/>
-        <tags>
-          <tag id="VieDeSaint"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Saint Fidèle" id="saint-fidele" nb="1" image="saint_fidele.jpg">
-      <message name="Saint Fidèle de Sigmaringen, martyr des calvinistes - Sermon" id="saint-fidele-de-sigmaringen-martyr-des-calvinistes-sermon">
-        <sourceId>la-sapiniere</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q54-3EU8ktM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="18" seconds="15"/>
-        <viewCount>362</viewCount>
-        <uploadDate year="2019" month="4" day="26"/>
-      </message>
-    </folder>
-    <folder name="Saint François d&apos;Assise" id="saint-francois-d-assise" nb="1" image="saint_francois_d_assise.jpg">
-      <message name="Saint François d&apos;Assise" id="saint-francois-d-assise">
-        <tests>
-          <test input="Qui est Saint François d&apos;Assise ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-francois-d-assise&quot; textlength=&quot;6&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Saint François d&apos;Assise ?"/>
-        </triggers>
-        <sourceId>croire</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rNVWJ-I7OZ8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="2" seconds="44"/>
-        <viewCount>39135</viewCount>
-        <uploadDate year="2012" month="9" day="12"/>
-        <tags>
-          <tag id="VieDeSaint"/>
-        </tags>
-      </message>
-      <message name="Saint François d&apos;Assise - Frère Eric Bidot" id="saint-francois-d-assise-frere-eric-bidot">
-        <tests>
-          <test input="Quelle relation Saint François d&apos;Assise avait avec la nature ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;En quête d&apos;esprit&quot; resourceid=&quot;saint-francois-d-assise-frere-eric-bidot&quot; textlength=&quot;18&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quelle relation Saint François d&apos;Assise avait avec la nature ?"/>
-        </triggers>
-        <sourceId>en-quete-d-esprit</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kMsL8sx-jMk?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="6" seconds="31"/>
-        <viewCount>58</viewCount>
-        <uploadDate year="2020" month="8" day="22"/>
-        <tags>
-          <tag id="Découverte"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Saint Jean-Marie Vianney" id="saint-jean-marie-vianney" nb="1" image="cure-d-ars.jpg">
-      <message name="Dates et lieux" id="dates-et-lieux">
-        <tests>
-          <test input="Quand Jean-Marie Vianney fut appelé à l&apos;armée ?" output="Jean-Marie Vianney était appelé en octobre 1809 à l&apos;armée." outputReferences="&lt;hc_site site=&quot;https://fr.wikipedia.org/wiki/Jean-Marie_Vianney&quot; textlength=&quot;48&quot; /&gt;&lt;hc_source name=&quot;Wikipédia&quot; resourceid=&quot;dates-et-lieux&quot; textlength=&quot;10&quot; /&gt;"/>
-        </tests>
-        <references>
-          <site url="https://fr.wikipedia.org/wiki/Jean-Marie_Vianney"/>
-        </references>
-        <sourceId>wikipedia</sourceId>
-        <text>Jean-Marie Vianney est né à Dardilly dans le Rhône en 1786.
-Jean-Marie Vianney fit sa première communion à Écully en 1799.
-Il travaillait la terre avec son père.
-En octobre 1809, Jean-Marie Vianney fut appelé à l&apos;armée.
-Jean-Marie Vianney fut accepté au séminaire de Verrières en 1811.</text>
-      </message>
-    </folder>
-    <folder name="Saint Joseph" id="saint-joseph" nb="1" image="joseph.jpg">
-      <folder name="Chatbot" id="chatbot-saint-joseph" isHidden="true">
-        <message name="Saint Joseph est le père adoptif de Jésus." id="saint-joseph-est-le-pere-adoptif-de-jesus">
-          <references>
-            <site url="https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus"/>
-          </references>
-          <sourceId>eglise-catholique-en-france</sourceId>
-          <text>Saint Joseph est le père adoptif de Jésus.
-</text>
-        </message>
-      </folder>
-      <message name="Joseph : le saviez vous ?" id="joseph-le-saviez-vous">
-        <tests>
-          <test input="Quel est le métier de Saint Joseph ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ch9_opLYZwY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;joseph-le-saviez-vous&quot; textlength=&quot;18&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Quel est le métier de Saint Joseph ?"/>
-        </triggers>
-        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ch9_opLYZwY?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration seconds="45"/>
-        <viewCount>17563</viewCount>
-        <uploadDate year="2022" month="4" day="18"/>
-        <tags>
-          <tag id="ChrétienAffermi"/>
-        </tags>
-      </message>
-      <message name="Litanies de Saint Joseph" id="litanies-de-saint-joseph">
-        <tests>
-          <test input="Qui est Saint Joseph ?" output="Le père adoptif de Jésus|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-          <test input="Saint Joseph" output="Saint Joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-          <test input="saint joseph" output="Saint joseph est le père adoptif de Jésus.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_site site=&quot;https://eglise.catholique.fr/approfondir-sa-foi/temoigner/figures-de-saintete/369782-saint-joseph-le-pere-adoptif-de-jesus&quot; textlength=&quot;122&quot; /&gt;&lt;hc_source name=&quot;Eglise catholique en France&quot; resourceid=&quot;saint-joseph-est-le-pere-adoptif-de-jesus&quot; textlength=&quot;27&quot; /&gt;|otherAnswer-&gt;|&lt;hc_source name=&quot;Emmanuel Maillard - Enfants de Medjugorje&quot; resourceid=&quot;litanies-de-saint-joseph&quot; textlength=&quot;41&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Saint Joseph ?"/>
-          <trigger value="saint joseph"/>
-        </triggers>
-        <sourceId>emmanuel-maillard-enfants-de-medjugorje</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/a1aNo8nymi8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="3" seconds="12"/>
-        <viewCount>19817</viewCount>
-        <uploadDate year="2019" month="3" day="19"/>
-        <tags>
-          <tag id="Musique"/>
-          <tag id="Découverte"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Saint Luc" id="saint-luc" nb="1" image="saint_luc.jpg">
-      <message name="Qui était Saint Luc ?" id="qui-etait-saint-luc">
-        <tests>
-          <test input="Qui était Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
-          <test input="Qui est Saint Luc ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
-          <test input="Saint Luc" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Lc 1, 35&quot; textlength=&quot;8&quot; /&gt;&lt;hc_bible ref=&quot;Lc 15, 11-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 10, 25-37&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 23, 39-43&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Lc 22, 31-32&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Retraite dans la Ville&quot; resourceid=&quot;qui-etait-saint-luc&quot; textlength=&quot;22&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui était Saint Luc ?"/>
-        </triggers>
-        <descriptions>
-          <description value="C&apos;est Saint Luc."/>
-        </descriptions>
-        <references>
-          <bible book="Lk" chapter="1" verseBegin="35"/>
-          <bible book="Lk" chapter="15" verseBegin="11" verseEnd="32"/>
-          <bible book="Lk" chapter="10" verseBegin="25" verseEnd="37"/>
-          <bible book="Lk" chapter="23" verseBegin="39" verseEnd="43"/>
-          <bible book="Lk" chapter="22" verseBegin="31" verseEnd="32"/>
-        </references>
-        <sourceId>retraite-dans-la-ville</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YMFzGnWnAYo?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="2" seconds="51"/>
-        <viewCount>5032</viewCount>
-        <uploadDate year="2019" month="10" day="17"/>
-        <tags>
-          <tag id="Théologie"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Saint Maximilien Kolbe" id="saint-maximilien-kolbe" nb="1" image="maxilillian_kolbe.jpg">
-      <message name="La vie de Saint Maximilien Kolbe" id="la-vie-de-saint-maximilien-kolbe">
-        <tests>
-          <test input="Qui est Saint Maximilien Kolbe ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
-          <test input="Montrez-moi la vie de Saint Maximilien Kolbe" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
-          <test input="Où a travaillé Saint Maximilien Kolbe ?" output="Saint Maximilien Kolbe a travaillé au Japon." outputReferences="&lt;hc_bible ref=&quot;Jn 15, 13&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Père René-Luc&quot; resourceid=&quot;la-vie-de-saint-maximilien-kolbe&quot; textlength=&quot;15&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Saint Maximilien Kolbe ?"/>
-          <trigger value="Montrez-moi la vie de Saint Maximilien Kolbe"/>
-        </triggers>
-        <descriptions>
-          <description value="Saint Maximilien Kolbe a travaillé au Japon."/>
-        </descriptions>
-        <references>
-          <bible book="Jn" chapter="15" verseBegin="13"/>
-        </references>
-        <sourceId>pere-rene-luc</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fX80yAbcFpA?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="18" seconds="10"/>
-        <viewCount>4774</viewCount>
-        <uploadDate year="2014" month="1" day="8"/>
-        <tags>
-          <tag id="VieDeSaint"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Saint Paul" id="saint-paul" nb="1">
-      <message name="Saint Paul : le saviez vous ?" id="saint-paul-le-saviez-vous">
-        <triggers>
-          <trigger value="Qui est Saint Paul ?"/>
-          <trigger value="Comment Paul est sorti de Damas ?"/>
-        </triggers>
-        <references>
-          <bible book="2 Cor" chapter="11" verseBegin="32" verseEnd="33"/>
-        </references>
-        <sourceId>frere-paul-adrien-d-hardemare</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/T8Fup-ud560?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration seconds="55"/>
-        <viewCount>16260</viewCount>
-        <uploadDate year="2022" month="4" day="20"/>
-        <tags>
-          <tag id="ChrétienAffermi"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Saint Pierre" id="saint-pierre" nb="1" image="saint_pierre.jpg">
-      <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la Miséricorde&quot; 2° partie" id="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-2-partie" nb="2">
-        <triggers>
-          <trigger value="Que fait Saint Pierre au moment de la Passion du Christ ?"/>
-          <trigger value="Que fait Saint Pierre après la Résurrection du Christ ?"/>
-        </triggers>
-        <references>
-          <bible book="Jn" chapter="13" verseBegin="1" verseEnd="17"/>
-          <bible book="Jn" chapter="12" verseBegin="1" verseEnd="8"/>
-          <bible book="Lk" chapter="22" verseBegin="61"/>
-          <bible book="Jn" chapter="21" verseBegin="14" verseEnd="18"/>
-          <site url="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
-        </references>
-        <sourceId>paroisse-st-pierre-st-paul-colombes</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qVEcwI0Sqec?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="11" seconds="48"/>
-        <viewCount>110</viewCount>
-        <uploadDate year="2020" month="4" day="18"/>
-        <tags>
-          <tag id="ApprofondissementDeLaFoi"/>
-        </tags>
-      </message>
-      <message name="2020 04 18 Formation &quot;Boostez votre Temps pascal&quot; 1. &quot;Pierre et la miséricorde&quot; 1° partie" id="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie" nb="1">
-        <tests>
-          <test input="Quelle est la devise du Pape François ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 29-31&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 18-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 17, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie&quot; textlength=&quot;35&quot; /&gt;"/>
-          <test input="Comment Saint Pierre peut nous rassurer ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 29-31&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 18-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 17, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie&quot; textlength=&quot;35&quot; /&gt;"/>
-          <test input="Comment Saint Pierre nous aide à comprendre la miséricorde de Dieu ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 1, 29-31&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 4, 18-22&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Mt 14, 28&quot; textlength=&quot;9&quot; /&gt;&lt;hc_bible ref=&quot;Mt 16, 15-16&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 17, 4-5&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_site site=&quot;http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html&quot; textlength=&quot;114&quot; /&gt;&lt;hc_source name=&quot;Paroisse St Pierre St Paul Colombes&quot; resourceid=&quot;2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie&quot; textlength=&quot;35&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Comment Saint Pierre peut nous rassurer ?"/>
-          <trigger value="Comment Saint Pierre nous aide à comprendre la miséricorde de Dieu ?"/>
-          <trigger value="Qu&apos;est-ce que c&apos;est la miséricorde ?"/>
-          <trigger value="Quelle est la devise du Pape François ?"/>
-        </triggers>
-        <nextMessageId>2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-2-partie</nextMessageId>
-        <references>
-          <bible book="Mk" chapter="1" verseBegin="29" verseEnd="31"/>
-          <bible book="Mt" chapter="4" verseBegin="18" verseEnd="22"/>
-          <bible book="Mt" chapter="14" verseBegin="28"/>
-          <bible book="Mt" chapter="16" verseBegin="15" verseEnd="16"/>
-          <bible book="Mt" chapter="17" verseBegin="4" verseEnd="5"/>
-          <bible book="Mt" chapter="26" verseBegin="33"/>
-          <site url="http://www.vatican.va/content/francesco/fr/bulls/documents/papa-francesco_bolla_20150411_misericordiae-vultus.html"/>
-        </references>
-        <sourceId>paroisse-st-pierre-st-paul-colombes</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UNLyO5il5oU?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="7" seconds="34"/>
-        <viewCount>175</viewCount>
-        <uploadDate year="2020" month="4" day="17"/>
-        <tags>
-          <tag id="ApprofondissementDeLaFoi"/>
-        </tags>
-      </message>
-      <message name="Saint Pierre" id="saint-pierre">
-        <triggers>
-          <trigger value="Qui est Saint Pierre ?"/>
-        </triggers>
-        <recommendations>
-          <recommendation text="Comment Saint Pierre peut nous rassurer ?" outMessageId="2020-04-18-formation-boostez-votre-temps-pascal-1-pierre-et-la-misericorde-1-partie"/>
-        </recommendations>
-        <references>
-          <bible book="Mt" chapter="16" verseBegin="15" verseEnd="19"/>
-          <bible book="Mt" chapter="26" verseBegin="69" verseEnd="75"/>
-          <bible book="Jn" chapter="21" verseBegin="15" verseEnd="17"/>
-          <bible book="Acts" chapter="2" verseBegin="14" verseEnd="32"/>
-          <bible book="Acts" chapter="11" verseBegin="2" verseEnd="3"/>
-          <bible book="Acts" chapter="15" verseBegin="7" verseEnd="11"/>
-        </references>
-        <sourceId>croire</sourceId>
-        <text fileType="html">&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svx3fx/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;</text>
-        <tags>
-          <tag id="VieDeSaint"/>
-        </tags>
-      </message>
-      <message name="Saint Pierre - Croire" id="saint-pierre-croire">
-        <tests>
-          <test input="Qui est Saint Pierre ?" output="Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe src=&quot;//www.ultimedia.com/deliver/generic/iframe/mdtk/01088654/src/svx3fx/zone/1/showtitle/1/&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot;width=&quot;560&quot; height=&quot;315&quot; allow=&quot;autoplay; fullscreen&quot;&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 16, 18-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-pierre-croire&quot; textlength=&quot;6&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 16, 15-19&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Mt 26, 69-75&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Jn 21, 15-17&quot; textlength=&quot;12&quot; /&gt;&lt;hc_bible ref=&quot;Ac 2, 14-32&quot; textlength=&quot;11&quot; /&gt;&lt;hc_bible ref=&quot;Ac 11, 2-3&quot; textlength=&quot;10&quot; /&gt;&lt;hc_bible ref=&quot;Ac 15, 7-11&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;Croire&quot; resourceid=&quot;saint-pierre&quot; textlength=&quot;6&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Saint Pierre ?"/>
-        </triggers>
-        <references>
-          <bible book="Mt" chapter="16" verseBegin="18" verseEnd="19"/>
-        </references>
-        <sourceId>croire</sourceId>
-        <text>Simon, frère d&apos;André, a été le premier parmi les disciples de Jésus à confesser le Christ, Fils du Dieu vivant, et Jésus lui donna le nom de Pierre. Il a reçu la charge de conduire l&apos;Église: «Tu es Pierre et sur cette pierre je bâtirai mon Église» (Matthieu 16,18-19).</text>
-      </message>
-    </folder>
-    <folder name="Sainte Bernadette Soubirous" id="sainte-bernadette-soubirous" nb="1" image="bernadette_soubirous.jpg">
-      <message name="11 février 1858 : le jour où la Vierge apparaît à Bernadette Soubirous" id="11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous">
-        <tests>
-          <test input="Qui est Bernadette Soubirous ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Le Point&quot; resourceid=&quot;11-fevrier-1858-le-jour-o-la-vierge-apparait-a-bernadette-soubirous&quot; textlength=&quot;8&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est Bernadette Soubirous ?"/>
-        </triggers>
-        <sourceId>le-point</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RBpQAbZPGyg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="2" seconds="45"/>
-        <viewCount>11912</viewCount>
-        <uploadDate year="2020" month="1" day="28"/>
-      </message>
-    </folder>
-    <folder name="Sainte Catherine Larouré" id="sainte-catherine-laroure" nb="1" image="sainte_catherine_laboure.jpg">
-      <message name="Sainte Catherine Labouré, celle qui vit la Vierge (+ 1876), par Arnaud Dumouch" id="sainte-catherine-laboure-celle-qui-vit-la-vierge-1876-par-arnaud-dumouch">
-        <tests>
-          <test input="Qui est sainte Catherine Labouré ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4EYHc_dK3Qk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Chaîne Catholique d&apos;Arnaud Dumouch&quot; resourceid=&quot;sainte-catherine-laboure-celle-qui-vit-la-vierge-1876-par-arnaud-dumouch&quot; textlength=&quot;35&quot; /&gt;"/>
-        </tests>
-        <triggers>
-          <trigger value="Qui est sainte Catherine Labouré ?"/>
-        </triggers>
-        <sourceId>chaine-catholique-d-arnaud-dumouch</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4EYHc_dK3Qk?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="58" seconds="11"/>
-        <viewCount>42825</viewCount>
-        <uploadDate year="2017" month="8" day="14"/>
-        <tags>
-          <tag id="VieDeSaint"/>
-        </tags>
-      </message>
-    </folder>
-    <folder name="Sainte Faustine" id="sainte-faustine" nb="1" image="sainte_faustine.jpg">
-      <message name=" Soeur Faustine « JESUS, j’ai confiance en Toi »" id="soeur-faustine-jesus-j-ai-confiance-en-toi">
-        <tests>
-          <test input="qui est sainte faustine" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Fabienne Guerréro&quot; resourceid=&quot;soeur-faustine-jesus-j-ai-confiance-en-toi&quot; textlength=&quot;18&quot; /&gt;"/>
-        </tests>
-        <descriptions>
-          <description value="C&apos;est la vie de Sainte Faustine."/>
-          <description value="C&apos;est Sainte Faustine."/>
-        </descriptions>
-        <sourceId>fabienne-guerrero</sourceId>
-        <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mkCY34n6H2I?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-        <duration minutes="59" seconds="55"/>
-        <viewCount>299260</viewCount>
-        <uploadDate year="2012" month="1" day="13"/>
-      </message>
-    </folder>
-    <folder name="Sainte Marie Madeleine" id="sainte-marie-madeleine" nb="1" image="sainte_marie_mdeleine.jpg">
       <message name="Sainte Marie Madeleine à la Sainte-Baume" id="sainte-marie-madeleine-a-la-sainte-baume">
         <tests>
           <test input="Où sont les reliques de Sainte Marie Madeleine ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qWhfoPeiIj8?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mc 16, 1-10&quot; textlength=&quot;11&quot; /&gt;&lt;hc_source name=&quot;ThéoDom&quot; resourceid=&quot;sainte-marie-madeleine-a-la-sainte-baume&quot; textlength=&quot;8&quot; /&gt;"/>
