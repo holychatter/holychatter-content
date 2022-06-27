@@ -26,8 +26,19 @@ const TranslationsEn = {
     "catechismOfTheCatholicChurchNum": "Catechism of the Catholic Church n°",
     "reference": "Reference",
     "site": "Site",
-    "videos": "Videos"
-
+    "videos": "Videos",
+    "oldTestament": "Old testament",
+    "newTestament": "New testament",
+    "prologue": "Prologue",
+    "theProfessionOfFaith": "The Profession of Faith",
+    "theCelebrationOfChristianMistery": "The Celebration of the Christian Mystery",
+    "lifeInChrist": "Life in Christ",
+    "christianPrayer": "Christian Prayer",
+    "plan": "Plan",
+    "examples": "Examples",
+    "encyclicLetterPatrisCorde": "Apostolic letter Patris corde",
+    "readings": "Readings",
+    "theSocialDoctrineOfTheChurch": "The Social Doctrine of the Church"
 };
 
 const TranslationsFr = {
@@ -56,7 +67,19 @@ const TranslationsFr = {
     "catechismOfTheCatholicChurchNum": "Catéchisme de l'Église catholique n°",
     "reference": "Référence",
     "site": "Site",
-    "videos": "Vidéos"
+    "videos": "Vidéos",
+    "oldTestament": "Ancien testament",
+    "newTestament": "Nouveau testament",
+    "prologue": "Prologue",
+    "theProfessionOfFaith": "La profession de foi",
+    "theCelebrationOfChristianMistery": "La célébration du mystère chrétien",
+    "lifeInChrist": "La vie dans le Christ",
+    "christianPrayer": "La prière chrétienne",
+    "plan": "Plan",
+    "examples": "Exemples",
+    "encyclicLetterPatrisCorde": "Lettre apostolique Patris corde (Avec un Cœur de Père)",
+    "readings": "Lectures",
+    "theSocialDoctrineOfTheChurch": "La doctrine sociale de l'église"
 };
 
 
