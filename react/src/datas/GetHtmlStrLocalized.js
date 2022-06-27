@@ -37,6 +37,9 @@ const TranslationsEn = {
     "plan": "Plan",
     "examples": "Examples",
     "encyclicLetterPatrisCorde": "Apostolic letter Patris corde",
+    "encyclicalFratelliTutti": "Encyclical Fratelli Tutti",
+    "encyclicalLaudatoSi": "Encyclical Laudato si'",
+    "readThePopesWritings": "Read the Pope's writings",
     "readings": "Readings",
     "theSocialDoctrineOfTheChurch": "The Social Doctrine of the Church"
 };
@@ -78,6 +81,9 @@ const TranslationsFr = {
     "plan": "Plan",
     "examples": "Exemples",
     "encyclicLetterPatrisCorde": "Lettre apostolique Patris corde (Avec un Cœur de Père)",
+    "encyclicalFratelliTutti": "Encyclique Fratelli Tutti",
+    "encyclicalLaudatoSi": "Encyclique Laudato si'",
+    "readThePopesWritings": "Lire les écrits du Pape",
     "readings": "Lectures",
     "theSocialDoctrineOfTheChurch": "La doctrine sociale de l'église"
 };

@@ -5,6 +5,7 @@ import H1TitleBreadcrumb from '../components/title/H1TitleBreadcrumb'
 import PageContent from '../components/util/PageContent'
 import H2TitleId from '../components/title/H2TitleId'
 import BigButtonsWithTextABottom from '../components/bigButton/BigButtonsWithTextABottom'
+import GetStrLocalized from "../datas/GetStrLocalized"
 
 
 function Source({ language, setLanguage, backendUrl }) {
@@ -34,7 +35,7 @@ function Source({ language, setLanguage, backendUrl }) {
 
 	const parentFolders = [
 		{
-			path: 'sources',
+			path: GetStrLocalized(language, "sourcesFolderName"),
 			name: 'Sources'
 		}
 	]

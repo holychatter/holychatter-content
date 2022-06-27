@@ -72,8 +72,8 @@ function Readings({ language, setLanguage }) {
 							<div className="hc-long-screen hc-content-text">
 								<div className='hc-small-margin' style={{ paddingTop: '10px', paddingLeft: '10px' }}><b><GetHtmlStrLocalized language={language} textId="examples" /></b><br /></div>
 								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicLetterPatrisCorde" /></a><br /></div>
-								{language === "fr" && <div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}>Encyclique Fratelli Tutti</a><br /></div>}
-								{language === "fr" && <div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}>Encyclique Laudato si'</a><br /></div>}
+								{language === "fr" && <div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicalFratelliTutti" /></a><br /></div>}
+								{language === "fr" && <div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicalLaudatoSi" /></a><br /></div>}
 							</div>
 						</td>
 					</tr>

@@ -30,7 +30,8 @@ const TranslationsEn = {
     "bible": "Bible",
     "catechismOfTheCatholicChurch": "Catechism of the Catholic Church",
     "textsOfThePope": "Texts of the pope",
-    "theSocialDoctrineOfTheChurchUrl": "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
+    "theSocialDoctrineOfTheChurchUrl": "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html",
+    "readings": "Readings"
 };
 
 const TranslationsFr = {
@@ -64,7 +65,8 @@ const TranslationsFr = {
     "bible": "Bible",
     "catechismOfTheCatholicChurch": "Catéchisme de l'Église catholique",
     "textsOfThePope": "Textes du pape",
-    "theSocialDoctrineOfTheChurchUrl": "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.html"
+    "theSocialDoctrineOfTheChurchUrl": "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_fr.html",
+    "readings": "Lectures"
 };
 
 
