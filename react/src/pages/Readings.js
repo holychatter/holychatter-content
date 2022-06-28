@@ -8,9 +8,9 @@ import GetHtmlStrLocalized from "../datas/GetHtmlStrLocalized"
 function Readings({ language, setLanguage }) {
 
 
-	function YoutubePlayer({ videoId }) {
-		return <iframe className="hc-big-button-normal-height hc-big-button-normal-width hc-small-margin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0"
-			src={"https://www.youtube.com/embed/" + videoId + "?rel=0"} align="top" style={{ marginLeft: '50px' }}></iframe>
+	function SmallYoutubePlayer({ videoId }) {
+		return <iframe className="hc-big-button-normal-height hc-big-button-normal-width hc-small-margin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen frameBorder="0"
+			src={"https://www.youtube.com/embed/" + videoId + "?rel=0"} title={"Video  " + videoId} align="top" style={{ marginLeft: '50px' }}></iframe>
 	}
 	const biblePath = "/" + language + "/" + GetStrLocalized(language, "readingsFolderName") + "/" + GetStrLocalized(language, "bibleFolderName")
 	const cccPath = "/" + language + "/" + GetStrLocalized(language, "readingsFolderName") + "/" + GetStrLocalized(language, "catechismOfTheCatholicChurchFolderName")
@@ -30,13 +30,13 @@ function Readings({ language, setLanguage }) {
 							<BigButtonWithTextABottom link={biblePath} image="/buttons/bible.jpg" duration="" title={GetStrLocalized(language, "bible")} tags="" sourceImage="" sourceName="" beginOfClassName="hc-big-button-normal" />
 						</td>
 						<td style={{ width: '33%', paddingLeft: '15px', paddingRight: '15px' }}>
-							<YoutubePlayer videoId={language === "fr" ? "pYYIYRhlVoI" : "ak06MSETeo4"} />
+							<SmallYoutubePlayer videoId={language === "fr" ? "pYYIYRhlVoI" : "ak06MSETeo4"} />
 						</td>
 						<td style={{ width: '34%', paddingLeft: '15px', paddingRight: '5px' }}>
 							<div className="hc-long-screen hc-content-text">
 								<div className='hc-small-margin' style={{ paddingTop: '10px', paddingLeft: '10px' }}><b><GetHtmlStrLocalized language={language} textId="plan" /></b><br /></div>
-								<div class='hc-small-margin' style={{ paddingTop: '5px', paddingLeft: '10px' }}><a href={biblePath + "/" + GetStrLocalized(language, "oldTestamentFolderName")}>1) <GetHtmlStrLocalized language={language} textId="oldTestament" /></a><br /></div>
-								<div class='hc-small-margin' style={{ paddingTop: '5px', paddingLeft: '10px' }}><a href={biblePath + "/" + GetStrLocalized(language, "newTestamentFolderName")}>2) <GetHtmlStrLocalized language={language} textId="newTestament" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingTop: '5px', paddingLeft: '10px' }}><a href={biblePath + "/" + GetStrLocalized(language, "oldTestamentFolderName")}>1) <GetHtmlStrLocalized language={language} textId="oldTestament" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingTop: '5px', paddingLeft: '10px' }}><a href={biblePath + "/" + GetStrLocalized(language, "newTestamentFolderName")}>2) <GetHtmlStrLocalized language={language} textId="newTestament" /></a><br /></div>
 							</div>
 						</td>
 					</tr>
@@ -46,16 +46,16 @@ function Readings({ language, setLanguage }) {
 							<BigButtonWithTextABottom link={cccPath} image="/buttons/rosace.jpg" duration="" title={GetStrLocalized(language, "catechismOfTheCatholicChurch")} tags="" sourceImage="" sourceName="" beginOfClassName="hc-big-button-normal" />
 						</td>
 						<td style={{ width: '33%', paddingLeft: '15px', paddingRight: '15px' }}>
-							<YoutubePlayer videoId={language === "fr" ? "65XIj6HiVag" : "MhScAGLQBEU"} />
+							<SmallYoutubePlayer videoId={language === "fr" ? "65XIj6HiVag" : "MhScAGLQBEU"} />
 						</td>
 						<td style={{ width: '34%', paddingLeft: '15px', paddingRight: '5px' }}>
 							<div className="hc-long-screen hc-content-text">
 								<div className='hc-small-margin' style={{ paddingTop: '10px', paddingLeft: '10px' }}><b><GetHtmlStrLocalized language={language} textId="plan" /></b><br /></div>
-								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "prologueFolderName")}>1) <GetHtmlStrLocalized language={language} textId="prologue" /></a><br /></div>
-								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "theProfessionOfFaithFolderName")}>2) <GetHtmlStrLocalized language={language} textId="theProfessionOfFaith" /></a><br /></div>
-								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "theCelebrationOfChristianMisteryFolderName")}>3) <GetHtmlStrLocalized language={language} textId="theCelebrationOfChristianMistery" /></a><br /></div>
-								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "lifeInChristFolderName")}>4) <GetHtmlStrLocalized language={language} textId="lifeInChrist" /></a><br /></div>
-								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "christianPrayerFolderName")}>5) <GetHtmlStrLocalized language={language} textId="christianPrayer" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "prologueFolderName")}>1) <GetHtmlStrLocalized language={language} textId="prologue" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "theProfessionOfFaithFolderName")}>2) <GetHtmlStrLocalized language={language} textId="theProfessionOfFaith" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "theCelebrationOfChristianMisteryFolderName")}>3) <GetHtmlStrLocalized language={language} textId="theCelebrationOfChristianMistery" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "lifeInChristFolderName")}>4) <GetHtmlStrLocalized language={language} textId="lifeInChrist" /></a><br /></div>
+								<div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={cccPath + "/" + GetStrLocalized(language, "christianPrayerFolderName")}>5) <GetHtmlStrLocalized language={language} textId="christianPrayer" /></a><br /></div>
 							</div>
 						</td>
 					</tr>
@@ -66,14 +66,14 @@ function Readings({ language, setLanguage }) {
 							<BigButtonWithTextABottom link={textsOfThePopePath} image="/buttons/pope_writing.jpg" duration="" title={GetStrLocalized(language, "textsOfThePope")} tags="" sourceImage="" sourceName="" beginOfClassName="hc-big-button-normal" />
 						</td>
 						<td style={{ width: '33%', paddingLeft: '15px', paddingRight: '15px' }}>
-							{language === "fr" && <YoutubePlayer videoId="QQEbU_VLAhs" />}
+							{language === "fr" && <SmallYoutubePlayer videoId="QQEbU_VLAhs" />}
 						</td>
 						<td style={{ width: '34%', paddingLeft: '15px', paddingRight: '5px' }}>
 							<div className="hc-long-screen hc-content-text">
 								<div className='hc-small-margin' style={{ paddingTop: '10px', paddingLeft: '10px' }}><b><GetHtmlStrLocalized language={language} textId="examples" /></b><br /></div>
-								<div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicLetterPatrisCorde" /></a><br /></div>
-								{language === "fr" && <div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicalFratelliTutti" /></a><br /></div>}
-								{language === "fr" && <div class='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicalLaudatoSi" /></a><br /></div>}
+								<div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicLetterPatrisCorde" /></a><br /></div>
+								{language === "fr" && <div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicalFratelliTutti" /></a><br /></div>}
+								{language === "fr" && <div className='hc-small-margin' style={{ paddingLeft: '10px' }}><a href={textsOfThePopePath}><GetHtmlStrLocalized language={language} textId="encyclicalLaudatoSi" /></a><br /></div>}
 							</div>
 						</td>
 					</tr>

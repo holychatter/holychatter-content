@@ -54,7 +54,7 @@ function Source({ language, setLanguage, backendUrl }) {
 						<tr>
 							<td className="hc-message-viewer-width">
 								<br />
-								<div style={{ textAlign: 'center', paddingTop: '10px' }}><img src={request.iconPath} height="150" width="150" /></div>
+								<div style={{ textAlign: 'center', paddingTop: '10px' }}><img src={request.iconPath} alt="Icon" height="150" width="150" /></div>
 								<br /><br /><br />
 								<div className="hc-content-text" style={{ paddingLeft: '30px', paddingRight: '15px', paddingBottom: '15px' }}>{request.description}</div>
 								<br />

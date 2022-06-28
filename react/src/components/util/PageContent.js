@@ -3,7 +3,7 @@ import HCNavBar from '../HCNavBar'
 import ScrollToTop from './ScrollToTop'
 
 
-function PageContent({ language, setLanguage, title, children }) {
+function PageContent({ language, setLanguage, children }) {
 
     return (
         <React.Fragment>
