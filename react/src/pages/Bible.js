@@ -1,4 +1,4 @@
-import '../assets/resources/custom/style/sources-0.css'
+import '../assets/resources/custom/style/chapters.css'
 import React, { useState } from "react"
 import GetStrLocalized from '../datas/GetStrLocalized'
 import H1TitleBreadcrumb from '../components/title/H1TitleBreadcrumb'
@@ -6,6 +6,9 @@ import PageContent from '../components/util/PageContent'
 import BigButtonWithTextABottom from "../components/bigButton/BigButtonWithTextABottom"
 import YouTubePlayer from '../components/YouTubePlayer'
 import { useLocation } from 'react-router-dom'
+import Categories from '../components/bigButton/Categories'
+import Chapters from '../components/bigButton/Chapters'
+import ReadingContent from '../components/util/ReadingContent'
 
 
 function Bible({ language, setLanguage, backendUrl }) {
@@ -13,16 +16,16 @@ function Bible({ language, setLanguage, backendUrl }) {
 	const location = useLocation();
 	const [lastPath, setLastPath] = useState("")
 
-	const TypeOfPage_BIBLE = 0
-	const TypeOfPage_OLD_TESTAMENT = 1
-	const TypeOfPage_NEW_TESTAMENT = 2
-	const TypeOfPage_STYLE_OF_BOOKS = 3
-	const [typeOfPage, setTypeOfPage] = useState(TypeOfPage_BIBLE)
+	const TypeOfRequest_NONE = 0
+	const TypeOfRequest_OLD_TESTAMENT = 1
+	const TypeOfRequest_NEW_TESTAMENT = 2
+	const TypeOfRequest_BIBLE_CONTENT = 3
+	const [typeOfPage, setTypeOfPage] = useState(TypeOfRequest_NONE)
 
 	const [parentFolders, setParentFolders] = useState([])
 
 	const [testamentRequest, setTestamentRequest] = useState({ categories: [] })
-	const [categoriesRequest, setCategoriesRequest] = useState({ testament: "", testament_url: "" })
+	const [contentRequest, setContentRequest] = useState({ breadcrumb: [], title: "", typeOfPage: "", categories: [], content: [] })
 
 
 	const readingPartOfBreadcrumb = {
@@ -37,29 +40,28 @@ function Bible({ language, setLanguage, backendUrl }) {
 	if (location.pathname !== lastPath) {
 		setLastPath(location.pathname);
 		const foldersArray = location.pathname.split('/');
-		var typeOfPageLocal = TypeOfPage_BIBLE
+		var typeOfPageLocal = TypeOfRequest_NONE
 		let bibleSubFolder = ""
 		if (foldersArray.length > 4) {
 			bibleSubFolder = foldersArray[4]
 			if (bibleSubFolder === GetStrLocalized(language, "oldTestamentFolderName")) {
-				typeOfPageLocal = TypeOfPage_OLD_TESTAMENT
+				typeOfPageLocal = TypeOfRequest_OLD_TESTAMENT
 			} else if (bibleSubFolder === GetStrLocalized(language, "newTestamentFolderName")) {
-				typeOfPageLocal = TypeOfPage_NEW_TESTAMENT
+				typeOfPageLocal = TypeOfRequest_NEW_TESTAMENT
 			} else {
-				typeOfPageLocal = TypeOfPage_STYLE_OF_BOOKS
+				typeOfPageLocal = TypeOfRequest_BIBLE_CONTENT
 			}
 		}
 
-
 		setTypeOfPage(typeOfPageLocal)
-		if (typeOfPageLocal === TypeOfPage_OLD_TESTAMENT ||
-			typeOfPageLocal === TypeOfPage_NEW_TESTAMENT) {
+		if (typeOfPageLocal === TypeOfRequest_OLD_TESTAMENT ||
+			typeOfPageLocal === TypeOfRequest_NEW_TESTAMENT) {
 			setParentFolders([
 				readingPartOfBreadcrumb,
 				biblePartOfBreadcrumb
 			])
 			const wtUrl = backendUrl + "/testament_to_categories_json?l=" + language + "&tt=" +
-				(typeOfPageLocal === TypeOfPage_OLD_TESTAMENT ? "o" : "n");
+				(typeOfPageLocal === TypeOfRequest_OLD_TESTAMENT ? "o" : "n");
 			console.log("Request url: " + wtUrl);
 			const getBackendTestamentWithFetch = async () => {
 				const response = await fetch(wtUrl);
@@ -67,19 +69,17 @@ function Bible({ language, setLanguage, backendUrl }) {
 				setTestamentRequest(jsonData);
 			};
 			getBackendTestamentWithFetch();
-		} else if (typeOfPageLocal === TypeOfPage_STYLE_OF_BOOKS) {
-			const wtUrl = backendUrl + "/categories_to_bible_books_json?l=" + language + "&c=" + bibleSubFolder;
+		} else if (typeOfPageLocal === TypeOfRequest_BIBLE_CONTENT) {
+			const wtUrl = backendUrl + "/bible_content_json?l=" + language + "&ref=" + bibleSubFolder;
 			console.log("Request url: " + wtUrl);
 			const getBackendCategoriesWithFetch = async () => {
 				const response = await fetch(wtUrl);
 				const jsonData = await response.json();
-				setCategoriesRequest(jsonData);
+				setContentRequest(jsonData);
 				setParentFolders([
 					readingPartOfBreadcrumb,
-					biblePartOfBreadcrumb, {
-						path: GetStrLocalized(language, "readingsFolderName") + "/" + jsonData.testament_url,
-						name: jsonData.testament
-					}
+					biblePartOfBreadcrumb,
+					...jsonData.breadcrumb
 				])
 			};
 			getBackendCategoriesWithFetch();
@@ -92,7 +92,7 @@ function Bible({ language, setLanguage, backendUrl }) {
 		<PageContent language={language} setLanguage={setLanguage}>
 
 			{
-				typeOfPage === TypeOfPage_BIBLE &&
+				typeOfPage === TypeOfRequest_NONE &&
 				<React.Fragment>
 					<H1TitleBreadcrumb language={language} parentFolders={parentFolders}>{GetStrLocalized(language, "bible")}</H1TitleBreadcrumb>
 					<br /><br />
@@ -119,35 +119,36 @@ function Bible({ language, setLanguage, backendUrl }) {
 			}
 
 			{
-				(typeOfPage === TypeOfPage_OLD_TESTAMENT || typeOfPage === TypeOfPage_NEW_TESTAMENT) &&
+				(typeOfPage === TypeOfRequest_OLD_TESTAMENT || typeOfPage === TypeOfRequest_NEW_TESTAMENT) &&
 				<React.Fragment>
-					<H1TitleBreadcrumb language={language} parentFolders={parentFolders}>{GetStrLocalized(language, typeOfPage === TypeOfPage_OLD_TESTAMENT ? "oldTestament" : "newTestament")}</H1TitleBreadcrumb>
+					<H1TitleBreadcrumb language={language} parentFolders={parentFolders}>{GetStrLocalized(language, typeOfPage === TypeOfRequest_OLD_TESTAMENT ? "oldTestament" : "newTestament")}</H1TitleBreadcrumb>
 					<br /><br />
 
-					<div className="hc-categories-left-margin">
-						{
-							testamentRequest.categories !== "" &&
-							testamentRequest.categories.length > 0 &&
-							<React.Fragment>
-								{
-									testamentRequest.categories.map((item, index) => {
-										return (
-											<BigButtonWithTextABottom key={"testament-btn-" + index} link={item.url} image={item.image} duration="" title={item.name} tags="" sourceImage="" sourceName="" beginOfClassName="hc-big-button-normal" />
-										)
-									})
-								}
-							</React.Fragment>
-						}
-					</div>
+					<Categories categories={testamentRequest.categories} />
 				</React.Fragment>
 			}
 
 
 			{
-				typeOfPage === TypeOfPage_STYLE_OF_BOOKS &&
+				typeOfPage === TypeOfRequest_BIBLE_CONTENT &&
 				<React.Fragment>
-					<H1TitleBreadcrumb language={language} parentFolders={parentFolders}>{GetStrLocalized(language, typeOfPage === TypeOfPage_OLD_TESTAMENT ? "oldTestament" : "newTestament")}</H1TitleBreadcrumb>
+					<H1TitleBreadcrumb language={language} parentFolders={parentFolders}>{contentRequest.title}</H1TitleBreadcrumb>
 					<br /><br />
+
+					{contentRequest.typeOfPage === "book" ?
+						<Chapters chapters={contentRequest.categories} />
+						:
+						<Categories categories={contentRequest.categories} />
+					}
+
+					{contentRequest.typeOfPage === "chapter" &&
+						<React.Fragment>
+							<br />
+							<div style={{ marginLeft: 40 }}>
+								<ReadingContent language={language} type="bible" content={contentRequest.content} />
+							</div>
+						</React.Fragment>
+					}
 
 				</React.Fragment>
 			}
