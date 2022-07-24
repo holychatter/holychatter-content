@@ -1170,25 +1170,44 @@
             <tag id="Bible"/>
           </tags>
         </message>
-        <message name="Ecclésiaste - Synthèse" id="ecclesiaste-synthese" nb="4">
-          <tests>
-            <test input="Fais-moi un résumé du livre d&apos;Ecclésiaste !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VURWsXy1nww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Qo 1-12&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ecclesiaste-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
-          </tests>
-          <triggers>
-            <trigger value="Fais-moi un résumé du livre d&apos;Ecclésiaste !"/>
-          </triggers>
-          <references>
-            <bible book="Eccl" chapter="1" chapterEnd="12"/>
-          </references>
-          <sourceId>bibleproject</sourceId>
-          <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VURWsXy1nww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
-          <duration minutes="8" seconds="1"/>
-          <viewCount>17978</viewCount>
-          <uploadDate year="2019" month="6" day="13"/>
-          <tags>
-            <tag id="Bible"/>
-          </tags>
-        </message>
+        <folder name="Ecclésiaste" id="ecclesiaste" nb="4">
+          <message name="Commentaire - 18e dimanche ordinaire C - 1re lecture - Qo 1,2 ;  2,21-23" id="commentaire-18e-dimanche-ordinaire-c-1re-lecture-qo-12-221-23" nb="102">
+            <references>
+              <bible book="Eccl" chapter="1" verseBegin="2"/>
+              <bible book="Eccl" chapter="2" verseBegin="21" verseEnd="23"/>
+              <bible book="Eccl" chapter="2" verseBegin="18" verseEnd="19" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="103" verseBegin="15" verseEnd="16" linkFromCorpus="no"/>
+              <bible book="Eccl" chapter="9" verseBegin="1" linkFromCorpus="no"/>
+              <bible book="Eccl" chapter="2" verseBegin="26" linkFromCorpus="no"/>
+              <bible book="Eccl" chapter="8" verseBegin="5" linkFromCorpus="no"/>
+              <bible book="Eccl" chapter="3" verseBegin="13" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/igeAcERkP6Q?rel=0&amp;start=64&amp;end=433&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="6" seconds="9"/>
+            <viewCount>1372</viewCount>
+            <uploadDate year="2016" month="7" day="25"/>
+          </message>
+          <message name="Ecclésiaste - Synthèse" id="ecclesiaste-synthese" nb="0">
+            <tests>
+              <test input="Fais-moi un résumé du livre d&apos;Ecclésiaste !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VURWsXy1nww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Qo 1-12&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;ecclesiaste-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
+            </tests>
+            <triggers>
+              <trigger value="Fais-moi un résumé du livre d&apos;Ecclésiaste !"/>
+            </triggers>
+            <references>
+              <bible book="Eccl" chapter="1" chapterEnd="12"/>
+            </references>
+            <sourceId>bibleproject</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VURWsXy1nww?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="8" seconds="1"/>
+            <viewCount>28410</viewCount>
+            <uploadDate year="2019" month="6" day="13"/>
+            <tags>
+              <tag id="Bible"/>
+            </tags>
+          </message>
+        </folder>
         <message name="Job - Synthèse" id="job-synthese" nb="1">
           <tests>
             <test input="Fais-moi un résumé du livre de Job !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xRQ5ctHjhBs?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Jb 1-42&quot; textlength=&quot;7&quot; /&gt;&lt;hc_source name=&quot;BibleProject&quot; resourceid=&quot;job-synthese&quot; textlength=&quot;12&quot; /&gt;"/>
@@ -1367,6 +1386,24 @@
             <duration minutes="5" seconds="48"/>
             <viewCount>1188</viewCount>
             <uploadDate year="2016" month="7" day="19"/>
+          </message>
+          <message name="Commentaire - 18e dimanche ordinaire C - Psaume - Ps 89, 3-4. 5-6. 12-13. 14-17" id="commentaire-18e-dimanche-ordinaire-c-psaume-ps-89-3-4-5-6-12-13-14-17" nb="8903">
+            <references>
+              <bible book="Ps" chapter="89" verseBegin="3" verseEnd="6"/>
+              <bible book="Ps" chapter="89" verseBegin="12" verseEnd="14"/>
+              <bible book="Ps" chapter="89" verseBegin="17"/>
+              <bible book="Eccl" chapter="1" verseBegin="2" linkFromCorpus="no"/>
+              <bible book="Eccl" chapter="2" verseBegin="21" verseEnd="23" linkFromCorpus="no"/>
+              <bible book="Gen" chapter="2" chapterEnd="3" linkFromCorpus="no"/>
+              <bible book="Wis" chapter="9" verseBegin="1" verseEnd="6" linkFromCorpus="no"/>
+              <bible book="Ps" chapter="90" verseBegin="1" linkFromCorpus="no"/>
+              <bible book="Deut" chapter="9" verseBegin="7" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/70u2Vpx5WcA?rel=0&amp;start=69&amp;end=417&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="48"/>
+            <viewCount>1088</viewCount>
+            <uploadDate year="2016" month="7" day="26"/>
           </message>
           <message name="Commentaire - 1er dimanche de Carême C - Psaume - Ps 90, 1-2, 10-11, 12-13, 14-15" id="commentaire-1er-dimanche-de-careme-c-psaume-ps-90-1-2-10-11-12-13-14-15" nb="9001">
             <references>
@@ -4449,6 +4486,18 @@
             <viewCount>1094</viewCount>
             <uploadDate year="2016" month="7" day="20"/>
           </message>
+          <message name="Commentaire - 18e dimanche ordinaire C - 2e lecture - Col 3, 1-5. 9-11" id="commentaire-18e-dimanche-ordinaire-c-2e-lecture-col-3-1-5-9-11" nb="301">
+            <references>
+              <bible book="Col" chapter="3" verseBegin="1" verseEnd="5"/>
+              <bible book="Col" chapter="3" verseBegin="9" verseEnd="11"/>
+              <bible book="Gal" chapter="3" verseBegin="26" verseEnd="28" linkFromCorpus="no"/>
+            </references>
+            <sourceId>en-marche-vers-dimanche</sourceId>
+            <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-QmbanNl51w?rel=0&amp;start=89&amp;end=410&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+            <duration minutes="5" seconds="21"/>
+            <viewCount>1012</viewCount>
+            <uploadDate year="2016" month="7" day="27"/>
+          </message>
           <message name="Commentaire - Dimanche de Pâques (Année C) - 2e lecture - Col 3, 1-4 (Tiré de l&apos;intégrale)" id="commentaire-dimanche-de-paques-annee-c-2e-lecture-col-3-1-4-tire-de-l-integrale" nb="301">
             <references>
               <bible book="Col" chapter="3" verseBegin="1" verseEnd="4"/>
@@ -6879,6 +6928,22 @@ ci-dessous</text>
               <duration minutes="4" seconds="58"/>
               <viewCount>1631</viewCount>
               <uploadDate year="2016" month="7" day="21"/>
+            </message>
+            <message name="Commentaire - 18e dimanche ordinaire C - Evangile - Lc 12, 13-21" id="commentaire-18e-dimanche-ordinaire-c-evangile-lc-12-13-21" nb="1213">
+              <references>
+                <bible book="Lk" chapter="12" verseBegin="13" verseEnd="21"/>
+                <bible book="Lk" chapter="12" verseBegin="22" verseEnd="23" linkFromCorpus="no"/>
+                <bible book="Sir" chapter="11" verseBegin="18" verseEnd="19" linkFromCorpus="no"/>
+                <bible book="Job" chapter="1" verseBegin="21" linkFromCorpus="no"/>
+                <bible book="Is" chapter="22" verseBegin="13" linkFromCorpus="no"/>
+                <bible book="Jn" chapter="2" verseBegin="4" linkFromCorpus="no"/>
+                <bible book="Mt" chapter="16" verseBegin="23" linkFromCorpus="no"/>
+              </references>
+              <sourceId>en-marche-vers-dimanche</sourceId>
+              <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cjEQgOUo5pM?rel=0&amp;start=88&amp;end=397&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
+              <duration minutes="5" seconds="9"/>
+              <viewCount>1469</viewCount>
+              <uploadDate year="2016" month="7" day="28"/>
             </message>
             <message name="Commentaire - 1er dimanche de Carême C - Evangile - Lc 4, 1-13" id="commentaire-1er-dimanche-de-careme-c-evangile-lc-4-1-13" nb="401">
               <references>
