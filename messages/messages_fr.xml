@@ -6063,7 +6063,7 @@ ci-dessous</text>
               <folder name="Chatbot" id="chatbot-le-levain" isHidden="true">
                 <message name="Lire la parabole du levain" id="lire-la-parabole-du-levain">
                   <tests>
-                    <test input="Lire la parabole du levain." output="Tu peux lire la parabole du levain grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 13, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-levain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 13, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Godly Play Foundation&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;21&quot; /&gt;"/>
+                    <test input="Lire la parabole du levain." output="Tu peux lire la parabole du levain grâce aux versets de la Bible ci-dessous.|otherAnswer-&gt;|\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 13, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Bible&quot; resourceid=&quot;lire-la-parabole-du-levain&quot; textlength=&quot;5&quot; /&gt;|otherAnswer-&gt;|&lt;hc_bible ref=&quot;Mt 13, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Godly Play&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;10&quot; /&gt;"/>
                   </tests>
                   <triggers>
                     <trigger value="Lire la parabole du levain."/>
@@ -6080,7 +6080,7 @@ ci-dessous</text>
               </folder>
               <message name="La parabole du levain" id="la-parabole-du-levain">
                 <tests>
-                  <test input="Montrez-moi la parabole du levain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 13, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Godly Play Foundation&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;21&quot; /&gt;"/>
+                  <test input="Montrez-moi la parabole du levain." output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_bible ref=&quot;Mt 13, 33&quot; textlength=&quot;9&quot; /&gt;&lt;hc_source name=&quot;Godly Play&quot; resourceid=&quot;la-parabole-du-levain&quot; textlength=&quot;10&quot; /&gt;"/>
                 </tests>
                 <triggers>
                   <trigger value="Montrez-moi la parabole du levain."/>
@@ -6089,7 +6089,7 @@ ci-dessous</text>
                 <references>
                   <bible book="Mt" chapter="13" verseBegin="33"/>
                 </references>
-                <sourceId>godly-play-foundation</sourceId>
+                <sourceId>godly-play</sourceId>
                 <text fileType="html">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xUhIs93r7Ug?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</text>
                 <duration minutes="4" seconds="38"/>
                 <viewCount>387</viewCount>
@@ -6162,7 +6162,7 @@ ci-dessous</text>
                 <tests>
                   <test input="Montrez-moi la parabole du riche insensé." output="(	\hc_resource_html=#fr_FR#&lt;video controls&gt;
 
-    &lt;source             type=&quot;video/mp4&quot; src=&quot;/resources/holychatter/videos/la_parabole_du_riche_insensé.mp4&quot;&gt;
+    &lt;source             type=&quot;video/mp4&quot; src=&quot;/videos/la_parabole_du_riche_insensé.mp4&quot;&gt;
 
     Sorry, your browser doesn&apos;t support embedded videos.
 &lt;/video&gt;\	THEN	
@@ -15769,7 +15769,7 @@ Amen.&quot;</text>
           </message>
           <message name="L&apos;Exultet : LE chant de Pâques" id="l-exultet-le-chant-de-paques">
             <tests>
-              <test input="Je veux écouter l&apos;Exultet !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h-D6udbbtHE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;l-exultet-le-chant-de-paques-je-repete&quot; textlength=&quot;18&quot; /&gt;"/>
+              <test input="Je veux écouter l&apos;Exultet !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/h-D6udbbtHE?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;l-exultet-le-chant-de-paques&quot; textlength=&quot;18&quot; /&gt;"/>
             </tests>
             <triggers>
               <trigger value="Je veux écouter l&apos;Exultet !"/>
@@ -17155,21 +17155,21 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           <tests>
             <test input="Quand il y aura-t-il enfin des femmes prêtres ?" output="\hc_resource_html=#fr_FR#&lt;video controls&gt;
 
-    &lt;source             type=&quot;video/mp4&quot; src=&quot;/resources/holychatter/videos/femme_pretre_cest_pour_quand.mp4&quot;&gt;
+    &lt;source             type=&quot;video/mp4&quot; src=&quot;/videos/femme_pretre_cest_pour_quand.mp4&quot;&gt;
 
     Sorry, your browser doesn&apos;t support embedded videos.
 &lt;/video&gt;\	 
 " outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;femmes-pretres-c-est-pour-quand-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
             <test input="L&apos;Eglise est misogyne." output="\hc_resource_html=#fr_FR#&lt;video controls&gt;
 
-    &lt;source             type=&quot;video/mp4&quot; src=&quot;/resources/holychatter/videos/femme_pretre_cest_pour_quand.mp4&quot;&gt;
+    &lt;source             type=&quot;video/mp4&quot; src=&quot;/videos/femme_pretre_cest_pour_quand.mp4&quot;&gt;
 
     Sorry, your browser doesn&apos;t support embedded videos.
 &lt;/video&gt;\	 
 " outputReferences="&lt;hc_source name=&quot;Padreblog&quot; resourceid=&quot;femmes-pretres-c-est-pour-quand-abbe-amar&quot; textlength=&quot;9&quot; /&gt;"/>
             <test input="Les femmes n&apos;ont pas d&apos;âme." output="\hc_resource_html=#fr_FR#&lt;video controls&gt;
 
-    &lt;source             type=&quot;video/mp4&quot; src=&quot;/resources/holychatter/videos/femme_pretre_cest_pour_quand.mp4&quot;&gt;
+    &lt;source             type=&quot;video/mp4&quot; src=&quot;/videos/femme_pretre_cest_pour_quand.mp4&quot;&gt;
 
     Sorry, your browser doesn&apos;t support embedded videos.
 &lt;/video&gt;\	 
@@ -20035,7 +20035,7 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
       </folder>
       <message name="dire Inch&apos;Allah quand on est chrétien...? possible ou pas ?" id="dire-inch-allah-quand-on-est-chretien-possible-ou-pas">
         <tests>
-          <test input="Un chrétien peut-il dire Inch&apos;Allah ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;360&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CwHDs8UDWJ4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;dire-inch-allah-quand-on-est-chretien-possible-ou-pas&quot; textlength=&quot;18&quot; /&gt;"/>
+          <test input="Un chrétien peut-il dire Inch&apos;Allah ?" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/CwHDs8UDWJ4?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;frère Paul Adrien&quot; resourceid=&quot;dire-inch-allah-quand-on-est-chretien-possible-ou-pas&quot; textlength=&quot;18&quot; /&gt;"/>
         </tests>
         <triggers>
           <trigger value="Un chrétien peut-il dire Inch&apos;Allah ?"/>
@@ -23000,9 +23000,9 @@ c’est la charité.</text>
         <tests>
           <test input="Montrez-moi une prédication sur le Sacré-Cœur !" output="(	\hc_resource_html=#fr_FR#&lt;video controls&gt;
 
-    &lt;source             type=&quot;video/webm&quot; src=&quot;/resources/holychatter/videos/Apr%C3%A8s%20la%20mort,%20la%20vie%20continue%20!%20(Vous%20allez%20%C3%AAtre%20surpris%20par%20cette%20vid%C3%A9o).webm&quot;&gt;
+    &lt;source             type=&quot;video/webm&quot; src=&quot;/videos/apres_la_mort_la_vie_continue.webm&quot;&gt;
 
-    &lt;source             type=&quot;video/mp4&quot; src=&quot;/resources/holychatter/videos/Apr%C3%A8s%20la%20mort,%20la%20vie%20continue%20!%20(Vous%20allez%20%C3%AAtre%20surpris%20par%20cette%20vid%C3%A9o).mp4&quot;&gt;
+    &lt;source             type=&quot;video/mp4&quot; src=&quot;/videos/apres_la_mort_la_vie_continue.mp4&quot;&gt;
 
     Sorry, your browser doesn&apos;t support embedded videos.
 &lt;/video&gt;\	THEN	
@@ -28843,7 +28843,7 @@ Amen.</text>
         </message>
         <message name="Hopen - Majestueux [Officiel]" id="hopen-majestueux-officiel">
           <tests>
-            <test input="Montrez-moi un chant de louange sur la majesté de Dieu !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hPEgnL7pRho?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Hopen&quot; resourceid=&quot;hopen-majestueux-version-acoustique-clip-officiel&quot; textlength=&quot;5&quot; /&gt;"/>
+            <test input="Montrez-moi un chant de louange sur la majesté de Dieu !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ryi_ATV2gKw?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Hopen&quot; resourceid=&quot;hopen-majestueux-officiel&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Montrez-moi un chant de louange sur la majesté de Dieu !"/>
@@ -28859,7 +28859,7 @@ Amen.</text>
         </message>
         <message name="Hopen - Que la louange éclate [Officiel]" id="hopen-que-la-louange-eclate-officiel">
           <tests>
-            <test input="Montrez-moi un chant de louange !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0NdlKx1y5qo?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Hopen&quot; resourceid=&quot;hopen-que-la-louange-eclate-clip-officiel&quot; textlength=&quot;5&quot; /&gt;"/>
+            <test input="Montrez-moi un chant de louange !" output="\hc_resource_html=#fr_FR#&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yfX2EHeZu1o?rel=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;\" outputReferences="&lt;hc_source name=&quot;Hopen&quot; resourceid=&quot;hopen-que-la-louange-eclate-officiel&quot; textlength=&quot;5&quot; /&gt;"/>
           </tests>
           <triggers>
             <trigger value="Montrez-moi un chant de louange !"/>
