@@ -3610,7 +3610,7 @@
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Voulez voir le résumé de la Bible en un mot ?</text>
-        <planningInfos>
+        <plannerAction>
           <preconditions>
             <notFact value="decouvrir-la-bible-en-un-mot"/>
           </preconditions>
@@ -3620,7 +3620,7 @@
           <potentialEffects>
             <fact value="decouvrir-la-bible"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
     </folder>
     <folder name="Nouveau Testament" id="nouveau-testament" nb="2" image="new_testament.jpg">
@@ -9154,11 +9154,11 @@ ci-dessous</text>
               <tags>
                 <tag id="Découverte"/>
               </tags>
-              <planningInfos>
+              <plannerAction>
                 <goalsToAdd>
                   <goalsToAdd value="divergence-évangiles-crédibilité"/>
                 </goalsToAdd>
-              </planningInfos>
+              </plannerAction>
             </message>
             <message name="Les différences sont un élément de crédibilité" id="les-differences-sont-un-element-de-credibilite" nb="4">
               <sourceId>parcours-alpha</sourceId>
@@ -9167,11 +9167,11 @@ ci-dessous</text>
               <tags>
                 <tag id="Découverte"/>
               </tags>
-              <planningInfos>
+              <plannerAction>
                 <effects>
                   <fact value="divergence-évangiles-crédibilité"/>
                 </effects>
-              </planningInfos>
+              </plannerAction>
             </message>
             <message name="Pourquoi il y a des divergences dans les évangiles ?" id="pourquoi-il-y-a-des-divergences-dans-les-evangiles" nb="2">
               <triggers>
@@ -9560,11 +9560,11 @@ La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
           <duration seconds="22"/>
           <viewCount>357</viewCount>
           <uploadDate year="2020" month="12" day="19"/>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="decouvrir-la-bible-en-un-mot"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="La bible en 3 mots" id="la-bible-en-3-mots" nb="3">
           <tests>
@@ -9784,11 +9784,11 @@ La Bible raconte notre soif de vivre et d&apos;être heureux.</text>
         <sourceId>la-defense-chatbot</sourceId>
         <text>Bonjour je suis un agent conversationnel pour La Défense.
 Pose-moi ta question et je ferai tout mon possible pour essayer d’y répondre !</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="démarrer-la-defense-chatbot"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Es-tu nouveau à La Défense ?" id="es-tu-nouveau-a-la-defense" nb="3">
         <recommendations>
@@ -9903,11 +9903,11 @@ Il y a &lt;b&gt;15&lt;/b&gt; entreprises du CAC 40 qui ont içi leur siège.
 &lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/hugging.png&quot; height=&quot;20&quot; /&gt;
 Je suis à votre disposition pour discuter de la foi chrétienne avec vous.
 Etes-vous prêt ?</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="dire-bonjour"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Bienvenue sur Holy Chatter - soirée" id="bienvenue-sur-holy-chatter-soiree">
         <recommendations>
@@ -9920,14 +9920,14 @@ Etes-vous prêt ?</text>
 &lt;b&gt;Je vous souhaite la bienvenue !&lt;/b&gt; &lt;img src=&quot;/resources/emojis/hugging.png&quot; height=&quot;20&quot; /&gt;
 Je suis à votre disposition pour discuter de la foi chrétienne avec vous.
 Etes-vous prêt ?</text>
-        <planningInfos>
+        <plannerAction>
           <preconditions>
             <fact value="moment-de-la-journee-soiree"/>
           </preconditions>
           <effects>
             <fact value="dire-bonjour"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <sourcesNotToDisplay>
         <source value="Chatbot par défault"/>
@@ -9968,11 +9968,11 @@ Etes-vous prêt ?</text>
         <text fileType="text_and_html">&lt;span&gt;&lt;img src=&apos;/upload/saint_charles_marseille.jpg&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.
 Bienvenue sur le chatbot de la paroisse de Saint-Charles à Marseille ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;
 Que voulez-vous faire ?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="dire-bonjour-marseille-saint-charles"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <folder name="Informations sur la paroisse" id="informations-sur-la-paroisse" nb="2">
         <folder name="Découvrir la paroisse" id="decouvrir-la-paroisse" nb="2">
@@ -10008,11 +10008,11 @@ Que voulez-vous savoir plus précisément ?&lt;/span&gt;</text>
             </recommendations>
             <sourceId>interne</sourceId>
             <text fileType="text_and_html">Vous pouvez trouver les horaires des messes&lt;a href=&quot;http://paroisse-saint-charles.fr/horaires/&quot; target=&quot;_blank&quot;&gt;ici&lt;/a&gt;.</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <fact value="marseille-saint-charles-horaires-des-messes"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Visiter virtuellement l&apos;église" id="visiter-virtuellement-l-eglise" nb="3">
             <recommendations>
@@ -10202,11 +10202,11 @@ Que voulez-vous savoir plus précisément ?&lt;/span&gt;</text>
         <text fileType="text_and_html">&lt;span&gt;&lt;img src=&apos;/upload/paroisse-de-puteaux.png&apos; height=&apos;105&apos; align=&apos;left&apos; style=&apos;padding-right:15px;&apos; /&gt;Bonjour je suis Théophile.
 Bienvenue sur le chatbot de la paroisse de Puteaux ! &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;
 Que voulez-vous faire ?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="dire-bonjour-puteaux"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <folder name="Décourvrir la paroisse" id="decourvrir-la-paroisse" nb="3">
         <message name="Découvrir la paroisse introduction" id="decouvrir-la-paroisse-introduction" nb="1">
@@ -10238,11 +10238,11 @@ Vous souhaitez nous rejoindre ?</text>
           <duration minutes="8" seconds="3"/>
           <viewCount>1334</viewCount>
           <uploadDate year="2020" month="9" day="20"/>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="puteaux-decouverte"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Suivez notre actualité sur les réseaux sociaux !" id="suivez-notre-actualite-sur-les-reseaux-sociaux" nb="3">
           <recommendations>
@@ -10271,11 +10271,11 @@ Vous souhaitez nous rejoindre ?</text>
         <sourceId>interne</sourceId>
         <text fileType="text_and_html">Vous pourrez trouver les horaires des messes de Puteaux ici :
 &lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/la-paroisse/horaires&lt;/a&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="puteaux-horaires-des-messes"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <folder name="Jeunesse &amp; catéchisme" id="jeunesse-catechisme" nb="5">
         <message name="Jeunesse &amp; catéchèse à Puteaux" id="jeunesse-catechese-a-puteaux">
@@ -10286,11 +10286,11 @@ Vous souhaitez nous rejoindre ?</text>
           <sourceId>interne</sourceId>
           <text fileType="text_and_html">Voici des informations relatives à la jeunesse et à la catéchèse
 &lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&quot;&gt;http://paroissedeputeaux.catholique.fr/index.php/accueil/infos-jeunesse/&lt;/a&gt;</text>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="puteaux-jeunesse"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <message name="Paroisse Puteaux menu" id="paroisse-puteaux-menu" nb="2">
@@ -10301,14 +10301,14 @@ Vous souhaitez nous rejoindre ?</text>
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Ok je suis à votre service.</text>
-        <planningInfos>
+        <plannerAction>
           <goalsToAdd>
             <goalsToAdd value="puteaux-horaires-des-messes"/>
             <goalsToAdd value="puteaux-decouverte"/>
             <goalsToAdd value="puteaux-inscription-a-un-sacrement"/>
             <goalsToAdd value="puteaux-jeunesse"/>
           </goalsToAdd>
-        </planningInfos>
+        </plannerAction>
       </message>
       <folder name="Sacrements" id="sacrements-paroisse-de-puteaux" nb="4">
         <message name="Sacrements Puteaux" id="sacrements-puteaux">
@@ -10318,11 +10318,11 @@ Vous souhaitez nous rejoindre ?</text>
           </triggers>
           <sourceId>interne</sourceId>
           <text fileType="text_and_html">Pour s&apos;inscrire aux sacrements : &lt;a href=&quot;http://paroissedeputeaux.catholique.fr/index.php/les-grandes-etapes-de-la-vie/s-inscrire-en-ligne-aux-sacrements-du-mariage-ou-du-bapteme&quot;&gt;Cliquez ici&lt;/a&gt;</text>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="puteaux-inscription-a-un-sacrement"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <sourcesNotToDisplay>
@@ -10376,11 +10376,11 @@ Vous souhaitez nous rejoindre ?</text>
         <tags>
           <tag id="Solidarité"/>
         </tags>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="démarrer-entourage-chatbot"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <sourcesNotToDisplay>
         <source value="Réseau Entourage"/>
@@ -11489,11 +11489,11 @@ Par exemple pour la guerre des Gaulles il y a 950 ans entre l&apos;action de Cé
             <sourceId>wikipedia</sourceId>
             <sourceUrl>https://fr.wikipedia.org/wiki/Critique_textuelle</sourceUrl>
             <text>Il y a une démarche qui se penche sur la question de la fiabilité de la transcription des textes au fils du temps qui s&apos;appelle la critique textuelle. C&apos;est une question qui se pose sur tous les manuscrits anciens comme sur les textes d&apos;Homère ou de Platon.</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <fact value="fiabilité-des-sources-chrétiennes"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Nombre d&apos;exemplaires" id="nombre-d-exemplaires" nb="4">
             <sourceId>parcours-alpha</sourceId>
@@ -11527,11 +11527,11 @@ Le premier étant que plus le temps entre l&apos;original et la première copie 
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="existance-historique-de-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Les sources chrétiennes" id="les-sources-chretiennes" nb="5">
           <recommendations>
@@ -11545,14 +11545,14 @@ Le premier étant que plus le temps entre l&apos;original et la première copie 
           <tags>
             <tag id="Bible"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="sources-chrétiennes-sur-jésus"/>
             </effects>
             <goalsToAdd>
               <goalsToAdd value="fiabilité-des-sources-chrétiennes"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Les sources non chrétiennes" id="les-sources-non-chretiennes" nb="2">
           <recommendations>
@@ -11564,12 +11564,12 @@ Le premier étant que plus le temps entre l&apos;original et la première copie 
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <goalsToAdd>
               <goalsToAdd value="fiabilité-des-sources-chrétiennes"/>
               <goalsToAdd value="existance-historique-de-jésus"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Les sources qui parlent de Jésus" id="les-sources-qui-parlent-de-jesus" nb="3">
           <tests>
@@ -11587,11 +11587,11 @@ Le premier étant que plus le temps entre l&apos;original et la première copie 
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <goalsToAdd>
               <goalsToAdd value="sources-chrétiennes-sur-jésus"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <folder name="Réactions" id="reactions">
           <message name="Je crois que Jésus a existé." id="je-crois-que-jesus-a-existe" nb="2">
@@ -12009,14 +12009,14 @@ Et depuis 2 000 ans rien ni personne, aucun régime ni aucune persécution n&apo
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <preconditions>
               <fact value="la-résurrection-de-jésus"/>
             </preconditions>
             <effects>
               <fact value="la-résurrection-de-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Les apparitions de Jésus à ses disciples" id="les-apparitions-de-jesus-a-ses-disciples" nb="6">
           <tests>
@@ -12054,7 +12054,7 @@ Et depuis 2 000 ans rien ni personne, aucun régime ni aucune persécution n&apo
         <message name="Voulez-vous examiner ce qu&apos;on dit sur la résurrection de Jésus ?" id="voulez-vous-examiner-ce-qu-on-dit-sur-la-resurrection-de-jesus">
           <sourceId>interne</sourceId>
           <text>Voulez-vous examiner ce qu&apos;on dit sur la résurrection de Jésus ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="ne-pas-être-chrétien"/>
               <fact value="raisons-de-croire-jésus"/>
@@ -12062,7 +12062,7 @@ Et depuis 2 000 ans rien ni personne, aucun régime ni aucune persécution n&apo
             <effects>
               <fact value="la-résurrection-de-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <message name="Le Fils est Dieu" id="le-fils-est-dieu">
@@ -12222,14 +12222,14 @@ Je voulais vous partager avec vous 5 éléments pour vous aider à vous faire vo
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <preconditions>
               <fact value="raisons-de-croire-jésus"/>
             </preconditions>
             <effects>
               <fact value="raisons-de-croire-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Les œuvres et la vie de Jésus" id="les-uvres-et-la-vie-de-jesus" nb="3">
           <tests>
@@ -12289,7 +12289,7 @@ Montrant son amour jusqu&apos;à en mourir, comme il l&apos;a dit et fait. Il no
         <message name="Voulez-vous des raisons de croire Jésus ?" id="voulez-vous-des-raisons-de-croire-jesus">
           <sourceId>interne</sourceId>
           <text>Voulez-vous des raisons de croire Jésus ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="ne-pas-être-chrétien"/>
               <fact value="portrait-de-jésus"/>
@@ -12297,7 +12297,7 @@ Montrant son amour jusqu&apos;à en mourir, comme il l&apos;a dit et fait. Il no
             <effects>
               <fact value="raisons-de-croire-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <message name="On parle du Christ, avant Jésus ?" id="on-parle-du-christ-avant-jesus">
@@ -12363,11 +12363,11 @@ On n&apos;y fait plus attention.</text>
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <goalsToAdd>
               <goalsToAdd value="ce-que-jésus-a-dit-quand-il-a-été-crucifié"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="C&apos;est très étrange de porter une croix" id="c-est-tres-etrange-de-porter-une-croix" nb="6">
           <triggers>
@@ -12395,7 +12395,7 @@ Parce que la croix en fait est un suplice épouvantable, utilisé puis abandonn�
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <preconditions>
               <fact value="raisons-de-la-mort-de-jésus"/>
             </preconditions>
@@ -12405,7 +12405,7 @@ Parce que la croix en fait est un suplice épouvantable, utilisé puis abandonn�
             <goalsToAdd>
               <goalsToAdd value="devinette-rihanna-pape-madonna"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Devinette : Rihanna, le Pape et Madonna (Bonne réponse)" id="devinette-rihanna-le-pape-et-madonna-bonne-reponse" nb="3">
           <triggers>
@@ -12418,14 +12418,14 @@ Parce que la croix en fait est un suplice épouvantable, utilisé puis abandonn�
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <preconditions>
               <fact value="devinette-rihanna-pape-madonna"/>
             </preconditions>
             <effects>
               <fact value="devinette-rihanna-pape-madonna"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Je ne sais pas quelle est la différence" id="je-ne-sais-pas-quelle-est-la-difference" nb="4">
           <tests>
@@ -12438,11 +12438,11 @@ Parce que la croix en fait est un suplice épouvantable, utilisé puis abandonn�
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="devinette-rihanna-pape-madonna"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Le logo du christianisme" id="le-logo-du-christianisme" nb="7">
           <recommendations>
@@ -12471,7 +12471,7 @@ Le &quot;logo&quot; on pourrait dire du christianisme.&lt;/span&gt;</text>
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12483,7 +12483,7 @@ Le &quot;logo&quot; on pourrait dire du christianisme.&lt;/span&gt;</text>
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="&quot;Femme, voici ton fils.&quot; et &quot;Voici ta mère.&quot; (Explication)" id="femme-voici-ton-fils-et-voici-ta-mere-explication" nb="51">
             <recommendations>
@@ -12513,7 +12513,7 @@ Il fonde l&apos;Eglise.</text>
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12525,7 +12525,7 @@ Il fonde l&apos;Eglise.</text>
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="&quot;J’ai soif.&quot; (Explication)" id="j-ai-soif-explication" nb="61">
             <sourceId>parcours-alpha</sourceId>
@@ -12583,7 +12583,7 @@ Ce psaume dès les premiers temps du Christianisme a été comme une prophétie 
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12595,7 +12595,7 @@ Ce psaume dès les premiers temps du Christianisme a été comme une prophétie 
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="&quot;Tout est accompli.&quot; (Explication)" id="tout-est-accompli-explication" nb="71">
             <recommendations>
@@ -12637,7 +12637,7 @@ Ce psaume dès les premiers temps du Christianisme a été comme une prophétie 
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12649,7 +12649,7 @@ Ce psaume dès les premiers temps du Christianisme a été comme une prophétie 
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Aujourd&apos;hui, avec moi, tu seras dans le Paradis. (Explication)" id="aujourd-hui-avec-moi-tu-seras-dans-le-paradis-explication" nb="31">
             <nextMessageId>aller-vers-dieu-comme-le-bon-larron</nextMessageId>
@@ -12835,7 +12835,7 @@ C&apos;est une parole pas très vendeuse vous ne trouvez pas ?</text>
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12847,7 +12847,7 @@ C&apos;est une parole pas très vendeuse vous ne trouvez pas ?</text>
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Où est Dieu dans l&apos;atrocité de la vie ?" id="o-est-dieu-dans-l-atrocite-de-la-vie" nb="14">
             <tests>
@@ -12887,7 +12887,7 @@ Elie Wiesel écrit :
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12899,7 +12899,7 @@ Elie Wiesel écrit :
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Père, entre tes mains je remets mon esprit. (Explication)" id="pere-entre-tes-mains-je-remets-mon-esprit-explication" nb="41">
             <sourceId>parcours-alpha</sourceId>
@@ -12925,7 +12925,7 @@ Jésus, au moment de mourir, nous donne capable de devenir fils et fille du Pèr
             <tags>
               <tag id="Découverte"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -12937,7 +12937,7 @@ Jésus, au moment de mourir, nous donne capable de devenir fils et fille du Pèr
               <potentialEffects>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Que se passe t-il dans la tête de Jésus au moment de mourir ?" id="que-se-passe-t-il-dans-la-tete-de-jesus-au-moment-de-mourir" nb="11">
             <tests>
@@ -12987,14 +12987,14 @@ On n&apos;a peut-être pas fait de péchés très grave mais on est parfois domi
             </recommendations>
             <sourceId>interne</sourceId>
             <text>Voilà on a fait le tour des paroles de Jésus en croix.</text>
-            <planningInfos>
+            <plannerAction>
               <preconditions>
                 <fact value="jésus-en-croix-fini-de-dire-toutes-les-paroles"/>
               </preconditions>
               <effects>
                 <fact value="jésus-en-croix-bilan-paroles"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <message name="Pourquoi la croix est le symbole du christianisme ?" id="pourquoi-la-croix-est-le-symbole-du-christianisme" nb="8">
@@ -13031,7 +13031,7 @@ Pour moi c&apos;est la clé de lecture de la mort de Jésus.</text>
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="ce-que-jésus-a-dit-quand-il-a-été-crucifié"/>
               <exps>
@@ -13050,7 +13050,7 @@ Pour moi c&apos;est la clé de lecture de la mort de Jésus.</text>
             <goalsToAdd>
               <goalsToAdd value="jésus-en-croix-bilan-paroles"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <folder name="Résumé de la mort de Jésus" id="resume-de-la-mort-de-jesus">
           <message name="Ce que nous apporte la mort de Jésus" id="ce-que-nous-apporte-la-mort-de-jesus" nb="3">
@@ -13127,7 +13127,7 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
         <message name="Voulez-vous examiner les raisons de la mort de Jésus ?" id="voulez-vous-examiner-les-raisons-de-la-mort-de-jesus">
           <sourceId>interne</sourceId>
           <text>Voulez-vous examiner les raisons de la mort de Jésus ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="la-résurrection-de-jésus"/>
               <fact value="ne-pas-être-chrétien"/>
@@ -13135,7 +13135,7 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
             <effects>
               <fact value="raisons-de-la-mort-de-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <message name="Pourquoi Jésus est-il venu au monde il y a 2000 ans ?" id="pourquoi-jesus-est-il-venu-au-monde-il-y-a-2000-ans">
@@ -13278,11 +13278,11 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <goalsToAdd>
               <goalsToAdd value="et-donc-que-dit-jésus"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Ce que Jésus dit à ceux qui ont faim d&apos;amour et cherchent un sens à leur vie" id="ce-que-jesus-dit-a-ceux-qui-ont-faim-d-amour-et-cherchent-un-sens-a-leur-vie" nb="3">
           <tests>
@@ -13378,11 +13378,11 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="et-donc-que-dit-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Jésus est capable de pardonner les péchés" id="jesus-est-capable-de-pardonner-les-peches" nb="8">
           <tests>
@@ -13414,11 +13414,11 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
           <sourceUrl>https://fr.wikipedia.org/wiki/Athéisme_chrétien</sourceUrl>
           <text fileType="text_in_html">C. S. Lewis l&apos;auteur des Chroniques de Narnia résume ainsi le choix que nous devons faire:
 &lt;i&gt;Un homme qui n&apos;était qu&apos;un homme et qui a dit le genre de choses que Jésus a dites ne serait pas un grand professeur de morale. Il serait soit un fou,soit il serait le diable de l&apos;enfer. Vous devez faire votre choix. Soit cet homme était et est le Fils de Dieu, soit un fou ou quelque chose de pire. Vous pouvez le considérer comme un imbécile, vous pouvez lui cracher dessus et le tuer comme un démon ou vous pouvez tomber à ses pieds et l&apos;appeler Seigneur et Dieu, mais ne venons pas avec un non-sens condescendant selon lequel il serait un grand enseignant humain. Cette possibilité n&apos;est pas ouverte.&lt;/i&gt;</text>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="jésus-est-soit-fou-soit-le-fils-de-dieu"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Portrait de Jésus" id="portrait-de-jesus" nb="1">
           <tests>
@@ -13437,7 +13437,7 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
           <tags>
             <tag id="Découverte"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <preconditions>
               <fact value="portrait-de-jésus"/>
             </preconditions>
@@ -13447,7 +13447,7 @@ Il reste suspendu pendant 6 heures dans une chaleure torride, une soif intenable
             <goalsToAdd>
               <goalsToAdd value="jésus-est-soit-fou-soit-le-fils-de-dieu"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Réaction des opposants de Jésus qand il dit être Un avec le Père" id="reaction-des-opposants-de-jesus-qand-il-dit-etre-un-avec-le-pere" nb="10">
           <tests>
@@ -13476,7 +13476,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
         <message name="Voulez-vous qu&apos;on s&apos;intéresse à la personnalité de Jésus ?" id="voulez-vous-qu-on-s-interesse-a-la-personnalite-de-jesus">
           <sourceId>interne</sourceId>
           <text>Voulez-vous qu&apos;on s&apos;intéresse à la personnalité de Jésus ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="jésus-a-existé"/>
               <fact value="ne-pas-être-chrétien"/>
@@ -13484,7 +13484,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
             <effects>
               <fact value="portrait-de-jésus"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <message name="Qui était Jésus ?" id="qui-etait-jesus">
@@ -14445,7 +14445,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
           </recommendations>
           <sourceId>interne</sourceId>
           <text>Connaissez-vous le Parcours Alpha ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="basse-priorité"/>
               <fact value="ne-pas-être-chrétien"/>
@@ -14453,7 +14453,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
             <potentialEffects>
               <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
             </potentialEffects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <folder name="Collégiens et lycéens" id="collegiens-et-lyceens" nb="2" image="young.jpg">
@@ -15085,11 +15085,11 @@ Amen.&quot;</text>
             </recommendations>
             <sourceId>interne</sourceId>
             <text>Connaissez-vous la société des missionnaires de la miséricorde divine ?</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <fact value="decouvrir-missionnaires-de-la-misericorde-divine"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <message name="Description de la Société des Missionnaires de la Miséricorde Divine" id="description-de-la-societe-des-missionnaires-de-la-misericorde-divine">
@@ -21123,14 +21123,14 @@ Célébration - La cérémonie est actuellement la même que pour un mariage sac
           <message name="Avez-vous trouvé votre vocation ?" id="avez-vous-trouve-votre-vocation" nb="1">
             <sourceId>interne</sourceId>
             <text>Avez-vous trouvé votre vocation ?</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="demander-le-jour-de-naissance"/>
               </preferInContext>
               <potentialEffects>
                 <fact value="approfondir-sa-relation-a-dieu-toujours-plus"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="C&apos;est en effet une question très importante" id="c-est-en-effet-une-question-tres-importante" nb="2">
             <triggers>
@@ -25205,11 +25205,11 @@ c’est la charité.</text>
           <message name="Savez-vous comment on est sûr d&apos;aller au paradis ?" id="savez-vous-comment-on-est-sr-d-aller-au-paradis">
             <sourceId>interne</sourceId>
             <text>Savez-vous comment on est sûr d&apos;aller au paradis ?</text>
-            <planningInfos>
+            <plannerAction>
               <potentialEffects>
                 <fact value="aller-au-ciel"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
       </folder>
@@ -25772,14 +25772,14 @@ c’est la charité.</text>
     <message name="Croyez-vous que Jésus a existé ?" id="croyez-vous-que-jesus-a-existe">
       <sourceId>interne</sourceId>
       <text>Croyez-vous que Jésus a existé ?</text>
-      <planningInfos>
+      <plannerAction>
         <preferInContext>
           <fact value="ne-pas-être-chrétien"/>
         </preferInContext>
         <effects>
           <fact value="jésus-a-existé"/>
         </effects>
-      </planningInfos>
+      </plannerAction>
     </message>
     <message name="Création du site" id="creation-du-site">
       <triggers>
@@ -25841,11 +25841,11 @@ c’est la charité.</text>
       <message name="Plannifier et sortir du chatbot spécifique" id="plannifier-et-sortir-du-chatbot-specifique">
         <sourceId>interne</sourceId>
         <text>%replace-by-plannification%</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="sortir-chatbot-specifique"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
     </folder>
     <folder name="Objectif" id="objectif">
@@ -25869,7 +25869,7 @@ c’est la charité.</text>
       <sourceId>interne</sourceId>
       <text>Je vais essayer de trouver des similitudes entre vous et une personne connue.
 Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et en préservant votre anonymat), si vous le voulez bien.</text>
-      <planningInfos>
+      <plannerAction>
         <preferInContext>
           <fact value="être-chrétien"/>
         </preferInContext>
@@ -25879,7 +25879,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <potentialEffects>
           <fact value="aimer-dieu-toujours-plus"/>
         </potentialEffects>
-      </planningInfos>
+      </plannerAction>
     </message>
     <message name="Quel jour êtes-vous né ?" id="quel-jour-etes-vous-ne">
       <sourceId>interne</sourceId>
@@ -25897,7 +25897,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt; [`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel livre de la Bible raconte la « Création » ?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -25909,7 +25909,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <folder name="Albi carême" id="albi-careme">
         <folder name="Carême veut dire" id="careme-veut-dire" nb="1">
@@ -25920,7 +25920,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui ça veut dire le quarentième jour (avant Pâques). &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -25929,7 +25929,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse" nb="3">
             <recommendations>
@@ -25951,7 +25951,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Qu&apos;est-ce que le mot Carême veut dire ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -25966,7 +25966,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Le Carême débute" id="le-careme-debute" nb="7">
@@ -25976,7 +25976,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, le Carême débute le mercredi des cendres. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -25985,7 +25985,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-le-careme-debute" nb="3">
             <recommendations>
@@ -26006,7 +26006,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quand est-ce que le Carême débute ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26021,7 +26021,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Le Carême rappelle les 40 jours de Jésus" id="le-careme-rappelle-les-40-jours-de-jesus" nb="3">
@@ -26031,7 +26031,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, le Carême rappelle les 40 jours de Jésus au désert. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26040,7 +26040,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-le-careme-rappelle-les-40-jours-de-jesus" nb="3">
             <recommendations>
@@ -26061,7 +26061,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Où était Jésus lors des 40 jours dont on se rappelle lors du Carême ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26076,7 +26076,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Le Carême s&apos;achève à Pâques où nous fêtons" id="le-careme-s-acheve-a-paques-o-nous-fetons" nb="9">
@@ -26086,7 +26086,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, le Carême s&apos;achève à Pâques où nous fêtons la victoire du Christ sur la mort et le péché. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt; &lt;img src=&quot;/resources/emojis/cotilons.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26095,7 +26095,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-le-careme-s-acheve-a-paques-o-nous-fetons" nb="3">
             <recommendations>
@@ -26116,7 +26116,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Le Carême s&apos;achève à Pâques. Mais que fêtons à Pâques ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26131,7 +26131,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Les apôtres seront invités à annoncer l&apos;Evangile à toutes les nations" id="les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations" nb="10">
@@ -26141,7 +26141,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, les apôtres seront invités à annoncer l&apos;Evangile à toutes les nations parce que 50 jours après Pâques ils auront reçu l&apos;Esprit Saint. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26150,7 +26150,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-les-apotres-seront-invites-a-annoncer-l-evangile-a-toutes-les-nations" nb="3">
             <recommendations>
@@ -26171,7 +26171,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Pourquoi les apôtres ont-ils été invités à annoncer l&apos;Evangile à toutes les nations ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26186,7 +26186,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Pendant le Carême je partage" id="pendant-le-careme-je-partage" nb="4">
@@ -26196,7 +26196,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui toutes les réponses étaient bonnes. &lt;img src=&quot;/resources/emojis/wink.png&quot; height=&quot;20&quot; /&gt; Le Carême est un temps privilégié pour partager avec des enfants d&apos;autres pays, avec mes voisins, avec mes amis ou plus généralement avec mon prochain. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26205,7 +26205,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Question" id="question-pendant-le-careme-je-partage" nb="1">
             <recommendations>
@@ -26219,7 +26219,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Avec qui est-il bon de partager pendant le Carême ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26231,7 +26231,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Pourquoi lors de la célébration des cendres on en reçoit sur le front ?" id="pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front" nb="8">
@@ -26250,7 +26250,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </references>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, lors de la célébration des cendres on en reçoit sur le front car c&apos;est un geste de pénitence dans la Bible. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26259,7 +26259,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-pourquoi-lors-de-la-celebration-des-cendres-on-en-recoit-sur-le-front" nb="3">
             <recommendations>
@@ -26289,7 +26289,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Pourquoi lors de la célébration des cendres on en reçoit sur le front ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26304,7 +26304,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Quand vous aidez quelqu&apos;un vous devez le faire" id="quand-vous-aidez-quelqu-un-vous-devez-le-faire" nb="6">
@@ -26317,7 +26317,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </references>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, quand vous aidez quelqu&apos;un vous devez le faire en sorte que votre main gauche ignore ce que fait votre main droite. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26326,7 +26326,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-quand-vous-aidez-quelqu-un-vous-devez-le-faire" nb="3">
             <recommendations>
@@ -26350,7 +26350,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] De quelle manière doit-on aider quelqu&apos;un ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26365,7 +26365,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Quelles sont les 3 oeuvres de Carême ?" id="quelles-sont-les-3-oeuvres-de-careme" nb="2">
@@ -26377,7 +26377,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             </recommendations>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui, c&apos;est la prière, le partage et la pénitence. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26386,7 +26386,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-quelles-sont-les-3-oeuvres-de-careme" nb="3">
             <recommendations>
@@ -26409,7 +26409,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quelles sont les 3 oeuvres de Carême ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26424,14 +26424,14 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <folder name="Qui est mon prochain ?" id="qui-est-mon-prochain" nb="5">
           <message name="Bonne réponse" id="bonne-reponse-qui-est-mon-prochain" nb="2">
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_and_html">&lt;span&gt;Oui le prochain c&apos;est d&apos;abord quelqu&apos;un dans la détresse, même si cette personne dans la détresse peut être quelqu&apos;un dans ma rue, quelqu&apos;un de très proche de moi ou quelqu&apos;un que je ne connais pas. &lt;img src=&quot;/resources/emojis/smile.png&quot; height=&quot;20&quot; /&gt;&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <exps>
                   <elts>
@@ -26440,7 +26440,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                   </elts>
                 </exps>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Mauvaise réponse" id="mauvaise-reponse-qui-est-mon-prochain" nb="3">
             <sourceId>diocese-d-albi</sourceId>
@@ -26458,7 +26458,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <allowToRepeat>no</allowToRepeat>
             <sourceId>diocese-d-albi</sourceId>
             <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Qui est mon prochain ?&lt;/span&gt;</text>
-            <planningInfos>
+            <plannerAction>
               <preferInContext>
                 <fact value="temps-liturgique-careme"/>
               </preferInContext>
@@ -26473,7 +26473,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               <potentialEffects>
                 <fact value="quiz-fini-de-poser-toutes-les-questions"/>
               </potentialEffects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
       </folder>
@@ -26494,7 +26494,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <tags>
             <tag id="Louange"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="temps-liturgique-avent"/>
             </preferInContext>
@@ -26509,7 +26509,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <potentialEffects>
               <fact value="quiz-fini-de-poser-toutes-les-questions"/>
             </potentialEffects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ? (bonne réponse)" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-bonne-reponse" nb="1">
           <allowToRepeat>no</allowToRepeat>
@@ -26519,7 +26519,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <tags>
             <tag id="Louange"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <exps>
                 <elts>
@@ -26528,7 +26528,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
                 </elts>
               </exps>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Après Joseph et Marie, qui a vu l&apos;enfant Jésus en premier ? (mauvaise réponse)" id="apres-joseph-et-marie-qui-a-vu-l-enfant-jesus-en-premier-mauvaise-reponse" nb="1">
           <allowToRepeat>no</allowToRepeat>
@@ -26543,7 +26543,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
       <message name="Bilan du quiz" id="bilan-du-quiz">
         <sourceId>interne</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Vous avez fait ${quiz-nombre-de-bonnes-réponses} bonnes réponses.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <preconditions>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </preconditions>
@@ -26551,7 +26551,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
             <fact value="quiz"/>
             <notFact value="quiz-fini-de-poser-toutes-les-questions"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ?" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament" nb="6">
         <recommendations>
@@ -26564,7 +26564,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26576,13 +26576,13 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (bonne réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-bonne-reponse" nb="6">
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, il y en 4. Ce sont les Evangiles selon Mathieu, Marc, Luc et Jean.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26591,7 +26591,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Combien d&apos;Evangiles y a-t-il dans le Nouveau Testament ? (mauvaise réponse)" id="combien-d-evangiles-y-a-t-il-dans-le-nouveau-testament-mauvaise-reponse" nb="6">
         <allowToRepeat>no</allowToRepeat>
@@ -26609,7 +26609,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Combien de fois Pierre a-t-il renié Jésus ?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26621,13 +26621,13 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Combien de fois Pierre a-t-il renié Jésus ? (bonne réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-bonne-reponse" nb="7">
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, il l&apos;a renié 3 fois. (77 fois 7 fois représente l’infini de pardons à donner)&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26636,7 +26636,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Combien de fois Pierre a-t-il renié Jésus ? (mauvaise réponse)" id="combien-de-fois-pierre-a-t-il-renie-jesus-mauvaise-reponse" nb="7">
         <allowToRepeat>no</allowToRepeat>
@@ -26658,7 +26658,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <tags>
           <tag id="Bible"/>
         </tags>
-        <planningInfos>
+        <plannerAction>
           <preferInContext>
             <fact value="temps-liturgique-avent"/>
           </preferInContext>
@@ -26673,7 +26673,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Dans quelle ville est né Jésus ? (bonne réponse)" id="dans-quelle-ville-est-ne-jesus-bonne-reponse" nb="1">
         <allowToRepeat>no</allowToRepeat>
@@ -26685,7 +26685,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <tags>
           <tag id="Bible"/>
         </tags>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26694,7 +26694,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Dans quelle ville est né Jésus ? (mauvaise réponse)" id="dans-quelle-ville-est-ne-jesus-mauvaise-reponse" nb="1">
         <allowToRepeat>no</allowToRepeat>
@@ -26711,7 +26711,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui. Jésus accomplit la promesse faite par Dieu à Abraham. Il a reçu le signe de l’ancienne alliance donné à Moïse qu’est la circoncision.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26720,7 +26720,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Jésus a été circoncis ? (mauvaise réponse)" id="jesus-a-ete-circoncis-mauvaise-reponse" nb="5">
         <allowToRepeat>no</allowToRepeat>
@@ -26737,7 +26737,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Jésus a été circoncis.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26749,7 +26749,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Posez-moi des questions" id="posez-moi-des-questions">
         <tests>
@@ -26763,7 +26763,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         </recommendations>
         <sourceId>interne</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Ok, je vais vous poser 5 questions.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <notFact value="quiz"/>
             <notFact value="quiz-fini-de-poser-toutes-les-questions"/>
@@ -26784,7 +26784,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <goalsToAdd>
             <goalsToAdd value="quiz"/>
           </goalsToAdd>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ?" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu" nb="4">
         <recommendations>
@@ -26797,7 +26797,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quel est le jour où les chrétiens doivent se consacrer à Dieu ?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26809,13 +26809,13 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (bonne réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-bonne-reponse" nb="4">
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, c&apos;est dimanche. C&apos;est le vendredi pour les musulmans. Le sabbat pour les juifs commence à partir du vendredi soir.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26824,7 +26824,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Quel est le jour où les chrétiens doivent se consacrer à Dieu ? (mauvaise réponse)" id="quel-est-le-jour-o-les-chretiens-doivent-se-consacrer-a-dieu-mauvaise-reponse" nb="4">
         <allowToRepeat>no</allowToRepeat>
@@ -26835,7 +26835,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, c&apos;est la Genèse.&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26844,7 +26844,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Quel livre de la Bible raconte la « Création » ? (mauvaise réponse)" id="quel-livre-de-la-bible-raconte-la-creation-mauvaise-reponse" nb="2">
         <allowToRepeat>no</allowToRepeat>
@@ -26862,7 +26862,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <allowToRepeat>no</allowToRepeat>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;[`${quiz-nombre-de-questions}+1`/${quiz-max-nombre-de-questions}] Quels sont les deux premiers mots de la Bible ?&lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26874,7 +26874,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <potentialEffects>
             <fact value="quiz-fini-de-poser-toutes-les-questions"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Quels sont les deux premiers mots de la Bible ? (bonne réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-bonne-reponse" nb="3">
         <allowToRepeat>no</allowToRepeat>
@@ -26883,7 +26883,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         </references>
         <sourceId>diocese-de-toulouse</sourceId>
         <text fileType="text_in_html">&lt;span&gt;Oui, c&apos;est « Au commencement suivi par…« Dieu créa…&quot; « Le Verbe …  s’est fait chair et il a demeuré parmi nous : prologue de l’évangile selon St Jean. &lt;/span&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <exps>
               <elts>
@@ -26892,7 +26892,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
               </elts>
             </exps>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Quels sont les deux premiers mots de la Bible ? (mauvaise réponse)" id="quels-sont-les-deux-premiers-mots-de-la-bible-mauvaise-reponse" nb="3">
         <allowToRepeat>no</allowToRepeat>
@@ -26910,14 +26910,14 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
         <sourceId>interne</sourceId>
         <text>Voulez-vous faire un quiz pour s&apos;amuser ?</text>
-        <planningInfos>
+        <plannerAction>
           <preferInContext>
             <fact value="être-chrétien"/>
           </preferInContext>
           <potentialEffects>
             <fact value="approfondir-sa-relation-a-dieu-par-le-quiz"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
     </folder>
     <folder name="Utilisateur" id="utilisateur">
@@ -26946,7 +26946,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
     <message name="Voulez-vous voir le message chrétien ?" id="voulez-vous-voir-le-message-chretien">
       <sourceId>interne</sourceId>
       <text>Voulez-vous voir le message chrétien ?</text>
-      <planningInfos>
+      <plannerAction>
         <preferInContext>
           <fact value="basse-priorité"/>
           <fact value="basse-priorité-2"/>
@@ -26955,12 +26955,12 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
         <potentialEffects>
           <fact value="être-chrétien"/>
         </potentialEffects>
-      </planningInfos>
+      </plannerAction>
     </message>
     <message name="Êtes-vous chrétien ?" id="etes-vous-chretien">
       <sourceId>interne</sourceId>
       <text>Êtes-vous chrétien ?</text>
-      <planningInfos>
+      <plannerAction>
         <preconditions>
           <notFact value="ne-pas-être-chrétien"/>
           <notFact value="être-chrétien"/>
@@ -26969,7 +26969,7 @@ Pour cela j&apos;aurai besoin de votre jour de naissance (sans l&apos;année et 
           <fact value="ne-pas-être-chrétien"/>
           <fact value="être-chrétien"/>
         </potentialEffects>
-      </planningInfos>
+      </plannerAction>
     </message>
   </folder>
   <folder name="Humour" id="humour" nb="10" image="laugh.png">
@@ -30514,11 +30514,11 @@ La louange nous permet de nous rapprocher de lui en regardant ses merveilles dan
             <tags>
               <tag id="Bible"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <fact value="louange-qu-est-ce-que-dieu-desire"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <message name="Examples de chants de louange" id="examples-de-chants-de-louange">
@@ -30528,11 +30528,11 @@ La louange nous permet de nous rapprocher de lui en regardant ses merveilles dan
           </triggers>
           <sourceId>marie-biokou</sourceId>
           <text fileType="text_and_html">Vous pouvez trouver des chants de louange &lt;a href=&quot;https://www.youtube.com/playlist?list=PLi9d4quOzkjPsW2e4pLAYXSgxx-RSZQNL&quot;&gt;ici&lt;/a&gt;.</text>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="louange-ecouter"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <folder name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu">
           <message name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu">
@@ -30562,11 +30562,11 @@ La louange nous permet de nous rapprocher de lui en regardant ses merveilles dan
             <tags>
               <tag id="Bible"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <fact value="louange-pourquoi-louer-dieu"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
           <message name="Pourquoi louer Dieu ? (2/6)" id="pourquoi-louer-dieu-26" nb="2">
             <recommendations>
@@ -30888,13 +30888,13 @@ La louange nous permet de nous rapprocher de lui en regardant ses merveilles dan
           </references>
           <sourceId>hozana</sourceId>
           <text fileType="text_in_html">Le mot &lt;i&gt;“louange”&lt;/i&gt; vient du latin &lt;i&gt;“laus”&lt;/i&gt;, qui signifie &lt;i&gt;“éloge”&lt;/i&gt;. Louer c’est donc l’action de reconnaître les qualités et les mérites d’une personne.</text>
-          <planningInfos>
+          <plannerAction>
             <goalsToAdd>
               <goalsToAdd value="louange-pourquoi-louer-dieu"/>
               <goalsToAdd value="louange-qu-est-ce-que-dieu-desire"/>
               <goalsToAdd value="louange-ecouter"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Pourquoi louer Dieu ?" id="pourquoi-louer-dieu-comment-louer-dieu">
           <tests>
@@ -32836,14 +32836,14 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
         <message name="Connaissez-vous l&apos;application Entourage ?" id="connaissez-vous-l-application-entourage">
           <sourceId>interne</sourceId>
           <text>Connaissez-vous l&apos;application Entourage ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="demander-le-jour-de-naissance"/>
             </preferInContext>
             <potentialEffects>
               <fact value="aimer-son-prochain-toujours-plus"/>
             </potentialEffects>
-          </planningInfos>
+          </plannerAction>
         </message>
         <message name="Vous allez découvrir le premier programme pédagogique dédié à la grande exclusion ?" id="vous-allez-decouvrir-le-premier-programme-pedagogique-dedie-a-la-grande-exclusion">
           <recommendations>
@@ -32853,14 +32853,14 @@ Nous le prions, nous lui parlons et dans le silence nous l&apos;écoutons.|other
           <skipRecommendationToMessagesAlreadySaid>false</skipRecommendationToMessagesAlreadySaid>
           <sourceId>interne</sourceId>
           <text>Voulez-vous découvrir le premier programme pédagogique dédié à la grande exclusion élaboré par des professionnels du secteur, mais surtout par les personnes de la rue ?</text>
-          <planningInfos>
+          <plannerAction>
             <preferInContext>
               <fact value="demander-le-jour-de-naissance"/>
             </preferInContext>
             <potentialEffects>
               <fact value="aimer-son-prochain-toujours-plus"/>
             </potentialEffects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
       <message name="Entourage, une appli pour créer du lien avec les sans-abri !" id="entourage-une-appli-pour-creer-du-lien-avec-les-sans-abri">
@@ -33182,11 +33182,11 @@ Des vidéos, des interviews, des témoignages et un guide, voici ce que vous all
               <tags>
                 <tag id="Solidarité"/>
               </tags>
-              <planningInfos>
+              <plannerAction>
                 <effects>
                   <fact value="simple-comme-bonjour-et-si-on-agissait"/>
                 </effects>
-              </planningInfos>
+              </plannerAction>
             </message>
             <message name="SDF : et si ça se passe mal ?" id="sdf-et-si-ca-se-passe-mal" nb="5">
               <tests>
@@ -33349,11 +33349,11 @@ Des vidéos, des interviews, des témoignages et un guide, voici ce que vous all
               <tags>
                 <tag id="Solidarité"/>
               </tags>
-              <planningInfos>
+              <plannerAction>
                 <effects>
                   <fact value="simple-comme-bonjour-et-si-on-changeait-de-regard"/>
                 </effects>
-              </planningInfos>
+              </plannerAction>
             </message>
             <message name="SDF : regards croisés Gilbert &amp; Gaël" id="sdf-regards-croises-gilbert-gael" nb="6">
               <tests>
@@ -33501,11 +33501,11 @@ Des vidéos, des interviews, des témoignages et un guide, voici ce que vous all
               <tags>
                 <tag id="Solidarité"/>
               </tags>
-              <planningInfos>
+              <plannerAction>
                 <effects>
                   <fact value="simple-comme-bonjour-et-si-on-comprenait"/>
                 </effects>
-              </planningInfos>
+              </plannerAction>
             </message>
             <message name="SDF : la vie en bidonville" id="sdf-la-vie-en-bidonville" nb="3">
               <tests>
@@ -33566,7 +33566,7 @@ Des vidéos, des interviews, des témoignages et un guide, voici ce que vous all
           <tags>
             <tag id="Solidarité"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <goalsToAdd>
               <goalsToAdd value="simple-comme-bonjour-et-si-on-comprenait"/>
               <goalsToAdd value="simple-comme-bonjour-et-si-on-changeait-de-regard"/>
@@ -33574,7 +33574,7 @@ Des vidéos, des interviews, des témoignages et un guide, voici ce que vous all
               <goalsToAdd value="simple-comme-bonjour-proposer-le-livret"/>
               <goalsToAdd value="simple-comme-bonjour-passer-a-l-action"/>
             </goalsToAdd>
-          </planningInfos>
+          </plannerAction>
         </message>
         <folder name="FAQ" id="faq" nb="5">
           <folder name="Hébergement" id="hebergement">
@@ -33684,11 +33684,11 @@ L&apos;assistante sociale pourra alors faire une évaluation précise de votre s
             <tags>
               <tag id="Solidarité"/>
             </tags>
-            <planningInfos>
+            <plannerAction>
               <effects>
                 <fact value="simple-comme-bonjour-proposer-le-livret"/>
               </effects>
-            </planningInfos>
+            </plannerAction>
           </message>
         </folder>
         <message name="Prêt à passer à l&apos;action ?" id="pret-a-passer-a-l-action" nb="6">
@@ -33703,11 +33703,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
           <tags>
             <tag id="Solidarité"/>
           </tags>
-          <planningInfos>
+          <plannerAction>
             <effects>
               <fact value="simple-comme-bonjour-passer-a-l-action"/>
             </effects>
-          </planningInfos>
+          </plannerAction>
         </message>
       </folder>
     </folder>
@@ -34585,14 +34585,14 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Est-ce que vous aimez jouer ou suivre le football ?</text>
-        <planningInfos>
+        <plannerAction>
           <preconditions>
             <fact value="proposer-d-ecouter-des-temoignages"/>
           </preconditions>
           <potentialEffects>
             <fact value="ecouter-des-temoignages"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Le témoignage d&apos;une personne qui a donné sa vie à Dieu" id="le-temoignage-d-une-personne-qui-a-donne-sa-vie-a-dieu" nb="2">
         <triggers>
@@ -34627,14 +34627,14 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Oui, quel genre de témoignages ?</text>
-        <planningInfos>
+        <plannerAction>
           <preconditions>
             <fact value="proposer-d-ecouter-des-temoignages"/>
           </preconditions>
           <effects>
             <fact value="proposer-d-ecouter-des-temoignages"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Propostion proactive pour les témoignages" id="propostion-proactive-pour-les-temoignages" nb="1">
         <recommendations>
@@ -34644,11 +34644,11 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </recommendations>
         <sourceId>interne</sourceId>
         <text fileType="text_and_html">Vous pouvez écouter des témoignages si vous voulez. &lt;img src=&quot;/resources/emojis/wink.png&quot; height=&quot;20&quot; /&gt;</text>
-        <planningInfos>
+        <plannerAction>
           <effects>
             <fact value="proposer-d-ecouter-des-temoignages"/>
           </effects>
-        </planningInfos>
+        </plannerAction>
       </message>
       <message name="Voulez-vous voir le témoignage d&apos;un humoriste connu ?" id="voulez-vous-voir-le-temoignage-d-un-humoriste-connu" nb="4">
         <recommendations>
@@ -34657,14 +34657,14 @@ Rejoignez la communauté &lt;b&gt;Entourage&lt;/b&gt; et agissez concrètement a
         </recommendations>
         <sourceId>interne</sourceId>
         <text>Voulez-vous voir le témoignage d&apos;un humoriste connu ?</text>
-        <planningInfos>
+        <plannerAction>
           <preconditions>
             <fact value="proposer-d-ecouter-des-temoignages"/>
           </preconditions>
           <potentialEffects>
             <fact value="ecouter-des-temoignages"/>
           </potentialEffects>
-        </planningInfos>
+        </plannerAction>
       </message>
     </folder>
     <folder name="Enfant pauvre" id="enfant-pauvre" nb="6" image="enfants-des-rues.jpg">
