@@ -15380,8 +15380,7 @@ Ils lui répondirent : « Ce n’est pas pour une œuvre bonne que nous voulons 
         </message>
         <message name="Le credo" id="le-credo">
           <tests>
-            <test input="le credo" output="Le credo est :
-Je crois en Dieu,
+            <test input="le credo" output="Le credo c&apos;est &quot;Je crois en Dieu,
 le Père tout-puissant,
 créateur du ciel et de la terre ;
 et en Jésus-Christ,
@@ -15402,9 +15401,8 @@ Je crois en l’Esprit-Saint,
 à la rémission des péchés,
 à la résurrection de la chair,
 à la vie éternelle.
-Amen." outputReferences="&lt;hc_site site=&quot;https://www.paris.catholique.fr/je-crois-en-dieu-ou-credo.html&quot; textlength=&quot;62&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;le-credo&quot; textlength=&quot;17&quot; /&gt;"/>
-            <test input="qu&apos;est-ce que c&apos;est le credo ?" output="Le credo est :
-Je crois en Dieu,
+Amen.&quot;" outputReferences="&lt;hc_site site=&quot;https://www.paris.catholique.fr/je-crois-en-dieu-ou-credo.html&quot; textlength=&quot;62&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;le-credo&quot; textlength=&quot;17&quot; /&gt;"/>
+            <test input="qu&apos;est-ce que c&apos;est le credo ?" output="Le credo c&apos;est &quot;Je crois en Dieu,
 le Père tout-puissant,
 créateur du ciel et de la terre ;
 et en Jésus-Christ,
@@ -15425,8 +15423,33 @@ Je crois en l’Esprit-Saint,
 à la rémission des péchés,
 à la résurrection de la chair,
 à la vie éternelle.
-Amen." outputReferences="&lt;hc_site site=&quot;https://www.paris.catholique.fr/je-crois-en-dieu-ou-credo.html&quot; textlength=&quot;62&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;le-credo&quot; textlength=&quot;17&quot; /&gt;"/>
+Amen.&quot;" outputReferences="&lt;hc_site site=&quot;https://www.paris.catholique.fr/je-crois-en-dieu-ou-credo.html&quot; textlength=&quot;62&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;le-credo&quot; textlength=&quot;17&quot; /&gt;"/>
+            <test input="Qu&apos;est-ce que le credo ?" output="Le credo c&apos;est &quot;Je crois en Dieu,
+le Père tout-puissant,
+créateur du ciel et de la terre ;
+et en Jésus-Christ,
+son Fils unique, notre Seigneur,
+qui a été conçu du Saint-Esprit,
+est né de la Vierge Marie,
+a souffert sous Ponce Pilate,
+a été crucifié,
+est mort et a été enseveli,
+est descendu aux enfers,
+le troisième jour est ressuscité des morts,
+est monté aux cieux,
+est assis à la droite de Dieu le Père tout-puissant,
+d’où il viendra juger les vivants et les morts.
+Je crois en l’Esprit-Saint,
+à la sainte Eglise catholique,
+à la communion des saints,
+à la rémission des péchés,
+à la résurrection de la chair,
+à la vie éternelle.
+Amen.&quot;" outputReferences="&lt;hc_site site=&quot;https://www.paris.catholique.fr/je-crois-en-dieu-ou-credo.html&quot; textlength=&quot;62&quot; /&gt;&lt;hc_source name=&quot;Diocèse de Paris&quot; resourceid=&quot;le-credo&quot; textlength=&quot;17&quot; /&gt;"/>
           </tests>
+          <triggers>
+            <trigger value="Qu&apos;est-ce que le credo ?"/>
+          </triggers>
           <references>
             <site url="https://www.paris.catholique.fr/je-crois-en-dieu-ou-credo.html"/>
           </references>
