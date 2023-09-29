@@ -3,18 +3,18 @@
   <fact id="a_deja_des_faits_dans_les_cookies" commentaries="C&apos;est automatiquement ajouter si on voit que c&apos;est pas la première fois qu&apos;il ouvre le chat"/>
   <fact id="aimer_dieu_toujours_plus">
     <preconditionFacts>
-      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus, être_chrétien</preconditionSet>
+      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus & être_chrétien</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="aimer_son_prochain_toujours_plus"/>
   <fact id="aller_au_ciel">
     <preconditionFacts>
-      <preconditionSet>aimer_dieu_toujours_plus, aimer_son_prochain_toujours_plus</preconditionSet>
+      <preconditionSet>aimer_dieu_toujours_plus & aimer_son_prochain_toujours_plus</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="approfondir_sa_relation_a_dieu_toujours_plus">
     <preconditionFacts>
-      <preconditionSet>approfondir_sa_relation_a_dieu_par_le_quiz, decouvrir_la_bible, ecouter_des_temoignages</preconditionSet>
+      <preconditionSet>approfondir_sa_relation_a_dieu_par_le_quiz & decouvrir_la_bible & ecouter_des_temoignages</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="basse_priorité"/>
@@ -153,7 +153,7 @@
   <fact id="temps_liturgique_avent" commentaries="Ce fait sera automatiquement présent pendant l&apos;Avent !"/>
   <fact id="véracité_du_message_chrétien">
     <preconditionFacts>
-      <preconditionSet>jésus_a_existé, la_résurrection_de_jésus, portrait_de_jésus, raisons_de_croire_jésus, raisons_de_la_mort_de_jésus</preconditionSet>
+      <preconditionSet>jésus_a_existé & la_résurrection_de_jésus & portrait_de_jésus & raisons_de_croire_jésus & raisons_de_la_mort_de_jésus</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="être_chrétien">
@@ -161,7 +161,7 @@
       <trigger>Je suis chrétien.</trigger>
     </triggers>
     <preconditionFacts>
-      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus, véracité_du_message_chrétien</preconditionSet>
+      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus & véracité_du_message_chrétien</preconditionSet>
     </preconditionFacts>
   </fact>
 </factsRoot>
