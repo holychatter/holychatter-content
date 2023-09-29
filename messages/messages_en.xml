@@ -1729,7 +1729,7 @@ Blessed are those who are persecuted for righteousness’ sake, for theirs is th
 Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
         <plannerAction>
           <effects>
-            <fact value="say-hello"/>
+            <fact value="say_hello"/>
           </effects>
         </plannerAction>
       </message>
@@ -1737,8 +1737,8 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
         <source value="Internal"/>
       </sourcesNotToDisplay>
       <goals>
-        <goal value="say-hello"/>
-        <goal value="ask-about-knowing-the-church"/>
+        <goal value="say_hello"/>
+        <goal value="ask_about_knowing_the_church"/>
       </goals>
     </chatbot>
   </folder>
@@ -2408,7 +2408,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
             <text>Do you already know the Catholic Church?</text>
             <plannerAction>
               <effects>
-                <fact value="ask-about-knowing-the-church"/>
+                <fact value="ask_about_knowing_the_church"/>
               </effects>
             </plannerAction>
           </message>
