@@ -67,8 +67,8 @@
   <fact id="jésus_en_croix_bilan_paroles">
     <continuationTexts>
       <continuation facts="jésus_en_croix_nombre_de_paroles=0" text="Montrez-moi une parole de Jésus en croix."/>
-      <continuation facts="set(jésus_en_croix_max_nombre_de_paroles, jésus_en_croix_nombre_de_paroles)" text="Et donc ?"/>
-      <continuation facts="set(jésus_en_croix_max_nombre_de_paroles, jésus_en_croix_nombre_de_paroles + 1)" text="Montrez-moi une dernière parole de Jésus en croix."/>
+      <continuation facts="equals(jésus_en_croix_max_nombre_de_paroles, jésus_en_croix_nombre_de_paroles)" text="Et donc ?"/>
+      <continuation facts="equals(jésus_en_croix_max_nombre_de_paroles, jésus_en_croix_nombre_de_paroles + 1)" text="Montrez-moi une dernière parole de Jésus en croix."/>
       <continuation text="Montrez-moi une autre parole de Jésus en croix. (`${jésus_en_croix_nombre_de_paroles}+1`/${jésus_en_croix_max_nombre_de_paroles})"/>
     </continuationTexts>
   </fact>
@@ -128,8 +128,8 @@
     <continuationTexts>
       <continuation facts="replanifier_pour_quiz" text="Repose-moi ta question"/>
       <continuation facts="quiz_nombre_de_questions=0" text="Jouer"/>
-      <continuation facts="set(quiz_max_nombre_de_questions, quiz_nombre_de_questions)" text="Voir le résultat"/>
-      <continuation facts="set(quiz_max_nombre_de_questions, quiz_nombre_de_questions + 1)" text="Posez-moi la dernière question."/>
+      <continuation facts="equals(quiz_max_nombre_de_questions, quiz_nombre_de_questions)" text="Voir le résultat"/>
+      <continuation facts="equals(quiz_max_nombre_de_questions, quiz_nombre_de_questions + 1)" text="Posez-moi la dernière question."/>
       <continuation text="Posez-moi la `${quiz_nombre_de_questions}+1`e question sur ${quiz_max_nombre_de_questions}."/>
     </continuationTexts>
   </fact>
