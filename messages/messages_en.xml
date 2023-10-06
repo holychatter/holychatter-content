@@ -1727,11 +1727,7 @@ Blessed are those who are persecuted for righteousness’ sake, for theirs is th
         <sourceId>internal</sourceId>
         <text fileType="text_and_html">Hello, I am Holy Chatter, a chatbot at the service of the Christian religion.
 Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot; height=&quot;20&quot; /&gt;</text>
-        <plannerAction>
-          <effects>
-            <fact value="say_hello"/>
-          </effects>
-        </plannerAction>
+        <plannerAction factsModifications="say_hello"/>
       </message>
       <sourcesNotToDisplay>
         <source value="Internal"/>
@@ -2406,11 +2402,7 @@ Welcome! &lt;img src=&quot;/resources/emojis/happy.png&quot; width=&quot;20&quot
           <message name="Do you already know the Catholic Church?" id="do-you-already-know-the-catholic-church">
             <sourceId>internal</sourceId>
             <text>Do you already know the Catholic Church?</text>
-            <plannerAction>
-              <effects>
-                <fact value="ask_about_knowing_the_church"/>
-              </effects>
-            </plannerAction>
+            <plannerAction factsModifications="ask_about_knowing_the_church"/>
           </message>
           <message name="Greeting" id="greeting">
             <triggers>
