@@ -3,7 +3,7 @@
   <fact id="a_deja_des_faits_dans_les_cookies" commentaries="C&apos;est automatiquement ajouter si on voit que c&apos;est pas la première fois qu&apos;il ouvre le chat"/>
   <fact id="aimer_dieu_toujours_plus">
     <preconditionFacts>
-      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus &amp; être_chrétien</preconditionSet>
+      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus &amp; religion_de_l_utilisateur=chrétien</preconditionSet>
     </preconditionFacts>
   </fact>
   <fact id="aimer_son_prochain_toujours_plus"/>
@@ -156,7 +156,7 @@
       <preconditionSet>jésus_a_existé &amp; la_résurrection_de_jésus &amp; portrait_de_jésus &amp; raisons_de_croire_jésus &amp; raisons_de_la_mort_de_jésus</preconditionSet>
     </preconditionFacts>
   </fact>
-  <fact id="être_chrétien">
+  <fact id="religion_de_l_utilisateur=chrétien">
     <triggers>
       <trigger>Je suis chrétien.</trigger>
     </triggers>
