@@ -98,11 +98,6 @@
       <continuation text="Dieu a-t-il besoin de nos louanges ?"/>
     </continuationTexts>
   </fact>
-  <fact id="religion_de_l_utilisateur!=chrétien">
-    <triggers>
-      <trigger>Je ne suis pas chrétien.</trigger>
-    </triggers>
-  </fact>
   <fact id="portrait_de_jésus"/>
   <fact id="puteaux_decouverte">
     <continuationTexts>
@@ -140,6 +135,19 @@
   </fact>
   <fact id="raisons_de_croire_jésus"/>
   <fact id="raisons_de_la_mort_de_jésus"/>
+  <fact id="religion_de_l_utilisateur!=chrétien">
+    <triggers>
+      <trigger>Je ne suis pas chrétien.</trigger>
+    </triggers>
+  </fact>
+  <fact id="religion_de_l_utilisateur=chrétien">
+    <triggers>
+      <trigger>Je suis chrétien.</trigger>
+    </triggers>
+    <preconditionFacts>
+      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus &amp; véracité_du_message_chrétien</preconditionSet>
+    </preconditionFacts>
+  </fact>
   <fact id="simple_comme_bonjour_et_si_on_agissait"/>
   <fact id="simple_comme_bonjour_et_si_on_changeait_de_regard"/>
   <fact id="simple_comme_bonjour_et_si_on_comprenait"/>
@@ -154,14 +162,6 @@
   <fact id="véracité_du_message_chrétien">
     <preconditionFacts>
       <preconditionSet>jésus_a_existé &amp; la_résurrection_de_jésus &amp; portrait_de_jésus &amp; raisons_de_croire_jésus &amp; raisons_de_la_mort_de_jésus</preconditionSet>
-    </preconditionFacts>
-  </fact>
-  <fact id="religion_de_l_utilisateur=chrétien">
-    <triggers>
-      <trigger>Je suis chrétien.</trigger>
-    </triggers>
-    <preconditionFacts>
-      <preconditionSet>approfondir_sa_relation_a_dieu_toujours_plus &amp; véracité_du_message_chrétien</preconditionSet>
     </preconditionFacts>
   </fact>
 </factsRoot>
